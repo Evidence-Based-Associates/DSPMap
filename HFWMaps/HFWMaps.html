@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>HFW Heat Maps</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css"/>
+    <script src="statemap.js"></script>
+    <script src="mapdata.js"></script>
+    <script src="rtc-count-mapdata.js"></script>
+    <script type="text/javascript">
+      var rtcCount = simplemaps_statemap.create();
+    </script>
+    <script src="rtc-perM-mapdata.js"></script>
+    <script type="text/javascript">
+      var rtcPerM = simplemaps_statemap.create();
+    </script>
+    <script src="icc-mapdata.js"></script>
+    <script type="text/javascript">
+      var iccMap = simplemaps_statemap.create();
+    </script>
+    <script src="fsp-mapdata.js"></script>
+    <script type="text/javascript">
+      var fspMap = simplemaps_statemap.create();
+    </script>
+    <script src="ysp-mapdata.js"></script>
+    <script type="text/javascript">
+      var yspMap = simplemaps_statemap.create();
+    </script>
+    <script src="hfw-count-mapdata.js"></script>
+    <script type="text/javascript">
+      var hfwCount = simplemaps_statemap.create();
+    </script>
+     <script src="hfw-count-survey-mapdata.js"></script>
+     <script type="text/javascript">
+       var  hfwCountSurvey = simplemaps_statemap.create();
+     </script>
+     <script src="any-hfw-mapdata.js"></script>
+     <script type="text/javascript">
+       var  anyHFW = simplemaps_statemap.create();
+     </script>
+  </head>
+  <body>
+    <div class="container text-left">
+      <h3>
+        Residential Placement Counts<br>
+        <small class="text-muted">CSA Utilization Report, Statewide Placement Type, FY2019, SPT16 Residential Treatment Facility, Q4, All.</small>
+      </h3>
+        <p><b>Note: </b>The OCS report combines Fairfax and Falls Church as 88, this heatmap evenly divides that number across the two localities (and Fairfax County matches City of Fairfax count of 44). OCS also reports Greensville and Emporia together with 1 - this map gives each of those locality a count of 1.</p>
+      <div id="rtcCount"></div>
+      <div class="legend">
+        <ul class="legend_label">
+          <li>0</li>
+          <li>1</li>
+          <li>2 to 19</li>
+          <li>20 to 34</li>
+          <li>35 to 49</li>
+          <li>50 to 64</li>
+          <li>65 or more</li>
+        </ul>
+        <ul class="legend_color list-group">
+          <script>
+            document.write(
+              "<li style='background-color: " +
+                simplemaps_statemap_mapdata.main_settings.state_color +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[1] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[2] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[3] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[4] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[5] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[6] +
+                "'></li>"
+            );
+          </script>
+        </ul>
+      </div>
+      <hr />
+      <h3>
+        Residential Placement Per 1,000 Youth (age 5-17) in Locality<br>
+        <small class="text-muted">Same OCS report as above & American Community Survey 5-year population estimates.</small>
+      </h3>
+      <p><b>Notes: </b>Same as above regarding combined localties. Population ratio calculated by persons under 18 minus persons under 5 to obtain estimate of youth ages 5 thru 17, the likely target population of ICC/HFW. That population number was divided by 1,000. Reported ratio here is RTC Count per 1,000 youth.</p>
+      <div id="rtcPerM"></div>
+      <div class="legend">
+        <ul class="legend_label">
+          <li>Less than 1</li>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>More than 6</li>
+        </ul>
+        <ul class="legend_color list-group">
+          <script>
+            document.write(
+              "<li style='background-color: " +
+                simplemaps_statemap_mapdata.main_settings.state_color +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[1] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[2] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[3] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[4] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[5] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[6] +
+                "'></li>"
+            );
+          </script>
+        </ul>
+      </div>
+      <hr />
+      <h3>
+        ICCs<br>
+        <small class="text-muted">December 2019 HFW Provider Survey.</small>
+      </h3>
+      <p><b>Notes: </b>Providers were asked the number of ICCs employed and the localities they serve. ICC counts where duplicated accross these reported localities unless a provider explicitly stated a difference in their coverage per facilitator. This count does not make a distinction between full-time and part-time status.</p>
+      <div id="iccMap"></div>
+      <div class="legend">
+        <ul class="legend_label">
+          <li>Less than 1</li>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>More than 6</li>
+        </ul>
+        <ul class="legend_color list-group">
+          <script>
+            document.write(
+              "<li style='background-color: " +
+                simplemaps_statemap_mapdata.main_settings.state_color +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[1] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[2] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[3] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[4] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[5] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[6] +
+                "'></li>"
+            );
+          </script>
+        </ul>
+      </div>
+      <hr />
+      <h3>
+        FSPs<br>
+        <small class="text-muted">December 2019 HFW Provider Survey.</small>
+      </h3>
+      <p><b>Notes: </b>Same methods as ICC map above.</p>
+      <div id="fspMap"></div>
+      <div class="legend">
+        <ul class="legend_label">
+          <li>0</li>
+          <li>1</li>
+          <li>2 to 3</li>
+          <li>4 to 5</li>
+          <li>6 to 7</li>
+          <li>8 to 9</li>
+          <li>10 or more</li>
+        </ul>
+        <ul class="legend_color list-group">
+          <script>
+            document.write(
+              "<li style='background-color: " +
+                simplemaps_statemap_mapdata.main_settings.state_color +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[1] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[2] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[3] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[4] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[5] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[6] +
+                "'></li>"
+            );
+          </script>
+        </ul>
+      </div>
+      <hr />
+      <h3>
+        YSPs<br>
+        <small class="text-muted">December 2019 HFW Provider Survey.</small>
+      </h3>
+      <p><b>Notes: </b>Same methods as ICC map above.</p>
+      <div id="yspMap"></div>
+      <div class="legend">
+        <ul class="legend_label">
+          <li>Less than 1</li>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>More than 6</li>
+        </ul>
+        <ul class="legend_color list-group">
+          <script>
+            document.write(
+              "<li style='background-color: " +
+                simplemaps_statemap_mapdata.main_settings.state_color +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[1] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[2] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[3] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[4] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[5] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[6] +
+                "'></li>"
+            );
+          </script>
+        </ul>
+      </div>
+      <hr />
+      <h3>
+        Youth Served with HFW<br>
+        <small class="text-muted">CSA Utilization Report, Statewide Placement Type, FY2019, SPT3 Intensive Care Coordination, Q4, All.</small>
+      </h3>
+      <p><b>Note: </b>The OCS report combines Fairfax and Falls Church as 189, this heatmap evenly divides that number across the two localities (and Fairfax County matches City of Fairfax count of 95). OCS also reports Greensville and Emporia together with 0.</p>
+      <div id="hfwCount"></div>
+      <div class="legend">
+        <ul class="legend_label">
+          <li>0</li>
+          <li>1</li>
+          <li>2 to 4</li>
+          <li>5 to 9</li>
+          <li>10 to 14</li>
+          <li>15 to 19</li>
+          <li>20 or more</li>
+        </ul>
+        <ul class="legend_color list-group">
+          <script>
+            document.write(
+              "<li style='background-color: " +
+                simplemaps_statemap_mapdata.main_settings.state_color +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[1] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[2] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[3] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[4] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[5] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[6] +
+                "'></li>"
+            );
+          </script>
+        </ul>
+      </div>
+      <hr />
+      <h3>
+        Youth Served with HFW<br>
+        <small class="text-muted">December 2019 HFW Provider Survey.</small>
+      </h3>
+      <p><b>Note: </b>Takes the count of reported youth served by provider and <b>duplicates</b> those counts across the provider's coverage area. Actual youth served from each locality is not readily available.</p>
+      <div id="hfwCountSurvey"></div>
+      <div class="legend">
+        <ul class="legend_label">
+          <li>0</li>
+          <li>1</li>
+          <li>2 to 4</li>
+          <li>5 to 9</li>
+          <li>10 to 14</li>
+          <li>15 to 19</li>
+          <li>20 or more</li>
+        </ul>
+        <ul class="legend_color list-group">
+          <script>
+            document.write(
+              "<li style='background-color: " +
+                simplemaps_statemap_mapdata.main_settings.state_color +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[1] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[2] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[3] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[4] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[5] +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[6] +
+                "'></li>"
+            );
+          </script>
+        </ul>
+      </div>
+      <hr />
+      <h3>
+        Any indication of ICC/HFW availabilty<br>
+        <small class="text-muted">December 2019 HFW Provider Survey & OCS Reports</small>
+      </h3>
+      <p><b>Notes: </b>Across all data sources, if there is any indication that ICC may be available or utitlized then the locality is marked green. That may mean ICC was purpchased as reported in OCS, or a provider indicated serving a youth and notes a given service area, or a provider reports employment of an ICC, FSP, or YSP and stated their service area. This is a wide definition of availability. ICC/HFW is available in 90 out of 133 localities (67.7%)</p>
+      <div id="anyHFW"></div>
+      <div class="legend">
+        <ul class="legend_label">
+          <li>Not Available</li>
+          <li>Available</li>
+        </ul>
+        <ul class="legend_color list-group">
+          <script>
+            document.write(
+              "<li style='background-color: " +
+                simplemaps_statemap_mapdata.main_settings.state_color +
+                "'></li>",
+              "<li style='background-color: " +
+                heatMapColors.set1[1] +
+                "'></li>",
+            );
+          </script>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
