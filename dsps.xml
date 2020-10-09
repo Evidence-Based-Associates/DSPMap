@@ -9555,22 +9555,12 @@
     </Provider>
     <Provider id="83">
         <Name>Transitions ...The Process of Change</Name>
-        <LastUpdated>2019-10-21</LastUpdated>
+        <LastUpdated>2020-10-08</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>family-counseling-va.com</Website>
         <ContactName>Sarah Dowd Bryant</ContactName>
         <ContactEmail>sdowdbryant_transitions@yahoo.com</ContactEmail>
-        <Office>
-            <Lat>38.8480992</Lat>
-            <Lng>-77.31013050000001</Lng>
-            <Street>10560 Main Street Suite PH14</Street>
-            <City>Fairfax</City>
-            <State>VA</State>
-            <Zip>22030</Zip>
-            <Phone>(703) 862-3762</Phone>
-            <Fax>(703) 273-3169</Fax>
-        </Office>
-        <Service serviceName="Casey Life Skills / Mentoring" serviceZoom="0">
+        <Office><Lat>38.8480992</Lat><Lng>-77.31013050000001</Lng><Street>10560 Main Street Suite PH14</Street><City>Fairfax</City><State>VA</State><Zip>22030</Zip><Phone>(703) 862-3762</Phone><Fax>(703) 273-3169</Fax></Office><Service serviceName="Casey Life Skills / Mentoring" serviceZoom="0">
             <FIPs travelReq="N">51177</FIPs>
             <FIPs travelReq="N">51033</FIPs>
             <FIPs travelReq="N">51179</FIPs>
