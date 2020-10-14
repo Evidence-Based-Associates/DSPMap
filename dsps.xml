@@ -2608,20 +2608,20 @@
     </Provider>
     <Provider id="33">
         <Name>Intercept Health</Name>
-        <LastUpdated>2019-05-06</LastUpdated>
+        <LastUpdated>2020-10-14</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.intercepthealth.com</Website>
-        <ContactName>Amanda Rode</ContactName>
-        <ContactEmail>info@intercepthealth.com</ContactEmail>
+        <ContactName>Sandy Brudvig</ContactName>
+        <ContactEmail>sjbrudvig@intercepthealth.com</ContactEmail>
         <Office>
-            <Lat>37.6082306</Lat>
-            <Lng>-77.5780651</Lng>
-            <Street>5673 Airport Road</Street>
-            <City>Roanoke</City>
+            <Lat>37.6042558</Lat>
+            <Lng>-77.4921097</Lng>
+            <Street>5511 Staples Mill Rd. Suite 102</Street>
+            <City>Richmond</City>
             <State>VA</State>
-            <Zip>24012</Zip>
-            <Phone>540.344.7700</Phone>
-            <Fax>540344.7701</Fax>
+            <Zip>23228</Zip>
+            <Phone>804-864-1320</Phone>
+            <Fax/>
         </Office>
         <Office>
             <Lat>37.665978</Lat>
@@ -2646,7 +2646,7 @@
         <Office>
             <Lat>38.6390069</Lat>
             <Lng>-78.77391119999999</Lng>
-            <Street>Summer House (Girls Group Home)</Street>
+            <Street>Shenandoah House (Boys Group Home)</Street>
             <City>Timberville</City>
             <State>VA</State>
             <Zip/>
@@ -2658,26 +2658,6 @@
             <Lng>-79.9414266</Lng>
             <Street>Carriage House (Boys Group Home)</Street>
             <City>Roanoke</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>37.3273217</Lat>
-            <Lng>-77.64778649999997</Lng>
-            <Street>Anthem House (Boys Group Home)</Street>
-            <City>Chesterfield</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>38.149576</Lat>
-            <Lng>-79.07169579999999</Lng>
-            <Street>Shenandoah House (Boys Group Home)</Street>
-            <City>Staunton</City>
             <State>VA</State>
             <Zip/>
             <Phone/>
@@ -2696,8 +2676,8 @@
         <Office>
             <Lat>37.0870821</Lat>
             <Lng>-76.47301219999997</Lng>
-            <Street>Supervised Independent Living Program</Street>
-            <City>Newport News</City>
+            <Street>Independent Living Program</Street>
+            <City>Hampton</City>
             <State>VA</State>
             <Zip/>
             <Phone/>
@@ -2706,7 +2686,7 @@
         <Office>
             <Lat>36.592528</Lat>
             <Lng>-78.61643300000003</Lng>
-            <Street>Supervised Independent Living Program (3 Locations)</Street>
+            <Street>Independent Living Program (3 Locations)</Street>
             <City>Henrico</City>
             <State>VA</State>
             <Zip/>
@@ -2716,8 +2696,8 @@
         <Office>
             <Lat>38.4495688</Lat>
             <Lng>-78.86891550000001</Lng>
-            <Street>Supervised Independent Living Program</Street>
-            <City>Harrisonburg</City>
+            <Street>Independent Living Program</Street>
+            <City>Charlottesville</City>
             <State>VA</State>
             <Zip/>
             <Phone/>
@@ -2726,16 +2706,16 @@
         <Office>
             <Lat>37.604</Lat>
             <Lng>-77.492</Lng>
-            <Street>5511 Staples Mill Rd. Suite 102</Street>
-            <City>Richmond</City>
+            <Street>Independent Living Program</Street>
+            <City>Fredericksburg</City>
             <State>VA</State>
-            <Zip>23228</Zip>
-            <Phone>(804) 612-3313</Phone>
-            <Fax>(804) 440-3711</Fax>
+            <Zip>22401</Zip>
+            <Phone/>
+            <Fax/>
         </Office>
         <Office>
-            <Lat>37.6082306</Lat>
-            <Lng>-77.5780651</Lng>
+            <Lat>37.3238269</Lat>
+            <Lng>-79.9609746</Lng>
             <Street>5673 Airport Road</Street>
             <City>Roanoke</City>
             <State>VA</State>
@@ -2744,29 +2724,9 @@
             <Fax>540344.7701</Fax>
         </Office>
         <Office>
-            <Lat>37.4073217</Lat>
-            <Lng>-77.60778649999997</Lng>
+            <Lat>37.3770935</Lat>
+            <Lng>-77.5049863</Lng>
             <Street>Fountain House (Girls Group Home)</Street>
-            <City>Chesterfield</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>37.665978</Lat>
-            <Lng>-77.50637389999997</Lng>
-            <Street>Gateway House (Boys Group Home)</Street>
-            <City>Glen Allen</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>37.3273217</Lat>
-            <Lng>-77.60778649999997</Lng>
-            <Street>Willow House (Group Home for Teen Mothers)</Street>
             <City>Chesterfield</City>
             <State>VA</State>
             <Zip/>
@@ -2794,16 +2754,6 @@
             <Fax/>
         </Office>
         <Office>
-            <Lat>38.6390069</Lat>
-            <Lng>-78.77391119999999</Lng>
-            <Street>Summer House (Girls Group Home)</Street>
-            <City>Timberville</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
             <Lat>37.2709704</Lat>
             <Lng>-79.9414266</Lng>
             <Street>Autumn House (Girls Group Home)</Street>
@@ -2817,6 +2767,56 @@
             <Lat>37.2709704</Lat>
             <Lng>-79.9414266</Lng>
             <Street>Carriage House (Boys Group Home)</Street>
+            <City>Roanoke</City>
+            <State>VA</State>
+            <Zip/>
+            <Phone/>
+            <Fax/>
+        </Office>
+        <Office>
+            <Lat>36.8529263</Lat>
+            <Lng>-75.97798499999999</Lng>
+            <Street>Independent Living Program</Street>
+            <City>Virginia Beach</City>
+            <State>VA</State>
+            <Zip/>
+            <Phone/>
+            <Fax/>
+        </Office>
+        <Office>
+            <Lat>36.7682088</Lat>
+            <Lng>-76.28749270000003</Lng>
+            <Street>Independent Living Program</Street>
+            <City>Chesapeake</City>
+            <State>VA</State>
+            <Zip/>
+            <Phone/>
+            <Fax/>
+        </Office>
+        <Office>
+            <Lat>36.592528</Lat>
+            <Lng>-78.61643300000003</Lng>
+            <Street>Independent Living Program (3 Locations)</Street>
+            <City>Henrico</City>
+            <State>VA</State>
+            <Zip/>
+            <Phone/>
+            <Fax/>
+        </Office>
+        <Office>
+            <Lat>38.7509488</Lat>
+            <Lng>-77.47526670000002</Lng>
+            <Street>Independent Living Program</Street>
+            <City>Manassas</City>
+            <State>VA</State>
+            <Zip/>
+            <Phone/>
+            <Fax/>
+        </Office>
+        <Office>
+            <Lat>37.2709704</Lat>
+            <Lng>-79.9414266</Lng>
+            <Street>Independent Living Program (2 Locations)</Street>
             <City>Roanoke</City>
             <State>VA</State>
             <Zip/>
@@ -2854,8 +2854,8 @@
             <Fax/>
         </Office>
         <Office>
-            <Lat>38.149576</Lat>
-            <Lng>-79.07169579999999</Lng>
+            <Lat>38.1400119</Lat>
+            <Lng>-79.0702141</Lng>
             <Street>Shenandoah House (Boys Group Home)</Street>
             <City>Staunton</City>
             <State>VA</State>
@@ -2883,80 +2883,7 @@
             <Phone/>
             <Fax/>
         </Office>
-        <Office>
-            <Lat>36.8529263</Lat>
-            <Lng>-75.97798499999999</Lng>
-            <Street>Supervised Independent Living Program</Street>
-            <City>Virginia Beach</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>37.0870821</Lat>
-            <Lng>-76.47301219999997</Lng>
-            <Street>Supervised Independent Living Program</Street>
-            <City>Newport News</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>36.7682088</Lat>
-            <Lng>-76.28749270000003</Lng>
-            <Street>Supervised Independent Living Program</Street>
-            <City>Chesapeake</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>36.592528</Lat>
-            <Lng>-78.61643300000003</Lng>
-            <Street>Supervised Independent Living Program (3 Locations)</Street>
-            <City>Henrico</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>38.7509488</Lat>
-            <Lng>-77.47526670000002</Lng>
-            <Street>Supervised Independent Living Program</Street>
-            <City>Manassas</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>38.4495688</Lat>
-            <Lng>-78.86891550000001</Lng>
-            <Street>Supervised Independent Living Program</Street>
-            <City>Harrisonburg</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>37.2709704</Lat>
-            <Lng>-79.9414266</Lng>
-            <Street>Supervised Independent Living Program (2 Locations)</Street>
-            <City>Roanoke</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
         <Service serviceName="Casey Life Skills / Mentoring" serviceZoom="-1">
-
-            <!-- CSU25 Rockbridge County, City of Lexington, Botetourt County. City of Waynesboro -->
-
             <FIPs travelReq="N">51820</FIPs>
             <!-- Western Region -->
             <!-- All of CSU21 -->
@@ -2973,28 +2900,12 @@
             <!-- CSU23A Roanoke -->
             <FIPs travelReq="N">51770</FIPs>
             <!-- All of CSU27 -->
-            <FIPs travelReq="N">51035</FIPs>
             <FIPs travelReq="N">51063</FIPs>
-            <FIPs travelReq="N">51077</FIPs>
             <FIPs travelReq="N">51121</FIPs>
             <FIPs travelReq="N">51155</FIPs>
-            <FIPs travelReq="N">51197</FIPs>
-            <FIPs travelReq="N">51640</FIPs>
             <FIPs travelReq="N">51750</FIPs>
-            <!-- All of CSU29 -->
-            <FIPs travelReq="N">51021</FIPs>
-
-
-            <FIPs travelReq="N">51071</FIPs>
-
-            <FIPs travelReq="N">51185</FIPs>
-
-            <FIPs travelReq="N">51003</FIPs>
             <FIPs travelReq="N">51007</FIPs>
             <FIPs travelReq="N">51009</FIPs>
-            <FIPs travelReq="N">51105</FIPs>
-            <FIPs travelReq="N">51191</FIPs>
-            <FIPs travelReq="N">51173</FIPs>
             <FIPs travelReq="N">51031</FIPs>
             <FIPs travelReq="N">51680</FIPs>
             <FIPs travelReq="N">51125</FIPs>
@@ -3003,8 +2914,6 @@
             <FIPs travelReq="N">51015</FIPs>
             <FIPs travelReq="N">51790</FIPs>
             <FIPs travelReq="N">51075</FIPs>
-            <FIPs travelReq="N">51109</FIPs>
-            <FIPs travelReq="N">51137</FIPs>
             <FIPs travelReq="N">51047</FIPs>
             <FIPs travelReq="N">51177</FIPs>
             <FIPs travelReq="N">51630</FIPs>
@@ -3014,21 +2923,17 @@
             <FIPs travelReq="N">51127</FIPs>
             <FIPs travelReq="N">51095</FIPs>
             <FIPs travelReq="N">51830</FIPs>
-            <FIPs travelReq="N">51159</FIPs>
             <FIPs travelReq="N">51199</FIPs>
             <FIPs travelReq="N">51073</FIPs>
             <FIPs travelReq="N">51087</FIPs>
             <FIPs travelReq="N">51760</FIPs>
             <FIPs travelReq="N">51145</FIPs>
-            <FIPs travelReq="N">51011</FIPs>
             <FIPs travelReq="N">51149</FIPs>
             <FIPs travelReq="N">51570</FIPs>
             <FIPs travelReq="N">51041</FIPs>
             <FIPs travelReq="N">51053</FIPs>
             <FIPs travelReq="N">51135</FIPs>
             <FIPs travelReq="N">51111</FIPs>
-            <FIPs travelReq="N">51157</FIPs>
-            <FIPs travelReq="N">51061</FIPs>
             <FIPs travelReq="N">51153</FIPs>
             <FIPs travelReq="N">51059</FIPs>
             <FIPs travelReq="N">51600</FIPs>
@@ -3036,10 +2941,16 @@
             <FIPs travelReq="N">51107</FIPs>
             <FIPs travelReq="N">51019</FIPs>
             <FIPs travelReq="N">51023</FIPs>
-            <FIPs travelReq="N">51027</FIPs>
-            <FIPs travelReq="N">51051</FIPs>
-            <FIPs travelReq="N">51167</FIPs>
-            <FIPs travelReq="N">51169</FIPs>
+            <FIPs travelReq="N">51683</FIPs>
+            <FIPs travelReq="N">51510</FIPs>
+            <FIPs travelReq="N">51735</FIPs>
+            <FIPs travelReq="N">51109</FIPs>
+            <FIPs travelReq="N">51670</FIPs>
+            <FIPs travelReq="N">51730</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
         </Service>
         <Service serviceName="GPS / EM" serviceZoom="-1">
             <Locations/>
@@ -3052,9 +2963,9 @@
             <FIPs travelReq="N">51061</FIPs>
             <FIPs travelReq="N">51043</FIPs>
             <FIPs travelReq="N">51187</FIPs>
-            <FIPs travelReq="N">51171</FIPs>
+            <FIPs travelReq="Y">51171</FIPs>
             <FIPs travelReq="N">51139</FIPs>
-            <FIPs travelReq="N">51165</FIPs>
+            <FIPs travelReq="Y">51165</FIPs>
             <FIPs travelReq="N">51047</FIPs>
             <FIPs travelReq="N">51113</FIPs>
             <FIPs travelReq="N">51179</FIPs>
@@ -3062,20 +2973,10 @@
             <FIPs travelReq="N">51177</FIPs>
             <FIPs travelReq="N">51137</FIPs>
             <FIPs travelReq="N">51079</FIPs>
-            <FIPs travelReq="N">51099</FIPs>
-            <FIPs travelReq="N">51193</FIPs>
+            <FIPs travelReq="Y">51099</FIPs>
             <FIPs travelReq="N">51033</FIPs>
-            <FIPs travelReq="N">51057</FIPs>
-            <FIPs travelReq="N">51159</FIPs>
-            <FIPs travelReq="N">51133</FIPs>
-            <FIPs travelReq="N">51103</FIPs>
-            <FIPs travelReq="N">51119</FIPs>
-            <FIPs travelReq="N">51115</FIPs>
-            <FIPs travelReq="N">51073</FIPs>
-            <FIPs travelReq="N">51097</FIPs>
-            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="Y">51073</FIPs>
             <FIPs travelReq="N">51127</FIPs>
-            <FIPs travelReq="N">51095</FIPs>
             <FIPs travelReq="N">51199</FIPs>
             <FIPs travelReq="N">51036</FIPs>
             <FIPs travelReq="N">51085</FIPs>
@@ -3086,8 +2987,6 @@
             <FIPs travelReq="N">51540</FIPs>
             <FIPs travelReq="N">51125</FIPs>
             <FIPs travelReq="N">51015</FIPs>
-            <FIPs travelReq="N">51091</FIPs>
-            <FIPs travelReq="N">51017</FIPs>
             <FIPs travelReq="N">51530</FIPs>
             <FIPs travelReq="Y">51678</FIPs>
             <FIPs travelReq="N">51163</FIPs>
@@ -3095,31 +2994,17 @@
             <FIPs travelReq="N">51031</FIPs>
             <FIPs travelReq="N">51019</FIPs>
             <FIPs travelReq="N">51023</FIPs>
-            <FIPs travelReq="N">51005</FIPs>
-            <FIPs travelReq="N">51045</FIPs>
             <FIPs travelReq="N">51143</FIPs>
             <FIPs travelReq="N">51089</FIPs>
             <FIPs travelReq="N">51067</FIPs>
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51770</FIPs>
-            <FIPs travelReq="N">51071</FIPs>
             <FIPs travelReq="N">51121</FIPs>
-            <FIPs travelReq="N">51063</FIPs>
-            <FIPs travelReq="N">51141</FIPs>
-            <FIPs travelReq="N">51155</FIPs>
-            <FIPs travelReq="N">51077</FIPs>
-            <FIPs travelReq="N">51035</FIPs>
-            <FIPs travelReq="N">51197</FIPs>
-            <FIPs travelReq="N">51021</FIPs>
-            <FIPs travelReq="N">51185</FIPs>
-            <FIPs travelReq="N">51173</FIPs>
-            <FIPs travelReq="N">51191</FIPs>
-            <FIPs travelReq="N">51167</FIPs>
-            <FIPs travelReq="N">51027</FIPs>
-            <FIPs travelReq="N">51051</FIPs>
-            <FIPs travelReq="N">51195</FIPs>
-            <FIPs travelReq="N">51169</FIPs>
-            <FIPs travelReq="N">51105</FIPs>
+            <FIPs travelReq="Y">51063</FIPs>
+            <FIPs travelReq="Y">51141</FIPs>
+            <FIPs travelReq="Y">51155</FIPs>
+            <FIPs travelReq="Y">51167</FIPs>
+            <FIPs travelReq="Y">51169</FIPs>
             <FIPs travelReq="N">51029</FIPs>
             <FIPs travelReq="N">51049</FIPs>
             <FIPs travelReq="N">51145</FIPs>
@@ -3145,247 +3030,168 @@
             <FIPs travelReq="N">51093</FIPs>
             <FIPs travelReq="N">51131</FIPs>
             <FIPs travelReq="N">51001</FIPs>
+            <FIPs travelReq="N">51520</FIPs>
+            <FIPs travelReq="Y">51191</FIPs>
+            <FIPs travelReq="N">51750</FIPs>
+            <FIPs travelReq="N">51690</FIPs>
+            <FIPs travelReq="N">51590</FIPs>
+            <FIPs travelReq="Y">51640</FIPs>
+            <FIPs travelReq="Y">51035</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51790</FIPs>
+            <FIPs travelReq="N">51820</FIPs>
+            <FIPs travelReq="N">51580</FIPs>
+            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="N">51735</FIPs>
+            <FIPs travelReq="N">51830</FIPs>
+            <FIPs travelReq="N">51095</FIPs>
+            <FIPs travelReq="Y">51660</FIPs>
+            <FIPs travelReq="N">51069</FIPs>
+            <FIPs travelReq="N">51840</FIPs>
+            <FIPs travelReq="N">51510</FIPs>
+            <FIPs travelReq="N">51683</FIPs>
         </Service>
         <Service serviceName="Residential Services" serviceZoom="-1">
             <Locations/>
         </Service>
         <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="-1">
-            <FIPs travelReq="N">51683</FIPs>
-            <!-- CSU25 Rockbridge County, City of Lexington, Botetourt County. City of Waynesboro -->
             <FIPs travelReq="N">51678</FIPs>
-            <FIPs travelReq="N">51820</FIPs>
-            <!-- Western Region -->
-            <!-- All of CSU21 -->
-            <FIPs travelReq="N">51089</FIPs>
-            <FIPs travelReq="N">51141</FIPs>
-            <FIPs travelReq="N">51690</FIPs>
-            <!-- All of CSU22 -->
-            <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="N">51590</FIPs>
             <!-- All of CSU23 -->
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51775</FIPs>
             <!-- CSU23A Roanoke -->
             <FIPs travelReq="N">51770</FIPs>
             <!-- All of CSU27 -->
-            <FIPs travelReq="N">51035</FIPs>
-            <FIPs travelReq="N">51063</FIPs>
-            <FIPs travelReq="N">51077</FIPs>
-            <FIPs travelReq="N">51121</FIPs>
-            <FIPs travelReq="N">51155</FIPs>
-            <FIPs travelReq="N">51197</FIPs>
-            <FIPs travelReq="N">51640</FIPs>
-            <FIPs travelReq="N">51750</FIPs>
-            <!-- All of CSU29 -->
-            <FIPs travelReq="N">51021</FIPs>
-            <FIPs travelReq="Y">51027</FIPs>
-            <FIPs travelReq="Y">51051</FIPs>
-            <FIPs travelReq="N">51071</FIPs>
-            <FIPs travelReq="Y">51167</FIPs>
-            <FIPs travelReq="N">51185</FIPs>
+            <FIPs travelReq="Y">51063</FIPs>
+            <FIPs travelReq="Y">51121</FIPs>
+            <FIPs travelReq="Y">51750</FIPs>
+            <FIPs travelReq="Y">51155</FIPs>
             <FIPs travelReq="Y">51023</FIPs>
-            <FIPs travelReq="Y">51019</FIPs>
+            <FIPs travelReq="N">51760</FIPs>
+            <FIPs travelReq="N">51087</FIPs>
+            <FIPs travelReq="N">51085</FIPs>
+            <FIPs travelReq="N">51075</FIPs>
+            <FIPs travelReq="N">51145</FIPs>
+            <FIPs travelReq="N">51790</FIPs>
+            <FIPs travelReq="N">51015</FIPs>
+            <FIPs travelReq="N">51820</FIPs>
         </Service>
         <Service serviceName="Outpatient Services" serviceZoom="-1">
-            <FIPs travelReq="N">51683</FIPs>
-            <!-- CSU25 Rockbridge County, City of Lexington, Botetourt County. City of Waynesboro -->
             <FIPs travelReq="N">51678</FIPs>
-            <FIPs travelReq="N">51820</FIPs>
-            <!-- Western Region -->
-            <!-- All of CSU21 -->
-            <FIPs travelReq="N">51089</FIPs>
-            <FIPs travelReq="N">51141</FIPs>
-            <FIPs travelReq="N">51690</FIPs>
             <!-- All of CSU22 -->
-            <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="N">51590</FIPs>
+            <FIPs travelReq="Y">51067</FIPs>
             <!-- All of CSU23 -->
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51775</FIPs>
             <!-- CSU23A Roanoke -->
             <FIPs travelReq="N">51770</FIPs>
             <!-- All of CSU27 -->
-            <FIPs travelReq="N">51035</FIPs>
-            <FIPs travelReq="N">51063</FIPs>
-            <FIPs travelReq="N">51077</FIPs>
+            <FIPs travelReq="Y">51063</FIPs>
             <FIPs travelReq="N">51121</FIPs>
-            <FIPs travelReq="N">51155</FIPs>
-            <FIPs travelReq="N">51197</FIPs>
-            <FIPs travelReq="N">51640</FIPs>
+            <FIPs travelReq="Y">51155</FIPs>
             <FIPs travelReq="N">51750</FIPs>
             <!-- All of CSU29 -->
-            <FIPs travelReq="N">51021</FIPs>
-            <FIPs travelReq="Y">51027</FIPs>
-            <FIPs travelReq="Y">51051</FIPs>
-            <FIPs travelReq="N">51071</FIPs>
-            <FIPs travelReq="Y">51167</FIPs>
-            <FIPs travelReq="N">51185</FIPs>
+            <FIPs travelReq="Y">51071</FIPs>
             <FIPs travelReq="Y">51023</FIPs>
+            <FIPs travelReq="N">51087</FIPs>
+            <FIPs travelReq="N">51760</FIPs>
+            <FIPs travelReq="Y">51085</FIPs>
+            <FIPs travelReq="Y">51075</FIPs>
             <FIPs travelReq="Y">51019</FIPs>
         </Service>
         <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="-1">
             <FIPs travelReq="N">51683</FIPs>
             <!-- CSU25 Rockbridge County, City of Lexington, Botetourt County. City of Waynesboro -->
             <FIPs travelReq="N">51678</FIPs>
-            <FIPs travelReq="N">51820</FIPs>
             <!-- Western Region -->
             <!-- All of CSU21 -->
-            <FIPs travelReq="N">51089</FIPs>
-            <FIPs travelReq="N">51141</FIPs>
             <FIPs travelReq="N">51690</FIPs>
             <!-- All of CSU22 -->
             <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="N">51590</FIPs>
             <!-- All of CSU23 -->
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51775</FIPs>
             <!-- CSU23A Roanoke -->
             <FIPs travelReq="N">51770</FIPs>
             <!-- All of CSU27 -->
-            <FIPs travelReq="N">51035</FIPs>
             <FIPs travelReq="N">51063</FIPs>
-            <FIPs travelReq="N">51077</FIPs>
             <FIPs travelReq="N">51121</FIPs>
             <FIPs travelReq="N">51155</FIPs>
-            <FIPs travelReq="N">51197</FIPs>
-            <FIPs travelReq="N">51640</FIPs>
             <FIPs travelReq="N">51750</FIPs>
             <!-- All of CSU29 -->
-            <FIPs travelReq="N">51021</FIPs>
-            <FIPs travelReq="Y">51027</FIPs>
-            <FIPs travelReq="Y">51051</FIPs>
-            <FIPs travelReq="N">51071</FIPs>
-            <FIPs travelReq="Y">51167</FIPs>
-            <FIPs travelReq="N">51185</FIPs>
-            <FIPs travelReq="Y">51023</FIPs>
+            <FIPs travelReq="Y">51071</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
             <FIPs travelReq="Y">51019</FIPs>
+            <FIPs travelReq="N">51045</FIPs>
+            <FIPs travelReq="N">51087</FIPs>
+            <FIPs travelReq="N">51760</FIPs>
+            <FIPs travelReq="N">51085</FIPs>
+            <FIPs travelReq="Y">51075</FIPs>
+            <FIPs travelReq="N">51127</FIPs>
+            <FIPs travelReq="N">51036</FIPs>
         </Service>
         <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="-1">
             <FIPs travelReq="N">51683</FIPs>
             <!-- CSU25 Rockbridge County, City of Lexington, Botetourt County. City of Waynesboro -->
             <FIPs travelReq="N">51678</FIPs>
-            <FIPs travelReq="N">51820</FIPs>
             <!-- Western Region -->
             <!-- All of CSU21 -->
-            <FIPs travelReq="N">51089</FIPs>
-            <FIPs travelReq="N">51141</FIPs>
             <FIPs travelReq="N">51690</FIPs>
             <!-- All of CSU22 -->
             <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="N">51590</FIPs>
             <!-- All of CSU23 -->
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51775</FIPs>
             <!-- CSU23A Roanoke -->
             <FIPs travelReq="N">51770</FIPs>
             <!-- All of CSU27 -->
-            <FIPs travelReq="N">51035</FIPs>
             <FIPs travelReq="N">51063</FIPs>
-            <FIPs travelReq="N">51077</FIPs>
             <FIPs travelReq="N">51121</FIPs>
             <FIPs travelReq="N">51155</FIPs>
-            <FIPs travelReq="N">51197</FIPs>
-            <FIPs travelReq="N">51640</FIPs>
             <FIPs travelReq="N">51750</FIPs>
             <!-- All of CSU29 -->
-            <FIPs travelReq="N">51021</FIPs>
-            <FIPs travelReq="Y">51027</FIPs>
-            <FIPs travelReq="Y">51051</FIPs>
-            <FIPs travelReq="N">51071</FIPs>
-            <FIPs travelReq="Y">51167</FIPs>
-            <FIPs travelReq="N">51185</FIPs>
-            <FIPs travelReq="Y">51023</FIPs>
+            <FIPs travelReq="Y">51071</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
             <FIPs travelReq="Y">51019</FIPs>
+            <FIPs travelReq="N">51045</FIPs>
+            <FIPs travelReq="N">51087</FIPs>
+            <FIPs travelReq="N">51760</FIPs>
+            <FIPs travelReq="N">51085</FIPs>
+            <FIPs travelReq="Y">51075</FIPs>
+            <FIPs travelReq="N">51127</FIPs>
+            <FIPs travelReq="N">51036</FIPs>
         </Service>
         <Service serviceName="Outpatient Substance Abuse" serviceZoom="-1">
-
             <!-- CSU25 Rockbridge County, City of Lexington, Botetourt County. City of Waynesboro -->
             <FIPs travelReq="N">51678</FIPs>
             <FIPs travelReq="N">51820</FIPs>
-            <!-- Western Region -->
-            <!-- All of CSU21 -->
-            <FIPs travelReq="N">51089</FIPs>
-            <FIPs travelReq="N">51141</FIPs>
-            <FIPs travelReq="N">51690</FIPs>
-            <!-- All of CSU22 -->
-            <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="N">51590</FIPs>
             <!-- All of CSU23 -->
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51775</FIPs>
             <!-- CSU23A Roanoke -->
             <FIPs travelReq="N">51770</FIPs>
             <!-- All of CSU27 -->
-            <FIPs travelReq="N">51035</FIPs>
-            <FIPs travelReq="N">51063</FIPs>
-            <FIPs travelReq="N">51077</FIPs>
             <FIPs travelReq="N">51121</FIPs>
-            <FIPs travelReq="N">51155</FIPs>
-            <FIPs travelReq="N">51197</FIPs>
-            <FIPs travelReq="N">51640</FIPs>
             <FIPs travelReq="N">51750</FIPs>
-            <!-- All of CSU29 -->
-            <FIPs travelReq="N">51021</FIPs>
-            <FIPs travelReq="Y">51027</FIPs>
-            <FIPs travelReq="Y">51051</FIPs>
-            <FIPs travelReq="N">51071</FIPs>
-            <FIPs travelReq="Y">51167</FIPs>
-            <FIPs travelReq="N">51185</FIPs>
             <FIPs travelReq="Y">51023</FIPs>
-            <FIPs travelReq="Y">51019</FIPs>
-        </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="-1">
-            <FIPs travelReq="N">51683</FIPs>
-            <!-- CSU25 Rockbridge County, City of Lexington, Botetourt County. City of Waynesboro -->
-            <FIPs travelReq="N">51678</FIPs>
-            <FIPs travelReq="N">51820</FIPs>
-            <!-- Western Region -->
-            <!-- All of CSU21 -->
-            <FIPs travelReq="N">51089</FIPs>
-            <FIPs travelReq="N">51141</FIPs>
-            <FIPs travelReq="N">51690</FIPs>
-            <!-- All of CSU22 -->
-            <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="N">51590</FIPs>
-            <!-- All of CSU23 -->
-            <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-            <!-- CSU23A Roanoke -->
-            <FIPs travelReq="N">51770</FIPs>
-            <!-- All of CSU27 -->
-            <FIPs travelReq="N">51035</FIPs>
-            <FIPs travelReq="N">51063</FIPs>
-            <FIPs travelReq="N">51077</FIPs>
-            <FIPs travelReq="N">51121</FIPs>
-            <FIPs travelReq="N">51155</FIPs>
-            <FIPs travelReq="N">51197</FIPs>
-            <FIPs travelReq="N">51640</FIPs>
-            <FIPs travelReq="N">51750</FIPs>
-            <!-- All of CSU29 -->
-            <FIPs travelReq="N">51021</FIPs>
-            <FIPs travelReq="Y">51027</FIPs>
-            <FIPs travelReq="Y">51051</FIPs>
-            <FIPs travelReq="N">51071</FIPs>
-            <FIPs travelReq="Y">51167</FIPs>
-            <FIPs travelReq="N">51185</FIPs>
-            <FIPs travelReq="Y">51023</FIPs>
-            <FIPs travelReq="Y">51019</FIPs>
         </Service>
         <Service serviceName="Residential Services (18+)" serviceZoom="-1"/>
         <Service serviceName="Residential Independent Living" serviceZoom="-1">
-            <FIPs travelReq="N">51683</FIPs>
-            <FIPs travelReq="N">51660</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51683</FIPs>
             <FIPs travelReq="N">51700</FIPs>
             <FIPs travelReq="N">51550</FIPs>
             <FIPs travelReq="N">51810</FIPs>
-            <FIPs travelReq="N">51117</FIPs>
             <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51191</FIPs>
+            <FIPs travelReq="N">51087</FIPs>
+            <FIPs travelReq="N">51760</FIPs>
+            <FIPs travelReq="N">51840</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51153</FIPs>
+            <FIPs travelReq="N">51630</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51685</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51520</FIPs>
         </Service>
         <Service serviceName="Treatment Foster Care" serviceZoom="-1"/>
     </Provider>
