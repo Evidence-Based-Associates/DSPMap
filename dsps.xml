@@ -8918,14 +8918,11 @@
     </Provider>
     <Provider id="76">
         <Name>The Center for Clinical and Forensic Services, Inc.</Name>
-        <LastUpdated>2020-09-18</LastUpdated>
+        <LastUpdated>2020-10-28</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>https://www.ccfsinc.net</Website>
         <ContactName>Shannon Morris</ContactName>
         <ContactEmail>shannonmorris@ccfsinc.net</ContactEmail>
-
-
-
         <Office>
             <Lat>38.8427163</Lat>
             <Lng>-77.3097816</Lng>
@@ -8947,15 +8944,15 @@
             <Fax/>
         </Office>
         <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="-1">
-            <FIPs travelReq="N">51683</FIPs>
-            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51683</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51153</FIPs>
             <FIPs travelReq="N">51685</FIPs>
-            <FIPs travelReq="N">51059</FIPs>
-            <FIPs travelReq="N">51600</FIPs>
-            <FIPs travelReq="N">51510</FIPs>
-            <FIPs travelReq="N">51013</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51059</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51600</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51510</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51013</FIPs>
             <FIPs travelReq="N">51610</FIPs>
-            <FIPs travelReq="N">51107</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51107</FIPs>
         </Service>
         <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="-1">
             <FIPs travelReq="N">51683</FIPs>
