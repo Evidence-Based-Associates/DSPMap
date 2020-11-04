@@ -9112,11 +9112,11 @@
     </Provider>
     <Provider id="68">
         <Name>Counseling and Forensic Services</Name>
-        <LastUpdated>2019-02-27</LastUpdated>
+        <LastUpdated>2020-10-29</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>https://www.cfsvirginia.com</Website>
-        <ContactName>Heather Doute</ContactName>
-        <ContactEmail>hdoute@cfsvirginia.com</ContactEmail>
+        <ContactName>Joseline Harris</ContactName>
+        <ContactEmail>jharris@cfsvirginia.com</ContactEmail>
         <Office>
             <Lat>38.6770971</Lat>
             <Lng>-77.34838689999998</Lng>
