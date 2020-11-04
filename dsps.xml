@@ -8946,12 +8946,12 @@
         <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="-1">
             <FIPs travelReq="N" languages="Spanish">51683</FIPs>
             <FIPs travelReq="N" languages="Spanish">51153</FIPs>
-            <FIPs travelReq="N">51685</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51685</FIPs>
             <FIPs travelReq="N" languages="Spanish">51059</FIPs>
             <FIPs travelReq="N" languages="Spanish">51600</FIPs>
             <FIPs travelReq="N" languages="Spanish">51510</FIPs>
             <FIPs travelReq="N" languages="Spanish">51013</FIPs>
-            <FIPs travelReq="N">51610</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51610</FIPs>
             <FIPs travelReq="N" languages="Spanish">51107</FIPs>
         </Service>
         <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="-1">
