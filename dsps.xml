@@ -7271,12 +7271,11 @@
     </Provider>
     <Provider id="15">
         <Name>The Choice Group</Name>
-        <LastUpdated>2020-07-31</LastUpdated>
+        <LastUpdated>2020-11-05</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.thechoicegroup.com</Website>
-        <ContactName>Karen Mellville</ContactName>
-        <ContactEmail>karen.mellville@thechoicegroup.com</ContactEmail>
-
+        <ContactName>Karen Melville</ContactName>
+        <ContactEmail>karen.melville@thechoicegroup.com</ContactEmail>
         <Office>
             <Lat>37.5796442</Lat>
             <Lng>-77.49391839999998</Lng>
@@ -7287,44 +7286,42 @@
             <Phone>(804) 278-9151</Phone>
             <Fax>(804) 278-9221</Fax>
         </Office>
+        <Office>
+            <Lat>37.3044517</Lat>
+            <Lng>-78.4077729</Lng>
+            <Street>1012 W 3rd St </Street>
+            <City>Farmville</City>
+            <State>VA</State>
+            <Zip>23901</Zip>
+            <Phone>434-395-1200</Phone>
+            <Fax/>
+        </Office>
         <Service serviceName="Vocational / Employment Service" serviceZoom="-1">
             <FIPs travelReq="N" languages="Spanish, Farsi">51013</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51610</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51510</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51059</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51600</FIPs>
-
             <FIPs travelReq="N" languages="Spanish, Farsi">51061</FIPs>
             <FIPs travelReq="N">51157</FIPs>
             <FIPs travelReq="N" languages="Sign Language">51043</FIPs>
             <FIPs travelReq="N" languages="Sign Language">51069</FIPs>
             <FIPs travelReq="N">51660</FIPs>
             <FIPs travelReq="N">51139</FIPs>
-
-
             <FIPs travelReq="N" languages="Sign Language">51187</FIPs>
             <FIPs travelReq="N" languages="Sign Language">51840</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51683</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51153</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51685</FIPs>
-
             <FIPs travelReq="N">51073</FIPs>
             <FIPs travelReq="N">51095</FIPs>
-
-
-
-
             <FIPs travelReq="N">51127</FIPs>
             <FIPs travelReq="N">51735</FIPs>
             <FIPs travelReq="N">51830</FIPs>
             <FIPs travelReq="N">51199</FIPs>
             <FIPs travelReq="N">51033</FIPs>
-
             <FIPs travelReq="N">51630</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51085</FIPs>
-
-
-
             <FIPs travelReq="N">51159</FIPs>
             <FIPs travelReq="N">51177</FIPs>
             <FIPs travelReq="N">51179</FIPs>
@@ -7339,40 +7336,16 @@
             <FIPs travelReq="N">51113</FIPs>
             <FIPs travelReq="N">51137</FIPs>
             <FIPs travelReq="N">51009</FIPs>
-
-
             <FIPs travelReq="N">51680</FIPs>
             <FIPs travelReq="N">51125</FIPs>
-
-
-
             <FIPs travelReq="N">51023</FIPs>
-
-
-
-
             <FIPs travelReq="N">51091</FIPs>
             <FIPs travelReq="N">51790</FIPs>
-
             <FIPs travelReq="N">51820</FIPs>
-
             <FIPs travelReq="N">51595</FIPs>
             <FIPs travelReq="N">51670</FIPs>
             <FIPs travelReq="N">51081</FIPs>
-
-
-
-
-
-
-
-
-
-
-
-
             <FIPs travelReq="N">51053</FIPs>
-
             <FIPs travelReq="N">51730</FIPs>
             <FIPs travelReq="N">51145</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51041</FIPs>
