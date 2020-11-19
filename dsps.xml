@@ -7905,7 +7905,7 @@
     </Provider>
     <Provider id="43">
         <Name>Evaluation and Assessment Services Winchester</Name>
-        <LastUpdated>2019-09-04</LastUpdated>
+        <LastUpdated>2020-11-18</LastUpdated>
         <MapZoom>0</MapZoom>
         <Website>www.easwinchester.com</Website>
         <ContactName>April Szilagyi, Psy.D., CSOTP</ContactName>
@@ -7933,6 +7933,10 @@
             <FIPs travelReq="N">51069</FIPs>
         </Service>
         <Service serviceName="Other Assessment / Evaluation" serviceZoom="0">
+            <FIPs travelReq="N">51840</FIPs>
+            <FIPs travelReq="N">51069</FIPs>
+        </Service>
+        <Service serviceName="Outpatient Services" serviceZoom="0">
             <FIPs travelReq="N">51840</FIPs>
             <FIPs travelReq="N">51069</FIPs>
         </Service>
