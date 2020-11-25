@@ -10012,11 +10012,11 @@
     </Provider>
     <Provider id="95">
         <Name>Southstone Behavioral Health</Name>
-        <LastUpdated>2019-09-15</LastUpdated>
+        <LastUpdated>2020-11-25</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.southstonebhc.com/</Website>
-        <ContactName>Amanda Moseley </ContactName>
-        <ContactEmail>Amanda.Moseley@acadiahealthcare.com</ContactEmail>
+        <ContactName>Loretta Hosfeld</ContactName>
+        <ContactEmail>Loretta.Hosfeld@southstonebhc.com</ContactEmail>
         <Office>
             <Lat>36.7283505</Lat>
             <Lng>-79.13540169999999</Lng>
@@ -10026,6 +10026,16 @@
             <Zip>24592</Zip>
             <Phone>(434) 272-7094</Phone>
             <Fax>(434) 272-7085</Fax>
+        </Office>
+        <Office>
+            <Lat>37.3044517</Lat>
+            <Lng>-78.4077729</Lng>
+            <Street>1012 W 3rd St </Street>
+            <City>Farmville</City>
+            <State>VA</State>
+            <Zip>23901</Zip>
+            <Phone>434-395-1200</Phone>
+            <Fax/>
         </Office>
         <Service serviceName="Residential Services" serviceZoom="-1">
             <FIPs travelReq="N">51083</FIPs>
