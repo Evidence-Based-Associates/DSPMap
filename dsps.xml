@@ -627,7 +627,7 @@
     </Provider>
     <Provider id="5">
         <Name>Impact Living Services</Name>
-        <LastUpdated>2020-04-15</LastUpdated>
+        <LastUpdated>2021-01-12</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.impactlivingservices.org</Website>
         <ContactName>Adam Pavao</ContactName>
@@ -643,9 +643,9 @@
             <Fax>434-664-1177</Fax>
         </Office>
         <Office>
-            <Lat>38.4477674</Lat>
-            <Lng>-78.87178140000003</Lng>
-            <Street>2040 Deyerle Ave. Ste. 106</Street>
+            <Lat>38.4207674</Lat>
+            <Lng>-78.84069749999999</Lng>
+            <Street>2262 Blue Stone Hills Dr. Suite C </Street>
             <City>Harrisonburg</City>
             <State>VA</State>
             <Zip>22801</Zip>
@@ -653,19 +653,19 @@
             <Fax>434-664-1177</Fax>
         </Office>
         <Office>
-            <Lat>38.4477674</Lat>
-            <Lng>-78.87178140000003</Lng>
-            <Street>128 Bruce St</Street>
-            <City>Harrisonburg</City>
+            <Lat>38.8247175</Lat>
+            <Lng>-77.3122404</Lng>
+            <Street>10517-B Braddock Rd.</Street>
+            <City>Fairfax</City>
             <State>VA</State>
-            <Zip>22801</Zip>
+            <Zip>22032</Zip>
             <Phone>434-533-1088</Phone>
             <Fax>434-664-1177</Fax>
         </Office>
         <Office>
-            <Lat>37.636588</Lat>
-            <Lng>-77.4708198</Lng>
-            <Street>1500-C Spring Tree Ct</Street>
+            <Lat>37.6371042</Lat>
+            <Lng>-77.47047429999999</Lng>
+            <Street>1508 F Spring Tree Ct</Street>
             <City>Henrico </City>
             <State>VA</State>
             <Zip>23288</Zip>
@@ -673,21 +673,15 @@
             <Fax/>
         </Office>
         <Office>
-            <Lat>37.330609</Lat>
-            <Lng>-79.875075</Lng>
-            <Street>5410-D Orchard Hill Dr</Street>
+            <Lat>37.3038435</Lat>
+            <Lng>-79.8869392</Lng>
+            <Street>Mexico Way NE</Street>
             <City>Roanoke</City>
             <State>VA</State>
-            <Zip>24019</Zip>
+            <Zip>24012</Zip>
             <Phone/>
             <Fax/>
         </Office>
-        <Service serviceName="Residential Services (18+)" serviceZoom="-1">
-            <FIPs travelReq="N">51770</FIPs>
-            <FIPs travelReq="N">51680</FIPs>
-            <FIPs travelReq="N">51660</FIPs>
-            <FIPs travelReq="N">51087</FIPs>
-        </Service>
         <Service serviceName="Casey Life Skills / Mentoring" serviceZoom="-1">
             <FIPs travelReq="N">51680</FIPs>
             <FIPs travelReq="N">51009</FIPs>
@@ -697,33 +691,80 @@
             <FIPs travelReq="N">51775</FIPs>
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="N">51087</FIPs>
         </Service>
         <Service serviceName="Outpatient Services" serviceZoom="-1">
             <FIPs travelReq="N">51680</FIPs>
             <FIPs travelReq="N">51009</FIPs>
-            <FIPs travelReq="N">51019</FIPs>
             <FIPs travelReq="N">51031</FIPs>
             <FIPs travelReq="N">51770</FIPs>
             <FIPs travelReq="N">51775</FIPs>
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51660</FIPs>
+            <FIPs travelReq="N">51165</FIPs>
+            <FIPs travelReq="Y">51015</FIPs>
+            <FIPs travelReq="Y">51790</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="Y">51820</FIPs>
         </Service>
         <Service serviceName="Outpatient Substance Abuse" serviceZoom="-1">
             <FIPs travelReq="N">51680</FIPs>
             <FIPs travelReq="N">51009</FIPs>
-            <FIPs travelReq="N">51019</FIPs>
             <FIPs travelReq="N">51031</FIPs>
             <FIPs travelReq="N">51770</FIPs>
             <FIPs travelReq="N">51775</FIPs>
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51660</FIPs>
+            <FIPs travelReq="N">51165</FIPs>
+            <FIPs travelReq="Y">51015</FIPs>
+            <FIPs travelReq="Y">51790</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="Y">51820</FIPs>
         </Service>
         <Service serviceName="Residential Independent Living" serviceZoom="-1">
             <FIPs travelReq="N">51770</FIPs>
             <FIPs travelReq="N">51680</FIPs>
             <FIPs travelReq="N">51660</FIPs>
             <FIPs travelReq="N">51087</FIPs>
+            <FIPs travelReq="N">51165</FIPs>
+            <FIPs travelReq="N">51059</FIPs>
+            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+        </Service>
+        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="Y">51121</FIPs>
+            <FIPs travelReq="Y">51067</FIPs>
+            <FIPs travelReq="Y">51023</FIPs>
+        </Service>
+        <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="Y">51121</FIPs>
+            <FIPs travelReq="Y">51067</FIPs>
+            <FIPs travelReq="Y">51023</FIPs>
+        </Service>
+        <Service serviceName="Groups" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
         </Service>
     </Provider>
     <Provider id="7">
