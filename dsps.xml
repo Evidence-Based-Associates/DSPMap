@@ -7236,34 +7236,6 @@
             <FIPs travelReq="Y">51079</FIPs>
         </Service>
     </Provider>
-    <Provider id="63">
-        <Name>Family Service of Roanoke Valley</Name>
-        <LastUpdated>2018-02-16</LastUpdated>
-        <MapZoom>2</MapZoom>
-        <Website>www.fsrv.org</Website>
-        <ContactName>Karen Pillis</ContactName>
-        <ContactEmail>kpillis@fsrv.org</ContactEmail>
-        <Office>
-            <Lat>37.2710771</Lat>
-            <Lng>-79.94835030000002</Lng>
-            <Street>360 Campbell Ave, SW</Street>
-            <City>Roanoke</City>
-            <State>VA</State>
-            <Zip>24016</Zip>
-            <Phone>(540)563-5316</Phone>
-            <Fax>(540)563-5254</Fax>
-        </Office>
-        <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="51770">
-            <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="N">51770</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-        </Service>
-        <Service serviceName="Family Partnership Meeting" serviceZoom="51770">
-            <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="N">51770</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-        </Service>
-    </Provider>
     <Provider id="15">
         <Name>The Choice Group</Name>
         <LastUpdated>2020-11-05</LastUpdated>
