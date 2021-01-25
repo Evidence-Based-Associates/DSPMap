@@ -2328,12 +2328,11 @@
     </Provider>
     <Provider id="32">
         <Name>Integrated Health Services</Name>
-        <LastUpdated>2018-10-11</LastUpdated>
+        <LastUpdated>2021-01-22</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.ihsva.com</Website>
-        <ContactName>Stephen House </ContactName>
-        <ContactEmail>stephenh@ihsva.com </ContactEmail>
-
+        <ContactName>Mary Dunnigan</ContactName>
+        <ContactEmail>maryd@ihsva.com</ContactEmail>
         <Office>
             <Lat>37.60820289999999</Lat>
             <Lng>-77.57810599999999</Lng>
@@ -2342,16 +2341,6 @@
             <State>VA</State>
             <Zip>23669</Zip>
             <Phone>(757) 838-1894</Phone>
-            <Fax>(757) 838-1895</Fax>
-        </Office>
-        <Office>
-            <Lat>37.0298687</Lat>
-            <Lng>-76.34522179999999</Lng>
-            <Street>2 Eaton Street, Suite 1103</Street>
-            <City>Hampton</City>
-            <State>VA</State>
-            <Zip>23669</Zip>
-            <Phone>(757) 784-2987</Phone>
             <Fax>(757) 838-1895</Fax>
         </Office>
         <Office>
@@ -2371,7 +2360,7 @@
             <City>Virginia Beach</City>
             <State>VA</State>
             <Zip>23462</Zip>
-            <Phone>(757) 784-2987</Phone>
+            <Phone>(757)838-1894</Phone>
             <Fax/>
         </Office>
         <Service serviceZoom="-1" serviceName="Psycho-Sexual Evaluation">
@@ -2402,35 +2391,35 @@
             <FIPs travelReq="N">51036</FIPs>
             <FIPs travelReq="Y">51075</FIPs>
             <FIPs travelReq="Y">51109</FIPs>
-        </Service>
+        <FIPs travelReq="N">51131</FIPs><FIPs travelReq="N">51001</FIPs></Service>
         <Service serviceZoom="-1" serviceName="Trauma Assessment">
             <!-- CSU9 except Matthews and Middlesex -->
-            <FIPs travelReq="N">51073</FIPs>
-            <FIPs travelReq="N">51095</FIPs>
-            <FIPs travelReq="N">51097</FIPs>
-            <FIPs travelReq="N">51101</FIPs>
-            <FIPs travelReq="N">51127</FIPs>
-            <FIPs travelReq="N">51199</FIPs>
-            <FIPs travelReq="N">51735</FIPs>
-            <FIPs travelReq="N">51830</FIPs>
-            <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51710</FIPs>
-            <FIPs travelReq="N">51810</FIPs>
-            <FIPs travelReq="N">51550</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51073</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51095</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51097</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51101</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51127</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51199</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51735</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51830</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51760</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51710</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51810</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51550</FIPs>
             <FIPs travelReq="N">51740</FIPs>
             <FIPs travelReq="N">51650</FIPs>
-            <FIPs travelReq="N">51700</FIPs>
-            <FIPs travelReq="N">51800</FIPs>
-            <FIPs travelReq="N">51670</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51700</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51800</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51670</FIPs>
             <FIPs travelReq="N">51570</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
-            <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="N">51149</FIPs>
-            <FIPs travelReq="N">51730</FIPs>
-            <FIPs travelReq="N">51036</FIPs>
-            <FIPs travelReq="Y">51075</FIPs>
-            <FIPs travelReq="Y">51109</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51041</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51087</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51085</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51149</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51730</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51036</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51075</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51109</FIPs>
         </Service>
         <Service serviceZoom="-1" serviceName="Outpatient YSB Services (CSOTP)">
             <!-- CSU9 except Matthews and Middlesex -->
@@ -2460,7 +2449,7 @@
             <FIPs travelReq="N">51036</FIPs>
             <FIPs travelReq="Y">51075</FIPs>
             <FIPs travelReq="Y">51109</FIPs>
-        </Service>
+        <FIPs travelReq="N">51131</FIPs><FIPs travelReq="N">51001</FIPs></Service>
         <Service serviceZoom="-1" serviceName="Outpatient Services">
             <!-- CSU9 except Matthews and Middlesex -->
             <FIPs travelReq="N">51073</FIPs>
@@ -2491,61 +2480,59 @@
             <FIPs travelReq="Y">51109</FIPs>
         </Service>
         <Service serviceZoom="-1" serviceName="Home-Based Service / Intensive In-Home">
-            <FIPs travelReq="N">51036</FIPs>
-            <FIPs travelReq="N">51127</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="Y">51073</FIPs>
-            <FIPs travelReq="N">51095</FIPs>
-            <FIPs travelReq="N">51199</FIPs>
-            <FIPs travelReq="N">51700</FIPs>
-            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51036</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51127</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51085</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51073</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51095</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51199</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51700</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51650</FIPs>
             <FIPs travelReq="N">51740</FIPs>
-            <FIPs travelReq="N">51710</FIPs>
-            <FIPs travelReq="N">51810</FIPs>
-            <FIPs travelReq="N">51550</FIPs>
-            <FIPs travelReq="N">51800</FIPs>
-            <FIPs travelReq="N">51093</FIPs>
-            <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="N">51149</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
-            <FIPs travelReq="N">51730</FIPs>
-            <FIPs travelReq="N">51570</FIPs>
-            <FIPs travelReq="N">51670</FIPs>
-            <FIPs travelReq="Y">51145</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51710</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51810</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51550</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51800</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51093</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51760</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51087</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51149</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51041</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51730</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51570</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51670</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51145</FIPs>
             <FIPs travelReq="N">51830</FIPs>
             <FIPs travelReq="Y">51075</FIPs>
-            <FIPs travelReq="N">51735</FIPs>
-        </Service>
+            <FIPs travelReq="N" languages="Spanish">51735</FIPs>
+        <FIPs travelReq="N" languages="Spanish">51131</FIPs><FIPs travelReq="N" languages="Spanish">51001</FIPs></Service>
         <Service serviceZoom="-1" serviceName="Casey Life Skills / Mentoring">
-            <!-- CSU9 except Matthews and Middlesex -->
-            <FIPs travelReq="N">51073</FIPs>
-            <FIPs travelReq="N">51095</FIPs>
-            <FIPs travelReq="N">51097</FIPs>
-            <FIPs travelReq="N">51101</FIPs>
-            <FIPs travelReq="N">51127</FIPs>
-            <FIPs travelReq="N">51199</FIPs>
-            <FIPs travelReq="N">51735</FIPs>
-            <FIPs travelReq="N">51830</FIPs>
-            <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51710</FIPs>
-            <FIPs travelReq="N">51810</FIPs>
-            <FIPs travelReq="N">51550</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51036</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51127</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51085</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51073</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51095</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51199</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51700</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51650</FIPs>
             <FIPs travelReq="N">51740</FIPs>
-            <FIPs travelReq="N">51650</FIPs>
-            <FIPs travelReq="N">51700</FIPs>
-            <FIPs travelReq="N">51800</FIPs>
-            <FIPs travelReq="N">51670</FIPs>
-            <FIPs travelReq="N">51570</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
-            <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="N">51149</FIPs>
-            <FIPs travelReq="N">51730</FIPs>
-            <FIPs travelReq="N">51036</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51710</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51810</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51550</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51800</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51093</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51760</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51087</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51149</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51041</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51730</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51570</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51670</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51145</FIPs>
+            <FIPs travelReq="N">51830</FIPs>
             <FIPs travelReq="Y">51075</FIPs>
-            <FIPs travelReq="Y">51109</FIPs>
-        </Service>
+            <FIPs travelReq="N" languages="Spanish">51735</FIPs>
+        <FIPs travelReq="N" languages="Spanish">51131</FIPs><FIPs travelReq="N" languages="Spanish">51001</FIPs></Service>
     </Provider>
     <Provider id="33">
         <Name>Intercept Health</Name>
