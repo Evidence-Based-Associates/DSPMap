@@ -9520,41 +9520,6 @@
             <FIPs travelReq="N" languages="Spanish">51610</FIPs>
         </Service>
     </Provider>
-    <Provider id="86">
-        <Name>Big Brothers Big Sisters</Name>
-        <LastUpdated>2018-05-16</LastUpdated>
-        <MapZoom>2</MapZoom>
-        <Website/>
-        <ContactName>June House</ContactName>
-        <ContactEmail>jhouse@bigslittles.org</ContactEmail>
-        <Office>
-            <Lat/>
-            <Lng/>
-            <Street>124 Wells Ave NW</Street>
-            <City>Roanoke</City>
-            <State>VA</State>
-            <Zip>24016</Zip>
-            <Phone>540/345-9604</Phone>
-            <Fax>540/345-6992</Fax>
-        </Office>
-        <Office>
-            <Lat/>
-            <Lng/>
-            <Street>246 N. Washington Ave Suite C</Street>
-            <City>Pulaski </City>
-            <State>VA </State>
-            <Zip>24301</Zip>
-            <Phone>(540) 798-0836 </Phone>
-            <Fax/>
-        </Office>
-        <Service serviceName="Casey Life Skills / Mentoring" serviceZoom="-1">
-            <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="N">51770</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-            <FIPs travelReq="N">51155</FIPs>
-            <FIPs travelReq="N">51750</FIPs>
-        </Service>
-    </Provider>
     <Provider id="89">
         <Name>CM Mentoring</Name>
         <LastUpdated>2018-05-19</LastUpdated>
