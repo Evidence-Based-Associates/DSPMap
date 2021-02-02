@@ -4438,15 +4438,15 @@
     </Provider>
     <Provider id="45">
         <Name>Family Preservation Services, Inc.</Name>
-        <LastUpdated>2020-07-29</LastUpdated>
+        <LastUpdated>2021-02-02</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.fpscorp.com</Website>
         <ContactName>Tami King</ContactName>
         <ContactEmail>TKing@fpscorp.com  </ContactEmail>
         <Office>
-            <Lat>37.3347182</Lat>
-            <Lng>-79.9750786</Lng>
-            <Street>5369 Peters Creek Rd</Street>
+            <Lat>37.3347185</Lat>
+            <Lng>-79.975078</Lng>
+            <Street>5371 Peters Creek Rd</Street>
             <City>Roanoke</City>
             <State>VA</State>
             <Zip>24019</Zip>
@@ -4474,36 +4474,6 @@
             <Fax>(276) 963-3747</Fax>
         </Office>
         <Office>
-            <Lat>37.1494761</Lat>
-            <Lng>-82.4680037</Lng>
-            <Street>5123 Dickenson Hwy</Street>
-            <City>Clintwood</City>
-            <State>VA</State>
-            <Zip>24228</Zip>
-            <Phone>(276) 926-4031</Phone>
-            <Fax>(276) 926-4032</Fax>
-        </Office>
-        <Office>
-            <Lat>37.793272</Lat>
-            <Lng>-79.99416280000003</Lng>
-            <Street>221 North Monroe Ave</Street>
-            <City>Covington</City>
-            <State>VA</State>
-            <Zip>24426</Zip>
-            <Phone>(540) 962-5049</Phone>
-            <Fax>(540) 962-7008</Fax>
-        </Office>
-        <Office>
-            <Lat>36.712368</Lat>
-            <Lng>-82.79980699999999</Lng>
-            <Street>225 Boone Trail Road</Street>
-            <City>Duffield</City>
-            <State>VA</State>
-            <Zip>24244</Zip>
-            <Phone>(276) 431-7214</Phone>
-            <Fax>(276) 431-7215</Fax>
-        </Office>
-        <Office>
             <Lat>36.7587784</Lat>
             <Lng>-83.02755709999997</Lng>
             <Street>109 North Main Street</Street>
@@ -4511,57 +4481,27 @@
             <State>VA</State>
             <Zip>24277</Zip>
             <Phone>(276) 546-3330</Phone>
-            <Fax>(276) 564-3321</Fax>
+            <Fax>(276) 431-7215</Fax>
         </Office>
         <Office>
             <Lat>37.3011248</Lat>
             <Lng>-78.3881111</Lng>
-            <Street>404 East Third Street, Suite 200</Street>
+            <Street>201 N Main St, Unit 2201-D</Street>
             <City>Farmville</City>
             <State>VA</State>
             <Zip>23901</Zip>
-            <Phone>434) 392-3328</Phone>
+            <Phone>(434) 392-3328</Phone>
             <Fax>(434) 392-3235</Fax>
-        </Office>
-        <Office>
-            <Lat/>
-            <Lng/>
-            <Street>643 North Main Street</Street>
-            <City>Chase City</City>
-            <State>VA</State>
-            <Zip>23924</Zip>
-            <Phone>(434) 372-4433</Phone>
-            <Fax>(434) 372-4422</Fax>
-        </Office>
-        <Office>
-            <Lat>36.6603153</Lat>
-            <Lng>-80.92472680000003</Lng>
-            <Street>106 Calhoun Street</Street>
-            <City>Galax</City>
-            <State>VA</State>
-            <Zip>24333</Zip>
-            <Phone>276.238.8822</Phone>
-            <Fax>(276) 238-8822</Fax>
-        </Office>
-        <Office>
-            <Lat>36.6588241</Lat>
-            <Lng>-80.92324289999999</Lng>
-            <Street>401 South Main Street</Street>
-            <City>Galax</City>
-            <State>VA</State>
-            <Zip>24333</Zip>
-            <Phone>276.238.8822</Phone>
-            <Fax>(276) 601-6132</Fax>
         </Office>
         <Office>
             <Lat>36.9492106</Lat>
             <Lng>-81.08462309999999</Lng>
-            <Street>180 West Main, Suite 2</Street>
+            <Street>180 West Main St, Suite 2</Street>
             <City>Wytheville</City>
             <State>VA</State>
             <Zip>24382</Zip>
             <Phone>(276) 335-2243</Phone>
-            <Fax>(276) 228-6064</Fax>
+            <Fax>(276) 238-8822</Fax>
         </Office>
         <Office>
             <Lat>37.0828645</Lat>
@@ -4570,28 +4510,18 @@
             <City>Newport News</City>
             <State>VA</State>
             <Zip>23606</Zip>
-            <Phone>(757) 838-8520</Phone>
-            <Fax>(757) 838-8528</Fax>
+            <Phone>(757) 873-0130</Phone>
+            <Fax>(757) 595-0157</Fax>
         </Office>
         <Office>
-            <Lat>37.4031724</Lat>
-            <Lng>-79.22110350000003</Lng>
-            <Street>18321 Forest Road</Street>
+            <Lat>37.3816194</Lat>
+            <Lng>-79.24604</Lng>
+            <Street>100 Copley Place</Street>
             <City>Lynchburg</City>
             <State>VA</State>
             <Zip>24502</Zip>
             <Phone>(434) 528-9711</Phone>
             <Fax>(434) 528-9716</Fax>
-        </Office>
-        <Office>
-            <Lat>36.6878324</Lat>
-            <Lng>-79.86387409999998</Lng>
-            <Street>1 Starling Avenue</Street>
-            <City>Martinsville</City>
-            <State>VA</State>
-            <Zip>24112</Zip>
-            <Phone>(276) 632-1113</Phone>
-            <Fax>(276) 632-0923</Fax>
         </Office>
         <Office>
             <Lat>36.6895524</Lat>
@@ -4604,18 +4534,8 @@
             <Fax>276.632.0923</Fax>
         </Office>
         <Office>
-            <Lat>37.1507579</Lat>
-            <Lng>-80.4053089</Lng>
-            <Street>1650 Cambria Street NE</Street>
-            <City>Christiansburg</City>
-            <State>VA</State>
-            <Zip>24073</Zip>
-            <Phone>(540) 381-7500</Phone>
-            <Fax>(540) 381-7658</Fax>
-        </Office>
-        <Office>
-            <Lat>36.7943609</Lat>
-            <Lng>-76.17479639999999</Lng>
+            <Lat>36.7659922</Lat>
+            <Lng>-76.2310061</Lng>
             <Street>1214 Progressive Drive, Suite 101</Street>
             <City>Chesapeake</City>
             <State>VA</State>
@@ -4635,13 +4555,13 @@
         </Office>
         <Office>
             <Lat>38.208917</Lat>
-            <Lng>-79.00441769999998</Lng>
-            <Street>244 Rolla Mill Road</Street>
+            <Lng>-79.00441769999999</Lng>
+            <Street>246 Rolla Mill Road</Street>
             <City>Verona</City>
             <State>VA</State>
             <Zip>24482</Zip>
             <Phone>(540) 248-5510</Phone>
-            <Fax>540) 248-5509</Fax>
+            <Fax>(540) 248-5509</Fax>
         </Office>
         <Office>
             <Lat>39.1394973</Lat>
