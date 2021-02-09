@@ -6723,6 +6723,59 @@
             <FIPs travelReq="N" languages="Spanish">51600</FIPs>
         </Service>
     </Provider>
+    <Provider id="6">
+        <Name>Connected Communities Inc</Name>
+        <LastUpdated>2021-02-08</LastUpdated>
+        <MapZoom>0</MapZoom>
+        <Website>www.cciwinchester.com/</Website>
+        <ContactName>Krystal DeWalt</ContactName>
+        <ContactEmail>info@cciwinchester.com</ContactEmail>
+        <Office>
+            <Lat>39.1826616</Lat>
+            <Lng>-78.1643134</Lng>
+            <Street>44 South Cameron St.  Suite 2 A&amp;B</Street>
+            <City>Winchester</City>
+            <State>VA</State>
+            <Zip>22601</Zip>
+            <Phone>540-404-5985</Phone>
+            <Fax>(540)773-8579</Fax>
+        </Office>
+        <Service serviceName="Outpatient Services" serviceZoom="0">
+            <FIPs travelReq="N" languages="Spanish">51069</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51840</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51043</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51187</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51171</FIPs>
+        </Service>
+        <Service serviceName="Casey Life Skills / Mentoring" serviceZoom="0">
+            <FIPs travelReq="N">51069</FIPs>
+            <FIPs travelReq="N">51840</FIPs>
+            <FIPs travelReq="Y">51043</FIPs>
+            <FIPs travelReq="Y">51187</FIPs>
+            <FIPs travelReq="Y">51171</FIPs>
+        </Service>
+        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="0">
+            <FIPs travelReq="N">51069</FIPs>
+            <FIPs travelReq="N">51840</FIPs>
+            <FIPs travelReq="Y">51043</FIPs>
+            <FIPs travelReq="Y">51187</FIPs>
+            <FIPs travelReq="Y">51171</FIPs>
+        </Service>
+        <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="0">
+            <FIPs travelReq="N">51069</FIPs>
+            <FIPs travelReq="N">51840</FIPs>
+            <FIPs travelReq="Y">51043</FIPs>
+            <FIPs travelReq="Y">51187</FIPs>
+            <FIPs travelReq="Y">51171</FIPs>
+        </Service>
+        <Service serviceName="Other Assessment / Evaluation" serviceZoom="0">
+            <FIPs travelReq="N" languages="Spanish">51069</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51840</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51043</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51187</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51171</FIPs>
+        </Service>
+    </Provider>
     <Provider id="60">
         <Name>Grace Assessment and Therapy Services</Name>
         <LastUpdated/>
