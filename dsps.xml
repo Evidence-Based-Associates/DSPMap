@@ -2328,11 +2328,11 @@
     </Provider>
     <Provider id="32">
         <Name>Integrated Health Services</Name>
-        <LastUpdated>2021-01-22</LastUpdated>
-        <MapZoom>-1</MapZoom>
+        <LastUpdated>2021-02-08</LastUpdated>
+        <MapZoom>1</MapZoom>
         <Website>www.ihsva.com</Website>
-        <ContactName>Mary Dunnigan</ContactName>
-        <ContactEmail>maryd@ihsva.com</ContactEmail>
+        <ContactName>Allison Hallberg</ContactName>
+        <ContactEmail>allison@ihsva.com</ContactEmail>
         <Office>
             <Lat>37.60820289999999</Lat>
             <Lng>-77.57810599999999</Lng>
@@ -2505,7 +2505,9 @@
             <FIPs travelReq="N">51830</FIPs>
             <FIPs travelReq="Y">51075</FIPs>
             <FIPs travelReq="N" languages="Spanish">51735</FIPs>
-        <FIPs travelReq="N" languages="Spanish">51131</FIPs><FIPs travelReq="N" languages="Spanish">51001</FIPs></Service>
+            <FIPs travelReq="N" languages="Spanish">51131</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51001</FIPs>
+        </Service>
         <Service serviceZoom="-1" serviceName="Casey Life Skills / Mentoring">
             <FIPs travelReq="N" languages="Spanish">51036</FIPs>
             <FIPs travelReq="N" languages="Spanish">51127</FIPs>
@@ -2532,7 +2534,9 @@
             <FIPs travelReq="N">51830</FIPs>
             <FIPs travelReq="Y">51075</FIPs>
             <FIPs travelReq="N" languages="Spanish">51735</FIPs>
-        <FIPs travelReq="N" languages="Spanish">51131</FIPs><FIPs travelReq="N" languages="Spanish">51001</FIPs></Service>
+            <FIPs travelReq="N" languages="Spanish">51131</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51001</FIPs>
+        </Service>
     </Provider>
     <Provider id="33">
         <Name>Intercept Health</Name>
