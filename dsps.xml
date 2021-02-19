@@ -2391,7 +2391,9 @@
             <FIPs travelReq="N">51036</FIPs>
             <FIPs travelReq="Y">51075</FIPs>
             <FIPs travelReq="Y">51109</FIPs>
-        <FIPs travelReq="N">51131</FIPs><FIPs travelReq="N">51001</FIPs></Service>
+            <FIPs travelReq="N">51131</FIPs>
+            <FIPs travelReq="N">51001</FIPs>
+        </Service>
         <Service serviceZoom="-1" serviceName="Trauma Assessment">
             <!-- CSU9 except Matthews and Middlesex -->
             <FIPs travelReq="N" languages="Spanish">51073</FIPs>
@@ -2449,7 +2451,9 @@
             <FIPs travelReq="N">51036</FIPs>
             <FIPs travelReq="Y">51075</FIPs>
             <FIPs travelReq="Y">51109</FIPs>
-        <FIPs travelReq="N">51131</FIPs><FIPs travelReq="N">51001</FIPs></Service>
+            <FIPs travelReq="N">51131</FIPs>
+            <FIPs travelReq="N">51001</FIPs>
+        </Service>
         <Service serviceZoom="-1" serviceName="Outpatient Services">
             <!-- CSU9 except Matthews and Middlesex -->
             <FIPs travelReq="N">51073</FIPs>
@@ -6723,6 +6727,82 @@
             <FIPs travelReq="N" languages="Spanish">51600</FIPs>
         </Service>
     </Provider>
+    <Provider id="13">
+        <Name>Envision Counseling</Name>
+        <LastUpdated>2021-02-16</LastUpdated>
+        <MapZoom>0</MapZoom>
+        <Website>ncgenvision.com</Website>
+        <ContactName>Stephanie Barbour</ContactName>
+        <ContactEmail>stephanie.barbour@ncgenvision.com</ContactEmail>
+        <Office>
+            <Lat>38.8338052</Lat>
+            <Lng>-77.2083597</Lng>
+            <Street>7630 Little River Tpke, Ste 601</Street>
+            <City>Annandale</City>
+            <State>VA</State>
+            <Zip>22003</Zip>
+            <Phone>833-698-4357</Phone>
+            <Fax/>
+        </Office>
+        <Office>
+            <Lat>38.7658935</Lat>
+            <Lng>-77.478779</Lng>
+            <Street>9301 Forest Point Circle</Street>
+            <City>Manassas</City>
+            <State>VA</State>
+            <Zip>20110</Zip>
+            <Phone>833-698-4357</Phone>
+            <Fax/>
+        </Office>
+        <Service serviceName="Outpatient Substance Abuse" serviceZoom="0">
+            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N">51059</FIPs>
+            <FIPs travelReq="N">51683</FIPs>
+            <FIPs travelReq="N">51685</FIPs>
+            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="Y">51061</FIPs>
+            <FIPs travelReq="Y">51107</FIPs>
+            <FIPs travelReq="N">51510</FIPs>
+            <FIPs travelReq="N">51013</FIPs>
+            <FIPs travelReq="N">51610</FIPs>
+        </Service>
+        <Service serviceName="Outpatient Services" serviceZoom="0">
+            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N">51059</FIPs>
+            <FIPs travelReq="N">51683</FIPs>
+            <FIPs travelReq="N">51685</FIPs>
+            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="Y">51061</FIPs>
+            <FIPs travelReq="Y">51107</FIPs>
+            <FIPs travelReq="N">51510</FIPs>
+            <FIPs travelReq="N">51013</FIPs>
+            <FIPs travelReq="N">51610</FIPs>
+        </Service>
+        <Service serviceName="Groups" serviceZoom="0">
+            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N">51059</FIPs>
+            <FIPs travelReq="N">51683</FIPs>
+            <FIPs travelReq="N">51685</FIPs>
+            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="Y">51061</FIPs>
+            <FIPs travelReq="Y">51107</FIPs>
+            <FIPs travelReq="N">51510</FIPs>
+            <FIPs travelReq="N">51013</FIPs>
+            <FIPs travelReq="N">51610</FIPs>
+        </Service>
+        <Service serviceName="Other Assessment / Evaluation" serviceZoom="0">
+            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N">51059</FIPs>
+            <FIPs travelReq="N">51683</FIPs>
+            <FIPs travelReq="N">51685</FIPs>
+            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="Y">51061</FIPs>
+            <FIPs travelReq="Y">51107</FIPs>
+            <FIPs travelReq="N">51510</FIPs>
+            <FIPs travelReq="N">51013</FIPs>
+            <FIPs travelReq="N">51610</FIPs>
+        </Service>
+    </Provider>
     <Provider id="6">
         <Name>Connected Communities Inc</Name>
         <LastUpdated>2021-02-09</LastUpdated>
@@ -9424,7 +9504,17 @@
         <Website>www.aboutchangellc.com</Website>
         <ContactName>Nelgy Olivo</ContactName>
         <ContactEmail>nelgy@aboutchangeva.com</ContactEmail>
-        <Office><Lat>38.6754837</Lat><Lng>-77.35084499999999</Lng><Street>400 Genesee Place Suite 101</Street><City>Woodbridge</City><State>VA</State><Zip>22192</Zip><Phone>(571) 659-0056</Phone><Fax>(571) 659-0695</Fax></Office><Service serviceName="Outpatient Services" serviceZoom="0">
+        <Office>
+            <Lat>38.6754837</Lat>
+            <Lng>-77.35084499999999</Lng>
+            <Street>400 Genesee Place Suite 101</Street>
+            <City>Woodbridge</City>
+            <State>VA</State>
+            <Zip>22192</Zip>
+            <Phone>(571) 659-0056</Phone>
+            <Fax>(571) 659-0695</Fax>
+        </Office>
+        <Service serviceName="Outpatient Services" serviceZoom="0">
             <FIPs travelReq="N" languages="Spanish">51059</FIPs>
             <FIPs travelReq="N" languages="Spanish">51510</FIPs>
             <FIPs travelReq="N" languages="Spanish">51683</FIPs>
