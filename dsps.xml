@@ -6825,6 +6825,25 @@
             <FIPs travelReq="N">51610</FIPs>
         </Service>
     </Provider>
+    <Provider id="14">
+        <Name>Three Rivers Treatment Center</Name>
+        <LastUpdated>2021-02-19</LastUpdated>
+        <MapZoom>-1</MapZoom>
+        <Website>3rtc.com/</Website>
+        <ContactName>Admissions Department</ContactName>
+        <ContactEmail>admissions@3rtc.com</ContactEmail>
+        <Office>
+            <Lat>36.9744472</Lat>
+            <Lng>-78.1376248</Lng>
+            <Street>231 Hickory Rd</Street>
+            <City>Kenbridge</City>
+            <State>VA</State>
+            <Zip>23944</Zip>
+            <Phone>(434) 676-1378</Phone>
+            <Fax/>
+        </Office>
+        <Service serviceName="Residential Services" serviceZoom="-1"/>
+    </Provider>
     <Provider id="6">
         <Name>Connected Communities Inc</Name>
         <LastUpdated>2021-02-09</LastUpdated>
