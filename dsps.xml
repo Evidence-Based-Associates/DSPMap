@@ -7975,6 +7975,36 @@
             <FIPs travelReq="N">51069</FIPs>
         </Service>
     </Provider>
+    <Provider id="44">
+        <Name>Spectrum Health Solutions, LLC</Name>
+        <LastUpdated>2021-02-22</LastUpdated>
+        <MapZoom>1</MapZoom>
+        <Website/>
+        <ContactName>Stephen House</ContactName>
+        <ContactEmail>stephen@spectrumhealthus.com</ContactEmail>
+        <Office>
+            <Lat/>
+            <Lng/>
+            <Street/>
+            <City>New Kent</City>
+            <State>VA</State>
+            <Zip/>
+            <Phone>757-784-298723124</Phone>
+            <Fax/>
+        </Office>
+        <Service serviceName="Casey Life Skills / Mentoring" serviceZoom="1">
+            <FIPs travelReq="N">51127</FIPs>
+            <FIPs travelReq="N">51036</FIPs>
+            <FIPs travelReq="N">51830</FIPs>
+            <FIPs travelReq="N">51095</FIPs>
+            <FIPs travelReq="N">51199</FIPs>
+            <FIPs travelReq="N">51735</FIPs>
+            <FIPs travelReq="N">51073</FIPs>
+            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="Y">51097</FIPs>
+            <FIPs travelReq="Y">51085</FIPs>
+        </Service>
+    </Provider>
     <Provider id="47">
         <Name>Access Intensive Counseling, LLC</Name>
         <LastUpdated>2018-02-16</LastUpdated>
