@@ -7516,7 +7516,7 @@
     </Provider>
     <Provider id="18">
         <Name>Youth Connect</Name>
-        <LastUpdated>2019-11-20</LastUpdated>
+        <LastUpdated>2021-03-01</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>youthconnectva.com</Website>
         <ContactName>Taylor Kyle</ContactName>
@@ -7529,6 +7529,16 @@
             <State>VA</State>
             <Zip>24151</Zip>
             <Phone>(540) 488-5636</Phone>
+            <Fax/>
+        </Office>
+        <Office>
+            <Lat>37.3044517</Lat>
+            <Lng>-78.4077729</Lng>
+            <Street>1012 W 3rd St </Street>
+            <City>Farmville</City>
+            <State>VA</State>
+            <Zip>23901</Zip>
+            <Phone>434-395-1200</Phone>
             <Fax/>
         </Office>
         <Service serviceName="GPS / EM" serviceZoom="2">
@@ -7563,17 +7573,6 @@
             <FIPs travelReq="N">51775</FIPs>
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51141</FIPs>
-        </Service>
-        <Service serviceName="Translation / Interpretation" serviceZoom="2">
-            <FIPs travelReq="N" languages="Spanish">51690</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51089</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51067</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51590</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51143</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51770</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51775</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51161</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51141</FIPs>
         </Service>
         <Service serviceName="Family Partnership Meeting" serviceZoom="2">
             <FIPs travelReq="N">51690</FIPs>
