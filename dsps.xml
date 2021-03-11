@@ -3712,7 +3712,7 @@
     </Provider>
     <Provider id="39">
         <Name>National Counseling Group</Name>
-        <LastUpdated>2021-02-26</LastUpdated>
+        <LastUpdated>2021-03-10</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>ncgcommunity.com</Website>
         <ContactName>Call center</ContactName>
@@ -4394,16 +4394,19 @@
             <FIPs travelReq="N">51185</FIPs>
             <FIPs travelReq="N">51173</FIPs>
             <FIPs travelReq="N">51077</FIPs>
-            <FIPs travelReq="Y">51640</FIPs>
-            <FIPs travelReq="Y">51197</FIPs>
             <FIPs travelReq="N">51127</FIPs>
             <FIPs travelReq="N">51036</FIPs>
             <FIPs travelReq="Y">51097</FIPs>
             <FIPs travelReq="Y">51181</FIPs>
             <FIPs travelReq="Y">51093</FIPs>
             <FIPs travelReq="Y">51101</FIPs>
-            <FIPs travelReq="N">51179</FIPs>
             <FIPs travelReq="Y">51099</FIPs>
+            <FIPs travelReq="N">51021</FIPs>
+            <FIPs travelReq="N">51197</FIPs>
+            <FIPs travelReq="Y">51035</FIPs>
+            <FIPs travelReq="N">51640</FIPs>
+            <FIPs travelReq="Y">51071</FIPs>
+            <FIPs travelReq="N">51179</FIPs>
         </Service>
         <Service serviceName="Functional Family Therapy (FFT)" serviceZoom="0">
             <FIPs travelReq="N" languages="Spanish">51683</FIPs>
