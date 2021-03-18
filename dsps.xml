@@ -2097,28 +2097,6 @@
             <FIPs travelReq="N">51107</FIPs>
         </Service>
     </Provider>
-
-    <Provider id="23">
-        <Name>Grace Haven</Name>
-        <LastUpdated>2019-09-04</LastUpdated>
-        <MapZoom>-1</MapZoom>
-        <Website>www.gracehavenmgt.com</Website>
-        <ContactName>Karlyn Clevert Smith</ContactName>
-        <ContactEmail>gracehavenhouse@aol.com</ContactEmail>
-        <Office>
-            <Lat>37.6603566</Lat>
-            <Lng>-77.3830658</Lng>
-            <Street>PO Box 2012</Street>
-            <City>Mechanicsville</City>
-            <State>VA</State>
-            <Zip>23116</Zip>
-            <Phone>(804) 779-2356</Phone>
-            <Fax>(804) 779-7566</Fax>
-        </Office>
-        <Service serviceName="Residential Services" serviceZoom="1">
-            <FIPs travelReq="N">51085</FIPs>
-        </Service>
-    </Provider>
     <Provider id="27">
         <Name>Brambleton Assessment and Counseling Center, LLC</Name>
         <LastUpdated>2020-01-06</LastUpdated>
@@ -6943,28 +6921,6 @@
             <FIPs travelReq="Y">51139</FIPs>
         </Service>
     </Provider>
-    <Provider id="60">
-        <Name>Grace Assessment and Therapy Services</Name>
-        <LastUpdated/>
-        <MapZoom>51069</MapZoom>
-        <Website>www.gracewinchester.com</Website>
-        <ContactName>Angela Butler, Psy.D.</ContactName>
-        <ContactEmail/>
-        <Office>
-            <Lat>39.181</Lat>
-            <Lng>-78.166</Lng>
-            <Street>13 E. Clifford St.</Street>
-            <City>Winchester</City>
-            <State>VA</State>
-            <Zip>22601</Zip>
-            <Phone>(540) 773-3999</Phone>
-            <Fax>(540) 773-3996</Fax>
-        </Office>
-        <Service serviceName="Psychological" serviceZoom="51069">
-            <FIPs travelReq="N">51840</FIPs>
-            <FIPs travelReq="N">51069</FIPs>
-        </Service>
-    </Provider>
     <Provider id="62">
         <Name>Health Connect America</Name>
         <LastUpdated>2020-11-16</LastUpdated>
@@ -8717,155 +8673,6 @@
             <FIPs travelReq="N">51181</FIPs>
         </Service>
     </Provider>
-    <Provider id="61">
-        <Name>Peninsula Therapy Center, PLC</Name>
-        <LastUpdated>2018-02-16</LastUpdated>
-        <MapZoom>-1</MapZoom>
-        <Website>www.ptcplc.com</Website>
-        <ContactName>Greg Mahan</ContactName>
-        <ContactEmail>gmahan@ptcplcorf.com</ContactEmail>
-        <Office>
-            <Lat>36.8415554</Lat>
-            <Lng>-76.09355289999996</Lng>
-            <Street>3500 Virginia Beach Blvd., Suite 435</Street>
-            <City>Virginia Beach</City>
-            <State>VA</State>
-            <Zip>23452</Zip>
-            <Phone>(757) 763-6598</Phone>
-            <Fax>(757) 431-7090</Fax>
-        </Office>
-        <Office>
-            <Lat>36.8613433</Lat>
-            <Lng>-76.2874974</Lng>
-            <Street>1216 Granby Street, Suite 213</Street>
-            <City>Norfolk</City>
-            <State>VA</State>
-            <Zip>23510</Zip>
-            <Phone>(757) 963-6303</Phone>
-            <Fax>(757) 963-6074</Fax>
-        </Office>
-        <Office>
-            <Lat>36.8415554</Lat>
-            <Lng>-76.09355289999996</Lng>
-            <Street>3500 Virginia Beach Blvd., Suite 435</Street>
-            <City>Virginia Beach</City>
-            <State>VA</State>
-            <Zip>23452</Zip>
-            <Phone>(757) 763-6598</Phone>
-            <Fax>(757) 431-7090</Fax>
-        </Office>
-        <Office>
-            <Lat>37.0828645</Lat>
-            <Lng>-76.46524779999999</Lng>
-            <Street>739 Thimble Shoals Blvd., Suite 1011E</Street>
-            <City>Newport News</City>
-            <State>VA</State>
-            <Zip>23606</Zip>
-            <Phone>(757) 873-3353</Phone>
-            <Fax>(757) 873-1810</Fax>
-        </Office>
-        <Service serviceName="Casey Life Skills / Mentoring" serviceZoom="-1">
-            <FIPs travelReq="N">51550</FIPs>
-            <FIPs travelReq="N">51810</FIPs>
-            <FIPs travelReq="N">51740</FIPs>
-            <FIPs travelReq="N">51710</FIPs>
-            <FIPs travelReq="N">51093</FIPs>
-            <FIPs travelReq="N">51700</FIPs>
-            <FIPs travelReq="N">51650</FIPs>
-            <FIPs travelReq="N">51735</FIPs>
-            <FIPs travelReq="N">51830</FIPs>
-            <FIPs travelReq="N">51199</FIPs>
-            <FIPs travelReq="N">51073</FIPs>
-            <FIPs travelReq="N">51115</FIPs>
-        </Service>
-        <Service serviceName="Other Assessment / Evaluation" serviceZoom="-1">
-            <FIPs travelReq="N">51550</FIPs>
-            <FIPs travelReq="N">51810</FIPs>
-            <FIPs travelReq="N">51740</FIPs>
-            <FIPs travelReq="N">51710</FIPs>
-            <FIPs travelReq="N">51093</FIPs>
-            <FIPs travelReq="N">51700</FIPs>
-            <FIPs travelReq="N">51650</FIPs>
-            <FIPs travelReq="N">51735</FIPs>
-            <FIPs travelReq="N">51830</FIPs>
-            <FIPs travelReq="N">51199</FIPs>
-            <FIPs travelReq="N">51073</FIPs>
-            <FIPs travelReq="N">51115</FIPs>
-        </Service>
-        <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="-1">
-            <FIPs travelReq="N">51550</FIPs>
-            <FIPs travelReq="N">51810</FIPs>
-            <FIPs travelReq="N">51740</FIPs>
-            <FIPs travelReq="N">51710</FIPs>
-            <FIPs travelReq="N">51093</FIPs>
-            <FIPs travelReq="N">51700</FIPs>
-            <FIPs travelReq="N">51650</FIPs>
-            <FIPs travelReq="N">51735</FIPs>
-            <FIPs travelReq="N">51830</FIPs>
-            <FIPs travelReq="N">51199</FIPs>
-            <FIPs travelReq="N">51073</FIPs>
-            <FIPs travelReq="N">51115</FIPs>
-        </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="-1">
-            <FIPs travelReq="N">51550</FIPs>
-            <FIPs travelReq="N">51810</FIPs>
-            <FIPs travelReq="N">51740</FIPs>
-            <FIPs travelReq="N">51710</FIPs>
-            <FIPs travelReq="N">51093</FIPs>
-            <FIPs travelReq="N">51700</FIPs>
-            <FIPs travelReq="N">51650</FIPs>
-            <FIPs travelReq="N">51735</FIPs>
-            <FIPs travelReq="N">51830</FIPs>
-            <FIPs travelReq="N">51199</FIPs>
-            <FIPs travelReq="N">51073</FIPs>
-            <FIPs travelReq="N">51115</FIPs>
-        </Service>
-        <Service serviceName="Outpatient Substance Abuse" serviceZoom="-1">
-            <FIPs travelReq="N">51550</FIPs>
-            <FIPs travelReq="N">51810</FIPs>
-            <FIPs travelReq="N">51740</FIPs>
-            <FIPs travelReq="N">51710</FIPs>
-            <FIPs travelReq="N">51093</FIPs>
-            <FIPs travelReq="N">51700</FIPs>
-            <FIPs travelReq="N">51650</FIPs>
-            <FIPs travelReq="N">51735</FIPs>
-            <FIPs travelReq="N">51830</FIPs>
-            <FIPs travelReq="N">51199</FIPs>
-            <FIPs travelReq="N">51073</FIPs>
-            <FIPs travelReq="N">51115</FIPs>
-        </Service>
-    </Provider>
-    <Provider id="72">
-        <Name>The Morgan Center, Inc.</Name>
-        <LastUpdated>2017-10-26</LastUpdated>
-        <MapZoom>0</MapZoom>
-        <Website>www.morgancenterinc.com</Website>
-        <ContactName>Felicia Goldberg, Ph.D.</ContactName>
-        <ContactEmail>drgoldberg@morgancenterinc.com</ContactEmail>
-        <Office>
-            <Lat>38.9575859</Lat>
-            <Lng>-77.37678890000001</Lng>
-            <Street>462 Herndon Parkway, Suite 202</Street>
-            <City>Herndon</City>
-            <State>VA</State>
-            <Zip>20170</Zip>
-            <Phone>(703) 467-9036</Phone>
-            <Fax>(703) 997-6096</Fax>
-        </Office>
-        <Service serviceName="Other Assessment / Evaluation" serviceZoom="0">
-            <FIPs travelReq="N">51157</FIPs>
-            <FIPs travelReq="N">51061</FIPs>
-            <FIPs travelReq="N">51059</FIPs>
-            <FIPs travelReq="N">51600</FIPs>
-            <FIPs travelReq="N">51510</FIPs>
-            <FIPs travelReq="N">51013</FIPs>
-            <FIPs travelReq="N">51610</FIPs>
-            <FIPs travelReq="N">51153</FIPs>
-            <FIPs travelReq="N">51683</FIPs>
-            <FIPs travelReq="N">51685</FIPs>
-            <FIPs travelReq="N">51107</FIPs>
-        </Service>
-    </Provider>
     <Provider id="74">
         <Name>North Spring Behavioral Healthcare, Inc.</Name>
         <LastUpdated>2020-05-28</LastUpdated>
@@ -9934,37 +9741,6 @@
             <FIPs travelReq="N">51630</FIPs>
             <FIPs travelReq="N">51033</FIPs>
             <FIPs travelReq="N">51085</FIPs>
-        </Service>
-    </Provider>
-    <Provider id="59">
-        <Name>Blue Ridge Area Health Education Center</Name>
-        <LastUpdated>2018-09-19</LastUpdated>
-        <MapZoom>-1</MapZoom>
-        <Website>www.brahec.jmu.edu/</Website>
-        <ContactName>Elise Wallace</ContactName>
-        <ContactEmail>wallacem@jmu.edu</ContactEmail>
-        <Office>
-            <Lat>38.4400383</Lat>
-            <Lng>-78.85802860000001</Lng>
-            <Street>755 Martin Luther King, Jr. Way</Street>
-            <City>Harrisonburg</City>
-            <State>VA</State>
-            <Zip>22801</Zip>
-            <Phone>(540) 568-3383</Phone>
-            <Fax/>
-        </Office>
-        <Service serviceName="Translation / Interpretation" serviceZoom="-1">
-            <FIPs travelReq="N" languages="Arabic, Kurdish, Russian, Spanish, Tigrinya, Ukrainian, Amharic, Bosnian, Croatian, Serbian, Farsi, French, Swahili">51660</FIPs>
-            <FIPs travelReq="N" languages="Arabic, Kurdish, Russian, Spanish, Tigrinya, Ukrainian, Amharic, Bosnian, Croatian, Serbian, Farsi, French, Swahili">51165</FIPs>
-            <FIPs travelReq="N" languages="Arabic, Kurdish, Russian, Spanish, Tigrinya, Ukrainian, Amharic, Bosnian, Croatian, Serbian, Farsi, French, Swahili">51139</FIPs>
-            <FIPs travelReq="N" languages="Arabic, Kurdish, Russian, Spanish, Tigrinya, Ukrainian, Amharic, Bosnian, Croatian, Serbian, Farsi, French, Swahili">51171</FIPs>
-            <FIPs travelReq="Y" languages="Arabic, Kurdish, Russian, Spanish, Tigrinya, Ukrainian, Amharic, Bosnian, Croatian, Serbian, Farsi, French, Swahili">51840</FIPs>
-            <FIPs travelReq="Y" languages="Arabic, Kurdish, Russian, Spanish, Tigrinya, Ukrainian, Amharic, Bosnian, Croatian, Serbian, Farsi, French, Swahili">51069</FIPs>
-            <FIPs travelReq="Y" languages="Arabic, Kurdish, Russian, Spanish, Tigrinya, Ukrainian, Amharic, Bosnian, Croatian, Serbian, Farsi, French, Swahili">51540</FIPs>
-            <FIPs travelReq="Y" languages="Arabic, Kurdish, Russian, Spanish, Tigrinya, Ukrainian, Amharic, Bosnian, Croatian, Serbian, Farsi, French, Swahili">51003</FIPs>
-            <FIPs travelReq="N" languages="Arabic, Kurdish, Russian, Spanish, Tigrinya, Ukrainian, Amharic, Bosnian, Croatian, Serbian, Farsi, French, Swahili">51790</FIPs>
-            <FIPs travelReq="N" languages="Arabic, Kurdish, Russian, Spanish, Tigrinya, Ukrainian, Amharic, Bosnian, Croatian, Serbian, Farsi, French, Swahili">51820</FIPs>
-            <FIPs travelReq="N" languages="Arabic, Kurdish, Russian, Spanish, Tigrinya, Ukrainian, Amharic, Bosnian, Croatian, Serbian, Farsi, French, Swahili">51015</FIPs>
         </Service>
     </Provider>
     <Provider id="92">
