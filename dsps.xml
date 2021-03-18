@@ -784,7 +784,7 @@
     </Provider>
     <Provider id="7">
         <Name>Building Healthy Connections</Name>
-        <LastUpdated>2018-11-14</LastUpdated>
+        <LastUpdated>2021-03-18</LastUpdated>
         <MapZoom>1</MapZoom>
         <Website>bhconnections.com/</Website>
         <ContactName>MaryLynn McKenna, LCSW</ContactName>
@@ -819,23 +819,6 @@
             <FIPs travelReq="N">51179</FIPs>
             <FIPs travelReq="N">51630</FIPs>
             <FIPs travelReq="Y">51047</FIPs>
-        </Service>
-        <Service serviceName="Casey Life Skills / Mentoring" serviceZoom="1">
-            <!-- CSU15 -->
-            <FIPs travelReq="N">51033</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="N">51099</FIPs>
-            <FIPs travelReq="N">51177</FIPs>
-            <FIPs travelReq="N">51179</FIPs>
-            <FIPs travelReq="N">51630</FIPs>
-        </Service>
-        <Service serviceName="GPS / EM" serviceZoom="1">
-            <FIPs travelReq="N">51047</FIPs>
-            <FIPs travelReq="N">51113</FIPs>
-            <FIPs travelReq="N">51079</FIPs>
-            <FIPs travelReq="N">51137</FIPs>
-            <FIPs travelReq="N">51177</FIPs>
-            <FIPs travelReq="N">51630</FIPs>
         </Service>
     </Provider>
     <Provider id="8">
