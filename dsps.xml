@@ -6873,7 +6873,7 @@
     </Provider>
     <Provider id="14">
         <Name>Three Rivers Treatment Center</Name>
-        <LastUpdated>2021-02-19</LastUpdated>
+        <LastUpdated>2021-03-18</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>3rtc.com/</Website>
         <ContactName>Admissions Department</ContactName>
@@ -6888,7 +6888,9 @@
             <Phone>(434) 676-1378</Phone>
             <Fax/>
         </Office>
-        <Service serviceName="Residential Services" serviceZoom="-1"/>
+        <Service serviceName="Residential Services" serviceZoom="-1">
+            <FIPs travelReq="N">51111</FIPs>
+        </Service>
     </Provider>
     <Provider id="6">
         <Name>Connected Communities Inc</Name>
