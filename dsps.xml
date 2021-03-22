@@ -8152,30 +8152,6 @@
             <FIPs travelReq="N">51810</FIPs>
         </Service>
     </Provider>
-    <Provider id="64">
-        <Name>Redirect Youth Services, LLC</Name>
-        <LastUpdated>2017-09-18</LastUpdated>
-        <MapZoom>2</MapZoom>
-        <Website/>
-        <ContactName>Jermaine L. Johnson</ContactName>
-        <ContactEmail>redirectyouthservices@gmail.com</ContactEmail>
-        <Office>
-            <Lat>37.2882071</Lat>
-            <Lng>-79.98460019999999</Lng>
-            <Street>838 30th St. </Street>
-            <City>Roanoke</City>
-            <State>VA</State>
-            <Zip>24017</Zip>
-            <Phone>(540) 793-3405</Phone>
-            <Fax/>
-        </Office>
-        <Service serviceName="Casey Life Skills / Mentoring" serviceZoom="2">
-            <FIPs travelReq="N">51770</FIPs>
-            <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-        </Service>
-    </Provider>
     <Provider id="67">
         <Name>Timber Ridge School</Name>
         <LastUpdated>2020-07-31</LastUpdated>
@@ -8539,86 +8515,6 @@
             <FIPs travelReq="N">51678</FIPs>
             <FIPs travelReq="N">51003</FIPs>
             <FIPs travelReq="N">51540</FIPs>
-        </Service>
-    </Provider>
-    <Provider id="73">
-        <Name>Therapeutic Intervention Services</Name>
-        <LastUpdated>2018-02-16</LastUpdated>
-        <MapZoom>2</MapZoom>
-        <Website>www.tiscanhelp.com</Website>
-        <ContactName>Antwan Adams</ContactName>
-        <ContactEmail>antwadams.tis@gmail.com</ContactEmail>
-        <Office>
-            <Lat>36.7666929</Lat>
-            <Lng>-76.23091699999998</Lng>
-            <Street>1210 Progressive Dr</Street>
-            <City>Chesapeake</City>
-            <State>VA</State>
-            <Zip>23320</Zip>
-            <Phone>(757) 410-0382</Phone>
-            <Fax>(757) 410-0386</Fax>
-        </Office>
-        <Office>
-            <Lat>36.5931305</Lat>
-            <Lng>-79.42717089999996</Lng>
-            <Street>413 Mount Cross Rd. Suite 106</Street>
-            <City>Danville</City>
-            <State>VA</State>
-            <Zip>24540</Zip>
-            <Phone>(434) 791-3950</Phone>
-            <Fax>(434) 799-2628</Fax>
-        </Office>
-        <Office>
-            <Lat>36.7666929</Lat>
-            <Lng>-76.23091699999998</Lng>
-            <Street>1210 Progressive Dr</Street>
-            <City>Chesapeake</City>
-            <State>VA</State>
-            <Zip>23320</Zip>
-            <Phone>(757) 410-0382</Phone>
-            <Fax>(757) 410-0386</Fax>
-        </Office>
-        <Office>
-            <Lat>36.6914383</Lat>
-            <Lng>-79.8741498</Lng>
-            <Street>26 W. Church St., Suite C</Street>
-            <City>Martinsville</City>
-            <State>VA</State>
-            <Zip>24112</Zip>
-            <Phone>(276) 634-0021</Phone>
-            <Fax/>
-        </Office>
-        <Service serviceName="Casey Life Skills / Mentoring" serviceZoom="2">
-            <FIPs travelReq="N">51690</FIPs>
-            <FIPs travelReq="N">51089</FIPs>
-            <FIPs travelReq="N">51141</FIPs>
-            <FIPs travelReq="N">51590</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="N">51640</FIPs>
-        </Service>
-        <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="2">
-            <FIPs travelReq="N">51690</FIPs>
-            <FIPs travelReq="N">51089</FIPs>
-            <FIPs travelReq="N">51141</FIPs>
-            <FIPs travelReq="N">51590</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="N">51640</FIPs>
-        </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="2">
-            <FIPs travelReq="N">51690</FIPs>
-            <FIPs travelReq="N">51089</FIPs>
-            <FIPs travelReq="N">51141</FIPs>
-            <FIPs travelReq="N">51590</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="N">51640</FIPs>
-        </Service>
-        <Service serviceName="Other Assessment / Evaluation" serviceZoom="2">
-            <FIPs travelReq="N">51690</FIPs>
-            <FIPs travelReq="N">51089</FIPs>
-            <FIPs travelReq="N">51141</FIPs>
-            <FIPs travelReq="N">51590</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="N">51640</FIPs>
         </Service>
     </Provider>
     <Provider id="28">
