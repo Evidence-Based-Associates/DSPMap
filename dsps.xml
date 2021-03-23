@@ -2520,7 +2520,7 @@
     </Provider>
     <Provider id="33">
         <Name>Intercept Health</Name>
-        <LastUpdated>2021-02-17</LastUpdated>
+        <LastUpdated>2021-03-22</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.intercepthealth.com</Website>
         <ContactName>Sandy Brudvig</ContactName>
@@ -2536,50 +2536,10 @@
             <Fax/>
         </Office>
         <Office>
-            <Lat>37.665978</Lat>
-            <Lng>-77.50637389999997</Lng>
-            <Street>Gateway House (Boys Group Home)</Street>
-            <City>Glen Allen</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>37.3673217</Lat>
-            <Lng>-77.64778649999997</Lng>
-            <Street>Providence House (Girls Group Home)</Street>
-            <City>Chesterfield</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
             <Lat>38.6390069</Lat>
             <Lng>-78.77391119999999</Lng>
             <Street>Shenandoah House (Boys Group Home)</Street>
             <City>Timberville</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>37.2709704</Lat>
-            <Lng>-79.9414266</Lng>
-            <Street>Carriage House (Boys Group Home)</Street>
-            <City>Roanoke</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>37.4073217</Lat>
-            <Lng>-77.64778649999997</Lng>
-            <Street>Shire House (Children's Group Home)</Street>
-            <City>Chesterfield</City>
             <State>VA</State>
             <Zip/>
             <Phone/>
@@ -2616,16 +2576,6 @@
             <Fax/>
         </Office>
         <Office>
-            <Lat>37.604</Lat>
-            <Lng>-77.492</Lng>
-            <Street>Independent Living Program</Street>
-            <City>Fredericksburg</City>
-            <State>VA</State>
-            <Zip>22401</Zip>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
             <Lat>37.3238269</Lat>
             <Lng>-79.9609746</Lng>
             <Street>5673 Airport Road</Street>
@@ -2638,27 +2588,7 @@
         <Office>
             <Lat>37.3770935</Lat>
             <Lng>-77.5049863</Lng>
-            <Street>Fountain House (Girls Group Home)</Street>
-            <City>Chesterfield</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>37.3673217</Lat>
-            <Lng>-77.64778649999997</Lng>
-            <Street>Providence House (Girls Group Home)</Street>
-            <City>Chesterfield</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>37.3673217</Lat>
-            <Lng>-77.54778649999997</Lng>
-            <Street>Spring House (Girls Group Home)</Street>
+            <Street>Girls Group Homes (3 locations)</Street>
             <City>Chesterfield</City>
             <State>VA</State>
             <Zip/>
@@ -2668,17 +2598,7 @@
         <Office>
             <Lat>37.2709704</Lat>
             <Lng>-79.9414266</Lng>
-            <Street>Autumn House (Girls Group Home)</Street>
-            <City>Roanoke</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>37.2709704</Lat>
-            <Lng>-79.9414266</Lng>
-            <Street>Carriage House (Boys Group Home)</Street>
+            <Street>Autumn House and Carriage House (Girls and Boys group homes available) </Street>
             <City>Roanoke</City>
             <State>VA</State>
             <Zip/>
@@ -2758,7 +2678,7 @@
         <Office>
             <Lat>36.592528</Lat>
             <Lng>-78.61643300000003</Lng>
-            <Street>Independence House (Boys Group Home)</Street>
+            <Street>Boys Group Home (2 locations)</Street>
             <City>Henrico</City>
             <State>VA</State>
             <Zip/>
@@ -2775,195 +2695,6 @@
             <Phone/>
             <Fax/>
         </Office>
-        <Office>
-            <Lat>38.3031837</Lat>
-            <Lng>-77.46053990000001</Lng>
-            <Street>Frederick House (Boys Group Home)</Street>
-            <City>Fredericksburg</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>37.4073217</Lat>
-            <Lng>-77.64778649999997</Lng>
-            <Street>Shire House (Children's Group Home)</Street>
-            <City>Chesterfield</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Service serviceName="Casey Life Skills / Mentoring" serviceZoom="-1">
-            <FIPs travelReq="N">51820</FIPs>
-            <!-- Western Region -->
-            <!-- All of CSU21 -->
-            <FIPs travelReq="N">51089</FIPs>
-            <FIPs travelReq="N">51141</FIPs>
-            <FIPs travelReq="N">51690</FIPs>
-            <!-- All of CSU22 -->
-            <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="N">51590</FIPs>
-            <!-- All of CSU23 -->
-            <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-            <!-- CSU23A Roanoke -->
-            <FIPs travelReq="N">51770</FIPs>
-            <!-- All of CSU27 -->
-            <FIPs travelReq="N">51063</FIPs>
-            <FIPs travelReq="N">51121</FIPs>
-            <FIPs travelReq="N">51155</FIPs>
-            <FIPs travelReq="N">51750</FIPs>
-            <FIPs travelReq="N">51007</FIPs>
-            <FIPs travelReq="N">51009</FIPs>
-            <FIPs travelReq="N">51031</FIPs>
-            <FIPs travelReq="N">51680</FIPs>
-            <FIPs travelReq="N">51125</FIPs>
-            <FIPs travelReq="N">51530</FIPs>
-            <FIPs travelReq="N">51163</FIPs>
-            <FIPs travelReq="N">51015</FIPs>
-            <FIPs travelReq="N">51790</FIPs>
-            <FIPs travelReq="N">51075</FIPs>
-            <FIPs travelReq="N">51047</FIPs>
-            <FIPs travelReq="N">51177</FIPs>
-            <FIPs travelReq="N">51630</FIPs>
-            <FIPs travelReq="N">51179</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="N">51036</FIPs>
-            <FIPs travelReq="N">51127</FIPs>
-            <FIPs travelReq="N">51095</FIPs>
-            <FIPs travelReq="N">51830</FIPs>
-            <FIPs travelReq="N">51199</FIPs>
-            <FIPs travelReq="N">51073</FIPs>
-            <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51145</FIPs>
-            <FIPs travelReq="N">51149</FIPs>
-            <FIPs travelReq="N">51570</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
-            <FIPs travelReq="N">51053</FIPs>
-            <FIPs travelReq="N">51135</FIPs>
-            <FIPs travelReq="N">51111</FIPs>
-            <FIPs travelReq="N">51153</FIPs>
-            <FIPs travelReq="N">51059</FIPs>
-            <FIPs travelReq="N">51600</FIPs>
-            <FIPs travelReq="N">51013</FIPs>
-            <FIPs travelReq="N">51107</FIPs>
-            <FIPs travelReq="N">51019</FIPs>
-            <FIPs travelReq="N">51023</FIPs>
-            <FIPs travelReq="N">51683</FIPs>
-            <FIPs travelReq="N">51510</FIPs>
-            <FIPs travelReq="N">51735</FIPs>
-            <FIPs travelReq="N">51109</FIPs>
-            <FIPs travelReq="N">51670</FIPs>
-            <FIPs travelReq="N">51730</FIPs>
-            <FIPs travelReq="N">51650</FIPs>
-            <FIPs travelReq="N">51710</FIPs>
-            <FIPs travelReq="N">51740</FIPs>
-            <FIPs travelReq="N">51700</FIPs>
-        </Service>
-        <Service serviceName="GPS / EM" serviceZoom="-1">
-            <Locations/>
-            <FIPs travelReq="N">51107</FIPs>
-            <FIPs travelReq="N">51059</FIPs>
-            <FIPs travelReq="N">51600</FIPs>
-            <FIPs travelReq="N">51013</FIPs>
-            <FIPs travelReq="N">51153</FIPs>
-            <FIPs travelReq="N">51157</FIPs>
-            <FIPs travelReq="N">51061</FIPs>
-            <FIPs travelReq="N">51043</FIPs>
-            <FIPs travelReq="N">51187</FIPs>
-            <FIPs travelReq="Y">51171</FIPs>
-            <FIPs travelReq="N">51139</FIPs>
-            <FIPs travelReq="Y">51165</FIPs>
-            <FIPs travelReq="N">51047</FIPs>
-            <FIPs travelReq="N">51113</FIPs>
-            <FIPs travelReq="N">51179</FIPs>
-            <FIPs travelReq="N">51630</FIPs>
-            <FIPs travelReq="N">51177</FIPs>
-            <FIPs travelReq="N">51137</FIPs>
-            <FIPs travelReq="N">51079</FIPs>
-            <FIPs travelReq="Y">51099</FIPs>
-            <FIPs travelReq="N">51033</FIPs>
-            <FIPs travelReq="Y">51073</FIPs>
-            <FIPs travelReq="N">51127</FIPs>
-            <FIPs travelReq="N">51199</FIPs>
-            <FIPs travelReq="N">51036</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="N">51109</FIPs>
-            <FIPs travelReq="N">51075</FIPs>
-            <FIPs travelReq="N">51065</FIPs>
-            <FIPs travelReq="N">51003</FIPs>
-            <FIPs travelReq="N">51540</FIPs>
-            <FIPs travelReq="N">51125</FIPs>
-            <FIPs travelReq="N">51015</FIPs>
-            <FIPs travelReq="N">51530</FIPs>
-            <FIPs travelReq="Y">51678</FIPs>
-            <FIPs travelReq="N">51163</FIPs>
-            <FIPs travelReq="N">51009</FIPs>
-            <FIPs travelReq="N">51031</FIPs>
-            <FIPs travelReq="N">51019</FIPs>
-            <FIPs travelReq="N">51023</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="N">51089</FIPs>
-            <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="N">51770</FIPs>
-            <FIPs travelReq="N">51121</FIPs>
-            <FIPs travelReq="Y">51063</FIPs>
-            <FIPs travelReq="Y">51141</FIPs>
-            <FIPs travelReq="Y">51155</FIPs>
-            <FIPs travelReq="Y">51167</FIPs>
-            <FIPs travelReq="Y">51169</FIPs>
-            <FIPs travelReq="N">51029</FIPs>
-            <FIPs travelReq="N">51049</FIPs>
-            <FIPs travelReq="N">51145</FIPs>
-            <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="N">51007</FIPs>
-            <FIPs travelReq="N">51147</FIPs>
-            <FIPs travelReq="N">51011</FIPs>
-            <FIPs travelReq="N">51135</FIPs>
-            <FIPs travelReq="N">51053</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
-            <FIPs travelReq="N">51149</FIPs>
-            <FIPs travelReq="N">51181</FIPs>
-            <FIPs travelReq="N">51183</FIPs>
-            <FIPs travelReq="N">51081</FIPs>
-            <FIPs travelReq="N">51025</FIPs>
-            <FIPs travelReq="N">51111</FIPs>
-            <FIPs travelReq="N">51117</FIPs>
-            <FIPs travelReq="N">51037</FIPs>
-            <FIPs travelReq="N">51083</FIPs>
-            <FIPs travelReq="N">51175</FIPs>
-            <FIPs travelReq="N">51620</FIPs>
-            <FIPs travelReq="N">51093</FIPs>
-            <FIPs travelReq="N">51131</FIPs>
-            <FIPs travelReq="N">51001</FIPs>
-            <FIPs travelReq="N">51520</FIPs>
-            <FIPs travelReq="Y">51191</FIPs>
-            <FIPs travelReq="N">51750</FIPs>
-            <FIPs travelReq="N">51690</FIPs>
-            <FIPs travelReq="N">51590</FIPs>
-            <FIPs travelReq="Y">51640</FIPs>
-            <FIPs travelReq="Y">51035</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-            <FIPs travelReq="N">51680</FIPs>
-            <FIPs travelReq="N">51790</FIPs>
-            <FIPs travelReq="N">51820</FIPs>
-            <FIPs travelReq="N">51580</FIPs>
-            <FIPs travelReq="N">51101</FIPs>
-            <FIPs travelReq="N">51735</FIPs>
-            <FIPs travelReq="N">51830</FIPs>
-            <FIPs travelReq="N">51095</FIPs>
-            <FIPs travelReq="Y">51660</FIPs>
-            <FIPs travelReq="N">51069</FIPs>
-            <FIPs travelReq="N">51840</FIPs>
-            <FIPs travelReq="N">51510</FIPs>
-            <FIPs travelReq="N">51683</FIPs>
-        </Service>
         <Service serviceName="Residential Services" serviceZoom="-1">
             <Locations/>
         </Service>
@@ -3090,7 +2821,6 @@
             <FIPs travelReq="N">51750</FIPs>
             <FIPs travelReq="Y">51023</FIPs>
         </Service>
-        <Service serviceName="Residential Services (18+)" serviceZoom="-1"/>
         <Service serviceName="Residential Independent Living" serviceZoom="-1">
             <FIPs travelReq="N" languages="Spanish">51683</FIPs>
             <FIPs travelReq="N">51700</FIPs>
