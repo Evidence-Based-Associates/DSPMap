@@ -2345,11 +2345,11 @@
     </Provider>
     <Provider id="32">
         <Name>Integrated Health Services</Name>
-        <LastUpdated>2021-02-08</LastUpdated>
+        <LastUpdated>2021-03-25</LastUpdated>
         <MapZoom>1</MapZoom>
         <Website>www.ihsva.com</Website>
-        <ContactName>Allison Hallberg</ContactName>
-        <ContactEmail>allison@ihsva.com</ContactEmail>
+        <ContactName>Jackie Duval</ContactName>
+        <ContactEmail>JackieD@ihsva.com</ContactEmail>
         <Office>
             <Lat>37.60820289999999</Lat>
             <Lng>-77.57810599999999</Lng>
@@ -2462,7 +2462,6 @@
             <FIPs travelReq="N">51570</FIPs>
             <FIPs travelReq="N">51041</FIPs>
             <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
             <FIPs travelReq="N">51149</FIPs>
             <FIPs travelReq="N">51730</FIPs>
             <FIPs travelReq="N">51036</FIPs>
@@ -2470,6 +2469,7 @@
             <FIPs travelReq="Y">51109</FIPs>
             <FIPs travelReq="N">51131</FIPs>
             <FIPs travelReq="N">51001</FIPs>
+            <FIPs travelReq="N">51085</FIPs>
         </Service>
         <Service serviceZoom="-1" serviceName="Outpatient Services">
             <!-- CSU9 except Matthews and Middlesex -->
@@ -2557,6 +2557,39 @@
             <FIPs travelReq="N" languages="Spanish">51735</FIPs>
             <FIPs travelReq="N" languages="Spanish">51131</FIPs>
             <FIPs travelReq="N" languages="Spanish">51001</FIPs>
+        </Service>
+        <Service serviceZoom="-1" serviceName="Outpatient Substance Abuse">
+            <!-- CSU9 except Matthews and Middlesex -->
+            <FIPs travelReq="N" languages="Spanish">51073</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51095</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51097</FIPs>
+            <FIPs travelReq="N" languages="">51127</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51199</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51735</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51830</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51760</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51710</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51810</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51550</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51740</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51650</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51700</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51800</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51670</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51570</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51041</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51087</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51149</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51730</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51036</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51075</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51109</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51131</FIPs>
+            <FIPs travelReq="N">51001</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51085</FIPs>
+            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="Y">51181</FIPs>
+            <FIPs travelReq="Y">51093</FIPs>
         </Service>
     </Provider>
     <Provider id="33">
