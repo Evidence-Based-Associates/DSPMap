@@ -4925,8 +4925,6 @@
         <Website>www.radfordcounseling.com</Website>
         <ContactName>Cheryl A. Clayton, LCSW, CSOTP</ContactName>
         <ContactEmail>cclayton@radfordcounseling.com</ContactEmail>
-
-
         <Office>
             <Lat>36.71</Lat>
             <Lng>-81.978</Lng>
@@ -5142,6 +5140,30 @@
             <FIPs travelReq="N">51195</FIPs>
             <FIPs travelReq="N">51720</FIPs>
             <FIPs travelReq="Y">51045</FIPs>
+        </Service>
+    </Provider>
+    <Provider id="49">
+        <Name>Fields of Hope and Dreams Mentoring, LLC</Name>
+        <LastUpdated>2021-04-09</LastUpdated>
+        <MapZoom>2</MapZoom>
+        <Website/>
+        <ContactName>Marvin Fields</ContactName>
+        <ContactEmail>mfields04que@gmail.com</ContactEmail>
+        <Office>
+            <Lat/>
+            <Lng/>
+            <Street>6790 Woodcreeper Drive</Street>
+            <City>Roanoke</City>
+            <State>VA</State>
+            <Zip>24019</Zip>
+            <Phone>540-556-9388</Phone>
+            <Fax/>
+        </Office>
+        <Service serviceName="Casey Life Skills / Mentoring" serviceZoom="2">
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="Y">51067</FIPs>
         </Service>
     </Provider>
     <Provider id="50">
