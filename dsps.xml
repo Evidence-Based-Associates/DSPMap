@@ -10202,27 +10202,6 @@
             <FIPs travelReq="N">51141</FIPs>
         </Service>
     </Provider>
-    <Provider id="110">
-        <Name>Discovery School of Virginia</Name>
-        <LastUpdated>2019-01-17</LastUpdated>
-        <MapZoom>-1</MapZoom>
-        <Website>www.discoveryschool.org</Website>
-        <ContactName>Mark Mellusi</ContactName>
-        <ContactEmail>m.mellusi@discoveryschool.org</ContactEmail>
-        <Office>
-            <Lat>37.6095437</Lat>
-            <Lng>-78.44294760000002</Lng>
-            <Street>PO Box 1160</Street>
-            <City>Dillwyn</City>
-            <State>VA</State>
-            <Zip>23936</Zip>
-            <Phone>(434) 983-5616</Phone>
-            <Fax>(434) 983-5617</Fax>
-        </Office>
-        <Service serviceName="Residential Services" serviceZoom="-1">
-            <FIPs travelReq="N">51029</FIPs>
-        </Service>
-    </Provider>
     <Provider id="113">
         <Name>Aethiops Business Solutions, LLC</Name>
         <LastUpdated>2019-05-14</LastUpdated>
