@@ -1107,52 +1107,6 @@
             <FIPs travelReq="N">51105</FIPs>
         </Service>
     </Provider>
-    <Provider id="12">
-        <Name>The Family Center for Child and Family Services, Inc</Name>
-        <LastUpdated>2018-11-14</LastUpdated>
-        <MapZoom>-1</MapZoom>
-        <Website/>
-        <ContactName>Elizabeth Parchoc</ContactName>
-        <ContactEmail>parchoc@verizon.net</ContactEmail>
-
-        <Office>
-            <Lat>36.7256268</Lat>
-            <Lng>-78.12542020000001</Lng>
-            <Street>235 E Atlantic Ave</Street>
-            <City>South Hill</City>
-            <State>VA</State>
-            <Zip>23970</Zip>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>37.602405</Lat>
-            <Lng>-77.54920700000002</Lng>
-            <Street>1504 Santa Rosa Road, #200</Street>
-            <City>Richmond</City>
-            <State>VA</State>
-            <Zip>23229</Zip>
-            <Phone>(804) 282-0003</Phone>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>36.7256268</Lat>
-            <Lng>-78.12542020000001</Lng>
-            <Street>235 E Atlantic Ave</Street>
-            <City>South Hill</City>
-            <State>VA</State>
-            <Zip>23970</Zip>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Service serviceName="Groups" serviceZoom="-1">
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="N">51109</FIPs>
-            <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
-        </Service>
-    </Provider>
     <Provider id="16">
         <Name>Dominion Youth Services</Name>
         <LastUpdated>2019-02-13</LastUpdated>
