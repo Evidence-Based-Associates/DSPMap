@@ -5996,6 +5996,36 @@
             <FIPs travelReq="N" languages="Spanish">51600</FIPs>
         </Service>
     </Provider>
+    <Provider id="12">
+        <Name>Credible Messenger Youth and Family Service</Name>
+        <LastUpdated>2021-04-16</LastUpdated>
+        <MapZoom>1</MapZoom>
+        <Website>http://www.consciouscapitalistfoundation.org/</Website>
+        <ContactName>Robert Gray</ContactName>
+        <ContactEmail>info@consciouscapitalistgroup.org</ContactEmail>
+        <Office>
+            <Lat>38.0106652</Lat>
+            <Lng>-78.4985133</Lng>
+            <Street>PO Box 2242 </Street>
+            <City>Charlottesville</City>
+            <State>VA</State>
+            <Zip>22902</Zip>
+            <Phone>434-409-5535</Phone>
+            <Fax/>
+        </Office>
+        <Service serviceName="Casey Life Skills / Mentoring" serviceZoom="-1">
+            <FIPs travelReq="N">51003</FIPs>
+            <FIPs travelReq="N">51540</FIPs>
+            <FIPs travelReq="N">51065</FIPs>
+            <FIPs travelReq="N">51075</FIPs>
+            <FIPs travelReq="N">51087</FIPs>
+            <FIPs travelReq="N">51760</FIPs>
+            <FIPs travelReq="Y">51041</FIPs>
+            <FIPs travelReq="Y">51109</FIPs>
+            <FIPs travelReq="Y">51125</FIPs>
+            <FIPs travelReq="Y">51820</FIPs>
+        </Service>
+    </Provider>
     <Provider id="13">
         <Name>Envision Counseling</Name>
         <LastUpdated>2021-02-16</LastUpdated>
