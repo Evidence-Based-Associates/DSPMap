@@ -7443,7 +7443,7 @@
     </Provider>
     <Provider id="69">
         <Name>Life Push, LLC</Name>
-        <LastUpdated>2020-06-16</LastUpdated>
+        <LastUpdated>2021-04-28</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.lifepushllc.com</Website>
         <ContactName>Nicholas Sturdifen</ContactName>
@@ -7476,15 +7476,15 @@
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51770</FIPs>
             <FIPs travelReq="N">51775</FIPs>
-            <FIPs travelReq="N">51019</FIPs>
-            <FIPs travelReq="N">51680</FIPs>
-            <FIPs travelReq="N">51009</FIPs>
-            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51019</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51680</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51009</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51031</FIPs>
             <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="N">51011</FIPs>
-            <FIPs travelReq="N">51125</FIPs>
-            <FIPs travelReq="N">51530</FIPs>
-            <FIPs travelReq="N">51163</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51011</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51125</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51530</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51163</FIPs>
             <FIPs travelReq="N">51023</FIPs>
             <FIPs travelReq="N">51067</FIPs>
             <FIPs travelReq="Y">51141</FIPs>
@@ -7664,6 +7664,60 @@
             <FIPs travelReq="N">51678</FIPs>
             <FIPs travelReq="N">51003</FIPs>
             <FIPs travelReq="N">51540</FIPs>
+        </Service>
+        <Service serviceName="GPS / EM" serviceZoom="-1">
+            <FIPs travelReq="N">51143</FIPs>
+            <FIPs travelReq="N">51590</FIPs>
+            <FIPs travelReq="N">51089</FIPs>
+            <FIPs travelReq="N">51690</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51125</FIPs>
+            <FIPs travelReq="N">51015</FIPs>
+            <FIPs travelReq="N">51790</FIPs>
+            <FIPs travelReq="Y">51083</FIPs>
+            <FIPs travelReq="Y">51011</FIPs>
+            <FIPs travelReq="Y">51117</FIPs>
+            <FIPs travelReq="Y">51111</FIPs>
+            <FIPs travelReq="Y">51025</FIPs>
+            <FIPs travelReq="N">51820</FIPs>
+            <FIPs travelReq="N">51530</FIPs>
+            <FIPs travelReq="N">51163</FIPs>
+            <FIPs travelReq="Y">51091</FIPs>
+            <FIPs travelReq="Y">51017</FIPs>
+            <FIPs travelReq="Y">51045</FIPs>
+            <FIPs travelReq="Y">51580</FIPs>
+            <FIPs travelReq="Y">51005</FIPs>
+            <FIPs travelReq="Y">51660</FIPs>
+            <FIPs travelReq="Y">51171</FIPs>
+            <FIPs travelReq="Y">51139</FIPs>
+            <FIPs travelReq="Y">51029</FIPs>
+            <FIPs travelReq="Y">51049</FIPs>
+            <FIPs travelReq="Y">51145</FIPs>
+            <FIPs travelReq="Y">51037</FIPs>
+            <FIPs travelReq="Y">51147</FIPs>
+            <FIPs travelReq="Y">51135</FIPs>
+            <FIPs travelReq="Y">51007</FIPs>
+            <FIPs travelReq="Y">51730</FIPs>
+            <FIPs travelReq="Y">51670</FIPs>
+            <FIPs travelReq="Y">51041</FIPs>
+            <FIPs travelReq="Y">51570</FIPs>
+            <FIPs travelReq="Y">51165</FIPs>
+            <FIPs travelReq="N">51678</FIPs>
+            <FIPs travelReq="Y">51003</FIPs>
+            <FIPs travelReq="Y">51540</FIPs>
+            <FIPs travelReq="Y">51760</FIPs>
+            <FIPs travelReq="Y">51087</FIPs>
+            <FIPs travelReq="Y">51069</FIPs>
+            <FIPs travelReq="Y">51840</FIPs>
+            <FIPs travelReq="Y">51187</FIPs>
         </Service>
     </Provider>
     <Provider id="28">
