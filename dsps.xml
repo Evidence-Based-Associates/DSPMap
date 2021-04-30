@@ -5614,7 +5614,7 @@
     </Provider>
     <Provider id="56">
         <Name>Virginia Home for Boys and Girls</Name>
-        <LastUpdated>2018-11-08</LastUpdated>
+        <LastUpdated>2021-04-29</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.vhbg.org</Website>
         <ContactName>Christopher Campbell</ContactName>
@@ -5629,17 +5629,6 @@
             <Phone>(804)270-6566 ext. 135</Phone>
             <Fax>(804) 934-9013</Fax>
         </Office>
-        <Service serviceZoom="-1" serviceName="Home-Based Service / Intensive In-Home">
-            <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
-            <FIPs travelReq="N">51145</FIPs>
-            <FIPs travelReq="N">51075</FIPs>
-            <FIPs travelReq="N">51570</FIPs>
-            <FIPs travelReq="N">51730</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="N">51075</FIPs>
-        </Service>
         <Service serviceName="Residential Services" serviceZoom="-1">
             <FIPs travelReq="N">51087</FIPs>
         </Service>
@@ -5653,15 +5642,8 @@
             <FIPs travelReq="N">51730</FIPs>
             <FIPs travelReq="N">51085</FIPs>
         </Service>
-        <Service serviceZoom="-1" serviceName="Casey Life Skills / Mentoring">
+        <Service serviceName="Residential Independent Living" serviceZoom="-1">
             <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
-            <FIPs travelReq="N">51145</FIPs>
-            <FIPs travelReq="N">51075</FIPs>
-            <FIPs travelReq="N">51570</FIPs>
-            <FIPs travelReq="N">51730</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
         </Service>
     </Provider>
     <Provider id="57">
