@@ -7425,7 +7425,7 @@
     </Provider>
     <Provider id="69">
         <Name>Life Push, LLC</Name>
-        <LastUpdated>2021-04-28</LastUpdated>
+        <LastUpdated>2021-04-30</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.lifepushllc.com</Website>
         <ContactName>Nicholas Sturdifen</ContactName>
@@ -7505,10 +7505,6 @@
             <FIPs travelReq="N">51183</FIPs>
             <FIPs travelReq="N">51081</FIPs>
             <FIPs travelReq="N">51595</FIPs>
-        </Service>
-        <Service serviceZoom="-1" serviceName="Outpatient Substance Abuse">
-            <FIPs travelReq="N">51590</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
         </Service>
         <Service serviceZoom="-1" serviceName="Family Partnership Meeting">
             <FIPs travelReq="N">51590</FIPs>
