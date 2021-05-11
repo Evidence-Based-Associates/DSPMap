@@ -3127,7 +3127,7 @@
     </Provider>
     <Provider id="39">
         <Name>National Counseling Group</Name>
-        <LastUpdated>2021-03-10</LastUpdated>
+        <LastUpdated>2021-05-10</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>ncgcommunity.com</Website>
         <ContactName>Call center</ContactName>
@@ -3831,7 +3831,7 @@
             <FIPs travelReq="N" languages="Spanish">51059</FIPs>
             <FIPs travelReq="N" languages="Spanish">51510</FIPs>
             <FIPs travelReq="N" languages="Spanish">51013</FIPs>
-            <FIPs travelReq="N">51610</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51610</FIPs>
             <FIPs travelReq="N" languages="Spanish">51107</FIPs>
             <FIPs travelReq="N" languages="Spanish">51061</FIPs>
             <FIPs travelReq="N" languages="Spanish">51157</FIPs>
@@ -3851,11 +3851,11 @@
             <FIPs travelReq="N">51021</FIPs>
             <FIPs travelReq="N">51640</FIPs>
             <FIPs travelReq="Y">51035</FIPs>
-            <FIPs travelReq="Y">51171</FIPs>
-            <FIPs travelReq="N">51187</FIPs>
-            <FIPs travelReq="N">51043</FIPs>
-            <FIPs travelReq="N">51069</FIPs>
-            <FIPs travelReq="N">51840</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51171</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51187</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51043</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51069</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51840</FIPs>
             <FIPs travelReq="Y">51139</FIPs>
             <FIPs travelReq="N" languages="Spanish">51179</FIPs>
             <FIPs travelReq="Y" languages="Spanish">51047</FIPs>
@@ -3868,17 +3868,93 @@
             <FIPs travelReq="N">51740</FIPs>
             <FIPs travelReq="N">51710</FIPs>
             <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51069</FIPs>
+            <FIPs travelReq="N">51840</FIPs>
+            <FIPs travelReq="N">51043</FIPs>
+            <FIPs travelReq="N">51107</FIPs>
+            <FIPs travelReq="Y">51187</FIPs>
+            <FIPs travelReq="Y">51171</FIPs>
+            <FIPs travelReq="Y">51139</FIPs>
+            <FIPs travelReq="Y">51165</FIPs>
+            <FIPs travelReq="Y">51660</FIPs>
+            <FIPs travelReq="N">51013</FIPs>
+            <FIPs travelReq="N">51510</FIPs>
+            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N">51059</FIPs>
+            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="N">51683</FIPs>
+            <FIPs travelReq="N">51061</FIPs>
+            <FIPs travelReq="N">51630</FIPs>
+            <FIPs travelReq="N">51179</FIPs>
+            <FIPs travelReq="N">51177</FIPs>
+            <FIPs travelReq="N">51109</FIPs>
+            <FIPs travelReq="N">51085</FIPs>
+            <FIPs travelReq="N">51033</FIPs>
+            <FIPs travelReq="N">51099</FIPs>
+            <FIPs travelReq="N">51540</FIPs>
+            <FIPs travelReq="N">51003</FIPs>
+            <FIPs travelReq="Y">51015</FIPs>
+            <FIPs travelReq="Y">51820</FIPs>
+            <FIPs travelReq="Y">51790</FIPs>
+            <FIPs travelReq="Y">51678</FIPs>
+            <FIPs travelReq="Y">51530</FIPs>
+            <FIPs travelReq="Y">51163</FIPs>
+            <FIPs travelReq="N">51087</FIPs>
+            <FIPs travelReq="N">51760</FIPs>
+            <FIPs travelReq="N">51670</FIPs>
+            <FIPs travelReq="N">51570</FIPs>
+            <FIPs travelReq="N">51730</FIPs>
+            <FIPs travelReq="N">51149</FIPs>
+            <FIPs travelReq="N">51041</FIPs>
+            <FIPs travelReq="Y">51053</FIPs>
+            <FIPs travelReq="N">51007</FIPs>
+            <FIPs travelReq="N">51147</FIPs>
+            <FIPs travelReq="Y">51011</FIPs>
+            <FIPs travelReq="Y">51029</FIPs>
+            <FIPs travelReq="Y">51049</FIPs>
+            <FIPs travelReq="Y">51145</FIPs>
+            <FIPs travelReq="N">51135</FIPs>
+            <FIPs travelReq="Y">51075</FIPs>
+            <FIPs travelReq="N">51065</FIPs>
+            <FIPs travelReq="Y">51019</FIPs>
+            <FIPs travelReq="Y">51009</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="Y">51023</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="Y">51690</FIPs>
+            <FIPs travelReq="Y">51089</FIPs>
+            <FIPs travelReq="Y">51590</FIPs>
+            <FIPs travelReq="Y">51143</FIPs>
+            <FIPs travelReq="Y">51067</FIPs>
+            <FIPs travelReq="Y">51121</FIPs>
+            <FIPs travelReq="Y">51063</FIPs>
+            <FIPs travelReq="Y">51155</FIPs>
+            <FIPs travelReq="Y">51750</FIPs>
+            <FIPs travelReq="N">51550</FIPs>
+            <FIPs travelReq="N">51800</FIPs>
+            <FIPs travelReq="N">51093</FIPs>
+            <FIPs travelReq="Y">51175</FIPs>
+            <FIPs travelReq="Y">51620</FIPs>
+            <FIPs travelReq="Y">51181</FIPs>
+            <FIPs travelReq="Y">51183</FIPs>
+            <FIPs travelReq="Y">51095</FIPs>
+            <FIPs travelReq="Y">51830</FIPs>
             <FIPs travelReq="Y">51199</FIPs>
-            <FIPs travelReq="Y">51683</FIPs>
-            <FIPs travelReq="Y">51685</FIPs>
-            <FIPs travelReq="Y">51600</FIPs>
-            <FIPs travelReq="Y">51107</FIPs>
-            <FIPs travelReq="Y">51061</FIPs>
-            <FIPs travelReq="Y">51153</FIPs>
-            <FIPs travelReq="Y">51610</FIPs>
-            <FIPs travelReq="Y">51013</FIPs>
-            <FIPs travelReq="Y">51510</FIPs>
-            <FIPs travelReq="Y">51059</FIPs>
+            <FIPs travelReq="Y">51073</FIPs>
+            <FIPs travelReq="Y">51036</FIPs>
+            <FIPs travelReq="Y">51127</FIPs>
+            <FIPs travelReq="Y">51137</FIPs>
+            <FIPs travelReq="Y">51079</FIPs>
+            <FIPs travelReq="Y">51113</FIPs>
+            <FIPs travelReq="Y">51125</FIPs>
+            <FIPs travelReq="Y">51047</FIPs>
+            <FIPs travelReq="N">51610</FIPs>
+            <FIPs travelReq="Y">51157</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="Y">51141</FIPs>
+            <FIPs travelReq="Y">51045</FIPs>
         </Service>
     </Provider>
     <Provider id="41">
