@@ -2829,6 +2829,27 @@
             <FIPs travelReq="N">51081</FIPs>
         </Service>
     </Provider>
+    <Provider id="35">
+        <Name>Paramount Youth Services</Name>
+        <LastUpdated>2021-05-20</LastUpdated>
+        <MapZoom>-1</MapZoom>
+        <Website/>
+        <ContactName>Damon Sutton</ContactName>
+        <ContactEmail>dsuttonpys@cox.net</ContactEmail>
+        <Office>
+            <Lat>36.87730579999999</Lat>
+            <Lng>-76.2663091</Lng>
+            <Street>3115 Lorraine Avenue</Street>
+            <City>Norfolk</City>
+            <State>VA</State>
+            <Zip>23509</Zip>
+            <Phone>757-625-0504</Phone>
+            <Fax/>
+        </Office>
+        <Service serviceName="Residential Services" serviceZoom="51710">
+            <FIPs travelReq="N">51710</FIPs>
+        </Service>
+    </Provider>
     <Provider id="36">
         <Name>Lonesome Pine Office on Youth</Name>
         <LastUpdated>2018-11-14</LastUpdated>
