@@ -5105,16 +5105,16 @@
         </Service>
     </Provider>
     <Provider id="53">
-        <Name>Trauma and Hope LLC</Name>
-        <LastUpdated>2020-04-28</LastUpdated>
+        <Name>Trauma and Hope</Name>
+        <LastUpdated>2021-06-01</LastUpdated>
         <MapZoom>0</MapZoom>
         <Website>www.traumaandhope.com</Website>
         <ContactName>Deepa Patel</ContactName>
-        <ContactEmail>Deepa.r.patel1@gmail.com</ContactEmail>
+        <ContactEmail>dpatel@traumaandhope.com</ContactEmail>
         <Office>
             <Lat>38.803</Lat>
             <Lng>-77.183</Lng>
-            <Street>5415-C Backlick Road</Street>
+            <Street>5417 Backlick Road Suite C</Street>
             <City>Springfield</City>
             <State>VA</State>
             <Zip>22151</Zip>
