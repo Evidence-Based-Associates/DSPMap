@@ -1988,39 +1988,6 @@
             <FIPs travelReq="N">51067</FIPs>
         </Service>
     </Provider>
-    <Provider id="30">
-        <Name>Highlands Community Services</Name>
-        <LastUpdated>2018-10-22</LastUpdated>
-        <MapZoom>2</MapZoom>
-        <Website>highlandscsb.org</Website>
-        <ContactName>Rebecca D. Holmes, LPC, CSAC</ContactName>
-        <ContactEmail>rholmes@highlandscsb.org</ContactEmail>
-        <Office>
-            <Lat>36.711</Lat>
-            <Lng>-81.993</Lng>
-            <Street>610 Campus Drive</Street>
-            <City>Abingdon</City>
-            <State>VA</State>
-            <Zip>24210</Zip>
-            <Phone>(276) 525-1550</Phone>
-            <Fax/>
-        </Office>
-        <Service serviceName="Outpatient Services" serviceZoom="2">
-            <!-- CSU28: Washington and Bristol only -->
-            <FIPs travelReq="N" languages="Spanish">51191</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51520</FIPs>
-        </Service>
-        <Service serviceName="Outpatient Substance Abuse" serviceZoom="2">
-            <!-- CSU28: Washington and Bristol only -->
-            <FIPs travelReq="N" languages="Spanish">51191</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51520</FIPs>
-        </Service>
-        <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="2">
-            <!-- CSU28: Washington and Bristol only -->
-            <FIPs travelReq="N" languages="Spanish">51191</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51520</FIPs>
-        </Service>
-    </Provider>
     <Provider id="31">
         <Name>Horizon Behavioral Health</Name>
         <LastUpdated>2018-10-05</LastUpdated>
