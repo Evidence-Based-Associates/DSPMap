@@ -1204,30 +1204,6 @@
             <FIPs travelReq="N">51033</FIPs>
         </Service>
     </Provider>
-    <Provider id="17">
-        <Name>Donna Kim Naffah, LPC</Name>
-        <LastUpdated/>
-        <MapZoom>2</MapZoom>
-        <Website/>
-        <ContactName>Kim Naffah, LPC</ContactName>
-        <ContactEmail>dknaffahlpc@gmail.com</ContactEmail>
-        <Office>
-            <Lat>36.611</Lat>
-            <Lng>-82.174</Lng>
-            <Street>1350 Lee Highway</Street>
-            <City>Bristol</City>
-            <State>VA</State>
-            <Zip>24201</Zip>
-            <Phone>(276) 644-9113</Phone>
-            <Fax/>
-        </Office>
-        <Service serviceName="Outpatient Services" serviceZoom="2">
-            <!-- All of CSU28 -->
-            <FIPs travelReq="N">51173</FIPs>
-            <FIPs travelReq="N">51191</FIPs>
-            <FIPs travelReq="N">51520</FIPs>
-        </Service>
-    </Provider>
     <Provider id="19">
         <Name>Elk Hill Children and Family Services</Name>
         <LastUpdated>2018-11-08</LastUpdated>
