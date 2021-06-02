@@ -7348,38 +7348,6 @@
             <FIPs travelReq="Y">51051</FIPs>
         </Service>
     </Provider>
-    <Provider id="65">
-        <Name>Redemption Youth Mentoring Services</Name>
-        <LastUpdated>2018-10-02</LastUpdated>
-        <MapZoom>-1</MapZoom>
-        <Website>redemptionva.com</Website>
-        <ContactName>info@redemptionva.com</ContactName>
-        <ContactEmail>lorenzo.collins@redemptionva.com</ContactEmail>
-        <Office>
-            <Lat>37.6164453</Lat>
-            <Lng>-77.48166930000002</Lng>
-            <Street>P. O. Box 9745</Street>
-            <City>Richmond</City>
-            <State>VA</State>
-            <Zip>23228</Zip>
-            <Phone>(540) 547-6211</Phone>
-            <Fax/>
-        </Office>
-        <Service serviceName="Casey Life Skills / Mentoring" serviceZoom="-1">
-            <FIPs travelReq="N">51109</FIPs>
-            <FIPs travelReq="N">51137</FIPs>
-            <FIPs travelReq="N">51113</FIPs>
-            <FIPs travelReq="N">51079</FIPs>
-            <FIPs travelReq="N">51047</FIPs>
-            <FIPs travelReq="N">51540</FIPs>
-            <FIPs travelReq="N">51075</FIPs>
-            <FIPs travelReq="N">51003</FIPs>
-            <FIPs travelReq="N">51650</FIPs>
-            <FIPs travelReq="N">51700</FIPs>
-            <FIPs travelReq="N">51710</FIPs>
-            <FIPs travelReq="N">51810</FIPs>
-        </Service>
-    </Provider>
     <Provider id="67">
         <Name>Timber Ridge School</Name>
         <LastUpdated>2020-07-31</LastUpdated>
