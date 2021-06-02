@@ -7312,42 +7312,6 @@
             <FIPs travelReq="Y">51730</FIPs>
         </Service>
     </Provider>
-    <Provider id="47">
-        <Name>Access Intensive Counseling, LLC</Name>
-        <LastUpdated>2018-02-16</LastUpdated>
-        <MapZoom>2</MapZoom>
-        <Website>accessintensivecounseling.com</Website>
-        <ContactName>Susan Fogg</ContactName>
-        <ContactEmail>AccessIntensiveCounseling@gmail.com</ContactEmail>
-        <Office>
-            <Lat>37.2521494</Lat>
-            <Lng>-82.10876180000002</Lng>
-            <Street>19867 Riverside Dr</Street>
-            <City>Grundy</City>
-            <State>VA</State>
-            <Zip>24614</Zip>
-            <Phone>(276) 244-1380</Phone>
-            <Fax>(866) 718-7167</Fax>
-        </Office>
-        <Service serviceName="Outpatient Services" serviceZoom="2">
-            <FIPs travelReq="N">51027</FIPs>
-            <FIPs travelReq="Y">51185</FIPs>
-            <FIPs travelReq="Y">51167</FIPs>
-            <FIPs travelReq="Y">51051</FIPs>
-        </Service>
-        <Service serviceName="Outpatient Substance Abuse" serviceZoom="2">
-            <FIPs travelReq="N">51027</FIPs>
-            <FIPs travelReq="Y">51185</FIPs>
-            <FIPs travelReq="Y">51167</FIPs>
-            <FIPs travelReq="Y">51051</FIPs>
-        </Service>
-        <Service serviceName="Other Assessment / Evaluation" serviceZoom="2">
-            <FIPs travelReq="N">51027</FIPs>
-            <FIPs travelReq="Y">51185</FIPs>
-            <FIPs travelReq="Y">51167</FIPs>
-            <FIPs travelReq="Y">51051</FIPs>
-        </Service>
-    </Provider>
     <Provider id="67">
         <Name>Timber Ridge School</Name>
         <LastUpdated>2020-07-31</LastUpdated>
