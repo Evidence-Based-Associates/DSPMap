@@ -8716,27 +8716,6 @@
             <FIPs travelReq="N">51775</FIPs>
         </Service>
     </Provider>
-    <Provider id="100">
-        <Name>Kardia Health Services</Name>
-        <LastUpdated>2018-10-24</LastUpdated>
-        <MapZoom>2</MapZoom>
-        <Website/>
-        <ContactName>Bill McFeature, Cinthia McFeature</ContactName>
-        <ContactEmail>cinthiamcfeature@ymail.com</ContactEmail>
-        <Office>
-            <Lat>36.83284039999999</Lat>
-            <Lng>-81.51725520000002</Lng>
-            <Street>123 S. Chestnut St</Street>
-            <City>Marion</City>
-            <State>VA</State>
-            <Zip>24354</Zip>
-            <Phone>276-329-5422</Phone>
-            <Fax/>
-        </Office>
-        <Service serviceName="Psychological" serviceZoom="2">
-            <FIPs travelReq="N">51173</FIPs>
-        </Service>
-    </Provider>
     <Provider id="102">
         <Name>Therapeutic Alliance Services</Name>
         <LastUpdated>2018-10-24</LastUpdated>
