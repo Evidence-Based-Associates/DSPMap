@@ -6375,6 +6375,48 @@
             <FIPs travelReq="N">51143</FIPs>
         </Service>
     </Provider>
+    <Provider id="17">
+        <Name>Danville-Pittsylvania Community Services</Name>
+        <LastUpdated>2021-06-03</LastUpdated>
+        <MapZoom>2</MapZoom>
+        <Website>www.dpcs.org/</Website>
+        <ContactName>Veronica Pannell</ContactName>
+        <ContactEmail>vonsurez-pannell@dpcs.org</ContactEmail>
+        <Office>
+            <Lat>36.5971182</Lat>
+            <Lng>-79.41627609999999</Lng>
+            <Street>245 Hairston St.</Street>
+            <City>Danville</City>
+            <State>VA</State>
+            <Zip>24540</Zip>
+            <Phone>434.799.0456</Phone>
+            <Fax/>
+        </Office>
+        <Service serviceName="HFW Intensive Care Coordination" serviceZoom="2">
+            <FIPs travelReq="N">51590</FIPs>
+            <FIPs travelReq="N">51143</FIPs>
+        </Service>
+        <Service serviceName="Outpatient Services" serviceZoom="2">
+            <FIPs travelReq="N" languages="Spanish">51590</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51143</FIPs>
+        </Service>
+        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="2">
+            <FIPs travelReq="N">51590</FIPs>
+            <FIPs travelReq="N">51143</FIPs>
+        </Service>
+        <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="2">
+            <FIPs travelReq="N" languages="Spanish">51590</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51143</FIPs>
+        </Service>
+        <Service serviceName="Outpatient Substance Abuse" serviceZoom="2">
+            <FIPs travelReq="N" languages="Spanish">51590</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51143</FIPs>
+        </Service>
+        <Service serviceName="Other Assessment / Evaluation" serviceZoom="2">
+            <FIPs travelReq="N">51590</FIPs>
+            <FIPs travelReq="N">51143</FIPs>
+        </Service>
+    </Provider>
     <Provider id="18">
         <Name>Youth Connect</Name>
         <LastUpdated>2021-03-01</LastUpdated>
