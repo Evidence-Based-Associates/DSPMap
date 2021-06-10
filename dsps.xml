@@ -7455,7 +7455,7 @@
     </Provider>
     <Provider id="28">
         <Name>Forensic Psychology Associates</Name>
-        <LastUpdated>2018-02-16</LastUpdated>
+        <LastUpdated>2021-06-10</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.psylaw.com</Website>
         <ContactName>Evan S. Nelson, Ph.D.</ContactName>
@@ -7467,8 +7467,8 @@
             <City>Midlothian</City>
             <State>VA</State>
             <Zip>23112</Zip>
-            <Phone>(804) 739.4669</Phone>
-            <Fax/>
+            <Phone>(804) 739-4669</Phone>
+            <Fax>(804) 739-6725</Fax>
         </Office>
         <Service serviceName="Psychological" serviceZoom="-1">
             <FIPs travelReq="N">51830</FIPs>
