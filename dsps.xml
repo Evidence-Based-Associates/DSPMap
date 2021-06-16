@@ -3874,7 +3874,7 @@
     </Provider>
     <Provider id="45">
         <Name>Family Preservation Services, Inc.</Name>
-        <LastUpdated>2021-03-22</LastUpdated>
+        <LastUpdated>2021-06-14</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.fpscorp.com</Website>
         <ContactName>Tami King</ContactName>
@@ -4475,6 +4475,11 @@
             <FIPs travelReq="N">51071</FIPs>
             <FIPs travelReq="N">51750</FIPs>
             <FIPs travelReq="N">51121</FIPs>
+        </Service>
+        <Service serviceName="HFW Intensive Care Coordination" serviceZoom="2">
+            <FIPs travelReq="N">51185</FIPs>
+            <FIPs travelReq="N">51027</FIPs>
+            <FIPs travelReq="N">51167</FIPs>
         </Service>
     </Provider>
     <Provider id="48">
