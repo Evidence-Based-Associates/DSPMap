@@ -6687,52 +6687,6 @@
             <FIPs travelReq="Y">51031</FIPs>
         </Service>
     </Provider>
-    <Provider id="25">
-        <Name>Bridgewater Counseling Services</Name>
-        <LastUpdated>2019-10-24</LastUpdated>
-        <MapZoom>-1</MapZoom>
-        <Website>bridgewater-counseling-services.business.site/</Website>
-        <ContactName>Scott Mandeville, LCSW, CSOTP</ContactName>
-        <ContactEmail/>
-        <Office>
-            <Lat>38.3832727</Lat>
-            <Lng>-78.97809889999996</Lng>
-            <Street>108 West College Street</Street>
-            <City>Bridgewater</City>
-            <State>VA</State>
-            <Zip>22812</Zip>
-            <Phone>(540) 828-3663</Phone>
-            <Fax/>
-        </Office>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="-1">
-            <FIPs travelReq="N">51790</FIPs>
-            <FIPs travelReq="N">51015</FIPs>
-            <FIPs travelReq="N">51165</FIPs>
-            <FIPs travelReq="N">51660</FIPs>
-            <FIPs travelReq="N">51820</FIPs>
-        </Service>
-        <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="-1">
-            <FIPs travelReq="N">51790</FIPs>
-            <FIPs travelReq="N">51015</FIPs>
-            <FIPs travelReq="N">51165</FIPs>
-            <FIPs travelReq="N">51660</FIPs>
-            <FIPs travelReq="N">51820</FIPs>
-        </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="-1">
-            <FIPs travelReq="N">51790</FIPs>
-            <FIPs travelReq="N">51015</FIPs>
-            <FIPs travelReq="N">51165</FIPs>
-            <FIPs travelReq="N">51660</FIPs>
-            <FIPs travelReq="N">51820</FIPs>
-        </Service>
-        <Service serviceName="Other Assessment / Evaluation" serviceZoom="-1">
-            <FIPs travelReq="N">51790</FIPs>
-            <FIPs travelReq="N">51015</FIPs>
-            <FIPs travelReq="N">51165</FIPs>
-            <FIPs travelReq="N">51660</FIPs>
-            <FIPs travelReq="N">51820</FIPs>
-        </Service>
-    </Provider>
     <Provider id="29">
         <Name>Harbor Point Behavioral Health Center, Inc.</Name>
         <LastUpdated>2018-08-27</LastUpdated>
