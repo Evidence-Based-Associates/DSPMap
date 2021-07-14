@@ -4922,7 +4922,7 @@
     </Provider>
     <Provider id="54">
         <Name>UMFS</Name>
-        <LastUpdated>2019-10-02</LastUpdated>
+        <LastUpdated>2021-07-13</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.umfs.org</Website>
         <ContactName>Dani Halbleib</ContactName>
@@ -5212,9 +5212,8 @@
             <FIPs travelReq="Y">51193</FIPs>
             <FIPs travelReq="Y">51159</FIPs>
             <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="Y">51760</FIPs>
             <FIPs travelReq="N">51057</FIPs>
-        </Service>
+        <FIPs travelReq="N">51760</FIPs><FIPs travelReq="Y">51570</FIPs><FIPs travelReq="Y">51041</FIPs><FIPs travelReq="Y">51730</FIPs><FIPs travelReq="Y">51061</FIPs><FIPs travelReq="Y">51013</FIPs></Service>
     </Provider>
     <Provider id="55">
         <Name>Virginia Family Services</Name>
