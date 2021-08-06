@@ -6261,7 +6261,7 @@
     </Provider>
     <Provider id="15">
         <Name>The Choice Group</Name>
-        <LastUpdated>2020-11-05</LastUpdated>
+        <LastUpdated>2021-08-05</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.thechoicegroup.com</Website>
         <ContactName>Karen Melville</ContactName>
@@ -6276,29 +6276,19 @@
             <Phone>(804) 278-9151</Phone>
             <Fax>(804) 278-9221</Fax>
         </Office>
-        <Office>
-            <Lat>37.3044517</Lat>
-            <Lng>-78.4077729</Lng>
-            <Street>1012 W 3rd St </Street>
-            <City>Farmville</City>
-            <State>VA</State>
-            <Zip>23901</Zip>
-            <Phone>434-395-1200</Phone>
-            <Fax/>
-        </Office>
         <Service serviceName="Vocational / Employment Service" serviceZoom="-1">
             <FIPs travelReq="N" languages="Spanish, Farsi">51013</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51610</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51510</FIPs>
-            <FIPs travelReq="N" languages="Spanish, Farsi">51059</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Spanish, ">51059</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51600</FIPs>
-            <FIPs travelReq="N" languages="Spanish, Farsi">51061</FIPs>
-            <FIPs travelReq="N">51157</FIPs>
-            <FIPs travelReq="N" languages="Sign Language">51043</FIPs>
+            <FIPs travelReq="N" languages="Sign Language, Farsi, Spanish, ">51061</FIPs>
+            <FIPs travelReq="N" languages="Sign Language, Farsi, Spanish, ">51157</FIPs>
+            <FIPs travelReq="N" languages="Sign Language, Farsi, Spanish, ">51043</FIPs>
             <FIPs travelReq="N" languages="Sign Language">51069</FIPs>
-            <FIPs travelReq="N">51660</FIPs>
-            <FIPs travelReq="N">51139</FIPs>
-            <FIPs travelReq="N" languages="Sign Language">51187</FIPs>
+            <FIPs travelReq="N" languages="Sign Language">51660</FIPs>
+            <FIPs travelReq="N" languages="Sign Language">51139</FIPs>
+            <FIPs travelReq="N" languages="Sign Language, Farsi, Spanish, ">51187</FIPs>
             <FIPs travelReq="N" languages="Sign Language">51840</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51683</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51153</FIPs>
@@ -6354,12 +6344,12 @@
             <FIPs travelReq="N">51800</FIPs>
             <FIPs travelReq="N">51700</FIPs>
             <FIPs travelReq="N">51650</FIPs>
-            <FIPs travelReq="N" languages="Sign Language">51161</FIPs>
-            <FIPs travelReq="N" languages="Sign Language">51770</FIPs>
+            <FIPs travelReq="N" languages="">51161</FIPs>
+            <FIPs travelReq="N" languages="">51770</FIPs>
             <FIPs travelReq="N">51690</FIPs>
             <FIPs travelReq="N">51089</FIPs>
             <FIPs travelReq="N">51590</FIPs>
-            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N" languages="">51067</FIPs>
             <FIPs travelReq="N">51015</FIPs>
             <FIPs travelReq="N">51017</FIPs>
             <FIPs travelReq="N">51005</FIPs>
@@ -6391,11 +6381,11 @@
             <FIPs travelReq="N">51115</FIPs>
             <FIPs travelReq="N">51019</FIPs>
             <FIPs travelReq="N">51031</FIPs>
-            <FIPs travelReq="N">51171</FIPs>
-            <FIPs travelReq="N">51165</FIPs>
+            <FIPs travelReq="N" languages="Sign Language">51171</FIPs>
+            <FIPs travelReq="N" languages="Sign Language">51165</FIPs>
             <FIPs travelReq="N">51099</FIPs>
-            <FIPs travelReq="N" languages="Spanish, Farsi">51107</FIPs>
-            <FIPs travelReq="N" languages="Sign Language">51775</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Spanish, ">51107</FIPs>
+            <FIPs travelReq="N" languages="">51775</FIPs>
             <FIPs travelReq="N">51143</FIPs>
         </Service>
     </Provider>
