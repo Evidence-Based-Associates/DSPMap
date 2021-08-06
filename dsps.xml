@@ -3016,7 +3016,7 @@
     </Provider>
     <Provider id="39">
         <Name>National Counseling Group</Name>
-        <LastUpdated>2021-05-10</LastUpdated>
+        <LastUpdated>2021-08-06</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>ncgcommunity.com</Website>
         <ContactName>Call center</ContactName>
@@ -3192,16 +3192,6 @@
             <Fax>(757) 442-6749</Fax>
         </Office>
         <Office>
-            <Lat>38.919</Lat>
-            <Lng>-78.191</Lng>
-            <Street>134 Peyton Street, Unit A</Street>
-            <City>Front Royal</City>
-            <State>VA</State>
-            <Zip>22630</Zip>
-            <Phone>(540) 636-4400</Phone>
-            <Fax>(540) 636-4426</Fax>
-        </Office>
-        <Office>
             <Lat>37.363991</Lat>
             <Lng>-79.24615010000002</Lng>
             <Street>201 Archway Ct</Street>
@@ -3259,16 +3249,6 @@
             <State>VA</State>
             <Zip>24210</Zip>
             <Phone>276-226-2828</Phone>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>36.953333</Lat>
-            <Lng>-81.09672069999999</Lng>
-            <Street>710 Westridge Road Suite C</Street>
-            <City>Wytheville </City>
-            <State>VA</State>
-            <Zip>24382</Zip>
-            <Phone>276-226-2829</Phone>
             <Fax/>
         </Office>
         <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="1">
@@ -3663,10 +3643,10 @@
             <FIPs travelReq="N">51153</FIPs>
             <FIPs travelReq="N">51683</FIPs>
             <FIPs travelReq="N">51061</FIPs>
-            <FIPs travelReq="N">51630</FIPs>
-            <FIPs travelReq="Y">51069</FIPs>
-            <FIPs travelReq="Y">51840</FIPs>
-            <FIPs travelReq="N">51043</FIPs>
+            <FIPs travelReq="Y">51630</FIPs>
+
+
+            <FIPs travelReq="Y">51043</FIPs>
             <FIPs travelReq="N">51109</FIPs>
             <FIPs travelReq="N">51065</FIPs>
             <FIPs travelReq="N">51003</FIPs>
@@ -3675,10 +3655,10 @@
             <FIPs travelReq="N">51137</FIPs>
             <FIPs travelReq="N">51113</FIPs>
             <FIPs travelReq="N">51047</FIPs>
-            <FIPs travelReq="N">51177</FIPs>
-            <FIPs travelReq="Y">51085</FIPs>
-            <FIPs travelReq="N">51075</FIPs>
-            <FIPs travelReq="N">51125</FIPs>
+            <FIPs travelReq="Y">51177</FIPs>
+
+            <FIPs travelReq="Y">51075</FIPs>
+            <FIPs travelReq="Y">51125</FIPs>
             <FIPs travelReq="N">51790</FIPs>
             <FIPs travelReq="N">51820</FIPs>
             <FIPs travelReq="Y">51145</FIPs>
@@ -3698,20 +3678,15 @@
             <FIPs travelReq="N">51185</FIPs>
             <FIPs travelReq="N">51173</FIPs>
             <FIPs travelReq="N">51077</FIPs>
-            <FIPs travelReq="N">51127</FIPs>
-            <FIPs travelReq="N">51036</FIPs>
-            <FIPs travelReq="Y">51097</FIPs>
+            <FIPs travelReq="Y">51127</FIPs>
+            <FIPs travelReq="Y">51036</FIPs>
             <FIPs travelReq="Y">51181</FIPs>
             <FIPs travelReq="Y">51093</FIPs>
-            <FIPs travelReq="Y">51101</FIPs>
-            <FIPs travelReq="Y">51099</FIPs>
-            <FIPs travelReq="N">51021</FIPs>
             <FIPs travelReq="N">51197</FIPs>
             <FIPs travelReq="Y">51035</FIPs>
             <FIPs travelReq="N">51640</FIPs>
-            <FIPs travelReq="Y">51071</FIPs>
-            <FIPs travelReq="N">51179</FIPs>
-        </Service>
+            <FIPs travelReq="Y">51179</FIPs>
+        <FIPs travelReq="N">51165</FIPs><FIPs travelReq="N">51660</FIPs><FIPs travelReq="Y">51139</FIPs><FIPs travelReq="Y">51187</FIPs><FIPs travelReq="Y">51171</FIPs><FIPs travelReq="Y">51157</FIPs><FIPs travelReq="N">51021</FIPs></Service>
         <Service serviceName="Functional Family Therapy (FFT)" serviceZoom="0">
             <FIPs travelReq="N" languages="Spanish">51683</FIPs>
             <FIPs travelReq="N" languages="Spanish">51153</FIPs>
@@ -3722,8 +3697,7 @@
             <FIPs travelReq="N" languages="Spanish">51013</FIPs>
             <FIPs travelReq="N" languages="Spanish">51610</FIPs>
             <FIPs travelReq="N" languages="Spanish">51107</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51061</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51157</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51061</FIPs>
             <FIPs travelReq="N">51105</FIPs>
             <FIPs travelReq="N">51169</FIPs>
             <FIPs travelReq="N">51195</FIPs>
@@ -3747,7 +3721,7 @@
             <FIPs travelReq="N" languages="Spanish">51840</FIPs>
             <FIPs travelReq="Y">51139</FIPs>
             <FIPs travelReq="N" languages="Spanish">51179</FIPs>
-            <FIPs travelReq="Y" languages="Spanish">51047</FIPs>
+
             <FIPs travelReq="N" languages="Spanish">51630</FIPs>
         </Service>
         <Service serviceName="GPS / EM" serviceZoom="1">
