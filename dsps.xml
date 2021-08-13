@@ -1416,7 +1416,7 @@
     </Provider>
     <Provider id="22">
         <Name>Family Insight, P.C.</Name>
-        <LastUpdated>2021-06-21</LastUpdated>
+        <LastUpdated>2021-08-13</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.familyinsight.net</Website>
         <ContactName>Kirk Dent</ContactName>
@@ -1444,22 +1444,12 @@
         <Office>
             <Lat>37.6089557</Lat>
             <Lng>-77.51361109999999</Lng>
-            <Street>6800 Paragon Place Suite 237</Street>
+            <Street>6800 Paragon Place Suite # 237</Street>
             <City>Richmond</City>
             <State>VA</State>
             <Zip>23230</Zip>
             <Phone>(804) 562-9997</Phone>
             <Fax>(804) 562-9742</Fax>
-        </Office>
-        <Office>
-            <Lat>37.238592</Lat>
-            <Lng>-79.99980599999998</Lng>
-            <Street>3433 Brambleton Ave, Suite 201-A</Street>
-            <City>Roanoke</City>
-            <State>Va</State>
-            <Zip>24018</Zip>
-            <Phone>540/266-7550</Phone>
-            <Fax>540/266-7230</Fax>
         </Office>
         <Office>
             <Lat>37.4180572</Lat>
@@ -1519,6 +1509,26 @@
             <State>VA</State>
             <Zip>24541</Zip>
             <Phone>434-835-4765</Phone>
+            <Fax/>
+        </Office>
+        <Office>
+            <Lat>36.5796578</Lat>
+            <Lng>-79.40205209999999</Lng>
+            <Street>1045 Main Street</Street>
+            <City>Danville</City>
+            <State>VA</State>
+            <Zip>24541</Zip>
+            <Phone>434-835-4765</Phone>
+            <Fax/>
+        </Office>
+        <Office>
+            <Lat>37.0863367</Lat>
+            <Lng>-76.4812115</Lng>
+            <Street>11835 Fishing Point Drive #202</Street>
+            <City>Newport News</City>
+            <State>VA</State>
+            <Zip>23606</Zip>
+            <Phone>757-243-1033</Phone>
             <Fax/>
         </Office>
         <Service serviceName="Outpatient Substance Abuse" serviceZoom="-1">
@@ -1583,7 +1593,6 @@
             <FIPs travelReq="Y">51065</FIPs>
             <FIPs travelReq="N">51087</FIPs>
             <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
             <FIPs travelReq="N">51019</FIPs>
             <FIPs travelReq="N">51530</FIPs>
             <FIPs travelReq="N">51093</FIPs>
@@ -1594,6 +1603,17 @@
             <FIPs travelReq="N">51740</FIPs>
             <FIPs travelReq="N">51800</FIPs>
             <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51145</FIPs>
+            <FIPs travelReq="N">51049</FIPs>
+            <FIPs travelReq="N">51007</FIPs>
+            <FIPs travelReq="Y">51135</FIPs>
+            <FIPs travelReq="Y">51670</FIPs>
+            <FIPs travelReq="N">51041</FIPs>
+            <FIPs travelReq="Y">51149</FIPs>
+            <FIPs travelReq="Y">51053</FIPs>
+            <FIPs travelReq="N">51730</FIPs>
+            <FIPs travelReq="N">51570</FIPs>
+            <FIPs travelReq="Y">51181</FIPs>
         </Service>
         <Service serviceName="Outpatient Services" serviceZoom="-1">
             <FIPs travelReq="N">51610</FIPs>
@@ -1674,6 +1694,14 @@
             <FIPs travelReq="N">51187</FIPs>
             <FIPs travelReq="Y">51181</FIPs>
             <FIPs travelReq="N" languages="Spanish">51087</FIPs>
+            <FIPs travelReq="N">51145</FIPs>
+            <FIPs travelReq="N">51049</FIPs>
+            <FIPs travelReq="N">51029</FIPs>
+            <FIPs travelReq="Y">51047</FIPs>
+            <FIPs travelReq="Y">51139</FIPs>
+            <FIPs travelReq="Y">51670</FIPs>
+            <FIPs travelReq="Y">51149</FIPs>
+            <FIPs travelReq="Y">51730</FIPs>
         </Service>
         <Service serviceName="Casey Life Skills / Mentoring" serviceZoom="-1">
             <FIPs travelReq="N">51610</FIPs>
@@ -1737,7 +1765,6 @@
             <FIPs travelReq="Y">51065</FIPs>
             <FIPs travelReq="N" languages="Spanish">51087</FIPs>
             <FIPs travelReq="N" languages="Spanish">51760</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51041</FIPs>
             <FIPs travelReq="N">51530</FIPs>
             <FIPs travelReq="N">51019</FIPs>
             <FIPs travelReq="N">51093</FIPs>
@@ -1751,6 +1778,16 @@
             <FIPs travelReq="N">51600</FIPs>
             <FIPs travelReq="N">51069</FIPs>
             <FIPs travelReq="Y">51043</FIPs>
+            <FIPs travelReq="N">51145</FIPs>
+            <FIPs travelReq="Y">51049</FIPs>
+            <FIPs travelReq="N">51670</FIPs>
+            <FIPs travelReq="N">51041</FIPs>
+            <FIPs travelReq="Y">51730</FIPs>
+            <FIPs travelReq="N">51570</FIPs>
+            <FIPs travelReq="Y">51149</FIPs>
+            <FIPs travelReq="Y">51171</FIPs>
+            <FIPs travelReq="Y">51187</FIPs>
+            <FIPs travelReq="Y">51165</FIPs>
         </Service>
         <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="-1">
             <FIPs travelReq="N">51610</FIPs>
