@@ -105,16 +105,6 @@ const CSU20 = {
     name: "District 20 - Loudoun",
     slug: "CSU20"
 };
-var CSU20L = {
-    localities: ["51107"],
-    name: "District 20L - Loudoun",
-    slug: "CSU20L"
-};
-var CSU20W = {
-    localities: ["51061","51157"],
-    name: "District 20W - Warrenton",
-    slug: "CSU20W"
-};
 var CSU26 = {
     localities: ["51043","51069","51139","51165","51171","51187","51660","51840"],
     name: "District 26 - Winchester",
