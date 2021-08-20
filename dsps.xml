@@ -937,11 +937,6 @@
             <FIPs travelReq="Y">51003</FIPs>
             <FIPs travelReq="Y">51085</FIPs>
         </Service>
-        <Service serviceName="Trauma Assessment" serviceZoom="51540">
-            <FIPs travelReq="N">51195</FIPs>
-            <FIPs travelReq="N">51720</FIPs>
-            <FIPs travelReq="N">51105</FIPs>
-        </Service>
     </Provider>
     <Provider id="16">
         <Name>Dominion Youth Services</Name>
@@ -2142,35 +2137,6 @@
             <FIPs travelReq="N">51131</FIPs>
             <FIPs travelReq="N">51001</FIPs>
         </Service>
-        <Service serviceZoom="-1" serviceName="Trauma Assessment">
-            <!-- CSU9 except Matthews and Middlesex -->
-            <FIPs travelReq="N" languages="Spanish">51073</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51095</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51097</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51101</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51127</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51199</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51735</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51830</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51760</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51710</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51810</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51550</FIPs>
-            <FIPs travelReq="N">51740</FIPs>
-            <FIPs travelReq="N">51650</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51700</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51800</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51670</FIPs>
-            <FIPs travelReq="N">51570</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51041</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51087</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51085</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51149</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51730</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51036</FIPs>
-            <FIPs travelReq="Y" languages="Spanish">51075</FIPs>
-            <FIPs travelReq="Y" languages="Spanish">51109</FIPs>
-        </Service>
         <Service serviceZoom="-1" serviceName="Outpatient YSB Services (CSOTP)">
             <!-- CSU9 except Matthews and Middlesex -->
             <FIPs travelReq="N">51073</FIPs>
@@ -2846,18 +2812,6 @@
             <FIPs travelReq="N">51133</FIPs>
             <FIPs travelReq="N">51193</FIPs>
         </Service>
-        <Service serviceName="Trauma Assessment" serviceZoom="1">
-            <FIPs travelReq="N">51057</FIPs>
-            <FIPs travelReq="N">51101</FIPs>
-            <FIPs travelReq="N">51073</FIPs>
-            <FIPs travelReq="N">51097</FIPs>
-            <FIPs travelReq="N">51103</FIPs>
-            <FIPs travelReq="N">51119</FIPs>
-            <FIPs travelReq="N">51115</FIPs>
-            <FIPs travelReq="N">51159</FIPs>
-            <FIPs travelReq="N">51133</FIPs>
-            <FIPs travelReq="N">51193</FIPs>
-        </Service>
         <Service serviceName="Vocational / Employment Service" serviceZoom="1">
             <FIPs travelReq="N">51057</FIPs>
             <FIPs travelReq="N">51101</FIPs>
@@ -2922,14 +2876,6 @@
             <FIPs travelReq="N">51197</FIPs>
         </Service>
         <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="2">
-            <FIPs travelReq="N">51640</FIPs>
-            <FIPs travelReq="N">51035</FIPs>
-            <FIPs travelReq="N">51077</FIPs>
-            <FIPs travelReq="N">51173</FIPs>
-            <FIPs travelReq="N">51021</FIPs>
-            <FIPs travelReq="N">51197</FIPs>
-        </Service>
-        <Service serviceName="Trauma Assessment" serviceZoom="2">
             <FIPs travelReq="N">51640</FIPs>
             <FIPs travelReq="N">51035</FIPs>
             <FIPs travelReq="N">51077</FIPs>
@@ -4225,73 +4171,6 @@
             <FIPs travelReq="N">51800</FIPs>
             <FIPs travelReq="Y">51131</FIPs>
         </Service>
-        <Service serviceName="Trauma Assessment" serviceZoom="-1">
-            <FIPs travelReq="N">51043</FIPs>
-            <FIPs travelReq="N">51069</FIPs>
-            <FIPs travelReq="N">51139</FIPs>
-            <FIPs travelReq="N">51165</FIPs>
-            <FIPs travelReq="N">51171</FIPs>
-            <FIPs travelReq="N">51187</FIPs>
-            <FIPs travelReq="N">51660</FIPs>
-            <FIPs travelReq="N">51840</FIPs>
-            <FIPs travelReq="N">51685</FIPs>
-            <FIPs travelReq="N">51540</FIPs>
-            <!-- All of CSU24 -->
-            <FIPs travelReq="N">51009</FIPs>
-            <FIPs travelReq="N">51019</FIPs>
-            <FIPs travelReq="N">51031</FIPs>
-            <FIPs travelReq="Y">51125</FIPs>
-            <FIPs travelReq="N">51515</FIPs>
-            <FIPs travelReq="N">51680</FIPs>
-            <!-- All of CSU25 -->
-            <FIPs travelReq="N">51005</FIPs>
-            <FIPs travelReq="N">51015</FIPs>
-            <FIPs travelReq="N">51017</FIPs>
-            <FIPs travelReq="N">51023</FIPs>
-            <FIPs travelReq="N">51045</FIPs>
-            <FIPs travelReq="N">51091</FIPs>
-            <FIPs travelReq="N">51163</FIPs>
-            <FIPs travelReq="N">51530</FIPs>
-            <FIPs travelReq="N">51580</FIPs>
-            <FIPs travelReq="N">51678</FIPs>
-            <FIPs travelReq="N">51790</FIPs>
-            <FIPs travelReq="N">51820</FIPs>
-            <!-- Western Region -->
-            <!-- All of CSU21 -->
-            <FIPs travelReq="Y">51089</FIPs>
-            <FIPs travelReq="Y">51141</FIPs>
-            <FIPs travelReq="Y">51690</FIPs>
-            <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-            <!-- CSU23A Roanoke -->
-            <FIPs travelReq="N">51770</FIPs>
-            <!-- All of CSU27 -->
-            <FIPs travelReq="N">51035</FIPs>
-            <FIPs travelReq="N">51063</FIPs>
-            <FIPs travelReq="N">51077</FIPs>
-            <FIPs travelReq="N">51121</FIPs>
-            <FIPs travelReq="N">51155</FIPs>
-            <FIPs travelReq="N">51197</FIPs>
-            <FIPs travelReq="N">51640</FIPs>
-            <FIPs travelReq="N">51750</FIPs>
-            <!-- All of CSU28 -->
-            <FIPs travelReq="N">51173</FIPs>
-            <FIPs travelReq="N">51191</FIPs>
-            <FIPs travelReq="N">51520</FIPs>
-            <!-- All of CSU29 -->
-            <FIPs travelReq="N">51021</FIPs>
-            <FIPs travelReq="N">51027</FIPs>
-            <FIPs travelReq="N">51051</FIPs>
-            <FIPs travelReq="N">51071</FIPs>
-            <FIPs travelReq="N">51167</FIPs>
-            <FIPs travelReq="N">51185</FIPs>
-            <!-- All of CSU30 -->
-            <FIPs travelReq="N">51105</FIPs>
-            <FIPs travelReq="N">51169</FIPs>
-            <FIPs travelReq="N">51195</FIPs>
-            <FIPs travelReq="N">51720</FIPs>
-            <FIPs travelReq="N">51610</FIPs>
-        </Service>
         <Service serviceName="Outpatient Services" serviceZoom="-1">
             <FIPs travelReq="N">51107</FIPs>
             <FIPs travelReq="N">51043</FIPs>
@@ -4950,26 +4829,6 @@
             <FIPs travelReq="N" languages="Spanish">51013</FIPs>
             <FIPs travelReq="N" languages="Spanish">51610</FIPs>
             <FIPs travelReq="Y" languages="Spanish">51107</FIPs>
-        </Service>
-        <Service serviceName="Trauma Assessment" serviceZoom="0">
-            <FIPs travelReq="N" languages="Spanish">51600</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51059</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51153</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51683</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51685</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51510</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51013</FIPs>
-            <FIPs travelReq="Y" languages="Spanish">51107</FIPs>
-            <FIPs travelReq="Y" languages="Spanish">51061</FIPs>
-            <FIPs travelReq="Y" languages="Spanish">51043</FIPs>
-            <FIPs travelReq="Y" languages="Spanish">51187</FIPs>
-            <FIPs travelReq="Y" languages="Spanish">51069</FIPs>
-            <FIPs travelReq="Y" languages="Spanish">51840</FIPs>
-            <FIPs travelReq="Y" languages="Spanish">51171</FIPs>
-            <FIPs travelReq="Y" languages="Spanish">51139</FIPs>
-            <FIPs travelReq="Y" languages="Spanish">51157</FIPs>
-            <FIPs travelReq="Y">51179</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51610</FIPs>
         </Service>
         <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="0">
             <FIPs travelReq="N">51600</FIPs>
@@ -5632,29 +5491,12 @@
             <Phone/>
             <Fax/>
         </Office>
-        <Service serviceZoom="0" serviceName="Trauma Assessment">
-            <FIPs travelReq="N" languages="Spanish">51013</FIPs>
-            <FIPs travelReq="N">51610</FIPs>
-            <FIPs travelReq="N">51510</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51059</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51107</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51061</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51683</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51153</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51685</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51600</FIPs>
-        </Service>
         <Service serviceZoom="0" serviceName="Outpatient YSB Services (CSOTP)">
-
-
-
-
             <FIPs travelReq="Y">51107</FIPs>
             <FIPs travelReq="Y">51061</FIPs>
             <FIPs travelReq="N">51683</FIPs>
             <FIPs travelReq="N">51153</FIPs>
             <FIPs travelReq="N">51685</FIPs>
-
         </Service>
         <Service serviceZoom="0" serviceName="Outpatient Services">
             <FIPs travelReq="N">51013</FIPs>
@@ -6122,50 +5964,6 @@
             <FIPs travelReq="Y">51678</FIPs>
             <FIPs travelReq="Y">51163</FIPs>
             <FIPs travelReq="Y">51079</FIPs>
-        </Service>
-        <Service serviceName="Trauma Assessment" serviceZoom="-1">
-            <FIPs travelReq="N">51105</FIPs>
-            <FIPs travelReq="N">51169</FIPs>
-            <FIPs travelReq="N">51191</FIPs>
-            <FIPs travelReq="N">51520</FIPs>
-            <FIPs travelReq="N">51195</FIPs>
-            <FIPs travelReq="N">51720</FIPs>
-            <FIPs travelReq="N">51540</FIPs>
-            <FIPs travelReq="N">51003</FIPs>
-            <FIPs travelReq="N">51109</FIPs>
-            <FIPs travelReq="N">51047</FIPs>
-            <FIPs travelReq="Y">51630</FIPs>
-            <FIPs travelReq="Y">51179</FIPs>
-            <FIPs travelReq="Y">51177</FIPs>
-            <FIPs travelReq="N">51059</FIPs>
-            <FIPs travelReq="N">51600</FIPs>
-            <FIPs travelReq="N">51510</FIPs>
-            <FIPs travelReq="Y">51683</FIPs>
-            <FIPs travelReq="Y">51153</FIPs>
-            <FIPs travelReq="Y">51061</FIPs>
-            <FIPs travelReq="N">51051</FIPs>
-            <FIPs travelReq="N">51167</FIPs>
-            <FIPs travelReq="Y">51185</FIPs>
-            <FIPs travelReq="Y">51197</FIPs>
-            <FIPs travelReq="N">51173</FIPs>
-            <FIPs travelReq="Y">51027</FIPs>
-            <FIPs travelReq="N">51065</FIPs>
-            <FIPs travelReq="N">51137</FIPs>
-            <FIPs travelReq="N">51015</FIPs>
-            <FIPs travelReq="N">51820</FIPs>
-            <FIPs travelReq="N">51790</FIPs>
-            <FIPs travelReq="N">51125</FIPs>
-            <FIPs travelReq="N">51610</FIPs>
-            <FIPs travelReq="N">51013</FIPs>
-            <FIPs travelReq="N">51157</FIPs>
-            <FIPs travelReq="N">51113</FIPs>
-            <FIPs travelReq="Y">51685</FIPs>
-            <FIPs travelReq="N">51165</FIPs>
-            <FIPs travelReq="N">51660</FIPs>
-            <FIPs travelReq="N">51139</FIPs>
-            <FIPs travelReq="Y">51530</FIPs>
-            <FIPs travelReq="Y">51678</FIPs>
-            <FIPs travelReq="Y">51163</FIPs>
         </Service>
         <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="-1">
             <FIPs travelReq="N">51105</FIPs>
@@ -8392,9 +8190,6 @@
             <FIPs travelReq="N">51510</FIPs>
         </Service>
         <Service serviceName="Trauma-Focused Cognitive Behavioral Therapy (TF-CBT)" serviceZoom="0">
-            <FIPs travelReq="N" languages="Spanish, Amharic">51510</FIPs>
-        </Service>
-        <Service serviceName="Trauma Assessment" serviceZoom="0">
             <FIPs travelReq="N" languages="Spanish, Amharic">51510</FIPs>
         </Service>
     </Provider>
