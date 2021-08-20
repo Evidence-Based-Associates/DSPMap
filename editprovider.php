@@ -68,7 +68,6 @@ var approvedServiceNames = ["Casey Life Skills / Mentoring",
                             "Outpatient Services",
                             "Outpatient Substance Abuse",
                             "Outpatient YSB Services (CSOTP)",
-                            "Trauma Assessment",
                             "Trauma-Focused Cognitive Behavioral Therapy (TF-CBT)",
                             "Vocational / Employment Service",
                             "Residential Services",
@@ -79,7 +78,6 @@ var approvedServiceNames = ["Casey Life Skills / Mentoring",
                             "Skills Coaching Group",
                             "Specialized Individual Therapy (DBT/ EMDR)",
                             "Substance Abuse Evaluation",
-                            "Treatment Foster Care",
                             "Translation / Interpretation"];
 approvedServiceNames.sort();
 //List of providers from data file for provider select drop down box.
