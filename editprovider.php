@@ -52,25 +52,25 @@ var pID;
 var thisXML = dspsXML; 
     
 //approved service names for drop-down selection
-var approvedServiceNames = ["Casey Life Skills / Mentoring",
+var approvedServiceNames = ["Skills Coaching (e.g. Casey Life Skills)",
                             "Gang Intervention",
-                            "GPS / EM",
+                            "Electronic Monitoring",
                             "Home-Based Service / Intensive In-Home",
                             "HFW Intensive Care Coordination",
                             "Family Partnership Meeting",
-                            "Family Support Partner",
+                            "ICC Family Support Partner",
                             "Functional Family Therapy (FFT)",
-                            "Groups",
-                            "Multisystemic Therapy (MST)",
-                            "Other Assessment / Evaluation",
-                            "Psychological",
+                            "Clinical Group",
+                            "Multi-Systemic Therapy (MST)",
+                            "Mental Health Evaluation",
+                            "Psychological Evaluation",
                             "Psycho-Sexual Evaluation",
-                            "Outpatient Services",
-                            "Outpatient Substance Abuse",
-                            "Outpatient YSB Services (CSOTP)",
+                            "Individual/ Family Counseling",
+                            "Substance Abuse Service",
+                            "Youth with Sexualized Behaviors Treatment",
                             "Trauma-Focused Cognitive Behavioral Therapy (TF-CBT)",
-                            "Vocational / Employment Service",
-                            "Residential Services",
+                            "Job Readiness and Employment Service",
+                            "Residential Group Home",
                             "Residential Services (18+)",
                             "Residential Independent Living",
                             "Residential Treatment Center",
@@ -78,7 +78,7 @@ var approvedServiceNames = ["Casey Life Skills / Mentoring",
                             "Skills Coaching Group",
                             "Specialized Individual Therapy (DBT/ EMDR)",
                             "Substance Abuse Evaluation",
-                            "Translation / Interpretation"];
+                            "Language Services"];
 approvedServiceNames.sort();
 //List of providers from data file for provider select drop down box.
 var providers = dspsXML.getElementsByTagName("Provider");
