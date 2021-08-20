@@ -3051,812 +3051,922 @@
             <FIPs travelReq="N">51197</FIPs>
         </Service>
     </Provider>
-    <Provider id="39">
-        <Name>National Counseling Group</Name>
-        <LastUpdated>2021-08-06</LastUpdated>
-        <MapZoom>-1</MapZoom>
-        <Website>ncgcommunity.com</Website>
-        <ContactName>Call center</ContactName>
-        <ContactEmail>carecenter@ncgcare.com</ContactEmail>
-        <Office>
-            <Lat>37.6021301</Lat>
-            <Lng>-77.50775729999998</Lng>
-            <Street>5540 Falmouth Street; 2nd Floor</Street>
-            <City>Richmond</City>
-            <State>VA</State>
-            <Zip>23230</Zip>
-            <Phone>(877) 566-9624</Phone>
-            <Fax>(804) 433-3531</Fax>
-        </Office>
-        <Office>
-            <Lat>38.126</Lat>
-            <Lng>-78.223</Lng>
-            <Street>13230 Lovers Lane</Street>
-            <City>Culpeper</City>
-            <State>VA</State>
-            <Zip>22701</Zip>
-            <Phone>(540) 825-0705</Phone>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>36.866</Lat>
-            <Lng>-76.408</Lng>
-            <Street>3212 Churchland Blvd Suite 6</Street>
-            <City>Chesapeake</City>
-            <State>VA</State>
-            <Zip>23321</Zip>
-            <Phone>(757) 325-9570</Phone>
-            <Fax>(757) 966-5025</Fax>
-        </Office>
-        <Office>
-            <Lat>36.614</Lat>
-            <Lng>-79.407</Lng>
-            <Street>151 Deer Run Road</Street>
-            <City>Danville</City>
-            <State>VA</State>
-            <Zip>24540</Zip>
-            <Phone>(276) 638-8000</Phone>
-            <Fax>(276) 638-8006</Fax>
-        </Office>
-        <Office>
-            <Lat>38.246</Lat>
-            <Lng>-77.513</Lng>
-            <Street>10712 Ballantraye Dr. Suite 312</Street>
-            <City>Fredericksburg</City>
-            <State>VA</State>
-            <Zip>22407</Zip>
-            <Phone>(540) 446-0007</Phone>
-            <Fax>(540) 710-9299</Fax>
-        </Office>
-        <Office>
-            <Lat>38.428</Lat>
-            <Lng>-78.848</Lng>
-            <Street>1951-B Evelyn Byrd Avenue</Street>
-            <City>Harrisonburg</City>
-            <State>VA</State>
-            <Zip>22801</Zip>
-            <Phone>(540) 437-0403</Phone>
-            <Fax>(540) 437-0421</Fax>
-        </Office>
-        <Office>
-            <Lat>36.688</Lat>
-            <Lng>-79.855</Lng>
-            <Street>730 East Church Street Suite 24</Street>
-            <City>Martinsville</City>
-            <State>VA</State>
-            <Zip>24112</Zip>
-            <Phone>(276) 638-8000</Phone>
-            <Fax>(276) 638-8006</Fax>
-        </Office>
-        <Office>
-            <Lat>37.202</Lat>
-            <Lng>-77.381</Lng>
-            <Street>21 Walnut Boulevard Suites 1-3</Street>
-            <City>Petersburg</City>
-            <State>VA</State>
-            <Zip>23805</Zip>
-            <Phone>804) 767-3470</Phone>
-            <Fax>(804) 490-0150</Fax>
-        </Office>
-        <Office>
-            <Lat>38.159</Lat>
-            <Lng>-79.063</Lng>
-            <Street>512 B North Coalter Street</Street>
-            <City>Staunton</City>
-            <State>VA</State>
-            <Zip>24401</Zip>
-            <Phone>(540) 213-8470</Phone>
-            <Fax>(540) 437-0421</Fax>
-        </Office>
-        <Office>
-            <Lat>36.84663810000001</Lat>
-            <Lng>-76.18774730000001</Lng>
-            <Street>6345 Center Drive. Bldg 14</Street>
-            <City>Norfolk</City>
-            <State>VA</State>
-            <Zip>23502</Zip>
-            <Phone>(757) 467-8184</Phone>
-            <Fax>(757) 467-2485</Fax>
-        </Office>
-        <Office>
-            <Lat>38.888</Lat>
-            <Lng>-78.501</Lng>
-            <Street>505 North Main Street Suite 101</Street>
-            <City>Woodstock</City>
-            <State>VA</State>
-            <Zip>22664</Zip>
-            <Phone>(540) 409-4920</Phone>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>37.578497</Lat>
-            <Lng>-77.49895900000001</Lng>
-            <Street>5014 Monument Ave</Street>
-            <City>Richmond</City>
-            <State>VA</State>
-            <Zip>23230</Zip>
-            <Phone>(804) 497-4676</Phone>
-            <Fax>(804) 497-4677</Fax>
-        </Office>
-        <Office>
-            <Lat>38.833</Lat>
-            <Lng>-77.209</Lng>
-            <Street>7620 Little River Tpke Suite 402</Street>
-            <City>Annandale</City>
-            <State>VA</State>
-            <Zip>22003</Zip>
-            <Phone>(703) 813-5982</Phone>
-            <Fax>(703) 813-5986</Fax>
-        </Office>
-        <Office>
-            <Lat>38.766</Lat>
-            <Lng>-77.479</Lng>
-            <Street>9301 Forest Point Cir</Street>
-            <City>Manassas</City>
-            <State>VA</State>
-            <Zip>20110</Zip>
-            <Phone>(703) 257-5997</Phone>
-            <Fax>(703) 257-7518</Fax>
-        </Office>
-        <Office>
-            <Lat>38.084489</Lat>
-            <Lng>-78.47806170000001</Lng>
-            <Street>696 Berkmar Circle, Suite 3B</Street>
-            <City>Charlottesville</City>
-            <State>VA</State>
-            <Zip>22901</Zip>
-            <Phone>(434) 260-7877</Phone>
-            <Fax>(434) 202-2181</Fax>
-        </Office>
-        <Office>
-            <Lat>37.1421894</Lat>
-            <Lng>-80.40506449999998</Lng>
-            <Street>930 Cambria St NE</Street>
-            <City>Christiansburg</City>
-            <State>VA</State>
-            <Zip>24073</Zip>
-            <Phone>(540) 602-3021</Phone>
-            <Fax>(540) 382-1972</Fax>
-        </Office>
-        <Office>
-            <Lat>37.516</Lat>
-            <Lng>-75.833</Lng>
-            <Street>4376 Lankford Highway Suite 2</Street>
-            <City>Exmore</City>
-            <State>VA</State>
-            <Zip>23350</Zip>
-            <Phone>(757) 442-6746</Phone>
-            <Fax>(757) 442-6749</Fax>
-        </Office>
-        <Office>
-            <Lat>37.363991</Lat>
-            <Lng>-79.24615010000002</Lng>
-            <Street>201 Archway Ct</Street>
-            <City>Lynchburg</City>
-            <State>VA</State>
-            <Zip>24502</Zip>
-            <Phone>(434) 382-1642</Phone>
-            <Fax>(434) 384-3006</Fax>
-        </Office>
-        <Office>
-            <Lat>37.083</Lat>
-            <Lng>-76.478</Lng>
-            <Street>610 Thimble Shoals Blvd, Suite 303B</Street>
-            <City>Newport News</City>
-            <State>VA</State>
-            <Zip>23606</Zip>
-            <Phone>(757) 240-5595</Phone>
-            <Fax>(757) 240-5596</Fax>
-        </Office>
-        <Office>
-            <Lat>37.224</Lat>
-            <Lng>-79.987</Lng>
-            <Street>3912 Electric Road Building C</Street>
-            <City>Roanoke</City>
-            <State>VA</State>
-            <Zip>24018</Zip>
-            <Phone>(540) 776-0716</Phone>
-            <Fax>(540) 776-0717</Fax>
-        </Office>
-        <Office>
-            <Lat>36.729</Lat>
-            <Lng>-76.596</Lng>
-            <Street>707 Gittings Street Suite 100</Street>
-            <City>Suffolk</City>
-            <State>VA</State>
-            <Zip>23434</Zip>
-            <Phone>(757) 847-9386</Phone>
-            <Fax>(757) 975-8034</Fax>
-        </Office>
-        <Office>
-            <Lat>39.163</Lat>
-            <Lng>-78.191</Lng>
-            <Street>817 Cedar Creek Grade, Suite 202</Street>
-            <City>Winchester</City>
-            <State>VA</State>
-            <Zip>22601</Zip>
-            <Phone>(540) 450-2734</Phone>
-            <Fax>(540) 450-2735</Fax>
-        </Office>
-        <Office>
-            <Lat>36.7148886</Lat>
-            <Lng>-81.9613215</Lng>
-            <Street>492 East Main Street</Street>
-            <City>Abingdon</City>
-            <State>VA</State>
-            <Zip>24210</Zip>
-            <Phone>276-226-2828</Phone>
-            <Fax/>
-        </Office>
-        <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="1">
-            <FIPs travelReq="N">51095</FIPs>
-            <FIPs travelReq="N">51199</FIPs>
-            <FIPs travelReq="N">51830</FIPs>
-            <FIPs travelReq="N">51735</FIPs>
-            <FIPs travelReq="N">51073</FIPs>
-            <FIPs travelReq="N">51700</FIPs>
-            <FIPs travelReq="N">51650</FIPs>
-            <FIPs travelReq="N">51710</FIPs>
-            <FIPs travelReq="N">51810</FIPs>
-            <FIPs travelReq="N">51059</FIPs>
-            <FIPs travelReq="N">51600</FIPs>
-            <FIPs travelReq="N">51510</FIPs>
-            <FIPs travelReq="N">51013</FIPs>
-            <FIPs travelReq="N">51610</FIPs>
-            <FIPs travelReq="N">51107</FIPs>
-            <FIPs travelReq="N">51153</FIPs>
-            <FIPs travelReq="N">51683</FIPs>
-            <FIPs travelReq="N">51061</FIPs>
-            <FIPs travelReq="Y">51036</FIPs>
-            <FIPs travelReq="N">51179</FIPs>
-            <FIPs travelReq="N">51630</FIPs>
-            <FIPs travelReq="N">51840</FIPs>
-            <FIPs travelReq="N">51043</FIPs>
-            <FIPs travelReq="N">51109</FIPs>
-            <FIPs travelReq="N">51065</FIPs>
-            <FIPs travelReq="N">51003</FIPs>
-            <FIPs travelReq="N">51540</FIPs>
-            <FIPs travelReq="N">51079</FIPs>
-            <FIPs travelReq="N">51137</FIPs>
-            <FIPs travelReq="N">51113</FIPs>
-            <FIPs travelReq="N">51047</FIPs>
-            <FIPs travelReq="N">51177</FIPs>
-            <FIPs travelReq="Y">51085</FIPs>
-            <FIPs travelReq="N">51075</FIPs>
-            <FIPs travelReq="N">51125</FIPs>
-            <FIPs travelReq="N">51790</FIPs>
-            <FIPs travelReq="N">51820</FIPs>
-            <FIPs travelReq="Y">51145</FIPs>
-            <FIPs travelReq="Y">51087</FIPs>
-            <FIPs travelReq="N">51015</FIPs>
-            <FIPs travelReq="N">51740</FIPs>
-            <FIPs travelReq="N">51550</FIPs>
-            <FIPs travelReq="Y">51800</FIPs>
-            <FIPs travelReq="Y">51127</FIPs>
-            <FIPs travelReq="N">51193</FIPs>
-            <FIPs travelReq="N">51187</FIPs>
-            <FIPs travelReq="N">51171</FIPs>
-            <FIPs travelReq="N">51069</FIPs>
-            <FIPs travelReq="N">51157</FIPs>
-            <FIPs travelReq="N">51139</FIPs>
-            <FIPs travelReq="N">51165</FIPs>
-            <FIPs travelReq="N">51660</FIPs>
-            <FIPs travelReq="Y">51099</FIPs>
-            <FIPs travelReq="N">51033</FIPs>
-            <FIPs travelReq="N">51101</FIPs>
-            <FIPs travelReq="N">51097</FIPs>
-            <FIPs travelReq="N">51119</FIPs>
-            <FIPs travelReq="N">51115</FIPs>
-            <FIPs travelReq="N">51009</FIPs>
-            <FIPs travelReq="N">51680</FIPs>
-            <FIPs travelReq="N">51019</FIPs>
-            <FIPs travelReq="N">51031</FIPs>
-            <FIPs travelReq="N">51163</FIPs>
-            <FIPs travelReq="N">51530</FIPs>
-            <FIPs travelReq="N">51023</FIPs>
-            <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
-            <FIPs travelReq="Y">51007</FIPs>
-            <FIPs travelReq="N">51053</FIPs>
-            <FIPs travelReq="N">51730</FIPs>
-            <FIPs travelReq="N">51670</FIPs>
-            <FIPs travelReq="N">51149</FIPs>
-            <FIPs travelReq="Y">51083</FIPs>
-            <FIPs travelReq="N">51590</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="N">51089</FIPs>
-            <FIPs travelReq="N">51690</FIPs>
-            <FIPs travelReq="N">51770</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-            <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="N">51121</FIPs>
-            <FIPs travelReq="N">51750</FIPs>
-            <FIPs travelReq="N">51155</FIPs>
-            <FIPs travelReq="N">51197</FIPs>
-            <FIPs travelReq="N">51035</FIPs>
-            <FIPs travelReq="N">51063</FIPs>
-            <FIPs travelReq="N">51141</FIPs>
-            <FIPs travelReq="N">51640</FIPs>
-            <FIPs travelReq="N">51077</FIPs>
-            <FIPs travelReq="N">51173</FIPs>
-            <FIPs travelReq="N">51021</FIPs>
-            <FIPs travelReq="N">51071</FIPs>
-            <FIPs travelReq="N">51167</FIPs>
-            <FIPs travelReq="N">51191</FIPs>
-            <FIPs travelReq="N">51169</FIPs>
-            <FIPs travelReq="N">51520</FIPs>
-        </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="-1">
-            <!-- Manassas Office -->
-            <FIPs travelReq="N">51153</FIPs>
-            <FIPs travelReq="N">51683</FIPs>
-            <FIPs travelReq="N">51685</FIPs>
-            <FIPs travelReq="N">51107</FIPs>
-            <!-- Winchester Office -->
-            <FIPs travelReq="N">51840</FIPs>
-            <FIPs travelReq="N">51043</FIPs>
-            <FIPs travelReq="N">51069</FIPs>
-            <!-- Woodstock Office -->
-            <FIPs travelReq="N">51171</FIPs>
-            <!-- Front Royal Office -->
-            <FIPs travelReq="N">51187</FIPs>
-            <!-- Culpepper office -->
-            <FIPs travelReq="N">51047</FIPs>
-            <FIPs travelReq="N">51061</FIPs>
-            <FIPs travelReq="N">51137</FIPs>
-            <FIPs travelReq="N">51113</FIPs>
-            <FIPs travelReq="N">51157</FIPs>
-            <!-- Charlottesville Office -->
-            <FIPs travelReq="N">51540</FIPs>
-            <FIPs travelReq="N">51003</FIPs>
-            <FIPs travelReq="N">51109</FIPs>
-            <FIPs travelReq="N">51065</FIPs>
-            <FIPs travelReq="N">51079</FIPs>
-            <!-- Christiansburg Office -->
-            <FIPs travelReq="N">51750</FIPs>
-            <FIPs travelReq="N">51121</FIPs>
-            <FIPs travelReq="N">51063</FIPs>
-            <FIPs travelReq="N">51071</FIPs>
-            <FIPs travelReq="N">51155</FIPs>
-            <FIPs travelReq="N">51197</FIPs>
-            <!-- Lynchburg Office -->
-            <FIPs travelReq="N">51680</FIPs>
-            <FIPs travelReq="N">51031</FIPs>
-            <FIPs travelReq="N">51011</FIPs>
-            <FIPs travelReq="N">51019</FIPs>
-            <FIPs travelReq="N">51009</FIPs>
-            <!-- Fredericksburg Office -->
-            <FIPs travelReq="N">51630</FIPs>
-            <FIPs travelReq="N">51177</FIPs>
-            <FIPs travelReq="N">51179</FIPs>
-            <FIPs travelReq="N">51099</FIPs>
-            <FIPs travelReq="N">51033</FIPs>
-            <!-- Richmond Office -->
-            <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="N">51075</FIPs>
-            <FIPs travelReq="N">51145</FIPs>
-            <!-- Petersburg Office -->
-            <FIPs travelReq="N">51730</FIPs>
-            <FIPs travelReq="N">51570</FIPs>
-            <FIPs travelReq="N">51670</FIPs>
-            <FIPs travelReq="N">51149</FIPs>
-            <FIPs travelReq="N">51053</FIPs>
-            <FIPs travelReq="N">51183</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
-            <!-- Newport News Office -->
-            <FIPs travelReq="N">51700</FIPs>
-            <FIPs travelReq="N">51650</FIPs>
-            <FIPs travelReq="N">51735</FIPs>
-            <FIPs travelReq="N">51830</FIPs>
-            <FIPs travelReq="N">51199</FIPs>
-            <FIPs travelReq="N">51095</FIPs>
-            <!-- Chesapeake Office -->
-            <FIPs travelReq="N">51550</FIPs>
-            <FIPs travelReq="N">51740</FIPs>
-            <FIPs travelReq="N">51800</FIPs>
-            <FIPs travelReq="N">51093</FIPs>
-            <!-- Suffolk Office -->
-            <FIPs travelReq="N">51800</FIPs>
-            <!-- Virginia Beach Office -->
-            <FIPs travelReq="N">51710</FIPs>
-            <FIPs travelReq="N">51830</FIPs>
-            <FIPs travelReq="N">51191</FIPs>
-            <FIPs travelReq="N">51167</FIPs>
-            <FIPs travelReq="N">51173</FIPs>
-            <FIPs travelReq="N">51169</FIPs>
-            <FIPs travelReq="N">51077</FIPs>
-        </Service>
-        <Service serviceName="Outpatient Substance Abuse" serviceZoom="-1">
-            <!-- Manassas Office -->
-            <FIPs travelReq="N">51153</FIPs>
-            <FIPs travelReq="N">51683</FIPs>
-            <FIPs travelReq="N">51685</FIPs>
-            <FIPs travelReq="N">51107</FIPs>
-            <!-- Winchester Office -->
-            <FIPs travelReq="N">51840</FIPs>
-            <FIPs travelReq="N">51043</FIPs>
-            <FIPs travelReq="N">51069</FIPs>
-            <!-- Woodstock Office -->
-            <FIPs travelReq="N">51171</FIPs>
-            <!-- Front Royal Office -->
-            <FIPs travelReq="N">51187</FIPs>
-            <!-- Culpepper office -->
-            <FIPs travelReq="N">51047</FIPs>
-            <FIPs travelReq="N">51061</FIPs>
-            <FIPs travelReq="N">51137</FIPs>
-            <FIPs travelReq="N">51113</FIPs>
-            <FIPs travelReq="N">51157</FIPs>
-            <!-- Christiansburg Office -->
-            <FIPs travelReq="N">51750</FIPs>
-            <FIPs travelReq="N">51121</FIPs>
-            <FIPs travelReq="N">51063</FIPs>
-            <FIPs travelReq="N">51071</FIPs>
-            <FIPs travelReq="N">51155</FIPs>
-            <FIPs travelReq="N">51197</FIPs>
-            <!-- Lynchburg Office -->
-            <FIPs travelReq="N">51680</FIPs>
-            <FIPs travelReq="N">51031</FIPs>
-            <FIPs travelReq="N">51011</FIPs>
-            <FIPs travelReq="N">51019</FIPs>
-            <FIPs travelReq="N">51009</FIPs>
-            <!-- Richmond Office -->
-            <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="N">51075</FIPs>
-            <FIPs travelReq="N">51145</FIPs>
-        </Service>
-        <Service serviceName="Casey Life Skills / Mentoring" serviceZoom="-1">
-            <FIPs travelReq="N">51043</FIPs>
-            <FIPs travelReq="N">51069</FIPs>
-            <FIPs travelReq="N">51840</FIPs>
-            <FIPs travelReq="N">51810</FIPs>
-            <FIPs travelReq="N">51710</FIPs>
-            <FIPs travelReq="N">51800</FIPs>
-            <FIPs travelReq="N">51093</FIPs>
-            <FIPs travelReq="N">51620</FIPs>
-            <FIPs travelReq="N">51790</FIPs>
-            <FIPs travelReq="N">51015</FIPs>
-            <FIPs travelReq="N">51820</FIPs>
-            <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="N">51023</FIPs>
-            <FIPs travelReq="N">51019</FIPs>
-            <FIPs travelReq="N">51680</FIPs>
-            <FIPs travelReq="N">51045</FIPs>
-            <FIPs travelReq="N">51121</FIPs>
-            <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="N">51075</FIPs>
-            <FIPs travelReq="N">51145</FIPs>
-            <FIPs travelReq="N">51670</FIPs>
-            <FIPs travelReq="N">51149</FIPs>
-            <FIPs travelReq="N">51053</FIPs>
-            <FIPs travelReq="N">51550</FIPs>
-            <FIPs travelReq="N">51740</FIPs>
-            <FIPs travelReq="N">51800</FIPs>
-            <FIPs travelReq="N">51093</FIPs>
-            <FIPs travelReq="N">51750</FIPs>
-            <FIPs travelReq="N">51183</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
-            <FIPs travelReq="N">51121</FIPs>
-            <FIPs travelReq="N">51063</FIPs>
-            <FIPs travelReq="N">51071</FIPs>
-            <FIPs travelReq="N">51155</FIPs>
-            <FIPs travelReq="N">51197</FIPs>
-            <FIPs travelReq="N">51061</FIPs>
-            <FIPs travelReq="N">51137</FIPs>
-            <FIPs travelReq="N">51113</FIPs>
-            <FIPs travelReq="N">51047</FIPs>
-            <FIPs travelReq="N">51157</FIPs>
-            <FIPs travelReq="N">51590</FIPs>
-            <FIPs travelReq="N">51083</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="N">51131</FIPs>
-            <FIPs travelReq="N">51001</FIPs>
-            <FIPs travelReq="N">51187</FIPs>
-            <FIPs travelReq="N">51660</FIPs>
-            <FIPs travelReq="N">51165</FIPs>
-            <FIPs travelReq="N">51171</FIPs>
-            <FIPs travelReq="N">51680</FIPs>
-            <FIPs travelReq="N">51031</FIPs>
-            <FIPs travelReq="N">51011</FIPs>
-            <FIPs travelReq="N">51019</FIPs>
-            <FIPs travelReq="N">51009</FIPs>
-            <FIPs travelReq="N">51730</FIPs>
-            <FIPs travelReq="N">51570</FIPs>
-            <!-- CSU17 -->
-            <FIPs travelReq="N">51013</FIPs>
-            <FIPs travelReq="N">51610</FIPs>
-            <!-- CSU19 -->
-            <FIPs travelReq="N">51059</FIPs>
-            <!-- City of Fairfax -->
-            <FIPs travelReq="N">51600</FIPs>
-            <!-- CSU18 -->
-            <FIPs travelReq="N">51510</FIPs>
-            <!-- CSU16 -->
-            <FIPs travelReq="N">51540</FIPs>
-            <FIPs travelReq="N">51003</FIPs>
-            <FIPs travelReq="N">51109</FIPs>
-            <FIPs travelReq="N">51065</FIPs>
-            <FIPs travelReq="N">51079</FIPs>
-            <!-- All of CSU31 -->
-            <FIPs travelReq="N">51153</FIPs>
-            <FIPs travelReq="N">51683</FIPs>
-            <FIPs travelReq="N">51685</FIPs>
-            <!-- CSU 20L -->
-            <FIPs travelReq="N">51107</FIPs>
-            <!-- Newport News office -->
-            <FIPs travelReq="N">51700</FIPs>
-            <FIPs travelReq="N">51650</FIPs>
-            <!-- All of CSU9 -->
-            <FIPs travelReq="N">51036</FIPs>
-            <FIPs travelReq="N">51073</FIPs>
-            <FIPs travelReq="N">51095</FIPs>
-            <FIPs travelReq="N">51097</FIPs>
-            <FIPs travelReq="N">51101</FIPs>
-            <FIPs travelReq="N">51115</FIPs>
-            <FIPs travelReq="N">51119</FIPs>
-            <FIPs travelReq="N">51127</FIPs>
-            <FIPs travelReq="N">51199</FIPs>
-            <FIPs travelReq="N">51735</FIPs>
-            <FIPs travelReq="N">51830</FIPs>
-            <!-- All of CSU15 -->
-            <FIPs travelReq="N">51033</FIPs>
-            <FIPs travelReq="N">51057</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="N">51099</FIPs>
-            <FIPs travelReq="N">51103</FIPs>
-            <FIPs travelReq="N">51133</FIPs>
-            <FIPs travelReq="Y">51159</FIPs>
-            <FIPs travelReq="N">51177</FIPs>
-            <FIPs travelReq="N">51179</FIPs>
-            <FIPs travelReq="N">51193</FIPs>
-            <FIPs travelReq="N">51630</FIPs>
-            <!-- CSU16 -->
-            <FIPs travelReq="N">51003</FIPs>
-            <FIPs travelReq="N">51047</FIPs>
-            <FIPs travelReq="N">51065</FIPs>
-            <FIPs travelReq="N">51075</FIPs>
-            <FIPs travelReq="N">51079</FIPs>
-            <FIPs travelReq="N">51109</FIPs>
-            <FIPs travelReq="N">51113</FIPs>
-            <FIPs travelReq="N">51137</FIPs>
-            <FIPs travelReq="N">51540</FIPs>
-            <!-- Western Region -->
-            <!-- All of CSU21 -->
-            <FIPs travelReq="N">51089</FIPs>
-            <FIPs travelReq="N">51141</FIPs>
-            <FIPs travelReq="N">51690</FIPs>
-            <!-- CSU22: Danville and Pittsylvania (not Franklin) -->
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="N">51590</FIPs>
-            <!-- All of CSU23 -->
-            <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-            <!-- CSU23A Roanoke -->
-            <FIPs travelReq="N">51770</FIPs>
-            <!-- CSU27: Pulaski County; Wythe County; Montgomery County; City of Radford; Floyd County -->
-            <FIPs travelReq="N">51155</FIPs>
-            <FIPs travelReq="N">51197</FIPs>
-            <FIPs travelReq="N">51121</FIPs>
-            <FIPs travelReq="N">51750</FIPs>
-            <FIPs travelReq="N">51063</FIPs>
-            <!-- All of CSU29 -->
-            <FIPs travelReq="N">51021</FIPs>
-            <FIPs travelReq="N">51027</FIPs>
-            <FIPs travelReq="N">51051</FIPs>
-            <FIPs travelReq="N">51071</FIPs>
-            <FIPs travelReq="N">51167</FIPs>
-            <FIPs travelReq="N">51185</FIPs>
-            <FIPs travelReq="N">51191</FIPs>
-            <FIPs travelReq="N">51169</FIPs>
-            <FIPs travelReq="N">51173</FIPs>
-            <FIPs travelReq="N">51077</FIPs>
-            <FIPs travelReq="N">51035</FIPs>
-            <FIPs travelReq="N">51139</FIPs>
-            <FIPs travelReq="N">51640</FIPs>
-            <FIPs travelReq="N">51520</FIPs>
-        </Service>
-        <Service serviceName="Multisystemic Therapy (MST)" serviceZoom="1">
-            <FIPs travelReq="N">51095</FIPs>
-            <FIPs travelReq="N">51199</FIPs>
-            <FIPs travelReq="N">51830</FIPs>
-            <FIPs travelReq="N">51735</FIPs>
-            <FIPs travelReq="N">51073</FIPs>
-            <FIPs travelReq="N">51700</FIPs>
-            <FIPs travelReq="N">51650</FIPs>
-            <FIPs travelReq="N">51710</FIPs>
-            <FIPs travelReq="N">51810</FIPs>
-            <FIPs travelReq="N">51059</FIPs>
-            <FIPs travelReq="N">51600</FIPs>
-            <FIPs travelReq="N">51510</FIPs>
-            <FIPs travelReq="N">51013</FIPs>
-            <FIPs travelReq="N">51610</FIPs>
-            <FIPs travelReq="N">51107</FIPs>
-            <FIPs travelReq="N">51153</FIPs>
-            <FIPs travelReq="N">51683</FIPs>
-            <FIPs travelReq="N">51061</FIPs>
-            <FIPs travelReq="Y">51630</FIPs>
-
-
-            <FIPs travelReq="Y">51043</FIPs>
-            <FIPs travelReq="N">51109</FIPs>
-            <FIPs travelReq="N">51065</FIPs>
-            <FIPs travelReq="N">51003</FIPs>
-            <FIPs travelReq="N">51540</FIPs>
-            <FIPs travelReq="N">51079</FIPs>
-            <FIPs travelReq="N">51137</FIPs>
-            <FIPs travelReq="N">51113</FIPs>
-            <FIPs travelReq="N">51047</FIPs>
-            <FIPs travelReq="Y">51177</FIPs>
-
-            <FIPs travelReq="Y">51075</FIPs>
-            <FIPs travelReq="Y">51125</FIPs>
-            <FIPs travelReq="N">51790</FIPs>
-            <FIPs travelReq="N">51820</FIPs>
-            <FIPs travelReq="Y">51145</FIPs>
-            <FIPs travelReq="N">51015</FIPs>
-            <FIPs travelReq="N">51740</FIPs>
-            <FIPs travelReq="N">51550</FIPs>
-            <FIPs travelReq="Y">51800</FIPs>
-            <FIPs travelReq="N">51520</FIPs>
-            <FIPs travelReq="N">51191</FIPs>
-            <FIPs travelReq="N">51169</FIPs>
-            <FIPs travelReq="N">51195</FIPs>
-            <FIPs travelReq="N">51720</FIPs>
-            <FIPs travelReq="N">51051</FIPs>
-            <FIPs travelReq="N">51027</FIPs>
-            <FIPs travelReq="N">51167</FIPs>
-            <FIPs travelReq="N">51105</FIPs>
-            <FIPs travelReq="N">51185</FIPs>
-            <FIPs travelReq="N">51173</FIPs>
-            <FIPs travelReq="N">51077</FIPs>
-            <FIPs travelReq="Y">51127</FIPs>
-            <FIPs travelReq="Y">51036</FIPs>
-            <FIPs travelReq="Y">51181</FIPs>
-            <FIPs travelReq="Y">51093</FIPs>
-            <FIPs travelReq="N">51197</FIPs>
-            <FIPs travelReq="Y">51035</FIPs>
-            <FIPs travelReq="N">51640</FIPs>
-            <FIPs travelReq="Y">51179</FIPs>
-        <FIPs travelReq="N">51165</FIPs><FIPs travelReq="N">51660</FIPs><FIPs travelReq="Y">51139</FIPs><FIPs travelReq="Y">51187</FIPs><FIPs travelReq="Y">51171</FIPs><FIPs travelReq="Y">51157</FIPs><FIPs travelReq="N">51021</FIPs></Service>
-        <Service serviceName="Functional Family Therapy (FFT)" serviceZoom="0">
-            <FIPs travelReq="N" languages="Spanish">51683</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51153</FIPs>
-            <FIPs travelReq="N">51685</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51600</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51059</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51510</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51013</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51610</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51107</FIPs>
-            <FIPs travelReq="Y" languages="Spanish">51061</FIPs>
-            <FIPs travelReq="N">51105</FIPs>
-            <FIPs travelReq="N">51169</FIPs>
-            <FIPs travelReq="N">51195</FIPs>
-            <FIPs travelReq="N">51720</FIPs>
-            <FIPs travelReq="N">51051</FIPs>
-            <FIPs travelReq="N">51027</FIPs>
-            <FIPs travelReq="N">51167</FIPs>
-            <FIPs travelReq="N">51520</FIPs>
-            <FIPs travelReq="N">51191</FIPs>
-            <FIPs travelReq="N">51173</FIPs>
-            <FIPs travelReq="N">51185</FIPs>
-            <FIPs travelReq="N">51077</FIPs>
-            <FIPs travelReq="N">51197</FIPs>
-            <FIPs travelReq="N">51021</FIPs>
-            <FIPs travelReq="N">51640</FIPs>
-            <FIPs travelReq="Y">51035</FIPs>
-            <FIPs travelReq="Y" languages="Spanish">51171</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51187</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51043</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51069</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51840</FIPs>
-            <FIPs travelReq="Y">51139</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51179</FIPs>
-
-            <FIPs travelReq="N" languages="Spanish">51630</FIPs>
-        </Service>
-        <Service serviceName="GPS / EM" serviceZoom="1">
-            <FIPs travelReq="N">51650</FIPs>
-            <FIPs travelReq="Y">51735</FIPs>
-            <FIPs travelReq="N">51700</FIPs>
-            <FIPs travelReq="N">51740</FIPs>
-            <FIPs travelReq="N">51710</FIPs>
-            <FIPs travelReq="N">51810</FIPs>
-            <FIPs travelReq="N">51069</FIPs>
-            <FIPs travelReq="N">51840</FIPs>
-            <FIPs travelReq="N">51043</FIPs>
-            <FIPs travelReq="N">51107</FIPs>
-            <FIPs travelReq="Y">51187</FIPs>
-            <FIPs travelReq="Y">51171</FIPs>
-            <FIPs travelReq="Y">51139</FIPs>
-            <FIPs travelReq="Y">51165</FIPs>
-            <FIPs travelReq="Y">51660</FIPs>
-            <FIPs travelReq="N">51013</FIPs>
-            <FIPs travelReq="N">51510</FIPs>
-            <FIPs travelReq="N">51600</FIPs>
-            <FIPs travelReq="N">51059</FIPs>
-            <FIPs travelReq="N">51153</FIPs>
-            <FIPs travelReq="N">51683</FIPs>
-            <FIPs travelReq="N">51061</FIPs>
-            <FIPs travelReq="N">51630</FIPs>
-            <FIPs travelReq="N">51179</FIPs>
-            <FIPs travelReq="N">51177</FIPs>
-            <FIPs travelReq="N">51109</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="N">51033</FIPs>
-            <FIPs travelReq="N">51099</FIPs>
-            <FIPs travelReq="N">51540</FIPs>
-            <FIPs travelReq="N">51003</FIPs>
-            <FIPs travelReq="Y">51015</FIPs>
-            <FIPs travelReq="Y">51820</FIPs>
-            <FIPs travelReq="Y">51790</FIPs>
-            <FIPs travelReq="Y">51678</FIPs>
-            <FIPs travelReq="Y">51530</FIPs>
-            <FIPs travelReq="Y">51163</FIPs>
-            <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51670</FIPs>
-            <FIPs travelReq="N">51570</FIPs>
-            <FIPs travelReq="N">51730</FIPs>
-            <FIPs travelReq="N">51149</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
-            <FIPs travelReq="Y">51053</FIPs>
-            <FIPs travelReq="N">51007</FIPs>
-            <FIPs travelReq="N">51147</FIPs>
-            <FIPs travelReq="Y">51011</FIPs>
-            <FIPs travelReq="Y">51029</FIPs>
-            <FIPs travelReq="Y">51049</FIPs>
-            <FIPs travelReq="Y">51145</FIPs>
-            <FIPs travelReq="N">51135</FIPs>
-            <FIPs travelReq="Y">51075</FIPs>
-            <FIPs travelReq="N">51065</FIPs>
-            <FIPs travelReq="Y">51019</FIPs>
-            <FIPs travelReq="Y">51009</FIPs>
-            <FIPs travelReq="N">51680</FIPs>
-            <FIPs travelReq="Y">51023</FIPs>
-            <FIPs travelReq="N">51770</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-            <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="Y">51690</FIPs>
-            <FIPs travelReq="Y">51089</FIPs>
-            <FIPs travelReq="Y">51590</FIPs>
-            <FIPs travelReq="Y">51143</FIPs>
-            <FIPs travelReq="Y">51067</FIPs>
-            <FIPs travelReq="Y">51121</FIPs>
-            <FIPs travelReq="Y">51063</FIPs>
-            <FIPs travelReq="Y">51155</FIPs>
-            <FIPs travelReq="Y">51750</FIPs>
-            <FIPs travelReq="N">51550</FIPs>
-            <FIPs travelReq="N">51800</FIPs>
-            <FIPs travelReq="N">51093</FIPs>
-            <FIPs travelReq="Y">51175</FIPs>
-            <FIPs travelReq="Y">51620</FIPs>
-            <FIPs travelReq="Y">51181</FIPs>
-            <FIPs travelReq="Y">51183</FIPs>
-            <FIPs travelReq="Y">51095</FIPs>
-            <FIPs travelReq="Y">51830</FIPs>
-            <FIPs travelReq="Y">51199</FIPs>
-            <FIPs travelReq="Y">51073</FIPs>
-            <FIPs travelReq="Y">51036</FIPs>
-            <FIPs travelReq="Y">51127</FIPs>
-            <FIPs travelReq="Y">51137</FIPs>
-            <FIPs travelReq="Y">51079</FIPs>
-            <FIPs travelReq="Y">51113</FIPs>
-            <FIPs travelReq="Y">51125</FIPs>
-            <FIPs travelReq="Y">51047</FIPs>
-            <FIPs travelReq="N">51610</FIPs>
-            <FIPs travelReq="Y">51157</FIPs>
-            <FIPs travelReq="N">51031</FIPs>
-            <FIPs travelReq="Y">51141</FIPs>
-            <FIPs travelReq="Y">51045</FIPs>
-        </Service>
-    </Provider>
+<Provider id="39">
+    <Name>National Counseling Group</Name>
+    <LastUpdated>2021-08-16</LastUpdated>
+    <MapZoom>-1</MapZoom>
+    <Website>ncgcommunity.com</Website>
+    <ContactName>Call center</ContactName>
+    <ContactEmail>carecenter@ncgcare.com</ContactEmail>
+    <Office>
+        <Lat>37.6021301</Lat>
+        <Lng>-77.50775729999998</Lng>
+        <Street>5540 Falmouth Street; 2nd Floor</Street>
+        <City>Richmond</City>
+        <State>VA</State>
+        <Zip>23230</Zip>
+        <Phone>(877) 566-9624</Phone>
+        <Fax>(804) 433-3531</Fax>
+    </Office>
+    <Office>
+        <Lat>38.126</Lat>
+        <Lng>-78.223</Lng>
+        <Street>13230 Lovers Lane</Street>
+        <City>Culpeper</City>
+        <State>VA</State>
+        <Zip>22701</Zip>
+        <Phone>(540) 825-0705</Phone>
+        <Fax/>
+    </Office>
+    <Office>
+        <Lat>36.866</Lat>
+        <Lng>-76.408</Lng>
+        <Street>3212 Churchland Blvd Suite 6</Street>
+        <City>Chesapeake</City>
+        <State>VA</State>
+        <Zip>23321</Zip>
+        <Phone>(757) 325-9570</Phone>
+        <Fax>(757) 966-5025</Fax>
+    </Office>
+    <Office>
+        <Lat>36.614</Lat>
+        <Lng>-79.407</Lng>
+        <Street>151 Deer Run Road</Street>
+        <City>Danville</City>
+        <State>VA</State>
+        <Zip>24540</Zip>
+        <Phone>(276) 638-8000</Phone>
+        <Fax>(276) 638-8006</Fax>
+    </Office>
+    <Office>
+        <Lat>38.246</Lat>
+        <Lng>-77.513</Lng>
+        <Street>10712 Ballantraye Dr. Suite 312</Street>
+        <City>Fredericksburg</City>
+        <State>VA</State>
+        <Zip>22407</Zip>
+        <Phone>(540) 446-0007</Phone>
+        <Fax>(540) 710-9299</Fax>
+    </Office>
+    <Office>
+        <Lat>38.428</Lat>
+        <Lng>-78.848</Lng>
+        <Street>1951-B Evelyn Byrd Avenue</Street>
+        <City>Harrisonburg</City>
+        <State>VA</State>
+        <Zip>22801</Zip>
+        <Phone>(540) 437-0403</Phone>
+        <Fax>(540) 437-0421</Fax>
+    </Office>
+    <Office>
+        <Lat>36.688</Lat>
+        <Lng>-79.855</Lng>
+        <Street>730 East Church Street Suite 24</Street>
+        <City>Martinsville</City>
+        <State>VA</State>
+        <Zip>24112</Zip>
+        <Phone>(276) 638-8000</Phone>
+        <Fax>(276) 638-8006</Fax>
+    </Office>
+    <Office>
+        <Lat>37.202</Lat>
+        <Lng>-77.381</Lng>
+        <Street>21 Walnut Boulevard Suites 1-3</Street>
+        <City>Petersburg</City>
+        <State>VA</State>
+        <Zip>23805</Zip>
+        <Phone>804) 767-3470</Phone>
+        <Fax>(804) 490-0150</Fax>
+    </Office>
+    <Office>
+        <Lat>38.159</Lat>
+        <Lng>-79.063</Lng>
+        <Street>512 B North Coalter Street</Street>
+        <City>Staunton</City>
+        <State>VA</State>
+        <Zip>24401</Zip>
+        <Phone>(540) 213-8470</Phone>
+        <Fax>(540) 437-0421</Fax>
+    </Office>
+    <Office>
+        <Lat>36.84663810000001</Lat>
+        <Lng>-76.18774730000001</Lng>
+        <Street>6345 Center Drive. Bldg 14</Street>
+        <City>Norfolk</City>
+        <State>VA</State>
+        <Zip>23502</Zip>
+        <Phone>(757) 467-8184</Phone>
+        <Fax>(757) 467-2485</Fax>
+    </Office>
+    <Office>
+        <Lat>38.888</Lat>
+        <Lng>-78.501</Lng>
+        <Street>505 North Main Street Suite 101</Street>
+        <City>Woodstock</City>
+        <State>VA</State>
+        <Zip>22664</Zip>
+        <Phone>(540) 409-4920</Phone>
+        <Fax/>
+    </Office>
+    <Office>
+        <Lat>37.578497</Lat>
+        <Lng>-77.49895900000001</Lng>
+        <Street>5014 Monument Ave</Street>
+        <City>Richmond</City>
+        <State>VA</State>
+        <Zip>23230</Zip>
+        <Phone>(804) 497-4676</Phone>
+        <Fax>(804) 497-4677</Fax>
+    </Office>
+    <Office>
+        <Lat>38.833</Lat>
+        <Lng>-77.209</Lng>
+        <Street>7620 Little River Tpke Suite 402</Street>
+        <City>Annandale</City>
+        <State>VA</State>
+        <Zip>22003</Zip>
+        <Phone>(703) 813-5982</Phone>
+        <Fax>(703) 813-5986</Fax>
+    </Office>
+    <Office>
+        <Lat>38.766</Lat>
+        <Lng>-77.479</Lng>
+        <Street>9301 Forest Point Cir</Street>
+        <City>Manassas</City>
+        <State>VA</State>
+        <Zip>20110</Zip>
+        <Phone>(703) 257-5997</Phone>
+        <Fax>(703) 257-7518</Fax>
+    </Office>
+    <Office>
+        <Lat>38.084489</Lat>
+        <Lng>-78.47806170000001</Lng>
+        <Street>696 Berkmar Circle, Suite 3B</Street>
+        <City>Charlottesville</City>
+        <State>VA</State>
+        <Zip>22901</Zip>
+        <Phone>(434) 260-7877</Phone>
+        <Fax>(434) 202-2181</Fax>
+    </Office>
+    <Office>
+        <Lat>37.1421894</Lat>
+        <Lng>-80.40506449999998</Lng>
+        <Street>930 Cambria St NE</Street>
+        <City>Christiansburg</City>
+        <State>VA</State>
+        <Zip>24073</Zip>
+        <Phone>(540) 602-3021</Phone>
+        <Fax>(540) 382-1972</Fax>
+    </Office>
+    <Office>
+        <Lat>37.516</Lat>
+        <Lng>-75.833</Lng>
+        <Street>4376 Lankford Highway Suite 2</Street>
+        <City>Exmore</City>
+        <State>VA</State>
+        <Zip>23350</Zip>
+        <Phone>(757) 442-6746</Phone>
+        <Fax>(757) 442-6749</Fax>
+    </Office>
+    <Office>
+        <Lat>37.363991</Lat>
+        <Lng>-79.24615010000002</Lng>
+        <Street>201 Archway Ct</Street>
+        <City>Lynchburg</City>
+        <State>VA</State>
+        <Zip>24502</Zip>
+        <Phone>(434) 382-1642</Phone>
+        <Fax>(434) 384-3006</Fax>
+    </Office>
+    <Office>
+        <Lat>37.083</Lat>
+        <Lng>-76.478</Lng>
+        <Street>610 Thimble Shoals Blvd, Suite 303B</Street>
+        <City>Newport News</City>
+        <State>VA</State>
+        <Zip>23606</Zip>
+        <Phone>(757) 240-5595</Phone>
+        <Fax>(757) 240-5596</Fax>
+    </Office>
+    <Office>
+        <Lat>37.224</Lat>
+        <Lng>-79.987</Lng>
+        <Street>3912 Electric Road Building C</Street>
+        <City>Roanoke</City>
+        <State>VA</State>
+        <Zip>24018</Zip>
+        <Phone>(540) 776-0716</Phone>
+        <Fax>(540) 776-0717</Fax>
+    </Office>
+    <Office>
+        <Lat>36.729</Lat>
+        <Lng>-76.596</Lng>
+        <Street>707 Gittings Street Suite 100</Street>
+        <City>Suffolk</City>
+        <State>VA</State>
+        <Zip>23434</Zip>
+        <Phone>(757) 847-9386</Phone>
+        <Fax>(757) 975-8034</Fax>
+    </Office>
+    <Office>
+        <Lat>39.163</Lat>
+        <Lng>-78.191</Lng>
+        <Street>817 Cedar Creek Grade, Suite 202</Street>
+        <City>Winchester</City>
+        <State>VA</State>
+        <Zip>22601</Zip>
+        <Phone>(540) 450-2734</Phone>
+        <Fax>(540) 450-2735</Fax>
+    </Office>
+    <Office>
+        <Lat>36.7148886</Lat>
+        <Lng>-81.9613215</Lng>
+        <Street>492 East Main Street</Street>
+        <City>Abingdon</City>
+        <State>VA</State>
+        <Zip>24210</Zip>
+        <Phone>276-226-2828</Phone>
+        <Fax/>
+    </Office>
+    <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="1">
+        <FIPs travelReq="N">51095</FIPs>
+        <FIPs travelReq="N">51199</FIPs>
+        <FIPs travelReq="N">51830</FIPs>
+        <FIPs travelReq="N">51735</FIPs>
+        <FIPs travelReq="N">51073</FIPs>
+        <FIPs travelReq="N">51700</FIPs>
+        <FIPs travelReq="N">51650</FIPs>
+        <FIPs travelReq="N">51710</FIPs>
+        <FIPs travelReq="N">51810</FIPs>
+        <FIPs travelReq="N">51059</FIPs>
+        <FIPs travelReq="N">51600</FIPs>
+        <FIPs travelReq="N">51510</FIPs>
+        <FIPs travelReq="N">51013</FIPs>
+        <FIPs travelReq="N">51610</FIPs>
+        <FIPs travelReq="N">51107</FIPs>
+        <FIPs travelReq="N">51153</FIPs>
+        <FIPs travelReq="N">51683</FIPs>
+        <FIPs travelReq="N">51061</FIPs>
+        <FIPs travelReq="Y">51036</FIPs>
+        <FIPs travelReq="N">51179</FIPs>
+        <FIPs travelReq="N">51630</FIPs>
+        <FIPs travelReq="N">51840</FIPs>
+        <FIPs travelReq="N">51043</FIPs>
+        <FIPs travelReq="N">51109</FIPs>
+        <FIPs travelReq="N">51065</FIPs>
+        <FIPs travelReq="N">51003</FIPs>
+        <FIPs travelReq="N">51540</FIPs>
+        <FIPs travelReq="N">51079</FIPs>
+        <FIPs travelReq="N">51137</FIPs>
+        <FIPs travelReq="N">51113</FIPs>
+        <FIPs travelReq="N">51047</FIPs>
+        <FIPs travelReq="N">51177</FIPs>
+        <FIPs travelReq="Y">51085</FIPs>
+        <FIPs travelReq="N">51075</FIPs>
+        <FIPs travelReq="N">51125</FIPs>
+        <FIPs travelReq="N">51790</FIPs>
+        <FIPs travelReq="N">51820</FIPs>
+        <FIPs travelReq="Y">51145</FIPs>
+        <FIPs travelReq="Y">51087</FIPs>
+        <FIPs travelReq="N">51015</FIPs>
+        <FIPs travelReq="N">51740</FIPs>
+        <FIPs travelReq="N">51550</FIPs>
+        <FIPs travelReq="Y">51800</FIPs>
+        <FIPs travelReq="Y">51127</FIPs>
+        <FIPs travelReq="N">51193</FIPs>
+        <FIPs travelReq="N">51187</FIPs>
+        <FIPs travelReq="N">51171</FIPs>
+        <FIPs travelReq="N">51069</FIPs>
+        <FIPs travelReq="N">51157</FIPs>
+        <FIPs travelReq="N">51139</FIPs>
+        <FIPs travelReq="N">51165</FIPs>
+        <FIPs travelReq="N">51660</FIPs>
+        <FIPs travelReq="Y">51099</FIPs>
+        <FIPs travelReq="N">51033</FIPs>
+        <FIPs travelReq="N">51101</FIPs>
+        <FIPs travelReq="N">51097</FIPs>
+        <FIPs travelReq="N">51119</FIPs>
+        <FIPs travelReq="N">51115</FIPs>
+        <FIPs travelReq="N">51009</FIPs>
+        <FIPs travelReq="N">51680</FIPs>
+        <FIPs travelReq="N">51019</FIPs>
+        <FIPs travelReq="N">51031</FIPs>
+        <FIPs travelReq="N">51163</FIPs>
+        <FIPs travelReq="N">51530</FIPs>
+        <FIPs travelReq="N">51023</FIPs>
+        <FIPs travelReq="N">51760</FIPs>
+        <FIPs travelReq="N">51041</FIPs>
+        <FIPs travelReq="Y">51007</FIPs>
+        <FIPs travelReq="N">51053</FIPs>
+        <FIPs travelReq="N">51730</FIPs>
+        <FIPs travelReq="N">51670</FIPs>
+        <FIPs travelReq="N">51149</FIPs>
+        <FIPs travelReq="Y">51083</FIPs>
+        <FIPs travelReq="N">51590</FIPs>
+        <FIPs travelReq="N">51143</FIPs>
+        <FIPs travelReq="N">51067</FIPs>
+        <FIPs travelReq="N">51089</FIPs>
+        <FIPs travelReq="N">51690</FIPs>
+        <FIPs travelReq="N">51770</FIPs>
+        <FIPs travelReq="N">51775</FIPs>
+        <FIPs travelReq="N">51161</FIPs>
+        <FIPs travelReq="N">51121</FIPs>
+        <FIPs travelReq="N">51750</FIPs>
+        <FIPs travelReq="N">51155</FIPs>
+        <FIPs travelReq="N">51197</FIPs>
+        <FIPs travelReq="N">51035</FIPs>
+        <FIPs travelReq="N">51063</FIPs>
+        <FIPs travelReq="N">51141</FIPs>
+        <FIPs travelReq="N">51640</FIPs>
+        <FIPs travelReq="N">51077</FIPs>
+        <FIPs travelReq="N">51173</FIPs>
+        <FIPs travelReq="N">51021</FIPs>
+        <FIPs travelReq="N">51071</FIPs>
+        <FIPs travelReq="N">51167</FIPs>
+        <FIPs travelReq="N">51191</FIPs>
+        <FIPs travelReq="N">51169</FIPs>
+        <FIPs travelReq="N">51520</FIPs>
+    </Service>
+    <Service serviceName="Outpatient Services" serviceZoom="-1">
+        <!-- Manassas Office -->
+        <FIPs travelReq="N">51153</FIPs>
+        <FIPs travelReq="N">51683</FIPs>
+        <FIPs travelReq="N">51685</FIPs>
+        <FIPs travelReq="N">51107</FIPs>
+        <!-- Winchester Office -->
+        <FIPs travelReq="N">51840</FIPs>
+        <FIPs travelReq="N">51043</FIPs>
+        <FIPs travelReq="N">51069</FIPs>
+        <!-- Woodstock Office -->
+        <FIPs travelReq="N">51171</FIPs>
+        <!-- Front Royal Office -->
+        <FIPs travelReq="N">51187</FIPs>
+        <!-- Culpepper office -->
+        <FIPs travelReq="N">51047</FIPs>
+        <FIPs travelReq="N">51061</FIPs>
+        <FIPs travelReq="N">51137</FIPs>
+        <FIPs travelReq="N">51113</FIPs>
+        <FIPs travelReq="N">51157</FIPs>
+        <!-- Charlottesville Office -->
+        <FIPs travelReq="N">51540</FIPs>
+        <FIPs travelReq="N">51003</FIPs>
+        <FIPs travelReq="N">51109</FIPs>
+        <FIPs travelReq="N">51065</FIPs>
+        <FIPs travelReq="N">51079</FIPs>
+        <!-- Christiansburg Office -->
+        <FIPs travelReq="N">51750</FIPs>
+        <FIPs travelReq="N">51121</FIPs>
+        <FIPs travelReq="N">51063</FIPs>
+        <FIPs travelReq="N">51071</FIPs>
+        <FIPs travelReq="N">51155</FIPs>
+        <FIPs travelReq="N">51197</FIPs>
+        <!-- Lynchburg Office -->
+        <FIPs travelReq="N">51680</FIPs>
+        <FIPs travelReq="N">51031</FIPs>
+        <FIPs travelReq="N">51011</FIPs>
+        <FIPs travelReq="N">51019</FIPs>
+        <FIPs travelReq="N">51009</FIPs>
+        <!-- Fredericksburg Office -->
+        <FIPs travelReq="N">51630</FIPs>
+        <FIPs travelReq="N">51177</FIPs>
+        <FIPs travelReq="N">51179</FIPs>
+        <FIPs travelReq="N">51099</FIPs>
+        <FIPs travelReq="N">51033</FIPs>
+        <!-- Richmond Office -->
+        <FIPs travelReq="N">51760</FIPs>
+        <FIPs travelReq="N">51087</FIPs>
+        <FIPs travelReq="N">51085</FIPs>
+        <FIPs travelReq="N">51075</FIPs>
+        <FIPs travelReq="N">51145</FIPs>
+        <!-- Petersburg Office -->
+        <FIPs travelReq="N">51730</FIPs>
+        <FIPs travelReq="N">51570</FIPs>
+        <FIPs travelReq="N">51670</FIPs>
+        <FIPs travelReq="N">51149</FIPs>
+        <FIPs travelReq="N">51053</FIPs>
+        <FIPs travelReq="N">51183</FIPs>
+        <FIPs travelReq="N">51041</FIPs>
+        <!-- Newport News Office -->
+        <FIPs travelReq="N">51700</FIPs>
+        <FIPs travelReq="N">51650</FIPs>
+        <FIPs travelReq="N">51735</FIPs>
+        <FIPs travelReq="N">51830</FIPs>
+        <FIPs travelReq="N">51199</FIPs>
+        <FIPs travelReq="N">51095</FIPs>
+        <!-- Chesapeake Office -->
+        <FIPs travelReq="N">51550</FIPs>
+        <FIPs travelReq="N">51740</FIPs>
+        <FIPs travelReq="N">51800</FIPs>
+        <FIPs travelReq="N">51093</FIPs>
+        <!-- Suffolk Office -->
+        <FIPs travelReq="N">51800</FIPs>
+        <!-- Virginia Beach Office -->
+        <FIPs travelReq="N">51710</FIPs>
+        <FIPs travelReq="N">51830</FIPs>
+        <FIPs travelReq="Y">51191</FIPs>
+        <FIPs travelReq="Y">51167</FIPs>
+        <FIPs travelReq="Y">51173</FIPs>
+        <FIPs travelReq="Y">51169</FIPs>
+        <FIPs travelReq="N">51077</FIPs>
+        <FIPs travelReq="N">51161</FIPs>
+        <FIPs travelReq="N">51770</FIPs>
+        <FIPs travelReq="N">51775</FIPs>
+        <FIPs travelReq="N">51067</FIPs>
+        <FIPs travelReq="N">51640</FIPs>
+        <FIPs travelReq="Y">51035</FIPs>
+        <FIPs travelReq="N">51590</FIPs>
+        <FIPs travelReq="N">51143</FIPs>
+        <FIPs travelReq="Y">51141</FIPs>
+        <FIPs travelReq="Y">51520</FIPs>
+        <FIPs travelReq="Y">51125</FIPs>
+        <FIPs travelReq="N">51790</FIPs>
+        <FIPs travelReq="N">51015</FIPs>
+        <FIPs travelReq="N">51820</FIPs>
+        <FIPs travelReq="N">51530</FIPs>
+        <FIPs travelReq="N">51678</FIPs>
+        <FIPs travelReq="N">51163</FIPs>
+        <FIPs travelReq="Y">51165</FIPs>
+        <FIPs travelReq="Y">51660</FIPs>
+        <FIPs travelReq="Y">51139</FIPs>
+        <FIPs travelReq="N">51600</FIPs>
+        <FIPs travelReq="N">51013</FIPs>
+        <FIPs travelReq="N">51510</FIPs>
+        <FIPs travelReq="N">51610</FIPs>
+        <FIPs travelReq="N">51059</FIPs>
+        <FIPs travelReq="N">51690</FIPs>
+        <FIPs travelReq="N">51089</FIPs>
+    </Service>
+    <Service serviceName="Outpatient Substance Abuse" serviceZoom="-1">
+        <!-- Manassas Office -->
+        <FIPs travelReq="N">51153</FIPs>
+        <FIPs travelReq="N">51683</FIPs>
+        <FIPs travelReq="N">51685</FIPs>
+        <FIPs travelReq="N">51107</FIPs>
+        <!-- Winchester Office -->
+        <FIPs travelReq="N">51840</FIPs>
+        <FIPs travelReq="N">51043</FIPs>
+        <FIPs travelReq="N">51069</FIPs>
+        <!-- Woodstock Office -->
+        <FIPs travelReq="N">51171</FIPs>
+        <!-- Front Royal Office -->
+        <FIPs travelReq="N">51187</FIPs>
+        <!-- Culpepper office -->
+        <FIPs travelReq="N">51047</FIPs>
+        <FIPs travelReq="N">51061</FIPs>
+        <FIPs travelReq="N">51137</FIPs>
+        <FIPs travelReq="N">51113</FIPs>
+        <FIPs travelReq="N">51157</FIPs>
+        <!-- Charlottesville Office -->
+        <FIPs travelReq="N">51540</FIPs>
+        <FIPs travelReq="N">51003</FIPs>
+        <FIPs travelReq="N">51109</FIPs>
+        <FIPs travelReq="N">51065</FIPs>
+        <FIPs travelReq="N">51079</FIPs>
+        <!-- Christiansburg Office -->
+        <FIPs travelReq="N">51750</FIPs>
+        <FIPs travelReq="N">51121</FIPs>
+        <FIPs travelReq="N">51063</FIPs>
+        <FIPs travelReq="N">51071</FIPs>
+        <FIPs travelReq="N">51155</FIPs>
+        <FIPs travelReq="N">51197</FIPs>
+        <!-- Lynchburg Office -->
+        <FIPs travelReq="N">51680</FIPs>
+        <FIPs travelReq="N">51031</FIPs>
+        <FIPs travelReq="N">51011</FIPs>
+        <FIPs travelReq="N">51019</FIPs>
+        <FIPs travelReq="N">51009</FIPs>
+        <!-- Fredericksburg Office -->
+        <FIPs travelReq="N">51630</FIPs>
+        <FIPs travelReq="N">51177</FIPs>
+        <FIPs travelReq="N">51179</FIPs>
+        <FIPs travelReq="N">51099</FIPs>
+        <FIPs travelReq="N">51033</FIPs>
+        <!-- Richmond Office -->
+        <FIPs travelReq="N">51760</FIPs>
+        <FIPs travelReq="N">51087</FIPs>
+        <FIPs travelReq="N">51085</FIPs>
+        <FIPs travelReq="N">51075</FIPs>
+        <FIPs travelReq="N">51145</FIPs>
+        <!-- Petersburg Office -->
+        <FIPs travelReq="N">51730</FIPs>
+        <FIPs travelReq="N">51570</FIPs>
+        <FIPs travelReq="N">51670</FIPs>
+        <FIPs travelReq="N">51149</FIPs>
+        <FIPs travelReq="N">51053</FIPs>
+        <FIPs travelReq="N">51183</FIPs>
+        <FIPs travelReq="N">51041</FIPs>
+        <!-- Newport News Office -->
+        <FIPs travelReq="N">51700</FIPs>
+        <FIPs travelReq="N">51650</FIPs>
+        <FIPs travelReq="N">51735</FIPs>
+        <FIPs travelReq="N">51830</FIPs>
+        <FIPs travelReq="N">51199</FIPs>
+        <FIPs travelReq="N">51095</FIPs>
+        <!-- Chesapeake Office -->
+        <FIPs travelReq="N">51550</FIPs>
+        <FIPs travelReq="N">51740</FIPs>
+        <FIPs travelReq="N">51800</FIPs>
+        <FIPs travelReq="N">51093</FIPs>
+        <!-- Suffolk Office -->
+        <FIPs travelReq="N">51800</FIPs>
+        <!-- Virginia Beach Office -->
+        <FIPs travelReq="N">51710</FIPs>
+        <FIPs travelReq="N">51830</FIPs>
+        <FIPs travelReq="N">51191</FIPs>
+        <FIPs travelReq="N">51167</FIPs>
+        <FIPs travelReq="N">51173</FIPs>
+        <FIPs travelReq="N">51169</FIPs>
+        <FIPs travelReq="N">51077</FIPs>
+        <FIPs travelReq="N">51510</FIPs>
+        <FIPs travelReq="N">51610</FIPs>
+        <FIPs travelReq="N">51600</FIPs>
+        <FIPs travelReq="N">51059</FIPs>
+        <FIPs travelReq="Y">51139</FIPs>
+        <FIPs travelReq="N">51165</FIPs>
+        <FIPs travelReq="N">51660</FIPs>
+        <FIPs travelReq="N">51013</FIPs>
+        <FIPs travelReq="N">51790</FIPs>
+        <FIPs travelReq="N">51015</FIPs>
+        <FIPs travelReq="N">51820</FIPs>
+        <FIPs travelReq="Y">51125</FIPs>
+        <FIPs travelReq="Y">51163</FIPs>
+        <FIPs travelReq="Y">51678</FIPs>
+        <FIPs travelReq="Y">51530</FIPs>
+        <FIPs travelReq="Y">51023</FIPs>
+        <FIPs travelReq="N">51770</FIPs>
+        <FIPs travelReq="N">51775</FIPs>
+        <FIPs travelReq="N">51161</FIPs>
+        <FIPs travelReq="N">51590</FIPs>
+        <FIPs travelReq="N">51143</FIPs>
+        <FIPs travelReq="Y">51089</FIPs>
+        <FIPs travelReq="Y">51690</FIPs>
+        <FIPs travelReq="Y">51067</FIPs>
+        <FIPs travelReq="Y">51640</FIPs>
+        <FIPs travelReq="Y">51035</FIPs>
+        <FIPs travelReq="Y">51141</FIPs>
+    </Service>
+    <Service serviceName="Casey Life Skills / Mentoring" serviceZoom="-1">
+        <FIPs travelReq="N">51043</FIPs>
+        <FIPs travelReq="N">51069</FIPs>
+        <FIPs travelReq="N">51840</FIPs>
+        <FIPs travelReq="N">51810</FIPs>
+        <FIPs travelReq="N">51710</FIPs>
+        <FIPs travelReq="N">51800</FIPs>
+        <FIPs travelReq="N">51093</FIPs>
+        <FIPs travelReq="N">51620</FIPs>
+        <FIPs travelReq="N">51790</FIPs>
+        <FIPs travelReq="N">51015</FIPs>
+        <FIPs travelReq="N">51820</FIPs>
+        <FIPs travelReq="N">51067</FIPs>
+        <FIPs travelReq="N">51023</FIPs>
+        <FIPs travelReq="N">51019</FIPs>
+        <FIPs travelReq="N">51680</FIPs>
+        <FIPs travelReq="N">51045</FIPs>
+        <FIPs travelReq="N">51121</FIPs>
+        <FIPs travelReq="N">51760</FIPs>
+        <FIPs travelReq="N">51087</FIPs>
+        <FIPs travelReq="N">51085</FIPs>
+        <FIPs travelReq="N">51075</FIPs>
+        <FIPs travelReq="N">51145</FIPs>
+        <FIPs travelReq="N">51670</FIPs>
+        <FIPs travelReq="N">51149</FIPs>
+        <FIPs travelReq="N">51053</FIPs>
+        <FIPs travelReq="N">51550</FIPs>
+        <FIPs travelReq="N">51740</FIPs>
+        <FIPs travelReq="N">51800</FIPs>
+        <FIPs travelReq="N">51093</FIPs>
+        <FIPs travelReq="N">51750</FIPs>
+        <FIPs travelReq="N">51183</FIPs>
+        <FIPs travelReq="N">51041</FIPs>
+        <FIPs travelReq="N">51121</FIPs>
+        <FIPs travelReq="N">51063</FIPs>
+        <FIPs travelReq="N">51071</FIPs>
+        <FIPs travelReq="N">51155</FIPs>
+        <FIPs travelReq="N">51197</FIPs>
+        <FIPs travelReq="N">51061</FIPs>
+        <FIPs travelReq="N">51137</FIPs>
+        <FIPs travelReq="N">51113</FIPs>
+        <FIPs travelReq="N">51047</FIPs>
+        <FIPs travelReq="N">51157</FIPs>
+        <FIPs travelReq="N">51590</FIPs>
+        <FIPs travelReq="N">51083</FIPs>
+        <FIPs travelReq="N">51143</FIPs>
+        <FIPs travelReq="N">51131</FIPs>
+        <FIPs travelReq="N">51001</FIPs>
+        <FIPs travelReq="N">51187</FIPs>
+        <FIPs travelReq="N">51660</FIPs>
+        <FIPs travelReq="N">51165</FIPs>
+        <FIPs travelReq="N">51171</FIPs>
+        <FIPs travelReq="N">51680</FIPs>
+        <FIPs travelReq="N">51031</FIPs>
+        <FIPs travelReq="N">51011</FIPs>
+        <FIPs travelReq="N">51019</FIPs>
+        <FIPs travelReq="N">51009</FIPs>
+        <FIPs travelReq="N">51730</FIPs>
+        <FIPs travelReq="N">51570</FIPs>
+        <!-- CSU17 -->
+        <FIPs travelReq="N">51013</FIPs>
+        <FIPs travelReq="N">51610</FIPs>
+        <!-- CSU19 -->
+        <FIPs travelReq="N">51059</FIPs>
+        <!-- City of Fairfax -->
+        <FIPs travelReq="N">51600</FIPs>
+        <!-- CSU18 -->
+        <FIPs travelReq="N">51510</FIPs>
+        <!-- CSU16 -->
+        <FIPs travelReq="N">51540</FIPs>
+        <FIPs travelReq="N">51003</FIPs>
+        <FIPs travelReq="N">51109</FIPs>
+        <FIPs travelReq="N">51065</FIPs>
+        <FIPs travelReq="N">51079</FIPs>
+        <!-- All of CSU31 -->
+        <FIPs travelReq="N">51153</FIPs>
+        <FIPs travelReq="N">51683</FIPs>
+        <FIPs travelReq="N">51685</FIPs>
+        <!-- CSU 20L -->
+        <FIPs travelReq="N">51107</FIPs>
+        <!-- Newport News office -->
+        <FIPs travelReq="N">51700</FIPs>
+        <FIPs travelReq="N">51650</FIPs>
+        <!-- All of CSU9 -->
+        <FIPs travelReq="N">51036</FIPs>
+        <FIPs travelReq="N">51073</FIPs>
+        <FIPs travelReq="N">51095</FIPs>
+        <FIPs travelReq="N">51097</FIPs>
+        <FIPs travelReq="N">51101</FIPs>
+        <FIPs travelReq="N">51115</FIPs>
+        <FIPs travelReq="N">51119</FIPs>
+        <FIPs travelReq="N">51127</FIPs>
+        <FIPs travelReq="N">51199</FIPs>
+        <FIPs travelReq="N">51735</FIPs>
+        <FIPs travelReq="N">51830</FIPs>
+        <!-- All of CSU15 -->
+        <FIPs travelReq="N">51033</FIPs>
+        <FIPs travelReq="Y">51057</FIPs>
+        <FIPs travelReq="N">51085</FIPs>
+        <FIPs travelReq="N">51099</FIPs>
+        <FIPs travelReq="Y">51103</FIPs>
+        <FIPs travelReq="Y">51159</FIPs>
+        <FIPs travelReq="N">51177</FIPs>
+        <FIPs travelReq="N">51179</FIPs>
+        <FIPs travelReq="Y">51193</FIPs>
+        <FIPs travelReq="N">51630</FIPs>
+        <!-- CSU16 -->
+        <FIPs travelReq="N">51003</FIPs>
+        <FIPs travelReq="N">51047</FIPs>
+        <FIPs travelReq="N">51065</FIPs>
+        <FIPs travelReq="N">51075</FIPs>
+        <FIPs travelReq="N">51079</FIPs>
+        <FIPs travelReq="N">51109</FIPs>
+        <FIPs travelReq="N">51113</FIPs>
+        <FIPs travelReq="N">51137</FIPs>
+        <FIPs travelReq="N">51540</FIPs>
+        <!-- Western Region -->
+        <!-- All of CSU21 -->
+        <FIPs travelReq="N">51089</FIPs>
+        <FIPs travelReq="N">51141</FIPs>
+        <FIPs travelReq="N">51690</FIPs>
+        <!-- CSU22: Danville and Pittsylvania (not Franklin) -->
+        <FIPs travelReq="N">51143</FIPs>
+        <FIPs travelReq="N">51590</FIPs>
+        <!-- All of CSU23 -->
+        <FIPs travelReq="N">51161</FIPs>
+        <FIPs travelReq="N">51775</FIPs>
+        <!-- CSU23A Roanoke -->
+        <FIPs travelReq="N">51770</FIPs>
+        <!-- CSU27: Pulaski County; Wythe County; Montgomery County; City of Radford; Floyd County -->
+        <FIPs travelReq="N">51155</FIPs>
+        <FIPs travelReq="N">51197</FIPs>
+        <FIPs travelReq="N">51121</FIPs>
+        <FIPs travelReq="N">51750</FIPs>
+        <FIPs travelReq="N">51063</FIPs>
+        <!-- All of CSU29 -->
+        <FIPs travelReq="N">51021</FIPs>
+        <FIPs travelReq="N">51027</FIPs>
+        <FIPs travelReq="N">51051</FIPs>
+        <FIPs travelReq="N">51071</FIPs>
+        <FIPs travelReq="N">51167</FIPs>
+        <FIPs travelReq="N">51185</FIPs>
+        <FIPs travelReq="N">51191</FIPs>
+        <FIPs travelReq="N">51169</FIPs>
+        <FIPs travelReq="N">51173</FIPs>
+        <FIPs travelReq="N">51077</FIPs>
+        <FIPs travelReq="N">51035</FIPs>
+        <FIPs travelReq="N">51139</FIPs>
+        <FIPs travelReq="N">51640</FIPs>
+        <FIPs travelReq="N">51520</FIPs>
+        <FIPs travelReq="Y">51049</FIPs>
+        <FIPs travelReq="Y">51163</FIPs>
+        <FIPs travelReq="Y">51530</FIPs>
+        <FIPs travelReq="Y">51678</FIPs>
+        <FIPs travelReq="Y">51125</FIPs>
+        <FIPs travelReq="Y">51133</FIPs>
+        <FIPs travelReq="Y">51017</FIPs>
+        <FIPs travelReq="Y">51580</FIPs>
+        <FIPs travelReq="Y">51091</FIPs>
+        <FIPs travelReq="Y">51005</FIPs>
+    </Service>
+    <Service serviceName="Multisystemic Therapy (MST)" serviceZoom="1">
+        <FIPs travelReq="N">51095</FIPs>
+        <FIPs travelReq="N">51199</FIPs>
+        <FIPs travelReq="N">51830</FIPs>
+        <FIPs travelReq="N">51735</FIPs>
+        <FIPs travelReq="N">51073</FIPs>
+        <FIPs travelReq="N">51700</FIPs>
+        <FIPs travelReq="N">51650</FIPs>
+        <FIPs travelReq="N">51710</FIPs>
+        <FIPs travelReq="N">51810</FIPs>
+        <FIPs travelReq="N">51059</FIPs>
+        <FIPs travelReq="N">51600</FIPs>
+        <FIPs travelReq="N">51510</FIPs>
+        <FIPs travelReq="N">51013</FIPs>
+        <FIPs travelReq="N">51610</FIPs>
+        <FIPs travelReq="N">51107</FIPs>
+        <FIPs travelReq="N">51153</FIPs>
+        <FIPs travelReq="N">51683</FIPs>
+        <FIPs travelReq="N">51061</FIPs>
+        <FIPs travelReq="Y">51630</FIPs>
+        <FIPs travelReq="Y">51043</FIPs>
+        <FIPs travelReq="N">51109</FIPs>
+        <FIPs travelReq="N">51065</FIPs>
+        <FIPs travelReq="N">51003</FIPs>
+        <FIPs travelReq="N">51540</FIPs>
+        <FIPs travelReq="N">51079</FIPs>
+        <FIPs travelReq="N">51137</FIPs>
+        <FIPs travelReq="N">51113</FIPs>
+        <FIPs travelReq="N">51047</FIPs>
+        <FIPs travelReq="Y">51177</FIPs>
+        <FIPs travelReq="Y">51075</FIPs>
+        <FIPs travelReq="Y">51125</FIPs>
+        <FIPs travelReq="N">51790</FIPs>
+        <FIPs travelReq="N">51820</FIPs>
+        <FIPs travelReq="Y">51145</FIPs>
+        <FIPs travelReq="N">51015</FIPs>
+        <FIPs travelReq="N">51740</FIPs>
+        <FIPs travelReq="N">51550</FIPs>
+        <FIPs travelReq="Y">51800</FIPs>
+        <FIPs travelReq="N">51520</FIPs>
+        <FIPs travelReq="N">51191</FIPs>
+        <FIPs travelReq="N">51169</FIPs>
+        <FIPs travelReq="N">51195</FIPs>
+        <FIPs travelReq="N">51720</FIPs>
+        <FIPs travelReq="N">51051</FIPs>
+        <FIPs travelReq="N">51027</FIPs>
+        <FIPs travelReq="N">51167</FIPs>
+        <FIPs travelReq="N">51105</FIPs>
+        <FIPs travelReq="N">51185</FIPs>
+        <FIPs travelReq="N">51173</FIPs>
+        <FIPs travelReq="N">51077</FIPs>
+        <FIPs travelReq="Y">51127</FIPs>
+        <FIPs travelReq="Y">51036</FIPs>
+        <FIPs travelReq="Y">51181</FIPs>
+        <FIPs travelReq="Y">51093</FIPs>
+        <FIPs travelReq="N">51197</FIPs>
+        <FIPs travelReq="Y">51035</FIPs>
+        <FIPs travelReq="N">51640</FIPs>
+        <FIPs travelReq="Y">51179</FIPs>
+        <FIPs travelReq="N">51165</FIPs>
+        <FIPs travelReq="N">51660</FIPs>
+        <FIPs travelReq="Y">51139</FIPs>
+        <FIPs travelReq="Y">51187</FIPs>
+        <FIPs travelReq="Y">51171</FIPs>
+        <FIPs travelReq="Y">51157</FIPs>
+        <FIPs travelReq="N">51021</FIPs>
+    </Service>
+    <Service serviceName="Functional Family Therapy (FFT)" serviceZoom="0">
+        <FIPs travelReq="N" languages="Spanish">51683</FIPs>
+        <FIPs travelReq="N" languages="Spanish">51153</FIPs>
+        <FIPs travelReq="N">51685</FIPs>
+        <FIPs travelReq="N" languages="Spanish">51600</FIPs>
+        <FIPs travelReq="N" languages="Spanish">51059</FIPs>
+        <FIPs travelReq="N" languages="Spanish">51510</FIPs>
+        <FIPs travelReq="N" languages="Spanish">51013</FIPs>
+        <FIPs travelReq="N" languages="Spanish">51610</FIPs>
+        <FIPs travelReq="N" languages="Spanish">51107</FIPs>
+        <FIPs travelReq="Y" languages="Spanish">51061</FIPs>
+        <FIPs travelReq="N">51105</FIPs>
+        <FIPs travelReq="N">51169</FIPs>
+        <FIPs travelReq="N">51195</FIPs>
+        <FIPs travelReq="N">51720</FIPs>
+        <FIPs travelReq="N">51051</FIPs>
+        <FIPs travelReq="N">51027</FIPs>
+        <FIPs travelReq="N">51167</FIPs>
+        <FIPs travelReq="N">51520</FIPs>
+        <FIPs travelReq="N">51191</FIPs>
+        <FIPs travelReq="N">51173</FIPs>
+        <FIPs travelReq="N">51185</FIPs>
+        <FIPs travelReq="N">51077</FIPs>
+        <FIPs travelReq="N">51197</FIPs>
+        <FIPs travelReq="N">51021</FIPs>
+        <FIPs travelReq="N">51640</FIPs>
+        <FIPs travelReq="Y">51035</FIPs>
+        <FIPs travelReq="Y" languages="Spanish">51171</FIPs>
+        <FIPs travelReq="N" languages="Spanish">51187</FIPs>
+        <FIPs travelReq="N" languages="Spanish">51043</FIPs>
+        <FIPs travelReq="N" languages="Spanish">51069</FIPs>
+        <FIPs travelReq="N" languages="Spanish">51840</FIPs>
+        <FIPs travelReq="Y">51139</FIPs>
+        <FIPs travelReq="N" languages="Spanish">51179</FIPs>
+        <FIPs travelReq="N" languages="Spanish">51630</FIPs>
+        <FIPs travelReq="Y">51157</FIPs>
+        <FIPs travelReq="Y">51047</FIPs>
+    </Service>
+    <Service serviceName="GPS / EM" serviceZoom="1">
+        <FIPs travelReq="N">51650</FIPs>
+        <FIPs travelReq="Y">51735</FIPs>
+        <FIPs travelReq="N">51700</FIPs>
+        <FIPs travelReq="N">51740</FIPs>
+        <FIPs travelReq="N">51710</FIPs>
+        <FIPs travelReq="N">51810</FIPs>
+        <FIPs travelReq="N">51069</FIPs>
+        <FIPs travelReq="N">51840</FIPs>
+        <FIPs travelReq="N">51043</FIPs>
+        <FIPs travelReq="N">51107</FIPs>
+        <FIPs travelReq="Y">51187</FIPs>
+        <FIPs travelReq="Y">51171</FIPs>
+        <FIPs travelReq="Y">51139</FIPs>
+        <FIPs travelReq="Y">51165</FIPs>
+        <FIPs travelReq="Y">51660</FIPs>
+        <FIPs travelReq="N">51013</FIPs>
+        <FIPs travelReq="N">51510</FIPs>
+        <FIPs travelReq="N">51600</FIPs>
+        <FIPs travelReq="N">51059</FIPs>
+        <FIPs travelReq="N">51153</FIPs>
+        <FIPs travelReq="N">51683</FIPs>
+        <FIPs travelReq="N">51061</FIPs>
+        <FIPs travelReq="N">51630</FIPs>
+        <FIPs travelReq="N">51179</FIPs>
+        <FIPs travelReq="N">51177</FIPs>
+        <FIPs travelReq="N">51109</FIPs>
+        <FIPs travelReq="N">51085</FIPs>
+        <FIPs travelReq="N">51033</FIPs>
+        <FIPs travelReq="N">51099</FIPs>
+        <FIPs travelReq="N">51540</FIPs>
+        <FIPs travelReq="N">51003</FIPs>
+        <FIPs travelReq="Y">51015</FIPs>
+        <FIPs travelReq="Y">51820</FIPs>
+        <FIPs travelReq="Y">51790</FIPs>
+        <FIPs travelReq="Y">51678</FIPs>
+        <FIPs travelReq="Y">51530</FIPs>
+        <FIPs travelReq="Y">51163</FIPs>
+        <FIPs travelReq="N">51087</FIPs>
+        <FIPs travelReq="N">51760</FIPs>
+        <FIPs travelReq="N">51670</FIPs>
+        <FIPs travelReq="N">51570</FIPs>
+        <FIPs travelReq="N">51730</FIPs>
+        <FIPs travelReq="N">51149</FIPs>
+        <FIPs travelReq="N">51041</FIPs>
+        <FIPs travelReq="Y">51053</FIPs>
+        <FIPs travelReq="N">51007</FIPs>
+        <FIPs travelReq="N">51147</FIPs>
+        <FIPs travelReq="Y">51011</FIPs>
+        <FIPs travelReq="Y">51029</FIPs>
+        <FIPs travelReq="Y">51049</FIPs>
+        <FIPs travelReq="Y">51145</FIPs>
+        <FIPs travelReq="N">51135</FIPs>
+        <FIPs travelReq="Y">51075</FIPs>
+        <FIPs travelReq="N">51065</FIPs>
+        <FIPs travelReq="Y">51019</FIPs>
+        <FIPs travelReq="Y">51009</FIPs>
+        <FIPs travelReq="N">51680</FIPs>
+        <FIPs travelReq="Y">51023</FIPs>
+        <FIPs travelReq="N">51770</FIPs>
+        <FIPs travelReq="N">51775</FIPs>
+        <FIPs travelReq="N">51161</FIPs>
+        <FIPs travelReq="Y">51690</FIPs>
+        <FIPs travelReq="Y">51089</FIPs>
+        <FIPs travelReq="Y">51590</FIPs>
+        <FIPs travelReq="Y">51143</FIPs>
+        <FIPs travelReq="Y">51067</FIPs>
+        <FIPs travelReq="Y">51121</FIPs>
+        <FIPs travelReq="Y">51063</FIPs>
+        <FIPs travelReq="Y">51155</FIPs>
+        <FIPs travelReq="Y">51750</FIPs>
+        <FIPs travelReq="N">51550</FIPs>
+        <FIPs travelReq="N">51800</FIPs>
+        <FIPs travelReq="N">51093</FIPs>
+        <FIPs travelReq="Y">51175</FIPs>
+        <FIPs travelReq="Y">51620</FIPs>
+        <FIPs travelReq="Y">51181</FIPs>
+        <FIPs travelReq="Y">51183</FIPs>
+        <FIPs travelReq="Y">51095</FIPs>
+        <FIPs travelReq="Y">51830</FIPs>
+        <FIPs travelReq="Y">51199</FIPs>
+        <FIPs travelReq="Y">51073</FIPs>
+        <FIPs travelReq="Y">51036</FIPs>
+        <FIPs travelReq="Y">51127</FIPs>
+        <FIPs travelReq="Y">51137</FIPs>
+        <FIPs travelReq="Y">51079</FIPs>
+        <FIPs travelReq="Y">51113</FIPs>
+        <FIPs travelReq="Y">51125</FIPs>
+        <FIPs travelReq="Y">51047</FIPs>
+        <FIPs travelReq="N">51610</FIPs>
+        <FIPs travelReq="Y">51157</FIPs>
+        <FIPs travelReq="N">51031</FIPs>
+        <FIPs travelReq="Y">51141</FIPs>
+        <FIPs travelReq="Y">51045</FIPs>
+    </Service>
+</Provider>
     <Provider id="41">
         <Name>New River Valley Community Services</Name>
         <LastUpdated>2018-11-05</LastUpdated>
