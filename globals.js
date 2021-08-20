@@ -130,15 +130,10 @@ var CSU22 = {
     name: "District 22 - Rocky Mount",
     slug: "CSU22"
 };
-var CSU23 = {
-    localities: ["51161","51775"],
-    name: "District 23 - Salem",
+const CSU23 = {
+    localities: ["51161","51775","51770"],
+    name: "District 23 - Roanoke",
     slug: "CSU23"
-};
-var CSU23A = {
-    localities: ["51770"],
-    name: "District 23A - Roanoke",
-    slug: "CSU23A"
 };
 var CSU27 = {
     localities: ["51021","51035","51063","51071","51077","51121","51155","51197","51640","51750"],
@@ -161,7 +156,7 @@ var CSU30 = {
     slug: "CSU30"
 };
 var WesternRegion = {
-    CSUs: [CSU21,CSU22,CSU23,CSU23A,CSU27,CSU28,CSU29,CSU30],
+    CSUs: [CSU21,CSU22,CSU23,CSU27,CSU28,CSU29,CSU30],
     name: "Western Region"
 }
 //Central Region
@@ -197,7 +192,7 @@ var CentralRegion = {
 
 //put CSUs all together
 var CSUStructure = [NorthernRegion,CentralRegion,WesternRegion];
-var sortedCSUs = [CSU9,CSU15,CSU16,CSU17,CSU18,CSU19,CSU20,CSU21,CSU22,CSU23,CSU23A,CSU24,CSU25,CSU26,CSU27,CSU28,CSU29,CSU30,CSU31];
+var sortedCSUs = [CSU9,CSU15,CSU16,CSU17,CSU18,CSU19,CSU20,CSU21,CSU22,CSU23,CSU24,CSU25,CSU26,CSU27,CSU28,CSU29,CSU30,CSU31];
 
 //for use in defining localities
 var localityUrl = "locality.php?";
