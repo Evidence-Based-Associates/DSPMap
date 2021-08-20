@@ -4,7 +4,7 @@
     <meta http-equiv="content-serviceName" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Update Your Agency Information</title>
-    <script src="globals.js?v=09.25.2020-0"></script>
+    <script src="globals.js?v=08.20.2021-0"></script>
     <script src="statemap.js"></script>
     <script src="mainmapdata.js?v=2.8.2018-1"></script>
     <script type='text/javascript'>	
@@ -74,6 +74,11 @@ var approvedServiceNames = ["Casey Life Skills / Mentoring",
                             "Residential Services",
                             "Residential Services (18+)",
                             "Residential Independent Living",
+                            "Residential Treatment Center",
+                            "Seven Challenges for Substance Abuse",
+                            "Skills Coaching Group",
+                            "Specialized Individual Therapy (DBT/ EMDR)",
+                            "Substance Abuse Evaluation",
                             "Treatment Foster Care",
                             "Translation / Interpretation"];
 approvedServiceNames.sort();
