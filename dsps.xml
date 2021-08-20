@@ -1178,7 +1178,7 @@
             <Phone/>
             <Fax/>
         </Office>
-        <Service serviceName="Residential Services" serviceZoom="51075">
+        <Service serviceName="Residential Group Home" serviceZoom="51075">
             <FIPs travelReq="N">51075</FIPs>
             <FIPs travelReq="N">51041</FIPs>
             <FIPs travelReq="N">51065</FIPs>
@@ -2466,7 +2466,7 @@
             <Phone/>
             <Fax/>
         </Office>
-        <Service serviceName="Residential Services" serviceZoom="-1">
+        <Service serviceName="Residential Group Home" serviceZoom="-1">
             <Locations/>
         </Service>
         <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="-1">
@@ -2647,7 +2647,7 @@
             <Phone>(434) 634-3217 ext. 3027</Phone>
             <Fax/>
         </Office>
-        <Service serviceName="Residential Services" serviceZoom="51760">
+        <Service serviceName="Residential Group Home" serviceZoom="51760">
             <FIPs travelReq="N">51081</FIPs>
         </Service>
     </Provider>
@@ -2668,7 +2668,7 @@
             <Phone>757-625-0504</Phone>
             <Fax/>
         </Office>
-        <Service serviceName="Residential Services" serviceZoom="51710">
+        <Service serviceName="Residential Group Home" serviceZoom="51710">
             <FIPs travelReq="N">51710</FIPs>
         </Service>
     </Provider>
@@ -4947,7 +4947,7 @@
             <FIPs travelReq="N">51830</FIPs>
             <FIPs travelReq="N">51101</FIPs>
         </Service>
-        <Service serviceName="Residential Services" serviceZoom="-1">
+        <Service serviceName="Residential Group Home" serviceZoom="-1">
             <FIPs travelReq="N">51760</FIPs>
         </Service>
         <Service serviceName="HFW Intensive Care Coordination" serviceZoom="-1">
@@ -5337,7 +5337,7 @@
             <Phone>(804)270-6566 ext. 135</Phone>
             <Fax>(804) 934-9013</Fax>
         </Office>
-        <Service serviceName="Residential Services" serviceZoom="-1">
+        <Service serviceName="Residential Group Home" serviceZoom="-1">
             <FIPs travelReq="N">51087</FIPs>
         </Service>
         <Service serviceZoom="-1" serviceName="Outpatient Services">
@@ -5522,7 +5522,7 @@
             <FIPs travelReq="N">51685</FIPs>
             <FIPs travelReq="N">51600</FIPs>
         </Service>
-        <Service serviceZoom="0" serviceName="Residential Services">
+        <Service serviceZoom="0" serviceName="Residential Group Home">
             <FIPs travelReq="N" languages="Spanish">51153</FIPs>
         </Service>
         <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="0">
@@ -5676,7 +5676,7 @@
             <Phone>(434) 676-1378</Phone>
             <Fax/>
         </Office>
-        <Service serviceName="Residential Services" serviceZoom="-1">
+        <Service serviceName="Residential Group Home" serviceZoom="-1">
             <FIPs travelReq="N">51111</FIPs>
         </Service>
     </Provider>
@@ -6496,7 +6496,7 @@
             <Phone>(757) 262-6752</Phone>
             <Fax>(757) 391-5915</Fax>
         </Office>
-        <Service serviceName="Residential Services" serviceZoom="51740">
+        <Service serviceName="Residential Group Home" serviceZoom="51740">
             <FIPs travelReq="N">51740</FIPs>
         </Service>
     </Provider>
@@ -6649,7 +6649,7 @@
             <Phone>(804) 784-6432</Phone>
             <Fax>(804) 784-5261</Fax>
         </Office>
-        <Service serviceName="Residential Services" serviceZoom="-1">
+        <Service serviceName="Residential Group Home" serviceZoom="-1">
             <FIPs travelReq="N">51075</FIPs>
         </Service>
     </Provider>
@@ -6837,7 +6837,7 @@
             <Phone>434-395-1200</Phone>
             <Fax/>
         </Office>
-        <Service serviceName="Residential Services" serviceZoom="0">
+        <Service serviceName="Residential Group Home" serviceZoom="0">
             <FIPs travelReq="N">51069</FIPs>
         </Service>
         <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="0">
@@ -7239,7 +7239,7 @@
             <Phone>(703) 777-0800 ext 1005</Phone>
             <Fax/>
         </Office>
-        <Service serviceName="Residential Services" serviceZoom="-1">
+        <Service serviceName="Residential Group Home" serviceZoom="-1">
             <Locations/>
             <FIPs travelReq="N">51107</FIPs>
         </Service>
@@ -8310,7 +8310,7 @@
             <Phone>434-395-1200</Phone>
             <Fax/>
         </Office>
-        <Service serviceName="Residential Services" serviceZoom="-1">
+        <Service serviceName="Residential Group Home" serviceZoom="-1">
             <FIPs travelReq="N">51083</FIPs>
         </Service>
     </Provider>
@@ -8415,7 +8415,7 @@
             <Phone>540-399-1926</Phone>
             <Fax/>
         </Office>
-        <Service serviceName="Residential Services" serviceZoom="-1">
+        <Service serviceName="Residential Group Home" serviceZoom="-1">
             <FIPs travelReq="N">51047</FIPs>
         </Service>
     </Provider>
