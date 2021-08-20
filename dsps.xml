@@ -115,7 +115,7 @@
             <Phone>(434) 298-7318</Phone>
             <Fax/>
         </Office>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="-1">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="-1">
             <FIPs travelReq="N">51003</FIPs>
             <FIPs travelReq="N">51540</FIPs>
             <FIPs travelReq="Y">51065</FIPs>
@@ -621,7 +621,7 @@
             <FIPs travelReq="N">51600</FIPs>
             <FIPs travelReq="N">51161</FIPs>
         </Service>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="1">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="1">
             <FIPs travelReq="N">51680</FIPs>
             <FIPs travelReq="N">51009</FIPs>
             <FIPs travelReq="N">51019</FIPs>
@@ -1304,7 +1304,7 @@
             <FIPs travelReq="N">51570</FIPs>
             <FIPs travelReq="N">51127</FIPs>
         </Service>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="-1">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="-1">
             <FIPs travelReq="N">51760</FIPs>
             <FIPs travelReq="N">51087</FIPs>
             <FIPs travelReq="N">51041</FIPs>
@@ -1962,7 +1962,7 @@
             <FIPs travelReq="Y">51750</FIPs>
             <FIPs travelReq="Y">51071</FIPs>
         </Service>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="-1">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="-1">
             <FIPs travelReq="N">51770</FIPs>
             <FIPs travelReq="N">51775</FIPs>
             <FIPs travelReq="N">51161</FIPs>
@@ -2054,7 +2054,7 @@
             <FIPs travelReq="N">51031</FIPs>
             <FIPs travelReq="N">51011</FIPs>
         </Service>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="-1">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="-1">
             <FIPs travelReq="N">51680</FIPs>
             <FIPs travelReq="N">51009</FIPs>
             <FIPs travelReq="N">51019</FIPs>
@@ -2137,7 +2137,7 @@
             <FIPs travelReq="N">51131</FIPs>
             <FIPs travelReq="N">51001</FIPs>
         </Service>
-        <Service serviceZoom="-1" serviceName="Outpatient YSB Services (CSOTP)">
+        <Service serviceZoom="-1" serviceName="Youth with Sexualized Behaviors Treatment">
             <!-- CSU9 except Matthews and Middlesex -->
             <FIPs travelReq="N">51073</FIPs>
             <FIPs travelReq="N">51095</FIPs>
@@ -2514,7 +2514,7 @@
             <FIPs travelReq="Y">51075</FIPs>
             <FIPs travelReq="Y">51019</FIPs>
         </Service>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="-1">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="-1">
             <FIPs travelReq="N">51683</FIPs>
             <!-- CSU25 Rockbridge County, City of Lexington, Botetourt County. City of Waynesboro -->
             <FIPs travelReq="N">51678</FIPs>
@@ -2824,7 +2824,7 @@
             <FIPs travelReq="N">51133</FIPs>
             <FIPs travelReq="N">51193</FIPs>
         </Service>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="1">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="1">
             <FIPs travelReq="N">51057</FIPs>
             <FIPs travelReq="N">51101</FIPs>
             <FIPs travelReq="N">51073</FIPs>
@@ -2923,7 +2923,7 @@
             <FIPs travelReq="N">51021</FIPs>
             <FIPs travelReq="N">51197</FIPs>
         </Service>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="2">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="2">
             <FIPs travelReq="N">51640</FIPs>
             <FIPs travelReq="N">51035</FIPs>
             <FIPs travelReq="N">51077</FIPs>
@@ -4235,7 +4235,7 @@
             <FIPs travelReq="Y">51163</FIPs>
             <FIPs travelReq="Y">51005</FIPs>
         </Service>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="-1">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="-1">
             <FIPs travelReq="N">51515</FIPs>
             <FIPs travelReq="N">51678</FIPs>
             <FIPs travelReq="N">51089</FIPs>
@@ -4618,7 +4618,7 @@
             <FIPs travelReq="N">51195</FIPs>
             <FIPs travelReq="N">51720</FIPs>
         </Service>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="2">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="2">
             <!-- All of CSU24 -->
 
 
@@ -4734,7 +4734,7 @@
             <FIPs travelReq="Y">51069</FIPs>
             <FIPs travelReq="Y">51840</FIPs>
         </Service>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="51660">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="51660">
             <FIPs travelReq="N">51660</FIPs>
             <FIPs travelReq="N">51015</FIPs>
             <FIPs travelReq="N">51790</FIPs>
@@ -4841,7 +4841,7 @@
             <FIPs travelReq="N" languages="Spanish">51610</FIPs>
             <FIPs travelReq="Y" languages="Spanish">51107</FIPs>
         </Service>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="0">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="0">
             <FIPs travelReq="N">51600</FIPs>
             <FIPs travelReq="N" languages="Spanish">51059</FIPs>
             <FIPs travelReq="N" languages="Spanish">51153</FIPs>
@@ -5491,7 +5491,7 @@
             <Phone/>
             <Fax/>
         </Office>
-        <Service serviceZoom="0" serviceName="Outpatient YSB Services (CSOTP)">
+        <Service serviceZoom="0" serviceName="Youth with Sexualized Behaviors Treatment">
             <FIPs travelReq="Y">51107</FIPs>
             <FIPs travelReq="Y">51061</FIPs>
             <FIPs travelReq="N">51683</FIPs>
@@ -5715,7 +5715,7 @@
             <FIPs travelReq="N">51171</FIPs>
             <FIPs travelReq="Y">51139</FIPs>
         </Service>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="0">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="0">
             <FIPs travelReq="N" languages="Thai">51069</FIPs>
             <FIPs travelReq="N" languages="Thai">51840</FIPs>
             <FIPs travelReq="N" languages="Thai">51171</FIPs>
@@ -5875,7 +5875,7 @@
             <FIPs travelReq="Y">51163</FIPs>
             <FIPs travelReq="Y">51079</FIPs>
         </Service>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="-1">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="-1">
             <FIPs travelReq="N">51105</FIPs>
             <FIPs travelReq="N">51169</FIPs>
             <FIPs travelReq="N">51191</FIPs>
@@ -6256,7 +6256,7 @@
             <FIPs travelReq="N" languages="Spanish">51590</FIPs>
             <FIPs travelReq="N" languages="Spanish">51143</FIPs>
         </Service>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="2">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="2">
             <FIPs travelReq="N">51590</FIPs>
             <FIPs travelReq="N">51143</FIPs>
         </Service>
@@ -6578,7 +6578,7 @@
             <FIPs travelReq="N">51685</FIPs>
             <FIPs travelReq="N">51157</FIPs>
         </Service>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="0">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="0">
             <FIPs travelReq="N" languages="Latvian">51059</FIPs>
             <FIPs travelReq="N" languages="Latvian">51600</FIPs>
             <FIPs travelReq="N" languages="Latvian">51107</FIPs>
@@ -6674,7 +6674,7 @@
             <FIPs travelReq="N">51840</FIPs>
             <FIPs travelReq="N">51069</FIPs>
         </Service>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="0">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="0">
             <FIPs travelReq="N">51840</FIPs>
             <FIPs travelReq="N">51069</FIPs>
         </Service>
@@ -6794,7 +6794,7 @@
             <FIPs travelReq="N">51041</FIPs>
             <FIPs travelReq="Y">51730</FIPs>
         </Service>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="-1">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="-1">
             <FIPs travelReq="Y">51075</FIPs>
             <FIPs travelReq="Y">51085</FIPs>
             <FIPs travelReq="N">51087</FIPs>
@@ -7408,7 +7408,7 @@
             <Phone/>
             <Fax/>
         </Office>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="-1">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="-1">
             <FIPs travelReq="N" languages="Spanish">51683</FIPs>
             <FIPs travelReq="N" languages="Spanish">51153</FIPs>
             <FIPs travelReq="N" languages="Spanish">51685</FIPs>
@@ -7581,7 +7581,7 @@
             <Phone>(703) 492-2994</Phone>
             <Fax/>
         </Office>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="-1">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="-1">
             <FIPs travelReq="N">51630</FIPs>
             <FIPs travelReq="Y">51033</FIPs>
             <FIPs travelReq="N">51177</FIPs>
@@ -8266,7 +8266,7 @@
             <FIPs travelReq="Y">51790</FIPs>
             <FIPs travelReq="Y">51015</FIPs>
         </Service>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="-1">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="-1">
             <FIPs travelReq="N">51177</FIPs>
             <FIPs travelReq="N">51109</FIPs>
             <FIPs travelReq="N">51075</FIPs>
@@ -8370,7 +8370,7 @@
             <FIPs travelReq="N">51145</FIPs>
             <FIPs travelReq="Y">51540</FIPs>
         </Service>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="-1">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="-1">
             <FIPs travelReq="Y">51003</FIPs>
             <FIPs travelReq="N">51109</FIPs>
             <FIPs travelReq="N">51065</FIPs>
@@ -8690,7 +8690,7 @@
             <Phone>540-729-8892</Phone>
             <Fax/>
         </Office>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="-1">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="-1">
             <FIPs travelReq="N">51047</FIPs>
             <FIPs travelReq="N">51137</FIPs>
             <FIPs travelReq="Y">51177</FIPs>
@@ -8827,7 +8827,7 @@
             <FIPs travelReq="N" languages="Spanish, Arabic">51069</FIPs>
             <FIPs travelReq="N" languages="Spanish, Arabic">51840</FIPs>
         </Service>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="0">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="0">
             <FIPs travelReq="N">51069</FIPs>
             <FIPs travelReq="N">51840</FIPs>
         </Service>
@@ -9003,7 +9003,7 @@
             <Phone>540-886-7070</Phone>
             <Fax>540-886-6969</Fax>
         </Office>
-        <Service serviceName="Outpatient YSB Services (CSOTP)" serviceZoom="-1">
+        <Service serviceName="Youth with Sexualized Behaviors Treatment" serviceZoom="-1">
             <FIPs travelReq="N">51790</FIPs>
             <FIPs travelReq="N">51015</FIPs>
             <FIPs travelReq="N">51820</FIPs>
