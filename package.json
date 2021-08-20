@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/joelnwalkley/DSPMap/issues"
   },
-  "homepage": "https://github.com/joelnwalkley/DSPMap#readme"
+  "homepage": "https://github.com/joelnwalkley/DSPMap#readme",
+  "dependencies": {
+    "webpack": "^5.51.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.8.0"
+  }
 }
