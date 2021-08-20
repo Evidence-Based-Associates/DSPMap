@@ -913,7 +913,7 @@
             <FIPs travelReq="N">51720</FIPs>
             <FIPs travelReq="N">51105</FIPs>
         </Service>
-        <Service serviceName="Vocational / Employment Service" serviceZoom="-1">
+        <Service serviceName="Job Readiness and Employment Service" serviceZoom="-1">
             <FIPs travelReq="N">51770</FIPs>
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51775</FIPs>
@@ -1985,7 +1985,7 @@
             <Phone>(540) 581.0620 ext. 143</Phone>
             <Fax>(540) 581.0628</Fax>
         </Office>
-        <Service serviceName="Vocational / Employment Service" serviceZoom="-1">
+        <Service serviceName="Job Readiness and Employment Service" serviceZoom="-1">
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51770</FIPs>
             <FIPs travelReq="N">51775</FIPs>
@@ -2812,7 +2812,7 @@
             <FIPs travelReq="N">51133</FIPs>
             <FIPs travelReq="N">51193</FIPs>
         </Service>
-        <Service serviceName="Vocational / Employment Service" serviceZoom="1">
+        <Service serviceName="Job Readiness and Employment Service" serviceZoom="1">
             <FIPs travelReq="N">51057</FIPs>
             <FIPs travelReq="N">51101</FIPs>
             <FIPs travelReq="N">51073</FIPs>
@@ -6118,7 +6118,7 @@
             <Phone>(804) 278-9151</Phone>
             <Fax>(804) 278-9221</Fax>
         </Office>
-        <Service serviceName="Vocational / Employment Service" serviceZoom="-1">
+        <Service serviceName="Job Readiness and Employment Service" serviceZoom="-1">
             <FIPs travelReq="N" languages="Spanish, Farsi">51013</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51610</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51510</FIPs>
@@ -7801,7 +7801,7 @@
             <FIPs travelReq="N">51013</FIPs>
             <FIPs travelReq="N">51510</FIPs>
         </Service>
-        <Service serviceName="Vocational / Employment Service" serviceZoom="0">
+        <Service serviceName="Job Readiness and Employment Service" serviceZoom="0">
             <FIPs travelReq="N" languages="Spanish">51013</FIPs>
             <FIPs travelReq="N" languages="Spanish">51610</FIPs>
             <FIPs travelReq="N" languages="Spanish">51510</FIPs>
@@ -8028,7 +8028,7 @@
             <Phone>(540) 324-8965</Phone>
             <Fax>(540) 450-5943</Fax>
         </Office>
-        <Service serviceName="Vocational / Employment Service" serviceZoom="0">
+        <Service serviceName="Job Readiness and Employment Service" serviceZoom="0">
             <FIPs travelReq="N">51840</FIPs>
             <FIPs travelReq="N">51069</FIPs>
             <FIPs travelReq="N">51043</FIPs>
