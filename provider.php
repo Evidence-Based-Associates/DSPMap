@@ -5,7 +5,7 @@
     <meta http-equiv="Cache-control" content="no-cache">
     <title>Provider Coverage Map</title>
     <script>var cacheBuster = Date.now();</script>
-    <script src="globals.js?09.25.2020-0"+cacheBuster></script>
+    <script src="globals.js?08.20.2021-0"+cacheBuster></script>
     <script src="mainmapdata.js?v=7.10.2017-3"></script>
     <script src="statemap.js"></script>
     <link rel="stylesheet" type="text/css" href="pdstyle.css">

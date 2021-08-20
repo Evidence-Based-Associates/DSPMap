@@ -4,7 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta http-equiv="Cache-control" content="no-cache">
     <title>Locality Map</title>
-    <script src="globals.js?v=09.25.2020-0"></script>
+    <script src="globals.js?v=08.20.2021-0"></script>
     <script src="mainmapdata.js?v=7.10.2017-1"></script>
     <script src="statemap.js"></script>
     <link rel="stylesheet" type="text/css" href="pdstyle.css">
