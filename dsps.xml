@@ -213,7 +213,7 @@
             <FIPs travelReq="Y">51083</FIPs>
             <FIPs travelReq="Y">51023</FIPs>
         </Service>
-        <Service serviceName="Groups" serviceZoom="2">
+        <Service serviceName="Clinical Group" serviceZoom="2">
             <FIPs travelReq="Y">51143</FIPs>
             <FIPs travelReq="Y">51590</FIPs>
             <FIPs travelReq="N">51089</FIPs>
@@ -393,7 +393,7 @@
             <FIPs travelReq="N">51173</FIPs>
             <FIPs travelReq="N">51520</FIPs>
         </Service>
-        <Service serviceZoom="-1" serviceName="Groups">
+        <Service serviceZoom="-1" serviceName="Clinical Group">
             <FIPs travelReq="N">51167</FIPs>
             <FIPs travelReq="N">51185</FIPs>
             <FIPs travelReq="N">51173</FIPs>
@@ -647,7 +647,7 @@
             <FIPs travelReq="Y">51067</FIPs>
             <FIPs travelReq="Y">51023</FIPs>
         </Service>
-        <Service serviceName="Groups" serviceZoom="-1">
+        <Service serviceName="Clinical Group" serviceZoom="-1">
             <FIPs travelReq="N">51680</FIPs>
             <FIPs travelReq="N">51009</FIPs>
             <FIPs travelReq="N">51019</FIPs>
@@ -5634,7 +5634,7 @@
             <FIPs travelReq="N">51013</FIPs>
             <FIPs travelReq="N">51610</FIPs>
         </Service>
-        <Service serviceName="Groups" serviceZoom="0">
+        <Service serviceName="Clinical Group" serviceZoom="0">
             <FIPs travelReq="N">51600</FIPs>
             <FIPs travelReq="N">51059</FIPs>
             <FIPs travelReq="N">51683</FIPs>
@@ -6599,7 +6599,7 @@
             <FIPs travelReq="N" languages="Latvian">51630</FIPs>
             <FIPs travelReq="Y" languages="Latvian">51177</FIPs>
         </Service>
-        <Service serviceName="Groups" serviceZoom="0">
+        <Service serviceName="Clinical Group" serviceZoom="0">
             <FIPs travelReq="N">51059</FIPs>
             <FIPs travelReq="N">51600</FIPs>
             <FIPs travelReq="N">51107</FIPs>
@@ -6940,7 +6940,7 @@
             <FIPs travelReq="N">51157</FIPs>
             <FIPs travelReq="N">51061</FIPs>
         </Service>
-        <Service serviceName="Groups" serviceZoom="-1">
+        <Service serviceName="Clinical Group" serviceZoom="-1">
             <FIPs travelReq="N">51137</FIPs>
             <FIPs travelReq="N">51047</FIPs>
             <FIPs travelReq="N">51113</FIPs>
@@ -7707,7 +7707,7 @@
             <FIPs travelReq="N" languages="Spanish">51685</FIPs>
             <FIPs travelReq="N" languages="Spanish">51153</FIPs>
         </Service>
-        <Service serviceName="Groups" serviceZoom="-1">
+        <Service serviceName="Clinical Group" serviceZoom="-1">
             <FIPs travelReq="N">51630</FIPs>
             <FIPs travelReq="N">51033</FIPs>
             <FIPs travelReq="N">51177</FIPs>
@@ -7834,7 +7834,7 @@
             <FIPs travelReq="N" languages="Spanish">51683</FIPs>
             <FIPs travelReq="N" languages="Spanish">51685</FIPs>
         </Service>
-        <Service serviceName="Groups" serviceZoom="0">
+        <Service serviceName="Clinical Group" serviceZoom="0">
             <FIPs travelReq="N" languages="Spanish">51013</FIPs>
             <FIPs travelReq="N" languages="Spanish">51610</FIPs>
             <FIPs travelReq="N" languages="Spanish">51510</FIPs>
@@ -8115,7 +8115,7 @@
             <FIPs travelReq="N" languages="Spanish">51153</FIPs>
             <FIPs travelReq="N" languages="Spanish">51610</FIPs>
         </Service>
-        <Service serviceName="Groups" serviceZoom="0">
+        <Service serviceName="Clinical Group" serviceZoom="0">
             <FIPs travelReq="N" languages="Spanish">51059</FIPs>
             <FIPs travelReq="N" languages="Spanish">51510</FIPs>
             <FIPs travelReq="N" languages="Spanish">51683</FIPs>
@@ -8777,7 +8777,7 @@
             <FIPs travelReq="Y">51610</FIPs>
             <FIPs travelReq="Y">51685</FIPs>
         </Service>
-        <Service serviceName="Groups" serviceZoom="0">
+        <Service serviceName="Clinical Group" serviceZoom="0">
             <FIPs travelReq="N">51069</FIPs>
             <FIPs travelReq="N">51840</FIPs>
         </Service>
@@ -8897,7 +8897,7 @@
             <FIPs travelReq="N">51067</FIPs>
             <FIPs travelReq="N">51141</FIPs>
         </Service>
-        <Service serviceName="Groups" serviceZoom="2">
+        <Service serviceName="Clinical Group" serviceZoom="2">
             <FIPs travelReq="N">51089</FIPs>
             <FIPs travelReq="N">51690</FIPs>
             <FIPs travelReq="N">51067</FIPs>
