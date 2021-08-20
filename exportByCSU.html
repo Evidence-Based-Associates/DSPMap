@@ -12,17 +12,36 @@
         const providers = dspsXML.getElementsByTagName("Provider");
         const services = dspsXML.getElementsByTagName("Service");
         const locations = dspsXML.getElementsByTagName("FIPs");
-        let csvHeaders = "DSP!Service Name!CSU9!CSU15!CSU16!CSU17!CSU18!CSU19!CSU20!CSU21!CSU22!CSU23!CSU24!CSU25!CSU26!CSU27!CSU28!CSU29!CSU30!CSU31\n";
+
+        const FIPSinCSU = (FIPS, CSU) => {
+
+        }
+        
+        let csvHeaders = "DSP,Service Name,CSU9,CSU15,CSU16,CSU17,CSU18,CSU19,CSU20,CSU21,CSU22,CSU23,CSU24,CSU25,CSU26,CSU27,CSU28,CSU29,CSU30,CSU31\n";
         document.write(csvHeaders);
         document.write("<br/>")
         let csvData = "";
         for (let i = 0; i < providers.length; i++) {
             const providerServices = providers[i].getElementsByTagName("Service");
             for (let j = 0; j < providerServices.length; j++) {
-                document.write(providers[i].childNodes[1].innerHTML + "!");
-                document.write(providerServices[j].getAttribute("serviceName") + "!");
-                const serviceFIPS = providerServices[j].getElementsByTagName("FIPs")
-                console.log(serviceFIPS);
+                document.write(providers[i].childNodes[1].innerHTML.replaceAll(","," ") + ",");
+                document.write(providerServices[j].getAttribute("serviceName") + ",");
+                const serviceFIPSTags = providerServices[j].getElementsByTagName("FIPs")
+                const FIPs = Object.keys(serviceFIPSTags)
+                    .map((key, index) => serviceFIPSTags[index].innerHTML)
+                //console.log(FIPs)
+
+                sortedCSUs.forEach(csu => {
+                    //console.log(csu.localities)
+                    const inCSU = FIPs.some(fips => {
+                        return csu.localities.includes(fips)
+                    })
+                    inCSU ? document.write("YES,") : document.write("NO,")
+                });
+                
+                // Object.keys(serviceFIPS).forEach(function(key, index) {
+                //     console.log(serviceFIPS[index].innerHTML);
+                // })
                 document.write("<br/>")
             }
             
