@@ -67,7 +67,7 @@
             <FIPs travelReq="Y">51159</FIPs>
             <FIPs travelReq="Y">51057</FIPs>
         <FIPs travelReq="Y">51181</FIPs></Service>
-        <Service serviceName="Outpatient Services" serviceZoom="1">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="1">
             <FIPs travelReq="Y">51036</FIPs>
             <FIPs travelReq="N">51095</FIPs>
             <FIPs travelReq="N">51199</FIPs>
@@ -253,7 +253,7 @@
             <FIPs travelReq="N">51023</FIPs>
             <FIPs travelReq="N">51775</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="1">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="1">
             <!-- Craig and Botetourt -->
             <FIPs travelReq="N">51045</FIPs>
             <FIPs travelReq="N">51023</FIPs>
@@ -365,7 +365,7 @@
             <Phone>434-455-3727</Phone>
             <Fax>434-455-2891</Fax>
         </Office>
-        <Service serviceZoom="-1" serviceName="Outpatient Services">
+        <Service serviceZoom="-1" serviceName="Individual/ Family Counseling">
             <FIPs travelReq="N">51173</FIPs>
             <FIPs travelReq="N">51191</FIPs>
             <FIPs travelReq="N">51167</FIPs>
@@ -579,7 +579,7 @@
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51067</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="-1">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
             <FIPs travelReq="N">51680</FIPs>
             <FIPs travelReq="N">51009</FIPs>
             <FIPs travelReq="N">51031</FIPs>
@@ -682,7 +682,7 @@
             <FIPs travelReq="Y">51047</FIPs>
             <FIPs travelReq="Y">51137</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="1">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="1">
             <!-- CSU15 -->
             <FIPs travelReq="N">51033</FIPs>
             <FIPs travelReq="N">51085</FIPs>
@@ -868,7 +868,7 @@
             <FIPs travelReq="Y">51740</FIPs>
             <FIPs travelReq="Y">51800</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="-1">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
             <FIPs travelReq="N">51700</FIPs>
             <FIPs travelReq="N">51650</FIPs>
             <FIPs travelReq="N">51735</FIPs>
@@ -908,7 +908,7 @@
             <Phone/>
             <Fax/>
         </Office>
-        <Service serviceName="Outpatient Services" serviceZoom="51540">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="51540">
             <FIPs travelReq="N">51195</FIPs>
             <FIPs travelReq="N">51720</FIPs>
             <FIPs travelReq="N">51105</FIPs>
@@ -1055,7 +1055,7 @@
             <Phone>(434) 528-4580</Phone>
             <Fax/>
         </Office>
-        <Service serviceZoom="-1" serviceName="Outpatient Services">
+        <Service serviceZoom="-1" serviceName="Individual/ Family Counseling">
             <FIPs travelReq="N">51760</FIPs>
             <FIPs travelReq="N">51087</FIPs>
             <FIPs travelReq="N">51085</FIPs>
@@ -1205,7 +1205,7 @@
             <FIPs travelReq="N">51125</FIPs>
             <FIPs travelReq="N">51109</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="51540">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="51540">
             <FIPs travelReq="N">51199</FIPs>
             <FIPs travelReq="N">51127</FIPs>
             <FIPs travelReq="N">51085</FIPs>
@@ -1286,7 +1286,7 @@
             <FIPs travelReq="N">51570</FIPs>
             <FIPs travelReq="N">51127</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="-1">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
             <FIPs travelReq="N">51760</FIPs>
             <FIPs travelReq="N">51087</FIPs>
             <FIPs travelReq="N">51041</FIPs>
@@ -1562,7 +1562,7 @@
             <FIPs travelReq="N">51570</FIPs>
             <FIPs travelReq="Y">51181</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="-1">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
             <FIPs travelReq="N">51610</FIPs>
             <FIPs travelReq="N">51013</FIPs>
             <FIPs travelReq="N">51510</FIPs>
@@ -1878,7 +1878,7 @@
             <FIPs travelReq="N">51600</FIPs>
             <FIPs travelReq="N">51069</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="0">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="0">
             <FIPs travelReq="N">51069</FIPs>
             <FIPs travelReq="N">51840</FIPs>
             <FIPs travelReq="N">51043</FIPs>
@@ -2026,7 +2026,7 @@
             <FIPs travelReq="N">51031</FIPs>
             <FIPs travelReq="N">51011</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="-1">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
             <FIPs travelReq="N">51680</FIPs>
             <FIPs travelReq="N">51009</FIPs>
             <FIPs travelReq="N">51019</FIPs>
@@ -2168,7 +2168,7 @@
             <FIPs travelReq="N">51001</FIPs>
             <FIPs travelReq="N">51085</FIPs>
         </Service>
-        <Service serviceZoom="-1" serviceName="Outpatient Services">
+        <Service serviceZoom="-1" serviceName="Individual/ Family Counseling">
             <!-- CSU9 except Matthews and Middlesex -->
             <FIPs travelReq="N">51073</FIPs>
             <FIPs travelReq="N">51095</FIPs>
@@ -2491,7 +2491,7 @@
             <FIPs travelReq="N">51015</FIPs>
             <FIPs travelReq="N">51820</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="-1">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
             <FIPs travelReq="N">51678</FIPs>
             <!-- All of CSU22 -->
             <FIPs travelReq="Y">51067</FIPs>
@@ -2788,7 +2788,7 @@
             <FIPs travelReq="N">51133</FIPs>
             <FIPs travelReq="N">51193</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="1">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="1">
             <FIPs travelReq="N">51057</FIPs>
             <FIPs travelReq="N">51101</FIPs>
             <FIPs travelReq="N">51073</FIPs>
@@ -2915,7 +2915,7 @@
             <FIPs travelReq="N">51021</FIPs>
             <FIPs travelReq="N">51197</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="2">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="2">
             <FIPs travelReq="N">51640</FIPs>
             <FIPs travelReq="N">51035</FIPs>
             <FIPs travelReq="N">51077</FIPs>
@@ -3284,7 +3284,7 @@
         <FIPs travelReq="N">51169</FIPs>
         <FIPs travelReq="N">51520</FIPs>
     </Service>
-    <Service serviceName="Outpatient Services" serviceZoom="-1">
+    <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
         <!-- Manassas Office -->
         <FIPs travelReq="N">51153</FIPs>
         <FIPs travelReq="N">51683</FIPs>
@@ -3888,7 +3888,7 @@
             <FIPs travelReq="N">51750</FIPs>
             <FIPs travelReq="N">51155</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="2">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="2">
             <FIPs travelReq="N">51071</FIPs>
             <FIPs travelReq="N">51121</FIPs>
             <FIPs travelReq="N">51063</FIPs>
@@ -4171,7 +4171,7 @@
             <FIPs travelReq="N">51800</FIPs>
             <FIPs travelReq="Y">51131</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="-1">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
             <FIPs travelReq="N">51107</FIPs>
             <FIPs travelReq="N">51043</FIPs>
             <FIPs travelReq="N">51069</FIPs>
@@ -4557,7 +4557,7 @@
             <FIPs travelReq="Y">51530</FIPs>
             <FIPs travelReq="Y">51163</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="2">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="2">
             <!-- All of CSU24 -->
             <FIPs travelReq="N">51009</FIPs>
             <FIPs travelReq="N">51019</FIPs>
@@ -4745,7 +4745,7 @@
             <FIPs travelReq="Y">51069</FIPs>
             <FIPs travelReq="Y">51840</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="51660">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="51660">
             <FIPs travelReq="N">51660</FIPs>
             <FIPs travelReq="N">51015</FIPs>
             <FIPs travelReq="N">51790</FIPs>
@@ -4819,7 +4819,7 @@
             <FIPs travelReq="N" languages="Spanish">51610</FIPs>
             <FIPs travelReq="Y" languages="Spanish">51107</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="0">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="0">
             <FIPs travelReq="N">51600</FIPs>
             <FIPs travelReq="N" languages="Spanish">51059</FIPs>
             <FIPs travelReq="N" languages="Spanish">51153</FIPs>
@@ -4932,7 +4932,7 @@
             <Phone/>
             <Fax/>
         </Office>
-        <Service serviceName="Outpatient Services" serviceZoom="-1">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
             <FIPs travelReq="N">51059</FIPs>
             <FIPs travelReq="N">51107</FIPs>
             <FIPs travelReq="N">51036</FIPs>
@@ -5292,7 +5292,7 @@
             <FIPs travelReq="N">51595</FIPs>
             <FIPs travelReq="N">51081</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="-1">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
             <FIPs travelReq="N">51515</FIPs>
             <FIPs travelReq="N">51087</FIPs>
             <FIPs travelReq="N">51760</FIPs>
@@ -5340,7 +5340,7 @@
         <Service serviceName="Residential Group Home" serviceZoom="-1">
             <FIPs travelReq="N">51087</FIPs>
         </Service>
-        <Service serviceZoom="-1" serviceName="Outpatient Services">
+        <Service serviceZoom="-1" serviceName="Individual/ Family Counseling">
             <FIPs travelReq="N">51087</FIPs>
             <FIPs travelReq="N">51760</FIPs>
             <FIPs travelReq="N">51041</FIPs>
@@ -5498,7 +5498,7 @@
             <FIPs travelReq="N">51153</FIPs>
             <FIPs travelReq="N">51685</FIPs>
         </Service>
-        <Service serviceZoom="0" serviceName="Outpatient Services">
+        <Service serviceZoom="0" serviceName="Individual/ Family Counseling">
             <FIPs travelReq="N">51013</FIPs>
             <FIPs travelReq="N">51610</FIPs>
             <FIPs travelReq="N">51510</FIPs>
@@ -5622,7 +5622,7 @@
             <FIPs travelReq="N">51013</FIPs>
             <FIPs travelReq="N">51610</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="0">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="0">
             <FIPs travelReq="N">51600</FIPs>
             <FIPs travelReq="N">51059</FIPs>
             <FIPs travelReq="N">51683</FIPs>
@@ -5697,7 +5697,7 @@
             <Phone>540-404-5985</Phone>
             <Fax>(540)773-8579</Fax>
         </Office>
-        <Service serviceName="Outpatient Services" serviceZoom="0">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="0">
             <FIPs travelReq="N" languages="Thai, Spanish">51069</FIPs>
             <FIPs travelReq="N" languages="Thai, Spanish">51840</FIPs>
             <FIPs travelReq="N" languages="Thai, Spanish">51043</FIPs>
@@ -6055,7 +6055,7 @@
             <FIPs travelReq="Y">51163</FIPs>
             <FIPs travelReq="Y">51079</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="-1">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
             <FIPs travelReq="N">51105</FIPs>
             <FIPs travelReq="N">51169</FIPs>
             <FIPs travelReq="N">51191</FIPs>
@@ -6252,7 +6252,7 @@
             <FIPs travelReq="N">51590</FIPs>
             <FIPs travelReq="N">51143</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="2">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="2">
             <FIPs travelReq="N" languages="Spanish">51590</FIPs>
             <FIPs travelReq="N" languages="Spanish">51143</FIPs>
         </Service>
@@ -6322,7 +6322,7 @@
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51141</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="2">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="2">
             <FIPs travelReq="N">51690</FIPs>
             <FIPs travelReq="N">51089</FIPs>
             <FIPs travelReq="N">51067</FIPs>
@@ -6562,7 +6562,7 @@
             <FIPs travelReq="Y">51165</FIPs>
             <FIPs travelReq="Y">51139</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="0">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="0">
             <FIPs travelReq="N">51059</FIPs>
             <FIPs travelReq="N">51600</FIPs>
             <FIPs travelReq="N">51107</FIPs>
@@ -6686,7 +6686,7 @@
             <FIPs travelReq="N">51840</FIPs>
             <FIPs travelReq="N">51069</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="0">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="0">
             <FIPs travelReq="N">51840</FIPs>
             <FIPs travelReq="N">51069</FIPs>
         </Service>
@@ -6738,7 +6738,7 @@
             <Phone>804-644-4444</Phone>
             <Fax/>
         </Office>
-        <Service serviceName="Outpatient Services" serviceZoom="-1">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
             <FIPs travelReq="Y">51075</FIPs>
             <FIPs travelReq="Y">51085</FIPs>
             <FIPs travelReq="N">51087</FIPs>
@@ -6924,7 +6924,7 @@
             <FIPs travelReq="N">51157</FIPs>
             <FIPs travelReq="N">51061</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="-1">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
             <FIPs travelReq="N">51137</FIPs>
             <FIPs travelReq="N">51047</FIPs>
             <FIPs travelReq="N">51113</FIPs>
@@ -7368,7 +7368,7 @@
             <FIPs travelReq="N">51199</FIPs>
             <FIPs travelReq="N">51095</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="1">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="1">
             <FIPs travelReq="N">51830</FIPs>
             <FIPs travelReq="N">51735</FIPs>
             <FIPs travelReq="N">51199</FIPs>
@@ -7430,7 +7430,7 @@
             <FIPs travelReq="N">51610</FIPs>
             <FIPs travelReq="N">51107</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="-1">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
             <FIPs travelReq="N">51683</FIPs>
             <FIPs travelReq="N">51153</FIPs>
             <FIPs travelReq="N">51685</FIPs>
@@ -7667,7 +7667,7 @@
             <FIPs travelReq="Y">51113</FIPs>
             <FIPs travelReq="Y">51137</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="-1">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
             <FIPs travelReq="N">51630</FIPs>
             <FIPs travelReq="N">51033</FIPs>
             <FIPs travelReq="N">51177</FIPs>
@@ -7727,7 +7727,7 @@
             <FIPs travelReq="N" languages="Spanish">51685</FIPs>
             <FIPs travelReq="N" languages="Spanish">51153</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="-1">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
             <FIPs travelReq="N">51630</FIPs>
             <FIPs travelReq="N">51033</FIPs>
             <FIPs travelReq="N">51177</FIPs>
@@ -7845,7 +7845,7 @@
             <FIPs travelReq="N" languages="Spanish">51683</FIPs>
             <FIPs travelReq="N" languages="Spanish">51685</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="0">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="0">
             <FIPs travelReq="N" languages="Spanish">51013</FIPs>
             <FIPs travelReq="N" languages="Spanish">51610</FIPs>
             <FIPs travelReq="N" languages="Spanish">51510</FIPs>
@@ -7921,7 +7921,7 @@
             <FIPs travelReq="N">51167</FIPs>
             <FIPs travelReq="N">51185</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="2">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="2">
             <FIPs travelReq="N">51167</FIPs>
             <FIPs travelReq="N">51185</FIPs>
         </Service>
@@ -7955,7 +7955,7 @@
             <Phone>(434) 316-9006</Phone>
             <Fax>(434) 316-9008</Fax>
         </Office>
-        <Service serviceName="Outpatient Services" serviceZoom="1">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="1">
             <FIPs travelReq="Y">51009</FIPs>
             <FIPs travelReq="Y">51125</FIPs>
             <FIPs travelReq="Y">51530</FIPs>
@@ -8058,7 +8058,7 @@
             <Phone>(571) 659-0056</Phone>
             <Fax>(571) 659-0695</Fax>
         </Office>
-        <Service serviceName="Outpatient Services" serviceZoom="0">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="0">
             <FIPs travelReq="N" languages="Spanish">51059</FIPs>
             <FIPs travelReq="N" languages="Spanish">51510</FIPs>
             <FIPs travelReq="N" languages="Spanish">51683</FIPs>
@@ -8180,7 +8180,7 @@
         <Service serviceName="HFW Intensive Care Coordination" serviceZoom="0">
             <FIPs travelReq="N" languages="Spanish, Amharic">51510</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="0">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="0">
             <FIPs travelReq="N" languages="Spanish, Amharic">51510</FIPs>
         </Service>
         <Service serviceName="Outpatient Substance Abuse" serviceZoom="0">
@@ -8436,7 +8436,7 @@
             <Phone>540-603-6123</Phone>
             <Fax/>
         </Office>
-        <Service serviceName="Outpatient Services" serviceZoom="51620">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="51620">
             <FIPs travelReq="N">51067</FIPs>
         </Service>
         <Service serviceName="Outpatient Substance Abuse" serviceZoom="51620">
@@ -8819,7 +8819,7 @@
             <FIPs travelReq="Y" languages="Spanish">51610</FIPs>
             <FIPs travelReq="Y" languages="Spanish">51685</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="0">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="0">
             <FIPs travelReq="N" languages="Spanish, Arabic">51069</FIPs>
             <FIPs travelReq="N" languages="Spanish, Arabic">51840</FIPs>
         </Service>
@@ -8891,7 +8891,7 @@
             <FIPs travelReq="N">51067</FIPs>
             <FIPs travelReq="N">51141</FIPs>
         </Service>
-        <Service serviceName="Outpatient Services" serviceZoom="2">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="2">
             <FIPs travelReq="N">51089</FIPs>
             <FIPs travelReq="N">51690</FIPs>
             <FIPs travelReq="N">51067</FIPs>
@@ -9037,7 +9037,7 @@
             <Phone>(540) 433-1546</Phone>
             <Fax/>
         </Office>
-        <Service serviceName="Outpatient Services" serviceZoom="0">
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="0">
             <FIPs travelReq="N" languages="Spanish">51660</FIPs>
         </Service>
         <Service serviceName="Other Assessment / Evaluation" serviceZoom="0">
