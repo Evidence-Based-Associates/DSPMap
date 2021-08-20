@@ -186,7 +186,7 @@
             <FIPs travelReq="Y">51035</FIPs>
             <FIPs travelReq="Y">51077</FIPs>
         </Service>
-        <Service serviceName="GPS / EM" serviceZoom="2">
+        <Service serviceName="Electronic Monitoring" serviceZoom="2">
             <FIPs travelReq="Y">51143</FIPs>
             <FIPs travelReq="Y">51590</FIPs>
             <FIPs travelReq="N">51089</FIPs>
@@ -3768,7 +3768,7 @@
         <FIPs travelReq="Y">51157</FIPs>
         <FIPs travelReq="Y">51047</FIPs>
     </Service>
-    <Service serviceName="GPS / EM" serviceZoom="1">
+    <Service serviceName="Electronic Monitoring" serviceZoom="1">
         <FIPs travelReq="N">51650</FIPs>
         <FIPs travelReq="Y">51735</FIPs>
         <FIPs travelReq="N">51700</FIPs>
@@ -6300,7 +6300,7 @@
             <Phone>434-395-1200</Phone>
             <Fax/>
         </Office>
-        <Service serviceName="GPS / EM" serviceZoom="2">
+        <Service serviceName="Electronic Monitoring" serviceZoom="2">
             <FIPs travelReq="N">51690</FIPs>
             <FIPs travelReq="N">51089</FIPs>
             <FIPs travelReq="N">51067</FIPs>
