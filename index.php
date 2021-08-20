@@ -9,7 +9,7 @@ Any questions and comments can be directed to joelnwalkley@gmail.com
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta http-equiv="Cache-control" content="no-cache">
     <title>DJJ Continuum Provider Map</title>
-    <script src="globals.js?v=09.30.2020-0"></script>
+    <script src="globals.js?v=08.20.2021-0"></script>
     <script src="mainmapdata.js?v=9.18.2020-0"></script>
     <script src="statemap.js"></script>
     <link rel="stylesheet" type="text/css" href="pdstyle.css">

@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>Preview Changes</title>
-    <script src="globals.js"></script>
+    <script src="globals.js?v=08.20.2021-0"></script>
     <script src="mainmapdata.js?v=7.10.2017-3"></script>
     <script src="statemap.js"></script>
     <link rel="stylesheet" type="text/css" href="pdstyle.css">

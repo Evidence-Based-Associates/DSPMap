@@ -4,7 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta http-equiv="Cache-control" content="no-cache">
     <title>Search</title>
-    <script src="globals.js"></script>
+    <script src="globals.js?v=08.20.2021-0"></script>
     <script src="mainmapdata.js?v=9.13.2017-0"></script>
     <link rel="stylesheet" type="text/css" href="pdstyle.css">
     <script>
