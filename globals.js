@@ -234,7 +234,7 @@ for (var i=0;i<serviceCheck.length;i++){
 }
 availableServices = removeDuplicates(availableServices);
 availableServices.sort(); //for services.php the array index will be the service id.
-console.log(`availableServices... ${availableServices}`)
+//console.log(`availableServices... ${availableServices}`)
 
 //get all languges currently in the data source
 var allLocations = dspsXML.getElementsByTagName("FIPs");
