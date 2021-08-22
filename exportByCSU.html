@@ -12,12 +12,8 @@
         const providers = dspsXML.getElementsByTagName("Provider");
         const services = dspsXML.getElementsByTagName("Service");
         const locations = dspsXML.getElementsByTagName("FIPs");
-
-        const FIPSinCSU = (FIPS, CSU) => {
-
-        }
         
-        let csvHeaders = "DSP,Service Name,CSU9,CSU15,CSU16,CSU17,CSU18,CSU19,CSU20,CSU21,CSU22,CSU23,CSU24,CSU25,CSU26,CSU27,CSU28,CSU29,CSU30,CSU31\n";
+        let csvHeaders = "DSP,Service Name,CSU1,CSU2,CSU2A,CSU3,CSU4,CSU5,CSU6,CSU7,CSU8,CSU9,CSU10,CSU11,CSU12,CSU13,CSU14,CSU15,CSU16,CSU17,CSU18,CSU19,CSU20,CSU21,CSU22,CSU23,CSU24,CSU25,CSU26,CSU27,CSU28,CSU29,CSU30,CSU31\n";
         document.write(csvHeaders);
         document.write("<br/>")
         let csvData = "";
@@ -31,7 +27,7 @@
                     .map((key, index) => serviceFIPSTags[index].innerHTML)
                 //console.log(FIPs)
 
-                sortedCSUs.forEach(csu => {
+                sortedCSUsALL.forEach(csu => {
                     //console.log(csu.localities)
                     const inCSU = FIPs.some(fips => {
                         return csu.localities.includes(fips)
