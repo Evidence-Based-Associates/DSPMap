@@ -766,10 +766,10 @@
     </Provider>
     <Provider id="9">
         <Name>Bacon Street Youth and Family Services</Name>
-        <LastUpdated>2020-10-19</LastUpdated>
+        <LastUpdated>2021-08-25</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>baconstreet.org</Website>
-        <ContactName>Dr. Sharon Hopkins</ContactName>
+        <ContactName>Kimberly Dellinger</ContactName>
         <ContactEmail>kdellinger@baconstreet.org</ContactEmail>
         <Office>
             <Lat>37.1223664</Lat>
@@ -884,6 +884,28 @@
             <FIPs travelReq="Y">51800</FIPs>
         </Service>
         <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51735</FIPs>
+            <FIPs travelReq="N">51073</FIPs>
+            <FIPs travelReq="N">51115</FIPs>
+            <FIPs travelReq="N">51095</FIPs>
+            <FIPs travelReq="N">51199</FIPs>
+            <FIPs travelReq="N">51830</FIPs>
+            <FIPs travelReq="N">51036</FIPs>
+            <FIPs travelReq="N">51127</FIPs>
+            <FIPs travelReq="N">51097</FIPs>
+            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="Y">51057</FIPs>
+            <FIPs travelReq="Y">51159</FIPs>
+            <FIPs travelReq="Y">51119</FIPs>
+            <FIPs travelReq="Y">51103</FIPs>
+            <FIPs travelReq="Y">51093</FIPs>
+            <FIPs travelReq="Y">51710</FIPs>
+            <FIPs travelReq="Y">51740</FIPs>
+            <FIPs travelReq="Y">51800</FIPs>
+        </Service>
+        <Service serviceName="Specialized Individual Therapy (DBT/ EMDR)" serviceZoom="-1">
             <FIPs travelReq="N">51700</FIPs>
             <FIPs travelReq="N">51650</FIPs>
             <FIPs travelReq="N">51735</FIPs>
