@@ -8211,7 +8211,7 @@
     </Provider>
     <Provider id="96">
         <Name>Childhelp </Name>
-        <LastUpdated>2018-10-23</LastUpdated>
+        <LastUpdated>2021-08-24</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.childhelp.org/virginia/the-village/</Website>
         <ContactName>Kelley Hackley</ContactName>
@@ -8226,7 +8226,7 @@
             <Phone>540-399-1926</Phone>
             <Fax/>
         </Office>
-        <Service serviceName="Residential Group Home" serviceZoom="-1">
+        <Service serviceName="Residential Treatment Center" serviceZoom="-1">
             <FIPs travelReq="N">51047</FIPs>
         </Service>
     </Provider>
