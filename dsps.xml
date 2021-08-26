@@ -1549,7 +1549,7 @@
     </Provider>
     <Provider id="21">
         <Name>Family Focus Inc.</Name>
-        <LastUpdated>2021-03-22</LastUpdated>
+        <LastUpdated>2021-08-25</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.familyfocusinc.com</Website>
         <ContactName>Natalie Proffitt</ContactName>
@@ -1572,6 +1572,15 @@
             <FIPs travelReq="N">51730</FIPs>
             <FIPs travelReq="N">51570</FIPs>
             <FIPs travelReq="N">51127</FIPs>
+            <FIPs travelReq="N">51053</FIPs>
+            <FIPs travelReq="N">51149</FIPs>
+            <FIPs travelReq="N">51670</FIPs>
+            <FIPs travelReq="N">51145</FIPs>
+            <FIPs travelReq="N">51007</FIPs>
+            <FIPs travelReq="N">51135</FIPs>
+            <FIPs travelReq="N">51075</FIPs>
+            <FIPs travelReq="Y">51036</FIPs>
+            <FIPs travelReq="Y">51095</FIPs>
         </Service>
         <Service serviceName="Gang Intervention" serviceZoom="-1">
             <FIPs travelReq="N">51760</FIPs>
@@ -1599,6 +1608,11 @@
             <FIPs travelReq="N">51730</FIPs>
             <FIPs travelReq="N">51570</FIPs>
             <FIPs travelReq="N">51127</FIPs>
+            <FIPs travelReq="Y">51075</FIPs>
+            <FIPs travelReq="Y">51145</FIPs>
+            <FIPs travelReq="Y">51007</FIPs>
+            <FIPs travelReq="Y">51036</FIPs>
+            <FIPs travelReq="Y">51109</FIPs>
         </Service>
         <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
             <FIPs travelReq="N">51760</FIPs>
@@ -1626,6 +1640,10 @@
             <FIPs travelReq="N">51730</FIPs>
             <FIPs travelReq="N">51570</FIPs>
             <FIPs travelReq="N">51127</FIPs>
+            <FIPs travelReq="N">51075</FIPs>
+            <FIPs travelReq="Y">51109</FIPs>
+            <FIPs travelReq="Y">51145</FIPs>
+            <FIPs travelReq="Y">51036</FIPs>
         </Service>
         <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="-1">
             <FIPs travelReq="N">51760</FIPs>
@@ -1664,6 +1682,7 @@
             <FIPs travelReq="N">51025</FIPs>
             <FIPs travelReq="N">51595</FIPs>
             <FIPs travelReq="N">51081</FIPs>
+            <FIPs travelReq="Y">51075</FIPs>
         </Service>
         <Service serviceName="Psychological Evaluation" serviceZoom="-1">
             <FIPs travelReq="N">51760</FIPs>
