@@ -156,7 +156,7 @@
     </Provider>
     <Provider id="2">
         <Name>ANCHOR Commission</Name>
-        <LastUpdated>2021-03-31</LastUpdated>
+        <LastUpdated>2021-08-24</LastUpdated>
         <MapZoom>2</MapZoom>
         <Website>www.anchor-services.org </Website>
         <ContactName>Ricky Walker</ContactName>
@@ -214,6 +214,21 @@
             <FIPs travelReq="Y">51023</FIPs>
         </Service>
         <Service serviceName="Clinical Group" serviceZoom="2">
+            <FIPs travelReq="Y">51143</FIPs>
+            <FIPs travelReq="Y">51590</FIPs>
+            <FIPs travelReq="N">51089</FIPs>
+            <FIPs travelReq="N">51690</FIPs>
+            <FIPs travelReq="N">51141</FIPs>
+            <FIPs travelReq="Y">51067</FIPs>
+            <FIPs travelReq="Y">51775</FIPs>
+            <FIPs travelReq="Y">51161</FIPs>
+            <FIPs travelReq="Y">51770</FIPs>
+            <FIPs travelReq="Y">51063</FIPs>
+            <FIPs travelReq="Y">51640</FIPs>
+            <FIPs travelReq="Y">51035</FIPs>
+            <FIPs travelReq="Y">51077</FIPs>
+        </Service>
+        <Service serviceName="Seven Challenges for Substance Abuse" serviceZoom="2">
             <FIPs travelReq="Y">51143</FIPs>
             <FIPs travelReq="Y">51590</FIPs>
             <FIPs travelReq="N">51089</FIPs>
