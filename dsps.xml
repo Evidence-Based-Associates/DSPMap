@@ -6725,7 +6725,7 @@
     </Provider>
     <Provider id="66">
         <Name>Chrysalis Counseling Centers, Inc.</Name>
-        <LastUpdated>2019-10-3</LastUpdated>
+        <LastUpdated>2021-08-25</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.chrysaliscenters.com</Website>
         <ContactName>Dr. Elise Stevenson Hagan, PhD, MBA, LMHP</ContactName>
@@ -6751,29 +6751,23 @@
             <Fax>(540) 347-0768</Fax>
         </Office>
         <Office>
-            <Lat>38.3810955</Lat>
-            <Lng>-78.2572702</Lng>
-            <Street>125 N. Main St. Suite 22</Street>
+            <Lat>38.3825562</Lat>
+            <Lng>-78.25646929999999</Lng>
+            <Street>108 Schoolhouse Rd</Street>
             <City>Madison</City>
             <State>VA</State>
             <Zip>22727</Zip>
             <Phone>(540) 738-2245</Phone>
             <Fax>(540) 738-2561</Fax>
         </Office>
-        <Service serviceName="Skills Coaching (e.g. Casey Life Skills)" serviceZoom="-1">
+        <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="-1">
             <FIPs travelReq="N">51137</FIPs>
             <FIPs travelReq="N">51047</FIPs>
             <FIPs travelReq="N">51113</FIPs>
             <FIPs travelReq="N">51079</FIPs>
             <FIPs travelReq="N">51157</FIPs>
             <FIPs travelReq="N">51061</FIPs>
-        </Service>
-        <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="-1">
-            <FIPs travelReq="N" languages="Spanish">51047</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51137</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51113</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51061</FIPs>
-            <FIPs travelReq="N" languages="">51157</FIPs>
+            <FIPs travelReq="Y">51187</FIPs>
         </Service>
         <Service serviceName="Mental Health Evaluation" serviceZoom="-1">
             <FIPs travelReq="N">51137</FIPs>
@@ -6782,6 +6776,7 @@
             <FIPs travelReq="N">51079</FIPs>
             <FIPs travelReq="N">51157</FIPs>
             <FIPs travelReq="N">51061</FIPs>
+            <FIPs travelReq="Y">51187</FIPs>
         </Service>
         <Service serviceName="Psychological Evaluation" serviceZoom="-1">
             <FIPs travelReq="N">51137</FIPs>
@@ -6790,14 +6785,7 @@
             <FIPs travelReq="N">51079</FIPs>
             <FIPs travelReq="N">51157</FIPs>
             <FIPs travelReq="N">51061</FIPs>
-        </Service>
-        <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="-1">
-            <FIPs travelReq="N">51137</FIPs>
-            <FIPs travelReq="N">51047</FIPs>
-            <FIPs travelReq="N">51113</FIPs>
-            <FIPs travelReq="N">51079</FIPs>
-            <FIPs travelReq="N">51157</FIPs>
-            <FIPs travelReq="N">51061</FIPs>
+            <FIPs travelReq="Y">51187</FIPs>
         </Service>
         <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
             <FIPs travelReq="N">51137</FIPs>
@@ -6814,6 +6802,7 @@
             <FIPs travelReq="N">51079</FIPs>
             <FIPs travelReq="N">51157</FIPs>
             <FIPs travelReq="N">51061</FIPs>
+            <FIPs travelReq="Y">51187</FIPs>
         </Service>
         <Service serviceName="Clinical Group" serviceZoom="-1">
             <FIPs travelReq="N">51137</FIPs>
@@ -6822,6 +6811,28 @@
             <FIPs travelReq="N">51079</FIPs>
             <FIPs travelReq="N">51157</FIPs>
             <FIPs travelReq="N">51061</FIPs>
+            <FIPs travelReq="Y">51187</FIPs>
+        </Service>
+        <Service serviceName="Specialized Individual Therapy (DBT/ EMDR)" serviceZoom="-1">
+            <FIPs travelReq="N" languages="Spanish">51047</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51137</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51113</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51061</FIPs>
+            <FIPs travelReq="N" languages="">51157</FIPs>
+            <FIPs travelReq="Y">51187</FIPs>
+        </Service>
+        <Service serviceName="Psychological Evaluation" serviceZoom="-1">
+            <FIPs travelReq="N">51137</FIPs>
+            <FIPs travelReq="N">51047</FIPs>
+            <FIPs travelReq="N">51113</FIPs>
+            <FIPs travelReq="N">51079</FIPs>
+            <FIPs travelReq="N">51157</FIPs>
+            <FIPs travelReq="N">51061</FIPs>
+            <FIPs travelReq="Y">51177</FIPs>
+            <FIPs travelReq="Y">51109</FIPs>
+            <FIPs travelReq="Y">51540</FIPs>
+            <FIPs travelReq="Y">51003</FIPs>
+            <FIPs travelReq="Y">51139</FIPs>
         </Service>
     </Provider>
     <Provider id="69">
