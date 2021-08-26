@@ -246,7 +246,7 @@
     </Provider>
     <Provider id="3">
         <Name>Blue Ridge Behavioral Healthcare</Name>
-        <LastUpdated>2020-12-15</LastUpdated>
+        <LastUpdated>2021-08-25</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.brbh.org</Website>
         <ContactName>Cathy L. Brown, LCSW</ContactName>
@@ -306,6 +306,20 @@
             <FIPs travelReq="N">51775</FIPs>
         </Service>
         <Service serviceName="Trauma-Focused Cognitive Behavioral Therapy (TF-CBT)" serviceZoom="1">
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51045</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+        </Service>
+        <Service serviceName="Specialized Individual Therapy (DBT/ EMDR)" serviceZoom="1">
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51045</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Evaluation" serviceZoom="1">
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51770</FIPs>
             <FIPs travelReq="N">51045</FIPs>
