@@ -7902,7 +7902,7 @@
     </Provider>
     <Provider id="87">
         <Name>About Change</Name>
-        <LastUpdated>2020-12-09</LastUpdated>
+        <LastUpdated>2021-08-25</LastUpdated>
         <MapZoom>0</MapZoom>
         <Website>www.aboutchangellc.com</Website>
         <ContactName>Nelgy Olivo</ContactName>
@@ -7917,18 +7917,6 @@
             <Phone>(571) 659-0056</Phone>
             <Fax>(571) 659-0695</Fax>
         </Office>
-        <Service serviceName="Individual/ Family Counseling" serviceZoom="0">
-            <FIPs travelReq="N" languages="Spanish">51059</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51510</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51683</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51685</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51600</FIPs>
-            <FIPs travelReq="Y" languages="Spanish">51013</FIPs>
-            <FIPs travelReq="Y" languages="Spanish">51107</FIPs>
-            <FIPs travelReq="Y" languages="Spanish">51179</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51153</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51610</FIPs>
-        </Service>
         <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="0">
             <FIPs travelReq="N">51683</FIPs>
             <FIPs travelReq="N">51153</FIPs>
@@ -7985,6 +7973,24 @@
             <FIPs travelReq="Y" languages="Spanish">51179</FIPs>
             <FIPs travelReq="N" languages="Spanish">51153</FIPs>
             <FIPs travelReq="N" languages="Spanish">51610</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Service" serviceZoom="0">
+            <FIPs travelReq="N">51683</FIPs>
+            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="N">51059</FIPs>
+            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N">51510</FIPs>
+            <FIPs travelReq="Y">51013</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51179</FIPs>
+        </Service>
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="0">
+            <FIPs travelReq="N" languages="Spanish">51683</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51153</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51059</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51600</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51510</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51013</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51179</FIPs>
         </Service>
     </Provider>
     <Provider id="89">
