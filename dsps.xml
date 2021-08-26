@@ -1005,11 +1005,11 @@
     </Provider>
     <Provider id="16">
         <Name>Dominion Youth Services</Name>
-        <LastUpdated>2019-02-13</LastUpdated>
+        <LastUpdated>2021-08-25</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>dominionyouthservices.com</Website>
-        <ContactName>Amber Spivey LCSW, CSOTP, CCTP</ContactName>
-        <ContactEmail>aspivey@dominiondayservices.com</ContactEmail>
+        <ContactName>Johnny Hunter</ContactName>
+        <ContactEmail>JOHNNY.HUNTER@dominionyouthservices.com</ContactEmail>
         <Office>
             <Lat>37.6029662</Lat>
             <Lng>-77.4878544</Lng>
@@ -1021,9 +1021,9 @@
             <Fax>804-285-9839</Fax>
         </Office>
         <Office>
-            <Lat>38.280511</Lat>
-            <Lng>-77.48868570000002</Lng>
-            <Street>2302 Jefferson Davis Hwy</Street>
+            <Lat>38.3027479</Lat>
+            <Lng>-77.5129649</Lng>
+            <Street>1320 Central Park Blvd Suite 203</Street>
             <City>Fredericksburg</City>
             <State>VA</State>
             <Zip>22401</Zip>
@@ -1031,29 +1031,29 @@
             <Fax/>
         </Office>
         <Office>
-            <Lat>37.26669</Lat>
-            <Lng>-77.4112457</Lng>
-            <Street>2801 Boulevard F</Street>
-            <City>Colonial Heights</City>
+            <Lat>37.9568114</Lat>
+            <Lng>-78.6577362</Lng>
+            <Street>4916 Plank Road Upper suite 6.</Street>
+            <City>North Garden </City>
             <State>VA</State>
-            <Zip>23834</Zip>
-            <Phone>(804) 385-4933</Phone>
+            <Zip>22959.</Zip>
+            <Phone/>
             <Fax/>
         </Office>
         <Office>
-            <Lat>37.3192661</Lat>
-            <Lng>-80.00000519999998</Lng>
-            <Street>3023 Peters Creek Rd</Street>
+            <Lat>37.2833305</Lat>
+            <Lng>-79.9302352</Lng>
+            <Street>1318 Plantation Road, NE</Street>
             <City>Roanoke</City>
             <State>VA</State>
-            <Zip>24019</Zip>
+            <Zip>24012</Zip>
             <Phone>(540) 362-0274</Phone>
             <Fax/>
         </Office>
         <Office>
-            <Lat>38.8109601</Lat>
-            <Lng>-77.1115906</Lng>
-            <Street>4600 Duke St #413</Street>
+            <Lat>38.8152025</Lat>
+            <Lng>-77.1426292</Lng>
+            <Street>85 S. Bragg St., Suite 302</Street>
             <City>Alexandria</City>
             <State>VA</State>
             <Zip>22304</Zip>
@@ -1061,32 +1061,32 @@
             <Fax/>
         </Office>
         <Office>
-            <Lat>38.280511</Lat>
-            <Lng>-77.48868570000002</Lng>
-            <Street>2302 Jefferson Davis Hwy</Street>
-            <City>Fredericksburg</City>
+            <Lat>37.5902051</Lat>
+            <Lng>-77.5081211</Lng>
+            <Street>2004 Bremo Road, Suite 201</Street>
+            <City>Richmond</City>
             <State>VA</State>
-            <Zip>22401</Zip>
-            <Phone>(540) 371-8750</Phone>
+            <Zip>23226</Zip>
+            <Phone/>
             <Fax/>
         </Office>
         <Office>
-            <Lat>38.0196195</Lat>
-            <Lng>-77.51559370000001</Lng>
-            <Street>17543 Jefferson Davis Hwy</Street>
-            <City>Ruther Glen</City>
+            <Lat>37.4004959</Lat>
+            <Lng>-79.1678601</Lng>
+            <Street>2600 Memorial Ave, Suite 104</Street>
+            <City>Lynchburg</City>
             <State>VA</State>
-            <Zip>22546</Zip>
-            <Phone>(804) 448-2275</Phone>
+            <Zip>24501</Zip>
+            <Phone/>
             <Fax/>
         </Office>
         <Office>
-            <Lat>37.26669</Lat>
-            <Lng>-77.4112457</Lng>
-            <Street>2801 Boulevard F</Street>
-            <City>Colonial Heights</City>
+            <Lat>36.853011</Lat>
+            <Lng>-76.27432999999996</Lng>
+            <Street>5735 Poplar Hall Drive</Street>
+            <City>Norfolk</City>
             <State>VA</State>
-            <Zip>23834</Zip>
+            <Zip>23502</Zip>
             <Phone>(804) 385-4933</Phone>
             <Fax/>
         </Office>
@@ -1101,23 +1101,13 @@
             <Fax/>
         </Office>
         <Office>
-            <Lat>37.3192661</Lat>
-            <Lng>-80.00000519999998</Lng>
-            <Street>2004 Bremo Road #201</Street>
+            <Lat>36.828985</Lat>
+            <Lng>-76.13418070000002</Lng>
+            <Street>412 Investors Pl, Suite 102 </Street>
             <City>Richmond</City>
             <State>VA</State>
-            <Zip>23226</Zip>
-            <Phone>804-272-2000</Phone>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>37.4004821</Lat>
-            <Lng>-79.1678875</Lng>
-            <Street>2600 Memorial Ave #104</Street>
-            <City>Lynchburg</City>
-            <State>VA</State>
-            <Zip>24501</Zip>
-            <Phone>(434) 528-4580</Phone>
+            <Zip>23452</Zip>
+            <Phone/>
             <Fax/>
         </Office>
         <Service serviceZoom="-1" serviceName="Individual/ Family Counseling">
@@ -1130,57 +1120,73 @@
             <FIPs travelReq="N">51041</FIPs>
             <FIPs travelReq="N">51145</FIPs>
             <FIPs travelReq="N">51033</FIPs>
-        </Service>
-        <Service serviceZoom="1" serviceName="Skills Coaching (e.g. Casey Life Skills)">
-            <!-- CSU15 -->
-            <FIPs travelReq="N">51033</FIPs>
-            <FIPs travelReq="N">51057</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="N">51099</FIPs>
-            <FIPs travelReq="N">51103</FIPs>
-            <FIPs travelReq="N">51133</FIPs>
-            <FIPs travelReq="N">51159</FIPs>
-            <FIPs travelReq="N">51177</FIPs>
-            <FIPs travelReq="N">51179</FIPs>
-            <FIPs travelReq="N">51193</FIPs>
-            <FIPs travelReq="N">51630</FIPs>
-            <!-- All of CSU22 -->
-            <FIPs travelReq="Y">51067</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="Y">51009</FIPs>
-            <FIPs travelReq="Y">51019</FIPs>
-            <FIPs travelReq="Y">51031</FIPs>
-            <FIPs travelReq="N">51680</FIPs>
-            <FIPs travelReq="N">51550</FIPs>
-            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="Y">51700</FIPs>
             <FIPs travelReq="N">51810</FIPs>
             <FIPs travelReq="N">51710</FIPs>
-            <FIPs travelReq="N">51800</FIPs>
-            <FIPs travelReq="N">51700</FIPs>
             <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="Y">51735</FIPs>
+            <FIPs travelReq="Y">51199</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51179</FIPs>
+            <FIPs travelReq="N">51630</FIPs>
+            <FIPs travelReq="N">51177</FIPs>
+            <FIPs travelReq="N">51099</FIPs>
+            <FIPs travelReq="N">51047</FIPs>
             <FIPs travelReq="N">51013</FIPs>
             <FIPs travelReq="N">51510</FIPs>
-            <FIPs travelReq="N">51600</FIPs>
             <FIPs travelReq="N">51059</FIPs>
-            <FIPs travelReq="N">51683</FIPs>
-            <FIPs travelReq="N">51153</FIPs>
-            <FIPs travelReq="N">51685</FIPs>
-            <FIPs travelReq="Y">51690</FIPs>
-            <FIPs travelReq="Y">51590</FIPs>
+            <FIPs travelReq="N">51610</FIPs>
             <FIPs travelReq="N">51770</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
             <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="Y">51595</FIPs>
-            <FIPs travelReq="N">51670</FIPs>
-            <FIPs travelReq="Y">51081</FIPs>
-            <FIPs travelReq="Y">51149</FIPs>
-            <FIPs travelReq="Y">51183</FIPs>
-            <FIPs travelReq="Y">51053</FIPs>
-            <FIPs travelReq="N">51730</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
-            <FIPs travelReq="N">51570</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="N">51063</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="N">51075</FIPs>
+            <FIPs travelReq="Y">51036</FIPs>
+            <FIPs travelReq="Y">51127</FIPs>
+        </Service>
+        <Service serviceZoom="-1" serviceName="Skills Coaching (e.g. Casey Life Skills)">
             <FIPs travelReq="N">51760</FIPs>
             <FIPs travelReq="N">51087</FIPs>
+            <FIPs travelReq="N">51085</FIPs>
+            <FIPs travelReq="N">51730</FIPs>
+            <FIPs travelReq="N">51570</FIPs>
+            <FIPs travelReq="N">51670</FIPs>
+            <FIPs travelReq="N">51041</FIPs>
+            <FIPs travelReq="N">51145</FIPs>
+            <FIPs travelReq="N">51033</FIPs>
+            <FIPs travelReq="Y">51700</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="Y">51735</FIPs>
+            <FIPs travelReq="Y">51199</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51179</FIPs>
+            <FIPs travelReq="N">51630</FIPs>
+            <FIPs travelReq="N">51177</FIPs>
+            <FIPs travelReq="N">51099</FIPs>
+            <FIPs travelReq="N">51047</FIPs>
+            <FIPs travelReq="N">51013</FIPs>
+            <FIPs travelReq="N">51510</FIPs>
+            <FIPs travelReq="N">51059</FIPs>
+            <FIPs travelReq="N">51610</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="N">51063</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="N">51075</FIPs>
+            <FIPs travelReq="Y">51036</FIPs>
+            <FIPs travelReq="Y">51127</FIPs>
         </Service>
         <Service serviceZoom="-1" serviceName="Substance Abuse Service">
             <FIPs travelReq="N">51760</FIPs>
@@ -1192,6 +1198,34 @@
             <FIPs travelReq="N">51041</FIPs>
             <FIPs travelReq="N">51145</FIPs>
             <FIPs travelReq="N">51033</FIPs>
+            <FIPs travelReq="Y">51700</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="Y">51735</FIPs>
+            <FIPs travelReq="Y">51199</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51179</FIPs>
+            <FIPs travelReq="N">51630</FIPs>
+            <FIPs travelReq="N">51177</FIPs>
+            <FIPs travelReq="N">51099</FIPs>
+            <FIPs travelReq="N">51047</FIPs>
+            <FIPs travelReq="N">51013</FIPs>
+            <FIPs travelReq="N">51510</FIPs>
+            <FIPs travelReq="N">51059</FIPs>
+            <FIPs travelReq="N">51610</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="N">51063</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="N">51075</FIPs>
+            <FIPs travelReq="Y">51036</FIPs>
+            <FIPs travelReq="Y">51127</FIPs>
         </Service>
         <Service serviceZoom="-1" serviceName="Psychological Evaluation">
             <FIPs travelReq="N">51760</FIPs>
@@ -1214,6 +1248,45 @@
             <FIPs travelReq="N">51041</FIPs>
             <FIPs travelReq="N">51145</FIPs>
             <FIPs travelReq="N">51033</FIPs>
+        </Service>
+        <Service serviceZoom="-1" serviceName="Substance Abuse Evaluation">
+            <FIPs travelReq="N">51760</FIPs>
+            <FIPs travelReq="N">51087</FIPs>
+            <FIPs travelReq="N">51085</FIPs>
+            <FIPs travelReq="N">51730</FIPs>
+            <FIPs travelReq="N">51570</FIPs>
+            <FIPs travelReq="N">51670</FIPs>
+            <FIPs travelReq="N">51041</FIPs>
+            <FIPs travelReq="N">51145</FIPs>
+            <FIPs travelReq="N">51033</FIPs>
+            <FIPs travelReq="Y">51700</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="Y">51735</FIPs>
+            <FIPs travelReq="Y">51199</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51179</FIPs>
+            <FIPs travelReq="N">51630</FIPs>
+            <FIPs travelReq="N">51177</FIPs>
+            <FIPs travelReq="N">51099</FIPs>
+            <FIPs travelReq="N">51047</FIPs>
+            <FIPs travelReq="N">51013</FIPs>
+            <FIPs travelReq="N">51510</FIPs>
+            <FIPs travelReq="N">51059</FIPs>
+            <FIPs travelReq="N">51610</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="N">51063</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="N">51075</FIPs>
+            <FIPs travelReq="Y">51036</FIPs>
+            <FIPs travelReq="Y">51127</FIPs>
         </Service>
     </Provider>
     <Provider id="19">
