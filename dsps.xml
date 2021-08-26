@@ -329,7 +329,7 @@
     </Provider>
     <Provider id="4">
         <Name>DePaul Community Resources</Name>
-        <LastUpdated>2020-09-28</LastUpdated>
+        <LastUpdated>2021-08-25</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.depaulcr.org/</Website>
         <ContactName>Jason Poston, LCSW, LSATP, CSAC, CSOTP, MAC</ContactName>
@@ -414,6 +414,14 @@
             <FIPs travelReq="Y">51197</FIPs>
             <FIPs travelReq="Y">51021</FIPs>
             <FIPs travelReq="N">51071</FIPs>
+            <FIPs travelReq="Y">51169</FIPs>
+            <FIPs travelReq="Y">51023</FIPs>
+            <FIPs travelReq="Y">51079</FIPs>
+            <FIPs travelReq="Y">51109</FIPs>
+            <FIPs travelReq="Y">51065</FIPs>
+            <FIPs travelReq="Y">51125</FIPs>
+            <FIPs travelReq="Y">51820</FIPs>
+            <FIPs travelReq="Y">51015</FIPs>
         </Service>
         <Service serviceZoom="-1" serviceName="Substance Abuse Service">
             <FIPs travelReq="N">51191</FIPs>
@@ -421,6 +429,7 @@
             <FIPs travelReq="N">51185</FIPs>
             <FIPs travelReq="N">51173</FIPs>
             <FIPs travelReq="N">51520</FIPs>
+            <FIPs travelReq="Y">51169</FIPs>
         </Service>
         <Service serviceZoom="-1" serviceName="Clinical Group">
             <FIPs travelReq="N">51167</FIPs>
@@ -475,6 +484,7 @@
             <FIPs travelReq="Y">51027</FIPs>
             <FIPs travelReq="N">51195</FIPs>
             <FIPs travelReq="N">51720</FIPs>
+            <FIPs travelReq="Y">51750</FIPs>
         </Service>
         <Service serviceZoom="-1" serviceName="Family Partnership Meeting">
             <FIPs travelReq="N">51520</FIPs>
@@ -515,6 +525,10 @@
             <FIPs travelReq="Y">51019</FIPs>
             <FIPs travelReq="N">51009</FIPs>
             <FIPs travelReq="N">51540</FIPs>
+            <FIPs travelReq="Y">51169</FIPs>
+            <FIPs travelReq="Y">51195</FIPs>
+            <FIPs travelReq="Y">51720</FIPs>
+            <FIPs travelReq="Y">51105</FIPs>
         </Service>
     </Provider>
     <Provider id="23">
