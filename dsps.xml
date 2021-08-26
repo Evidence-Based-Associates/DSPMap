@@ -5982,7 +5982,7 @@
     </Provider>
     <Provider id="57">
         <Name>Youth Advocate Programs, Inc.</Name>
-        <LastUpdated>2019-06-17</LastUpdated>
+        <LastUpdated>2021-08-26</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.yapinc.org</Website>
         <ContactName>Valerie Koeppel</ContactName>
@@ -6037,7 +6037,23 @@
             <FIPs travelReq="N">51035</FIPs>
             <FIPs travelReq="N">51640</FIPs>
         </Service>
-        <Service serviceName="HFW Intensive Care Coordination" serviceZoom="-1">
+        <Service serviceName="Trauma-Focused Cognitive Behavioral Therapy (TF-CBT)" serviceZoom="2">
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="N">51750</FIPs>
+            <FIPs travelReq="N">51155</FIPs>
+            <FIPs travelReq="N">51197</FIPs>
+            <FIPs travelReq="N">51640</FIPs>
+            <FIPs travelReq="Y">51077</FIPs>
+            <FIPs travelReq="N">51035</FIPs>
+            <FIPs travelReq="N">51063</FIPs>
+            <FIPs travelReq="Y">51067</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="Y">51021</FIPs>
+            <FIPs travelReq="Y">51071</FIPs>
+        </Service>
+        <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="-1">
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51775</FIPs>
             <FIPs travelReq="N">51063</FIPs>
@@ -6056,6 +6072,25 @@
             <FIPs travelReq="N">51077</FIPs>
             <FIPs travelReq="N">51035</FIPs>
             <FIPs travelReq="N">51640</FIPs>
+        </Service>
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51063</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="N">51155</FIPs>
+            <FIPs travelReq="N">51750</FIPs>
+            <FIPs travelReq="N">51197</FIPs>
+            <FIPs travelReq="N">51071</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51610</FIPs>
+            <FIPs travelReq="Y">51019</FIPs>
+            <FIPs travelReq="Y">51045</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51077</FIPs>
+            <FIPs travelReq="N">51035</FIPs>
+            <FIPs travelReq="N">51640</FIPs>
+            <FIPs travelReq="Y">51023</FIPs>
         </Service>
     </Provider>
     <Provider id="58">
