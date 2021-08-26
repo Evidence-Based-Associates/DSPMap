@@ -6630,12 +6630,11 @@
     </Provider>
     <Provider id="67">
         <Name>Timber Ridge School</Name>
-        <LastUpdated>2020-07-31</LastUpdated>
+        <LastUpdated>2021-08-24</LastUpdated>
         <MapZoom>0</MapZoom>
         <Website>www.timberridgeschool.org</Website>
         <ContactName>Adam Collis</ContactName>
         <ContactEmail>collis@trschool.org</ContactEmail>
-
         <Office>
             <Lat>39.376208</Lat>
             <Lng>-78.31155799999999</Lng>
@@ -6656,15 +6655,8 @@
             <Phone>434-395-1200</Phone>
             <Fax/>
         </Office>
-        <Service serviceName="Residential Group Home" serviceZoom="0">
+        <Service serviceName="Residential Treatment Center" serviceZoom="-1">
             <FIPs travelReq="N">51069</FIPs>
-        </Service>
-        <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="0">
-            <FIPs travelReq="N">51069</FIPs>
-            <FIPs travelReq="N">51840</FIPs>
-            <FIPs travelReq="Y">51043</FIPs>
-            <FIPs travelReq="Y">51187</FIPs>
-            <FIPs travelReq="Y">51171</FIPs>
         </Service>
     </Provider>
     <Provider id="66">
