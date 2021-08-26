@@ -8316,7 +8316,7 @@
     </Provider>
     <Provider id="95">
         <Name>Southstone Behavioral Health</Name>
-        <LastUpdated>2020-11-25</LastUpdated>
+        <LastUpdated>2021-08-25</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.southstonebhc.com/</Website>
         <ContactName>Loretta Hosfeld</ContactName>
@@ -8341,7 +8341,7 @@
             <Phone>434-395-1200</Phone>
             <Fax/>
         </Office>
-        <Service serviceName="Residential Group Home" serviceZoom="-1">
+        <Service serviceName="Residential Treatment Center" serviceZoom="-1">
             <FIPs travelReq="N">51083</FIPs>
         </Service>
     </Provider>
