@@ -5232,13 +5232,11 @@
     </Provider>
     <Provider id="58">
         <Name>Youth for Tomorrow</Name>
-        <LastUpdated>2020-07-31</LastUpdated>
+        <LastUpdated>2021-08-24</LastUpdated>
         <MapZoom>0</MapZoom>
         <Website>www.youthfortomorrow.org</Website>
         <ContactName>Darnetta Jones</ContactName>
         <ContactEmail>D_Jones@yftva.com</ContactEmail>
-
-
         <Office>
             <Lat>38.739</Lat>
             <Lng>-77.549</Lng>
@@ -5321,7 +5319,11 @@
             <FIPs travelReq="N">51600</FIPs>
         </Service>
         <Service serviceZoom="0" serviceName="Residential Group Home">
-            <FIPs travelReq="N" languages="Spanish">51153</FIPs>
+            <FIPs travelReq="Y">51107</FIPs>
+            <FIPs travelReq="Y">51061</FIPs>
+            <FIPs travelReq="N">51683</FIPs>
+            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="N">51685</FIPs>
         </Service>
         <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="0">
             <FIPs travelReq="N">51059</FIPs>
@@ -5349,6 +5351,10 @@
             <FIPs travelReq="N" languages="Spanish">51153</FIPs>
             <FIPs travelReq="N" languages="Spanish">51685</FIPs>
             <FIPs travelReq="N" languages="Spanish">51600</FIPs>
+        </Service>
+        <Service serviceZoom="0" serviceName="Residential Treatment Center">
+            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="N">51685</FIPs>
         </Service>
     </Provider>
     <Provider id="12">
