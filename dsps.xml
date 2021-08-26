@@ -5859,7 +5859,7 @@
     </Provider>
     <Provider id="56">
         <Name>Virginia Home for Boys and Girls</Name>
-        <LastUpdated>2021-04-29</LastUpdated>
+        <LastUpdated>2021-08-26</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.vhbg.org</Website>
         <ContactName>Christopher Campbell</ContactName>
@@ -5867,7 +5867,7 @@
         <Office>
             <Lat>37.634</Lat>
             <Lng>-77.542</Lng>
-            <Street>8716W. BroadStreet</Street>
+            <Street>8716 W. BroadStreet</Street>
             <City>Henrico</City>
             <State>VA</State>
             <Zip>23294</Zip>
