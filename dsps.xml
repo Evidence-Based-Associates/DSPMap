@@ -7818,7 +7818,7 @@
     </Provider>
     <Provider id="74">
         <Name>North Spring Behavioral Healthcare, Inc.</Name>
-        <LastUpdated>2020-05-28</LastUpdated>
+        <LastUpdated>2021-08-25</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.northspringleesburg.com</Website>
         <ContactName>Olivia Corbin, MHSc</ContactName>
@@ -7833,14 +7833,14 @@
             <Phone>(703) 777-0800 ext 1005</Phone>
             <Fax/>
         </Office>
-        <Service serviceName="Residential Group Home" serviceZoom="-1">
-            <Locations/>
-            <FIPs travelReq="N">51107</FIPs>
-        </Service>
         <Service serviceName="Substance Abuse Service" serviceZoom="-1">
             <Locations/>
             <FIPs travelReq="N">51107</FIPs>
             <FIPs travelReq="Y">51059</FIPs>
+        </Service>
+        <Service serviceName="Residential Treatment Center" serviceZoom="-1">
+            <FIPs travelReq="Y">51107</FIPs>
+            <FIPs travelReq="N">51061</FIPs>
         </Service>
     </Provider>
     <Provider id="77">
