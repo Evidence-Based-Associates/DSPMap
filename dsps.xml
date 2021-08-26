@@ -2722,7 +2722,7 @@
     </Provider>
     <Provider id="37">
         <Name>Middle Peninsula Northern Neck CSB</Name>
-        <LastUpdated>2020-03-06</LastUpdated>
+        <LastUpdated>2021-08-25</LastUpdated>
         <MapZoom>1</MapZoom>
         <Website>www.mpnncsb.org</Website>
         <ContactName>Emily Eanes, LPC, LMFT</ContactName>
@@ -2852,6 +2852,18 @@
             <FIPs travelReq="N">51193</FIPs>
         </Service>
         <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="1">
+            <FIPs travelReq="N">51057</FIPs>
+            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="N">51073</FIPs>
+            <FIPs travelReq="N">51097</FIPs>
+            <FIPs travelReq="N">51103</FIPs>
+            <FIPs travelReq="N">51119</FIPs>
+            <FIPs travelReq="N">51115</FIPs>
+            <FIPs travelReq="N">51159</FIPs>
+            <FIPs travelReq="N">51133</FIPs>
+            <FIPs travelReq="N">51193</FIPs>
+        </Service>
+        <Service serviceName="Specialized Individual Therapy (DBT/ EMDR)" serviceZoom="1">
             <FIPs travelReq="N">51057</FIPs>
             <FIPs travelReq="N">51101</FIPs>
             <FIPs travelReq="N">51073</FIPs>
