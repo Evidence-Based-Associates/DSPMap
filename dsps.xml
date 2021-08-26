@@ -5608,7 +5608,7 @@
     </Provider>
     <Provider id="54">
         <Name>UMFS</Name>
-        <LastUpdated>2021-07-13</LastUpdated>
+        <LastUpdated>2021-08-25</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.umfs.org</Website>
         <ContactName>Dani Halbleib</ContactName>
@@ -5683,24 +5683,6 @@
             <Phone/>
             <Fax/>
         </Office>
-        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
-            <FIPs travelReq="N">51059</FIPs>
-            <FIPs travelReq="N">51107</FIPs>
-            <FIPs travelReq="N">51036</FIPs>
-            <FIPs travelReq="N">51073</FIPs>
-            <FIPs travelReq="N">51095</FIPs>
-            <FIPs travelReq="N">51097</FIPs>
-            <FIPs travelReq="N">51115</FIPs>
-            <FIPs travelReq="N">51119</FIPs>
-            <FIPs travelReq="N">51127</FIPs>
-            <FIPs travelReq="N">51199</FIPs>
-            <FIPs travelReq="N">51735</FIPs>
-            <FIPs travelReq="N">51830</FIPs>
-            <FIPs travelReq="N">51101</FIPs>
-        </Service>
-        <Service serviceName="Residential Group Home" serviceZoom="-1">
-            <FIPs travelReq="N">51760</FIPs>
-        </Service>
         <Service serviceName="HFW Intensive Care Coordination" serviceZoom="-1">
             <FIPs travelReq="N">51013</FIPs>
             <FIPs travelReq="N">51610</FIPs>
@@ -5867,7 +5849,13 @@
             <FIPs travelReq="Y">51159</FIPs>
             <FIPs travelReq="N">51087</FIPs>
             <FIPs travelReq="N">51057</FIPs>
-        <FIPs travelReq="N">51760</FIPs><FIPs travelReq="Y">51570</FIPs><FIPs travelReq="Y">51041</FIPs><FIPs travelReq="Y">51730</FIPs><FIPs travelReq="Y">51061</FIPs><FIPs travelReq="Y">51013</FIPs></Service>
+            <FIPs travelReq="N">51760</FIPs>
+            <FIPs travelReq="Y">51570</FIPs>
+            <FIPs travelReq="Y">51041</FIPs>
+            <FIPs travelReq="Y">51730</FIPs>
+            <FIPs travelReq="Y">51061</FIPs>
+            <FIPs travelReq="Y">51013</FIPs>
+        </Service>
     </Provider>
     <Provider id="56">
         <Name>Virginia Home for Boys and Girls</Name>
