@@ -1950,7 +1950,7 @@
     </Provider>
     <Provider id="27">
         <Name>Brambleton Assessment and Counseling Center, LLC</Name>
-        <LastUpdated>2020-01-06</LastUpdated>
+        <LastUpdated>2021-08-25</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website/>
         <ContactName>Lauren Smelser</ContactName>
@@ -1964,26 +1964,6 @@
             <Zip>24018</Zip>
             <Phone>(540) 777-7060</Phone>
             <Fax>(540) 777-5453</Fax>
-        </Office>
-        <Office>
-            <Lat>37.1223664</Lat>
-            <Lng>-76.34577730000001</Lng>
-            <Street/>
-            <City>Poquson</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone>757-253-0111</Phone>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>37.0298687</Lat>
-            <Lng>-76.34522179999999</Lng>
-            <Street/>
-            <City>Newport News</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone>757-253-0111</Phone>
-            <Fax/>
         </Office>
         <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="-1">
             <FIPs travelReq="N">51770</FIPs>
