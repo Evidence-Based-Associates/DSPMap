@@ -8048,7 +8048,7 @@
     </Provider>
     <Provider id="88">
         <Name>City of Alexandria Department of Community &amp; Human Services (DCHS)</Name>
-        <LastUpdated>2018-11-14</LastUpdated>
+        <LastUpdated>2021-08-25</LastUpdated>
         <MapZoom>51510</MapZoom>
         <Website>www.alexandriava.gov/DCHS</Website>
         <ContactName>Intake</ContactName>
@@ -8082,6 +8082,16 @@
             <FIPs travelReq="N">51510</FIPs>
         </Service>
         <Service serviceName="Trauma-Focused Cognitive Behavioral Therapy (TF-CBT)" serviceZoom="0">
+            <FIPs travelReq="N" languages="Spanish, Amharic">51510</FIPs>
+        </Service>
+        <Service serviceName="Clinical Group" serviceZoom="-1"/>
+        <Service serviceName="Specialized Individual Therapy (DBT/ EMDR)" serviceZoom="0">
+            <FIPs travelReq="N" languages="Spanish, Amharic">51510</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Evaluation" serviceZoom="0">
+            <FIPs travelReq="N" languages="Spanish, Amharic">51510</FIPs>
+        </Service>
+        <Service serviceName="Skills Coaching (e.g. Casey Life Skills)" serviceZoom="0">
             <FIPs travelReq="N" languages="Spanish, Amharic">51510</FIPs>
         </Service>
     </Provider>
