@@ -5404,7 +5404,7 @@
     </Provider>
     <Provider id="13">
         <Name>Envision Counseling</Name>
-        <LastUpdated>2021-02-16</LastUpdated>
+        <LastUpdated>2021-08-25</LastUpdated>
         <MapZoom>0</MapZoom>
         <Website>ncgenvision.com</Website>
         <ContactName>Stephanie Barbour</ContactName>
@@ -5466,6 +5466,42 @@
             <FIPs travelReq="N">51610</FIPs>
         </Service>
         <Service serviceName="Mental Health Evaluation" serviceZoom="0">
+            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N">51059</FIPs>
+            <FIPs travelReq="N">51683</FIPs>
+            <FIPs travelReq="N">51685</FIPs>
+            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="Y">51061</FIPs>
+            <FIPs travelReq="Y">51107</FIPs>
+            <FIPs travelReq="N">51510</FIPs>
+            <FIPs travelReq="N">51013</FIPs>
+            <FIPs travelReq="N">51610</FIPs>
+        </Service>
+        <Service serviceName="Trauma-Focused Cognitive Behavioral Therapy (TF-CBT)" serviceZoom="0">
+            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N">51059</FIPs>
+            <FIPs travelReq="N">51683</FIPs>
+            <FIPs travelReq="N">51685</FIPs>
+            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="Y">51061</FIPs>
+            <FIPs travelReq="Y">51107</FIPs>
+            <FIPs travelReq="N">51510</FIPs>
+            <FIPs travelReq="N">51013</FIPs>
+            <FIPs travelReq="N">51610</FIPs>
+        </Service>
+        <Service serviceName="Specialized Individual Therapy (DBT/ EMDR)" serviceZoom="0">
+            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N">51059</FIPs>
+            <FIPs travelReq="N">51683</FIPs>
+            <FIPs travelReq="N">51685</FIPs>
+            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="Y">51061</FIPs>
+            <FIPs travelReq="Y">51107</FIPs>
+            <FIPs travelReq="N">51510</FIPs>
+            <FIPs travelReq="N">51013</FIPs>
+            <FIPs travelReq="N">51610</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Evaluation" serviceZoom="0">
             <FIPs travelReq="N">51600</FIPs>
             <FIPs travelReq="N">51059</FIPs>
             <FIPs travelReq="N">51683</FIPs>
