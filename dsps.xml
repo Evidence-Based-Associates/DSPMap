@@ -4547,7 +4547,7 @@
     </Provider>
     <Provider id="41">
         <Name>New River Valley Community Services</Name>
-        <LastUpdated>2018-11-05</LastUpdated>
+        <LastUpdated>2021-08-31</LastUpdated>
         <MapZoom>2</MapZoom>
         <Website>www.nrvcs.org</Website>
         <ContactName>James Hadder</ContactName>
@@ -4584,6 +4584,13 @@
             <FIPs travelReq="N">51155</FIPs>
         </Service>
         <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="2">
+            <FIPs travelReq="N">51071</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="N">51063</FIPs>
+            <FIPs travelReq="N">51750</FIPs>
+            <FIPs travelReq="N">51155</FIPs>
+        </Service>
+        <Service serviceName="Functional Family Therapy (FFT)" serviceZoom="2">
             <FIPs travelReq="N">51071</FIPs>
             <FIPs travelReq="N">51121</FIPs>
             <FIPs travelReq="N">51063</FIPs>
