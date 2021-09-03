@@ -3034,11 +3034,11 @@
     </Provider>
     <Provider id="34">
         <Name>Jackson Feild Behavioral Health Services</Name>
-        <LastUpdated>2018-08-27</LastUpdated>
+        <LastUpdated>2021-09-01</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.jacksonfeild.org</Website>
-        <ContactName> Paula Easter </ContactName>
-        <ContactEmail>peaster@jacksonfeild.org</ContactEmail>
+        <ContactName>Nancy Philpy </ContactName>
+        <ContactEmail>NPhilpy@jacksonfeild.org</ContactEmail>
         <Office>
             <Lat>36.8400898</Lat>
             <Lng>-77.54995129999998</Lng>
@@ -3049,8 +3049,9 @@
             <Phone>(434) 634-3217 ext. 3027</Phone>
             <Fax/>
         </Office>
-        <Service serviceName="Residential Group Home" serviceZoom="51760">
+        <Service serviceName="Residential Treatment Center" serviceZoom="51760">
             <FIPs travelReq="N">51081</FIPs>
+            <FIPs travelReq="N">51595</FIPs>
         </Service>
     </Provider>
     <Provider id="35">
