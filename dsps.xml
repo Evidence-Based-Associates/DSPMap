@@ -2396,7 +2396,7 @@
     </Provider>
     <Provider id="31">
         <Name>Horizon Behavioral Health</Name>
-        <LastUpdated>2018-10-05</LastUpdated>
+        <LastUpdated>2021-09-13</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.horizonbh.org</Website>
         <ContactName>Jennifer Smith Ramey, LPC</ContactName>
@@ -2464,6 +2464,20 @@
             <FIPs travelReq="N">51011</FIPs>
         </Service>
         <Service serviceName="Psychological Evaluation" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+        </Service>
+        <Service serviceName="Specialized Individual Therapy (DBT/ EMDR)" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Evaluation" serviceZoom="-1">
             <FIPs travelReq="N">51680</FIPs>
             <FIPs travelReq="N">51009</FIPs>
             <FIPs travelReq="N">51019</FIPs>
