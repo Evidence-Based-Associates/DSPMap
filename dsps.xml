@@ -800,45 +800,6 @@
             <FIPs travelReq="N">51031</FIPs>
         </Service>
     </Provider>
-    <Provider id="7">
-        <Name>Building Healthy Connections</Name>
-        <LastUpdated>2021-03-18</LastUpdated>
-        <MapZoom>1</MapZoom>
-        <Website>bhconnections.com/</Website>
-        <ContactName>MaryLynn McKenna, LCSW</ContactName>
-        <ContactEmail>office@bhconnections.com</ContactEmail>
-        <Office>
-            <Lat>38.253</Lat>
-            <Lng>-77.502</Lng>
-            <Street>10401 Courthouse Road Suite D</Street>
-            <City>Spotsylvania</City>
-            <State>VA</State>
-            <Zip>22553</Zip>
-            <Phone>(540) 898-7125</Phone>
-            <Fax>(540) 898-1146</Fax>
-        </Office>
-        <Service serviceName="Substance Abuse Service" serviceZoom="1">
-            <!-- CSU15 -->
-            <FIPs travelReq="N">51033</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="N">51099</FIPs>
-            <FIPs travelReq="N">51177</FIPs>
-            <FIPs travelReq="N">51179</FIPs>
-            <FIPs travelReq="N">51630</FIPs>
-            <FIPs travelReq="Y">51047</FIPs>
-            <FIPs travelReq="Y">51137</FIPs>
-        </Service>
-        <Service serviceName="Individual/ Family Counseling" serviceZoom="1">
-            <!-- CSU15 -->
-            <FIPs travelReq="N">51033</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="N">51099</FIPs>
-            <FIPs travelReq="N">51177</FIPs>
-            <FIPs travelReq="N">51179</FIPs>
-            <FIPs travelReq="N">51630</FIPs>
-            <FIPs travelReq="Y">51047</FIPs>
-        </Service>
-    </Provider>
     <Provider id="8">
         <Name>York County Juvenile Services</Name>
         <LastUpdated>2018-10-02</LastUpdated>
