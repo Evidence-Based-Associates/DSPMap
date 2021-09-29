@@ -8018,36 +8018,6 @@
             <FIPs travelReq="N">51660</FIPs>
         </Service>
     </Provider>
-    <Provider id="81">
-        <Name>HopeSpring Child and Family Clinic, LLC</Name>
-        <LastUpdated>2018-02-21</LastUpdated>
-        <MapZoom>0</MapZoom>
-        <Website>http://www.hopespringchildandfamily.com</Website>
-        <ContactName>Dr. Mi-Kyong Kwon</ContactName>
-        <ContactEmail>hopespringchildandfamily@gmail.com</ContactEmail>
-        <Offices/>
-        <Office>
-            <Lat>38.8468685</Lat>
-            <Lng>-77.30203999999998</Lng>
-            <Street>3915 Old Lee Hwy #23A</Street>
-            <City>Fairfax</City>
-            <State>VA</State>
-            <Zip>22030</Zip>
-            <Phone>(703) 259-5617</Phone>
-            <Fax>(703) 552-2037</Fax>
-        </Office>
-        <Service serviceName="Trauma-Focused Cognitive Behavioral Therapy (TF-CBT)" serviceZoom="0">
-            <FIPs travelReq="N" languages="Korean">51059</FIPs>
-            <FIPs travelReq="N" languages="Korean">51600</FIPs>
-            <FIPs travelReq="Y" languages="Korean">51013</FIPs>
-            <FIPs travelReq="Y" languages="Korean">51510</FIPs>
-            <FIPs travelReq="Y" languages="Korean">51610</FIPs>
-            <FIPs travelReq="Y" languages="Korean">51685</FIPs>
-            <FIPs travelReq="Y" languages="Korean">51683</FIPs>
-            <FIPs travelReq="Y" languages="Korean">51153</FIPs>
-            <FIPs travelReq="Y" languages="Korean">51107</FIPs>
-        </Service>
-    </Provider>
     <Provider id="68">
         <Name>Counseling and Forensic Services</Name>
         <LastUpdated>2021-08-25</LastUpdated>
