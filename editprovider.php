@@ -52,7 +52,9 @@ var pID;
 var thisXML = dspsXML; 
     
 //approved service names for drop-down selection
-var approvedServiceNames = ["Skills Coaching (e.g. Casey Life Skills)",
+var approvedServiceNames = ["Adolescent Community Reinforcement Approach (A-CRA)",
+                            "Crisis Intervention / Stabilization",
+                            "Skills Coaching (e.g. Casey Life Skills)",
                             "Gang Intervention",
                             "Electronic Monitoring",
                             "Home-Based Service / Intensive In-Home",
@@ -78,6 +80,7 @@ var approvedServiceNames = ["Skills Coaching (e.g. Casey Life Skills)",
                             "Seven Challenges for Substance Abuse",
                             "Specialized Individual Therapy (DBT/ EMDR)",
                             "Substance Abuse Evaluation",
+                            "Substance Abuse Intensive Outpatient (SAIOP)",
                             "Language Services"];
 approvedServiceNames.sort();
 //List of providers from data file for provider select drop down box.
