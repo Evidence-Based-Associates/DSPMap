@@ -7400,44 +7400,6 @@
             <FIPs travelReq="N">51075</FIPs>
         </Service>
     </Provider>
-    <Provider id="43">
-        <Name>Evaluation and Assessment Services Winchester</Name>
-        <LastUpdated>2020-11-18</LastUpdated>
-        <MapZoom>0</MapZoom>
-        <Website>www.easwinchester.com</Website>
-        <ContactName>April Szilagyi, Psy.D., CSOTP</ContactName>
-        <ContactEmail>EASWinchester@gmail.com</ContactEmail>
-        <Office>
-            <Lat>39.1843683</Lat>
-            <Lng>-78.16590680000002</Lng>
-            <Street>9 N. Loudoun St., Suite 201-B</Street>
-            <City>Winchester</City>
-            <State>VA</State>
-            <Zip>22601</Zip>
-            <Phone>(540) 686-7249</Phone>
-            <Fax>545) 686-7608</Fax>
-        </Office>
-        <Service serviceName="Psychological Evaluation" serviceZoom="0">
-            <FIPs travelReq="N">51840</FIPs>
-            <FIPs travelReq="N">51069</FIPs>
-        </Service>
-        <Service serviceName="Youth with Sexualized Behaviors (YSB) Treatment" serviceZoom="0">
-            <FIPs travelReq="N">51840</FIPs>
-            <FIPs travelReq="N">51069</FIPs>
-        </Service>
-        <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="0">
-            <FIPs travelReq="N">51840</FIPs>
-            <FIPs travelReq="N">51069</FIPs>
-        </Service>
-        <Service serviceName="Mental Health Evaluation" serviceZoom="0">
-            <FIPs travelReq="N">51840</FIPs>
-            <FIPs travelReq="N">51069</FIPs>
-        </Service>
-        <Service serviceName="Individual/ Family Counseling" serviceZoom="0">
-            <FIPs travelReq="N">51840</FIPs>
-            <FIPs travelReq="N">51069</FIPs>
-        </Service>
-    </Provider>
     <Provider id="44">
         <Name>Spectrum Health Solutions, LLC</Name>
         <LastUpdated>2021-02-22</LastUpdated>
