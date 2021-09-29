@@ -1533,7 +1533,7 @@
     </Provider>
     <Provider id="20">
         <Name>Faith in Your Future</Name>
-        <LastUpdated>2021-08-26</LastUpdated>
+        <LastUpdated>2021-09-28</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website/>
         <ContactName>Robin Hudson</ContactName>
@@ -1595,6 +1595,8 @@
             <FIPs travelReq="Y">51183</FIPs>
             <FIPs travelReq="Y">51175</FIPs>
             <FIPs travelReq="Y">51620</FIPs>
+            <FIPs travelReq="N">51630</FIPs>
+            <FIPs travelReq="N">51033</FIPs>
         </Service>
     </Provider>
     <Provider id="21">
