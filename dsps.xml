@@ -2732,7 +2732,7 @@
     </Provider>
     <Provider id="33">
         <Name>Intercept Health</Name>
-        <LastUpdated>2021-03-22</LastUpdated>
+        <LastUpdated>2021-09-29</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.intercepthealth.com</Website>
         <ContactName>Sandy Brudvig</ContactName>
@@ -2798,26 +2798,6 @@
             <Fax>540344.7701</Fax>
         </Office>
         <Office>
-            <Lat>37.3770935</Lat>
-            <Lng>-77.5049863</Lng>
-            <Street>Girls Group Homes (3 locations)</Street>
-            <City>Chesterfield</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>37.2709704</Lat>
-            <Lng>-79.9414266</Lng>
-            <Street>Autumn House and Carriage House (Girls and Boys group homes available) </Street>
-            <City>Roanoke</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
             <Lat>36.8529263</Lat>
             <Lng>-75.97798499999999</Lng>
             <Street>Independent Living Program</Street>
@@ -2868,26 +2848,6 @@
             <Fax/>
         </Office>
         <Office>
-            <Lat>37.0870821</Lat>
-            <Lng>-76.47301219999997</Lng>
-            <Street>Newport House (Boys Group Home)</Street>
-            <City>Newport News</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>37.3273217</Lat>
-            <Lng>-77.64778649999997</Lng>
-            <Street>Anthem House (Boys Group Home)</Street>
-            <City>Chesterfield</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Office>
             <Lat>36.592528</Lat>
             <Lng>-78.61643300000003</Lng>
             <Street>Boys Group Home (2 locations)</Street>
@@ -2897,40 +2857,8 @@
             <Phone/>
             <Fax/>
         </Office>
-        <Office>
-            <Lat>38.1400119</Lat>
-            <Lng>-79.0702141</Lng>
-            <Street>Shenandoah House (Boys Group Home)</Street>
-            <City>Staunton</City>
-            <State>VA</State>
-            <Zip/>
-            <Phone/>
-            <Fax/>
-        </Office>
         <Service serviceName="Residential Group Home" serviceZoom="-1">
             <Locations/>
-        </Service>
-        <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="-1">
-            <FIPs travelReq="N">51678</FIPs>
-            <!-- All of CSU23 -->
-            <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-            <!-- CSU23A Roanoke -->
-            <FIPs travelReq="N">51770</FIPs>
-            <!-- All of CSU27 -->
-            <FIPs travelReq="Y">51063</FIPs>
-            <FIPs travelReq="Y">51121</FIPs>
-            <FIPs travelReq="Y">51750</FIPs>
-            <FIPs travelReq="Y">51155</FIPs>
-            <FIPs travelReq="Y">51023</FIPs>
-            <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="N">51075</FIPs>
-            <FIPs travelReq="N">51145</FIPs>
-            <FIPs travelReq="N">51790</FIPs>
-            <FIPs travelReq="N">51015</FIPs>
-            <FIPs travelReq="N">51820</FIPs>
         </Service>
         <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
             <FIPs travelReq="N">51678</FIPs>
@@ -3019,20 +2947,6 @@
             <FIPs travelReq="N">51036</FIPs>
             <FIPs travelReq="Y">51089</FIPs>
         </Service>
-        <Service serviceName="Substance Abuse Service" serviceZoom="-1">
-            <!-- CSU25 Rockbridge County, City of Lexington, Botetourt County. City of Waynesboro -->
-            <FIPs travelReq="N">51678</FIPs>
-            <FIPs travelReq="N">51820</FIPs>
-            <!-- All of CSU23 -->
-            <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-            <!-- CSU23A Roanoke -->
-            <FIPs travelReq="N">51770</FIPs>
-            <!-- All of CSU27 -->
-            <FIPs travelReq="N">51121</FIPs>
-            <FIPs travelReq="N">51750</FIPs>
-            <FIPs travelReq="Y">51023</FIPs>
-        </Service>
         <Service serviceName="Residential Independent Living" serviceZoom="-1">
             <FIPs travelReq="N" languages="Spanish">51683</FIPs>
             <FIPs travelReq="N">51700</FIPs>
@@ -3069,6 +2983,19 @@
             <FIPs travelReq="Y">51580</FIPs>
             <FIPs travelReq="Y">51005</FIPs>
             <FIPs travelReq="Y">51680</FIPs>
+        </Service>
+        <Service serviceName="Residential Independent Living" serviceZoom="-1">
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51520</FIPs>
+            <FIPs travelReq="N">51540</FIPs>
+            <FIPs travelReq="N">51087</FIPs>
+            <FIPs travelReq="N">51760</FIPs>
+            <FIPs travelReq="N">51041</FIPs>
+            <FIPs travelReq="N">51840</FIPs>
+            <FIPs travelReq="N">51630</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51683</FIPs>
         </Service>
     </Provider>
     <Provider id="34">
