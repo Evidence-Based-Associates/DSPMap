@@ -3043,12 +3043,11 @@
     </Provider>
     <Provider id="36">
         <Name>Lonesome Pine Office on Youth</Name>
-        <LastUpdated>2018-11-14</LastUpdated>
+        <LastUpdated>2021-10-05</LastUpdated>
         <MapZoom>2</MapZoom>
         <Website>lonesomepineofficeonyouth.org</Website>
         <ContactName>Glenda Collins</ContactName>
         <ContactEmail>gcollins@lonesomepineofficeonyouth.org</ContactEmail>
-
         <Office>
             <Lat>36.862</Lat>
             <Lng>-82.781</Lng>
@@ -3060,13 +3059,6 @@
             <Fax>(276) 523-5066</Fax>
         </Office>
         <Service serviceZoom="2" serviceName="Skills Coaching (e.g. Casey Life Skills)">
-            <!-- All of CSU30 -->
-            <FIPs travelReq="N">51105</FIPs>
-            <FIPs travelReq="N">51169</FIPs>
-            <FIPs travelReq="N">51195</FIPs>
-            <FIPs travelReq="N">51720</FIPs>
-        </Service>
-        <Service serviceZoom="2" serviceName="Gang Intervention">
             <!-- All of CSU30 -->
             <FIPs travelReq="N">51105</FIPs>
             <FIPs travelReq="N">51169</FIPs>
