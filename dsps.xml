@@ -1748,7 +1748,7 @@
     </Provider>
     <Provider id="22">
         <Name>Family Insight, P.C.</Name>
-        <LastUpdated>2021-08-13</LastUpdated>
+        <LastUpdated>2021-10-08</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.familyinsight.net</Website>
         <ContactName>Kirk Dent</ContactName>
@@ -1844,16 +1844,6 @@
             <Fax/>
         </Office>
         <Office>
-            <Lat>36.5796578</Lat>
-            <Lng>-79.40205209999999</Lng>
-            <Street>1045 Main Street</Street>
-            <City>Danville</City>
-            <State>VA</State>
-            <Zip>24541</Zip>
-            <Phone>434-835-4765</Phone>
-            <Fax/>
-        </Office>
-        <Office>
             <Lat>37.0863367</Lat>
             <Lng>-76.4812115</Lng>
             <Street>11835 Fishing Point Drive #202</Street>
@@ -1864,91 +1854,6 @@
             <Fax/>
         </Office>
         <Service serviceName="Substance Abuse Service" serviceZoom="-1">
-            <FIPs travelReq="N">51610</FIPs>
-            <FIPs travelReq="N">51013</FIPs>
-            <FIPs travelReq="N">51510</FIPs>
-            <FIPs travelReq="N">51059</FIPs>
-            <FIPs travelReq="N">51107</FIPs>
-            <FIPs travelReq="N">51061</FIPs>
-            <FIPs travelReq="N">51840</FIPs>
-            <FIPs travelReq="N">51153</FIPs>
-            <FIPs travelReq="N">51683</FIPs>
-            <FIPs travelReq="N">51685</FIPs>
-            <!-- All of CSU 9 -->
-            <FIPs travelReq="N">51036</FIPs>
-            <FIPs travelReq="N">51073</FIPs>
-            <FIPs travelReq="N">51095</FIPs>
-            <FIPs travelReq="N">51097</FIPs>
-            <FIPs travelReq="N">51101</FIPs>
-            <FIPs travelReq="N">51115</FIPs>
-            <FIPs travelReq="N">51119</FIPs>
-            <FIPs travelReq="N">51127</FIPs>
-            <FIPs travelReq="N">51199</FIPs>
-            <FIPs travelReq="N">51735</FIPs>
-            <FIPs travelReq="N">51830</FIPs>
-            <!-- CSU 15: Only Fredericksburg and Stafford-->
-            <FIPs travelReq="N">51630</FIPs>
-            <FIPs travelReq="N">51179</FIPs>
-            <!-- CSU24: All except Bedford -->
-            <FIPs travelReq="N">51009</FIPs>
-            <FIPs travelReq="N">51031</FIPs>
-            <FIPs travelReq="N">51125</FIPs>
-            <FIPs travelReq="N">51515</FIPs>
-            <FIPs travelReq="N">51680</FIPs>
-            <!-- CSU25: Rockbridge, Lexington, Botetourt & Craig County -->
-            <FIPs travelReq="N">51023</FIPs>
-            <FIPs travelReq="N">51045</FIPs>
-            <FIPs travelReq="N">51163</FIPs>
-            <FIPs travelReq="N">51678</FIPs>
-            <!-- Western Region -->
-            <!-- All of CSU21 -->
-            <FIPs travelReq="N">51089</FIPs>
-            <FIPs travelReq="N">51141</FIPs>
-            <FIPs travelReq="N">51690</FIPs>
-            <!-- All of CSU22 -->
-            <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="N">51590</FIPs>
-            <!-- All of CSU23 -->
-            <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-            <!-- CSU23A Roanoke -->
-            <FIPs travelReq="N">51770</FIPs>
-            <!-- CSU27: Pulaski, Montgomery, Radford & Floyd -->
-            <FIPs travelReq="N">51155</FIPs>
-            <FIPs travelReq="N">51121</FIPs>
-            <FIPs travelReq="N">51750</FIPs>
-            <FIPs travelReq="N">51063</FIPs>
-            <FIPs travelReq="N">51075</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="Y">51109</FIPs>
-            <FIPs travelReq="Y">51065</FIPs>
-            <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51019</FIPs>
-            <FIPs travelReq="N">51530</FIPs>
-            <FIPs travelReq="N">51093</FIPs>
-            <FIPs travelReq="N">51700</FIPs>
-            <FIPs travelReq="N">51710</FIPs>
-            <FIPs travelReq="N">51810</FIPs>
-            <FIPs travelReq="N">51550</FIPs>
-            <FIPs travelReq="N">51740</FIPs>
-            <FIPs travelReq="N">51800</FIPs>
-            <FIPs travelReq="N">51650</FIPs>
-            <FIPs travelReq="N">51145</FIPs>
-            <FIPs travelReq="N">51049</FIPs>
-            <FIPs travelReq="N">51007</FIPs>
-            <FIPs travelReq="Y">51135</FIPs>
-            <FIPs travelReq="Y">51670</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
-            <FIPs travelReq="Y">51149</FIPs>
-            <FIPs travelReq="Y">51053</FIPs>
-            <FIPs travelReq="N">51730</FIPs>
-            <FIPs travelReq="N">51570</FIPs>
-            <FIPs travelReq="Y">51181</FIPs>
-        </Service>
-        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
-            <FIPs travelReq="N">51610</FIPs>
             <FIPs travelReq="N">51013</FIPs>
             <FIPs travelReq="N">51510</FIPs>
             <FIPs travelReq="N">51059</FIPs>
@@ -1956,8 +1861,6 @@
             <FIPs travelReq="N">51061</FIPs>
             <FIPs travelReq="N">51840</FIPs>
             <FIPs travelReq="N" languages="Spanish">51153</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51683</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51685</FIPs>
             <!-- All of CSU 9 -->
             <FIPs travelReq="N">51036</FIPs>
             <FIPs travelReq="Y">51073</FIPs>
@@ -2009,7 +1912,6 @@
             <FIPs travelReq="Y">51065</FIPs>
             <FIPs travelReq="N" languages="Spanish">51760</FIPs>
             <FIPs travelReq="N" languages="Spanish">51041</FIPs>
-            <FIPs travelReq="N">51600</FIPs>
             <FIPs travelReq="N">51019</FIPs>
             <FIPs travelReq="N">51530</FIPs>
             <FIPs travelReq="N">51650</FIPs>
@@ -2026,17 +1928,114 @@
             <FIPs travelReq="N">51187</FIPs>
             <FIPs travelReq="Y">51181</FIPs>
             <FIPs travelReq="N" languages="Spanish">51087</FIPs>
-            <FIPs travelReq="N">51145</FIPs>
             <FIPs travelReq="N">51049</FIPs>
             <FIPs travelReq="N">51029</FIPs>
             <FIPs travelReq="Y">51047</FIPs>
             <FIPs travelReq="Y">51139</FIPs>
-            <FIPs travelReq="Y">51670</FIPs>
-            <FIPs travelReq="Y">51149</FIPs>
-            <FIPs travelReq="Y">51730</FIPs>
+            <FIPs travelReq="N">51117</FIPs>
+            <FIPs travelReq="N">51025</FIPs>
+            <FIPs travelReq="N">51081</FIPs>
+            <FIPs travelReq="N">51595</FIPs>
+            <FIPs travelReq="N">51183</FIPs>
+            <FIPs travelReq="N">51147</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="N">51135</FIPs>
+            <FIPs travelReq="N">51111</FIPs>
+            <FIPs travelReq="N">51037</FIPs>
+            <FIPs travelReq="N">51570</FIPs>
+        </Service>
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
+            <FIPs travelReq="N">51013</FIPs>
+            <FIPs travelReq="N">51510</FIPs>
+            <FIPs travelReq="N">51059</FIPs>
+            <FIPs travelReq="N">51107</FIPs>
+            <FIPs travelReq="N">51061</FIPs>
+            <FIPs travelReq="N">51840</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51153</FIPs>
+            <!-- All of CSU 9 -->
+            <FIPs travelReq="N">51036</FIPs>
+            <FIPs travelReq="Y">51073</FIPs>
+            <FIPs travelReq="N">51095</FIPs>
+            <FIPs travelReq="Y">51097</FIPs>
+            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="Y">51115</FIPs>
+            <FIPs travelReq="Y">51119</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51127</FIPs>
+            <FIPs travelReq="N">51199</FIPs>
+            <FIPs travelReq="N">51735</FIPs>
+            <FIPs travelReq="N">51830</FIPs>
+            <!-- CSU 15: Only Fredericksburg and Stafford-->
+            <FIPs travelReq="N">51630</FIPs>
+            <FIPs travelReq="N">51179</FIPs>
+            <!-- CSU24: All except Bedford -->
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51125</FIPs>
+            <FIPs travelReq="N">51515</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <!-- CSU25: Rockbridge, Lexington, Botetourt & Craig County -->
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="N">51045</FIPs>
+            <FIPs travelReq="N">51163</FIPs>
+            <FIPs travelReq="N">51678</FIPs>
+            <!-- Western Region -->
+            <!-- All of CSU21 -->
+            <FIPs travelReq="N">51089</FIPs>
+            <FIPs travelReq="N">51141</FIPs>
+            <FIPs travelReq="N">51690</FIPs>
+            <!-- All of CSU22 -->
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51143</FIPs>
+            <FIPs travelReq="N">51590</FIPs>
+            <!-- All of CSU23 -->
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <!-- CSU23A Roanoke -->
+            <FIPs travelReq="N">51770</FIPs>
+            <!-- CSU27: Pulaski, Montgomery, Radford & Floyd -->
+            <FIPs travelReq="N">51155</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="N">51750</FIPs>
+            <FIPs travelReq="N">51063</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51075</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51085</FIPs>
+            <FIPs travelReq="Y">51109</FIPs>
+            <FIPs travelReq="Y">51065</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51760</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51041</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51530</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51093</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="N">51800</FIPs>
+            <FIPs travelReq="N">51550</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51043</FIPs>
+            <FIPs travelReq="N">51069</FIPs>
+            <FIPs travelReq="Y">51171</FIPs>
+            <FIPs travelReq="N">51187</FIPs>
+            <FIPs travelReq="Y">51181</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51087</FIPs>
+            <FIPs travelReq="N">51049</FIPs>
+            <FIPs travelReq="N">51029</FIPs>
+            <FIPs travelReq="Y">51047</FIPs>
+            <FIPs travelReq="Y">51139</FIPs>
+            <FIPs travelReq="N">51037</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="N">51117</FIPs>
+            <FIPs travelReq="N">51111</FIPs>
+            <FIPs travelReq="N">51025</FIPs>
+            <FIPs travelReq="N">51081</FIPs>
+            <FIPs travelReq="N">51595</FIPs>
+            <FIPs travelReq="N">51183</FIPs>
+            <FIPs travelReq="N">51135</FIPs>
+            <FIPs travelReq="N">51147</FIPs>
+            <FIPs travelReq="N">51570</FIPs>
         </Service>
         <Service serviceName="Skills Coaching (e.g. Casey Life Skills)" serviceZoom="-1">
-            <FIPs travelReq="N">51610</FIPs>
             <FIPs travelReq="N">51013</FIPs>
             <FIPs travelReq="N">51510</FIPs>
             <FIPs travelReq="N">51059</FIPs>
@@ -2044,8 +2043,6 @@
             <FIPs travelReq="N">51061</FIPs>
             <FIPs travelReq="N">51840</FIPs>
             <FIPs travelReq="N">51153</FIPs>
-            <FIPs travelReq="N">51683</FIPs>
-            <FIPs travelReq="N">51685</FIPs>
             <!-- All of CSU 9 -->
             <FIPs travelReq="N" languages="Spanish">51036</FIPs>
             <FIPs travelReq="N">51073</FIPs>
@@ -2107,31 +2104,34 @@
             <FIPs travelReq="N">51550</FIPs>
             <FIPs travelReq="N">51740</FIPs>
             <FIPs travelReq="N">51800</FIPs>
-            <FIPs travelReq="N">51600</FIPs>
             <FIPs travelReq="N">51069</FIPs>
             <FIPs travelReq="Y">51043</FIPs>
-            <FIPs travelReq="N">51145</FIPs>
             <FIPs travelReq="Y">51049</FIPs>
-            <FIPs travelReq="N">51670</FIPs>
             <FIPs travelReq="N">51041</FIPs>
-            <FIPs travelReq="Y">51730</FIPs>
             <FIPs travelReq="N">51570</FIPs>
-            <FIPs travelReq="Y">51149</FIPs>
             <FIPs travelReq="Y">51171</FIPs>
             <FIPs travelReq="Y">51187</FIPs>
             <FIPs travelReq="Y">51165</FIPs>
+            <FIPs travelReq="N">51117</FIPs>
+            <FIPs travelReq="N">51037</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="N">51029</FIPs>
+            <FIPs travelReq="N">51111</FIPs>
+            <FIPs travelReq="N">51147</FIPs>
+            <FIPs travelReq="N">51135</FIPs>
+            <FIPs travelReq="N">51025</FIPs>
+            <FIPs travelReq="N">51081</FIPs>
+            <FIPs travelReq="N">51595</FIPs>
+            <FIPs travelReq="N">51183</FIPs>
+            <FIPs travelReq="N">51181</FIPs>
         </Service>
         <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="-1">
-            <FIPs travelReq="N">51610</FIPs>
             <FIPs travelReq="N">51013</FIPs>
             <FIPs travelReq="N">51510</FIPs>
             <FIPs travelReq="N">51059</FIPs>
             <FIPs travelReq="N">51107</FIPs>
             <FIPs travelReq="N">51061</FIPs>
             <FIPs travelReq="N">51840</FIPs>
-            <FIPs travelReq="N">51153</FIPs>
-            <FIPs travelReq="N">51683</FIPs>
-            <FIPs travelReq="N">51685</FIPs>
             <!-- All of CSU 9 -->
             <FIPs travelReq="N">51036</FIPs>
             <FIPs travelReq="N">51073</FIPs>
@@ -2194,9 +2194,245 @@
             <FIPs travelReq="N">51093</FIPs>
             <FIPs travelReq="N">51800</FIPs>
             <FIPs travelReq="N">51550</FIPs>
+            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="N">51117</FIPs>
+            <FIPs travelReq="N">51037</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="N">51029</FIPs>
+            <FIPs travelReq="N">51049</FIPs>
+            <FIPs travelReq="N">51147</FIPs>
+            <FIPs travelReq="N">51111</FIPs>
+            <FIPs travelReq="N">51135</FIPs>
+            <FIPs travelReq="N">51025</FIPs>
+            <FIPs travelReq="N">51595</FIPs>
+            <FIPs travelReq="N">51081</FIPs>
+            <FIPs travelReq="N">51183</FIPs>
+            <FIPs travelReq="N">51181</FIPs>
+            <FIPs travelReq="N">51570</FIPs>
         </Service>
         <Service serviceName="Trauma-Focused Cognitive Behavioral Therapy (TF-CBT)" serviceZoom="-1">
-            <FIPs travelReq="N">51610</FIPs>
+            <FIPs travelReq="N">51840</FIPs>
+            <!-- All of CSU 9 -->
+            <FIPs travelReq="N">51036</FIPs>
+            <FIPs travelReq="N">51073</FIPs>
+            <FIPs travelReq="N">51095</FIPs>
+            <FIPs travelReq="N">51097</FIPs>
+            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="N">51115</FIPs>
+            <FIPs travelReq="N">51119</FIPs>
+            <FIPs travelReq="N">51127</FIPs>
+            <FIPs travelReq="N">51199</FIPs>
+            <FIPs travelReq="N">51735</FIPs>
+            <FIPs travelReq="N">51830</FIPs>
+            <!-- CSU 15: Only Fredericksburg and Stafford-->
+            <FIPs travelReq="N">51630</FIPs>
+            <FIPs travelReq="N">51179</FIPs>
+            <!-- CSU24: All except Bedford -->
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51125</FIPs>
+            <FIPs travelReq="N">51515</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <!-- CSU25: Rockbridge, Lexington, Botetourt & Craig County -->
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="N">51045</FIPs>
+            <FIPs travelReq="N">51163</FIPs>
+            <FIPs travelReq="N">51678</FIPs>
+            <!-- CSU27: Pulaski, Montgomery, Radford & Floyd -->
+            <FIPs travelReq="N">51075</FIPs>
+            <FIPs travelReq="N">51085</FIPs>
+            <FIPs travelReq="Y">51109</FIPs>
+            <FIPs travelReq="Y">51065</FIPs>
+            <FIPs travelReq="N">51087</FIPs>
+            <FIPs travelReq="N">51760</FIPs>
+            <FIPs travelReq="N">51041</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51530</FIPs>
+            <FIPs travelReq="N">51069</FIPs>
+        </Service>
+        <Service serviceName="Crisis Intervention / Stabilization" serviceZoom="-1">
+            <FIPs travelReq="N">51013</FIPs>
+            <FIPs travelReq="N">51510</FIPs>
+            <FIPs travelReq="N">51059</FIPs>
+            <FIPs travelReq="N">51107</FIPs>
+            <FIPs travelReq="N">51061</FIPs>
+            <FIPs travelReq="N">51840</FIPs>
+            <!-- All of CSU 9 -->
+            <FIPs travelReq="N">51036</FIPs>
+            <FIPs travelReq="Y">51073</FIPs>
+            <FIPs travelReq="N">51095</FIPs>
+            <FIPs travelReq="Y">51097</FIPs>
+            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="Y">51115</FIPs>
+            <FIPs travelReq="Y">51119</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51127</FIPs>
+            <FIPs travelReq="N">51199</FIPs>
+            <FIPs travelReq="N">51735</FIPs>
+            <FIPs travelReq="N">51830</FIPs>
+            <!-- CSU 15: Only Fredericksburg and Stafford-->
+            <FIPs travelReq="N">51630</FIPs>
+            <FIPs travelReq="N">51179</FIPs>
+            <!-- CSU24: All except Bedford -->
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51125</FIPs>
+            <FIPs travelReq="N">51515</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <!-- CSU25: Rockbridge, Lexington, Botetourt & Craig County -->
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="N">51045</FIPs>
+            <FIPs travelReq="N">51163</FIPs>
+            <FIPs travelReq="N">51678</FIPs>
+            <!-- Western Region -->
+            <!-- All of CSU21 -->
+            <FIPs travelReq="N">51089</FIPs>
+            <FIPs travelReq="N">51141</FIPs>
+            <FIPs travelReq="N">51690</FIPs>
+            <!-- All of CSU22 -->
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51143</FIPs>
+            <FIPs travelReq="N">51590</FIPs>
+            <!-- All of CSU23 -->
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <!-- CSU23A Roanoke -->
+            <FIPs travelReq="N">51770</FIPs>
+            <!-- CSU27: Pulaski, Montgomery, Radford & Floyd -->
+            <FIPs travelReq="N">51155</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="N">51750</FIPs>
+            <FIPs travelReq="N">51063</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51075</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51085</FIPs>
+            <FIPs travelReq="Y">51109</FIPs>
+            <FIPs travelReq="Y">51065</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51760</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51041</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51530</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51093</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="N">51800</FIPs>
+            <FIPs travelReq="N">51550</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51043</FIPs>
+            <FIPs travelReq="N">51069</FIPs>
+            <FIPs travelReq="Y">51171</FIPs>
+            <FIPs travelReq="N">51187</FIPs>
+            <FIPs travelReq="Y">51181</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51087</FIPs>
+            <FIPs travelReq="N">51049</FIPs>
+            <FIPs travelReq="N">51029</FIPs>
+            <FIPs travelReq="Y">51047</FIPs>
+            <FIPs travelReq="Y">51139</FIPs>
+            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="N">51117</FIPs>
+            <FIPs travelReq="N">51037</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="N">51135</FIPs>
+            <FIPs travelReq="N">51025</FIPs>
+            <FIPs travelReq="N">51595</FIPs>
+            <FIPs travelReq="N">51081</FIPs>
+            <FIPs travelReq="N">51183</FIPs>
+            <FIPs travelReq="N">51570</FIPs>
+            <FIPs travelReq="N">51147</FIPs>
+            <FIPs travelReq="N">51111</FIPs>
+        </Service>
+        <Service serviceName="Mental Health Evaluation" serviceZoom="-1">
+            <FIPs travelReq="N">51013</FIPs>
+            <FIPs travelReq="N">51510</FIPs>
+            <FIPs travelReq="N">51059</FIPs>
+            <FIPs travelReq="N">51107</FIPs>
+            <FIPs travelReq="N">51061</FIPs>
+            <FIPs travelReq="N">51840</FIPs>
+            <!-- All of CSU 9 -->
+            <FIPs travelReq="N">51036</FIPs>
+            <FIPs travelReq="Y">51073</FIPs>
+            <FIPs travelReq="N">51095</FIPs>
+            <FIPs travelReq="Y">51097</FIPs>
+            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="Y">51115</FIPs>
+            <FIPs travelReq="Y">51119</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51127</FIPs>
+            <FIPs travelReq="N">51199</FIPs>
+            <FIPs travelReq="N">51735</FIPs>
+            <FIPs travelReq="N">51830</FIPs>
+            <!-- CSU 15: Only Fredericksburg and Stafford-->
+            <FIPs travelReq="N">51630</FIPs>
+            <FIPs travelReq="N">51179</FIPs>
+            <!-- CSU24: All except Bedford -->
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51125</FIPs>
+            <FIPs travelReq="N">51515</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <!-- CSU25: Rockbridge, Lexington, Botetourt & Craig County -->
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="N">51045</FIPs>
+            <FIPs travelReq="N">51163</FIPs>
+            <FIPs travelReq="N">51678</FIPs>
+            <!-- Western Region -->
+            <!-- All of CSU21 -->
+            <FIPs travelReq="N">51089</FIPs>
+            <FIPs travelReq="N">51141</FIPs>
+            <FIPs travelReq="N">51690</FIPs>
+            <!-- All of CSU22 -->
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51143</FIPs>
+            <FIPs travelReq="N">51590</FIPs>
+            <!-- All of CSU23 -->
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <!-- CSU23A Roanoke -->
+            <FIPs travelReq="N">51770</FIPs>
+            <!-- CSU27: Pulaski, Montgomery, Radford & Floyd -->
+            <FIPs travelReq="N">51155</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="N">51750</FIPs>
+            <FIPs travelReq="N">51063</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51075</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51085</FIPs>
+            <FIPs travelReq="Y">51109</FIPs>
+            <FIPs travelReq="Y">51065</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51760</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51041</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51530</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51093</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="N">51800</FIPs>
+            <FIPs travelReq="N">51550</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51043</FIPs>
+            <FIPs travelReq="N">51069</FIPs>
+            <FIPs travelReq="Y">51171</FIPs>
+            <FIPs travelReq="N">51187</FIPs>
+            <FIPs travelReq="Y">51181</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51087</FIPs>
+            <FIPs travelReq="N">51049</FIPs>
+            <FIPs travelReq="N">51029</FIPs>
+            <FIPs travelReq="Y">51047</FIPs>
+            <FIPs travelReq="Y">51139</FIPs>
+            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="N">51117</FIPs>
+            <FIPs travelReq="N">51037</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="N">51147</FIPs>
+            <FIPs travelReq="N">51135</FIPs>
+            <FIPs travelReq="N">51111</FIPs>
+            <FIPs travelReq="N">51025</FIPs>
+            <FIPs travelReq="N">51595</FIPs>
+            <FIPs travelReq="N">51081</FIPs>
+            <FIPs travelReq="N">51183</FIPs>
+            <FIPs travelReq="N">51570</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Evaluation" serviceZoom="-1">
             <FIPs travelReq="N">51013</FIPs>
             <FIPs travelReq="N">51510</FIPs>
             <FIPs travelReq="N">51059</FIPs>
@@ -2204,8 +2440,6 @@
             <FIPs travelReq="N">51061</FIPs>
             <FIPs travelReq="N">51840</FIPs>
             <FIPs travelReq="N">51153</FIPs>
-            <FIPs travelReq="N">51683</FIPs>
-            <FIPs travelReq="N">51685</FIPs>
             <!-- All of CSU 9 -->
             <FIPs travelReq="N">51036</FIPs>
             <FIPs travelReq="N">51073</FIPs>
@@ -2257,29 +2491,144 @@
             <FIPs travelReq="Y">51065</FIPs>
             <FIPs travelReq="N">51087</FIPs>
             <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
             <FIPs travelReq="N">51019</FIPs>
             <FIPs travelReq="N">51530</FIPs>
-            <FIPs travelReq="N">51600</FIPs>
-            <FIPs travelReq="N">51069</FIPs>
+            <FIPs travelReq="N">51049</FIPs>
+            <FIPs travelReq="N">51041</FIPs>
+            <FIPs travelReq="Y">51181</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51550</FIPs>
+            <FIPs travelReq="N">51800</FIPs>
+            <FIPs travelReq="N">51093</FIPs>
+            <FIPs travelReq="N">51620</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51037</FIPs>
+            <FIPs travelReq="N">51117</FIPs>
+            <FIPs travelReq="N">51111</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="N">51029</FIPs>
+            <FIPs travelReq="N">51135</FIPs>
+            <FIPs travelReq="N">51147</FIPs>
+            <FIPs travelReq="N">51025</FIPs>
+            <FIPs travelReq="N">51595</FIPs>
+            <FIPs travelReq="N">51081</FIPs>
+            <FIPs travelReq="N">51183</FIPs>
+            <FIPs travelReq="N">51570</FIPs>
         </Service>
-        <Service serviceName="Individual/ Family Counseling" serviceZoom="0">
-            <FIPs travelReq="N">51069</FIPs>
-            <FIPs travelReq="N">51840</FIPs>
-            <FIPs travelReq="N">51043</FIPs>
-            <FIPs travelReq="N">51187</FIPs>
-            <FIPs travelReq="N">51171</FIPs>
-            <FIPs travelReq="N">51139</FIPs>
-            <FIPs travelReq="N">51061</FIPs>
-            <FIPs travelReq="N">51153</FIPs>
-            <FIPs travelReq="N">51683</FIPs>
-            <FIPs travelReq="N">51685</FIPs>
-            <FIPs travelReq="N">51600</FIPs>
-            <FIPs travelReq="N">51013</FIPs>
-            <FIPs travelReq="N">51510</FIPs>
-            <FIPs travelReq="N">51059</FIPs>
-            <FIPs travelReq="N">51610</FIPs>
-            <FIPs travelReq="N">51107</FIPs>
+        <Service serviceName="Psychological Evaluation" serviceZoom="-1">
+            <FIPs travelReq="N">51800</FIPs>
+            <FIPs travelReq="N">51550</FIPs>
+            <FIPs travelReq="N">51620</FIPs>
+            <FIPs travelReq="N">51093</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51117</FIPs>
+            <FIPs travelReq="N">51037</FIPs>
+            <FIPs travelReq="N">51111</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="N">51029</FIPs>
+            <FIPs travelReq="N">51049</FIPs>
+            <FIPs travelReq="N">51147</FIPs>
+            <FIPs travelReq="N">51135</FIPs>
+            <FIPs travelReq="N">51025</FIPs>
+            <FIPs travelReq="N">51081</FIPs>
+            <FIPs travelReq="N">51595</FIPs>
+            <FIPs travelReq="N">51183</FIPs>
+            <FIPs travelReq="N">51181</FIPs>
+            <FIPs travelReq="N">51570</FIPs>
+            <FIPs travelReq="N">51041</FIPs>
+            <FIPs travelReq="N">51760</FIPs>
+            <FIPs travelReq="N">51087</FIPs>
+        </Service>
+        <Service serviceName="Non-Clinical Group (e.g. MRT, ART)" serviceZoom="-1">
+            <FIPs travelReq="N">51620</FIPs>
+            <FIPs travelReq="N">51093</FIPs>
+            <FIPs travelReq="N">51800</FIPs>
+            <FIPs travelReq="N">51550</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="N">51117</FIPs>
+            <FIPs travelReq="N">51037</FIPs>
+            <FIPs travelReq="N">51111</FIPs>
+            <FIPs travelReq="N">51025</FIPs>
+            <FIPs travelReq="N">51081</FIPs>
+            <FIPs travelReq="N">51595</FIPs>
+            <FIPs travelReq="N">51183</FIPs>
+            <FIPs travelReq="N">51181</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="N">51029</FIPs>
+            <FIPs travelReq="N">51147</FIPs>
+            <FIPs travelReq="N">51049</FIPs>
+            <FIPs travelReq="N">51135</FIPs>
+            <FIPs travelReq="N">51570</FIPs>
+            <FIPs travelReq="N">51041</FIPs>
+            <FIPs travelReq="N">51760</FIPs>
+            <FIPs travelReq="N">51087</FIPs>
+        </Service>
+        <Service serviceName="Clinical Group" serviceZoom="-1">
+            <FIPs travelReq="N">51620</FIPs>
+            <FIPs travelReq="N">51800</FIPs>
+            <FIPs travelReq="N">51093</FIPs>
+            <FIPs travelReq="N">51550</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="N">51117</FIPs>
+            <FIPs travelReq="N">51111</FIPs>
+            <FIPs travelReq="N">51037</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="N">51029</FIPs>
+            <FIPs travelReq="N">51049</FIPs>
+            <FIPs travelReq="N">51147</FIPs>
+            <FIPs travelReq="N">51135</FIPs>
+            <FIPs travelReq="N">51025</FIPs>
+            <FIPs travelReq="N">51081</FIPs>
+            <FIPs travelReq="N">51595</FIPs>
+            <FIPs travelReq="N">51183</FIPs>
+            <FIPs travelReq="N">51181</FIPs>
+            <FIPs travelReq="N">51570</FIPs>
+            <FIPs travelReq="N">51041</FIPs>
+            <FIPs travelReq="N">51760</FIPs>
+            <FIPs travelReq="N">51087</FIPs>
+        </Service>
+        <Service serviceName="HFW Intensive Care Coordination" serviceZoom="-1">
+            <FIPs travelReq="N">51620</FIPs>
+            <FIPs travelReq="N">51093</FIPs>
+            <FIPs travelReq="N">51800</FIPs>
+            <FIPs travelReq="N">51550</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="N">51117</FIPs>
+            <FIPs travelReq="N">51037</FIPs>
+            <FIPs travelReq="N">51111</FIPs>
+            <FIPs travelReq="N">51147</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="N">51029</FIPs>
+            <FIPs travelReq="N">51049</FIPs>
+            <FIPs travelReq="N">51135</FIPs>
+            <FIPs travelReq="N">51025</FIPs>
+            <FIPs travelReq="N">51595</FIPs>
+            <FIPs travelReq="N">51081</FIPs>
+            <FIPs travelReq="N">51183</FIPs>
+            <FIPs travelReq="N">51181</FIPs>
+            <FIPs travelReq="N">51041</FIPs>
+            <FIPs travelReq="N">51760</FIPs>
+            <FIPs travelReq="N">51087</FIPs>
+            <FIPs travelReq="N">51570</FIPs>
         </Service>
     </Provider>
     <Provider id="27">
