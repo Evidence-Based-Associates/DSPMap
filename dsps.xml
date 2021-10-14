@@ -432,7 +432,7 @@
     </Provider>
     <Provider id="4">
         <Name>DePaul Community Resources</Name>
-        <LastUpdated>2021-08-25</LastUpdated>
+        <LastUpdated>2021-10-13</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.depaulcr.org/</Website>
         <ContactName>Jason Poston, LCSW, LSATP, CSAC, CSOTP, MAC</ContactName>
@@ -528,11 +528,8 @@
         </Service>
         <Service serviceZoom="-1" serviceName="Substance Abuse Service">
             <FIPs travelReq="N">51191</FIPs>
-            <FIPs travelReq="N">51167</FIPs>
-            <FIPs travelReq="N">51185</FIPs>
             <FIPs travelReq="N">51173</FIPs>
             <FIPs travelReq="N">51520</FIPs>
-            <FIPs travelReq="Y">51169</FIPs>
         </Service>
         <Service serviceZoom="-1" serviceName="Clinical Group">
             <FIPs travelReq="N">51167</FIPs>
@@ -632,6 +629,104 @@
             <FIPs travelReq="Y">51195</FIPs>
             <FIPs travelReq="Y">51720</FIPs>
             <FIPs travelReq="Y">51105</FIPs>
+        </Service>
+        <Service serviceZoom="-1" serviceName="Mental Health Evaluation">
+            <FIPs travelReq="N">51173</FIPs>
+            <FIPs travelReq="N">51191</FIPs>
+            <FIPs travelReq="N">51167</FIPs>
+            <FIPs travelReq="N">51185</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51520</FIPs>
+            <FIPs travelReq="N">51750</FIPs>
+            <FIPs travelReq="N">51155</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51003</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="Y">51019</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51540</FIPs>
+            <FIPs travelReq="Y">51197</FIPs>
+            <FIPs travelReq="Y">51021</FIPs>
+            <FIPs travelReq="N">51071</FIPs>
+            <FIPs travelReq="Y">51169</FIPs>
+            <FIPs travelReq="Y">51023</FIPs>
+            <FIPs travelReq="Y">51079</FIPs>
+            <FIPs travelReq="Y">51109</FIPs>
+            <FIPs travelReq="Y">51065</FIPs>
+            <FIPs travelReq="Y">51125</FIPs>
+            <FIPs travelReq="Y">51820</FIPs>
+            <FIPs travelReq="Y">51015</FIPs>
+        </Service>
+        <Service serviceZoom="-1" serviceName="Substance Abuse Evaluation">
+            <FIPs travelReq="N">51191</FIPs>
+            <FIPs travelReq="N">51167</FIPs>
+            <FIPs travelReq="N">51185</FIPs>
+            <FIPs travelReq="N">51173</FIPs>
+            <FIPs travelReq="N">51520</FIPs>
+            <FIPs travelReq="Y">51169</FIPs>
+        </Service>
+        <Service serviceZoom="-1" serviceName="Adolescent Community Reinforcement Approach (A-CRA)">
+            <FIPs travelReq="N">51191</FIPs>
+            <FIPs travelReq="N">51173</FIPs>
+            <FIPs travelReq="N">51520</FIPs>
+        </Service>
+        <Service serviceName="Crisis Intervention / Stabilization" serviceZoom="-1">
+            <FIPs travelReq="N">51520</FIPs>
+            <FIPs travelReq="N">51173</FIPs>
+            <FIPs travelReq="N">51191</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Intensive Outpatient (SAIOP)" serviceZoom="-1">
+            <FIPs travelReq="N">51520</FIPs>
+            <FIPs travelReq="N">51191</FIPs>
+            <FIPs travelReq="N">51173</FIPs>
+        </Service>
+        <Service serviceZoom="-1" serviceName="Specialized Individual Therapy (DBT/ EMDR)">
+            <FIPs travelReq="N">51173</FIPs>
+            <FIPs travelReq="N">51191</FIPs>
+            <FIPs travelReq="N">51167</FIPs>
+            <FIPs travelReq="N">51185</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="N">51071</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51520</FIPs>
+            <FIPs travelReq="N">51750</FIPs>
+            <FIPs travelReq="N">51155</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51003</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="Y">51019</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51540</FIPs>
+            <FIPs travelReq="Y">51169</FIPs>
+            <FIPs travelReq="Y">51195</FIPs>
+            <FIPs travelReq="Y">51720</FIPs>
+            <FIPs travelReq="Y">51105</FIPs>
+        </Service>
+        <Service serviceZoom="-1" serviceName="Skills Coaching (e.g. Casey Life Skills)">
+            <FIPs travelReq="N">51191</FIPs>
+            <FIPs travelReq="N">51173</FIPs>
+            <FIPs travelReq="N">51185</FIPs>
+            <FIPs travelReq="Y">51155</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51520</FIPs>
+            <FIPs travelReq="Y">51750</FIPs>
+            <FIPs travelReq="N">51540</FIPs>
+            <FIPs travelReq="N">51003</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="Y">51009</FIPs>
+            <FIPs travelReq="Y">51071</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51167</FIPs>
+        </Service>
+        <Service serviceName="Residential Independent Living" serviceZoom="-1">
+            <FIPs travelReq="N">51191</FIPs>
+            <FIPs travelReq="N">51540</FIPs>
         </Service>
     </Provider>
     <Provider id="23">
