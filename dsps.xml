@@ -9744,7 +9744,7 @@
     </Provider>
     <Provider id="112">
         <Name>Pathfinders Resources</Name>
-        <LastUpdated>2021-10-12</LastUpdated>
+        <LastUpdated>2021-10-13</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>pathfindersresources.com/</Website>
         <ContactName>Alvis Williams</ContactName>
@@ -9757,20 +9757,19 @@
             <State>VA</State>
             <Zip>24541</Zip>
             <Phone>(434) 533-5060</Phone>
-            <Fax/>
+            <Fax>(336) 860-1660</Fax>
         </Office>
         <Service serviceName="Skills Coaching (e.g. Casey Life Skills)" serviceZoom="2">
             <FIPs travelReq="N">51690</FIPs>
             <FIPs travelReq="N">51089</FIPs>
             <FIPs travelReq="N">51590</FIPs>
             <FIPs travelReq="N">51141</FIPs>
+            <FIPs travelReq="N">51143</FIPs>
             <FIPs travelReq="N">51067</FIPs>
             <FIPs travelReq="N">51770</FIPs>
             <FIPs travelReq="N">51775</FIPs>
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51031</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="Y" languages="Spanish">51083</FIPs>
         </Service>
         <Service serviceName="Language Services" serviceZoom="2">
             <FIPs travelReq="N" languages="Spanish">51690</FIPs>
@@ -9779,42 +9778,6 @@
             <FIPs travelReq="N" languages="Spanish">51141</FIPs>
             <FIPs travelReq="N" languages="Spanish">51143</FIPs>
             <FIPs travelReq="N" languages="Spanish">51067</FIPs>
-        </Service>
-        <Service serviceName="Job Readiness and Employment Service" serviceZoom="2">
-            <FIPs travelReq="N">51690</FIPs>
-            <FIPs travelReq="N">51089</FIPs>
-            <FIPs travelReq="N">51590</FIPs>
-            <FIPs travelReq="N">51141</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="N">51770</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-            <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="N">51031</FIPs>
-        </Service>
-        <Service serviceName="Non-Clinical Group (e.g. MRT, ART)" serviceZoom="2">
-            <FIPs travelReq="N">51690</FIPs>
-            <FIPs travelReq="N">51089</FIPs>
-            <FIPs travelReq="N">51590</FIPs>
-            <FIPs travelReq="N">51141</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="N">51770</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-            <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="N">51031</FIPs>
-        </Service>
-        <Service serviceName="Gang Intervention" serviceZoom="2">
-            <FIPs travelReq="N" languages="Spanish">51690</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51089</FIPs>
-            <FIPs travelReq="N">51590</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51141</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51143</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51067</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51770</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51775</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51161</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51031</FIPs>
         </Service>
     </Provider>
 </DSPs>
