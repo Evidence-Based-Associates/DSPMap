@@ -9726,12 +9726,12 @@
         </Service>
     </Provider>
     <Provider id="111">
-        <Name>Piedmont Community Services Board</Name>
-        <LastUpdated>2020-05-04</LastUpdated>
+        <Name>Piedmont Community Services</Name>
+        <LastUpdated>2021-10-13</LastUpdated>
         <MapZoom>2</MapZoom>
         <Website>piedmontcsb.wixsite.com/piedmontcommunitysvc</Website>
-        <ContactName>Marcie Altice</ContactName>
-        <ContactEmail>maltice@piedmontcsb.org</ContactEmail>
+        <ContactName>Ashley Raynor</ContactName>
+        <ContactEmail>araynor@piedmontcsb.org</ContactEmail>
         <Office>
             <Lat>37.0154819</Lat>
             <Lng>-79.89281210000001</Lng>
@@ -9739,7 +9739,7 @@
             <City>Rocky Mount</City>
             <State>VA</State>
             <Zip>24151</Zip>
-            <Phone>540-483-5044</Phone>
+            <Phone>540-483-0582</Phone>
             <Fax/>
         </Office>
         <Office>
@@ -9750,7 +9750,7 @@
             <State>VA</State>
             <Zip>24112</Zip>
             <Phone>276-632-7128</Phone>
-            <Fax/>
+            <Fax>276-638-5450</Fax>
         </Office>
         <Office>
             <Lat>36.6312989</Lat>
@@ -9763,12 +9763,6 @@
             <Fax/>
         </Office>
         <Service serviceName="Mental Health Evaluation" serviceZoom="2">
-            <FIPs travelReq="N">51089</FIPs>
-            <FIPs travelReq="N">51690</FIPs>
-            <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="N">51141</FIPs>
-        </Service>
-        <Service serviceName="Substance Abuse Service" serviceZoom="2">
             <FIPs travelReq="N">51089</FIPs>
             <FIPs travelReq="N">51690</FIPs>
             <FIPs travelReq="N">51067</FIPs>
@@ -9799,6 +9793,30 @@
             <FIPs travelReq="N">51141</FIPs>
         </Service>
         <Service serviceName="Substance Abuse Service" serviceZoom="2">
+            <FIPs travelReq="N">51089</FIPs>
+            <FIPs travelReq="N">51690</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51141</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Evaluation" serviceZoom="2">
+            <FIPs travelReq="N">51089</FIPs>
+            <FIPs travelReq="N">51690</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51141</FIPs>
+        </Service>
+        <Service serviceName="Crisis Intervention / Stabilization" serviceZoom="2">
+            <FIPs travelReq="N">51089</FIPs>
+            <FIPs travelReq="N">51690</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51141</FIPs>
+        </Service>
+        <Service serviceName="Specialized Individual Therapy (DBT/ EMDR)" serviceZoom="2">
+            <FIPs travelReq="N">51089</FIPs>
+            <FIPs travelReq="N">51690</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51141</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Intensive Outpatient (SAIOP)" serviceZoom="2">
             <FIPs travelReq="N">51089</FIPs>
             <FIPs travelReq="N">51690</FIPs>
             <FIPs travelReq="N">51067</FIPs>
