@@ -8249,7 +8249,7 @@
     </Provider>
     <Provider id="79">
         <Name>Harrisonburg-Rockingham Community Services Board (HRCSB)</Name>
-        <LastUpdated>2018-01-02</LastUpdated>
+        <LastUpdated>2021-12-27</LastUpdated>
         <MapZoom>51165</MapZoom>
         <Website>https://www.hrcsb.org</Website>
         <ContactName>John Wilson, LPC, LMFT</ContactName>
@@ -8275,6 +8275,26 @@
             <Fax/>
         </Office>
         <Service serviceName="HFW Intensive Care Coordination" serviceZoom="51165">
+            <FIPs travelReq="N">51165</FIPs>
+            <FIPs travelReq="N">51660</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Service" serviceZoom="51165">
+            <FIPs travelReq="N">51165</FIPs>
+            <FIPs travelReq="N">51660</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Evaluation" serviceZoom="51165">
+            <FIPs travelReq="N">51165</FIPs>
+            <FIPs travelReq="N">51660</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Intensive Outpatient (SAIOP)" serviceZoom="51165">
+            <FIPs travelReq="N" languages="Kurdish, Spanish">51165</FIPs>
+            <FIPs travelReq="N" languages="Kurdish, Spanish">51660</FIPs>
+        </Service>
+        <Service serviceName="Mental Health Evaluation" serviceZoom="51165">
+            <FIPs travelReq="N">51165</FIPs>
+            <FIPs travelReq="N">51660</FIPs>
+        </Service>
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="51165">
             <FIPs travelReq="N">51165</FIPs>
             <FIPs travelReq="N">51660</FIPs>
         </Service>
