@@ -1651,15 +1651,15 @@
     </Provider>
     <Provider id="21">
         <Name>Family Focus Inc.</Name>
-        <LastUpdated>2021-08-25</LastUpdated>
+        <LastUpdated>2021-12-27</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.familyfocusinc.com</Website>
         <ContactName>Natalie Proffitt</ContactName>
         <ContactEmail>nproffitt@familyfocusinc.com</ContactEmail>
         <Office>
-            <Lat>37.623</Lat>
-            <Lng>-77.531</Lng>
-            <Street>2727 Enterprise Parkway; Suite 202</Street>
+            <Lat>37.6261301</Lat>
+            <Lng>-77.5484178</Lng>
+            <Street>2807 N. Parham Rd Suite 300 (New Address as of 1/1/2022)</Street>
             <City>Henrico</City>
             <State>VA</State>
             <Zip>23294</Zip>
@@ -1748,45 +1748,6 @@
             <FIPs travelReq="Y">51036</FIPs>
         </Service>
         <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="-1">
-            <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="N">51730</FIPs>
-            <FIPs travelReq="N">51570</FIPs>
-            <FIPs travelReq="N">51127</FIPs>
-        </Service>
-        <Service serviceName="Functional Family Therapy (FFT)" serviceZoom="1">
-            <FIPs travelReq="Y">51085</FIPs>
-            <FIPs travelReq="N">51127</FIPs>
-            <FIPs travelReq="N">51036</FIPs>
-            <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
-            <FIPs travelReq="N">51145</FIPs>
-            <FIPs travelReq="N">51670</FIPs>
-            <FIPs travelReq="N">51149</FIPs>
-            <FIPs travelReq="N">51570</FIPs>
-            <FIPs travelReq="N">51730</FIPs>
-            <FIPs travelReq="N">51049</FIPs>
-            <FIPs travelReq="N">51029</FIPs>
-            <FIPs travelReq="N">51011</FIPs>
-            <FIPs travelReq="N">51147</FIPs>
-            <FIPs travelReq="N">51037</FIPs>
-            <FIPs travelReq="N">51083</FIPs>
-            <FIPs travelReq="N">51117</FIPs>
-            <FIPs travelReq="N">51111</FIPs>
-            <FIPs travelReq="N">51135</FIPs>
-            <FIPs travelReq="N">51007</FIPs>
-            <FIPs travelReq="N">51053</FIPs>
-            <FIPs travelReq="N">51183</FIPs>
-            <FIPs travelReq="N">51181</FIPs>
-            <FIPs travelReq="N">51025</FIPs>
-            <FIPs travelReq="N">51595</FIPs>
-            <FIPs travelReq="N">51081</FIPs>
-            <FIPs travelReq="Y">51075</FIPs>
-        </Service>
-        <Service serviceName="Psychological Evaluation" serviceZoom="-1">
             <FIPs travelReq="N">51760</FIPs>
             <FIPs travelReq="N">51087</FIPs>
             <FIPs travelReq="N">51041</FIPs>
