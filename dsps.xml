@@ -7856,7 +7856,7 @@
     </Provider>
     <Provider id="69">
         <Name>Life Push, LLC</Name>
-        <LastUpdated>2021-08-10</LastUpdated>
+        <LastUpdated>2022-03-09</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.lifepushllc.com</Website>
         <ContactName>Nicholas Sturdifen</ContactName>
@@ -7864,7 +7864,7 @@
         <Office>
             <Lat>36.5867166</Lat>
             <Lng>-79.38939599999998</Lng>
-            <Street>308 Craghead St., Suite 102</Street>
+            <Street>308 Craghead St., Suite 102B</Street>
             <City>Danville</City>
             <State>VA</State>
             <Zip>24541</Zip>
@@ -7882,60 +7882,31 @@
             <Fax>434-857-4220</Fax>
         </Office>
         <Service serviceZoom="-1" serviceName="Skills Coaching (e.g. Casey Life Skills)">
-            <FIPs travelReq="N">51590</FIPs>
-            <FIPs travelReq="N">51690</FIPs>
-            <FIPs travelReq="N">51083</FIPs>
-            <FIPs travelReq="N">51089</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51590</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51690</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51083</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51089</FIPs>
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51770</FIPs>
             <FIPs travelReq="N">51775</FIPs>
             <FIPs travelReq="N" languages="Spanish">51019</FIPs>
             <FIPs travelReq="N" languages="Spanish">51680</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51009</FIPs>
             <FIPs travelReq="N" languages="Spanish">51031</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51143</FIPs>
             <FIPs travelReq="N" languages="Spanish">51011</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51125</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51530</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51163</FIPs>
             <FIPs travelReq="N">51023</FIPs>
-            <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="Y">51141</FIPs>
-            <FIPs travelReq="Y">51121</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51067</FIPs>
             <FIPs travelReq="Y">51063</FIPs>
-            <FIPs travelReq="Y">51045</FIPs>
-            <FIPs travelReq="Y">51580</FIPs>
-            <FIPs travelReq="Y">51005</FIPs>
-            <FIPs travelReq="Y">51017</FIPs>
-            <FIPs travelReq="Y">51091</FIPs>
-            <FIPs travelReq="Y">51750</FIPs>
-            <FIPs travelReq="Y">51155</FIPs>
-            <FIPs travelReq="Y">51035</FIPs>
-            <FIPs travelReq="Y">51640</FIPs>
-            <FIPs travelReq="Y">51197</FIPs>
-            <FIPs travelReq="Y">51071</FIPs>
-            <FIPs travelReq="N">51015</FIPs>
-            <FIPs travelReq="N">51790</FIPs>
-            <FIPs travelReq="N">51820</FIPs>
             <FIPs travelReq="N">51029</FIPs>
             <FIPs travelReq="N">51049</FIPs>
             <FIPs travelReq="N">51147</FIPs>
-            <FIPs travelReq="N">51037</FIPs>
-            <FIPs travelReq="N">51111</FIPs>
-            <FIPs travelReq="N">51117</FIPs>
-            <FIPs travelReq="N">51025</FIPs>
-            <FIPs travelReq="N">51053</FIPs>
-            <FIPs travelReq="N">51135</FIPs>
-            <FIPs travelReq="N">51007</FIPs>
-            <FIPs travelReq="N">51145</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
-            <FIPs travelReq="N">51670</FIPs>
-            <FIPs travelReq="N">51149</FIPs>
-            <FIPs travelReq="N">51570</FIPs>
-            <FIPs travelReq="N">51730</FIPs>
-            <FIPs travelReq="N">51183</FIPs>
-            <FIPs travelReq="N">51081</FIPs>
-            <FIPs travelReq="N">51595</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51037</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51111</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51117</FIPs>
+            <FIPs travelReq="Y">51141</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51025</FIPs>
+            <FIPs travelReq="Y">51595</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51081</FIPs>
         </Service>
         <Service serviceZoom="-1" serviceName="Family Partnership Meeting">
             <FIPs travelReq="N">51590</FIPs>
@@ -7985,94 +7956,45 @@
             <FIPs travelReq="N">51037</FIPs>
         </Service>
         <Service serviceName="HFW Intensive Care Coordination" serviceZoom="1">
-            <FIPs travelReq="N">51015</FIPs>
-            <FIPs travelReq="N">51790</FIPs>
-            <FIPs travelReq="N">51820</FIPs>
-            <FIPs travelReq="N">51125</FIPs>
-            <FIPs travelReq="N">51530</FIPs>
-            <FIPs travelReq="N">51009</FIPs>
             <FIPs travelReq="N">51678</FIPs>
-            <FIPs travelReq="N">51163</FIPs>
             <FIPs travelReq="N">51019</FIPs>
-            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51031</FIPs>
             <FIPs travelReq="N">51680</FIPs>
-            <FIPs travelReq="N">51023</FIPs>
-            <FIPs travelReq="N">51011</FIPs>
-            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51067</FIPs>
             <FIPs travelReq="N">51770</FIPs>
             <FIPs travelReq="N">51775</FIPs>
-            <FIPs travelReq="N">51590</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="N">51141</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51590</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51143</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51141</FIPs>
             <FIPs travelReq="N">51089</FIPs>
-            <FIPs travelReq="N">51063</FIPs>
+            <FIPs travelReq="N" languages="">51063</FIPs>
             <FIPs travelReq="N">51121</FIPs>
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51690</FIPs>
         </Service>
-        <Service serviceName="Functional Family Therapy (FFT)" serviceZoom="-1">
-            <FIPs travelReq="N">51143</FIPs>
+        <Service serviceZoom="-1" serviceName="Functional Family Therapy (FFT)">
             <FIPs travelReq="N">51590</FIPs>
-            <FIPs travelReq="N">51089</FIPs>
             <FIPs travelReq="N">51690</FIPs>
-            <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="N">51141</FIPs>
-            <FIPs travelReq="N">51019</FIPs>
-            <FIPs travelReq="N">51031</FIPs>
-            <FIPs travelReq="N">51680</FIPs>
-            <FIPs travelReq="N">51009</FIPs>
-            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="N">51083</FIPs>
+            <FIPs travelReq="N">51089</FIPs>
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51770</FIPs>
             <FIPs travelReq="N">51775</FIPs>
-            <FIPs travelReq="N">51125</FIPs>
-            <FIPs travelReq="N">51015</FIPs>
-            <FIPs travelReq="N">51790</FIPs>
-            <FIPs travelReq="N">51083</FIPs>
-            <FIPs travelReq="N">51011</FIPs>
-            <FIPs travelReq="N">51117</FIPs>
-            <FIPs travelReq="N">51111</FIPs>
-            <FIPs travelReq="N">51025</FIPs>
-            <FIPs travelReq="N">51820</FIPs>
-            <FIPs travelReq="N">51530</FIPs>
-            <FIPs travelReq="N">51163</FIPs>
-            <FIPs travelReq="Y">51035</FIPs>
-            <FIPs travelReq="N">51063</FIPs>
-            <FIPs travelReq="N">51121</FIPs>
-            <FIPs travelReq="N">51750</FIPs>
-            <FIPs travelReq="N">51155</FIPs>
-            <FIPs travelReq="N">51071</FIPs>
-            <FIPs travelReq="Y">51640</FIPs>
-            <FIPs travelReq="N">51091</FIPs>
-            <FIPs travelReq="N">51017</FIPs>
-            <FIPs travelReq="N">51045</FIPs>
-            <FIPs travelReq="N">51580</FIPs>
-            <FIPs travelReq="N">51005</FIPs>
-            <FIPs travelReq="N">51660</FIPs>
-            <FIPs travelReq="N">51171</FIPs>
-            <FIPs travelReq="N">51139</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51019</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51680</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51031</FIPs>
+            <FIPs travelReq="N">51143</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51011</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="Y">51063</FIPs>
             <FIPs travelReq="N">51029</FIPs>
             <FIPs travelReq="N">51049</FIPs>
-            <FIPs travelReq="N">51145</FIPs>
-            <FIPs travelReq="N">51037</FIPs>
             <FIPs travelReq="N">51147</FIPs>
-            <FIPs travelReq="N">51053</FIPs>
-            <FIPs travelReq="N">51135</FIPs>
-            <FIPs travelReq="N">51007</FIPs>
-            <FIPs travelReq="N">51149</FIPs>
-            <FIPs travelReq="N">51183</FIPs>
-            <FIPs travelReq="N">51181</FIPs>
-            <FIPs travelReq="N">51595</FIPs>
-            <FIPs travelReq="N">51081</FIPs>
-            <FIPs travelReq="N">51730</FIPs>
-            <FIPs travelReq="N">51670</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
-            <FIPs travelReq="N">51570</FIPs>
-            <FIPs travelReq="N">51165</FIPs>
-            <FIPs travelReq="Y">51079</FIPs>
-            <FIPs travelReq="N">51678</FIPs>
-            <FIPs travelReq="N">51003</FIPs>
-            <FIPs travelReq="N">51540</FIPs>
+            <FIPs travelReq="N">51037</FIPs>
+            <FIPs travelReq="N">51111</FIPs>
+            <FIPs travelReq="N">51117</FIPs>
+            <FIPs travelReq="Y">51141</FIPs>
         </Service>
     </Provider>
     <Provider id="28">
