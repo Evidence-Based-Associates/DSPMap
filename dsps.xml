@@ -4983,7 +4983,7 @@
     </Provider>
     <Provider id="45">
         <Name>Family Preservation Services</Name>
-        <LastUpdated>2021-12-22</LastUpdated>
+        <LastUpdated>2022-02-23</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.fpscorp.com</Website>
         <ContactName>Tami King</ContactName>
@@ -5532,6 +5532,15 @@
             <FIPs travelReq="N">51071</FIPs>
             <FIPs travelReq="N">51750</FIPs>
             <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="Y">51031</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="Y">51011</FIPs>
+            <FIPs travelReq="Y">51067</FIPs>
+            <FIPs travelReq="Y">51161</FIPs>
+            <FIPs travelReq="Y">51770</FIPs>
+            <FIPs travelReq="Y">51775</FIPs>
         </Service>
         <Service serviceName="HFW Intensive Care Coordination" serviceZoom="2">
             <FIPs travelReq="N">51185</FIPs>
@@ -5567,6 +5576,15 @@
             <FIPs travelReq="N">51071</FIPs>
             <FIPs travelReq="N">51750</FIPs>
             <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="Y">51770</FIPs>
+            <FIPs travelReq="Y">51775</FIPs>
+            <FIPs travelReq="Y">51161</FIPs>
+            <FIPs travelReq="Y">51067</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="Y">51011</FIPs>
         </Service>
         <Service serviceName="Specialized Individual Therapy (DBT/ EMDR)" serviceZoom="-1">
             <FIPs travelReq="N">51710</FIPs>
@@ -5663,6 +5681,38 @@
             <FIPs travelReq="Y">51027</FIPs>
             <FIPs travelReq="N">51167</FIPs>
             <FIPs travelReq="N">51169</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Intensive Outpatient (SAIOP)" serviceZoom="2">
+            <FIPs travelReq="N">51195</FIPs>
+            <FIPs travelReq="N">51051</FIPs>
+            <FIPs travelReq="N">51027</FIPs>
+            <FIPs travelReq="N">51167</FIPs>
+            <FIPs travelReq="N">51720</FIPs>
+            <FIPs travelReq="N">51169</FIPs>
+            <FIPs travelReq="N">51105</FIPs>
+            <FIPs travelReq="N">51191</FIPs>
+            <FIPs travelReq="N">51520</FIPs>
+            <FIPs travelReq="N">51077</FIPs>
+            <FIPs travelReq="N">51173</FIPs>
+            <FIPs travelReq="N">51185</FIPs>
+            <FIPs travelReq="N">51021</FIPs>
+            <FIPs travelReq="N">51197</FIPs>
+            <FIPs travelReq="N">51035</FIPs>
+            <FIPs travelReq="N">51640</FIPs>
+            <FIPs travelReq="N">51063</FIPs>
+            <FIPs travelReq="N">51155</FIPs>
+            <FIPs travelReq="N">51071</FIPs>
+            <FIPs travelReq="N">51750</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="Y">51770</FIPs>
+            <FIPs travelReq="Y">51775</FIPs>
+            <FIPs travelReq="Y">51161</FIPs>
+            <FIPs travelReq="Y">51067</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="Y">51011</FIPs>
         </Service>
     </Provider>
     <Provider id="49">
