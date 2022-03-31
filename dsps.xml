@@ -7439,7 +7439,7 @@
     </Provider>
     <Provider id="44">
         <Name>Spectrum Health Solutions, LLC</Name>
-        <LastUpdated>2021-02-22</LastUpdated>
+        <LastUpdated>2022-03-30</LastUpdated>
         <MapZoom>1</MapZoom>
         <Website/>
         <ContactName>Stephen House</ContactName>
@@ -7455,6 +7455,30 @@
             <Fax/>
         </Office>
         <Service serviceName="Skills Coaching (e.g. Casey Life Skills)" serviceZoom="1">
+            <FIPs travelReq="N">51127</FIPs>
+            <FIPs travelReq="N">51036</FIPs>
+            <FIPs travelReq="N">51830</FIPs>
+            <FIPs travelReq="N">51095</FIPs>
+            <FIPs travelReq="N">51199</FIPs>
+            <FIPs travelReq="N">51735</FIPs>
+            <FIPs travelReq="N">51073</FIPs>
+            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="Y">51097</FIPs>
+            <FIPs travelReq="Y">51085</FIPs>
+        </Service>
+        <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="1">
+            <FIPs travelReq="N">51127</FIPs>
+            <FIPs travelReq="N">51036</FIPs>
+            <FIPs travelReq="N">51830</FIPs>
+            <FIPs travelReq="N">51095</FIPs>
+            <FIPs travelReq="N">51199</FIPs>
+            <FIPs travelReq="N">51735</FIPs>
+            <FIPs travelReq="N">51073</FIPs>
+            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="Y">51097</FIPs>
+            <FIPs travelReq="Y">51085</FIPs>
+        </Service>
+        <Service serviceName="Non-Clinical Group (e.g. MRT, ART)" serviceZoom="1">
             <FIPs travelReq="N">51127</FIPs>
             <FIPs travelReq="N">51036</FIPs>
             <FIPs travelReq="N">51830</FIPs>
