@@ -8081,33 +8081,6 @@
             <FIPs travelReq="N">51181</FIPs>
         </Service>
     </Provider>
-    <Provider id="74">
-        <Name>North Spring Behavioral Healthcare, Inc.</Name>
-        <LastUpdated>2021-08-25</LastUpdated>
-        <MapZoom>-1</MapZoom>
-        <Website>www.northspringleesburg.com</Website>
-        <ContactName>Olivia Corbin, MHSc</ContactName>
-        <ContactEmail>Olivia.Corbin@uhsinc.com</ContactEmail>
-        <Office>
-            <Lat>39.1458809</Lat>
-            <Lng>-77.54652379999999</Lng>
-            <Street>42009 Victory Lane</Street>
-            <City>Leesburg</City>
-            <State>VA</State>
-            <Zip>20176</Zip>
-            <Phone>(703) 777-0800 ext 1005</Phone>
-            <Fax/>
-        </Office>
-        <Service serviceName="Substance Abuse Service" serviceZoom="-1">
-            <Locations/>
-            <FIPs travelReq="N">51107</FIPs>
-            <FIPs travelReq="Y">51059</FIPs>
-        </Service>
-        <Service serviceName="Residential Treatment Center" serviceZoom="-1">
-            <FIPs travelReq="Y">51107</FIPs>
-            <FIPs travelReq="N">51061</FIPs>
-        </Service>
-    </Provider>
     <Provider id="77">
         <Name>Colonial Behavioral Health</Name>
         <LastUpdated>2021-10-14</LastUpdated>
