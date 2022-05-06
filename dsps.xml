@@ -6567,7 +6567,7 @@
     </Provider>
     <Provider id="14">
         <Name>Three Rivers Treatment Center</Name>
-        <LastUpdated>2021-03-18</LastUpdated>
+        <LastUpdated>2022-05-02</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>3rtc.com/</Website>
         <ContactName>Admissions Department</ContactName>
@@ -6582,7 +6582,7 @@
             <Phone>(434) 676-1378</Phone>
             <Fax/>
         </Office>
-        <Service serviceName="Residential Group Home" serviceZoom="-1">
+        <Service serviceName="Residential Treatment Center" serviceZoom="-1">
             <FIPs travelReq="N">51111</FIPs>
         </Service>
     </Provider>
