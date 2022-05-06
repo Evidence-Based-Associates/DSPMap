@@ -6155,7 +6155,7 @@
     </Provider>
     <Provider id="56">
         <Name>Virginia Home for Boys and Girls</Name>
-        <LastUpdated>2021-08-26</LastUpdated>
+        <LastUpdated>2022-05-02</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.vhbg.org</Website>
         <ContactName>Christopher Campbell</ContactName>
@@ -6172,16 +6172,6 @@
         </Office>
         <Service serviceName="Residential Group Home" serviceZoom="-1">
             <FIPs travelReq="N">51087</FIPs>
-        </Service>
-        <Service serviceZoom="-1" serviceName="Individual/ Family Counseling">
-            <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
-            <FIPs travelReq="N">51145</FIPs>
-            <FIPs travelReq="N">51075</FIPs>
-            <FIPs travelReq="N">51570</FIPs>
-            <FIPs travelReq="N">51730</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
         </Service>
         <Service serviceName="Residential Independent Living" serviceZoom="-1">
             <FIPs travelReq="N">51087</FIPs>
