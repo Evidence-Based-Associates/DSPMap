@@ -9343,30 +9343,6 @@
             <FIPs travelReq="N">51047</FIPs>
         </Service>
     </Provider>
-    <Provider id="98">
-        <Name>Family Foundations Counseling Center</Name>
-        <LastUpdated>2018-10-24</LastUpdated>
-        <MapZoom>51067</MapZoom>
-        <Website/>
-        <ContactName>Terri Crews</ContactName>
-        <ContactEmail>tcrews1953@gmail.com</ContactEmail>
-        <Office>
-            <Lat>36.9957181</Lat>
-            <Lng>-79.88896299999999</Lng>
-            <Street>5 East Court St.,</Street>
-            <City>Rocky Mount</City>
-            <State>VA</State>
-            <Zip>24151</Zip>
-            <Phone>540-603-6123</Phone>
-            <Fax/>
-        </Office>
-        <Service serviceName="Individual/ Family Counseling" serviceZoom="51620">
-            <FIPs travelReq="N">51067</FIPs>
-        </Service>
-        <Service serviceName="Substance Abuse Service" serviceZoom="51620">
-            <FIPs travelReq="N">51067</FIPs>
-        </Service>
-    </Provider>
     <Provider id="101">
         <Name>Shining Diamonds </Name>
         <LastUpdated>2021-09-29</LastUpdated>
