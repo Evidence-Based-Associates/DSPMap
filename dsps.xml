@@ -8807,54 +8807,6 @@
             <FIPs travelReq="N">51630</FIPs>
         </Service>
     </Provider>
-    <Provider id="82">
-        <Name>Healing Waters Counseling Centers</Name>
-        <LastUpdated>2018-05-03</LastUpdated>
-        <MapZoom>2</MapZoom>
-        <Website>healingwaterscc.com</Website>
-        <ContactName>Brad Kinder</ContactName>
-        <ContactEmail>bkinder@healingwaterscc.com</ContactEmail>
-        <Office>
-            <Lat>37.0881058</Lat>
-            <Lng>-81.76423940000001</Lng>
-            <Street>1113 Cedar Valley Drive</Street>
-            <City>Cedar Bluff</City>
-            <State>VA</State>
-            <Zip>24609</Zip>
-            <Phone>(276) 963-0111</Phone>
-            <Fax/>
-        </Office>
-        <Office>
-            <Lat>36.9005695</Lat>
-            <Lng>-82.07712170000002</Lng>
-            <Street>39 S. Flanagan Avenue</Street>
-            <City>Lebanon</City>
-            <State>VA</State>
-            <Zip>24266</Zip>
-            <Phone>(276) 963-0111</Phone>
-            <Fax/>
-        </Office>
-        <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="2">
-            <FIPs travelReq="N">51167</FIPs>
-            <FIPs travelReq="N">51185</FIPs>
-        </Service>
-        <Service serviceName="Individual/ Family Counseling" serviceZoom="2">
-            <FIPs travelReq="N">51167</FIPs>
-            <FIPs travelReq="N">51185</FIPs>
-        </Service>
-        <Service serviceName="Substance Abuse Service" serviceZoom="2">
-            <FIPs travelReq="N">51167</FIPs>
-            <FIPs travelReq="N">51185</FIPs>
-        </Service>
-        <Service serviceName="Psychological Evaluation" serviceZoom="2">
-            <FIPs travelReq="N">51167</FIPs>
-            <FIPs travelReq="N">51185</FIPs>
-        </Service>
-        <Service serviceName="Substance Abuse Service" serviceZoom="2">
-            <FIPs travelReq="N">51167</FIPs>
-            <FIPs travelReq="N">51185</FIPs>
-        </Service>
-    </Provider>
     <Provider id="85">
         <Name>Rice Counseling and Associates, Inc. </Name>
         <LastUpdated>2018-05-09</LastUpdated>
