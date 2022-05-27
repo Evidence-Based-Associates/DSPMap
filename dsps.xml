@@ -8158,67 +8158,6 @@
             <FIPs travelReq="N">51095</FIPs>
         </Service>
     </Provider>
-    <Provider id="76">
-        <Name>The Center for Clinical and Forensic Services, Inc.</Name>
-        <LastUpdated>2020-10-28</LastUpdated>
-        <MapZoom>-1</MapZoom>
-        <Website>https://www.ccfsinc.net</Website>
-        <ContactName>Shannon Morris</ContactName>
-        <ContactEmail>shannonmorris@ccfsinc.net</ContactEmail>
-        <Office>
-            <Lat>38.8427163</Lat>
-            <Lng>-77.3097816</Lng>
-            <Street>10505 Judicial Drive Suite 100</Street>
-            <City>Fairfax</City>
-            <State>VA</State>
-            <Zip>22030</Zip>
-            <Phone>703-278-0457 </Phone>
-            <Fax>703-385-1053</Fax>
-        </Office>
-        <Office>
-            <Lat>38.76583</Lat>
-            <Lng>-77.4799491</Lng>
-            <Street>8809 Sudley Rd. Suite 205</Street>
-            <City>Manassas</City>
-            <State>VA</State>
-            <Zip>20110</Zip>
-            <Phone/>
-            <Fax/>
-        </Office>
-        <Service serviceName="Youth with Sexualized Behaviors (YSB) Treatment" serviceZoom="-1">
-            <FIPs travelReq="N" languages="Spanish">51683</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51153</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51685</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51059</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51600</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51510</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51013</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51610</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51107</FIPs>
-        </Service>
-        <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="-1">
-            <FIPs travelReq="N">51683</FIPs>
-            <FIPs travelReq="N">51153</FIPs>
-            <FIPs travelReq="N">51685</FIPs>
-            <FIPs travelReq="N">51059</FIPs>
-            <FIPs travelReq="N">51600</FIPs>
-            <FIPs travelReq="N">51510</FIPs>
-            <FIPs travelReq="N">51013</FIPs>
-            <FIPs travelReq="N">51610</FIPs>
-            <FIPs travelReq="N">51107</FIPs>
-        </Service>
-        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
-            <FIPs travelReq="N">51683</FIPs>
-            <FIPs travelReq="N">51153</FIPs>
-            <FIPs travelReq="N">51685</FIPs>
-            <FIPs travelReq="N">51059</FIPs>
-            <FIPs travelReq="N">51600</FIPs>
-            <FIPs travelReq="N">51510</FIPs>
-            <FIPs travelReq="N">51013</FIPs>
-            <FIPs travelReq="N">51610</FIPs>
-            <FIPs travelReq="N">51107</FIPs>
-        </Service>
-    </Provider>
     <Provider id="79">
         <Name>Harrisonburg-Rockingham Community Services Board (HRCSB)</Name>
         <LastUpdated>2021-12-27</LastUpdated>
