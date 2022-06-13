@@ -6179,7 +6179,7 @@
     </Provider>
     <Provider id="57">
         <Name>Youth Advocate Programs, Inc.</Name>
-        <LastUpdated>2021-08-26</LastUpdated>
+        <LastUpdated>2022-06-08</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.yapinc.org</Website>
         <ContactName>Valerie Koeppel</ContactName>
@@ -6205,8 +6205,8 @@
             <Fax>276-226-9368</Fax>
         </Office>
         <Office>
-            <Lat/>
-            <Lng/>
+            <Lat>37.1421894</Lat>
+            <Lng>-80.4050645</Lng>
             <Street>930 Cambria St NE</Street>
             <City>Christiansburg</City>
             <State>VA</State>
@@ -6288,6 +6288,17 @@
             <FIPs travelReq="N">51035</FIPs>
             <FIPs travelReq="N">51640</FIPs>
             <FIPs travelReq="Y">51023</FIPs>
+        </Service>
+        <Service serviceName="HFW Intensive Care Coordination" serviceZoom="2">
+            <FIPs travelReq="N" languages="Spanish">51770</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51161</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51775</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51121</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51750</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51155</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51063</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51067</FIPs>
+            <FIPs travelReq="N">51197</FIPs>
         </Service>
     </Provider>
     <Provider id="58">
