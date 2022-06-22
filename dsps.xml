@@ -7026,7 +7026,7 @@
     </Provider>
     <Provider id="15">
         <Name>The Choice Group</Name>
-        <LastUpdated>2021-08-05</LastUpdated>
+        <LastUpdated>2022-06-13</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.thechoicegroup.com</Website>
         <ContactName>Karen Melville</ContactName>
@@ -7047,14 +7047,14 @@
             <FIPs travelReq="N" languages="Spanish, Farsi">51510</FIPs>
             <FIPs travelReq="N" languages="Farsi, Spanish, ">51059</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51600</FIPs>
-            <FIPs travelReq="N" languages="Sign Language, Farsi, Spanish, ">51061</FIPs>
-            <FIPs travelReq="N" languages="Sign Language, Farsi, Spanish, ">51157</FIPs>
-            <FIPs travelReq="N" languages="Sign Language, Farsi, Spanish, ">51043</FIPs>
-            <FIPs travelReq="N" languages="Sign Language">51069</FIPs>
+            <FIPs travelReq="N" languages="Spanish, Farsi">51061</FIPs>
+            <FIPs travelReq="N" languages="Spanish, Farsi">51157</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51043</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51069</FIPs>
             <FIPs travelReq="N" languages="Sign Language">51660</FIPs>
-            <FIPs travelReq="N" languages="Sign Language">51139</FIPs>
-            <FIPs travelReq="N" languages="Sign Language, Farsi, Spanish, ">51187</FIPs>
-            <FIPs travelReq="N" languages="Sign Language">51840</FIPs>
+            <FIPs travelReq="N" languages="Spanish, Farsi">51139</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51187</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51840</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51683</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51153</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51685</FIPs>
@@ -7066,7 +7066,7 @@
             <FIPs travelReq="N">51199</FIPs>
             <FIPs travelReq="N">51033</FIPs>
             <FIPs travelReq="N">51630</FIPs>
-            <FIPs travelReq="N" languages="Spanish, Farsi">51085</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51085</FIPs>
             <FIPs travelReq="N">51159</FIPs>
             <FIPs travelReq="N">51177</FIPs>
             <FIPs travelReq="N">51179</FIPs>
@@ -7075,7 +7075,7 @@
             <FIPs travelReq="N">51540</FIPs>
             <FIPs travelReq="N">51047</FIPs>
             <FIPs travelReq="N">51065</FIPs>
-            <FIPs travelReq="N">51075</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51075</FIPs>
             <FIPs travelReq="N">51079</FIPs>
             <FIPs travelReq="N">51109</FIPs>
             <FIPs travelReq="N">51113</FIPs>
@@ -7088,15 +7088,15 @@
             <FIPs travelReq="N">51790</FIPs>
             <FIPs travelReq="N">51820</FIPs>
             <FIPs travelReq="N">51595</FIPs>
-            <FIPs travelReq="N">51670</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51670</FIPs>
             <FIPs travelReq="N">51081</FIPs>
             <FIPs travelReq="N">51053</FIPs>
             <FIPs travelReq="N">51730</FIPs>
             <FIPs travelReq="N">51145</FIPs>
-            <FIPs travelReq="N" languages="Spanish, Farsi">51041</FIPs>
-            <FIPs travelReq="N">51570</FIPs>
-            <FIPs travelReq="N" languages="Spanish, Farsi">51760</FIPs>
-            <FIPs travelReq="N" languages="Spanish, Farsi">51087</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51041</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51570</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51760</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51087</FIPs>
             <FIPs travelReq="N">51550</FIPs>
             <FIPs travelReq="N">51001</FIPs>
             <FIPs travelReq="N">51131</FIPs>
@@ -7115,7 +7115,7 @@
             <FIPs travelReq="N">51089</FIPs>
             <FIPs travelReq="N">51590</FIPs>
             <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="N">51015</FIPs>
+            <FIPs travelReq="N" languages="">51015</FIPs>
             <FIPs travelReq="N">51017</FIPs>
             <FIPs travelReq="N">51005</FIPs>
             <FIPs travelReq="N">51580</FIPs>
@@ -7134,7 +7134,7 @@
             <FIPs travelReq="N">51083</FIPs>
             <FIPs travelReq="N">51037</FIPs>
             <FIPs travelReq="N">51183</FIPs>
-            <FIPs travelReq="N">51149</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51149</FIPs>
             <FIPs travelReq="N">51181</FIPs>
             <FIPs travelReq="N">51036</FIPs>
             <FIPs travelReq="N">51101</FIPs>
@@ -7146,7 +7146,7 @@
             <FIPs travelReq="N">51115</FIPs>
             <FIPs travelReq="N">51019</FIPs>
             <FIPs travelReq="N">51031</FIPs>
-            <FIPs travelReq="N" languages="Sign Language">51171</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51171</FIPs>
             <FIPs travelReq="N" languages="Sign Language">51165</FIPs>
             <FIPs travelReq="N">51099</FIPs>
             <FIPs travelReq="N" languages="Farsi, Spanish, ">51107</FIPs>
