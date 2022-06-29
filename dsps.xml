@@ -3762,7 +3762,7 @@
     </Provider>
     <Provider id="39">
         <Name>National Counseling Group</Name>
-        <LastUpdated>2021-08-25</LastUpdated>
+        <LastUpdated>2022-06-24</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>ncgcommunity.com</Website>
         <ContactName>Call center</ContactName>
@@ -4504,7 +4504,6 @@
             <FIPs travelReq="N">51153</FIPs>
             <FIPs travelReq="N">51683</FIPs>
             <FIPs travelReq="N">51061</FIPs>
-            <FIPs travelReq="Y">51630</FIPs>
             <FIPs travelReq="Y">51043</FIPs>
             <FIPs travelReq="N">51109</FIPs>
             <FIPs travelReq="N">51065</FIPs>
@@ -4513,8 +4512,6 @@
             <FIPs travelReq="N">51079</FIPs>
             <FIPs travelReq="N">51137</FIPs>
             <FIPs travelReq="N">51113</FIPs>
-            <FIPs travelReq="Y">51047</FIPs>
-            <FIPs travelReq="Y">51177</FIPs>
             <FIPs travelReq="Y">51075</FIPs>
             <FIPs travelReq="Y">51125</FIPs>
             <FIPs travelReq="N">51790</FIPs>
@@ -4543,7 +4540,6 @@
             <FIPs travelReq="N">51197</FIPs>
             <FIPs travelReq="Y">51035</FIPs>
             <FIPs travelReq="N">51640</FIPs>
-            <FIPs travelReq="Y">51179</FIPs>
             <FIPs travelReq="N">51165</FIPs>
             <FIPs travelReq="N">51660</FIPs>
             <FIPs travelReq="Y">51139</FIPs>
@@ -4551,6 +4547,18 @@
             <FIPs travelReq="Y">51171</FIPs>
             <FIPs travelReq="Y">51157</FIPs>
             <FIPs travelReq="N">51021</FIPs>
+            <FIPs travelReq="N">51033</FIPs>
+            <FIPs travelReq="N" languages="">51177</FIPs>
+            <FIPs travelReq="N">51179</FIPs>
+            <FIPs travelReq="N">51099</FIPs>
+            <FIPs travelReq="N">51057</FIPs>
+            <FIPs travelReq="N">51193</FIPs>
+            <FIPs travelReq="N">51159</FIPs>
+            <FIPs travelReq="Y">51097</FIPs>
+            <FIPs travelReq="N">51630</FIPs>
+            <FIPs travelReq="N">51047</FIPs>
+            <FIPs travelReq="N">51085</FIPs>
+            <FIPs travelReq="Y">51101</FIPs>
         </Service>
         <Service serviceName="Functional Family Therapy (FFT)" serviceZoom="0">
             <FIPs travelReq="N" languages="Spanish">51683</FIPs>
@@ -4807,7 +4815,6 @@
             <FIPs travelReq="N">51105</FIPs>
             <FIPs travelReq="Y">51023</FIPs>
         </Service>
-        <Service serviceName="Electronic Monitoring" serviceZoom="-1"/>
         <Service serviceName="Substance Abuse Evaluation" serviceZoom="-1">
             <!-- Manassas Office -->
             <FIPs travelReq="N">51153</FIPs>
