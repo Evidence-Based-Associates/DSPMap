@@ -3107,7 +3107,7 @@
     </Provider>
     <Provider id="33">
         <Name>Intercept Health</Name>
-        <LastUpdated>2022-02-22</LastUpdated>
+        <LastUpdated>2022-06-30</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.intercepthealth.com</Website>
         <ContactName>Gail Giese</ContactName>
@@ -3355,18 +3355,6 @@
             <FIPs travelReq="N" languages="Spanish">51685</FIPs>
             <FIPs travelReq="N">51680</FIPs>
             <FIPs travelReq="N">51520</FIPs>
-        </Service>
-        <Service serviceName="Multi-Systemic Therapy (MST)" serviceZoom="-1">
-            <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="N">51770</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-            <FIPs travelReq="N">51121</FIPs>
-            <FIPs travelReq="N">51750</FIPs>
-            <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="N">51063</FIPs>
-            <FIPs travelReq="N">51071</FIPs>
-            <FIPs travelReq="N">51155</FIPs>
-            <FIPs travelReq="N">51678</FIPs>
         </Service>
         <Service serviceName="Residential Independent Living" serviceZoom="-1">
             <FIPs travelReq="N">51770</FIPs>
