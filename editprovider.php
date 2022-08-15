@@ -56,7 +56,7 @@ var approvedServiceNames = ["Adolescent Community Reinforcement Approach (A-CRA)
                             "Anger Management",
                             "ARTS Intensive Outpatient Programs",
                             "Brief Strategic Family Therapy",
-                            "Crisis Intervention / Stabilization",
+                            "Crisis Services",
                             "EMDR Therapy",
                             "DBT Therapy",
                             "Moral Reconation Therapy Group",
