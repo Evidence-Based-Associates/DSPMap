@@ -642,7 +642,7 @@
             <FIPs travelReq="N">51173</FIPs>
             <FIPs travelReq="N">51520</FIPs>
         </Service>
-        <Service serviceName="Crisis Intervention / Stabilization" serviceZoom="-1">
+        <Service serviceName="Crisis Services" serviceZoom="-1">
             <FIPs travelReq="N">51520</FIPs>
             <FIPs travelReq="N">51173</FIPs>
             <FIPs travelReq="N">51191</FIPs>
@@ -2276,7 +2276,7 @@
             <FIPs travelReq="N">51530</FIPs>
             <FIPs travelReq="N">51069</FIPs>
         </Service>
-        <Service serviceName="Crisis Intervention / Stabilization" serviceZoom="-1">
+        <Service serviceName="Crisis Services" serviceZoom="-1">
             <FIPs travelReq="N">51013</FIPs>
             <FIPs travelReq="N">51510</FIPs>
             <FIPs travelReq="N">51059</FIPs>
@@ -3691,7 +3691,7 @@
             <FIPs travelReq="N">51021</FIPs>
             <FIPs travelReq="N">51197</FIPs>
         </Service>
-        <Service serviceName="Crisis Intervention / Stabilization" serviceZoom="2">
+        <Service serviceName="Crisis Services" serviceZoom="2">
             <FIPs travelReq="N">51640</FIPs>
             <FIPs travelReq="N">51035</FIPs>
             <FIPs travelReq="N">51077</FIPs>
@@ -8139,7 +8139,7 @@
             <FIPs travelReq="N">51199</FIPs>
             <FIPs travelReq="N">51095</FIPs>
         </Service>
-        <Service serviceName="Crisis Intervention / Stabilization" serviceZoom="1">
+        <Service serviceName="Crisis Services" serviceZoom="1">
             <FIPs travelReq="N">51830</FIPs>
             <FIPs travelReq="N">51735</FIPs>
             <FIPs travelReq="N">51199</FIPs>
@@ -9623,7 +9623,7 @@
             <FIPs travelReq="N">51067</FIPs>
             <FIPs travelReq="N">51141</FIPs>
         </Service>
-        <Service serviceName="Crisis Intervention / Stabilization" serviceZoom="2">
+        <Service serviceName="Crisis Services" serviceZoom="2">
             <FIPs travelReq="N">51089</FIPs>
             <FIPs travelReq="N">51690</FIPs>
             <FIPs travelReq="N">51067</FIPs>
