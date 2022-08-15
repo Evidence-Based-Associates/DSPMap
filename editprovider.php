@@ -53,7 +53,15 @@ var thisXML = dspsXML;
     
 //approved service names for drop-down selection
 var approvedServiceNames = ["Adolescent Community Reinforcement Approach (A-CRA)",
+                            "Anger Management",
+                            "ARTS Intensive Outpatient Programs",
+                            "Brief Strategic Family Therapy",
                             "Crisis Intervention / Stabilization",
+                            "EMDR Therapy",
+                            "DBT Therapy",
+                            "Moral Reconation Therapy Group",
+                            "Parenting Skills for Youth",
+                            "Residential Therapeutic Group Home",
                             "Skills Coaching (e.g. Casey Life Skills)",
                             "Gang Intervention",
                             "Electronic Monitoring",
