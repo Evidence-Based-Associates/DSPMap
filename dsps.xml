@@ -7051,7 +7051,7 @@
     </Provider>
     <Provider id="79">
         <Name>Harrisonburg-Rockingham Community Services Board (HRCSB)</Name>
-        <LastUpdated>2021-12-27</LastUpdated>
+        <LastUpdated>2022-09-22</LastUpdated>
         <MapZoom>51165</MapZoom>
         <Website>https://www.hrcsb.org</Website>
         <ContactName>John Wilson, LPC, LMFT</ContactName>
@@ -7097,6 +7097,18 @@
             <FIPs travelReq="N">51660</FIPs>
         </Service>
         <Service serviceName="Individual/ Family Counseling" serviceZoom="51165">
+            <FIPs travelReq="N" languages="Amharic, Dari, English, Kurdish, Arabic, Spanish, Russian, Other">51165</FIPs>
+            <FIPs travelReq="N" languages="Amharic, Dari, English, Kurdish, Arabic, Spanish, Russian, Other">51660</FIPs>
+        </Service>
+        <Service serviceName="Crisis Services" serviceZoom="51165">
+            <FIPs travelReq="N">51165</FIPs>
+            <FIPs travelReq="N">51660</FIPs>
+        </Service>
+        <Service serviceName="Anger Management" serviceZoom="51165">
+            <FIPs travelReq="N">51165</FIPs>
+            <FIPs travelReq="N">51660</FIPs>
+        </Service>
+        <Service serviceName="ARTS Intensive Outpatient Programs" serviceZoom="51165">
             <FIPs travelReq="N">51165</FIPs>
             <FIPs travelReq="N">51660</FIPs>
         </Service>
