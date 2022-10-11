@@ -7455,14 +7455,14 @@
     </Provider>
     <Provider id="44">
         <Name>Spectrum Health Solutions, LLC</Name>
-        <LastUpdated>2022-03-30</LastUpdated>
+        <LastUpdated>2022-09-07</LastUpdated>
         <MapZoom>1</MapZoom>
         <Website/>
         <ContactName>Stephen House</ContactName>
         <ContactEmail>stephen@spectrumhealthus.com</ContactEmail>
         <Office>
-            <Lat/>
-            <Lng/>
+            <Lat>37.5149037</Lat>
+            <Lng>-76.9848327</Lng>
             <Street/>
             <City>New Kent</City>
             <State>VA</State>
@@ -7505,6 +7505,18 @@
             <FIPs travelReq="N">51101</FIPs>
             <FIPs travelReq="Y">51097</FIPs>
             <FIPs travelReq="Y">51085</FIPs>
+        </Service>
+        <Service serviceName="Anger Management" serviceZoom="1">
+            <FIPs travelReq="N">51127</FIPs>
+            <FIPs travelReq="N">51036</FIPs>
+            <FIPs travelReq="N">51830</FIPs>
+            <FIPs travelReq="N">51095</FIPs>
+            <FIPs travelReq="N">51199</FIPs>
+            <FIPs travelReq="N">51735</FIPs>
+            <FIPs travelReq="N" languages="">51073</FIPs>
+            <FIPs travelReq="Y">51097</FIPs>
+            <FIPs travelReq="Y" languages="">51085</FIPs>
+            <FIPs travelReq="Y">51101</FIPs>
         </Service>
     </Provider>
     <Provider id="46">
