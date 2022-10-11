@@ -2115,7 +2115,7 @@
     </Provider>
     <Provider id="33">
         <Name>Intercept Health</Name>
-        <LastUpdated>2022-06-30</LastUpdated>
+        <LastUpdated>2022-09-21</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.intercepthealth.com</Website>
         <ContactName>Gail Giese</ContactName>
@@ -2243,35 +2243,6 @@
         <Service serviceName="Residential Group Home" serviceZoom="-1">
             <Locations/>
         </Service>
-        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
-            <FIPs travelReq="N">51678</FIPs>
-            <!-- All of CSU22 -->
-            <FIPs travelReq="Y">51067</FIPs>
-            <!-- All of CSU23 -->
-            <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-            <!-- CSU23A Roanoke -->
-            <FIPs travelReq="N">51770</FIPs>
-            <!-- All of CSU27 -->
-            <FIPs travelReq="Y">51063</FIPs>
-            <FIPs travelReq="N">51121</FIPs>
-            <FIPs travelReq="Y">51155</FIPs>
-            <FIPs travelReq="N">51750</FIPs>
-            <!-- All of CSU29 -->
-            <FIPs travelReq="Y">51071</FIPs>
-            <FIPs travelReq="Y">51023</FIPs>
-            <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="Y">51085</FIPs>
-            <FIPs travelReq="Y">51075</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
-            <FIPs travelReq="Y">51145</FIPs>
-            <FIPs travelReq="Y">51007</FIPs>
-            <FIPs travelReq="N">51790</FIPs>
-            <FIPs travelReq="N">51015</FIPs>
-            <FIPs travelReq="Y">51820</FIPs>
-            <FIPs travelReq="Y">51019</FIPs>
-        </Service>
         <Service serviceName="Youth with Sexualized Behaviors (YSB) Treatment" serviceZoom="-1">
             <FIPs travelReq="N">51683</FIPs>
             <!-- CSU25 Rockbridge County, City of Lexington, Botetourt County. City of Waynesboro -->
@@ -2357,12 +2328,12 @@
             <FIPs travelReq="N">51191</FIPs>
             <FIPs travelReq="N">51087</FIPs>
             <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51840</FIPs>
             <FIPs travelReq="N" languages="Spanish">51153</FIPs>
             <FIPs travelReq="N">51630</FIPs>
             <FIPs travelReq="N" languages="Spanish">51685</FIPs>
             <FIPs travelReq="N">51680</FIPs>
             <FIPs travelReq="N">51520</FIPs>
+            <FIPs travelReq="N">51540</FIPs>
         </Service>
         <Service serviceName="Residential Independent Living" serviceZoom="-1">
             <FIPs travelReq="N">51770</FIPs>
@@ -2376,15 +2347,133 @@
             <FIPs travelReq="N">51680</FIPs>
             <FIPs travelReq="N">51650</FIPs>
         </Service>
-        <Service serviceName="Specialized Individual Therapy (DBT/ EMDR)" serviceZoom="2">
+        <Service serviceName="Skills Coaching (e.g. Casey Life Skills)" serviceZoom="-1">
+            <FIPs travelReq="N" languages="Spanish">51683</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="N">51550</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
             <FIPs travelReq="N">51770</FIPs>
-            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51191</FIPs>
+            <FIPs travelReq="N">51087</FIPs>
+            <FIPs travelReq="N">51760</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51153</FIPs>
+            <FIPs travelReq="N">51630</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51685</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51520</FIPs>
+            <FIPs travelReq="Y">51177</FIPs>
+            <FIPs travelReq="Y">51179</FIPs>
+            <FIPs travelReq="Y">51099</FIPs>
+            <FIPs travelReq="Y">51033</FIPs>
+            <FIPs travelReq="Y">51075</FIPs>
+            <FIPs travelReq="Y">51085</FIPs>
+            <FIPs travelReq="Y">51036</FIPs>
+            <FIPs travelReq="N">51003</FIPs>
+            <FIPs travelReq="Y">51540</FIPs>
+            <FIPs travelReq="Y">51009</FIPs>
+            <FIPs travelReq="Y">51019</FIPs>
+            <FIPs travelReq="Y">51031</FIPs>
+            <FIPs travelReq="Y">51710</FIPs>
+            <FIPs travelReq="Y">51740</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="Y">51735</FIPs>
+            <FIPs travelReq="Y">51059</FIPs>
+            <FIPs travelReq="Y">51107</FIPs>
+            <FIPs travelReq="Y">51061</FIPs>
+        </Service>
+        <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="-1">
+            <FIPs travelReq="N">51770</FIPs>
             <FIPs travelReq="N">51775</FIPs>
-            <FIPs travelReq="Y">51121</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="Y">51063</FIPs>
             <FIPs travelReq="Y">51067</FIPs>
+            <FIPs travelReq="Y">51121</FIPs>
+            <FIPs travelReq="Y">51163</FIPs>
+            <FIPs travelReq="Y">51530</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="Y">51019</FIPs>
+            <FIPs travelReq="Y">51009</FIPs>
+            <FIPs travelReq="N">51790</FIPs>
+            <FIPs travelReq="N">51015</FIPs>
+            <FIPs travelReq="N">51820</FIPs>
+            <FIPs travelReq="Y">51091</FIPs>
+            <FIPs travelReq="Y">51165</FIPs>
+            <FIPs travelReq="Y">51660</FIPs>
+        </Service>
+        <Service serviceName="Crisis Services" serviceZoom="-1">
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="Y">51063</FIPs>
+            <FIPs travelReq="Y">51067</FIPs>
+            <FIPs travelReq="Y">51121</FIPs>
+            <FIPs travelReq="Y">51163</FIPs>
+            <FIPs travelReq="Y">51530</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="Y">51019</FIPs>
+            <FIPs travelReq="Y">51009</FIPs>
+            <FIPs travelReq="N">51790</FIPs>
+            <FIPs travelReq="N">51015</FIPs>
+            <FIPs travelReq="N">51820</FIPs>
+            <FIPs travelReq="Y">51091</FIPs>
+            <FIPs travelReq="Y">51660</FIPs>
+            <FIPs travelReq="Y">51165</FIPs>
+        </Service>
+        <Service serviceName="ARTS Intensive Outpatient Programs" serviceZoom="-1">
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51063</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
             <FIPs travelReq="Y">51023</FIPs>
             <FIPs travelReq="Y">51019</FIPs>
             <FIPs travelReq="Y">51045</FIPs>
+            <FIPs travelReq="Y">51163</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Intensive Outpatient (SAIOP)" serviceZoom="-1">
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51063</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="Y">51023</FIPs>
+            <FIPs travelReq="Y">51019</FIPs>
+            <FIPs travelReq="Y">51045</FIPs>
+            <FIPs travelReq="Y">51163</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Evaluation" serviceZoom="-1">
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51063</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="Y">51023</FIPs>
+            <FIPs travelReq="Y">51019</FIPs>
+            <FIPs travelReq="Y">51045</FIPs>
+            <FIPs travelReq="Y">51163</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Service" serviceZoom="-1">
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51063</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="Y">51023</FIPs>
+            <FIPs travelReq="Y">51019</FIPs>
+            <FIPs travelReq="Y">51045</FIPs>
+            <FIPs travelReq="Y">51163</FIPs>
+        </Service>
+        <Service serviceName="Residential Therapeutic Group Home" serviceZoom="-1">
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51660</FIPs>
+            <FIPs travelReq="N">51760</FIPs>
+            <FIPs travelReq="N">51087</FIPs>
+            <FIPs travelReq="N">51041</FIPs>
         </Service>
     </Provider>
     <Provider id="34">
