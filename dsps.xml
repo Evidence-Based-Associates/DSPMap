@@ -6104,9 +6104,9 @@
             <FIPs travelReq="N">51141</FIPs>
         </Service>
     </Provider>
-    <Provider id="40">
+   <Provider id="40">
         <Name>Salveo Consulting, PLLC</Name>
-        <LastUpdated>2022-09-06</LastUpdated>
+        <LastUpdated>2022-09-22</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>salveoconsulting.com</Website>
         <ContactName>Ilona Gravers, Psy. D., CSOTP</ContactName>
@@ -6177,6 +6177,7 @@
             <FIPs travelReq="Y">51069</FIPs>
             <FIPs travelReq="Y">51013</FIPs>
             <FIPs travelReq="Y">51510</FIPs>
+            <FIPs travelReq="Y">51179</FIPs>
         </Service>
         <Service serviceName="Youth with Sexualized Behaviors (YSB) Treatment" serviceZoom="0">
             <FIPs travelReq="N" languages="Latvian">51059</FIPs>
@@ -6199,18 +6200,19 @@
             <FIPs travelReq="Y">51069</FIPs>
         </Service>
         <Service serviceName="Clinical Group" serviceZoom="0">
-            <FIPs travelReq="Y">51059</FIPs>
-            <FIPs travelReq="Y">51600</FIPs>
+            <FIPs travelReq="N">51059</FIPs>
+            <FIPs travelReq="N">51600</FIPs>
             <FIPs travelReq="N">51107</FIPs>
-            <FIPs travelReq="N">51061</FIPs>
+            <FIPs travelReq="Y">51061</FIPs>
             <FIPs travelReq="N">51043</FIPs>
+            <FIPs travelReq="Y">51660</FIPs>
+            <FIPs travelReq="N">51187</FIPs>
+            <FIPs travelReq="Y">51840</FIPs>
+            <FIPs travelReq="Y">51069</FIPs>
             <FIPs travelReq="N">51153</FIPs>
             <FIPs travelReq="N">51683</FIPs>
             <FIPs travelReq="N">51685</FIPs>
             <FIPs travelReq="Y">51157</FIPs>
-            <FIPs travelReq="Y">51840</FIPs>
-            <FIPs travelReq="Y">51069</FIPs>
-            <FIPs travelReq="Y">51187</FIPs>
         </Service>
         <Service serviceName="Psychological Evaluation" serviceZoom="0">
             <FIPs travelReq="N">51059</FIPs>
@@ -6232,6 +6234,8 @@
             <FIPs travelReq="N">51013</FIPs>
             <FIPs travelReq="N">51510</FIPs>
             <FIPs travelReq="N">51610</FIPs>
+            <FIPs travelReq="Y">51139</FIPs>
+            <FIPs travelReq="Y">51171</FIPs>
         </Service>
         <Service serviceName="Mental Health Evaluation" serviceZoom="0">
             <FIPs travelReq="N" languages="Latvian">51059</FIPs>
@@ -6239,7 +6243,7 @@
             <FIPs travelReq="N" languages="Latvian">51107</FIPs>
             <FIPs travelReq="N" languages="Latvian">51061</FIPs>
             <FIPs travelReq="N" languages="Latvian">51043</FIPs>
-            <FIPs travelReq="Y" languages="Latvian">51187</FIPs>
+            <FIPs travelReq="N" languages="Latvian">51187</FIPs>
             <FIPs travelReq="N" languages="Latvian">51153</FIPs>
             <FIPs travelReq="N" languages="Latvian">51683</FIPs>
             <FIPs travelReq="N">51685</FIPs>
