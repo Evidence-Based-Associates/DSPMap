@@ -6607,7 +6607,7 @@
     </Provider>
     <Provider id="67">
         <Name>Timber Ridge School</Name>
-        <LastUpdated>2022-09-29</LastUpdated>
+        <LastUpdated>2022-10-04</LastUpdated>
         <MapZoom>0</MapZoom>
         <Website>www.timberridgeschool.org</Website>
         <ContactName>Adam Collis</ContactName>
@@ -6623,7 +6623,7 @@
             <Fax/>
         </Office>
         <Service serviceName="Residential Treatment Center" serviceZoom="-1">
-            <FIPs travelReq="N" languages="Spanish">51069</FIPs>
+            <FIPs travelReq="N">51069</FIPs>
         </Service>
     </Provider>
     <Provider id="66">
