@@ -6607,7 +6607,7 @@
     </Provider>
     <Provider id="67">
         <Name>Timber Ridge School</Name>
-        <LastUpdated>2021-08-24</LastUpdated>
+        <LastUpdated>2022-09-29</LastUpdated>
         <MapZoom>0</MapZoom>
         <Website>www.timberridgeschool.org</Website>
         <ContactName>Adam Collis</ContactName>
@@ -6622,18 +6622,8 @@
             <Phone>(540) 888-3456 x1127</Phone>
             <Fax/>
         </Office>
-        <Office>
-            <Lat>37.3044517</Lat>
-            <Lng>-78.4077729</Lng>
-            <Street>1012 W 3rd St </Street>
-            <City>Farmville</City>
-            <State>VA</State>
-            <Zip>23901</Zip>
-            <Phone>434-395-1200</Phone>
-            <Fax/>
-        </Office>
         <Service serviceName="Residential Treatment Center" serviceZoom="-1">
-            <FIPs travelReq="N">51069</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51069</FIPs>
         </Service>
     </Provider>
     <Provider id="66">
