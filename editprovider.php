@@ -76,6 +76,8 @@ var approvedServiceNames = ["Adolescent Community Reinforcement Approach (A-CRA)
                             "Non-Clinical Group (e.g. MRT, ART)",
                             "Psychological Evaluation",
                             "Psycho-Sexual Evaluation",
+                            "IACCT",
+                            "Mental Health Skill Building",
                             "Individual/ Family Counseling",
                             "Substance Abuse Service",
                             "Youth with Sexualized Behaviors (YSB) Treatment",
