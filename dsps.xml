@@ -7592,7 +7592,7 @@
     </Provider>
     <Provider id="83">
         <Name>Transitions ...The Process of Change</Name>
-        <LastUpdated>2022-04-25</LastUpdated>
+        <LastUpdated>2022-10-10</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>transitionscorp.com</Website>
         <ContactName>Sarah Dowd Bryant</ContactName>
@@ -7610,7 +7610,7 @@
         <Office>
             <Lat>38.4222432</Lat>
             <Lng>-77.40703649999999</Lng>
-            <Street>2124 Jefferson Davis Highway, Suite 104</Street>
+            <Street>2124 Jefferson Davis Highway, Suite 102</Street>
             <City>Stafford</City>
             <State>VA</State>
             <Zip>22554</Zip>
@@ -7618,22 +7618,22 @@
             <Fax/>
         </Office>
         <Service serviceName="Skills Coaching (e.g. Casey Life Skills)" serviceZoom="0">
-            <FIPs travelReq="N">51177</FIPs>
-            <FIPs travelReq="N">51033</FIPs>
-            <FIPs travelReq="N">51179</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51177</FIPs>
+            <FIPs travelReq="Y">51033</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51179</FIPs>
             <FIPs travelReq="N">51099</FIPs>
-            <FIPs travelReq="N">51047</FIPs>
-            <FIPs travelReq="N">51137</FIPs>
-            <FIPs travelReq="N">51061</FIPs>
-            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51047</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51137</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51061</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51153</FIPs>
             <FIPs travelReq="N">51107</FIPs>
             <FIPs travelReq="N">51059</FIPs>
-            <FIPs travelReq="N">51157</FIPs>
+            <FIPs travelReq="Y">51157</FIPs>
             <FIPs travelReq="N">51683</FIPs>
             <FIPs travelReq="N">51600</FIPs>
             <FIPs travelReq="N">51013</FIPs>
-            <FIPs travelReq="N">51510</FIPs>
-            <FIPs travelReq="N">51630</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51510</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51630</FIPs>
         </Service>
         <Service serviceName="Job Readiness and Employment Service" serviceZoom="0">
             <FIPs travelReq="N">51177</FIPs>
@@ -7659,7 +7659,7 @@
             <FIPs travelReq="N">51179</FIPs>
             <FIPs travelReq="N">51099</FIPs>
             <FIPs travelReq="N">51047</FIPs>
-            <FIPs travelReq="N">51137</FIPs>
+            <FIPs travelReq="Y">51137</FIPs>
             <FIPs travelReq="N">51061</FIPs>
             <FIPs travelReq="N">51153</FIPs>
             <FIPs travelReq="N">51107</FIPs>
@@ -7761,7 +7761,25 @@
             <FIPs travelReq="N" languages="Spanish, Farsi">51510</FIPs>
             <FIPs travelReq="N" languages="Spanish">51630</FIPs>
         </Service>
-        <Service serviceName="Substance Abuse Service" serviceZoom="0">
+        <Service serviceName="Family Partnership Meeting" serviceZoom="0">
+            <FIPs travelReq="N">51177</FIPs>
+            <FIPs travelReq="N">51033</FIPs>
+            <FIPs travelReq="N">51179</FIPs>
+            <FIPs travelReq="N">51099</FIPs>
+            <FIPs travelReq="Y">51047</FIPs>
+            <FIPs travelReq="Y">51137</FIPs>
+            <FIPs travelReq="N">51061</FIPs>
+            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="Y">51107</FIPs>
+            <FIPs travelReq="N">51059</FIPs>
+            <FIPs travelReq="Y">51157</FIPs>
+            <FIPs travelReq="N">51683</FIPs>
+            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N">51013</FIPs>
+            <FIPs travelReq="N">51510</FIPs>
+            <FIPs travelReq="N">51630</FIPs>
+        </Service>
+        <Service serviceName="Anger Management" serviceZoom="0">
             <FIPs travelReq="N">51177</FIPs>
             <FIPs travelReq="N">51033</FIPs>
             <FIPs travelReq="N">51179</FIPs>
@@ -7778,6 +7796,24 @@
             <FIPs travelReq="N">51013</FIPs>
             <FIPs travelReq="N">51510</FIPs>
             <FIPs travelReq="N">51630</FIPs>
+        </Service>
+        <Service serviceName="Parenting Skills for Youth" serviceZoom="0">
+            <FIPs travelReq="N">51177</FIPs>
+            <FIPs travelReq="Y">51033</FIPs>
+            <FIPs travelReq="N">51179</FIPs>
+            <FIPs travelReq="N">51099</FIPs>
+            <FIPs travelReq="N">51047</FIPs>
+            <FIPs travelReq="N">51061</FIPs>
+            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="N">51107</FIPs>
+            <FIPs travelReq="N">51059</FIPs>
+            <FIPs travelReq="Y">51157</FIPs>
+            <FIPs travelReq="N">51683</FIPs>
+            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N">51013</FIPs>
+            <FIPs travelReq="N">51510</FIPs>
+            <FIPs travelReq="N">51630</FIPs>
+            <FIPs travelReq="N">51137</FIPs>
         </Service>
     </Provider>
     <Provider id="85">
