@@ -5896,7 +5896,7 @@
     </Provider>
     <Provider id="54">
         <Name>UMFS</Name>
-        <LastUpdated>2022-05-02</LastUpdated>
+        <LastUpdated>2022-09-19</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.umfs.org</Website>
         <ContactName>Dani Halbleib</ContactName>
@@ -5972,7 +5972,6 @@
             <Fax/>
         </Office>
         <Service serviceName="HFW Intensive Care Coordination" serviceZoom="-1">
-            <FIPs travelReq="N">51013</FIPs>
             <FIPs travelReq="N">51610</FIPs>
             <FIPs travelReq="N">51510</FIPs>
             <FIPs travelReq="N">51059</FIPs>
@@ -5981,7 +5980,6 @@
             <FIPs travelReq="Y">51043</FIPs>
             <FIPs travelReq="Y">51061</FIPs>
             <FIPs travelReq="Y">51069</FIPs>
-            <FIPs travelReq="Y">51139</FIPs>
             <FIPs travelReq="Y">51840</FIPs>
             <FIPs travelReq="N">51153</FIPs>
             <FIPs travelReq="N">51683</FIPs>
@@ -6008,11 +6006,23 @@
             <FIPs travelReq="N">51810</FIPs>
             <FIPs travelReq="N">51093</FIPs>
             <FIPs travelReq="N">51710</FIPs>
-            <FIPs travelReq="N">51175</FIPs>
+            <FIPs travelReq="Y">51175</FIPs>
             <FIPs travelReq="N">51800</FIPs>
             <FIPs travelReq="N">51700</FIPs>
             <FIPs travelReq="N">51650</FIPs>
             <FIPs travelReq="N">51620</FIPs>
+            <FIPs travelReq="Y">51109</FIPs>
+            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N">51510</FIPs>
+            <FIPs travelReq="N">51610</FIPs>
+            <FIPs travelReq="N">51013</FIPs>
+            <FIPs travelReq="N">51683</FIPs>
+            <FIPs travelReq="N">51685</FIPs>
+            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="Y">51061</FIPs>
+            <FIPs travelReq="Y">51043</FIPs>
+            <FIPs travelReq="Y">51069</FIPs>
+            <FIPs travelReq="Y">51840</FIPs>
         </Service>
         <Service serviceName="ICC Family Support Partner" serviceZoom="-1">
             <FIPs travelReq="N">51013</FIPs>
@@ -6020,43 +6030,14 @@
             <FIPs travelReq="N">51510</FIPs>
             <FIPs travelReq="N">51059</FIPs>
             <FIPs travelReq="N">51600</FIPs>
-            <FIPs travelReq="N">51107</FIPs>
-            <FIPs travelReq="N">51061</FIPs>
-            <FIPs travelReq="N">51043</FIPs>
+            <FIPs travelReq="Y">51107</FIPs>
+            <FIPs travelReq="Y">51061</FIPs>
+            <FIPs travelReq="Y">51043</FIPs>
             <FIPs travelReq="N">51153</FIPs>
             <FIPs travelReq="N">51683</FIPs>
             <FIPs travelReq="N">51685</FIPs>
-            <FIPs travelReq="N">51187</FIPs>
-            <FIPs travelReq="N">51069</FIPs>
-            <FIPs travelReq="N">51840</FIPs>
-            <FIPs travelReq="Y">51036</FIPs>
-            <FIPs travelReq="N">51101</FIPs>
-            <FIPs travelReq="N">51127</FIPs>
-            <FIPs travelReq="N">51033</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="N">51630</FIPs>
-            <FIPs travelReq="N">51177</FIPs>
-            <FIPs travelReq="N">51179</FIPs>
-            <FIPs travelReq="Y">51540</FIPs>
-            <FIPs travelReq="Y">51193</FIPs>
-            <FIPs travelReq="N">51047</FIPs>
-            <FIPs travelReq="Y">51065</FIPs>
-            <FIPs travelReq="Y">51079</FIPs>
-            <FIPs travelReq="N">51075</FIPs>
-            <FIPs travelReq="N">51113</FIPs>
-            <FIPs travelReq="N">51137</FIPs>
-            <FIPs travelReq="N">51109</FIPs>
-            <FIPs travelReq="N">51181</FIPs>
-            <FIPs travelReq="N">51670</FIPs>
-            <FIPs travelReq="N">51149</FIPs>
-            <FIPs travelReq="Y">51007</FIPs>
-            <FIPs travelReq="N">51730</FIPs>
-            <FIPs travelReq="N">51053</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
-            <FIPs travelReq="N">51145</FIPs>
-            <FIPs travelReq="N">51570</FIPs>
-            <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51087</FIPs>
+            <FIPs travelReq="Y">51069</FIPs>
+            <FIPs travelReq="Y">51840</FIPs>
             <FIPs travelReq="N">51131</FIPs>
             <FIPs travelReq="N">51650</FIPs>
             <FIPs travelReq="N">51710</FIPs>
@@ -6066,38 +6047,8 @@
             <FIPs travelReq="N">51700</FIPs>
             <FIPs travelReq="N">51093</FIPs>
             <FIPs travelReq="N">51800</FIPs>
-            <FIPs travelReq="N">51620</FIPs>
-            <FIPs travelReq="N">51175</FIPs>
-        </Service>
-        <Service serviceName="Skills Coaching (e.g. Casey Life Skills)" serviceZoom="-1">
-            <FIPs travelReq="N">51059</FIPs>
-            <FIPs travelReq="N">51107</FIPs>
-            <FIPs travelReq="N">51036</FIPs>
-            <FIPs travelReq="N">51073</FIPs>
-            <FIPs travelReq="N">51095</FIPs>
-            <FIPs travelReq="N">51097</FIPs>
-            <FIPs travelReq="N">51115</FIPs>
-            <FIPs travelReq="N">51119</FIPs>
-            <FIPs travelReq="N">51127</FIPs>
-            <FIPs travelReq="N">51199</FIPs>
-            <FIPs travelReq="N">51735</FIPs>
-            <FIPs travelReq="N">51830</FIPs>
-            <FIPs travelReq="N">51101</FIPs>
-        </Service>
-        <Service serviceName="Gang Intervention" serviceZoom="-1">
-            <FIPs travelReq="N">51059</FIPs>
-            <FIPs travelReq="N">51107</FIPs>
-            <FIPs travelReq="N">51036</FIPs>
-            <FIPs travelReq="N">51073</FIPs>
-            <FIPs travelReq="N">51095</FIPs>
-            <FIPs travelReq="N">51097</FIPs>
-            <FIPs travelReq="N">51115</FIPs>
-            <FIPs travelReq="N">51119</FIPs>
-            <FIPs travelReq="N">51127</FIPs>
-            <FIPs travelReq="N">51199</FIPs>
-            <FIPs travelReq="N">51735</FIPs>
-            <FIPs travelReq="N">51830</FIPs>
-            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="Y">51620</FIPs>
+            <FIPs travelReq="Y">51175</FIPs>
         </Service>
         <Service serviceName="Functional Family Therapy (FFT)" serviceZoom="-1">
             <FIPs travelReq="N">51179</FIPs>
@@ -6119,10 +6070,7 @@
             <FIPs travelReq="Y">51830</FIPs>
             <FIPs travelReq="Y">51095</FIPs>
             <FIPs travelReq="Y">51199</FIPs>
-            <FIPs travelReq="Y">51003</FIPs>
-            <FIPs travelReq="Y">51540</FIPs>
             <FIPs travelReq="Y">51113</FIPs>
-            <FIPs travelReq="Y">51079</FIPs>
             <FIPs travelReq="Y">51059</FIPs>
             <FIPs travelReq="Y">51600</FIPs>
             <FIPs travelReq="Y">51510</FIPs>
@@ -6136,13 +6084,14 @@
             <FIPs travelReq="Y">51193</FIPs>
             <FIPs travelReq="Y">51159</FIPs>
             <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="N">51057</FIPs>
+            <FIPs travelReq="Y">51057</FIPs>
             <FIPs travelReq="N">51760</FIPs>
             <FIPs travelReq="Y">51570</FIPs>
             <FIPs travelReq="Y">51041</FIPs>
             <FIPs travelReq="Y">51730</FIPs>
             <FIPs travelReq="Y">51061</FIPs>
             <FIPs travelReq="Y">51013</FIPs>
+            <FIPs travelReq="Y">51079</FIPs>
         </Service>
         <Service serviceName="Residential Treatment Center" serviceZoom="-1">
             <FIPs travelReq="N">51760</FIPs>
