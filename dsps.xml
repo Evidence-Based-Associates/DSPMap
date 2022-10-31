@@ -8653,7 +8653,7 @@
     </Provider>
     <Provider id="113">
         <Name>Aethiops Business Solutions, LLC</Name>
-        <LastUpdated>2022-02-21</LastUpdated>
+        <LastUpdated>2022-10-27</LastUpdated>
         <MapZoom>0</MapZoom>
         <Website>www.aethiops.org</Website>
         <ContactName>Janice DeShazer</ContactName>
@@ -8669,11 +8669,12 @@
             <Fax/>
         </Office>
         <Service serviceName="Skills Coaching (e.g. Casey Life Skills)" serviceZoom="0">
-            <FIPs travelReq="Y">51059</FIPs>
-            <FIPs travelReq="Y">51600</FIPs>
-            <FIPs travelReq="N">51153</FIPs>
-            <FIPs travelReq="N">51683</FIPs>
-            <FIPs travelReq="N">51685</FIPs>
+            <FIPs travelReq="Y" languages="German">51059</FIPs>
+            <FIPs travelReq="Y" languages="German">51600</FIPs>
+            <FIPs travelReq="N" languages="German">51153</FIPs>
+            <FIPs travelReq="N" languages="German">51683</FIPs>
+            <FIPs travelReq="N" languages="German">51685</FIPs>
+            <FIPs travelReq="Y">51179</FIPs>
         </Service>
     </Provider>
     <Provider id="112">
