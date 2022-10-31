@@ -617,7 +617,7 @@
     </Provider>
     <Provider id="23">
         <Name>Henrico Area Mental Health and Developmental Services</Name>
-        <LastUpdated>2021-03-31</LastUpdated>
+        <LastUpdated>2022-10-27</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>http://henrico.us/mhds/</Website>
         <ContactName>Mike Walsh </ContactName>
@@ -633,10 +633,25 @@
             <Fax/>
         </Office>
         <Service serviceName="Multi-Systemic Therapy (MST)" serviceZoom="-1">
-            <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="Y">51085</FIPs>
             <FIPs travelReq="N">51036</FIPs>
             <FIPs travelReq="N">51127</FIPs>
+            <FIPs travelReq="N">51087</FIPs>
+        </Service>
+        <Service serviceName="Adolescent Community Reinforcement Approach (A-CRA)" serviceZoom="-1">
+            <FIPs travelReq="N">51087</FIPs>
+        </Service>
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
+            <FIPs travelReq="N">51036</FIPs>
+            <FIPs travelReq="N">51127</FIPs>
+            <FIPs travelReq="N">51087</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Service" serviceZoom="-1">
+            <FIPs travelReq="N">51036</FIPs>
+            <FIPs travelReq="N">51127</FIPs>
+            <FIPs travelReq="N">51087</FIPs>
+        </Service>
+        <Service serviceName="Mental Health Evaluation" serviceZoom="-1">
+            <FIPs travelReq="N">51087</FIPs>
         </Service>
     </Provider>
     <Provider id="5">
