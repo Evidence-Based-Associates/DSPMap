@@ -32,7 +32,7 @@
 <DSPs>
     <Provider id="0">
         <Name>Oceanside Evaluations</Name>
-        <LastUpdated>2021-04-26</LastUpdated>
+        <LastUpdated>2022-10-31</LastUpdated>
         <MapZoom>1</MapZoom>
         <Website>www.oceansideevaluations.com/</Website>
         <ContactName>Ann P. VanSkiver, Psy.D., NCSP</ContactName>
@@ -60,22 +60,16 @@
             <FIPs travelReq="N">51115</FIPs>
             <FIPs travelReq="N">51119</FIPs>
             <FIPs travelReq="Y">51103</FIPs>
-            <FIPs travelReq="N">51830</FIPs>
             <FIPs travelReq="Y">51650</FIPs>
             <FIPs travelReq="Y">51700</FIPs>
             <FIPs travelReq="Y">51133</FIPs>
             <FIPs travelReq="Y">51159</FIPs>
             <FIPs travelReq="Y">51057</FIPs>
-        <FIPs travelReq="Y">51181</FIPs></Service>
-        <Service serviceName="Individual/ Family Counseling" serviceZoom="1">
-            <FIPs travelReq="Y">51036</FIPs>
-            <FIPs travelReq="N">51095</FIPs>
-            <FIPs travelReq="N">51199</FIPs>
-            <FIPs travelReq="N">51735</FIPs>
-            <FIPs travelReq="Y">51073</FIPs>
-            <FIPs travelReq="N">51127</FIPs>
-            <FIPs travelReq="Y">51097</FIPs>
-            <FIPs travelReq="Y">51101</FIPs>
+            <FIPs travelReq="Y">51181</FIPs>
+            <FIPs travelReq="Y">51085</FIPs>
+            <FIPs travelReq="N">51830</FIPs>
+            <FIPs travelReq="Y">51700</FIPs>
+            <FIPs travelReq="Y">51093</FIPs>
         </Service>
         <Service serviceName="Mental Health Evaluation" serviceZoom="1">
             <FIPs travelReq="Y">51036</FIPs>
@@ -96,6 +90,11 @@
             <FIPs travelReq="Y">51133</FIPs>
             <FIPs travelReq="Y">51159</FIPs>
             <FIPs travelReq="Y">51057</FIPs>
+            <FIPs travelReq="Y">51093</FIPs>
+            <FIPs travelReq="Y">51800</FIPs>
+            <FIPs travelReq="Y">51740</FIPs>
+            <FIPs travelReq="Y">51710</FIPs>
+            <FIPs travelReq="Y">51181</FIPs>
         </Service>
     </Provider>
     <Provider id="1">
