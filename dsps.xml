@@ -7220,7 +7220,7 @@
     </Provider>
     <Provider id="68">
         <Name>Counseling and Forensic Services</Name>
-        <LastUpdated>2022-09-19</LastUpdated>
+        <LastUpdated>2022-10-27</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>https://www.cfsvirginia.com</Website>
         <ContactName>Yulia Thorpe</ContactName>
@@ -7282,7 +7282,7 @@
             <City>Hopewell</City>
             <State>VA</State>
             <Zip>23860</Zip>
-            <Phone>(703) 492-2994 224 N Main St, Ste. 107, Hopewell, VA 23860</Phone>
+            <Phone>(703) 492-2994</Phone>
             <Fax/>
         </Office>
         <Office>
@@ -7295,30 +7295,20 @@
             <Phone>(703) 492-2994</Phone>
             <Fax/>
         </Office>
-        <Office>
-            <Lat>37.3037169</Lat>
-            <Lng>-77.2876783</Lng>
-            <Street>224 N Main St, Ste. 107</Street>
-            <City>Hopewell</City>
-            <State>VA</State>
-            <Zip>23860</Zip>
-            <Phone>(703) 492-2994</Phone>
-            <Fax/>
-        </Office>
         <Service serviceName="Youth with Sexualized Behaviors (YSB) Treatment" serviceZoom="-1">
-            <FIPs travelReq="N" languages="Spanish, Farsi, Russian">51630</FIPs>
-            <FIPs travelReq="Y">51033</FIPs>
-            <FIPs travelReq="N">51177</FIPs>
-            <FIPs travelReq="N">51099</FIPs>
-            <FIPs travelReq="N" languages="Spanish, Farsi, Russian">51179</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Hindi, Russian, Spanish">51630</FIPs>
+            <FIPs travelReq="Y" languages="Farsi, Hindi, Russian, Spanish">51033</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Hindi, Russian, Spanish">51177</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Hindi, Russian, Spanish">51099</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Hindi, Russian, Spanish">51179</FIPs>
             <FIPs travelReq="Y" languages="Spanish">51085</FIPs>
-            <FIPs travelReq="N" languages="Spanish, Farsi, Russian">51013</FIPs>
-            <FIPs travelReq="N" languages="Spanish, Farsi, Russian">51610</FIPs>
-            <FIPs travelReq="N" languages="Spanish, Farsi, Russian">51510</FIPs>
-            <FIPs travelReq="N" languages="Spanish, Farsi, Russian">51600</FIPs>
-            <FIPs travelReq="N" languages="Spanish, Farsi, Russian">51059</FIPs>
-            <FIPs travelReq="N">51157</FIPs>
-            <FIPs travelReq="N" languages="Spanish, Farsi, Russian">51107</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Hindi, Russian, Spanish">51013</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Hindi, Russian, Spanish">51610</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Hindi, Russian, Spanish">51510</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Hindi, Russian, Spanish">51600</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Hindi, Russian, Spanish">51059</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Hindi, Russian, Spanish">51157</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Hindi, Russian, Spanish">51107</FIPs>
             <FIPs travelReq="Y" languages="Spanish, Farsi, Russian">51139</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi, Russian">51683</FIPs>
             <FIPs travelReq="N" languages="Spanish">51685</FIPs>
@@ -7340,9 +7330,9 @@
             <FIPs travelReq="Y" languages="Spanish">51760</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi, Russian">51047</FIPs>
             <FIPs travelReq="Y">51113</FIPs>
-            <FIPs travelReq="Y" languages="Spanish, Farsi, Russian">51043</FIPs>
-            <FIPs travelReq="Y" languages="Spanish, Farsi, Russian">51187</FIPs>
-            <FIPs travelReq="N">51137</FIPs>
+            <FIPs travelReq="Y" languages="Farsi, Hindi, Russian, Spanish">51043</FIPs>
+            <FIPs travelReq="Y" languages="Farsi, Hindi, Russian, Spanish">51187</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Hindi, Russian, Spanish">51137</FIPs>
             <FIPs travelReq="Y" languages="Spanish">51830</FIPs>
             <FIPs travelReq="N" languages="Spanish">51181</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi, Russian">51061</FIPs>
@@ -7392,32 +7382,12 @@
             <FIPs travelReq="Y" languages="Spanish">51830</FIPs>
             <FIPs travelReq="Y">51043</FIPs>
             <FIPs travelReq="N">51157</FIPs>
-            <FIPs travelReq="N">51187</FIPs>
+            <FIPs travelReq="Y">51187</FIPs>
             <FIPs travelReq="Y">51113</FIPs>
             <FIPs travelReq="Y">51137</FIPs>
             <FIPs travelReq="N">51177</FIPs>
             <FIPs travelReq="Y">51047</FIPs>
             <FIPs travelReq="Y">51181</FIPs>
-        </Service>
-        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
-            <FIPs travelReq="N">51630</FIPs>
-            <FIPs travelReq="N">51033</FIPs>
-            <FIPs travelReq="N">51177</FIPs>
-            <FIPs travelReq="N">51099</FIPs>
-            <FIPs travelReq="N">51179</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51013</FIPs>
-            <FIPs travelReq="N">51610</FIPs>
-            <FIPs travelReq="N">51510</FIPs>
-            <FIPs travelReq="N">51600</FIPs>
-            <FIPs travelReq="N">51059</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51061</FIPs>
-            <FIPs travelReq="N">51157</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51107</FIPs>
-            <FIPs travelReq="Y">51139</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51683</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51685</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51153</FIPs>
         </Service>
         <Service serviceName="Substance Abuse Service" serviceZoom="-1">
             <FIPs travelReq="N">51630</FIPs>
@@ -7501,26 +7471,6 @@
             <FIPs travelReq="N">51137</FIPs>
             <FIPs travelReq="Y" languages="Spanish">51830</FIPs>
             <FIPs travelReq="N" languages="Spanish">51181</FIPs>
-        </Service>
-        <Service serviceName="Substance Abuse Service" serviceZoom="-1">
-            <FIPs travelReq="N">51630</FIPs>
-            <FIPs travelReq="N">51033</FIPs>
-            <FIPs travelReq="N">51177</FIPs>
-            <FIPs travelReq="N">51099</FIPs>
-            <FIPs travelReq="N">51179</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51013</FIPs>
-            <FIPs travelReq="N">51610</FIPs>
-            <FIPs travelReq="N">51510</FIPs>
-            <FIPs travelReq="N">51600</FIPs>
-            <FIPs travelReq="N">51059</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51061</FIPs>
-            <FIPs travelReq="N">51157</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51107</FIPs>
-            <FIPs travelReq="N">51139</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51683</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51685</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51153</FIPs>
         </Service>
         <Service serviceName="Mental Health Evaluation" serviceZoom="-1">
             <FIPs travelReq="N">51630</FIPs>
@@ -7649,6 +7599,48 @@
             <FIPs travelReq="Y">51510</FIPs>
             <FIPs travelReq="Y">51610</FIPs>
             <FIPs travelReq="Y">51013</FIPs>
+        </Service>
+        <Service serviceName="EMDR Therapy" serviceZoom="-1">
+            <FIPs travelReq="N">51630</FIPs>
+            <FIPs travelReq="Y">51033</FIPs>
+            <FIPs travelReq="N">51177</FIPs>
+            <FIPs travelReq="N">51099</FIPs>
+            <FIPs travelReq="N" languages="Russian, Spanish">51179</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51085</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51013</FIPs>
+            <FIPs travelReq="N">51610</FIPs>
+            <FIPs travelReq="N" languages="Russian, Spanish">51510</FIPs>
+            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N" languages="Russian, Spanish">51059</FIPs>
+            <FIPs travelReq="N" languages="Russian, Spanish">51061</FIPs>
+            <FIPs travelReq="N" languages="Russian, Spanish">51157</FIPs>
+            <FIPs travelReq="N" languages="Russian, Spanish">51107</FIPs>
+            <FIPs travelReq="Y">51139</FIPs>
+            <FIPs travelReq="N" languages="Russian, Spanish">51683</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51685</FIPs>
+            <FIPs travelReq="N" languages="Russian, Spanish">51153</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51595</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51081</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51175</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51183</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51053</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51670</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51149</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51730</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51570</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51087</FIPs>
+            <FIPs travelReq="N">51036</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51127</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51095</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51760</FIPs>
+            <FIPs travelReq="N" languages="Russian">51047</FIPs>
+            <FIPs travelReq="Y">51113</FIPs>
+            <FIPs travelReq="Y">51043</FIPs>
+            <FIPs travelReq="Y">51187</FIPs>
+            <FIPs travelReq="N">51137</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51830</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51181</FIPs>
+            <FIPs travelReq="Y">51041</FIPs>
         </Service>
     </Provider>
     <Provider id="83">
