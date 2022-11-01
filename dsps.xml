@@ -2771,6 +2771,66 @@
             <FIPs travelReq="N">51133</FIPs>
             <FIPs travelReq="N">51193</FIPs>
         </Service>
+        <Service serviceName="Adolescent Community Reinforcement Approach (A-CRA)" serviceZoom="1">
+            <FIPs travelReq="N">51057</FIPs>
+            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="N">51073</FIPs>
+            <FIPs travelReq="N">51097</FIPs>
+            <FIPs travelReq="N">51103</FIPs>
+            <FIPs travelReq="N">51119</FIPs>
+            <FIPs travelReq="N">51115</FIPs>
+            <FIPs travelReq="N">51159</FIPs>
+            <FIPs travelReq="N">51133</FIPs>
+            <FIPs travelReq="N">51193</FIPs>
+        </Service>
+        <Service serviceName="Crisis Services" serviceZoom="1">
+            <FIPs travelReq="N">51057</FIPs>
+            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="N">51073</FIPs>
+            <FIPs travelReq="N">51097</FIPs>
+            <FIPs travelReq="N">51103</FIPs>
+            <FIPs travelReq="N">51119</FIPs>
+            <FIPs travelReq="N">51115</FIPs>
+            <FIPs travelReq="N">51159</FIPs>
+            <FIPs travelReq="N">51133</FIPs>
+            <FIPs travelReq="N">51193</FIPs>
+        </Service>
+        <Service serviceName="EMDR Therapy" serviceZoom="1">
+            <FIPs travelReq="N">51057</FIPs>
+            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="N">51073</FIPs>
+            <FIPs travelReq="N">51097</FIPs>
+            <FIPs travelReq="N">51103</FIPs>
+            <FIPs travelReq="N">51119</FIPs>
+            <FIPs travelReq="N">51115</FIPs>
+            <FIPs travelReq="N">51159</FIPs>
+            <FIPs travelReq="N">51133</FIPs>
+            <FIPs travelReq="N">51193</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Evaluation" serviceZoom="1">
+            <FIPs travelReq="N">51057</FIPs>
+            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="N">51073</FIPs>
+            <FIPs travelReq="N">51097</FIPs>
+            <FIPs travelReq="N">51103</FIPs>
+            <FIPs travelReq="N">51119</FIPs>
+            <FIPs travelReq="N">51115</FIPs>
+            <FIPs travelReq="N">51159</FIPs>
+            <FIPs travelReq="N">51133</FIPs>
+            <FIPs travelReq="N">51193</FIPs>
+        </Service>
+        <Service serviceName="ICC Family Support Partner" serviceZoom="1">
+            <FIPs travelReq="N">51057</FIPs>
+            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="N">51073</FIPs>
+            <FIPs travelReq="N">51097</FIPs>
+            <FIPs travelReq="N">51103</FIPs>
+            <FIPs travelReq="N">51119</FIPs>
+            <FIPs travelReq="N">51115</FIPs>
+            <FIPs travelReq="N">51159</FIPs>
+            <FIPs travelReq="N">51133</FIPs>
+            <FIPs travelReq="N">51193</FIPs>
+        </Service>
     </Provider>
     <Provider id="39">
         <Name>National Counseling Group</Name>
