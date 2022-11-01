@@ -2582,7 +2582,7 @@
     </Provider>
     <Provider id="37">
         <Name>Middle Peninsula Northern Neck CSB</Name>
-        <LastUpdated>2021-08-25</LastUpdated>
+        <LastUpdated>2022-10-31</LastUpdated>
         <MapZoom>1</MapZoom>
         <Website>www.mpnncsb.org</Website>
         <ContactName>Emily Eanes, LPC, LMFT</ContactName>
@@ -2664,30 +2664,18 @@
             <FIPs travelReq="N">51193</FIPs>
         </Service>
         <Service serviceName="Individual/ Family Counseling" serviceZoom="1">
-            <FIPs travelReq="N">51057</FIPs>
-            <FIPs travelReq="N">51101</FIPs>
-            <FIPs travelReq="N">51073</FIPs>
-            <FIPs travelReq="N">51097</FIPs>
-            <FIPs travelReq="N">51103</FIPs>
-            <FIPs travelReq="N">51119</FIPs>
-            <FIPs travelReq="N">51115</FIPs>
-            <FIPs travelReq="N">51159</FIPs>
-            <FIPs travelReq="N">51133</FIPs>
-            <FIPs travelReq="N">51193</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51057</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51101</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51073</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51097</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51103</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51119</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51115</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51159</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51133</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51193</FIPs>
         </Service>
         <Service serviceName="Substance Abuse Service" serviceZoom="1">
-            <FIPs travelReq="N">51057</FIPs>
-            <FIPs travelReq="N">51101</FIPs>
-            <FIPs travelReq="N">51073</FIPs>
-            <FIPs travelReq="N">51097</FIPs>
-            <FIPs travelReq="N">51103</FIPs>
-            <FIPs travelReq="N">51119</FIPs>
-            <FIPs travelReq="N">51115</FIPs>
-            <FIPs travelReq="N">51159</FIPs>
-            <FIPs travelReq="N">51133</FIPs>
-            <FIPs travelReq="N">51193</FIPs>
-        </Service>
-        <Service serviceName="Job Readiness and Employment Service" serviceZoom="1">
             <FIPs travelReq="N">51057</FIPs>
             <FIPs travelReq="N">51101</FIPs>
             <FIPs travelReq="N">51073</FIPs>
@@ -2724,6 +2712,54 @@
             <FIPs travelReq="N">51193</FIPs>
         </Service>
         <Service serviceName="Specialized Individual Therapy (DBT/ EMDR)" serviceZoom="1">
+            <FIPs travelReq="N">51057</FIPs>
+            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="N">51073</FIPs>
+            <FIPs travelReq="N">51097</FIPs>
+            <FIPs travelReq="N">51103</FIPs>
+            <FIPs travelReq="N">51119</FIPs>
+            <FIPs travelReq="N">51115</FIPs>
+            <FIPs travelReq="N">51159</FIPs>
+            <FIPs travelReq="N">51133</FIPs>
+            <FIPs travelReq="N">51193</FIPs>
+        </Service>
+        <Service serviceName="Adolescent Community Reinforcement Approach (A-CRA)" serviceZoom="1">
+            <FIPs travelReq="N">51057</FIPs>
+            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="N">51073</FIPs>
+            <FIPs travelReq="N">51097</FIPs>
+            <FIPs travelReq="N">51103</FIPs>
+            <FIPs travelReq="N">51119</FIPs>
+            <FIPs travelReq="N">51115</FIPs>
+            <FIPs travelReq="N">51159</FIPs>
+            <FIPs travelReq="N">51133</FIPs>
+            <FIPs travelReq="N">51193</FIPs>
+        </Service>
+        <Service serviceName="DBT Therapy" serviceZoom="1">
+            <FIPs travelReq="N">51057</FIPs>
+            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="N">51073</FIPs>
+            <FIPs travelReq="N">51097</FIPs>
+            <FIPs travelReq="N">51103</FIPs>
+            <FIPs travelReq="N">51119</FIPs>
+            <FIPs travelReq="N">51115</FIPs>
+            <FIPs travelReq="N">51159</FIPs>
+            <FIPs travelReq="N">51133</FIPs>
+            <FIPs travelReq="N">51193</FIPs>
+        </Service>
+        <Service serviceName="Trauma-Focused Cognitive Behavioral Therapy (TF-CBT)" serviceZoom="1">
+            <FIPs travelReq="N">51057</FIPs>
+            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="N">51073</FIPs>
+            <FIPs travelReq="N">51097</FIPs>
+            <FIPs travelReq="N">51103</FIPs>
+            <FIPs travelReq="N">51119</FIPs>
+            <FIPs travelReq="N">51115</FIPs>
+            <FIPs travelReq="N">51159</FIPs>
+            <FIPs travelReq="N">51133</FIPs>
+            <FIPs travelReq="N">51193</FIPs>
+        </Service>
+        <Service serviceName="Parenting Skills for Youth" serviceZoom="1">
             <FIPs travelReq="N">51057</FIPs>
             <FIPs travelReq="N">51101</FIPs>
             <FIPs travelReq="N">51073</FIPs>
