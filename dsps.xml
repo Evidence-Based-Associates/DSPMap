@@ -1927,7 +1927,7 @@
     </Provider>
     <Provider id="32">
         <Name>Integrated Health Services</Name>
-        <LastUpdated>2021-09-02</LastUpdated>
+        <LastUpdated>2022-11-08</LastUpdated>
         <MapZoom>1</MapZoom>
         <Website>www.ihsva.com</Website>
         <ContactName>Jackie Duval</ContactName>
@@ -1964,29 +1964,29 @@
         </Office>
         <Service serviceZoom="-1" serviceName="Psycho-Sexual Evaluation">
             <!-- CSU9 except Matthews and Middlesex -->
-            <FIPs travelReq="N">51073</FIPs>
-            <FIPs travelReq="N">51095</FIPs>
-            <FIPs travelReq="N">51097</FIPs>
-            <FIPs travelReq="N">51101</FIPs>
-            <FIPs travelReq="N">51127</FIPs>
-            <FIPs travelReq="N">51199</FIPs>
-            <FIPs travelReq="N">51735</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51073</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51095</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51097</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51101</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51127</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51199</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51735</FIPs>
             <FIPs travelReq="N">51830</FIPs>
-            <FIPs travelReq="N">51760</FIPs>
-            <FIPs travelReq="N">51710</FIPs>
-            <FIPs travelReq="N">51810</FIPs>
-            <FIPs travelReq="N">51550</FIPs>
-            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51760</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51710</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51810</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51550</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51740</FIPs>
             <FIPs travelReq="N">51650</FIPs>
-            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51700</FIPs>
             <FIPs travelReq="N">51800</FIPs>
-            <FIPs travelReq="N">51670</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51670</FIPs>
             <FIPs travelReq="N">51570</FIPs>
-            <FIPs travelReq="N">51041</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51041</FIPs>
             <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="N">51085</FIPs>
-            <FIPs travelReq="N">51149</FIPs>
-            <FIPs travelReq="N">51730</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51085</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51149</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51730</FIPs>
             <FIPs travelReq="N">51036</FIPs>
             <FIPs travelReq="Y">51075</FIPs>
             <FIPs travelReq="Y">51109</FIPs>
@@ -2108,8 +2108,8 @@
             <FIPs travelReq="N">51830</FIPs>
             <FIPs travelReq="Y">51075</FIPs>
             <FIPs travelReq="N" languages="Spanish">51735</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51131</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51001</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51131</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51001</FIPs>
         </Service>
         <Service serviceZoom="-1" serviceName="Substance Abuse Service">
             <!-- CSU9 except Matthews and Middlesex -->
@@ -2176,6 +2176,37 @@
             <FIPs travelReq="Y">51001</FIPs>
         </Service>
         <Service serviceZoom="-1" serviceName="Substance Abuse Evaluation">
+            <!-- CSU9 except Matthews and Middlesex -->
+            <FIPs travelReq="N">51073</FIPs>
+            <FIPs travelReq="N">51095</FIPs>
+            <FIPs travelReq="N">51097</FIPs>
+            <FIPs travelReq="N">51101</FIPs>
+            <FIPs travelReq="N">51127</FIPs>
+            <FIPs travelReq="N">51199</FIPs>
+            <FIPs travelReq="N">51735</FIPs>
+            <FIPs travelReq="N">51830</FIPs>
+            <FIPs travelReq="N">51760</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51550</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="N">51800</FIPs>
+            <FIPs travelReq="N">51670</FIPs>
+            <FIPs travelReq="N">51570</FIPs>
+            <FIPs travelReq="N">51041</FIPs>
+            <FIPs travelReq="N">51087</FIPs>
+            <FIPs travelReq="N">51085</FIPs>
+            <FIPs travelReq="N">51149</FIPs>
+            <FIPs travelReq="N">51730</FIPs>
+            <FIPs travelReq="N">51036</FIPs>
+            <FIPs travelReq="Y">51075</FIPs>
+            <FIPs travelReq="Y">51109</FIPs>
+            <FIPs travelReq="N">51131</FIPs>
+            <FIPs travelReq="N">51001</FIPs>
+        </Service>
+        <Service serviceZoom="-1" serviceName="Anger Management">
             <!-- CSU9 except Matthews and Middlesex -->
             <FIPs travelReq="N">51073</FIPs>
             <FIPs travelReq="N">51095</FIPs>
