@@ -8201,7 +8201,7 @@
     </Provider>
     <Provider id="88">
         <Name>City of Alexandria Department of Community &amp; Human Services (DCHS)</Name>
-        <LastUpdated>2021-08-25</LastUpdated>
+        <LastUpdated>2022-11-02</LastUpdated>
         <MapZoom>51510</MapZoom>
         <Website>www.alexandriava.gov/DCHS</Website>
         <ContactName>Intake</ContactName>
@@ -8217,7 +8217,7 @@
             <Fax/>
         </Office>
         <Service serviceName="Mental Health Evaluation" serviceZoom="0">
-            <FIPs travelReq="N" languages="Spanish, Amharic">51510</FIPs>
+            <FIPs travelReq="Y">51510</FIPs>
         </Service>
         <Service serviceName="ICC Family Support Partner" serviceZoom="0">
             <FIPs travelReq="N">51510</FIPs>
