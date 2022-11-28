@@ -1752,7 +1752,7 @@
     </Provider>
     <Provider id="27">
         <Name>Brambleton Assessment and Counseling Center, LLC</Name>
-        <LastUpdated>2021-08-25</LastUpdated>
+        <LastUpdated>2022-11-04</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website/>
         <ContactName>Lauren Smelser</ContactName>
@@ -1771,8 +1771,45 @@
             <FIPs travelReq="N">51770</FIPs>
             <FIPs travelReq="N">51775</FIPs>
             <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="Y">51045</FIPs>
-            <FIPs travelReq="Y">51023</FIPs>
+            <FIPs travelReq="Y">51005</FIPs>
+            <FIPs travelReq="Y">51580</FIPs>
+            <FIPs travelReq="Y">51163</FIPs>
+            <FIPs travelReq="Y">51678</FIPs>
+            <FIPs travelReq="Y">51530</FIPs>
+            <FIPs travelReq="Y">51009</FIPs>
+            <FIPs travelReq="Y">51125</FIPs>
+            <FIPs travelReq="Y">51015</FIPs>
+            <FIPs travelReq="Y">51790</FIPs>
+            <FIPs travelReq="Y">51820</FIPs>
+            <FIPs travelReq="Y">51017</FIPs>
+            <FIPs travelReq="Y">51680</FIPs>
+            <FIPs travelReq="Y">51031</FIPs>
+            <FIPs travelReq="Y">51121</FIPs>
+            <FIPs travelReq="Y">51067</FIPs>
+            <FIPs travelReq="Y">51063</FIPs>
+            <FIPs travelReq="Y">51155</FIPs>
+            <FIPs travelReq="Y">51750</FIPs>
+            <FIPs travelReq="Y">51071</FIPs>
+            <FIPs travelReq="N">51045</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+        </Service>
+        <Service serviceName="Youth with Sexualized Behaviors (YSB) Treatment" serviceZoom="-1">
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="N">51045</FIPs>
+            <FIPs travelReq="Y">51019</FIPs>
+            <FIPs travelReq="Y">51163</FIPs>
+            <FIPs travelReq="Y">51121</FIPs>
+            <FIPs travelReq="Y">51063</FIPs>
+            <FIPs travelReq="Y">51067</FIPs>
+        </Service>
+        <Service serviceName="Mental Health Evaluation" serviceZoom="-1">
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="Y">51005</FIPs>
             <FIPs travelReq="Y">51580</FIPs>
             <FIPs travelReq="Y">51163</FIPs>
@@ -1784,7 +1821,6 @@
             <FIPs travelReq="Y">51015</FIPs>
             <FIPs travelReq="Y">51790</FIPs>
             <FIPs travelReq="Y">51820</FIPs>
-            <FIPs travelReq="Y">51091</FIPs>
             <FIPs travelReq="Y">51017</FIPs>
             <FIPs travelReq="Y">51680</FIPs>
             <FIPs travelReq="Y">51031</FIPs>
@@ -1794,11 +1830,8 @@
             <FIPs travelReq="Y">51155</FIPs>
             <FIPs travelReq="Y">51750</FIPs>
             <FIPs travelReq="Y">51071</FIPs>
-        </Service>
-        <Service serviceName="Youth with Sexualized Behaviors (YSB) Treatment" serviceZoom="-1">
-            <FIPs travelReq="N">51770</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="N">51045</FIPs>
         </Service>
     </Provider>
     <Provider id="31">
