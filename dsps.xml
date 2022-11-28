@@ -316,6 +316,89 @@
         <FIPs travelReq="Y" languages="Spanish">51077</FIPs>
     </Service>
 </Provider>
+    <Provider id="3">
+        <Name>Blue Ridge Behavioral Healthcare</Name>
+        <LastUpdated>2021-09-23</LastUpdated>
+        <MapZoom>-1</MapZoom>
+        <Website>www.brbh.org</Website>
+        <ContactName>Cathy L. Brown, LCSW</ContactName>
+        <ContactEmail>cbrown@brbh.org</ContactEmail>
+        <Office>
+            <Lat>37.2617967</Lat>
+            <Lng>-79.94710099999999</Lng>
+            <Street>1315 Franklin Rd. SW</Street>
+            <City>Roanoke</City>
+            <State>VA</State>
+            <Zip>24016</Zip>
+            <Phone>(540) 981-1102 ext. 2248</Phone>
+            <Fax>(540) 344-4169</Fax>
+        </Office>
+        <Service serviceName="Substance Abuse Service" serviceZoom="1">
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Spanish">51770</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Spanish">51045</FIPs>
+            <FIPs travelReq="N" languages="">51023</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Spanish">51775</FIPs>
+        </Service>
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="1">
+            <!-- Craig and Botetourt -->
+            <FIPs travelReq="N">51045</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Spanish">51023</FIPs>
+            <!-- All of CSU23 -->
+            <FIPs travelReq="N" languages="Farsi, Spanish">51161</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <!-- CSU23A Roanoke -->
+            <FIPs travelReq="N">51770</FIPs>
+        </Service>
+        <Service serviceName="Mental Health Evaluation" serviceZoom="1">
+            <!-- Craig and Botetourt -->
+            <FIPs travelReq="N">51045</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Spanish">51023</FIPs>
+            <!-- All of CSU23 -->
+            <FIPs travelReq="N" languages="Farsi, Spanish">51161</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <!-- CSU23A Roanoke -->
+            <FIPs travelReq="N">51770</FIPs>
+        </Service>
+        <Service serviceName="HFW Intensive Care Coordination" serviceZoom="1">
+            <!-- Craig and Botetourt -->
+            <FIPs travelReq="N">51045</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <!-- All of CSU23 -->
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <!-- CSU23A Roanoke -->
+            <FIPs travelReq="N">51770</FIPs>
+        </Service>
+        <Service serviceName="Functional Family Therapy (FFT)" serviceZoom="1">
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Spanish">51045</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Spanish">51023</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+        </Service>
+        <Service serviceName="Trauma-Focused Cognitive Behavioral Therapy (TF-CBT)" serviceZoom="1">
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51045</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+        </Service>
+        <Service serviceName="Specialized Individual Therapy (DBT/ EMDR)" serviceZoom="1">
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51045</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Evaluation" serviceZoom="1">
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51045</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+        </Service>
+    </Provider>
     <Provider id="4">
         <Name>DePaul Community Resources</Name>
         <LastUpdated>2021-10-13</LastUpdated>
