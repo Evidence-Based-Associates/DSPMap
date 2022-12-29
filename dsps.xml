@@ -5761,11 +5761,12 @@
     </Provider>
     <Provider id="6">
         <Name>Connected Communities Inc</Name>
-        <LastUpdated>2022-09-06</LastUpdated>
+        <LastUpdated>2022-12-22</LastUpdated>
         <MapZoom>0</MapZoom>
         <Website>www.cciwinchester.com/</Website>
-        <ContactName>Krystal DeWalt</ContactName>
+        <ContactName>Megan Slaughter</ContactName>
         <ContactEmail>info@cciwinchester.com</ContactEmail>
+
         <Office>
             <Lat>39.1826616</Lat>
             <Lng>-78.1643134</Lng>
@@ -5774,7 +5775,17 @@
             <State>VA</State>
             <Zip>22601</Zip>
             <Phone>540-404-5985</Phone>
-            <Fax>(540)773-8579</Fax>
+            <Fax>(540)545-5891</Fax>
+        </Office>
+        <Office>
+            <Lat>38.9128747</Lat>
+            <Lng>-78.19391399999999</Lng>
+            <Street>410 S Royal Ave</Street>
+            <City>Front Royal </City>
+            <State>VA</State>
+            <Zip>22630</Zip>
+            <Phone>5404045985</Phone>
+            <Fax>info@cciwinchester.com</Fax>
         </Office>
         <Service serviceName="Individual/ Family Counseling" serviceZoom="0">
             <FIPs travelReq="N" languages="Thai, Spanish">51069</FIPs>
@@ -5790,9 +5801,13 @@
             <FIPs travelReq="N" languages="Spanish">51840</FIPs>
             <FIPs travelReq="N">51043</FIPs>
             <FIPs travelReq="N">51187</FIPs>
-            <FIPs travelReq="Y">51107</FIPs>
+
             <FIPs travelReq="N">51171</FIPs>
-            <FIPs travelReq="Y">51139</FIPs>
+
+            <FIPs travelReq="N">51139</FIPs>
+            <FIPs travelReq="N">51107</FIPs>
+            <FIPs travelReq="Y">51061</FIPs>
+            <FIPs travelReq="Y">51153</FIPs>
         </Service>
         <Service serviceName="Youth with Sexualized Behaviors (YSB) Treatment" serviceZoom="0">
             <FIPs travelReq="N" languages="Thai">51069</FIPs>
