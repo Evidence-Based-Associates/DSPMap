@@ -1995,7 +1995,7 @@
     </Provider>
     <Provider id="31">
         <Name>Horizon Behavioral Health</Name>
-        <LastUpdated>2022-04-01</LastUpdated>
+        <LastUpdated>2023-01-30</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.horizonbh.org</Website>
         <ContactName>Jennifer Smith Ramey, LPC</ContactName>
@@ -2077,6 +2077,55 @@
             <FIPs travelReq="N">51011</FIPs>
         </Service>
         <Service serviceName="Substance Abuse Intensive Outpatient (SAIOP)" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+        </Service>
+        <Service serviceName="EMDR Therapy" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+        </Service>
+        <Service serviceName="Trauma-Focused Cognitive Behavioral Therapy (TF-CBT)" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Intensive Outpatient (SAIOP)" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+        </Service>
+        <Service serviceName="HFW Intensive Care Coordination" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+        </Service>
+        <Service serviceName="ARTS Intensive Outpatient Programs" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+        </Service>
+        <Service serviceName="DBT Therapy" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+        </Service>
+        <Service serviceName="Crisis Services" serviceZoom="-1">
             <FIPs travelReq="N">51680</FIPs>
             <FIPs travelReq="N">51009</FIPs>
             <FIPs travelReq="N">51019</FIPs>
