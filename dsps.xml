@@ -9101,4 +9101,94 @@
             <FIPs travelReq="N" languages="Spanish">51067</FIPs>
         </Service>
     </Provider>
+    <Provider id="7">
+        <Name>Strategic Therapy Associates, Inc.</Name>
+        <LastUpdated>2023-03-09</LastUpdated>
+        <MapZoom>-1</MapZoom>
+        <Website>s614510739.initial-website.com</Website>
+        <ContactName>Misty Grossman</ContactName>
+        <ContactEmail>mgrossman@strategictherapyassociates.com</ContactEmail>
+        <Office>
+            <Lat>37.3428129</Lat>
+            <Lng>-79.2341454</Lng>
+            <Street>66 Timberoak Ct.</Street>
+            <City>Lynchburg</City>
+            <State>VA</State>
+            <Zip>24502</Zip>
+            <Phone>4347930567</Phone>
+            <Fax/>
+        </Office>
+        <Office>
+            <Lat>37.3031704</Lat>
+            <Lng>-78.39419889999999</Lng>
+            <Street>217 W. 3rd St. Ste. 5&amp;8</Street>
+            <City>Farmville</City>
+            <State>VA</State>
+            <Zip>23901</Zip>
+            <Phone/>
+            <Fax/>
+        </Office>
+        <Office>
+            <Lat>36.5674882</Lat>
+            <Lng>-79.4311371</Lng>
+            <Street>1225 W. Main St.</Street>
+            <City>Danville</City>
+            <State>VA</State>
+            <Zip>24541</Zip>
+            <Phone/>
+            <Fax/>
+        </Office>
+        <Office>
+            <Lat>36.6910191</Lat>
+            <Lng>-79.8726027</Lng>
+            <Street>15a East Church St.</Street>
+            <City>Martinsville</City>
+            <State>VA</State>
+            <Zip>24112</Zip>
+            <Phone/>
+            <Fax/>
+        </Office>
+        <Office>
+            <Lat>36.6990954</Lat>
+            <Lng>-80.8618649</Lng>
+            <Street>7599 C. Carrollton Pike</Street>
+            <City>Galax</City>
+            <State>VA</State>
+            <Zip>24333</Zip>
+            <Phone/>
+            <Fax/>
+        </Office>
+        <Office>
+            <Lat>37.2506384</Lat>
+            <Lng>-79.94844510000001</Lng>
+            <Street>306 McClanahan St. Ste. B</Street>
+            <City>Roanoke</City>
+            <State>VA</State>
+            <Zip>24014</Zip>
+            <Phone/>
+            <Fax/>
+        </Office>
+        <Office>
+            <Lat>36.8789629</Lat>
+            <Lng>-76.215035</Lng>
+            <Street>2428 Almeda Ave. Ste. 108</Street>
+            <City>Norfolk</City>
+            <State>VA</State>
+            <Zip>23513</Zip>
+            <Phone/>
+            <Fax/>
+        </Office>
+        <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="-1">
+        </Service>
+        <Service serviceName="Mental Health Skill Building" serviceZoom="-1">
+        </Service>
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
+        </Service>
+        <Service serviceName="Skills Coaching (e.g. Casey Life Skills)" serviceZoom="-1">
+        </Service>
+        <Service serviceName="Functional Family Therapy (FFT)" serviceZoom="-1">
+        </Service>
+        <Service serviceName="Brief Strategic Family Therapy" serviceZoom="-1">
+        </Service>
+    </Provider>
 </DSPs>
