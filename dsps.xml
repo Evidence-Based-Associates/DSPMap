@@ -8525,44 +8525,6 @@
             <FIPs travelReq="Y">51179</FIPs>
         </Service>
     </Provider>
-    <Provider id="112">
-        <Name>Pathfinders Resources</Name>
-        <LastUpdated>2021-10-13</LastUpdated>
-        <MapZoom>-1</MapZoom>
-        <Website>pathfindersresources.com/</Website>
-        <ContactName>Alvis Williams</ContactName>
-        <ContactEmail>alvisw@pathfindersresources.com</ContactEmail>
-        <Office>
-            <Lat>36.5857115</Lat>
-            <Lng>-79.42750999999998</Lng>
-            <Street>3310 Riverside Dr</Street>
-            <City>Danville</City>
-            <State>VA</State>
-            <Zip>24541</Zip>
-            <Phone>(434) 533-5060</Phone>
-            <Fax>(336) 860-1660</Fax>
-        </Office>
-        <Service serviceName="Skills Coaching (e.g. Casey Life Skills)" serviceZoom="2">
-            <FIPs travelReq="N">51690</FIPs>
-            <FIPs travelReq="N">51089</FIPs>
-            <FIPs travelReq="N">51590</FIPs>
-            <FIPs travelReq="N">51141</FIPs>
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="N">51770</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-            <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="N">51031</FIPs>
-        </Service>
-        <Service serviceName="Language Services" serviceZoom="2">
-            <FIPs travelReq="N" languages="Spanish">51690</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51089</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51590</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51141</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51143</FIPs>
-            <FIPs travelReq="N" languages="Spanish">51067</FIPs>
-        </Service>
-    </Provider>
     <Provider id="7">
         <Name>Strategic Therapy Associates, Inc.</Name>
         <LastUpdated>2023-03-09</LastUpdated>
