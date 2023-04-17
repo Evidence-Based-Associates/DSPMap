@@ -8434,30 +8434,6 @@
             <FIPs travelReq="Y">51199</FIPs>
         </Service>
     </Provider>
-    <Provider id="103">
-        <Name>Next Steps</Name>
-        <LastUpdated>2018-10-24</LastUpdated>
-        <MapZoom>2</MapZoom>
-        <Website/>
-        <ContactName>Rick Mitchell</ContactName>
-        <ContactEmail>rick@nextsteps.cc</ContactEmail>
-        <Office>
-            <Lat>36.934226</Lat>
-            <Lng>-81.99883</Lng>
-            <Street>80 Woodbriar St</Street>
-            <City>Lebanon </City>
-            <State>VA</State>
-            <Zip>24266</Zip>
-            <Phone>276-971-1488</Phone>
-            <Fax/>
-        </Office>
-        <Service serviceName="Mental Health Evaluation" serviceZoom="2">
-            <FIPs travelReq="N">51185</FIPs>
-            <FIPs travelReq="N">51167</FIPs>
-            <FIPs travelReq="N">51027</FIPs>
-            <FIPs travelReq="N">51051</FIPs>
-        </Service>
-    </Provider>
     <Provider id="105">
         <Name>New Genesis Recovery Center, PLLC</Name>
         <LastUpdated>2019-04-09</LastUpdated>
