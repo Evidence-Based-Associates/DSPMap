@@ -8243,34 +8243,6 @@
             <FIPs travelReq="N">51047</FIPs>
         </Service>
     </Provider>
-    <Provider id="101">
-        <Name>Shining Diamonds </Name>
-        <LastUpdated>2021-09-29</LastUpdated>
-        <MapZoom>2</MapZoom>
-        <Website>www.shiningdiamondsmentoring.com</Website>
-        <ContactName>Marvin Martin</ContactName>
-        <ContactEmail>marvinmartin821@yahoo.com</ContactEmail>
-        <Office>
-            <Lat>36.6710076</Lat>
-            <Lng>-79.73448859999996</Lng>
-            <Street>85 Moral Hill Dr.</Street>
-            <City>Axton</City>
-            <State>VA</State>
-            <Zip>24054</Zip>
-            <Phone>336-268-7489</Phone>
-            <Fax/>
-        </Office>
-        <Service serviceName="Skills Coaching (e.g. Casey Life Skills)" serviceZoom="2">
-            <FIPs travelReq="N">51143</FIPs>
-            <FIPs travelReq="N">51590</FIPs>
-            <FIPs travelReq="N">51690</FIPs>
-            <FIPs travelReq="N">51089</FIPs>
-            <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="N">51770</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-        </Service>
-    </Provider>
     <Provider id="102">
         <Name>Therapeutic Alliance Services</Name>
         <LastUpdated>2021-12-27</LastUpdated>
