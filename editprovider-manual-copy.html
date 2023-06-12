@@ -963,12 +963,10 @@ function createDSPXML(){
     var providerTxt = '<Provider id="'+pID+'">\r';
     providerTxt += provider.innerHTML;//LOOK HERE LATER
     providerTxt += '</Provider>';
-    document.getElementsByName("DSPXMLCode")[0].value = providerTxt;
-    document.getElementsByName("submitterName")[0].value = document.getElementById("submitter").value;
-    document.getElementsByName("submitterE")[0].value = document.getElementById("submitterEmail").value;
     sessionStorage.setItem("DSPCode",providerTxt);
     sessionStorage.setItem("submitterName",document.getElementById("submitter").value);
     sessionStorage.setItem("submitterEmail",document.getElementById("submitterEmail").value);
+    document.getElementById("previewForm").submit();
 }
 function testCreateDSPXML(){
     fetchInputUpdates();
@@ -1203,8 +1201,8 @@ function testCreateDSPXML(){
 
  <!--END...COMMENT OUT THE TWO BUTTONS BEFORE UPLOAD-->
 <br>
-<form method="get" action="preview-manual-copy.html" onsubmit="createDSPXML()">
-<button type="submit" class="btn btn-primary">Preview Changes</button>
+<form id="previewForm" method="get" action="preview-manual-copy.html">
+<button type="button" onclick="createDSPXML()" class="btn btn-primary">Preview Changes</button>
 </form>
 </center>
 </div>
