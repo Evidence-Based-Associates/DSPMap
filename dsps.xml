@@ -4758,7 +4758,7 @@
     </Provider>
     <Provider id="53">
         <Name>Trauma and Hope</Name>
-        <LastUpdated>2021-06-01</LastUpdated>
+        <LastUpdated>2023-06-12</LastUpdated>
         <MapZoom>0</MapZoom>
         <Website>www.traumaandhope.com</Website>
         <ContactName>Deepa Patel</ContactName>
@@ -4819,7 +4819,7 @@
             <FIPs travelReq="Y" languages="Spanish">51107</FIPs>
         </Service>
         <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="0">
-            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51600</FIPs>
             <FIPs travelReq="N" languages="Spanish">51059</FIPs>
             <FIPs travelReq="N" languages="Spanish">51153</FIPs>
             <FIPs travelReq="N" languages="Spanish">51683</FIPs>
@@ -4827,7 +4827,13 @@
             <FIPs travelReq="N" languages="Spanish">51510</FIPs>
             <FIPs travelReq="N" languages="Spanish">51013</FIPs>
             <FIPs travelReq="N" languages="Spanish">51610</FIPs>
-            <FIPs travelReq="Y" languages="Spanish">51107</FIPs>
+
+
+
+            <FIPs travelReq="N" languages="Spanish">51630</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51179</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51061</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51107</FIPs>
         </Service>
         <Service serviceName="Youth with Sexualized Behaviors (YSB) Treatment" serviceZoom="0">
             <FIPs travelReq="N">51600</FIPs>
@@ -4841,6 +4847,91 @@
             <FIPs travelReq="Y" languages="Spanish">51107</FIPs>
             <FIPs travelReq="Y" languages="Spanish">51179</FIPs>
             <FIPs travelReq="Y" languages="Spanish">51061</FIPs>
+        </Service>
+        <Service serviceName="Parenting Skills for Youth" serviceZoom="0">
+            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51059</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51153</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51683</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51685</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51510</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51013</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51610</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51107</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51061</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51179</FIPs>
+        </Service>
+        <Service serviceName="DBT Therapy" serviceZoom="0">
+            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51059</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51153</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51683</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51685</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51510</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51013</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51610</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51107</FIPs>
+            <FIPs travelReq="Y">51061</FIPs>
+            <FIPs travelReq="Y">51179</FIPs>
+        </Service>
+        <Service serviceName="Mental Health Evaluation" serviceZoom="0">
+            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51059</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51153</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51683</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51685</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51510</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51013</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51610</FIPs>
+
+
+
+            <FIPs travelReq="N">51179</FIPs>
+            <FIPs travelReq="N">51107</FIPs>
+            <FIPs travelReq="N">51061</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Evaluation" serviceZoom="0">
+            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51059</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51153</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51683</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51685</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51510</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51013</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51610</FIPs>
+
+
+
+            <FIPs travelReq="N">51179</FIPs>
+            <FIPs travelReq="N">51107</FIPs>
+            <FIPs travelReq="N">51061</FIPs>
+            <FIPs travelReq="N">51630</FIPs>
+        </Service>
+        <Service serviceName="EMDR Therapy" serviceZoom="0">
+            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51059</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51153</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51683</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51685</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51510</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51013</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51610</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51107</FIPs>
+            <FIPs travelReq="Y">51061</FIPs>
+            <FIPs travelReq="Y">51179</FIPs>
+        </Service>
+        <Service serviceName="Specialized Individual Therapy (DBT/ EMDR)" serviceZoom="0">
+            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51059</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51153</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51683</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51685</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51510</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51013</FIPs>
+            <FIPs travelReq="N" languages="Spanish">51610</FIPs>
+            <FIPs travelReq="Y" languages="Spanish">51107</FIPs>
+            <FIPs travelReq="Y">51061</FIPs>
+            <FIPs travelReq="Y">51179</FIPs>
         </Service>
     </Provider>
     <Provider id="54">
