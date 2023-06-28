@@ -8303,7 +8303,7 @@
     </Provider>
     <Provider id="7">
         <Name>Strategic Therapy Associates, Inc.</Name>
-        <LastUpdated>2023-03-09</LastUpdated>
+        <LastUpdated>2023-06-27</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>s614510739.initial-website.com</Website>
         <ContactName>Misty Grossman</ContactName>
@@ -8379,16 +8379,393 @@
             <Fax/>
         </Office>
         <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="Y">51029</FIPs>
+            <FIPs travelReq="Y">51147</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="Y">51095</FIPs>
+            <FIPs travelReq="Y">51830</FIPs>
+            <FIPs travelReq="Y">51036</FIPs>
+            <FIPs travelReq="Y">51127</FIPs>
+            <FIPs travelReq="Y">51199</FIPs>
+            <FIPs travelReq="Y">51735</FIPs>
+            <FIPs travelReq="Y">51073</FIPs>
+            <FIPs travelReq="N">51640</FIPs>
+            <FIPs travelReq="N">51035</FIPs>
+            <FIPs travelReq="N">51143</FIPs>
+            <FIPs travelReq="N">51590</FIPs>
+            <FIPs travelReq="N">51089</FIPs>
+            <FIPs travelReq="N">51690</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="Y">51063</FIPs>
+            <FIPs travelReq="Y">51141</FIPs>
+            <FIPs travelReq="Y">51155</FIPs>
+            <FIPs travelReq="Y">51750</FIPs>
+            <FIPs travelReq="Y">51077</FIPs>
+            <FIPs travelReq="Y">51023</FIPs>
+            <FIPs travelReq="Y">51045</FIPs>
+            <FIPs travelReq="Y">51125</FIPs>
         </Service>
         <Service serviceName="Mental Health Skill Building" serviceZoom="-1">
-        </Service>
-        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="Y">51029</FIPs>
+            <FIPs travelReq="Y">51147</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="Y">51095</FIPs>
+            <FIPs travelReq="Y">51830</FIPs>
+            <FIPs travelReq="Y">51036</FIPs>
+            <FIPs travelReq="Y">51127</FIPs>
+            <FIPs travelReq="Y">51199</FIPs>
+            <FIPs travelReq="Y">51735</FIPs>
+            <FIPs travelReq="Y">51073</FIPs>
+            <FIPs travelReq="N">51640</FIPs>
+            <FIPs travelReq="N">51035</FIPs>
+            <FIPs travelReq="N">51143</FIPs>
+            <FIPs travelReq="N">51590</FIPs>
+            <FIPs travelReq="N">51089</FIPs>
+            <FIPs travelReq="N">51690</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="Y">51063</FIPs>
+            <FIPs travelReq="Y">51141</FIPs>
+            <FIPs travelReq="Y">51155</FIPs>
+            <FIPs travelReq="Y">51750</FIPs>
+            <FIPs travelReq="Y">51077</FIPs>
+            <FIPs travelReq="Y">51023</FIPs>
+            <FIPs travelReq="Y">51045</FIPs>
+            <FIPs travelReq="Y">51125</FIPs>
         </Service>
         <Service serviceName="Skills Coaching (e.g. Casey Life Skills)" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="Y">51029</FIPs>
+            <FIPs travelReq="Y">51147</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="Y">51095</FIPs>
+            <FIPs travelReq="Y">51830</FIPs>
+            <FIPs travelReq="Y">51036</FIPs>
+            <FIPs travelReq="Y">51127</FIPs>
+            <FIPs travelReq="Y">51199</FIPs>
+            <FIPs travelReq="Y">51735</FIPs>
+            <FIPs travelReq="Y">51073</FIPs>
+            <FIPs travelReq="N">51640</FIPs>
+            <FIPs travelReq="N">51035</FIPs>
+            <FIPs travelReq="N">51143</FIPs>
+            <FIPs travelReq="N">51590</FIPs>
+            <FIPs travelReq="N">51089</FIPs>
+            <FIPs travelReq="N">51690</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="Y">51063</FIPs>
+            <FIPs travelReq="Y">51141</FIPs>
+            <FIPs travelReq="Y">51155</FIPs>
+            <FIPs travelReq="Y">51750</FIPs>
+            <FIPs travelReq="Y">51077</FIPs>
+            <FIPs travelReq="Y">51023</FIPs>
+            <FIPs travelReq="Y">51045</FIPs>
+            <FIPs travelReq="Y">51125</FIPs>
         </Service>
         <Service serviceName="Functional Family Therapy (FFT)" serviceZoom="-1">
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="N">51735</FIPs>
+            <FIPs travelReq="Y">51199</FIPs>
+            <FIPs travelReq="Y">51095</FIPs>
+            <FIPs travelReq="Y">51830</FIPs>
+            <FIPs travelReq="Y">51125</FIPs>
+            <FIPs travelReq="Y">51011</FIPs>
         </Service>
         <Service serviceName="Brief Strategic Family Therapy" serviceZoom="-1">
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="N">51735</FIPs>
+            <FIPs travelReq="Y">51199</FIPs>
+            <FIPs travelReq="Y">51095</FIPs>
+            <FIPs travelReq="Y">51830</FIPs>
+            <FIPs travelReq="Y">51125</FIPs>
+            <FIPs travelReq="Y">51011</FIPs>
+        </Service>
+        <Service serviceName="HFW Intensive Care Coordination" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+        </Service>
+        <Service serviceName="Trauma-Focused Cognitive Behavioral Therapy (TF-CBT)" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+        </Service>
+        <Service serviceName="DBT Therapy" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Evaluation" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="Y">51029</FIPs>
+            <FIPs travelReq="Y">51147</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="Y">51095</FIPs>
+            <FIPs travelReq="Y">51830</FIPs>
+            <FIPs travelReq="Y">51036</FIPs>
+            <FIPs travelReq="Y">51127</FIPs>
+            <FIPs travelReq="Y">51199</FIPs>
+            <FIPs travelReq="Y">51735</FIPs>
+            <FIPs travelReq="Y">51073</FIPs>
+            <FIPs travelReq="N">51640</FIPs>
+            <FIPs travelReq="N">51035</FIPs>
+            <FIPs travelReq="N">51143</FIPs>
+            <FIPs travelReq="N">51590</FIPs>
+            <FIPs travelReq="N">51089</FIPs>
+            <FIPs travelReq="N">51690</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="Y">51063</FIPs>
+            <FIPs travelReq="Y">51141</FIPs>
+            <FIPs travelReq="Y">51155</FIPs>
+            <FIPs travelReq="Y">51750</FIPs>
+            <FIPs travelReq="Y">51077</FIPs>
+            <FIPs travelReq="Y">51023</FIPs>
+            <FIPs travelReq="Y">51045</FIPs>
+            <FIPs travelReq="Y">51125</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Service" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="Y">51029</FIPs>
+            <FIPs travelReq="Y">51147</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="Y">51095</FIPs>
+            <FIPs travelReq="Y">51830</FIPs>
+            <FIPs travelReq="Y">51036</FIPs>
+            <FIPs travelReq="Y">51127</FIPs>
+            <FIPs travelReq="Y">51199</FIPs>
+            <FIPs travelReq="Y">51735</FIPs>
+            <FIPs travelReq="Y">51073</FIPs>
+            <FIPs travelReq="N">51640</FIPs>
+            <FIPs travelReq="N">51035</FIPs>
+            <FIPs travelReq="N">51143</FIPs>
+            <FIPs travelReq="N">51590</FIPs>
+            <FIPs travelReq="N">51089</FIPs>
+            <FIPs travelReq="N">51690</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="Y">51063</FIPs>
+            <FIPs travelReq="Y">51141</FIPs>
+            <FIPs travelReq="Y">51155</FIPs>
+            <FIPs travelReq="Y">51750</FIPs>
+            <FIPs travelReq="Y">51077</FIPs>
+            <FIPs travelReq="Y">51023</FIPs>
+            <FIPs travelReq="Y">51045</FIPs>
+            <FIPs travelReq="Y">51125</FIPs>
+        </Service>
+        <Service serviceName="Specialized Individual Therapy (DBT/ EMDR)" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="Y">51029</FIPs>
+            <FIPs travelReq="Y">51147</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="Y">51095</FIPs>
+            <FIPs travelReq="Y">51830</FIPs>
+            <FIPs travelReq="Y">51036</FIPs>
+            <FIPs travelReq="Y">51127</FIPs>
+            <FIPs travelReq="Y">51199</FIPs>
+            <FIPs travelReq="Y">51735</FIPs>
+            <FIPs travelReq="Y">51073</FIPs>
+            <FIPs travelReq="N">51640</FIPs>
+            <FIPs travelReq="N">51035</FIPs>
+            <FIPs travelReq="N">51143</FIPs>
+            <FIPs travelReq="N">51590</FIPs>
+            <FIPs travelReq="N">51089</FIPs>
+            <FIPs travelReq="N">51690</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="Y">51063</FIPs>
+            <FIPs travelReq="Y">51141</FIPs>
+            <FIPs travelReq="Y">51155</FIPs>
+            <FIPs travelReq="Y">51750</FIPs>
+            <FIPs travelReq="Y">51077</FIPs>
+            <FIPs travelReq="Y">51023</FIPs>
+            <FIPs travelReq="Y">51045</FIPs>
+            <FIPs travelReq="Y">51125</FIPs>
+        </Service>
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="Y">51029</FIPs>
+            <FIPs travelReq="Y">51147</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="Y">51095</FIPs>
+            <FIPs travelReq="Y">51830</FIPs>
+            <FIPs travelReq="Y">51036</FIPs>
+            <FIPs travelReq="Y">51127</FIPs>
+            <FIPs travelReq="Y">51199</FIPs>
+            <FIPs travelReq="Y">51735</FIPs>
+            <FIPs travelReq="Y">51073</FIPs>
+            <FIPs travelReq="N">51640</FIPs>
+            <FIPs travelReq="N">51035</FIPs>
+            <FIPs travelReq="N">51143</FIPs>
+            <FIPs travelReq="N">51590</FIPs>
+            <FIPs travelReq="N">51089</FIPs>
+            <FIPs travelReq="N">51690</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="Y">51063</FIPs>
+            <FIPs travelReq="Y">51141</FIPs>
+            <FIPs travelReq="Y">51155</FIPs>
+            <FIPs travelReq="Y">51750</FIPs>
+            <FIPs travelReq="Y">51077</FIPs>
+            <FIPs travelReq="Y">51023</FIPs>
+            <FIPs travelReq="Y">51045</FIPs>
+            <FIPs travelReq="Y">51125</FIPs>
+        </Service>
+        <Service serviceName="Mental Health Evaluation" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="Y">51029</FIPs>
+            <FIPs travelReq="Y">51147</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="Y">51095</FIPs>
+            <FIPs travelReq="Y">51830</FIPs>
+            <FIPs travelReq="Y">51036</FIPs>
+            <FIPs travelReq="Y">51127</FIPs>
+            <FIPs travelReq="Y">51199</FIPs>
+            <FIPs travelReq="Y">51735</FIPs>
+            <FIPs travelReq="Y">51073</FIPs>
+            <FIPs travelReq="N">51640</FIPs>
+            <FIPs travelReq="N">51035</FIPs>
+            <FIPs travelReq="N">51143</FIPs>
+            <FIPs travelReq="N">51590</FIPs>
+            <FIPs travelReq="N">51089</FIPs>
+            <FIPs travelReq="N">51690</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51121</FIPs>
+            <FIPs travelReq="Y">51063</FIPs>
+            <FIPs travelReq="Y">51141</FIPs>
+            <FIPs travelReq="Y">51155</FIPs>
+            <FIPs travelReq="Y">51750</FIPs>
+            <FIPs travelReq="Y">51077</FIPs>
+            <FIPs travelReq="Y">51023</FIPs>
+            <FIPs travelReq="Y">51045</FIPs>
+            <FIPs travelReq="Y">51125</FIPs>
+        </Service>
+        <Service serviceName="Parenting Skills for Youth" serviceZoom="-1">
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="N">51735</FIPs>
+            <FIPs travelReq="Y">51199</FIPs>
+            <FIPs travelReq="Y">51095</FIPs>
+            <FIPs travelReq="Y">51830</FIPs>
+            <FIPs travelReq="Y">51125</FIPs>
+            <FIPs travelReq="Y">51011</FIPs>
         </Service>
     </Provider>
     <Provider id="11">
