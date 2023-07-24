@@ -1556,8 +1556,8 @@
         </Service>
     </Provider>
     <Provider id="27">
-        <Name>Brambleton Assessment and Counseling Center, LLC</Name>
-        <LastUpdated>2022-11-04</LastUpdated>
+        <Name>Brambleton Assessment and Counseling Center</Name>
+        <LastUpdated>2023-07-18</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website/>
         <ContactName>Lauren Smelser</ContactName>
@@ -1592,9 +1592,7 @@
             <FIPs travelReq="Y">51121</FIPs>
             <FIPs travelReq="Y">51067</FIPs>
             <FIPs travelReq="Y">51063</FIPs>
-            <FIPs travelReq="Y">51155</FIPs>
             <FIPs travelReq="Y">51750</FIPs>
-            <FIPs travelReq="Y">51071</FIPs>
             <FIPs travelReq="N">51045</FIPs>
             <FIPs travelReq="N">51023</FIPs>
             <FIPs travelReq="N">51019</FIPs>
