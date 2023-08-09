@@ -8868,4 +8868,23 @@
             <FIPs travelReq="Y">51109</FIPs>
         </Service>
     </Provider>
+    <Provider id="12">
+        <Name>3rd Millennium Classrooms</Name>
+        <LastUpdated>2023-08-03</LastUpdated>
+        <MapZoom>-1</MapZoom>
+        <Website>3rdmil.com</Website>
+        <ContactName>Kathy Toohey</ContactName>
+        <ContactEmail>ktoohey@3rdmilclassrooms.com</ContactEmail>
+        <Office>
+            <Lat>37.4315734</Lat>
+            <Lng>-78.6568942</Lng>
+            <Street>Help Desk: help@3rdmil.com</Street>
+            <City/>
+            <State>VA</State>
+            <Zip/>
+            <Phone/>
+            <Fax/>
+        </Office>
+        <Service serviceName="NONE" serviceZoom="-1"/>
+    </Provider>
 </DSPs>
