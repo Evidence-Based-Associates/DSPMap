@@ -55,6 +55,7 @@ var thisXML = dspsXML;
 var approvedServiceNames = ["Adolescent Community Reinforcement Approach (A-CRA)",
                             "Anger Management",
                             "ARTS Intensive Outpatient Programs",
+                            "Behavioral Intervention and Educational Course",
                             "Brief Strategic Family Therapy",
                             "Crisis Services",
                             "EMDR Therapy",
