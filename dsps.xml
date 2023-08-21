@@ -8770,11 +8770,13 @@
     </Provider>
     <Provider id="11">
         <Name>Empowering Families Program</Name>
-        <LastUpdated>2023-05-02</LastUpdated>
+        <LastUpdated>2023-08-16</LastUpdated>
         <MapZoom>1</MapZoom>
         <Website>www.empoweringfamiliesprogram.com/</Website>
         <ContactName>Heather Knowles</ContactName>
         <ContactEmail>heather.knowles2016@gmail.com</ContactEmail>
+
+
         <Office>
             <Lat>38.4720935</Lat>
             <Lng>-77.9950317</Lng>
@@ -8798,12 +8800,23 @@
         <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="-1">
             <FIPs travelReq="N">51003</FIPs>
             <FIPs travelReq="N">51540</FIPs>
-            <FIPs travelReq="Y">51109</FIPs>
-            <FIPs travelReq="Y">51137</FIPs>
+
+
             <FIPs travelReq="N">51047</FIPs>
             <FIPs travelReq="N">51113</FIPs>
             <FIPs travelReq="Y">51079</FIPs>
             <FIPs travelReq="Y">51065</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="N">51029</FIPs>
+            <FIPs travelReq="N">51125</FIPs>
+            <FIPs travelReq="N">51137</FIPs>
+            <FIPs travelReq="N">51109</FIPs>
+            <FIPs travelReq="Y">51630</FIPs>
+            <FIPs travelReq="Y">51179</FIPs>
+            <FIPs travelReq="N">51683</FIPs>
+            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="N">51061</FIPs>
         </Service>
         <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
             <FIPs travelReq="N">51003</FIPs>
@@ -8848,12 +8861,23 @@
         <Service serviceName="Mental Health Skill Building" serviceZoom="-1">
             <FIPs travelReq="N">51003</FIPs>
             <FIPs travelReq="N">51540</FIPs>
-            <FIPs travelReq="Y">51109</FIPs>
-            <FIPs travelReq="Y">51137</FIPs>
             <FIPs travelReq="N">51047</FIPs>
             <FIPs travelReq="N">51113</FIPs>
             <FIPs travelReq="Y">51079</FIPs>
             <FIPs travelReq="Y">51065</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51125</FIPs>
+            <FIPs travelReq="N">51029</FIPs>
+            <FIPs travelReq="N">51840</FIPs>
+            <FIPs travelReq="N">51069</FIPs>
+            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="N">51683</FIPs>
+            <FIPs travelReq="N">51685</FIPs>
+            <FIPs travelReq="N">51061</FIPs>
+            <FIPs travelReq="N">51109</FIPs>
+            <FIPs travelReq="N">51137</FIPs>
+            <FIPs travelReq="Y">51177</FIPs>
         </Service>
         <Service serviceName="Skills Coaching (e.g. Casey Life Skills)" serviceZoom="-1">
             <FIPs travelReq="N">51540</FIPs>
@@ -8863,9 +8887,17 @@
             <FIPs travelReq="N">51003</FIPs>
             <FIPs travelReq="Y">51065</FIPs>
             <FIPs travelReq="N">51137</FIPs>
-            <FIPs travelReq="Y">51177</FIPs>
             <FIPs travelReq="Y">51157</FIPs>
-            <FIPs travelReq="Y">51109</FIPs>
+            <FIPs travelReq="N">51061</FIPs>
+            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="N">51683</FIPs>
+            <FIPs travelReq="N">51685</FIPs>
+            <FIPs travelReq="Y">51177</FIPs>
+            <FIPs travelReq="N">51109</FIPs>
+            <FIPs travelReq="N">51125</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="N">51029</FIPs>
         </Service>
     </Provider>
     <Provider id="12">
