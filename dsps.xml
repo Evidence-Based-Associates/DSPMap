@@ -4711,9 +4711,9 @@
         </Service>
     </Provider>
     <Provider id="49">
-        <Name>Fields of Hope and Dreams Mentoring, LLC</Name>
-        <LastUpdated>2021-04-09</LastUpdated>
-        <MapZoom>2</MapZoom>
+        <Name>Fields of Hope and Dreams Mentoring</Name>
+        <LastUpdated>2023-08-28</LastUpdated>
+        <MapZoom>1</MapZoom>
         <Website/>
         <ContactName>Marvin Fields</ContactName>
         <ContactEmail>mfields04que@gmail.com</ContactEmail>
@@ -4732,8 +4732,14 @@
             <FIPs travelReq="N">51770</FIPs>
             <FIPs travelReq="N">51775</FIPs>
             <FIPs travelReq="Y">51067</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="Y">51011</FIPs>
+            <FIPs travelReq="Y">51023</FIPs>
         </Service>
-    </Provider>
+    </Provider> 
     <Provider id="50">
         <Name>Shenandoah Valley Adolescent Treatment</Name>
         <LastUpdated>2018-02-16</LastUpdated>
