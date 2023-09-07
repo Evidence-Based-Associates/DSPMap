@@ -8948,9 +8948,9 @@
             <FIPs travelReq="N">51029</FIPs>
         </Service>
     </Provider>
-    <Provider id="12">
+   <Provider id="12">
         <Name>3rd Millennium Classrooms</Name>
-        <LastUpdated>2023-08-03</LastUpdated>
+        <LastUpdated>2023-09-05</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>3rdmil.com</Website>
         <ContactName>Kathy Toohey</ContactName>
@@ -8965,6 +8965,37 @@
             <Phone/>
             <Fax/>
         </Office>
-        <Service serviceName="NONE" serviceZoom="-1"/>
-    </Provider>
+        <Service serviceName="Behavioral Intervention and Educational Course" serviceZoom="-1">
+            <FIPs travelReq="N">51059</FIPs>
+            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N">51610</FIPs>
+            <FIPs travelReq="N">51036</FIPs>
+            <FIPs travelReq="N">51127</FIPs>
+            <FIPs travelReq="N">51073</FIPs>
+            <FIPs travelReq="N">51115</FIPs>
+            <FIPs travelReq="N">51119</FIPs>
+            <FIPs travelReq="N">51103</FIPs>
+            <FIPs travelReq="N">51095</FIPs>
+            <FIPs travelReq="N">51830</FIPs>
+            <FIPs travelReq="N">51199</FIPs>
+            <FIPs travelReq="N">51735</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="N">51045</FIPs>
+            <FIPs travelReq="N">51005</FIPs>
+            <FIPs travelReq="N">51580</FIPs>
+            <FIPs travelReq="N">51017</FIPs>
+            <FIPs travelReq="N">51091</FIPs>
+            <FIPs travelReq="N">51015</FIPs>
+            <FIPs travelReq="N">51790</FIPs>
+            <FIPs travelReq="N">51820</FIPs>
+            <FIPs travelReq="N">51125</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51530</FIPs>
+            <FIPs travelReq="N">51678</FIPs>
+            <FIPs travelReq="N">51163</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+        </Service>
+    </Provider> 
 </DSPs>
