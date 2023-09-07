@@ -6103,9 +6103,9 @@
             <FIPs travelReq="N">51143</FIPs>
         </Service>
     </Provider>
-    <Provider id="18">
-        <Name>Youth Connect</Name>
-        <LastUpdated>2021-10-13</LastUpdated>
+   <Provider id="18">
+        <Name>Youth Connect of Virginia</Name>
+        <LastUpdated>2023-09-05</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>youthconnectva.com</Website>
         <ContactName>Taylor Kyle</ContactName>
@@ -6120,16 +6120,6 @@
             <Phone>(540) 488-5636</Phone>
             <Fax/>
         </Office>
-        <Office>
-            <Lat>37.3044517</Lat>
-            <Lng>-78.4077729</Lng>
-            <Street>1012 W 3rd St </Street>
-            <City>Farmville</City>
-            <State>VA</State>
-            <Zip>23901</Zip>
-            <Phone>434-395-1200</Phone>
-            <Fax/>
-        </Office>
         <Service serviceName="Electronic Monitoring" serviceZoom="2">
             <FIPs travelReq="N">51690</FIPs>
             <FIPs travelReq="N">51089</FIPs>
@@ -6140,6 +6130,10 @@
             <FIPs travelReq="N">51775</FIPs>
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51141</FIPs>
+            <FIPs travelReq="Y">51019</FIPs>
+            <FIPs travelReq="Y">51031</FIPs>
+            <FIPs travelReq="Y">51680</FIPs>
+            <FIPs travelReq="Y">51023</FIPs>
         </Service>
         <Service serviceName="Skills Coaching (e.g. Casey Life Skills)" serviceZoom="2">
             <FIPs travelReq="N">51690</FIPs>
@@ -6151,6 +6145,7 @@
             <FIPs travelReq="N">51775</FIPs>
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51141</FIPs>
+            <FIPs travelReq="Y">51019</FIPs>
         </Service>
         <Service serviceName="Individual/ Family Counseling" serviceZoom="2">
             <FIPs travelReq="N">51690</FIPs>
@@ -6173,6 +6168,8 @@
             <FIPs travelReq="N">51775</FIPs>
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51141</FIPs>
+            <FIPs travelReq="Y">51019</FIPs>
+            <FIPs travelReq="Y">51031</FIPs>
         </Service>
         <Service serviceName="ICC Family Support Partner" serviceZoom="2">
             <FIPs travelReq="N">51690</FIPs>
@@ -6184,6 +6181,7 @@
             <FIPs travelReq="N">51775</FIPs>
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51141</FIPs>
+            <FIPs travelReq="Y">51019</FIPs>
         </Service>
         <Service serviceName="HFW Intensive Care Coordination" serviceZoom="2">
             <FIPs travelReq="N">51690</FIPs>
@@ -6195,6 +6193,7 @@
             <FIPs travelReq="N">51775</FIPs>
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51141</FIPs>
+            <FIPs travelReq="Y">51019</FIPs>
         </Service>
         <Service serviceName="Mental Health Evaluation" serviceZoom="2">
             <FIPs travelReq="N">51690</FIPs>
@@ -6207,7 +6206,7 @@
             <FIPs travelReq="N">51161</FIPs>
             <FIPs travelReq="N">51141</FIPs>
         </Service>
-    </Provider>
+    </Provider> 
    <Provider id="40">
         <Name>Salveo Consulting, PLLC</Name>
         <LastUpdated>2022-09-22</LastUpdated>
