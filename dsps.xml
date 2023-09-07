@@ -775,7 +775,7 @@
     </Provider>
     <Provider id="5">
         <Name>Impact Living Services</Name>
-        <LastUpdated>2021-01-12</LastUpdated>
+        <LastUpdated>2023-09-05</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.impactlivingservices.org</Website>
         <ContactName>Adam Pavao</ContactName>
@@ -830,10 +830,38 @@
             <Phone/>
             <Fax/>
         </Office>
+        <Office>
+            <Lat>38.2175892</Lat>
+            <Lng>-77.50465489999999</Lng>
+            <Street>4660 Monroe Way</Street>
+            <City>Fredericksburg</City>
+            <State>VA</State>
+            <Zip>22407</Zip>
+            <Phone/>
+            <Fax/>
+        </Office>
+        <Office>
+            <Lat>36.7943167</Lat>
+            <Lng>-76.0905271</Lng>
+            <Street>1303 Evergreen Ct</Street>
+            <City>Virginia Beach</City>
+            <State>VA</State>
+            <Zip>23453</Zip>
+            <Phone/>
+            <Fax/>
+        </Office>
+        <Office>
+            <Lat>36.7947741</Lat>
+            <Lng>-76.08769629999999</Lng>
+            <Street>1329 White Pine Court </Street>
+            <City>   Virginia Beach,</City>
+            <State>VA</State>
+            <Zip>23453</Zip>
+            <Phone/>
+            <Fax/>
+        </Office>
         <Service serviceName="Skills Coaching (e.g. Casey Life Skills)" serviceZoom="-1">
             <FIPs travelReq="N">51680</FIPs>
-            <FIPs travelReq="N">51009</FIPs>
-            <FIPs travelReq="N">51019</FIPs>
             <FIPs travelReq="N">51031</FIPs>
             <FIPs travelReq="N">51770</FIPs>
             <FIPs travelReq="N">51775</FIPs>
@@ -854,9 +882,99 @@
             <FIPs travelReq="Y">51790</FIPs>
             <FIPs travelReq="N">51019</FIPs>
             <FIPs travelReq="N">51023</FIPs>
-            <FIPs travelReq="Y">51820</FIPs>
-        </Service>
+            <FIPs travelReq="N">51820</FIPs>
+        </Service>    
         <Service serviceName="Substance Abuse Service" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51660</FIPs>
+            <FIPs travelReq="N">51165</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="Y">51820</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+        </Service>
+        <Service serviceName="Residential Independent Living" serviceZoom="-1">
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51660</FIPs>
+            <FIPs travelReq="N">51087</FIPs>
+            <FIPs travelReq="N">51165</FIPs>
+            <FIPs travelReq="N">51059</FIPs>
+            <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51810</FIPs>
+        </Service>
+        <Service serviceName="Youth with Sexualized Behaviors (YSB) Treatment" serviceZoom="1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="Y">51121</FIPs>
+            <FIPs travelReq="N">51790</FIPs>
+            <FIPs travelReq="N">51015</FIPs>
+            <FIPs travelReq="N">51165</FIPs>
+            <FIPs travelReq="N">51660</FIPs>
+            <FIPs travelReq="Y">51139</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="N">51820</FIPs>
+        </Service>
+        <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51011</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="Y">51121</FIPs>
+            <FIPs travelReq="N">51790</FIPs>
+            <FIPs travelReq="N">51015</FIPs>
+            <FIPs travelReq="N">51165</FIPs>
+            <FIPs travelReq="N">51660</FIPs>
+            <FIPs travelReq="Y">51139</FIPs>
+            <FIPs travelReq="N">51067</FIPs>
+            <FIPs travelReq="N">51023</FIPs>
+            <FIPs travelReq="N">51820</FIPs>
+            <FIPs travelReq="Y">51003</FIPs>
+        </Service>
+        <Service serviceName="Clinical Group" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+        </Service>
+        <Service serviceName="Moral Reconation Therapy Group" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+        </Service>
+        <Service serviceName="Non-Clinical Group (e.g. MRT, ART)" serviceZoom="-1">
+            <FIPs travelReq="N">51680</FIPs>
+            <FIPs travelReq="N">51031</FIPs>
+            <FIPs travelReq="N">51009</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+        </Service>
+        <Service serviceName="Crisis Services" serviceZoom="-1">
+            <FIPs travelReq="N">51770</FIPs>
+            <FIPs travelReq="N">51775</FIPs>
+            <FIPs travelReq="N">51161</FIPs>
+            <FIPs travelReq="N">51019</FIPs>
+            <FIPs travelReq="Y">51680</FIPs>
+        </Service>
+        <Service serviceName="Substance Abuse Evaluation" serviceZoom="-1">
             <FIPs travelReq="N">51680</FIPs>
             <FIPs travelReq="N">51009</FIPs>
             <FIPs travelReq="N">51031</FIPs>
@@ -871,48 +989,7 @@
             <FIPs travelReq="N">51019</FIPs>
             <FIPs travelReq="N">51023</FIPs>
             <FIPs travelReq="Y">51820</FIPs>
-        </Service>
-        <Service serviceName="Residential Independent Living" serviceZoom="-1">
-            <FIPs travelReq="N">51770</FIPs>
-            <FIPs travelReq="N">51680</FIPs>
-            <FIPs travelReq="N">51660</FIPs>
-            <FIPs travelReq="N">51087</FIPs>
-            <FIPs travelReq="N">51165</FIPs>
-            <FIPs travelReq="N">51059</FIPs>
-            <FIPs travelReq="N">51600</FIPs>
-            <FIPs travelReq="N">51161</FIPs>
-        </Service>
-        <Service serviceName="Youth with Sexualized Behaviors (YSB) Treatment" serviceZoom="1">
-            <FIPs travelReq="N">51680</FIPs>
-            <FIPs travelReq="N">51009</FIPs>
-            <FIPs travelReq="N">51019</FIPs>
-            <FIPs travelReq="N">51031</FIPs>
             <FIPs travelReq="N">51011</FIPs>
-            <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="N">51770</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-            <FIPs travelReq="Y">51121</FIPs>
-            <FIPs travelReq="Y">51067</FIPs>
-            <FIPs travelReq="Y">51023</FIPs>
-        </Service>
-        <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="1">
-            <FIPs travelReq="N">51680</FIPs>
-            <FIPs travelReq="N">51009</FIPs>
-            <FIPs travelReq="N">51019</FIPs>
-            <FIPs travelReq="N">51031</FIPs>
-            <FIPs travelReq="N">51011</FIPs>
-            <FIPs travelReq="N">51161</FIPs>
-            <FIPs travelReq="N">51770</FIPs>
-            <FIPs travelReq="N">51775</FIPs>
-            <FIPs travelReq="Y">51121</FIPs>
-            <FIPs travelReq="Y">51067</FIPs>
-            <FIPs travelReq="Y">51023</FIPs>
-        </Service>
-        <Service serviceName="Clinical Group" serviceZoom="-1">
-            <FIPs travelReq="N">51680</FIPs>
-            <FIPs travelReq="N">51009</FIPs>
-            <FIPs travelReq="N">51019</FIPs>
-            <FIPs travelReq="N">51031</FIPs>
         </Service>
     </Provider>
     <Provider id="8">
