@@ -8401,8 +8401,8 @@
         </Service>
     </Provider>
     <Provider id="104">
-        <Name>Adam Doane, Child and Family Counseling, PLLC</Name>
-        <LastUpdated>2019-02-11</LastUpdated>
+        <Name>Adam Doane Child and Family Counseling</Name>
+        <LastUpdated>2023-09-08</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website/>
         <ContactName>Adam Doane</ContactName>
@@ -8427,6 +8427,15 @@
             <FIPs travelReq="Y">51079</FIPs>
         </Service>
         <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="-1">
+            <FIPs travelReq="N">51047</FIPs>
+            <FIPs travelReq="N">51137</FIPs>
+            <FIPs travelReq="Y">51177</FIPs>
+            <FIPs travelReq="Y">51179</FIPs>
+            <FIPs travelReq="Y">51630</FIPs>
+            <FIPs travelReq="Y">51113</FIPs>
+            <FIPs travelReq="Y">51079</FIPs>
+        </Service>
+        <Service serviceName="Mental Health Evaluation" serviceZoom="-1">
             <FIPs travelReq="N">51047</FIPs>
             <FIPs travelReq="N">51137</FIPs>
             <FIPs travelReq="Y">51177</FIPs>
