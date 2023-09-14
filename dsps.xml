@@ -9120,4 +9120,70 @@
             <FIPs travelReq="N">51031</FIPs>
         </Service>
     </Provider> 
+    <Provider id="16">
+        <Name>Clinical Healing and Mindfulness Practices (CHAMP)</Name>
+        <LastUpdated>2023-09-13</LastUpdated>
+        <MapZoom>-1</MapZoom>
+        <Website>www.champva.life</Website>
+        <ContactName>Jamal Brown</ContactName>
+        <ContactEmail>admin@champva.life</ContactEmail>
+        <Office>
+            <Lat>36.74135</Lat>
+            <Lng>-76.3457098</Lng>
+            <Street/>
+            <City>Chesapeake</City>
+            <State>VA</State>
+            <Zip>23323</Zip>
+            <Phone>540.307.0002</Phone>
+            <Fax/>
+        </Office>
+        <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="-1">
+            <FIPs travelReq="Y">51735</FIPs>
+            <FIPs travelReq="Y">51199</FIPs>
+            <FIPs travelReq="Y">51073</FIPs>
+            <FIPs travelReq="Y">51830</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51550</FIPs>
+            <FIPs travelReq="Y">51095</FIPs>
+        </Service>
+        <Service serviceName="Mental Health Evaluation" serviceZoom="-1">
+            <FIPs travelReq="Y">51735</FIPs>
+            <FIPs travelReq="Y">51199</FIPs>
+            <FIPs travelReq="Y">51073</FIPs>
+            <FIPs travelReq="Y">51830</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51550</FIPs>
+            <FIPs travelReq="Y">51095</FIPs>
+        </Service>
+        <Service serviceName="Youth with Sexualized Behaviors (YSB) Treatment" serviceZoom="-1">
+            <FIPs travelReq="Y">51735</FIPs>
+            <FIPs travelReq="Y">51199</FIPs>
+            <FIPs travelReq="Y">51073</FIPs>
+            <FIPs travelReq="Y">51830</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51550</FIPs>
+            <FIPs travelReq="Y">51095</FIPs>
+        </Service>
+        <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
+            <FIPs travelReq="Y">51735</FIPs>
+            <FIPs travelReq="Y">51199</FIPs>
+            <FIPs travelReq="Y">51073</FIPs>
+            <FIPs travelReq="Y">51830</FIPs>
+            <FIPs travelReq="N">51710</FIPs>
+            <FIPs travelReq="N">51650</FIPs>
+            <FIPs travelReq="N">51700</FIPs>
+            <FIPs travelReq="N">51740</FIPs>
+            <FIPs travelReq="N">51550</FIPs>
+            <FIPs travelReq="Y">51095</FIPs>
+        </Service>
+    </Provider>
 </DSPs>
