@@ -9243,4 +9243,59 @@
             <FIPs travelReq="Y">51095</FIPs>
         </Service>
     </Provider>
+<Provider id="17">
+    <Name>The Williams Center for Wellness and Recovery </Name>
+    <LastUpdated>2023-11-30</LastUpdated>
+    <MapZoom>-1</MapZoom>
+    <Website>williamscenters.com/</Website>
+    <ContactName>Information</ContactName>
+    <ContactEmail>Info@WilliamsCenters.com</ContactEmail>
+    <Office>
+        <Lat>39.1197293</Lat>
+        <Lng>-77.5676287</Lng>
+        <Street>211 Gibson Street, NW Suite 123</Street>
+        <City>Leesburg</City>
+        <State>VA</State>
+        <Zip>20176</Zip>
+        <Phone>(571) 561-3040</Phone>
+        <Fax/>
+    </Office>
+    <Service serviceName="Substance Abuse Evaluation" serviceZoom="-1">
+        <FIPs travelReq="N">51107</FIPs>
+        <FIPs travelReq="Y">51061</FIPs>
+        <FIPs travelReq="Y">51043</FIPs>
+        <FIPs travelReq="Y">51153</FIPs>
+    </Service>
+    <Service serviceName="Substance Abuse Service" serviceZoom="-1">
+        <FIPs travelReq="N">51107</FIPs>
+        <FIPs travelReq="Y">51061</FIPs>
+        <FIPs travelReq="Y">51043</FIPs>
+        <FIPs travelReq="Y">51153</FIPs>
+    </Service>
+    <Service serviceName="Substance Abuse Intensive Outpatient (SAIOP)" serviceZoom="-1"/>
+    <Service serviceName="Mental Health Evaluation" serviceZoom="-1">
+        <FIPs travelReq="N">51107</FIPs>
+        <FIPs travelReq="Y">51061</FIPs>
+        <FIPs travelReq="Y">51043</FIPs>
+        <FIPs travelReq="Y">51153</FIPs>
+    </Service>
+    <Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
+        <FIPs travelReq="N">51107</FIPs>
+        <FIPs travelReq="Y">51061</FIPs>
+        <FIPs travelReq="Y">51043</FIPs>
+        <FIPs travelReq="Y">51153</FIPs>
+    </Service>
+    <Service serviceName="DBT Therapy" serviceZoom="-1">
+        <FIPs travelReq="N">51107</FIPs>
+        <FIPs travelReq="Y">51061</FIPs>
+        <FIPs travelReq="Y">51043</FIPs>
+        <FIPs travelReq="Y">51153</FIPs>
+    </Service>
+    <Service serviceName="Specialized Individual Therapy (DBT/ EMDR)" serviceZoom="-1">
+        <FIPs travelReq="N">51107</FIPs>
+        <FIPs travelReq="Y">51061</FIPs>
+        <FIPs travelReq="Y">51043</FIPs>
+        <FIPs travelReq="Y">51153</FIPs>
+    </Service>
+</Provider>
 </DSPs>
