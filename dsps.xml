@@ -9298,4 +9298,35 @@
         <FIPs travelReq="Y">51153</FIPs>
     </Service>
 </Provider>
+<Provider id="20">
+    <Name>Tidewater Youth Services Commission</Name>
+    <LastUpdated>2023-12-06</LastUpdated>
+    <MapZoom>-1</MapZoom>
+    <Website>www.tysfoundation.org/</Website>
+    <ContactName>Jenny Hodge</ContactName>
+    <ContactEmail>jhodge@tyscommission.org</ContactEmail>
+    <Office>
+        <Lat>36.8173192</Lat>
+        <Lng>-76.3550806</Lng>
+        <Street>2404 Airline Blvd</Street>
+        <City>Portsmouth</City>
+        <State>VA</State>
+        <Zip/>
+        <Phone>+1 757-488-9161</Phone>
+        <Fax/>
+    </Office>
+    <Office>
+        <Lat>36.8516437</Lat>
+        <Lng>-75.97921939999999</Lng>
+        <Street/>
+        <City>Virginia Beach</City>
+        <State>VA</State>
+        <Zip/>
+        <Phone>+1 757-488-9161</Phone>
+        <Fax/>
+    </Office>
+    <Service serviceName="Residential Independent Living" serviceZoom="-1">
+        <FIPs travelReq="N">51810</FIPs>
+    </Service>
+</Provider>
 </DSPs>
