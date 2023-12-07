@@ -4881,7 +4881,6 @@
         <Website/>
         <ContactName>Kelly Sharpes, LPC, CSOTP</ContactName>
         <ContactEmail>kelly.r.sharpes@gmail.com</ContactEmail>
-
         <Office>
             <Lat>38.446</Lat>
             <Lng>-78.869</Lng>
@@ -5008,9 +5007,6 @@
             <FIPs travelReq="N" languages="Spanish">51510</FIPs>
             <FIPs travelReq="N" languages="Spanish">51013</FIPs>
             <FIPs travelReq="N" languages="Spanish">51610</FIPs>
-
-
-
             <FIPs travelReq="N" languages="Spanish">51630</FIPs>
             <FIPs travelReq="N" languages="Spanish">51179</FIPs>
             <FIPs travelReq="N" languages="Spanish">51061</FIPs>
@@ -5064,9 +5060,6 @@
             <FIPs travelReq="N" languages="Spanish">51510</FIPs>
             <FIPs travelReq="N" languages="Spanish">51013</FIPs>
             <FIPs travelReq="N" languages="Spanish">51610</FIPs>
-
-
-
             <FIPs travelReq="N">51179</FIPs>
             <FIPs travelReq="N">51107</FIPs>
             <FIPs travelReq="N">51061</FIPs>
@@ -5080,9 +5073,6 @@
             <FIPs travelReq="N" languages="Spanish">51510</FIPs>
             <FIPs travelReq="N" languages="Spanish">51013</FIPs>
             <FIPs travelReq="N" languages="Spanish">51610</FIPs>
-
-
-
             <FIPs travelReq="N">51179</FIPs>
             <FIPs travelReq="N">51107</FIPs>
             <FIPs travelReq="N">51061</FIPs>
@@ -5471,8 +5461,8 @@
     </Provider>
     <Provider id="13">
         <Name>Envision Counseling</Name>
-        <LastUpdated>2021-08-25</LastUpdated>
-        <MapZoom>0</MapZoom>
+        <LastUpdated>2023-12-07</LastUpdated>
+        <MapZoom>-1</MapZoom>
         <Website>ncgenvision.com</Website>
         <ContactName>Stephanie Barbour</ContactName>
         <ContactEmail>stephanie.barbour@ncgenvision.com</ContactEmail>
@@ -5496,6 +5486,26 @@
             <Phone>833-698-4357</Phone>
             <Fax/>
         </Office>
+        <Office>
+            <Lat>39.1152962</Lat>
+            <Lng>-77.56440470000001</Lng>
+            <Street>1 E. Market St</Street>
+            <City>Leesburg</City>
+            <State>VA</State>
+            <Zip>20176</Zip>
+            <Phone>1-833-698-4357</Phone>
+            <Fax/>
+        </Office>
+        <Office>
+            <Lat>37.578497</Lat>
+            <Lng>-77.49895900000001</Lng>
+            <Street>5014 Monument Avenue</Street>
+            <City>Richmond</City>
+            <State>VA</State>
+            <Zip>23230</Zip>
+            <Phone>1-833-698-4357</Phone>
+            <Fax/>
+        </Office>
         <Service serviceName="Substance Abuse Service" serviceZoom="0">
             <FIPs travelReq="N">51600</FIPs>
             <FIPs travelReq="N">51059</FIPs>
@@ -5503,10 +5513,16 @@
             <FIPs travelReq="N">51685</FIPs>
             <FIPs travelReq="N">51153</FIPs>
             <FIPs travelReq="Y">51061</FIPs>
-            <FIPs travelReq="Y">51107</FIPs>
             <FIPs travelReq="N">51510</FIPs>
             <FIPs travelReq="N">51013</FIPs>
             <FIPs travelReq="N">51610</FIPs>
+            <FIPs travelReq="N">51107</FIPs>
+            <FIPs travelReq="N">51085</FIPs>
+            <FIPs travelReq="N">51087</FIPs>
+            <FIPs travelReq="N">51760</FIPs>
+            <FIPs travelReq="N">51041</FIPs>
+            <FIPs travelReq="Y">51075</FIPs>
+            <FIPs travelReq="Y">51145</FIPs>
         </Service>
         <Service serviceName="Individual/ Family Counseling" serviceZoom="0">
             <FIPs travelReq="N">51600</FIPs>
@@ -5609,7 +5625,6 @@
         <Website>www.cciwinchester.com/</Website>
         <ContactName>Megan Slaughter</ContactName>
         <ContactEmail>info@cciwinchester.com</ContactEmail>
-
         <Office>
             <Lat>39.1826616</Lat>
             <Lng>-78.1643134</Lng>
@@ -5644,9 +5659,7 @@
             <FIPs travelReq="N" languages="Spanish">51840</FIPs>
             <FIPs travelReq="N">51043</FIPs>
             <FIPs travelReq="N">51187</FIPs>
-
             <FIPs travelReq="N">51171</FIPs>
-
             <FIPs travelReq="N">51139</FIPs>
             <FIPs travelReq="N">51107</FIPs>
             <FIPs travelReq="Y">51061</FIPs>
@@ -9002,8 +9015,6 @@
         <Website>www.empoweringfamiliesprogram.com/</Website>
         <ContactName>Heather Knowles</ContactName>
         <ContactEmail>heather.knowles2016@gmail.com</ContactEmail>
-
-
         <Office>
             <Lat>38.4720935</Lat>
             <Lng>-77.9950317</Lng>
@@ -9027,8 +9038,6 @@
         <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="-1">
             <FIPs travelReq="N">51003</FIPs>
             <FIPs travelReq="N">51540</FIPs>
-
-
             <FIPs travelReq="N">51047</FIPs>
             <FIPs travelReq="N">51113</FIPs>
             <FIPs travelReq="Y">51079</FIPs>
