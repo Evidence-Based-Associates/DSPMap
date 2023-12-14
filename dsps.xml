@@ -5332,13 +5332,13 @@
             <FIPs travelReq="N">51087</FIPs>
         </Service>
     </Provider>
-    <Provider id="58">
+   <Provider id="58">
         <Name>Youth for Tomorrow</Name>
-        <LastUpdated>2021-08-24</LastUpdated>
+        <LastUpdated>2023-12-12</LastUpdated>
         <MapZoom>0</MapZoom>
         <Website>www.youthfortomorrow.org</Website>
-        <ContactName>Darnetta Jones</ContactName>
-        <ContactEmail>D_Jones@yftva.com</ContactEmail>
+        <ContactName>Amanda Stone</ContactName>
+        <ContactEmail>astone@yftva.com</ContactEmail>
         <Office>
             <Lat>38.739</Lat>
             <Lng>-77.549</Lng>
@@ -5356,7 +5356,7 @@
             <City>Landsdowne</City>
             <State>VA</State>
             <Zip>20176</Zip>
-            <Phone/>
+            <Phone>703-659-9900</Phone>
             <Fax/>
         </Office>
         <Office>
@@ -5389,13 +5389,16 @@
             <Phone/>
             <Fax/>
         </Office>
-        <Service serviceZoom="0" serviceName="Youth with Sexualized Behaviors (YSB) Treatment">
-            <FIPs travelReq="Y">51107</FIPs>
-            <FIPs travelReq="Y">51061</FIPs>
-            <FIPs travelReq="N">51683</FIPs>
-            <FIPs travelReq="N">51153</FIPs>
-            <FIPs travelReq="N">51685</FIPs>
-        </Service>
+        <Office>
+            <Lat>38.8125854</Lat>
+            <Lng>-77.63549019999999</Lng>
+            <Street>6611 Jefferson Street, 1st Floor</Street>
+            <City>Haymarket</City>
+            <State>VA</State>
+            <Zip>20169</Zip>
+            <Phone>703-659-9900</Phone>
+            <Fax/>
+        </Office>
         <Service serviceZoom="0" serviceName="Individual/ Family Counseling">
             <FIPs travelReq="N">51013</FIPs>
             <FIPs travelReq="N">51610</FIPs>
@@ -5414,11 +5417,11 @@
             <FIPs travelReq="N">51510</FIPs>
             <FIPs travelReq="N">51059</FIPs>
             <FIPs travelReq="N">51107</FIPs>
-            <FIPs travelReq="N">51061</FIPs>
-            <FIPs travelReq="N">51683</FIPs>
-            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="Y">51061</FIPs>
+            <FIPs travelReq="Y">51683</FIPs>
             <FIPs travelReq="N">51685</FIPs>
             <FIPs travelReq="N">51600</FIPs>
+            <FIPs travelReq="Y">51153</FIPs>
         </Service>
         <Service serviceZoom="0" serviceName="Residential Group Home">
             <FIPs travelReq="Y">51107</FIPs>
@@ -5430,9 +5433,11 @@
         <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="0">
             <FIPs travelReq="N">51059</FIPs>
             <FIPs travelReq="N">51600</FIPs>
-        </Service>
-        <Service serviceName="Psychological Evaluation" serviceZoom="0">
-            <FIPs travelReq="N">51107</FIPs>
+            <FIPs travelReq="N">51510</FIPs>
+            <FIPs travelReq="N">51610</FIPs>
+            <FIPs travelReq="Y">51683</FIPs>
+            <FIPs travelReq="Y">51153</FIPs>
+            <FIPs travelReq="Y">51685</FIPs>
         </Service>
         <Service serviceName="Language Services" serviceZoom="0">
             <FIPs travelReq="N" languages="Spanish">51683</FIPs>
@@ -5458,7 +5463,14 @@
             <FIPs travelReq="N">51153</FIPs>
             <FIPs travelReq="N">51685</FIPs>
         </Service>
-    </Provider>
+        <Service serviceName="Parenting Skills for Youth" serviceZoom="-1">
+            <FIPs travelReq="N">51153</FIPs>
+            <FIPs travelReq="N">51683</FIPs>
+            <FIPs travelReq="Y">51059</FIPs>
+            <FIPs travelReq="N">51685</FIPs>
+            <FIPs travelReq="Y">51600</FIPs>
+        </Service>
+    </Provider> 
     <Provider id="13">
         <Name>Envision Counseling</Name>
         <LastUpdated>2023-12-07</LastUpdated>
