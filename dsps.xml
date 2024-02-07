@@ -9457,4 +9457,44 @@
         <FIPs travelReq="Y">51036</FIPs>
     </Service>
 </Provider>
+<Provider id="24">
+    <Name>Elite Watch</Name>
+    <LastUpdated>2024-02-05</LastUpdated>
+    <MapZoom>1</MapZoom>
+    <Website/>
+    <ContactName>Shannon Overstreet</ContactName>
+    <ContactEmail>elite.watch.shannon@mail.com</ContactEmail>
+    <Office>
+        <Lat>37.3952514</Lat>
+        <Lng>-79.5363923</Lng>
+        <Street>1635 Woods Rd</Street>
+        <City>Bedford</City>
+        <State>VA</State>
+        <Zip/>
+        <Phone>(434) 942-1051</Phone>
+        <Fax/>
+    </Office>
+    <Service serviceName="Electronic Monitoring" serviceZoom="1">
+        <FIPs travelReq="N">51680</FIPs>
+        <FIPs travelReq="N">51019</FIPs>
+        <FIPs travelReq="N">51031</FIPs>
+        <FIPs travelReq="N">51009</FIPs>
+        <FIPs travelReq="N">51011</FIPs>
+        <FIPs travelReq="Y">51125</FIPs>
+        <FIPs travelReq="Y">51003</FIPs>
+        <FIPs travelReq="Y">51540</FIPs>
+        <FIPs travelReq="Y">51820</FIPs>
+        <FIPs travelReq="Y">51790</FIPs>
+        <FIPs travelReq="Y">51015</FIPs>
+        <FIPs travelReq="Y">51163</FIPs>
+        <FIPs travelReq="Y">51530</FIPs>
+        <FIPs travelReq="Y">51678</FIPs>
+        <FIPs travelReq="N">51023</FIPs>
+        <FIPs travelReq="Y">51161</FIPs>
+        <FIPs travelReq="Y">51770</FIPs>
+        <FIPs travelReq="Y">51775</FIPs>
+        <FIPs travelReq="Y">51067</FIPs>
+        <FIPs travelReq="Y">51029</FIPs>
+    </Service>
+</Provider>
 </DSPs>
