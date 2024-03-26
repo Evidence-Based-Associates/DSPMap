@@ -9341,4 +9341,134 @@
     <FIPs travelReq="N">51067</FIPs>
 </Service>
 </Provider>
+<Provider id="26">
+<Name>Lifebridge Counseling </Name>
+<LastUpdated>2024-03-18</LastUpdated>
+<MapZoom>-1</MapZoom>
+<Website>https://www.lifebridgecounseling.com/</Website>
+<ContactName>Referral Inbox</ContactName>
+<ContactEmail>refer@lifebridgecounseling.com</ContactEmail>
+<Office>
+    <Lat>37.3238269</Lat>
+    <Lng>-79.9609746</Lng>
+    <Street>5673 Airport Road</Street>
+    <City>Roanoke</City>
+    <State>VA</State>
+    <Zip>24012</Zip>
+    <Phone>540-523-8099</Phone>
+    <Fax/>
+</Office>
+<Office>
+    <Lat>38.1400227</Lat>
+    <Lng>-79.0702118</Lng>
+    <Street>605 Calvert Street</Street>
+    <City>Staunton</City>
+    <State>VA</State>
+    <Zip>24401</Zip>
+    <Phone>540-523-8099</Phone>
+    <Fax/>
+</Office>
+<Office>
+    <Lat>37.6773678</Lat>
+    <Lng>-77.4597099</Lng>
+    <Street>10187 Brook Road</Street>
+    <City>Glen Allen</City>
+    <State>VA</State>
+    <Zip>23059</Zip>
+    <Phone>804-612-3302</Phone>
+    <Fax/>
+</Office>
+<Office>
+    <Lat>37.3540088</Lat>
+    <Lng>-77.4845988</Lng>
+    <Street>11961 Ironbridge Road</Street>
+    <City>Chester</City>
+    <State>VA</State>
+    <Zip>23831</Zip>
+    <Phone>804-612-3330</Phone>
+    <Fax/>
+</Office>
+<Office>
+    <Lat>37.0574449</Lat>
+    <Lng>-76.4822221</Lng>
+    <Street>11622 Warwick Blvd </Street>
+    <City>Newport News</City>
+    <State>VA</State>
+    <Zip>23601</Zip>
+    <Phone>540-523-8099</Phone>
+    <Fax/>
+</Office>
+<Office>
+    <Lat>36.7634462</Lat>
+    <Lng>-76.3451639</Lng>
+    <Street>624 Happy Acres Road</Street>
+    <City>Chesapeake</City>
+    <State>VA</State>
+    <Zip>23323</Zip>
+    <Phone>804-612-3302</Phone>
+    <Fax/>
+</Office>
+<Office>
+    <Lat>36.9462743</Lat>
+    <Lng>-81.0847568</Lng>
+    <Street>285 South 6th Street</Street>
+    <City>Wytheville</City>
+    <State>VA</State>
+    <Zip>24382</Zip>
+    <Phone>540-523-8099</Phone>
+    <Fax/>
+</Office>
+<Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
+    <FIPs travelReq="N">51770</FIPs>
+    <FIPs travelReq="N">51161</FIPs>
+    <FIPs travelReq="N">51775</FIPs>
+    <FIPs travelReq="Y">51023</FIPs>
+    <FIPs travelReq="N">51790</FIPs>
+    <FIPs travelReq="N">51015</FIPs>
+    <FIPs travelReq="Y">51820</FIPs>
+    <FIPs travelReq="N">51087</FIPs>
+    <FIPs travelReq="N">51041</FIPs>
+    <FIPs travelReq="N">51760</FIPs>
+    <FIPs travelReq="Y">51085</FIPs>
+    <FIPs travelReq="N">51700</FIPs>
+    <FIPs travelReq="N">51550</FIPs>
+    <FIPs travelReq="Y">51810</FIPs>
+    <FIPs travelReq="Y">51710</FIPs>
+    <FIPs travelReq="Y">51650</FIPs>
+    <FIPs travelReq="Y">51740</FIPs>
+    <FIPs travelReq="Y">51750</FIPs>
+    <FIPs travelReq="Y">51155</FIPs>
+    <FIPs travelReq="N">51197</FIPs>
+</Service>
+<Service serviceName="Youth with Sexualized Behaviors (YSB) Treatment" serviceZoom="-1">
+    <FIPs travelReq="Y">51770</FIPs>
+    <FIPs travelReq="Y">51775</FIPs>
+    <FIPs travelReq="Y">51161</FIPs>
+    <FIPs travelReq="Y">51087</FIPs>
+    <FIPs travelReq="Y">51760</FIPs>
+    <FIPs travelReq="Y">51041</FIPs>
+</Service>
+<Service serviceName="Mental Health Evaluation" serviceZoom="-1">
+    <FIPs travelReq="N">51770</FIPs>
+    <FIPs travelReq="N">51161</FIPs>
+    <FIPs travelReq="N">51775</FIPs>
+    <FIPs travelReq="Y">51023</FIPs>
+    <FIPs travelReq="N">51790</FIPs>
+    <FIPs travelReq="N">51015</FIPs>
+    <FIPs travelReq="Y">51820</FIPs>
+    <FIPs travelReq="N">51087</FIPs>
+    <FIPs travelReq="N">51041</FIPs>
+    <FIPs travelReq="N">51760</FIPs>
+    <FIPs travelReq="Y">51085</FIPs>
+    <FIPs travelReq="N">51700</FIPs>
+    <FIPs travelReq="N">51550</FIPs>
+    <FIPs travelReq="Y">51810</FIPs>
+    <FIPs travelReq="Y">51710</FIPs>
+    <FIPs travelReq="Y">51650</FIPs>
+    <FIPs travelReq="Y">51740</FIPs>
+    <FIPs travelReq="Y">51750</FIPs>
+    <FIPs travelReq="Y">51155</FIPs>
+    <FIPs travelReq="N">51197</FIPs>
+</Service>
+</Provider>
 </DSPs>
