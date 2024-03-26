@@ -9268,21 +9268,57 @@
     </Service>
 </Provider>
 <Provider id="25">
-    <Name>Mountain View</Name>
-    <LastUpdated>2024-03-07</LastUpdated>
-    <MapZoom>-1</MapZoom>
-    <Website/>
-    <ContactName/>
-    <ContactEmail/>
-    <Office>
-        <Lat/>
-        <Lng/>
-        <Street/>
-        <City/>
-        <State>VA</State>
-        <Zip/>
-        <Phone/>
-        <Fax/>
-    </Office>
+<Name>MountainView Counseling LLC</Name>
+<LastUpdated>2024-03-07</LastUpdated>
+<MapZoom>-1</MapZoom>
+<Website>mountainviewcounseling.clientsecure.me/</Website>
+<ContactName>Terry Catoe Hodges</ContactName>
+<ContactEmail>tchodges@mountainviewcounselingllc.com</ContactEmail>
+<Office>
+    <Lat>36.6212684</Lat>
+    <Lng>-80.1935</Lng>
+    <Street>23002 Jeb Stuart Hwy.</Street>
+    <City>Stuart</City>
+    <State>VA</State>
+    <Zip>24171</Zip>
+    <Phone/>
+    <Fax/>
+</Office>
+<Service serviceName="EMDR Therapy" serviceZoom="-1">
+    <FIPs travelReq="N">51690</FIPs>
+    <FIPs travelReq="N">51089</FIPs>
+    <FIPs travelReq="N">51141</FIPs>
+    <FIPs travelReq="N">51067</FIPs>
+</Service>
+<Service serviceName="Trauma-Focused Cognitive Behavioral Therapy (TF-CBT)" serviceZoom="-1">
+    <FIPs travelReq="N">51690</FIPs>
+    <FIPs travelReq="N">51089</FIPs>
+    <FIPs travelReq="N">51141</FIPs>
+    <FIPs travelReq="N">51067</FIPs>
+</Service>
+<Service serviceName="Psycho-Sexual Evaluation" serviceZoom="-1">
+    <FIPs travelReq="N">51690</FIPs>
+    <FIPs travelReq="N">51089</FIPs>
+    <FIPs travelReq="N">51141</FIPs>
+    <FIPs travelReq="N">51067</FIPs>
+</Service>
+<Service serviceName="Youth with Sexualized Behaviors (YSB) Treatment" serviceZoom="-1">
+    <FIPs travelReq="N">51690</FIPs>
+    <FIPs travelReq="N">51089</FIPs>
+    <FIPs travelReq="N">51141</FIPs>
+    <FIPs travelReq="N">51067</FIPs>
+</Service>
+<Service serviceName="Individual/ Family Counseling" serviceZoom="-1">
+    <FIPs travelReq="N">51690</FIPs>
+    <FIPs travelReq="N">51089</FIPs>
+    <FIPs travelReq="N">51141</FIPs>
+    <FIPs travelReq="N">51067</FIPs>
+</Service>
+<Service serviceName="Mental Health Evaluation" serviceZoom="-1">
+    <FIPs travelReq="N">51690</FIPs>
+    <FIPs travelReq="N">51089</FIPs>
+    <FIPs travelReq="N">51141</FIPs>
+    <FIPs travelReq="N">51067</FIPs>
+</Service>
 </Provider>
 </DSPs>
