@@ -24,7 +24,7 @@
 var providers = dspsXML.getElementsByTagName("Provider");
 
 var locationCounter = 0;
-var officeURL = "provider.php?id=";
+var officeURL = "provider.html?id=";
 //cycle through all providers and add office locations to map
 for (i=0;i<providers.length;i++){
     //get info for each provider
@@ -111,7 +111,7 @@ localityProviders.sort();
     document.write('<h2>'+simplemaps_statemap_mapdata.state_specific[queryString].name+'</h2>');
 </script>
 <br><br>
-    <a href=index.php>Return to All Providers Map</a>.
+    <a href=index.html>Return to All Providers Map</a>.
     <br><br>
     <div id="coveragemap"></div>
     <h2>Providers Serving This Locality:</h2><br>
@@ -121,7 +121,7 @@ localityProviders.sort();
 for (i=0;i<localityProviders.length;i++){
     providerInfo = localityProviders[i].split("!");//[0] name [1] id
     //alert("providerInfo[0] is "+providerInfo[0]+" and ProviderInfo[1] is "+providerInfo[1]);
-    document.write("<li class='ebaBlue'><a href=provider.php?id="+providerInfo[1]+">");//?map=all
+    document.write("<li class='ebaBlue'><a href=provider.html?id="+providerInfo[1]+">");//?map=all
     document.write(providerInfo[0]+"</a></li>");
     
     //get the services offered by this provider in this locality.

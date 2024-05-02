@@ -44,14 +44,14 @@ providerInfoArray.sort();
 </script>
   </head>
   <body>
-<a href=index.php>Return to main map</a>
+<a href=index.html>Return to main map</a>
 <script>document.write('<h2>'+allLanguagesArray[queryString]+'</h2><div class="ebaBlue">The following providers offer services in '+allLanguagesArray[queryString]+":</div>");</script>
 <ul>
 <script> 
 //Show the providers offering this service
 for (k=0;k<providerInfoArray.length;k++){
     var providerInfo = providerInfoArray[k].split("!");//1=ID, 2=Name, 3=programs
-    document.write("<li><a href=provider.php?id="+providerInfo[1]+">");//?map=all>
+    document.write("<li><a href=provider.html?id="+providerInfo[1]+">");//?map=all>
     document.write(providerInfo[0]+"</a></li>");
     /*
     if (providerInfo[2] !== "null"){

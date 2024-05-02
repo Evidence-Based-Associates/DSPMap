@@ -144,7 +144,7 @@ for (i=0;i<providers.length;i++){
 <a id="Filter"></a>
 <h2>Filter/Search:</h2>
 <div class="ebaBlue">Find a Provider That Offers...</div>
-<form action="search.php" method="get">
+<form action="search.html" method="get">
 <br>Service:
 <select name="Service">
     <option value="any" selected>(please select)</option>
@@ -196,7 +196,7 @@ Language:
         //cycle through region's CSUs
         document.write("<ul>");
         for (j=0;j<CSUStructure[i].CSUs.length;j++){
-            document.write("<li><a href=csu.php?"+CSUStructure[i].CSUs[j].slug+">"+CSUStructure[i].CSUs[j].name+"</a></li>");
+            document.write("<li><a href=csu.html?"+CSUStructure[i].CSUs[j].slug+">"+CSUStructure[i].CSUs[j].name+"</a></li>");
         }
         //close  CSU ul
         document.write("</ul>");
@@ -231,7 +231,7 @@ document.write("</ul>");
 <script>
 document.write("<ul>");
 for (i=0;i<availableServices.length;i++){
-    document.write("<li><a href=service.php?"+i+">");
+    document.write("<li><a href=service.html?"+i+">");
     document.write(availableServices[i]+"</a></li>");
 }  
 document.write("</ul>");
@@ -244,7 +244,7 @@ for (i=0;i<allLanguagesArray.length;i++){
     //var serviceInfo = [];
     //serviceInfo = allProviderServicesArray[i].split("!");
     //document.write("<li>"+serviceInfo[0]);
-    document.write("<li><a href='language.php?"+i+"'>"+allLanguagesArray[i]+"</a></li>");
+    document.write("<li><a href='language.html?"+i+"'>"+allLanguagesArray[i]+"</a></li>");
 }     
 </script>
 </ul>

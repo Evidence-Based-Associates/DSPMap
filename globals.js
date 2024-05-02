@@ -276,7 +276,7 @@ var sortedCSUs = [CSU9,CSU15,CSU16,CSU17,CSU18,CSU19,CSU20,CSU21,CSU22,CSU23,CSU
 const sortedCSUsALL = [CSU1,CSU2,CSU2A,CSU3,CSU4,CSU5,CSU6,CSU7,CSU8,CSU9,CSU10,CSU11,CSU12,CSU13,CSU14,CSU15,CSU16,CSU17,CSU18,CSU19,CSU20,CSU21,CSU22,CSU23,CSU24,CSU25,CSU26,CSU27,CSU28,CSU29,CSU30,CSU31];
 
 //for use in defining localities
-var localityUrl = "locality.php?";
+var localityUrl = "locality.html?";
 
 //get the paramaters from url
 var queryString = window.location.search;

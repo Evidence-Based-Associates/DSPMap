@@ -70,7 +70,7 @@ else {
 var locations = dspsXML.getElementsByTagName("FIPs");
 var providerSearchResults = [];
 
-document.write("<a href=index.php>Return to Main Map</a>.<br>");
+document.write("<a href=index.html>Return to Main Map</a>.<br>");
 var serviceText = "";
 if (serviceIndex[1] == "any"){
         serviceText = "Any Service";
@@ -159,7 +159,7 @@ if (providerSearchResults.length == 0){
 document.write("<ul>");
 for (i=0;i<providerSearchResults.length;i++){
     var displayResults = providerSearchResults[i].split("!");//[0] name [1] id [2] travel attribute
-    document.write("<li><a href=provider.php?id="+displayResults[1]+">");//?map=all
+    document.write("<li><a href=provider.html?id="+displayResults[1]+">");//?map=all
     document.write(displayResults[0]+"</a>");
     /*
     if (displayResults[2] == "Y"){
@@ -170,7 +170,7 @@ for (i=0;i<providerSearchResults.length;i++){
 }
 document.write("</ul>");
 </script>
-<div class='ebaBlue'>New Search</div><form action="search.php" method="get">
+<div class='ebaBlue'>New Search</div><form action="search.html" method="get">
 <br>Service:
 <select name="Service">
     <option value="any" selected>(please select)</option>

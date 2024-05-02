@@ -51,7 +51,7 @@ for (i=0;i<CSUStructure.length;i++){
             simplemaps_statemap_mapdata.regions[regionCount] = {
                 states: CSUStructure[i].CSUs[j].localities,
                 name: CSUStructure[i].CSUs[j].name,
-                url: "csu.php?"+CSUStructure[i].CSUs[j].slug
+                url: "csu.html?"+CSUStructure[i].CSUs[j].slug
             };
             regionCount++;
         }
@@ -90,7 +90,7 @@ CSUServices.sort();
 CSUProviders = removeDuplicates(CSUProviders);
 CSUProviders.sort();
 </script>
-<a href=index.php>Return to Main Map</a>.
+<a href=index.html>Return to Main Map</a>.
 <br><br>
 <div id="coveragemap"></div>
 <br><br>
@@ -101,7 +101,7 @@ CSUProviders.sort();
 <script>
 for (var i=0;i<CSUProviders.length;i++){
     var providerInfo = CSUProviders[i].split("!");//[0] name [1] id
-    document.write("<li class='ebaBlue'><a href='provider.php?id="+providerInfo[1]+"'>");//"?map=all>"
+    document.write("<li class='ebaBlue'><a href='provider.html?id="+providerInfo[1]+"'>");//"?map=all>"
     document.write(providerInfo[0]+"</a></li>");
     //alert("CSUProviders is "+providerInfo[1]+" which is a "+typeof(providerInfo[1]));
     var provider = dspsXML.getElementById(providerInfo[1]);
@@ -156,7 +156,7 @@ for (var i=0;i<CSUServices.length;i++){
     document.write("<ul>");
     for (var j=0;j<providerArray.length;j++){
         var providerInfo = providerArray[j].split("!");//[0] name [1] id
-        document.write("<li><a href='provider.php?id="+providerInfo[1]+"'>"+providerInfo[0]+"</a></li>");//?map=all
+        document.write("<li><a href='provider.html?id="+providerInfo[1]+"'>"+providerInfo[0]+"</a></li>");//?map=all
     }
     document.write("</ul>");
 }

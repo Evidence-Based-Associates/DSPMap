@@ -71,7 +71,7 @@ providerArray.sort();
 </script>
   </head>
   <body>
-<a href=index.php>Return to main map</a>
+<a href=index.htmnl>Return to main map</a>
 <script>document.write('<h2>'+availableServices[queryString]+'</h2>');</script>
 <div id="coveragemap"></div>
 <div class="ebaBlue">The following providers offer this service:</div>
@@ -80,7 +80,7 @@ providerArray.sort();
 //Show the providers offering this service
 for (k=0;k<providerArray.length;k++){
     var providerInfo = providerArray[k].split("!");//0=name, 1=id
-    document.write("<li><a href=provider.php?id="+providerInfo[1]+">");//?map=all
+    document.write("<li><a href=provider.html?id="+providerInfo[1]+">");//?map=all
     document.write(providerInfo[0]+"</a></li>");
 }   
 </script>
