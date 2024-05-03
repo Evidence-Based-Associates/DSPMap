@@ -129,6 +129,7 @@ for (i=0;i<providers.length;i++){
     <div id="coveragemap"></div>
 <br>
 
+<p>*Reflects new FY25 Regions</p>
 <i>last updated: <script>document.write(directoryUpdated);</script></i><br><br>
 <p>Many services captured on the map are available statewide via telehealth; please inquire with <a href="mailto:kbrooks@ebanetwork.com">kbrooks@ebanetwork.com</a></p>
 <b>How is this directory working?</b> We want to improve this tool to meet your needs. <a href="mailto:joelnwalkley@gmail.com?Subject=[Map Feedback]">Report an error, request a feature, offer a comment!</a>
@@ -164,8 +165,11 @@ Location:
     }
     document.write("<option value='0'>-----REGIONS-----</option>");
     document.write("<option value='north'>Northern Region</option>");
+    document.write("<option value='south'>Southern Region</option>");
+    document.write("<option value='east'>Eastern Region</option>");
     document.write("<option value='central'>Central Region</option>");
     document.write("<option value='west'>Western Region</option>");
+    document.write("<option value='midwest'>Midwestern Region</option>");
     document.write("<option value='0'>-----LOCALITIES-----</option>");
     for (i=0;i<allFips.length;i++){
         document.write("<option value='"+allFips[i]+"'>"+simplemaps_statemap_mapdata.state_specific[allFips[i]].name+"</option>");  
