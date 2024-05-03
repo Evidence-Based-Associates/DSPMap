@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "eba-dsp-map-dev"
-  }
+    "default": "eba-dsp-map-dev",
+    "prod": "eba-dsp-map-prod"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }

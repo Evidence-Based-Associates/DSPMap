@@ -8,7 +8,7 @@ import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/10
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 // okay to commit per Firebase docs
-const firebaseConfig = {
+const firebaseConfigDev = {
     apiKey: "AIzaSyC6X571rXek2TC8XCE8jcd6bIgKi5sc0_A",
     authDomain: "eba-dsp-map-dev.firebaseapp.com",
     projectId: "eba-dsp-map-dev",
@@ -18,8 +18,19 @@ const firebaseConfig = {
     measurementId: "G-SNEMBJE4DT"
 };
 
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfigProd = {
+    apiKey: "AIzaSyC6Lg3lKbT9mSHavFTxIGpub9hiyWGjBPQ",
+    authDomain: "eba-dsp-map-prod.firebaseapp.com",
+    projectId: "eba-dsp-map-prod",
+    storageBucket: "eba-dsp-map-prod.appspot.com",
+    messagingSenderId: "1068377714544",
+    appId: "1:1068377714544:web:5999d487c7ef4aca3c69b5",
+    measurementId: "G-RDPWS5CTYM"
+  };
+
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfigDev);
 const db = getFirestore(app);
 
 const docRef = doc(db, "demo", "hello");
