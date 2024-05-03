@@ -125,10 +125,6 @@ const CSU8 = {
     name: "District 8 - Hampton",
     slug: "CSU8"
 };
-const EasternRegion = {
-    CSUs: [CSU1,CSU2,CSU2A,CSU3,CSU4,CSU5,CSU7,CSU8],
-    name: "Eastern Region"
-}
 //Southern Region
 const CSU6 = {
     localities: ["51670","51149","51181","51183","51595","51025"],
@@ -160,10 +156,7 @@ const CSU14 = {
     name: "District 14 - Henrico",
     slug: "CSU14"
 };
-const SouthernRegion = {
-    CSUs: [CSU6,CSU10,CSU11,CSU12,CSU13,CSU14],
-    name: "Southern Region"
-}
+
 //Northern Region
 var CSU17 = {
     localities: ["51013","51610"],
@@ -195,10 +188,7 @@ var CSU31 = {
     name: "District 31 - Manassas",
     slug: "CSU31"
 };
-var NorthernRegion = {
-    CSUs: [CSU17,CSU18,CSU19,CSU20,CSU26,CSU31],
-    name: "Northern Region"
-};
+
 //Western Region
 var CSU21 = {
     localities: ["51089","51141","51690"],
@@ -235,10 +225,6 @@ var CSU30 = {
     name: "District 30 - Gate City",
     slug: "CSU30"
 };
-var WesternRegion = {
-    CSUs: [CSU21,CSU22,CSU23,CSU27,CSU28,CSU29,CSU30],
-    name: "Western Region"
-}
 //Central Region
 var CSU9 = {
     localities: ["51036","51073","51095","51097","51101","51115","51119","51127","51199","51735","51830"],
@@ -265,13 +251,40 @@ var CSU25 = {
     name: "District 25 - Staunton",
     slug: "CSU25"
 };
-var CentralRegion = {
-    CSUs: [CSU9,CSU15,CSU16,CSU24,CSU25],
+
+// Regions
+const NorthernRegion = {
+    CSUs: [CSU16,CSU17,CSU18,CSU19,CSU20,CSU26,CSU31],
+    name: "Northern Region"
+};
+
+const SouthernRegion = {
+    CSUs: [CSU5,CSU6,CSU11,CSU12,CSU13],
+    name: "Southern Region"
+};
+
+const EasternRegion = {
+    CSUs: [CSU1,CSU2,CSU2A,CSU3,CSU4],
+    name: "Eastern Region"
+};
+
+const WesternRegion = {
+    CSUs: [CSU21,CSU27,CSU28,CSU29,CSU30],
+    name: "Western Region"
+};
+
+const CentralRegion = {
+    CSUs: [CSU7,CSU8,CSU9,CSU14,CSU15,CSU16,CSU24],
     name: "Central Region"
 };
 
+const MidWestRegion = {
+    CSUs: [CSU10,CSU22,CSU23,CSU24,CSU25],
+    name: "Midwest Region"
+};
+
 //put CSUs all together
-var CSUStructure = [NorthernRegion,CentralRegion];
+var CSUStructure = [NorthernRegion,CentralRegion, WesternRegion, SouthernRegion, EasternRegion, MidWestRegion];
 var sortedCSUs = [CSU9,CSU15,CSU16,CSU17,CSU18,CSU19,CSU20,CSU21,CSU22,CSU23,CSU24,CSU25,CSU26,CSU27,CSU28,CSU29,CSU30,CSU31];
 const sortedCSUsALL = [CSU1,CSU2,CSU2A,CSU3,CSU4,CSU5,CSU6,CSU7,CSU8,CSU9,CSU10,CSU11,CSU12,CSU13,CSU14,CSU15,CSU16,CSU17,CSU18,CSU19,CSU20,CSU21,CSU22,CSU23,CSU24,CSU25,CSU26,CSU27,CSU28,CSU29,CSU30,CSU31];
 
