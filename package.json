@@ -1,7 +1,7 @@
 {
-  "name": "dspmap",
+  "name": "eba-provider-directory",
   "version": "1.0.0",
-  "description": "",
+  "description": "EBA Provider Directory",
   "main": "index.html",
   "private": true,
   "scripts": {
@@ -13,12 +13,13 @@
     "url": "git+https://github.com/joelnwalkley/DSPMap.git"
   },
   "author": "Joel N. Walkley",
-  "license": "None",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/joelnwalkley/DSPMap/issues"
   },
   "homepage": "https://github.com/joelnwalkley/DSPMap#readme",
   "dependencies": {
+    "firebase": "^10.11.1",
     "webpack": "^5.51.1"
   },
   "devDependencies": {
