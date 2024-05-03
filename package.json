@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/joelnwalkley/DSPMap#readme",
   "dependencies": {
+    "firebase": "^10.11.1",
     "webpack": "^5.51.1"
   },
   "devDependencies": {
