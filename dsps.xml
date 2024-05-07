@@ -4091,7 +4091,6 @@
             <FIPs travelReq="Y">51820</FIPs>
         </Service>
         <Service serviceName="Psycho-Sexual Evaluation" serviceZoom="-1">
-            <FIPs travelReq="N">51515</FIPs>
             <FIPs travelReq="Y">51035</FIPs>
             <FIPs travelReq="Y">51640</FIPs>
             <FIPs travelReq="N">51550</FIPs>
@@ -4130,7 +4129,6 @@
             <FIPs travelReq="Y">51009</FIPs>
             <FIPs travelReq="N">51019</FIPs>
             <FIPs travelReq="N">51031</FIPs>
-            <FIPs travelReq="N">51515</FIPs>
             <FIPs travelReq="N">51680</FIPs>
             <FIPs travelReq="N">51023</FIPs>
             <FIPs travelReq="N">51045</FIPs>
@@ -4193,7 +4191,6 @@
             <FIPs travelReq="Y">51800</FIPs>
         </Service>
         <Service serviceName="Youth with Sexualized Behaviors (YSB) Treatment" serviceZoom="-1">
-            <FIPs travelReq="N">51515</FIPs>
             <FIPs travelReq="N">51678</FIPs>
             <FIPs travelReq="N">51089</FIPs>
             <FIPs travelReq="N">51141</FIPs>
@@ -4217,7 +4214,6 @@
             <FIPs travelReq="N">51590</FIPs>
         </Service>
         <Service serviceName="Home-Based Service / Intensive In-Home" serviceZoom="-1">
-            <FIPs travelReq="N">51515</FIPs>
             <FIPs travelReq="N">51520</FIPs>
             <FIPs travelReq="N">51530</FIPs>
             <FIPs travelReq="N">51550</FIPs>
@@ -4306,7 +4302,6 @@
             <FIPs travelReq="N">51019</FIPs>
             <FIPs travelReq="N">51031</FIPs>
             <FIPs travelReq="Y">51125</FIPs>
-            <FIPs travelReq="N">51515</FIPs>
             <FIPs travelReq="N">51680</FIPs>
             <!-- All of CSU25 -->
             <FIPs travelReq="N">51005</FIPs>
