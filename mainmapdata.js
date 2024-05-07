@@ -523,8 +523,36 @@ var simplemaps_statemap_mapdata = {
   },
 };
 
+const isLocalityInRegion = (region, locality) => {
+  let found = false;
+  region.CSUs.forEach((csu) => {
+    if (csu.localities.includes(locality)) {
+      found = true;
+    }
+  });
+  return found;
+};
+
+const regionColor = (locality) => {
+  if (isLocalityInRegion(NorthernRegion, locality)) {
+    return NorthernColor;
+  } else if (isLocalityInRegion(CentralRegion, locality)) {
+    return CentralColor;
+  } else if (isLocalityInRegion(WesternRegion, locality)) {
+    return WesternColor;
+  } else if (isLocalityInRegion(SouthernRegion, locality)) {
+    return SouthernColor;
+  } else if (isLocalityInRegion(EasternRegion, locality)) {
+    return EasternColor;
+  } else if (isLocalityInRegion(MidWestRegion, locality)) {
+    return MidWesternColor;
+  } else {
+    return "#000000";
+  }
+};
+
 const localities = simplemaps_statemap_mapdata.state_specific;
 for (locality in localities) {
   localities[locality].url = localityUrl + locality;
-  localities[locality].color = "#000000";
+  localities[locality].color = regionColor(locality);
 }
