@@ -373,9 +373,6 @@ var simplemaps_statemap_mapdata = {
     51510: {
       name: "Alexandria",
     },
-    51515: {
-      name: "Bedford",
-    },
     51520: {
       name: "Bristol",
     },

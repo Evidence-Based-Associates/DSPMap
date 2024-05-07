@@ -84,7 +84,6 @@ const MidWesternColor = "#073b4c";
 //All VA FIPS Codes:
 var allFips = [
   "51510",
-  "51515",
   "51520",
   "51530",
   "51540",
@@ -441,7 +440,7 @@ var CSU16 = {
   slug: "CSU16",
 };
 var CSU24 = {
-  localities: ["51009", "51019", "51031", "51125", "51515", "51680"],
+  localities: ["51009", "51019", "51031", "51125", "51680"],
   name: "District 24 - Lynchburg",
   slug: "CSU24",
 };
@@ -486,7 +485,7 @@ const WesternRegion = {
 };
 
 const CentralRegion = {
-  CSUs: [CSU7, CSU8, CSU9, CSU14, CSU15, CSU16, CSU24],
+  CSUs: [CSU7, CSU8, CSU9, CSU14, CSU15, CSU24],
   name: "Central Region",
 };
 
