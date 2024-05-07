@@ -74,12 +74,12 @@ var RegColor = "#008000";
 var TravelColor = "#90EE90";
 var LanguageColor = "#ffa500";
 var EBABlue = "#D9E5F3";
-var NorthernColor = "#862bb5";
-var CentralColor = "#b7b7b7";
-var WesternColor = "#3f8c57";
-var SouthernColor = "#efce43";
-var EasternColor = "#2159bc";
-const MidWesternColor = "#073b4c";
+var NorthernColor = "#406162";
+var CentralColor = "#89A16E";
+var WesternColor = "#4E5067";
+var SouthernColor = "#BCDAE7";
+var EasternColor = "#CE844E";
+const MidWesternColor = "#5E859F";
 
 //All VA FIPS Codes:
 var allFips = [
