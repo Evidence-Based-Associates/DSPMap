@@ -558,6 +558,14 @@ const sortedCSUsALL = [
   CSU31,
 ];
 
+const localitiesFromRegion = (region) => {
+  let localities = [];
+  region.CSUs.forEach((csu) => {
+    localities = localities.concat(csu.localities);
+  });
+  return localities;
+};
+
 //for use in defining localities
 var localityUrl = "locality.html?";
 
