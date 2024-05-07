@@ -79,6 +79,7 @@ var CentralColor = "#b7b7b7";
 var WesternColor = "#3f8c57";
 var SouthernColor = "#efce43";
 var EasternColor = "#2159bc";
+const MidWesternColor = "#073b4c";
 
 //All VA FIPS Codes:
 var allFips = [
