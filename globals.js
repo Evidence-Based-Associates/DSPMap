@@ -262,7 +262,7 @@ const CSU8 = {
 };
 //Southern Region
 const CSU6 = {
-  localities: ["51670", "51149", "51181", "51183", "51595", "51025"],
+  localities: ["51670", "51149", "51181", "51183", "51595", "51025", "51081"],
   name: "District 6 - Hopewell",
   slug: "CSU6",
 };
@@ -485,7 +485,7 @@ const WesternRegion = {
 };
 
 const CentralRegion = {
-  CSUs: [CSU7, CSU8, CSU9, CSU14, CSU15, CSU24],
+  CSUs: [CSU7, CSU8, CSU9, CSU14, CSU15],
   name: "Central Region",
 };
 
