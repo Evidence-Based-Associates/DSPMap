@@ -98,7 +98,7 @@
         </Service>
     </Provider>
     <Provider id="1">
-        <Name>Fulcrum Counselors, LLC</Name>
+        <Name>Fulcrum Counselors</Name>
         <LastUpdated>2021-12-07</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>fulcrumcounselors.com/</Website>
@@ -1637,7 +1637,7 @@
         </Service>
     </Provider>
     <Provider id="21">
-        <Name>Family Focus Inc.</Name>
+        <Name>Family Focus</Name>
         <LastUpdated>2023-11-21</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.familyfocusinc.com</Website>
@@ -2566,7 +2566,7 @@
         </Service>
     </Provider>
     <Provider id="37">
-        <Name>Middle Peninsula Northern Neck CSB</Name>
+        <Name>Middle Peninsula Northern Neck Community Services Board</Name>
         <LastUpdated>2022-10-31</LastUpdated>
         <MapZoom>1</MapZoom>
         <Website>www.mpnncsb.org</Website>
@@ -4659,7 +4659,7 @@
         </Service>
     </Provider>
     <Provider id="49">
-        <Name>Fields of Hope and Dreams Mentoring</Name>
+        <Name>Fields of Hope and Dreams Mentoring Services</Name>
         <LastUpdated>2023-08-28</LastUpdated>
         <MapZoom>1</MapZoom>
         <Website/>
@@ -4920,7 +4920,7 @@
         </Service>
     </Provider>
     <Provider id="54">
-        <Name>UMFS</Name>
+        <Name>United Methodist Family Services</Name>
         <LastUpdated>2022-09-19</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.umfs.org</Website>
@@ -5445,7 +5445,7 @@
         </Service>
     </Provider>
     <Provider id="6">
-        <Name>Connected Communities Inc</Name>
+        <Name>Connected Communities</Name>
         <LastUpdated>2022-12-22</LastUpdated>
         <MapZoom>0</MapZoom>
         <Website>www.cciwinchester.com/</Website>
@@ -6181,7 +6181,7 @@
         </Service>
     </Provider>
     <Provider id="40">
-        <Name>Salveo Consulting, PLLC</Name>
+        <Name>Salveo Consulting</Name>
         <LastUpdated>2022-09-22</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>salveoconsulting.com</Website>
@@ -6336,7 +6336,7 @@
         </Service>
     </Provider>
     <Provider id="42">
-        <Name>Hallmark Youth Care</Name>
+        <Name>Hallmark Youthcare</Name>
         <LastUpdated>2021-08-24</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.hallmarkyouthcare.org/admissions/</Website>
@@ -6357,7 +6357,7 @@
         </Service>
     </Provider>
     <Provider id="44">
-        <Name>Spectrum Health Solutions, LLC</Name>
+        <Name>Spectrum Health Solutions</Name>
         <LastUpdated>2022-09-07</LastUpdated>
         <MapZoom>1</MapZoom>
         <Website/>
@@ -6423,7 +6423,7 @@
         </Service>
     </Provider>
     <Provider id="46">
-        <Name>The MARCS Agency LLC</Name>
+        <Name>The MARCS Agency</Name>
         <LastUpdated>2024-03-18</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.themarcsagency.com</Website>
@@ -6751,7 +6751,7 @@
         </Service>
     </Provider>
     <Provider id="67">
-        <Name>Timber Ridge School</Name>
+        <Name>Timber Ridge</Name>
         <LastUpdated>2022-10-04</LastUpdated>
         <MapZoom>0</MapZoom>
         <Website>www.timberridgeschool.org</Website>
@@ -6772,7 +6772,7 @@
         </Service>
     </Provider>
     <Provider id="66">
-        <Name>Chrysalis Counseling Centers, Inc.</Name>
+        <Name>Chrysalis Counseling Centers</Name>
         <LastUpdated>2022-09-22</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.chrysaliscenters.com</Website>
@@ -6938,7 +6938,7 @@
         </Service>
     </Provider>
     <Provider id="69">
-        <Name>Life Push, LLC</Name>
+        <Name>Life Push</Name>
         <LastUpdated>2022-03-09</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.lifepushllc.com</Website>
@@ -7133,7 +7133,7 @@
         </Service>
     </Provider>
     <Provider id="79">
-        <Name>Harrisonburg-Rockingham Community Services Board (HRCSB)</Name>
+        <Name>Harrisonburg-Rockingham Community Services Board</Name>
         <LastUpdated>2022-09-22</LastUpdated>
         <MapZoom>51165</MapZoom>
         <Website>https://www.hrcsb.org</Website>
@@ -7622,7 +7622,7 @@
         </Service>
     </Provider>
     <Provider id="83">
-        <Name>Transitions ...The Process of Change</Name>
+        <Name>Transitions The Process of Change</Name>
         <LastUpdated>2022-10-10</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>transitionscorp.com</Website>
@@ -7848,7 +7848,7 @@
         </Service>
     </Provider>
     <Provider id="85">
-        <Name>Rice Counseling and Associates, Inc. </Name>
+        <Name>Rice Counseling and Associates</Name>
         <LastUpdated>2022-10-06</LastUpdated>
         <MapZoom>1</MapZoom>
         <Website>www.ricecounseling.org/ </Website>
@@ -7911,7 +7911,7 @@
         </Service>
     </Provider>
     <Provider id="84">
-        <Name>TEENS, Inc.</Name>
+        <Name>TEENS</Name>
         <LastUpdated>2023-01-05</LastUpdated>
         <MapZoom>0</MapZoom>
         <Website>teensincva.org</Website>
@@ -8072,7 +8072,7 @@
         </Service>
     </Provider>
     <Provider id="89">
-        <Name>CM Mentoring</Name>
+        <Name>CM Mentoring Services</Name>
         <LastUpdated>2018-05-19</LastUpdated>
         <MapZoom>1</MapZoom>
         <Website/>
@@ -8098,7 +8098,7 @@
         </Service>
     </Provider>
     <Provider id="88">
-        <Name>City of Alexandria Department of Community &amp; Human Services (DCHS)</Name>
+        <Name>City of Alexandria Department of Community and Human Services</Name>
         <LastUpdated>2022-11-02</LastUpdated>
         <MapZoom>51510</MapZoom>
         <Website>www.alexandriava.gov/DCHS</Website>
@@ -8147,7 +8147,7 @@
         </Service>
     </Provider>
     <Provider id="90">
-        <Name>Daybreak Counseling and Forensic Services, PLLC</Name>
+        <Name>Daybreak Counseling and Forensic Services</Name>
         <LastUpdated>2022-07-19</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website/>
@@ -8312,7 +8312,7 @@
         </Service>
     </Provider>
     <Provider id="105">
-        <Name>New Genesis Recovery Center, PLLC</Name>
+        <Name>New Genesis Recovery Center</Name>
         <LastUpdated>2019-04-09</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.newgenesisrecovery.com</Website>
@@ -8386,7 +8386,7 @@
         </Service>
     </Provider>
     <Provider id="113">
-        <Name>Aethiops Business Solutions, LLC</Name>
+        <Name>Aethiops Business Solutions</Name>
         <LastUpdated>2022-10-27</LastUpdated>
         <MapZoom>0</MapZoom>
         <Website>www.aethiops.org</Website>
@@ -8412,7 +8412,7 @@
         </Service>
     </Provider>
     <Provider id="7">
-        <Name>Strategic Therapy Associates, Inc.</Name>
+        <Name>Strategic Therapy Associates</Name>
         <LastUpdated>2023-06-27</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>s614510739.initial-website.com</Website>
@@ -9057,7 +9057,7 @@
         </Service>
     </Provider>
     <Provider id="16">
-        <Name>Clinical Healing and Mindfulness Practices (CHAMP)</Name>
+        <Name>Clinical Healing and Mindfulness Practices</Name>
         <LastUpdated>2023-09-13</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>www.champva.life</Website>
@@ -9123,7 +9123,7 @@
         </Service>
     </Provider>
     <Provider id="17">
-        <Name>The Williams Center for Wellness and Recovery </Name>
+        <Name>The Williams Center</Name>
         <LastUpdated>2023-11-30</LastUpdated>
         <MapZoom>-1</MapZoom>
         <Website>williamscenters.com/</Website>
