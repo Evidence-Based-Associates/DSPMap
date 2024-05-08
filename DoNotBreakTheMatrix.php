@@ -7,7 +7,7 @@
     <script src="statemap.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3syaKZAxQ_ku0EsmiaLtFwhZMqAUJP8s&callback=myMap"></script>
 <script>
-var availableServices = ["Psychological Evaluation","CSOTP Services for Youth with Sexualized Behaviors","Licensed Mentalh Health Services","Home Based (including Intensive In-Home)","Therapeutic Day Treatment (TDT)","Gang Intervention","Life Skills Mentoring","Independent Living Placement","Residential Placement","Substance Abuse Services","Electronic Monitoring","Group Interventions","Vocational Services"];
+var availableServices = ["Psychological Evaluation","CSOTP Services for Youth with Sexualized Behaviors","Licensed Mentalh Health Services","Home Based (including Intensive In-Home)","Therapeutic Day Treatment (TDT)","Gang Intervention","Life Skills Mentoring","Independent Living Placement","Residential Placement","Substance Use Therapys","Monitoring Services","Group Interventions","Vocational Services"];
 //set the map
 //set colors back to plain
 simplemaps_statemap_mapdata.regions["0"].color = "default";
@@ -67,9 +67,9 @@ var mapTypes= {
         xmlEnt: "Group Home"
     },
     "6": {
-        name: "Electronic Monitoring",
+        name: "Monitoring Services",
         slug: "&EM;",
-        xmlEnt: "Electronic Monitoring Map"
+        xmlEnt: "Monitoring Services Map"
     },
     "7": {
         name: "Residential Treatment Center",
