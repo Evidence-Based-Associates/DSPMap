@@ -7,7 +7,7 @@
     <script src="statemap.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3syaKZAxQ_ku0EsmiaLtFwhZMqAUJP8s&callback=myMap"></script>
 <script>
-//var availableServices = ["Psychological Evaluation","CSOTP Services for Youth with Sexualized Behaviors","Licensed Mental Health Services","Home Based (including Intensive In-Home)","Therapeutic Day Treatment (TDT)","Gang Intervention","Life Skills Mentoring","Independent Living Placement","Residential Treatment","Substance Abuse Services","Electronic Monitoring","Group Interventions","Vocational Services"];   
+//var availableServices = ["Psychological Evaluation","CSOTP Services for Youth with Sexualized Behaviors","Licensed Mental Health Services","Home Based (including Intensive In-Home)","Therapeutic Day Treatment (TDT)","Gang Intervention","Life Skills Mentoring","Independent Living Placement","Residential Treatment","Substance Use Therapys","Monitoring Services","Group Interventions","Vocational Services"];   
     
 function loadServiceName(textID,dropDownID){
     document.getElementById(textID).value = document.getElementById(dropDownID).value;

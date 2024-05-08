@@ -1,114 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>Print Provider Services</title>
     <script src="globals.js?v=08.20.2021-0"></script>
     <script src="mainmapdata.js?v=7.10.2017-3"></script>
     <script src="statemap.js"></script>
     <link rel="stylesheet" type="text/css" href="pdstyle.css">
-    </head>
+</head>
+
 <body>
-<ul>
-<script>
-var providers = dspsXML.getElementsByTagName("Provider");
-var services = dspsXML.getElementsByTagName("Service");
-var locations = dspsXML.getElementsByTagName("FIPs");
+    <ul>
+        <script>
+            var providers = dspsXML.getElementsByTagName("Provider");
+            var services = dspsXML.getElementsByTagName("Service");
+            var locations = dspsXML.getElementsByTagName("FIPs");
 
-//custom sort here to match excel spreadsheet
-var serviceNames = ["Psychological",
-                    "Psycho-Sexual Evaluation",
-                    "Outpatient Substance Abuse",
-                    "HFW Intensive Care Coordination",
-                    "Outpatient Services",
-                    "Outpatient YSB Services (CSOTP)",
-                    "Outpatient Substance Abuse",
-                    "Multisystemic Therapy (MST)",
-                    "Functional Family Therapy (FFT)",
-                    "Trauma-Focused Cognitive Behavioral Therapy (TF-CBT)",
-                    "Casey Life Skills / Mentoring",
-                    "Vocational / Employment Service",
-                    "Translation / Interpretation",
-                    "GPS / EM",
-                    "Group Home",
-                    "Residential Services",
-                    "Residential Independent Living"
-                    ];
-//OLD - when working from draft did FIPS accross the top, services down. Newest draft is other way
-/*
-//define the structure
-document.write("ServiceName!");
-//Cycle through regions
-for (var i=0;i<CSUStructure.length;i++){   
-//cycle through region's CSUs
-    for (var j=0;j<CSUStructure[i].CSUs.length;j++){
-        for (var k=0;k<CSUStructure[i].CSUs[j].localities.length;k++){
-            document.write(CSUStructure[i].CSUs[j].localities[k]+"!");   
-        }
-    }
-}
-document.write("<br/>");
-
-for (var i=0;i<availableServices.length;i++){
-    //Psuedo code
-    //write the service name
-    document.write(availableServices[i]+"!");
-    //Cycle through CSUs
-    for (j=0;j<CSUStructure.length;j++){   
-    //cycle through region's CSUs
-        for (k=0;k<CSUStructure[j].CSUs.length;k++){
-            for (l=0;l<CSUStructure[j].CSUs[k].localities.length;l++){              
-                //cycle through all location items
-                var providerCount = 0;
-                for (m=0;m<locations.length;m++){
-                    //first test: matches the service paramater.
-                    if (locations.item(m).parentNode.getAttribute("serviceName") == availableServices[i] && locations.item(m).textContent == CSUStructure[j].CSUs[k].localities[l]){
-                        providerCount++;                                                                                
+            //custom sort here to match excel spreadsheet
+            var serviceNames = ["Psychological",
+                "Youth with Sexualized Behaviors Evaluation",
+                "Outpatient Substance Abuse",
+                "Intensive Care Coordination",
+                "Outpatient Services",
+                "Outpatient YSB Services (CSOTP)",
+                "Outpatient Substance Abuse",
+                "Multisystemic Therapy (MST)",
+                "Functional Family Therapy",
+                "Trauma Focused Cognitive Behavioral Therapy",
+                "Casey Life Skills / Mentoring",
+                "Vocational / Employment Service",
+                "Translation / Interpretation",
+                "GPS / EM",
+                "Group Home",
+                "Residential Services",
+                "Residential Independent Living"
+            ];
+            //OLD - when working from draft did FIPS accross the top, services down. Newest draft is other way
+            /*
+            //define the structure
+            document.write("ServiceName!");
+            //Cycle through regions
+            for (var i=0;i<CSUStructure.length;i++){   
+            //cycle through region's CSUs
+                for (var j=0;j<CSUStructure[i].CSUs.length;j++){
+                    for (var k=0;k<CSUStructure[i].CSUs[j].localities.length;k++){
+                        document.write(CSUStructure[i].CSUs[j].localities[k]+"!");   
                     }
                 }
-                document.write(providerCount+"!");
-            }
-        }
-    }
-document.write("<br/>");
-}
-*/
-    
-//NOW with services across the top, FIPs down
-//define the structure
-document.write("REGION!CSU!FIPS!CITY/COUNTY!");
-for (var i=0;i<serviceNames.length;i++){
-    document.write(serviceNames[i]+"!");
-}
-document.write("<br/>");
-//Cycle through regions
-for (var i=0;i<CSUStructure.length;i++){   
-//cycle through region's CSUs
-    for (var j=0;j<CSUStructure[i].CSUs.length;j++){
-        for (var k=0;k<CSUStructure[i].CSUs[j].localities.length;k++){
-            var regionName = CSUStructure[i].name.substring(0,CSUStructure[i].name.length-7);
-            var CSUnum = CSUStructure[i].CSUs[j].slug.substring(3,CSUStructure[i].CSUs[j].slug.length);
-            var fipsNum = CSUStructure[i].CSUs[j].localities[k].substring(2,CSUStructure[i].CSUs[j].localities[k].length);
-            document.write(regionName+"!");
-            document.write(CSUnum+"!");
-            document.write(fipsNum+"!"); 
-            document.write(simplemaps_statemap_mapdata.state_specific[CSUStructure[i].CSUs[j].localities[k]].name+"!");
-            for (var l=0;l<serviceNames.length;l++){
-                //cycle through all location items
-                var providerCount = 0;
-                for (m=0;m<locations.length;m++){
-                    if (locations.item(m).parentNode.getAttribute("serviceName") == serviceNames[l] && locations.item(m).textContent == CSUStructure[i].CSUs[j].localities[k]){
-                        providerCount++;                                                                                
-                    }
-                }
-                document.write(providerCount+"!");
             }
             document.write("<br/>");
-        }
-    }
-}
-document.write("<br/>");
-</script>
-</ul>
+            
+            for (var i=0;i<availableServices.length;i++){
+                //Psuedo code
+                //write the service name
+                document.write(availableServices[i]+"!");
+                //Cycle through CSUs
+                for (j=0;j<CSUStructure.length;j++){   
+                //cycle through region's CSUs
+                    for (k=0;k<CSUStructure[j].CSUs.length;k++){
+                        for (l=0;l<CSUStructure[j].CSUs[k].localities.length;l++){              
+                            //cycle through all location items
+                            var providerCount = 0;
+                            for (m=0;m<locations.length;m++){
+                                //first test: matches the service paramater.
+                                if (locations.item(m).parentNode.getAttribute("serviceName") == availableServices[i] && locations.item(m).textContent == CSUStructure[j].CSUs[k].localities[l]){
+                                    providerCount++;                                                                                
+                                }
+                            }
+                            document.write(providerCount+"!");
+                        }
+                    }
+                }
+            document.write("<br/>");
+            }
+            */
+
+            //NOW with services across the top, FIPs down
+            //define the structure
+            document.write("REGION!CSU!FIPS!CITY/COUNTY!");
+            for (var i = 0; i < serviceNames.length; i++) {
+                document.write(serviceNames[i] + "!");
+            }
+            document.write("<br/>");
+            //Cycle through regions
+            for (var i = 0; i < CSUStructure.length; i++) {
+                //cycle through region's CSUs
+                for (var j = 0; j < CSUStructure[i].CSUs.length; j++) {
+                    for (var k = 0; k < CSUStructure[i].CSUs[j].localities.length; k++) {
+                        var regionName = CSUStructure[i].name.substring(0, CSUStructure[i].name.length - 7);
+                        var CSUnum = CSUStructure[i].CSUs[j].slug.substring(3, CSUStructure[i].CSUs[j].slug.length);
+                        var fipsNum = CSUStructure[i].CSUs[j].localities[k].substring(2, CSUStructure[i].CSUs[j].localities[k].length);
+                        document.write(regionName + "!");
+                        document.write(CSUnum + "!");
+                        document.write(fipsNum + "!");
+                        document.write(simplemaps_statemap_mapdata.state_specific[CSUStructure[i].CSUs[j].localities[k]].name + "!");
+                        for (var l = 0; l < serviceNames.length; l++) {
+                            //cycle through all location items
+                            var providerCount = 0;
+                            for (m = 0; m < locations.length; m++) {
+                                if (locations.item(m).parentNode.getAttribute("serviceName") == serviceNames[l] && locations.item(m).textContent == CSUStructure[i].CSUs[j].localities[k]) {
+                                    providerCount++;
+                                }
+                            }
+                            document.write(providerCount + "!");
+                        }
+                        document.write("<br/>");
+                    }
+                }
+            }
+            document.write("<br/>");
+        </script>
+    </ul>
 </body>
+
 </html>
