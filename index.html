@@ -10,9 +10,9 @@ Any questions can be sent to joelnwalkley@gmail.com
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta http-equiv="Cache-control" content="no-cache">
     <title>DJJ Continuum Provider Map</title>
-    <script src="globals.js?v=06.27.2023-0"></script>
-    <script src="mainmapdata.js?v=11.03.2020-0"></script>
+    <script src="mainmapdata.js"></script>
     <script src="statemap.js"></script>
+    <script type="module" src="./dist/main.js"></script>"
     <link rel="stylesheet" type="text/css" href="pdstyle.css">
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -26,7 +26,7 @@ Any questions can be sent to joelnwalkley@gmail.com
         ga('send', 'pageview');
 
     </script>
-    <script>
+    <!-- <script>
         //get last update
         var updateDates = dspsXML.getElementsByTagName("LastUpdated");
         var updateArray = [];
@@ -124,7 +124,7 @@ Any questions can be sent to joelnwalkley@gmail.com
             }
 
         }
-    </script>
+    </script> -->
 
 </head>
 
@@ -135,7 +135,7 @@ Any questions can be sent to joelnwalkley@gmail.com
 
     <p>*Reflects new FY25 Regions</p>
     <i>last updated:
-        <script>document.write(directoryUpdated);</script>
+        <!-- <script>document.write(directoryUpdated);</script> -->
     </i><br><br>
     <p>Many services captured on the map are available statewide via telehealth; please inquire with <a
             href="mailto:kbrooks@ebanetwork.com">kbrooks@ebanetwork.com</a></p>
@@ -158,16 +158,16 @@ Any questions can be sent to joelnwalkley@gmail.com
         <br>Service:
         <select name="Service">
             <option value="any" selected>(please select)</option>
-            <script>
+            <!-- <script>
                 for (i = 0; i < availableServices.length; i++) {
                     document.write("<option value='" + i + "'>" + availableServices[i] + "</option>");
                 }
-            </script>
+            </script> -->
         </select>
         Location:
         <select name="Where">
             <option value="0" selected>(please select)</option>
-            <script>
+            <!-- <script>
                 //Cycle through CSUs
                 for (i = 0; i < sortedCSUs.length; i++) {
                     document.write("<option value='" + sortedCSUs[i].slug + "'>" + sortedCSUs[i].name + "</option>");
@@ -183,26 +183,26 @@ Any questions can be sent to joelnwalkley@gmail.com
                 for (i = 0; i < allFips.length; i++) {
                     document.write("<option value='" + allFips[i] + "'>" + simplemaps_statemap_mapdata.state_specific[allFips[i]].name + "</option>");
                 }
-            </script>
+            </script> -->
         </select>
         Language:
         <select name="Language">
             <option value="english" selected>English</option>
             <option value="Spanish">Spanish</option>
-            <script>
+            <!-- <script>
                 for (i = 0; i < allLanguagesArray.length; i++) {
                     if (allLanguagesArray[i] != "Spanish") {
                         document.write("<option value='" + allLanguagesArray[i] + "'>" + allLanguagesArray[i] + "</option>");
                     }
                 }   
-            </script>
+            </script> -->
         </select>
         <input type="submit" value="Search">
     </form><br>
     <a id="CSUs"></a>
     <h2>CSU List:</h2>
     <ul>
-        <script>
+        <!-- <script>
             //Cycle through regions
             for (i = 0; i < CSUStructure.length; i++) {
                 document.write("<li class='ebaBlue'>" + CSUStructure[i].name + "</li>");
@@ -214,11 +214,11 @@ Any questions can be sent to joelnwalkley@gmail.com
                 //close  CSU ul
                 document.write("</ul>");
             }
-        </script>
+        </script> -->
     </ul>
     <a id="Providers"></a>
     <h2>Provider List:</h2>
-    <script>
+    <!-- <script>
         //put provider info in array to alphabetize
         var sortedProviders = [];
         for (i = 0; i < providers.length; i++) {
@@ -238,28 +238,28 @@ Any questions can be sent to joelnwalkley@gmail.com
             document.write(providerInfo[0] + "</a></li>");
         }
         document.write("</ul>");
-    </script>
+    </script> -->
     <a id="Services"></a>
     <h2>Available Services List:</h2>
-    <script>
+    <!-- <script>
         document.write("<ul>");
         for (i = 0; i < availableServices.length; i++) {
             document.write("<li><a href=service.html?" + i + ">");
             document.write(availableServices[i] + "</a></li>");
         }
         document.write("</ul>");
-    </script>
+    </script> -->
     <a id="Languages"></a>
     <h2>Available Languages List:</h2>
     <ul>
-        <script>
+        <!-- <script>
             for (i = 0; i < allLanguagesArray.length; i++) {
                 //var serviceInfo = [];
                 //serviceInfo = allProviderServicesArray[i].split("!");
                 //document.write("<li>"+serviceInfo[0]);
                 document.write("<li><a href='language.html?" + i + "'>" + allLanguagesArray[i] + "</a></li>");
             }     
-        </script>
+        </script> -->
     </ul>
 </body>
 

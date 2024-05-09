@@ -1,9 +1,9 @@
 module.exports = {
   // The entry point file described above
-  entry: "./index.js",
+  entry: "./src/initMap.js",
   // The location of the build folder described above
   output: {
-    path: __dirname,
-    filename: "bundle.js",
+    path: __dirname + "/dist",
+    filename: "[name].js",
   },
 };

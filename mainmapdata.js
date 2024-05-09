@@ -1,15 +1,9 @@
-/*
-mainmapdata.js contains global functions and variables. The Virginia map is defined in this file.
-
-Evidence Based Associates - Virginia DJJ Service Continuum Project
-*/
-
 //Mapdata from simplemaps.com
 //default settings for map throughout the directory.
 var simplemaps_statemap_mapdata = {
   main_settings: {
     //General settings
-    width: "700", //or 'responsive' 700
+    width: "700",
     background_color: "#FFFFFF",
     background_transparent: "yes",
     border_color: "#ffffff",
@@ -17,8 +11,8 @@ var simplemaps_statemap_mapdata = {
 
     //State defaults
     state_description: "",
-    state_color: "#517ba0", // original: 88A4BC
-    state_hover_color: "#3B729F", //original: 3B729F
+    state_color: "#517ba0",
+    state_hover_color: "#3B729F",
     state_url: "",
     border_size: 1.5,
     all_states_inactive: "no",
@@ -26,7 +20,6 @@ var simplemaps_statemap_mapdata = {
 
     //Location defaults
     location_description: "Location description",
-    location_color: EBABlue,
     location_opacity: "1",
     location_hover_opacity: 1,
     location_url: "",
@@ -81,12 +74,6 @@ var simplemaps_statemap_mapdata = {
   state_specific: {
     51001: {
       name: "Accomack",
-      description: "default",
-      hover_color: "default",
-      url: localityUrl + "51001",
-      hide: "default",
-      inactive: "default",
-      zoomable: "default",
     },
     51003: {
       name: "Albemarle",
@@ -486,70 +473,70 @@ var simplemaps_statemap_mapdata = {
     },
   },
   locations: {},
-  regions: {
-    0: {
-      states: localitiesFromRegion(NorthernRegion),
-      name: "Northern Region",
-      color: NorthernColor,
-    },
-    1: {
-      states: localitiesFromRegion(CentralRegion),
-      name: "Central Region",
-      color: CentralColor,
-    },
-    2: {
-      states: localitiesFromRegion(WesternRegion),
-      name: "Western Region",
-      color: WesternColor,
-    },
-    3: {
-      states: localitiesFromRegion(SouthernRegion),
-      name: "Southern Region",
-      color: SouthernColor,
-    },
-    4: {
-      states: localitiesFromRegion(EasternRegion),
-      name: "Eastern Region",
-      color: EasternColor,
-    },
-    5: {
-      states: localitiesFromRegion(MidWestRegion),
-      name: "Midwest Region",
-      color: MidWesternColor,
-    },
-  },
+  // regions: {
+  //   0: {
+  //     states: localitiesFromRegion(NorthernRegion),
+  //     name: "Northern Region",
+  //     color: NorthernColor,
+  //   },
+  //   1: {
+  //     states: localitiesFromRegion(CentralRegion),
+  //     name: "Central Region",
+  //     color: CentralColor,
+  //   },
+  //   2: {
+  //     states: localitiesFromRegion(WesternRegion),
+  //     name: "Western Region",
+  //     color: WesternColor,
+  //   },
+  //   3: {
+  //     states: localitiesFromRegion(SouthernRegion),
+  //     name: "Southern Region",
+  //     color: SouthernColor,
+  //   },
+  //   4: {
+  //     states: localitiesFromRegion(EasternRegion),
+  //     name: "Eastern Region",
+  //     color: EasternColor,
+  //   },
+  //   5: {
+  //     states: localitiesFromRegion(MidWestRegion),
+  //     name: "Midwest Region",
+  //     color: MidWesternColor,
+  //   },
+  // },
 };
 
-const isLocalityInRegion = (region, locality) => {
-  let found = false;
-  region.CSUs.forEach((csu) => {
-    if (csu.localities.includes(locality)) {
-      found = true;
-    }
-  });
-  return found;
-};
+// const isLocalityInRegion = (region, locality) => {
+//   let found = false;
+//   region.CSUs.forEach((csu) => {
+//     if (csu.localities.includes(locality)) {
+//       found = true;
+//     }
+//   });
+//   return found;
+// };
 
-const regionColor = (locality) => {
-  if (isLocalityInRegion(NorthernRegion, locality)) {
-    return NorthernColor;
-  } else if (isLocalityInRegion(CentralRegion, locality)) {
-    return CentralColor;
-  } else if (isLocalityInRegion(WesternRegion, locality)) {
-    return WesternColor;
-  } else if (isLocalityInRegion(SouthernRegion, locality)) {
-    return SouthernColor;
-  } else if (isLocalityInRegion(EasternRegion, locality)) {
-    return EasternColor;
-  } else if (isLocalityInRegion(MidWestRegion, locality)) {
-    return MidWesternColor;
-  } else {
-    return "#000000";
-  }
-};
+// const regionColor = (locality) => {
+//   if (isLocalityInRegion(NorthernRegion, locality)) {
+//     return NorthernColor;
+//   } else if (isLocalityInRegion(CentralRegion, locality)) {
+//     return CentralColor;
+//   } else if (isLocalityInRegion(WesternRegion, locality)) {
+//     return WesternColor;
+//   } else if (isLocalityInRegion(SouthernRegion, locality)) {
+//     return SouthernColor;
+//   } else if (isLocalityInRegion(EasternRegion, locality)) {
+//     return EasternColor;
+//   } else if (isLocalityInRegion(MidWestRegion, locality)) {
+//     return MidWesternColor;
+//   } else {
+//     return "#000000";
+//   }
+// };
 
-const localities = simplemaps_statemap_mapdata.state_specific;
-for (locality in localities) {
-  localities[locality].url = localityUrl + locality;
-  localities[locality].color = regionColor(locality);
-}
+// const localities = simplemaps_statemap_mapdata.state_specific;
+// for (locality in localities) {
+//   localities[locality].url = localityUrl + locality;
+//   localities[locality].color = regionColor(locality);
+// }
