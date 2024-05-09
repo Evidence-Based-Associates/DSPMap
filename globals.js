@@ -29,23 +29,23 @@ Connect.send(null);
 // Place the response in an XML document.
 var dspsXML = Connect.responseXML;
 
-//get DTD file
-var dspsDTD = new XMLHttpRequest();
-dspsDTD.open("GET", "dsps.txt");
-dspsDTD.send(null);
+// //get DTD file
+// var dspsDTD = new XMLHttpRequest();
+// dspsDTD.open("GET", "dsps.txt");
+// dspsDTD.send(null);
 
-//get approved service name list
-var Connect = new XMLHttpRequest();
-Connect.open("GET", "serviceList.xml", false);
-Connect.setRequestHeader("Content-Type", "text/xml");
-Connect.send(null);
-// Place the response in an XML document.
-var servicesXML = Connect.responseXML;
+// //get approved service name list
+// var Connect = new XMLHttpRequest();
+// Connect.open("GET", "serviceList.xml", false);
+// Connect.setRequestHeader("Content-Type", "text/xml");
+// Connect.send(null);
+// // Place the response in an XML document.
+// var servicesXML = Connect.responseXML;
 
-//DTD file for service names
-var servicesDTD = new XMLHttpRequest();
-servicesDTD.open("GET", "serviceList.txt");
-servicesDTD.send(null);
+// //DTD file for service names
+// var servicesDTD = new XMLHttpRequest();
+// servicesDTD.open("GET", "serviceList.txt");
+// servicesDTD.send(null);
 
 //Most recent update date for version control
 //not working this way
