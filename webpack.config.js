@@ -6,4 +6,6 @@ module.exports = {
     path: __dirname + "/dist",
     filename: "[name].js",
   },
+  mode: "development",
+  devtool: "source-map",
 };

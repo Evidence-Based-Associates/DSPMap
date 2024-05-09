@@ -1,9 +1,4 @@
-const NorthernColor = "#406162";
-const CentralColor = "#89A16E";
-const WesternColor = "#4E5067";
-const SouthernColor = "#BCDAE7";
-const EasternColor = "#CE844E";
-const MidWesternColor = "#5E859F";
+import colors from "./colors";
 
 //Define CSUs
 //Eastern Region
@@ -293,32 +288,32 @@ const regions = {
   0: {
     states: localitiesFromRegion(NorthernRegion),
     name: "Northern Region",
-    color: NorthernColor,
+    color: colors.NorthernColor,
   },
   1: {
     states: localitiesFromRegion(CentralRegion),
     name: "Central Region",
-    color: CentralColor,
+    color: colors.CentralColor,
   },
   2: {
     states: localitiesFromRegion(WesternRegion),
     name: "Western Region",
-    color: WesternColor,
+    color: colors.WesternColor,
   },
   3: {
     states: localitiesFromRegion(SouthernRegion),
     name: "Southern Region",
-    color: SouthernColor,
+    color: colors.SouthernColor,
   },
   4: {
     states: localitiesFromRegion(EasternRegion),
     name: "Eastern Region",
-    color: EasternColor,
+    color: colors.EasternColor,
   },
   5: {
     states: localitiesFromRegion(MidWestRegion),
     name: "Midwest Region",
-    color: MidWesternColor,
+    color: colors.MidWesternColor,
   },
 };
 
