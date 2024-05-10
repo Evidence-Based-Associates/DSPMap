@@ -29,7 +29,7 @@
         <tr>
             <td>
                 <h2><u>
-                        <span id="providerName"></span>
+                        <span name="providerName"></span>
                     </u></h2>
                 <i>(scroll below the map for additional information about this provider)</i><br><br>
                 <i><b>Select Service To View Coverage Area</b></i>:<br>
@@ -53,12 +53,6 @@
                     </tr>
                     <tr valign="top">
                         <td>Not Provided:
-                            <script>
-                                // //check if there is no map
-                                // if (mapDescription == "Information is not available regarding this provider's coverage area.") {
-                                //     document.write("*:</td>");
-                                // }
-                            </script>
                         <td width=10></td>
                         <td>
                             <div style="width:30px;height:30px;border:1px solid #000;background-color:#88A4BC;"></div>
@@ -91,77 +85,19 @@
             over a locality.
         </span>
     </div>
-    <script>
-        //check if there is no map
-        // if (mapDescription == "Information is not available regarding this provider's coverage area.") {
-        //     document.write("<i>*A blank map may indicate that geographic coverage information has not yet been received by EBA.</i>");
-        // }
-    </script>
     <br>
     If you see any errors or missing information for this provider, <a
         href="mailto:joelnwalkley@gmail.com?Subject=[ProviderPage]">please let us know!</a><br><br>
+    <h2 class="ebaBlue"><u><span name="providerName"></span></u></h2>
+    <ul id="providerInfo"></ul>
+    <h2 class="ebaBlue"><u>Providing Services in the Following CSUs:</u></h2>
+    <ul id="providerCSUs"></ul>
+    <h2 class="ebaBlue"><u>Providing Services in the Following Localities:</u></h2>
+    <br><b>Counties:</b>
+    <ul id="providerCounties"></ul>
+    <br><b>Cities:</b>
+    <ul id="providerCities"></ul>
     <script>
-        // document.write("<h2 class='ebaBlue'><u>" + providerName.item(0).textContent + "</u></h2>");
-        // document.write("<ul>");
-        // document.write("<li><b>Provider's information was last updated: </b>" + providerUpdated[1] + "-" + providerUpdated[2] + "-" + providerUpdated[0] + "</li>");
-        // document.write("<li><b>Website</b>: <a href=http://" + providerWebsite.item(0).textContent + ">" + providerWebsite.item(0).textContent + "</a></li>");
-        // document.write("<li><b>Main Office:</b></li>");
-        // document.write("<ul>")
-        // document.write("<li>" + officeStreet.item(0).textContent + "<br>" + officeCity.item(0).textContent + ", " + officeState.item(0).textContent + " " + officeZip.item(0).textContent + "<br>Phone: " + officePhone.item(0).textContent + "<br>Fax: " + officeFax.item(0).textContent + "</li>");
-        // document.write("</ul>");
-        // document.write("<li><b>Contact:</b> " + providerContact.item(0).textContent + "</li>");
-        // document.write("<li><b>Contact Email:</b> " + providerEmail.item(0).textContent + "</li>");
-        // document.write("</ul>");
-        // document.write("<h2 class='ebaBlue'><u>Providing Services in the Following CSUs:</u></h2>");
-
-        // //get provider's CSU coverage:
-        // var providerAllLocations = provider.getElementsByTagName("FIPs");
-        // var serviceFIPsArray = [];
-
-        // var oneTimeNotice = 1;
-        // for (i = 0; i < providerAllLocations.length; i++) {
-        //     if (providerAllLocations[i].innerHTML != "ALL") {
-        //         serviceFIPsArray.push(providerAllLocations.item(i).textContent);
-        //     } else if (oneTimeNotice) {
-        //         document.write("<i>This provider accepts referrals from any locality, but offers direct services in these CSUs:</i>");
-        //         oneTimeNotice = 0;
-        //     }
-        // }
-        // serviceFIPsArray = removeDuplicates(serviceFIPsArray);
-
-        // var providerCSUArray = [];
-        // //look for the CSU
-        // //Cycle through regions
-        // //priting as you cycle through the CSU structure will have the correct numerical sort
-        // document.write("<ul>");
-        // for (i = 0; i < CSUStructure.length; i++) {
-        //     //cycle through region's CSUs
-        //     for (j = 0; j < CSUStructure[i].CSUs.length; j++) {
-        //         //cycle through the provider locations
-        //         for (k = 0; k < serviceFIPsArray.length; k++) {
-        //             if (CSUStructure[i].CSUs[j].localities.indexOf(serviceFIPsArray[k]) >= 0 && providerCSUArray.indexOf(CSUStructure[i].CSUs[j].name) == -1) {
-        //                 providerCSUArray.push(CSUStructure[i].CSUs[j].name);
-        //                 document.write("<li>" + CSUStructure[i].CSUs[j].name + "</li>");
-        //             }
-        //         }
-        //     }
-        // }
-        // //close ul
-        // document.write("</ul>");
-
-        // //Display service localities:
-        // document.write("<h2 class='ebaBlue'><u>Providing Services in the Following Localities:</u></h2>");
-        // var cityCountyBoundary = 0;
-        // document.write("<br><b>Counties:</b>");
-        // document.write("<ul>");
-        // for (i = 0; i < serviceFIPsArray.length; i++) {
-        //     if (Number(serviceFIPsArray[i]) > 51500 && cityCountyBoundary == 0) {
-        //         document.write("</ul><b>Cities:</b><ul>");
-        //         cityCountyBoundary = 1;
-        //     }
-        //     document.write("<li>" + simplemaps_statemap_mapdata.state_specific[serviceFIPsArray[i]].name + "</li>");
-        // }
-        // document.write("</ul>");
         // //Display service menu:
         // document.write("<h2 class='ebaBlue'><u>Providing the Following Services:</div></u></h2>");
         // document.write("<ul>");

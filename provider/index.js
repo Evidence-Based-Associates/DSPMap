@@ -1,6 +1,8 @@
 import dspsXML from "../src/getXML.js";
 import { allFips } from "../src/csu.js";
 import colors from "../src/colors.js";
+import { removeDuplicates } from "../src/utils.js";
+import { CSUStructure } from "../src/csu.js";
 
 const { RegColor, TravelColor, EBABlue } = colors;
 
@@ -72,8 +74,10 @@ for (var i = 0; i < providerList.length; i++) {
 }
 
 var providerName = provider.getElementsByTagName("Name");
-const providerNameSpan = document.getElementById("providerName");
-providerNameSpan.innerHTML = providerName.item(0).textContent;
+const providerNameSpan = document.getElementsByName("providerName");
+providerNameSpan.forEach(
+  (span) => (span.innerHTML = providerName.item(0).textContent)
+);
 var providerUpdated = provider
   .getElementsByTagName("LastUpdated")
   .item(0)
@@ -190,5 +194,74 @@ for (var i = 0; i < locations.length; i++) {
       locations[i].textContent
     ].description =
       "Available in " + locations.item(i).getAttribute("languages");
+  }
+}
+
+const providerInfo = document.getElementById("providerInfo");
+providerInfo.innerHTML =
+  "<p>Last Updated: " +
+  providerUpdated[1] +
+  "/" +
+  providerUpdated[2] +
+  "/" +
+  providerUpdated[0] +
+  "</p>" +
+  "<p>Website: <a href='" +
+  providerWebsite.item(0).textContent +
+  "'>" +
+  providerWebsite.item(0).textContent +
+  "</a></p>" +
+  "<p>Contact: " +
+  providerContact.item(0).textContent +
+  "</p>" +
+  "<p>Email: <a href='mailto:" +
+  providerEmail.item(0).textContent +
+  "'>" +
+  providerEmail.item(0).textContent +
+  "</a></p>";
+
+//get provider's CSU coverage:
+var providerAllLocations = provider.getElementsByTagName("FIPs");
+var serviceFIPsArray = [];
+
+for (let i = 0; i < providerAllLocations.length; i++) {
+  serviceFIPsArray.push(providerAllLocations.item(i).textContent);
+}
+serviceFIPsArray = removeDuplicates(serviceFIPsArray);
+
+var providerCSUArray = [];
+//look for the CSU
+//Cycle through regions
+//priting as you cycle through the CSU structure will have the correct numerical sort
+const providerCSUList = document.getElementById("providerCSUs");
+for (let i = 0; i < CSUStructure.length; i++) {
+  //cycle through region's CSUs
+  for (let j = 0; j < CSUStructure[i].CSUs.length; j++) {
+    //cycle through the provider locations
+    for (let k = 0; k < serviceFIPsArray.length; k++) {
+      if (
+        CSUStructure[i].CSUs[j].localities.indexOf(serviceFIPsArray[k]) >= 0 &&
+        providerCSUArray.indexOf(CSUStructure[i].CSUs[j].name) == -1
+      ) {
+        providerCSUArray.push(CSUStructure[i].CSUs[j].name);
+        const csuLI = document.createElement("li");
+        csuLI.innerHTML = CSUStructure[i].CSUs[j].name;
+        providerCSUList.appendChild(csuLI);
+      }
+    }
+  }
+}
+
+var cityCountyBoundary = 0;
+const countyList = document.getElementById("providerCounties");
+const cityList = document.getElementById("providerCities");
+for (i = 0; i < serviceFIPsArray.length; i++) {
+  const localityLI = document.createElement("li");
+  localityLI.innerHTML =
+    simplemaps_statemap_mapdata.state_specific[serviceFIPsArray[i]].name;
+  if (Number(serviceFIPsArray[i]) > 51500) {
+    cityList.appendChild(localityLI);
+  } else {
+    countyList.appendChild(localityLI);
   }
 }
