@@ -12,7 +12,7 @@ Any questions can be sent to joelnwalkley@gmail.com
     <title>DJJ Continuum Provider Map</title>
     <script src="mainmapdata.js"></script>
     <script src="statemap.js"></script>
-    <script type="module" src="./src/initMap.js"></script>"
+    <script type="module" src="./src/index.js"></script>"
     <link rel="stylesheet" type="text/css" href="pdstyle.css">
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -32,7 +32,6 @@ Any questions can be sent to joelnwalkley@gmail.com
     <h1>Evidence-Based Associates<br>Virginia DJJ Continuum<br>Provider Directory</h1>
     <div id="coveragemap"></div>
     <br>
-
     <p>*Reflects new FY25 Regions</p>
     <i>last updated:
         <span id="lastUpdated"></span>
@@ -58,31 +57,12 @@ Any questions can be sent to joelnwalkley@gmail.com
         <br>Service:
         <select name="Service">
             <option value="any" selected>(please select)</option>
-            <!-- <script>
-                for (i = 0; i < availableServices.length; i++) {
-                    document.write("<option value='" + i + "'>" + availableServices[i] + "</option>");
-                }
-            </script> -->
         </select>
         Location:
         <select name="Where">
             <option value="0" selected>(please select)</option>
             <!-- <script>
-                //Cycle through CSUs
-                for (i = 0; i < sortedCSUs.length; i++) {
-                    document.write("<option value='" + sortedCSUs[i].slug + "'>" + sortedCSUs[i].name + "</option>");
-                }
-                document.write("<option value='0'>-----REGIONS-----</option>");
-                document.write("<option value='north'>Northern Region</option>");
-                document.write("<option value='south'>Southern Region</option>");
-                document.write("<option value='east'>Eastern Region</option>");
-                document.write("<option value='central'>Central Region</option>");
-                document.write("<option value='west'>Western Region</option>");
-                document.write("<option value='midwest'>Midwestern Region</option>");
-                document.write("<option value='0'>-----LOCALITIES-----</option>");
-                for (i = 0; i < allFips.length; i++) {
-                    document.write("<option value='" + allFips[i] + "'>" + simplemaps_statemap_mapdata.state_specific[allFips[i]].name + "</option>");
-                }
+                
             </script> -->
         </select>
         Language:

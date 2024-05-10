@@ -1,5 +1,5 @@
 import colors from "./colors.js";
-import { regionCSUs } from "./csu.js";
+import { regionCSUs, sortedCSUs, allFips } from "./csu.js";
 
 const localitiesFromRegion = (region) => {
   let localities = [];
@@ -129,7 +129,6 @@ if (directoryUpdatedSplit[1] == "01") {
 //alert("Day is "+Number(directoryUpdatedSplit[2]));
 directoryUpdated += Number(directoryUpdatedSplit[2]) + ", ";
 directoryUpdated += directoryUpdatedSplit[0];
-console.log("Directory Updated: " + directoryUpdated);
 const lastUpdatedSpan = document.getElementById("lastUpdated");
 lastUpdatedSpan.innerText = directoryUpdated;
 
@@ -182,4 +181,66 @@ for (let i = 0; i < providers.length; i++) {
     //update counter so it doesn't overwrite a location
     locationCounter++;
   }
+}
+
+function removeDuplicates(num) {
+  var x,
+    len = num.length,
+    out = [],
+    obj = {};
+
+  for (x = 0; x < len; x++) {
+    obj[num[x]] = 0;
+  }
+  for (x in obj) {
+    out.push(x);
+  }
+  return out;
+}
+
+let availableServices = [];
+var serviceCheck = dspsXML.getElementsByTagName("Service");
+for (var i = 0; i < serviceCheck.length; i++) {
+  availableServices.push(serviceCheck.item(i).getAttribute("serviceName"));
+}
+availableServices = removeDuplicates(availableServices);
+availableServices.sort();
+
+const serviceSelect = document.getElementsByName("Service")[0];
+availableServices.forEach((service) => {
+  const option = document.createElement("option");
+  option.value = service;
+  option.text = service;
+  serviceSelect.appendChild(option);
+});
+
+const whereSelect = document.getElementsByName("Where")[0];
+//Cycle through CSUs
+for (let i = 0; i < sortedCSUs.length; i++) {
+  // create an option for each CSU
+  const option = document.createElement("option");
+  option.value = sortedCSUs[i].slug;
+  option.text = sortedCSUs[i].name;
+  whereSelect.appendChild(option);
+}
+const regionBreakOption = document.createElement("option");
+regionBreakOption.value = "0";
+regionBreakOption.text = "-----REGIONS-----";
+whereSelect.appendChild(regionBreakOption);
+//Cycle through Regions
+for (let region in regionCSUs) {
+  const option = document.createElement("option");
+  option.value = region;
+  option.text = regionCSUs[region].name;
+  whereSelect.appendChild(option);
+}
+const localityBreakOption = document.createElement("option");
+localityBreakOption.value = "0";
+localityBreakOption.text = "-----LOCALITIES-----";
+whereSelect.appendChild(localityBreakOption);
+for (let i = 0; i < allFips.length; i++) {
+  const option = document.createElement("option");
+  option.value = allFips[i];
+  option.text = simplemaps_statemap_mapdata.state_specific[allFips[i]].name;
+  whereSelect.appendChild(option);
 }
