@@ -290,3 +290,23 @@ for (let i = 0; i < CSUStructure.length; i++) {
   regionListUL.appendChild(regionHeading);
   regionListUL.appendChild(csuUL);
 }
+
+//put provider info in array to alphabetize
+var sortedProviders = [];
+for (let i = 0; i < providers.length; i++) {
+  var providerName = providers.item(i).getElementsByTagName("Name");
+  var providerID = providers.item(i).getAttribute("id");
+  sortedProviders.push(providerName.item(0).textContent + "!" + providerID);
+}
+//alphabetize
+sortedProviders.sort();
+
+//print
+const providerUL = document.getElementById("providerList");
+for (let i = 0; i < sortedProviders.length; i++) {
+  //seperate the ID from the name
+  var providerInfo = sortedProviders[i].split("!"); //providerInfo[0] is name [1] is ID
+  const providerLI = document.createElement("li");
+  providerLI.innerHTML = `<a href="provider.html?id=${providerInfo[1]}">${providerInfo[0]}</a>`;
+  providerUL.appendChild(providerLI);
+}
