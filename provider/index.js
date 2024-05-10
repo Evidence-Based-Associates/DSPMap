@@ -265,3 +265,63 @@ for (i = 0; i < serviceFIPsArray.length; i++) {
     countyList.appendChild(localityLI);
   }
 }
+
+var allProviderServices = provider.getElementsByTagName("Service");
+var allProviderServicesArray = [];
+for (i = 0; i < allProviderServices.length; i++) {
+  //var serviceNote = allProviderServices.item(i).getAttribute("note");
+  allProviderServicesArray.push(
+    allProviderServices.item(i).getAttribute("serviceName")
+  );
+}
+allProviderServicesArray.sort();
+allProviderServicesArray = removeDuplicates(allProviderServicesArray);
+const providerServiceList = document.getElementById("providerServices");
+for (i = 0; i < allProviderServicesArray.length; i++) {
+  var serviceInfo = [];
+  serviceInfo = allProviderServicesArray[i].split("!");
+  const serviceLI = document.createElement("li");
+  serviceLI.innerText = serviceInfo[0];
+  providerServiceList.appendChild(serviceLI);
+}
+
+//place into array in order to alphabetize
+var allProviderLocations = provider.getElementsByTagName("FIPs");
+var allProviderLanguagesArray = [];
+for (var i = 0; i < allProviderLocations.length; i++) {
+  if (allProviderLocations.item(i).getAttribute("languages")) {
+    var serviceLanguageStr = allProviderLocations
+      .item(i)
+      .getAttribute("languages");
+    serviceLanguageStr = serviceLanguageStr.replace(" ", "");
+    if (serviceLanguageStr.includes(",")) {
+      var serviceLanguages = serviceLanguageStr.split(",");
+      for (var j = 0; j < serviceLanguages.length; j++) {
+        allProviderLanguagesArray.push(serviceLanguages[j]);
+      }
+    } else {
+      allProviderLanguagesArray.push(
+        allProviderLocations.item(i).getAttribute("languages")
+      );
+    }
+  }
+  //alert("serviceLanguageStr is "+serviceLanguageStr);
+  //alert("attribute is "+allProviderLocations.item(i).getAttribute("languages"));
+  //alert("serviceLanguages is "+serviceLanguages.item(i));
+  //for (j=0;j<serviceLanguages.legth;j++){
+  //    allProviderLanguagesArray.push(serviceLanguages[j]);
+  //}
+}
+
+allProviderLanguagesArray = removeDuplicates(allProviderLanguagesArray);
+allProviderLanguagesArray.sort();
+
+const languageList = document.getElementById("providerLanguages");
+for (i = 0; i < allProviderLanguagesArray.length; i++) {
+  //var serviceInfo = [];
+  //serviceInfo = allProviderServicesArray[i].split("!");
+  //document.write("<li>"+serviceInfo[0]);
+  const languageLI = document.createElement("li");
+  languageLI.innerText = allProviderLanguagesArray[i];
+  languageList.appendChild(languageLI);
+}

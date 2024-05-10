@@ -97,77 +97,11 @@
     <ul id="providerCounties"></ul>
     <br><b>Cities:</b>
     <ul id="providerCities"></ul>
-    <script>
-        // //Display service menu:
-        // document.write("<h2 class='ebaBlue'><u>Providing the Following Services:</div></u></h2>");
-        // document.write("<ul>");
-        // //place into array in order to alphabetize
-        // var allProviderServices = provider.getElementsByTagName("Service");
-        // var allProviderServicesArray = [];
-        // for (i = 0; i < allProviderServices.length; i++) {
-        //     //var serviceNote = allProviderServices.item(i).getAttribute("note");
-        //     allProviderServicesArray.push(allProviderServices.item(i).getAttribute("serviceName"));
-        // }
-        // allProviderServicesArray.sort();
-        // allProviderServicesArray = removeDuplicates(allProviderServicesArray);
-        // for (i = 0; i < allProviderServicesArray.length; i++) {
-        //     var serviceInfo = [];
-        //     serviceInfo = allProviderServicesArray[i].split("!");
-        //     document.write("<li>" + serviceInfo[0]);
-        //     if (serviceInfo[1] != "null") {
-        //         //document.write(" <b><u>note:</u></b> "+serviceInfo[1]+"</li>");
-        //     } else {
-        //         document.write("</li>");
-        //     }
-        // }
-        // document.write("</ul>");
-
-        // //Display language menu:
-        // //Display service menu:
-        // document.write("<h2 class='ebaBlue'><u>With Services in the Following Language:</div></u></h2>");
-        // document.write("<br><i>consult the map above for specific language availability</i>");
-        // document.write("<ul>");
-        // //place into array in order to alphabetize
-        // var allProviderLocations = provider.getElementsByTagName("FIPs");
-        // var allProviderLanguagesArray = [];
-        // //alert ("lenght "+allProviderServices.length);
-        // for (var i = 0; i < allProviderLocations.length; i++) {
-        //     //var serviceNote = allProviderServices.item(i).getAttribute("note");
-        //     //allProviderLanguagesArray.push(allProviderServices.item(i).getAttribute("serviceName"));
-        //     if (allProviderLocations.item(i).getAttribute("languages")) {
-        //         var serviceLanguageStr = allProviderLocations.item(i).getAttribute("languages");
-        //         serviceLanguageStr = serviceLanguageStr.replace(" ", "");
-        //         //alert("attribute is "+allProviderLocations.item(i).getAttribute("languages"));
-        //         if (serviceLanguageStr.includes(",")) {
-        //             var serviceLanguages = serviceLanguageStr.split(",");
-        //             for (var j = 0; j < serviceLanguages.length; j++) {
-        //                 allProviderLanguagesArray.push(serviceLanguages[j]);
-        //             }
-        //         } else {
-        //             //var serviceLanguages = allProviderLocations.item(i).getAttribute("languages");
-        //             allProviderLanguagesArray.push(allProviderLocations.item(i).getAttribute("languages"));
-        //         }
-        //     }
-        //     //alert("serviceLanguageStr is "+serviceLanguageStr);
-        //     //alert("attribute is "+allProviderLocations.item(i).getAttribute("languages"));
-        //     //alert("serviceLanguages is "+serviceLanguages.item(i));
-        //     //for (j=0;j<serviceLanguages.legth;j++){
-        //     //    allProviderLanguagesArray.push(serviceLanguages[j]);
-        //     //}
-        // }
-
-        // allProviderLanguagesArray = removeDuplicates(allProviderLanguagesArray);
-        // allProviderLanguagesArray.sort();
-
-        // for (i = 0; i < allProviderLanguagesArray.length; i++) {
-        //     //var serviceInfo = [];
-        //     //serviceInfo = allProviderServicesArray[i].split("!");
-        //     //document.write("<li>"+serviceInfo[0]);
-        //     document.write("<li>" + allProviderLanguagesArray[i] + "</li>");
-        // }
-        // document.write("</ul>");
-
-    </script>
+    <h2 class="ebaBlue"><u>Providing the Following Services:</u></h2>
+    <ul id="providerServices"></ul>
+    <h2 class="ebaBlue"><u>With Services in the Following Language:</u></h2>
+    <br><i>consult the map above for specific language availability</i>
+    <ul id="providerLanguages"></ul>
     <br><br>
     If you see any errors or missing information for this provider, <a
         href="mailto:joelnwalkley@gmail.com?Subject=[ProviderPage]">please let us know!</a>
