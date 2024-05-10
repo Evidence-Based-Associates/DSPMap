@@ -26,106 +26,6 @@ Any questions can be sent to joelnwalkley@gmail.com
         ga('send', 'pageview');
 
     </script>
-    <!-- <script>
-        //get last update
-        var updateDates = dspsXML.getElementsByTagName("LastUpdated");
-        var updateArray = [];
-        var updateArryText = "";
-        for (var i = 0; i < updateDates.length; i++) {
-            updateArray.push(updateDates.item(i).textContent);
-        }
-        updateArray.sort();
-        //debuging the wrong date. SORT makes 2018-3-13 before 2018-3-9 because it is not by number.    
-        for (var i = 0; i < updateDates.length; i++) {
-            updateArryText += updateArray[i] + "\r";
-        }
-        //alert(updateArryText);
-        var directoryUpdatedSplit = updateArray[i - 1].split("-");
-        var directoryUpdated = "";//directoryUpdatedSplit[1]+"-";//directoryUpdatedSplit[2]+"-"+directoryUpdatedSplit[0];
-        if (directoryUpdatedSplit[1] == "01") {
-            directoryUpdated = "January ";
-        }
-        else if (directoryUpdatedSplit[1] == "02") {
-            directoryUpdated = "February ";
-        }
-        else if (directoryUpdatedSplit[1] == "03") {
-            directoryUpdated = "March ";
-        }
-        else if (directoryUpdatedSplit[1] == "04") {
-            directoryUpdated = "April ";
-        }
-        else if (directoryUpdatedSplit[1] == "05") {
-            directoryUpdated = "May ";
-        }
-        else if (directoryUpdatedSplit[1] == "06") {
-            directoryUpdated = "June ";
-        }
-        else if (directoryUpdatedSplit[1] == "07") {
-            directoryUpdated = "July ";
-        }
-        else if (directoryUpdatedSplit[1] == "08") {
-            directoryUpdated = "August ";
-        }
-        else if (directoryUpdatedSplit[1] == "09") {
-            directoryUpdated = "September ";
-        }
-        else if (directoryUpdatedSplit[1] == "10") {
-            directoryUpdated = "October ";
-        }
-        else if (directoryUpdatedSplit[1] == "11") {
-            directoryUpdated = "November ";
-        }
-        else if (directoryUpdatedSplit[1] == "12") {
-            directoryUpdated = "December ";
-        }
-        //alert("Day is "+Number(directoryUpdatedSplit[2]));
-        directoryUpdated += Number(directoryUpdatedSplit[2]) + ", ";
-        directoryUpdated += directoryUpdatedSplit[0];
-
-        //Get a list of all the providers
-        var providers = dspsXML.getElementsByTagName("Provider");
-
-        var locationCounter = 0;
-        var officeURL = "provider.html?id=";
-        //cycle through all providers and add office locations to map
-        for (i = 0; i < providers.length; i++) {
-            //get info for each provider
-            //revise for IE
-            var offices = providers.item(i).getElementsByTagName("Office");
-            var providerName = providers.item(i).getElementsByTagName("Name");
-            var providerID = providers.item(i).getAttribute("id");
-
-            //cycle through all locations of the provider
-            for (j = 0; j < offices.length; j++) {
-                //get info for each office
-                var officeLat = offices.item(j).getElementsByTagName("Lat");
-                var officeLng = offices.item(j).getElementsByTagName("Lng");
-                var officeStreet = offices.item(j).getElementsByTagName("Street");
-                var officeCity = offices.item(j).getElementsByTagName("City");
-                var officeState = offices.item(j).getElementsByTagName("State");
-                var officeZip = offices.item(j).getElementsByTagName("Zip");
-                var officePhone = offices.item(j).getElementsByTagName("Phone");
-
-                //add the office data to a map location
-                simplemaps_statemap_mapdata.locations[locationCounter] = {
-                    lat: officeLat.item(0).textContent,
-                    lng: officeLng.item(0).textContent,
-                    name: providerName.item(0).textContent,
-                    color: "default",
-                    description: officeStreet.item(0).textContent + "<br>" + officeCity.item(0).textContent + ", " + officeState.item(0).textContent + " " + officeZip.item(0).textContent + "<br>" + officePhone.item(0).textContent,
-                    url: officeURL + providerID,//+"?map=all",//link to provider map
-                    size: "default",
-                    type: "default",
-                    image_url: "default",
-                    opacity: "default"
-                }
-                //update counter so it doesn't overwrite a location
-                locationCounter++;
-            }
-
-        }
-    </script> -->
-
 </head>
 
 <body>
@@ -135,7 +35,7 @@ Any questions can be sent to joelnwalkley@gmail.com
 
     <p>*Reflects new FY25 Regions</p>
     <i>last updated:
-        <!-- <script>document.write(directoryUpdated);</script> -->
+        <span id="lastUpdated"></span>
     </i><br><br>
     <p>Many services captured on the map are available statewide via telehealth; please inquire with <a
             href="mailto:kbrooks@ebanetwork.com">kbrooks@ebanetwork.com</a></p>

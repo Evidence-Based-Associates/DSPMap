@@ -86,6 +86,53 @@ Connect.send(null);
 // Place the response in an XML document.
 var dspsXML = Connect.responseXML;
 
+//get last update
+var updateDates = dspsXML.getElementsByTagName("LastUpdated");
+var updateArray = [];
+var updateArryText = "";
+for (var i = 0; i < updateDates.length; i++) {
+  updateArray.push(updateDates.item(i).textContent);
+}
+updateArray.sort();
+//debuging the wrong date. SORT makes 2018-3-13 before 2018-3-9 because it is not by number.
+for (var i = 0; i < updateDates.length; i++) {
+  updateArryText += updateArray[i] + "\r";
+}
+//alert(updateArryText);
+var directoryUpdatedSplit = updateArray[i - 1].split("-");
+var directoryUpdated = ""; //directoryUpdatedSplit[1]+"-";//directoryUpdatedSplit[2]+"-"+directoryUpdatedSplit[0];
+if (directoryUpdatedSplit[1] == "01") {
+  directoryUpdated = "January ";
+} else if (directoryUpdatedSplit[1] == "02") {
+  directoryUpdated = "February ";
+} else if (directoryUpdatedSplit[1] == "03") {
+  directoryUpdated = "March ";
+} else if (directoryUpdatedSplit[1] == "04") {
+  directoryUpdated = "April ";
+} else if (directoryUpdatedSplit[1] == "05") {
+  directoryUpdated = "May ";
+} else if (directoryUpdatedSplit[1] == "06") {
+  directoryUpdated = "June ";
+} else if (directoryUpdatedSplit[1] == "07") {
+  directoryUpdated = "July ";
+} else if (directoryUpdatedSplit[1] == "08") {
+  directoryUpdated = "August ";
+} else if (directoryUpdatedSplit[1] == "09") {
+  directoryUpdated = "September ";
+} else if (directoryUpdatedSplit[1] == "10") {
+  directoryUpdated = "October ";
+} else if (directoryUpdatedSplit[1] == "11") {
+  directoryUpdated = "November ";
+} else if (directoryUpdatedSplit[1] == "12") {
+  directoryUpdated = "December ";
+}
+//alert("Day is "+Number(directoryUpdatedSplit[2]));
+directoryUpdated += Number(directoryUpdatedSplit[2]) + ", ";
+directoryUpdated += directoryUpdatedSplit[0];
+console.log("Directory Updated: " + directoryUpdated);
+const lastUpdatedSpan = document.getElementById("lastUpdated");
+lastUpdatedSpan.innerText = directoryUpdated;
+
 //Get a list of all the providers
 var providers = dspsXML.getElementsByTagName("Provider");
 
