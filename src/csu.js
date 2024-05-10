@@ -451,6 +451,15 @@ const MidWestRegion = {
   slug: "midwest",
 };
 
+export const CSUStructure = [
+  EasternRegion,
+  SouthernRegion,
+  CentralRegion,
+  NorthernRegion,
+  WesternRegion,
+  MidWestRegion,
+];
+
 export const regionCSUs = {
   NorthernRegion,
   SouthernRegion,

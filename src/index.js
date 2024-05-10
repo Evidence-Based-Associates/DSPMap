@@ -1,5 +1,5 @@
 import colors from "./colors.js";
-import { regionCSUs, sortedCSUs, allFips } from "./csu.js";
+import { regionCSUs, sortedCSUs, allFips, CSUStructure } from "./csu.js";
 
 const localitiesFromRegion = (region) => {
   let localities = [];
@@ -272,4 +272,21 @@ for (let i = 0; i < allLanguagesArray.length; i++) {
     option.text = allLanguagesArray[i];
     document.getElementsByName("Language")[0].appendChild(option);
   }
+}
+
+//Cycle through regions
+const regionListUL = document.getElementById("regionList");
+for (let i = 0; i < CSUStructure.length; i++) {
+  const regionHeading = document.createElement("h3");
+  regionHeading.innerText = CSUStructure[i].name;
+  regionHeading.className = "ebaBlue";
+  //cycle through region's CSUs
+  const csuUL = document.createElement("ul");
+  for (j = 0; j < CSUStructure[i].CSUs.length; j++) {
+    const csuLI = document.createElement("li");
+    csuLI.innerHTML = `<a href="csu.html?${CSUStructure[i].CSUs[j].slug}">${CSUStructure[i].CSUs[j].name}</a>`;
+    csuUL.appendChild(csuLI);
+  }
+  regionListUL.appendChild(regionHeading);
+  regionListUL.appendChild(csuUL);
 }
