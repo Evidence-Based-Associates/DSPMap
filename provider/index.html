@@ -33,7 +33,7 @@
                     </u></h2>
                 <i>(scroll below the map for additional information about this provider)</i><br><br>
                 <i><b>Select Service To View Coverage Area</b></i>:<br>
-                <select name="serviceSelect" onchange="displayService()"></select>
+                <select name="serviceSelect"></select>
             </td>
             <td>
                 <table>
@@ -75,27 +75,6 @@
             </td>
         </tr>
     </table>
-    <script>
-        // //load up color code for first map
-        // var locations = providerServices.item(0).getElementsByTagName("FIPs");
-        // //alert("locations lenght is "+providerServices.length);
-        // for (var i = 0; i < locations.length; i++) {
-        //     //alert("location attribute "+ locations.item(i).getAttribute('travelReq'));
-        //     if (locations.item(i).getAttribute("travelReq") == "Y") {
-        //         simplemaps_statemap_mapdata.state_specific[locations[i].textContent].color = TravelColor;
-        //         simplemaps_statemap_mapdata.state_specific[locations[i].textContent].hover_color = TravelColor;
-        //     }
-        //     if (locations.item(i).getAttribute("travelReq") == "N") {
-        //         simplemaps_statemap_mapdata.state_specific[locations[i].textContent].color = RegColor;
-        //         simplemaps_statemap_mapdata.state_specific[locations[i].textContent].hover_color = RegColor;
-        //     }
-        //     if (locations.item(i).getAttribute("languages")) {
-        //         //simplemaps_statemap_mapdata.state_specific[locations[i].textContent].border_color = LanguageColor;
-        //         simplemaps_statemap_mapdata.state_specific[locations[i].textContent].description = "Available in " + locations.item(i).getAttribute("languages");
-        //     }
-        // }
-
-    </script>
     <!-- blank cell between -->
     <!-- get rid of the key, save explaination in the text below?-->
     <div id="coveragemap"></div>

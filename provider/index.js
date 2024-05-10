@@ -1,5 +1,8 @@
 import dspsXML from "../src/getXML.js";
 import { allFips } from "../src/csu.js";
+import colors from "../src/colors.js";
+
+const { RegColor, TravelColor, EBABlue } = colors;
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
@@ -7,7 +10,7 @@ const providerID = urlParams.get("id");
 //functions
 function displayService() {
   //Clear the map
-  for (i = 0; i < allFips.length; i++) {
+  for (let i = 0; i < allFips.length; i++) {
     simplemaps_statemap_mapdata.state_specific[allFips[i]].url =
       "javascript:toggleTravel(" + allFips[i] + ")";
     simplemaps_statemap_mapdata.state_specific[allFips[i]].color = "default";
@@ -101,7 +104,7 @@ for (i = 0; i < officeCount; i++) {
     lat: officeLat.item(i).textContent,
     lng: officeLng.item(i).textContent,
     name: providerName.item(0).textContent,
-    color: "default",
+    color: EBABlue,
     description:
       officeStreet.item(i).textContent +
       "<br>" +
@@ -159,4 +162,33 @@ for (let i = 0; i < providerServices.length; i++) {
   serviceOption.value = i;
   serviceOption.text = providerServices.item(i).getAttribute("serviceName");
   serviceSelect.appendChild(serviceOption);
+}
+serviceSelect.addEventListener("change", displayService);
+
+//  load up color code for first map
+var locations = providerServices.item(0).getElementsByTagName("FIPs");
+//alert("locations lenght is "+providerServices.length);
+for (var i = 0; i < locations.length; i++) {
+  //alert("location attribute "+ locations.item(i).getAttribute('travelReq'));
+  if (locations.item(i).getAttribute("travelReq") == "Y") {
+    simplemaps_statemap_mapdata.state_specific[locations[i].textContent].color =
+      TravelColor;
+    simplemaps_statemap_mapdata.state_specific[
+      locations[i].textContent
+    ].hover_color = TravelColor;
+  }
+  if (locations.item(i).getAttribute("travelReq") == "N") {
+    simplemaps_statemap_mapdata.state_specific[locations[i].textContent].color =
+      RegColor;
+    simplemaps_statemap_mapdata.state_specific[
+      locations[i].textContent
+    ].hover_color = RegColor;
+  }
+  if (locations.item(i).getAttribute("languages")) {
+    //simplemaps_statemap_mapdata.state_specific[locations[i].textContent].border_color = LanguageColor;
+    simplemaps_statemap_mapdata.state_specific[
+      locations[i].textContent
+    ].description =
+      "Available in " + locations.item(i).getAttribute("languages");
+  }
 }
