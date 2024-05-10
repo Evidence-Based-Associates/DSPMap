@@ -317,3 +317,10 @@ for (let i = 0; i < availableServices.length; i++) {
   serviceLI.innerHTML = `<a href="service.html?${i}">${availableServices[i]}</a>`;
   serviceUL.appendChild(serviceLI);
 }
+
+const languageUL = document.getElementById("languageList");
+for (let i = 0; i < allLanguagesArray.length; i++) {
+  const languageLI = document.createElement("li");
+  languageLI.innerHTML = `<a href="language.html?${i}">${allLanguagesArray[i]}</a>`;
+  languageUL.appendChild(languageLI);
+}
