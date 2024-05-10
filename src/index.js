@@ -244,3 +244,32 @@ for (let i = 0; i < allFips.length; i++) {
   option.text = simplemaps_statemap_mapdata.state_specific[allFips[i]].name;
   whereSelect.appendChild(option);
 }
+
+var allLocations = dspsXML.getElementsByTagName("FIPs");
+let allLanguagesArray = [];
+for (var i = 0; i < allLocations.length; i++) {
+  if (allLocations.item(i).getAttribute("languages")) {
+    var serviceLanguageStr = allLocations.item(i).getAttribute("languages");
+    while (serviceLanguageStr.indexOf(" ") >= 0) {
+      serviceLanguageStr = serviceLanguageStr.replace(" ", "");
+    }
+    if (serviceLanguageStr.includes(",")) {
+      var serviceLanguages = serviceLanguageStr.split(",");
+      for (var j = 0; j < serviceLanguages.length; j++) {
+        allLanguagesArray.push(serviceLanguages[j]);
+      }
+    } else {
+      allLanguagesArray.push(allLocations.item(i).getAttribute("languages"));
+    }
+  }
+}
+allLanguagesArray = removeDuplicates(allLanguagesArray);
+allLanguagesArray.sort();
+for (let i = 0; i < allLanguagesArray.length; i++) {
+  if (!allLanguagesArray[i] == "") {
+    const option = document.createElement("option");
+    option.value = allLanguagesArray[i];
+    option.text = allLanguagesArray[i];
+    document.getElementsByName("Language")[0].appendChild(option);
+  }
+}
