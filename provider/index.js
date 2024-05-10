@@ -2,9 +2,46 @@ import dspsXML from "../src/getXML.js";
 import { allFips } from "../src/csu.js";
 import colors from "../src/colors.js";
 import { removeDuplicates } from "../src/utils.js";
-import { CSUStructure } from "../src/csu.js";
+import { CSUStructure, regionCSUs } from "../src/csu.js";
 
 const { RegColor, TravelColor, EBABlue } = colors;
+
+const localitiesFromRegion = (region) => {
+  let localities = [];
+  region.CSUs.forEach((csu) => {
+    localities = localities.concat(csu.localities);
+  });
+  return localities;
+};
+
+const regions = {
+  0: {
+    states: localitiesFromRegion(regionCSUs.NorthernRegion),
+    name: "Northern Region",
+  },
+  1: {
+    states: localitiesFromRegion(regionCSUs.CentralRegion),
+    name: "Central Region",
+  },
+  2: {
+    states: localitiesFromRegion(regionCSUs.WesternRegion),
+    name: "Western Region",
+  },
+  3: {
+    states: localitiesFromRegion(regionCSUs.SouthernRegion),
+    name: "Southern Region",
+  },
+  4: {
+    states: localitiesFromRegion(regionCSUs.EasternRegion),
+    name: "Eastern Region",
+  },
+  5: {
+    states: localitiesFromRegion(regionCSUs.MidWestRegion),
+    name: "Midwest Region",
+  },
+};
+
+simplemaps_statemap_mapdata.regions = regions;
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
