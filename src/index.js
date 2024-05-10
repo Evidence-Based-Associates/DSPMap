@@ -310,3 +310,10 @@ for (let i = 0; i < sortedProviders.length; i++) {
   providerLI.innerHTML = `<a href="provider.html?id=${providerInfo[1]}">${providerInfo[0]}</a>`;
   providerUL.appendChild(providerLI);
 }
+
+const serviceUL = document.getElementById("serviceList");
+for (let i = 0; i < availableServices.length; i++) {
+  const serviceLI = document.createElement("li");
+  serviceLI.innerHTML = `<a href="service.html?${i}">${availableServices[i]}</a>`;
+  serviceUL.appendChild(serviceLI);
+}

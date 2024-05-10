@@ -76,37 +76,9 @@ Any questions can be sent to joelnwalkley@gmail.com
     <a id="Providers"></a>
     <h2>Provider List:</h2>
     <ul id="providerList"></ul>
-    <!-- <script>
-        //put provider info in array to alphabetize
-        var sortedProviders = [];
-        for (i = 0; i < providers.length; i++) {
-            var providerName = providers.item(i).getElementsByTagName("Name");
-            var providerID = providers.item(i).getAttribute("id");
-            sortedProviders.push(providerName.item(0).textContent + "!" + providerID);
-        }
-        //alphabetize
-        sortedProviders.sort();
-
-        //print
-        document.write("<ul>");
-        for (i = 0; i < sortedProviders.length; i++) {
-            //seperate the ID from the name
-            var providerInfo = sortedProviders[i].split("!");//providerInfo[0] is name [1] is ID
-            document.write("<li><a href=provider.html?id=" + providerInfo[1] + ">");//?map=all>
-            document.write(providerInfo[0] + "</a></li>");
-        }
-        document.write("</ul>");
-    </script> -->
     <a id="Services"></a>
     <h2>Available Services List:</h2>
-    <!-- <script>
-        document.write("<ul>");
-        for (i = 0; i < availableServices.length; i++) {
-            document.write("<li><a href=service.html?" + i + ">");
-            document.write(availableServices[i] + "</a></li>");
-        }
-        document.write("</ul>");
-    </script> -->
+    <ul id="serviceList"></ul>
     <a id="Languages"></a>
     <h2>Available Languages List:</h2>
     <ul>
