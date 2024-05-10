@@ -136,7 +136,7 @@ lastUpdatedSpan.innerText = directoryUpdated;
 var providers = dspsXML.getElementsByTagName("Provider");
 
 var locationCounter = 0;
-var officeURL = "provider.html?id=";
+var officeURL = "/provider/index.html?id=";
 //cycle through all providers and add office locations to map
 for (let i = 0; i < providers.length; i++) {
   //get info for each provider
@@ -307,7 +307,7 @@ for (let i = 0; i < sortedProviders.length; i++) {
   //seperate the ID from the name
   var providerInfo = sortedProviders[i].split("!"); //providerInfo[0] is name [1] is ID
   const providerLI = document.createElement("li");
-  providerLI.innerHTML = `<a href="provider.html?id=${providerInfo[1]}">${providerInfo[0]}</a>`;
+  providerLI.innerHTML = `<a href="/provider/index.html?id=${providerInfo[1]}">${providerInfo[0]}</a>`;
   providerUL.appendChild(providerLI);
 }
 
