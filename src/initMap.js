@@ -43,3 +43,37 @@ const regions = {
 };
 
 simplemaps_statemap_mapdata.regions = regions;
+
+const isLocalityInRegion = (region, locality) => {
+  let found = false;
+  region.CSUs.forEach((csu) => {
+    if (csu.localities.includes(locality)) {
+      found = true;
+    }
+  });
+  return found;
+};
+
+const regionColor = (locality) => {
+  if (isLocalityInRegion(regionCSUs.NorthernRegion, locality)) {
+    return colors.NorthernColor;
+  } else if (isLocalityInRegion(regionCSUs.CentralRegion, locality)) {
+    return colors.CentralColor;
+  } else if (isLocalityInRegion(regionCSUs.WesternRegion, locality)) {
+    return colors.WesternColor;
+  } else if (isLocalityInRegion(regionCSUs.SouthernRegion, locality)) {
+    return colors.SouthernColor;
+  } else if (isLocalityInRegion(regionCSUs.EasternRegion, locality)) {
+    return colors.EasternColor;
+  } else if (isLocalityInRegion(regionCSUs.MidWestRegion, locality)) {
+    return colors.MidWesternColor;
+  } else {
+    return "#000000";
+  }
+};
+
+const localities = simplemaps_statemap_mapdata.state_specific;
+for (let locality in localities) {
+  localities[locality].url = "locality.html?" + locality;
+  localities[locality].color = regionColor(locality);
+}
