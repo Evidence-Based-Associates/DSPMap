@@ -77,3 +77,62 @@ for (let locality in localities) {
   localities[locality].url = "locality.html?" + locality;
   localities[locality].color = regionColor(locality);
 }
+//connect to data file
+var Connect = new XMLHttpRequest();
+var cacheBuster = Date.now();
+Connect.open("GET", "dsps.xml?" + cacheBuster, false);
+Connect.setRequestHeader("Content-Type", "text/xml");
+Connect.send(null);
+// Place the response in an XML document.
+var dspsXML = Connect.responseXML;
+
+//Get a list of all the providers
+var providers = dspsXML.getElementsByTagName("Provider");
+
+var locationCounter = 0;
+var officeURL = "provider.html?id=";
+//cycle through all providers and add office locations to map
+for (let i = 0; i < providers.length; i++) {
+  //get info for each provider
+  //revise for IE
+  var offices = providers.item(i).getElementsByTagName("Office");
+  var providerName = providers.item(i).getElementsByTagName("Name");
+  var providerID = providers.item(i).getAttribute("id");
+
+  //cycle through all locations of the provider
+  for (let j = 0; j < offices.length; j++) {
+    //get info for each office
+    var officeLat = offices.item(j).getElementsByTagName("Lat");
+    var officeLng = offices.item(j).getElementsByTagName("Lng");
+    var officeStreet = offices.item(j).getElementsByTagName("Street");
+    var officeCity = offices.item(j).getElementsByTagName("City");
+    var officeState = offices.item(j).getElementsByTagName("State");
+    var officeZip = offices.item(j).getElementsByTagName("Zip");
+    var officePhone = offices.item(j).getElementsByTagName("Phone");
+
+    //add the office data to a map location
+    simplemaps_statemap_mapdata.locations[locationCounter] = {
+      lat: officeLat.item(0).textContent,
+      lng: officeLng.item(0).textContent,
+      name: providerName.item(0).textContent,
+      color: colors.EBABlue,
+      description:
+        officeStreet.item(0).textContent +
+        "<br>" +
+        officeCity.item(0).textContent +
+        ", " +
+        officeState.item(0).textContent +
+        " " +
+        officeZip.item(0).textContent +
+        "<br>" +
+        officePhone.item(0).textContent,
+      url: officeURL + providerID, //+"?map=all",//link to provider map
+      size: "default",
+      type: "default",
+      image_url: "default",
+      opacity: "default",
+    };
+    //update counter so it doesn't overwrite a location
+    locationCounter++;
+  }
+}
