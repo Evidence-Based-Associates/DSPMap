@@ -284,7 +284,7 @@ for (let i = 0; i < CSUStructure.length; i++) {
   const csuUL = document.createElement("ul");
   for (j = 0; j < CSUStructure[i].CSUs.length; j++) {
     const csuLI = document.createElement("li");
-    csuLI.innerHTML = `<a href="csu.html?${CSUStructure[i].CSUs[j].slug}">${CSUStructure[i].CSUs[j].name}</a>`;
+    csuLI.innerHTML = `<a href="csu/index.html?id=${CSUStructure[i].CSUs[j].slug}">${CSUStructure[i].CSUs[j].name}</a>`;
     csuUL.appendChild(csuLI);
   }
   regionListUL.appendChild(regionHeading);
