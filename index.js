@@ -321,6 +321,6 @@ for (let i = 0; i < availableServices.length; i++) {
 const languageUL = document.getElementById("languageList");
 for (let i = 0; i < allLanguagesArray.length; i++) {
   const languageLI = document.createElement("li");
-  languageLI.innerHTML = `<a href="language.html?${i}">${allLanguagesArray[i]}</a>`;
+  languageLI.innerHTML = `<a href="language/index.html?id=${i}">${allLanguagesArray[i]}</a>`;
   languageUL.appendChild(languageLI);
 }
