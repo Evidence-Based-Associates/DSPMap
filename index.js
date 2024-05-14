@@ -230,7 +230,7 @@ whereSelect.appendChild(regionBreakOption);
 //Cycle through Regions
 for (let region in regionCSUs) {
   const option = document.createElement("option");
-  option.value = region;
+  option.value = regionCSUs[region].slug;
   option.text = regionCSUs[region].name;
   whereSelect.appendChild(option);
 }
