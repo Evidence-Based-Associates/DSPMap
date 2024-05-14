@@ -41,23 +41,23 @@ if (locationID.includes("CSU")) {
   switch (locationID) {
     case "north":
       locationText = "Northern Region";
-      thisRegion = CSUStructure[0];
+      thisRegion = CSUStructure[3];
       break;
     case "south":
       locationText = "Southern Region";
-      thisRegion = CSUStructure[3];
+      thisRegion = CSUStructure[1];
       break;
     case "east":
       locationText = "Eastern Region";
-      thisRegion = CSUStructure[4];
+      thisRegion = CSUStructure[0];
       break;
     case "central":
       locationText = "Central Region";
-      thisRegion = CSUStructure[1];
+      thisRegion = CSUStructure[2];
       break;
     case "west":
       locationText = "Western Region";
-      thisRegion = CSUStructure[2];
+      thisRegion = CSUStructure[4];
       break;
     case "midwest":
       locationText = "Midwestern Region";
@@ -105,7 +105,7 @@ for (let i = 0; i < locations.length; i++) {
   }
   if (
     locationType == "Locality" &&
-    locations.item(i).textContent == locationIndex[1]
+    locations.item(i).textContent == locationID
   ) {
     LocationTest = 1;
   }
