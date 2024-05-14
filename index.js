@@ -74,7 +74,7 @@ const regionColor = (locality) => {
 
 const localities = simplemaps_statemap_mapdata.state_specific;
 for (let locality in localities) {
-  localities[locality].url = "locality.html?" + locality;
+  localities[locality].url = "locality/index.html?id=" + locality;
   localities[locality].color = regionColor(locality);
 }
 //connect to data file

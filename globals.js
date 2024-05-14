@@ -567,7 +567,7 @@ const localitiesFromRegion = (region) => {
 };
 
 //for use in defining localities
-var localityUrl = "locality.html?";
+var localityUrl = "locality/index.html?id=";
 
 //get the paramaters from url
 var queryString = window.location.search;
