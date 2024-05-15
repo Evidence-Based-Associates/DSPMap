@@ -1,7 +1,7 @@
-import dspsXML from "../src/getXML.js";
-import { removeDuplicates } from "../src/utils.js";
-import { allFips } from "../src/csu.js";
-import colors from "../src/colors.js";
+import dspsXML from "../../src/getXML.js";
+import { removeDuplicates } from "../../src/utils.js";
+import { allFips } from "../../src/csu.js";
+import colors from "../../src/colors.js";
 
 const { TravelColor, RegColor } = colors;
 

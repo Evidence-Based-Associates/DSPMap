@@ -1,6 +1,11 @@
-import { CSUStructure, allFips, regionCSUs, sortedCSUs } from "../src/csu.js";
-import dspsXML from "../src/getXML.js";
-import { removeDuplicates } from "../src/utils.js";
+import {
+  CSUStructure,
+  allFips,
+  regionCSUs,
+  sortedCSUs,
+} from "../../src/csu.js";
+import dspsXML from "../../src/getXML.js";
+import { removeDuplicates } from "../../src/utils.js";
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const [serviceName, locationID, languageName] = urlParams.values();

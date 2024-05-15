@@ -1,5 +1,8 @@
-import dspsXML from "../src/getXML.js";
-import { removeDuplicates } from "../src/utils.js";
+import dspsXML from "../../src/getXML.js";
+import { removeDuplicates } from "../../src/utils.js";
+import colors from "../../src/colors.js";
+
+const { EBABlue } = colors;
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
@@ -13,7 +16,7 @@ localityText.innerText =
 var providers = dspsXML.getElementsByTagName("Provider");
 
 var locationCounter = 0;
-var officeURL = "provider.html?id=";
+var officeURL = "../provider/index.html?id=";
 //cycle through all providers and add office locations to map
 for (let i = 0; i < providers.length; i++) {
   //get info for each provider
@@ -38,7 +41,7 @@ for (let i = 0; i < providers.length; i++) {
       lat: officeLat.item(0).textContent,
       lng: officeLng.item(0).textContent,
       name: providerName.item(0).textContent,
-      color: "default",
+      color: EBABlue,
       description:
         officeStreet.item(0).textContent +
         "<br>" +

@@ -1,6 +1,6 @@
-import { CSUStructure } from "../src/csu.js";
-import dspsXML from "../src/getXML.js";
-import { removeDuplicates } from "../src/utils.js";
+import { CSUStructure } from "../../src/csu.js";
+import dspsXML from "../../src/getXML.js";
+import { removeDuplicates } from "../../src/utils.js";
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
@@ -80,7 +80,7 @@ for (let i = 0; i < CSUProviders.length; i++) {
   var providerInfo = CSUProviders[i].split("!"); //[0] name [1] id
   const providerListItem = document.createElement("li");
   providerListItem.classList.add("ebaBlue");
-  providerListItem.innerHTML = `<a href='provider.html?id=${providerInfo[1]}'>${providerInfo[0]}</a>`;
+  providerListItem.innerHTML = `<a href='../provider/index.html?id=${providerInfo[1]}'>${providerInfo[0]}</a>`;
   providerList.appendChild(providerListItem);
   var provider = dspsXML.getElementById(providerInfo[1]);
   var providerLocations = provider.getElementsByTagName("FIPs");
@@ -136,7 +136,7 @@ for (var i = 0; i < CSUServices.length; i++) {
   for (var j = 0; j < providerArray.length; j++) {
     var providerInfo = providerArray[j].split("!"); //[0] name [1] id
     const providerListItem = document.createElement("li");
-    providerListItem.innerHTML = `<a href='provider.html?id=${providerInfo[1]}'>${providerInfo[0]}</a>`;
+    providerListItem.innerHTML = `<a href='../provider/index.html?id=${providerInfo[1]}'>${providerInfo[0]}</a>`;
     providersOfferingService.appendChild(providerListItem);
   }
   serviceList.appendChild(providersOfferingService);
