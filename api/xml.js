@@ -80,6 +80,34 @@ export class XML_API {
     }
   }
 
+  getAllLocations() {
+    if (this.data !== null && this.data !== undefined) {
+      const locations = this.data.getElementsByTagName("Office");
+      const locationArray = [];
+      for (let i = 0; i < locations.length; i++) {
+        const location = locations.item(i);
+        // get location's provider name (in parent node)
+        const locationObject = {
+          providerName: location.parentElement
+            .getElementsByTagName("Name")
+            .item(0).textContent,
+          providerId: location.parentElement.getAttribute("id"),
+          lat: location.getElementsByTagName("Lat").item(0).textContent,
+          lng: location.getElementsByTagName("Lng").item(0).textContent,
+          street: location.getElementsByTagName("Street").item(0).textContent,
+          city: location.getElementsByTagName("City").item(0).textContent,
+          state: location.getElementsByTagName("State").item(0).textContent,
+          zip: location.getElementsByTagName("Zip").item(0).textContent,
+          phone: location.getElementsByTagName("Phone").item(0).textContent,
+        };
+        locationArray.push(locationObject);
+      }
+      return locationArray;
+    } else {
+      return [];
+    }
+  }
+
   test() {
     if (this.data !== null && this.data !== undefined) {
       // console.log(this.data);

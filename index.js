@@ -1,11 +1,11 @@
 import { API } from "./api/api.js";
-import colors from "./lib/colors.js";
 import { regionCSUs, sortedCSUs, allFips, CSUStructure } from "./lib/csu.js";
-import { setMapCSURegions } from "./lib/simplemaps/utils.js";
+import { setMapCSURegions, setMapLocations } from "./lib/simplemaps/utils.js";
 
 console.log("using API:", API.name);
 
 setMapCSURegions();
+setMapLocations();
 
 //connect to data file
 var Connect = new XMLHttpRequest();
@@ -16,102 +16,8 @@ Connect.send(null);
 // Place the response in an XML document.
 var dspsXML = Connect.responseXML;
 
-//get last update
-var updateDates = dspsXML.getElementsByTagName("LastUpdated");
-var updateArray = [];
-var updateArryText = "";
-for (var i = 0; i < updateDates.length; i++) {
-  updateArray.push(updateDates.item(i).textContent);
-}
-updateArray.sort();
-//debuging the wrong date. SORT makes 2018-3-13 before 2018-3-9 because it is not by number.
-for (var i = 0; i < updateDates.length; i++) {
-  updateArryText += updateArray[i] + "\r";
-}
-//alert(updateArryText);
-var directoryUpdatedSplit = updateArray[i - 1].split("-");
-var directoryUpdated = ""; //directoryUpdatedSplit[1]+"-";//directoryUpdatedSplit[2]+"-"+directoryUpdatedSplit[0];
-if (directoryUpdatedSplit[1] == "01") {
-  directoryUpdated = "January ";
-} else if (directoryUpdatedSplit[1] == "02") {
-  directoryUpdated = "February ";
-} else if (directoryUpdatedSplit[1] == "03") {
-  directoryUpdated = "March ";
-} else if (directoryUpdatedSplit[1] == "04") {
-  directoryUpdated = "April ";
-} else if (directoryUpdatedSplit[1] == "05") {
-  directoryUpdated = "May ";
-} else if (directoryUpdatedSplit[1] == "06") {
-  directoryUpdated = "June ";
-} else if (directoryUpdatedSplit[1] == "07") {
-  directoryUpdated = "July ";
-} else if (directoryUpdatedSplit[1] == "08") {
-  directoryUpdated = "August ";
-} else if (directoryUpdatedSplit[1] == "09") {
-  directoryUpdated = "September ";
-} else if (directoryUpdatedSplit[1] == "10") {
-  directoryUpdated = "October ";
-} else if (directoryUpdatedSplit[1] == "11") {
-  directoryUpdated = "November ";
-} else if (directoryUpdatedSplit[1] == "12") {
-  directoryUpdated = "December ";
-}
-//alert("Day is "+Number(directoryUpdatedSplit[2]));
-directoryUpdated += Number(directoryUpdatedSplit[2]) + ", ";
-directoryUpdated += directoryUpdatedSplit[0];
 const lastUpdatedSpan = document.getElementById("lastUpdated");
-lastUpdatedSpan.innerText = directoryUpdated;
-
-//Get a list of all the providers
-var providers = dspsXML.getElementsByTagName("Provider");
-
-var locationCounter = 0;
-var officeURL = "pages/provider/index.html?id=";
-//cycle through all providers and add office locations to map
-for (let i = 0; i < providers.length; i++) {
-  //get info for each provider
-  //revise for IE
-  var offices = providers.item(i).getElementsByTagName("Office");
-  var providerName = providers.item(i).getElementsByTagName("Name");
-  var providerID = providers.item(i).getAttribute("id");
-
-  //cycle through all locations of the provider
-  for (let j = 0; j < offices.length; j++) {
-    //get info for each office
-    var officeLat = offices.item(j).getElementsByTagName("Lat");
-    var officeLng = offices.item(j).getElementsByTagName("Lng");
-    var officeStreet = offices.item(j).getElementsByTagName("Street");
-    var officeCity = offices.item(j).getElementsByTagName("City");
-    var officeState = offices.item(j).getElementsByTagName("State");
-    var officeZip = offices.item(j).getElementsByTagName("Zip");
-    var officePhone = offices.item(j).getElementsByTagName("Phone");
-
-    //add the office data to a map location
-    simplemaps_statemap_mapdata.locations[locationCounter] = {
-      lat: officeLat.item(0).textContent,
-      lng: officeLng.item(0).textContent,
-      name: providerName.item(0).textContent,
-      color: colors.EBABlue,
-      description:
-        officeStreet.item(0).textContent +
-        "<br>" +
-        officeCity.item(0).textContent +
-        ", " +
-        officeState.item(0).textContent +
-        " " +
-        officeZip.item(0).textContent +
-        "<br>" +
-        officePhone.item(0).textContent,
-      url: officeURL + providerID, //+"?map=all",//link to provider map
-      size: "default",
-      type: "default",
-      image_url: "default",
-      opacity: "default",
-    };
-    //update counter so it doesn't overwrite a location
-    locationCounter++;
-  }
-}
+lastUpdatedSpan.innerText = API.getLastUpdated();
 
 function removeDuplicates(num) {
   var x,
@@ -222,6 +128,7 @@ for (let i = 0; i < CSUStructure.length; i++) {
 }
 
 //put provider info in array to alphabetize
+const providers = dspsXML.getElementsByTagName("Provider");
 var sortedProviders = [];
 for (let i = 0; i < providers.length; i++) {
   var providerName = providers.item(i).getElementsByTagName("Name");
