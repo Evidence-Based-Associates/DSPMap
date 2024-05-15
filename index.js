@@ -10,15 +10,6 @@ import { setMapCSURegions, setMapLocations } from "./lib/simplemaps/utils.js";
 setMapCSURegions();
 setMapLocations();
 
-//connect to data file
-var Connect = new XMLHttpRequest();
-var cacheBuster = Date.now();
-Connect.open("GET", "data/dsps.xml?" + cacheBuster, false);
-Connect.setRequestHeader("Content-Type", "text/xml");
-Connect.send(null);
-// Place the response in an XML document.
-var dspsXML = Connect.responseXML;
-
 const lastUpdatedSpan = document.getElementById("lastUpdated");
 lastUpdatedSpan.innerText = lastUpdated;
 
@@ -31,9 +22,8 @@ availableServices.forEach((service) => {
 });
 
 const whereSelect = document.getElementsByName("Where")[0];
-//Cycle through CSUs
+
 for (let i = 0; i < sortedCSUs.length; i++) {
-  // create an option for each CSU
   const option = document.createElement("option");
   option.value = sortedCSUs[i].slug;
   option.text = sortedCSUs[i].name;
@@ -43,7 +33,7 @@ const regionBreakOption = document.createElement("option");
 regionBreakOption.value = "0";
 regionBreakOption.text = "-----REGIONS-----";
 whereSelect.appendChild(regionBreakOption);
-//Cycle through Regions
+
 for (let region in regionCSUs) {
   const option = document.createElement("option");
   option.value = regionCSUs[region].slug;
@@ -71,13 +61,12 @@ for (let i = 0; i < availableLanguages.length; i++) {
   }
 }
 
-//Cycle through regions
 const regionListUL = document.getElementById("regionList");
 for (let i = 0; i < CSUStructure.length; i++) {
   const regionHeading = document.createElement("h3");
   regionHeading.innerText = CSUStructure[i].name;
   regionHeading.className = "ebaBlue";
-  //cycle through region's CSUs
+
   const csuUL = document.createElement("ul");
   for (let j = 0; j < CSUStructure[i].CSUs.length; j++) {
     const csuLI = document.createElement("li");
