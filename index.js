@@ -1,7 +1,6 @@
-import { lastUpdated, availableServices } from "./api.js";
+import { lastUpdated, availableServices, availableLanguages } from "./api.js";
 import { regionCSUs, sortedCSUs, allFips, CSUStructure } from "./lib/csu.js";
 import { setMapCSURegions, setMapLocations } from "./lib/simplemaps/utils.js";
-import { removeDuplicates } from "./lib/utils.js";
 
 setMapCSURegions();
 setMapLocations();
@@ -53,35 +52,16 @@ whereSelect.appendChild(localityBreakOption);
 for (let i = 0; i < allFips.length; i++) {
   const option = document.createElement("option");
   option.value = allFips[i];
+  // @ts-ignore (global variable)
   option.text = simplemaps_statemap_mapdata.state_specific[allFips[i]].name;
   whereSelect.appendChild(option);
 }
 
-var allLocations = dspsXML.getElementsByTagName("FIPs");
-let allLanguagesArray = [];
-for (var i = 0; i < allLocations.length; i++) {
-  if (allLocations.item(i).getAttribute("languages")) {
-    var serviceLanguageStr = allLocations.item(i).getAttribute("languages");
-    while (serviceLanguageStr.indexOf(" ") >= 0) {
-      serviceLanguageStr = serviceLanguageStr.replace(" ", "");
-    }
-    if (serviceLanguageStr.includes(",")) {
-      var serviceLanguages = serviceLanguageStr.split(",");
-      for (var j = 0; j < serviceLanguages.length; j++) {
-        allLanguagesArray.push(serviceLanguages[j]);
-      }
-    } else {
-      allLanguagesArray.push(allLocations.item(i).getAttribute("languages"));
-    }
-  }
-}
-allLanguagesArray = removeDuplicates(allLanguagesArray);
-allLanguagesArray.sort();
-for (let i = 0; i < allLanguagesArray.length; i++) {
-  if (!allLanguagesArray[i] == "") {
+for (let i = 0; i < availableLanguages.length; i++) {
+  if (availableLanguages[i] != "") {
     const option = document.createElement("option");
-    option.value = allLanguagesArray[i];
-    option.text = allLanguagesArray[i];
+    option.value = availableLanguages[i];
+    option.text = availableLanguages[i];
     document.getElementsByName("Language")[0].appendChild(option);
   }
 }
@@ -94,7 +74,7 @@ for (let i = 0; i < CSUStructure.length; i++) {
   regionHeading.className = "ebaBlue";
   //cycle through region's CSUs
   const csuUL = document.createElement("ul");
-  for (j = 0; j < CSUStructure[i].CSUs.length; j++) {
+  for (let j = 0; j < CSUStructure[i].CSUs.length; j++) {
     const csuLI = document.createElement("li");
     csuLI.innerHTML = `<a href="pages/csu/index.html?id=${CSUStructure[i].CSUs[j].slug}">${CSUStructure[i].CSUs[j].name}</a>`;
     csuUL.appendChild(csuLI);
@@ -132,8 +112,8 @@ for (let i = 0; i < availableServices.length; i++) {
 }
 
 const languageUL = document.getElementById("languageList");
-for (let i = 0; i < allLanguagesArray.length; i++) {
+for (let i = 0; i < availableLanguages.length; i++) {
   const languageLI = document.createElement("li");
-  languageLI.innerHTML = `<a href="pages/language/index.html?id=${i}">${allLanguagesArray[i]}</a>`;
+  languageLI.innerHTML = `<a href="pages/language/index.html?id=${i}">${availableLanguages[i]}</a>`;
   languageUL.appendChild(languageLI);
 }

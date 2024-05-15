@@ -123,6 +123,37 @@ export class XML_API {
     }
   }
 
+  getAllLanguages() {
+    if (this.data !== null && this.data !== undefined) {
+      var allLocations = this.data.getElementsByTagName("FIPs");
+      let allLanguagesArray = [];
+      for (var i = 0; i < allLocations.length; i++) {
+        if (allLocations.item(i).getAttribute("languages")) {
+          var serviceLanguageStr = allLocations
+            .item(i)
+            .getAttribute("languages");
+          while (serviceLanguageStr.indexOf(" ") >= 0) {
+            serviceLanguageStr = serviceLanguageStr.replace(" ", "");
+          }
+          if (serviceLanguageStr.includes(",")) {
+            var serviceLanguages = serviceLanguageStr.split(",");
+            for (var j = 0; j < serviceLanguages.length; j++) {
+              allLanguagesArray.push(serviceLanguages[j]);
+            }
+          } else {
+            allLanguagesArray.push(
+              allLocations.item(i).getAttribute("languages")
+            );
+          }
+        }
+      }
+      allLanguagesArray.sort();
+      return [...new Set(allLanguagesArray)];
+    } else {
+      return [];
+    }
+  }
+
   test() {
     if (this.data !== null && this.data !== undefined) {
       // console.log(this.data);

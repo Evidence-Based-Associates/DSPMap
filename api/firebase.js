@@ -25,4 +25,9 @@ export class FIREBASE_API {
     // not yet implemented in FIREBASE_API
     return [];
   }
+
+  getAllLanguages() {
+    // not yet implemented in FIREBASE_API
+    return [];
+  }
 }
