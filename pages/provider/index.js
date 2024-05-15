@@ -1,8 +1,8 @@
-import dspsXML from "../../src/getXML.js";
-import { allFips } from "../../src/csu.js";
-import colors from "../../src/colors.js";
-import { removeDuplicates } from "../../src/utils.js";
-import { CSUStructure, regionCSUs } from "../../src/csu.js";
+import dspsXML from "../../lib/getXML.js";
+import { allFips } from "../../lib/csu.js";
+import colors from "../../lib/colors.js";
+import { removeDuplicates } from "../../lib/utils.js";
+import { CSUStructure, regionCSUs } from "../../lib/csu.js";
 
 const { RegColor, TravelColor, EBABlue } = colors;
 

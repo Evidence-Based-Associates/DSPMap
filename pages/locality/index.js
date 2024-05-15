@@ -1,6 +1,6 @@
-import dspsXML from "../../src/getXML.js";
-import { removeDuplicates } from "../../src/utils.js";
-import colors from "../../src/colors.js";
+import dspsXML from "../../lib/getXML.js";
+import { removeDuplicates } from "../../lib/utils.js";
+import colors from "../../lib/colors.js";
 
 const { EBABlue } = colors;
 

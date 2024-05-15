@@ -1,6 +1,6 @@
-import { CSUStructure } from "../../src/csu.js";
-import dspsXML from "../../src/getXML.js";
-import { removeDuplicates } from "../../src/utils.js";
+import { CSUStructure } from "../../lib/csu.js";
+import dspsXML from "../../lib/getXML.js";
+import { removeDuplicates } from "../../lib/utils.js";
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);

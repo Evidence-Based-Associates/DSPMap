@@ -1,5 +1,5 @@
-import colors from "./src/colors.js";
-import { regionCSUs, sortedCSUs, allFips, CSUStructure } from "./src/csu.js";
+import colors from "./lib/colors.js";
+import { regionCSUs, sortedCSUs, allFips, CSUStructure } from "./lib/csu.js";
 
 const localitiesFromRegion = (region) => {
   let localities = [];
