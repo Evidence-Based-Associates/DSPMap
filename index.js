@@ -96,15 +96,15 @@ providers.forEach((provider) => {
 });
 
 const serviceUL = document.getElementById("serviceList");
-for (let i = 0; i < availableServices.length; i++) {
+availableServices.forEach((service, index) => {
   const serviceLI = document.createElement("li");
-  serviceLI.innerHTML = `<a href="pages/service/index.html?id=${i}">${availableServices[i]}</a>`;
+  serviceLI.innerHTML = `<a href="pages/service/index.html?id=${index}">${service}</a>`;
   serviceUL.appendChild(serviceLI);
-}
+});
 
 const languageUL = document.getElementById("languageList");
-for (let i = 0; i < availableLanguages.length; i++) {
+availableLanguages.forEach((language, index) => {
   const languageLI = document.createElement("li");
-  languageLI.innerHTML = `<a href="pages/language/index.html?id=${i}">${availableLanguages[i]}</a>`;
+  languageLI.innerHTML = `<a href="pages/language/index.html?id=${index}">${language}</a>`;
   languageUL.appendChild(languageLI);
-}
+});
