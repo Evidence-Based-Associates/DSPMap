@@ -1,5 +1,8 @@
+import { API } from "./api/api.js";
 import colors from "./lib/colors.js";
 import { regionCSUs, sortedCSUs, allFips, CSUStructure } from "./lib/csu.js";
+
+console.log("using API:", API.name);
 
 const localitiesFromRegion = (region) => {
   let localities = [];
