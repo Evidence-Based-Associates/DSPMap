@@ -23,7 +23,7 @@ if (sessionStorage.DSPCode) {
 //connect to data file
 var Connect = new XMLHttpRequest();
 var cacheBuster = Date.now();
-Connect.open("GET", "dsps.xml?" + cacheBuster, false);
+Connect.open("GET", "data/dsps.xml?" + cacheBuster, false);
 Connect.setRequestHeader("Content-Type", "text/xml");
 Connect.send(null);
 // Place the response in an XML document.
