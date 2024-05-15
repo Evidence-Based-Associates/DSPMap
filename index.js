@@ -1,8 +1,7 @@
 import { API } from "./api/api.js";
 import { regionCSUs, sortedCSUs, allFips, CSUStructure } from "./lib/csu.js";
 import { setMapCSURegions, setMapLocations } from "./lib/simplemaps/utils.js";
-
-console.log("using API:", API.name);
+import { removeDuplicates } from "./lib/utils.js";
 
 setMapCSURegions();
 setMapLocations();
@@ -19,29 +18,7 @@ var dspsXML = Connect.responseXML;
 const lastUpdatedSpan = document.getElementById("lastUpdated");
 lastUpdatedSpan.innerText = API.getLastUpdated();
 
-function removeDuplicates(num) {
-  var x,
-    len = num.length,
-    out = [],
-    obj = {};
-
-  for (x = 0; x < len; x++) {
-    obj[num[x]] = 0;
-  }
-  for (x in obj) {
-    out.push(x);
-  }
-  return out;
-}
-
-let availableServices = [];
-var serviceCheck = dspsXML.getElementsByTagName("Service");
-for (var i = 0; i < serviceCheck.length; i++) {
-  availableServices.push(serviceCheck.item(i).getAttribute("serviceName"));
-}
-availableServices = removeDuplicates(availableServices);
-availableServices.sort();
-
+const availableServices = API.getAllServiceNames();
 const serviceSelect = document.getElementsByName("Service")[0];
 availableServices.forEach((service) => {
   const option = document.createElement("option");

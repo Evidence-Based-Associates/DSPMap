@@ -12,10 +12,17 @@ export class FIREBASE_API {
   }
 
   getAllProviderNames() {
-    return "not yet implemented in FIREBASE_API";
+    // not yet implemented in FIREBASE_API
+    return [];
   }
 
   getAllLocations() {
-    return ["not yet implemented in FIREBASE_API"];
+    // not yet implemented in FIREBASE_API
+    return [];
+  }
+
+  getAllServiceNames() {
+    // not yet implemented in FIREBASE_API
+    return [];
   }
 }

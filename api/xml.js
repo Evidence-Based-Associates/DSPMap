@@ -108,6 +108,21 @@ export class XML_API {
     }
   }
 
+  getAllServiceNames() {
+    if (this.data !== null && this.data !== undefined) {
+      const services = this.data.getElementsByTagName("Service");
+      const serviceNames = [];
+      for (let i = 0; i < services.length; i++) {
+        const serviceName = services.item(i)?.getAttribute("serviceName");
+        serviceNames.push(serviceName);
+      }
+      serviceNames.sort();
+      return [...new Set(serviceNames)];
+    } else {
+      return [];
+    }
+  }
+
   test() {
     if (this.data !== null && this.data !== undefined) {
       // console.log(this.data);
