@@ -1,4 +1,4 @@
-import { API } from "./api/api.js";
+import { lastUpdated, availableServices } from "./api.js";
 import { regionCSUs, sortedCSUs, allFips, CSUStructure } from "./lib/csu.js";
 import { setMapCSURegions, setMapLocations } from "./lib/simplemaps/utils.js";
 import { removeDuplicates } from "./lib/utils.js";
@@ -16,9 +16,8 @@ Connect.send(null);
 var dspsXML = Connect.responseXML;
 
 const lastUpdatedSpan = document.getElementById("lastUpdated");
-lastUpdatedSpan.innerText = API.getLastUpdated();
+lastUpdatedSpan.innerText = lastUpdated;
 
-const availableServices = API.getAllServiceNames();
 const serviceSelect = document.getElementsByName("Service")[0];
 availableServices.forEach((service) => {
   const option = document.createElement("option");
