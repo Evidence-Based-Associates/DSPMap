@@ -1,4 +1,9 @@
-import { lastUpdated, availableServices, availableLanguages } from "./api.js";
+import {
+  lastUpdated,
+  availableServices,
+  availableLanguages,
+  providers,
+} from "./api.js";
 import { regionCSUs, sortedCSUs, allFips, CSUStructure } from "./lib/csu.js";
 import { setMapCSURegions, setMapLocations } from "./lib/simplemaps/utils.js";
 
@@ -83,26 +88,12 @@ for (let i = 0; i < CSUStructure.length; i++) {
   regionListUL.appendChild(csuUL);
 }
 
-//put provider info in array to alphabetize
-const providers = dspsXML.getElementsByTagName("Provider");
-var sortedProviders = [];
-for (let i = 0; i < providers.length; i++) {
-  var providerName = providers.item(i).getElementsByTagName("Name");
-  var providerID = providers.item(i).getAttribute("id");
-  sortedProviders.push(providerName.item(0).textContent + "!" + providerID);
-}
-//alphabetize
-sortedProviders.sort();
-
-//print
 const providerUL = document.getElementById("providerList");
-for (let i = 0; i < sortedProviders.length; i++) {
-  //seperate the ID from the name
-  var providerInfo = sortedProviders[i].split("!"); //providerInfo[0] is name [1] is ID
+providers.forEach((provider) => {
   const providerLI = document.createElement("li");
-  providerLI.innerHTML = `<a href="pages/provider/index.html?id=${providerInfo[1]}">${providerInfo[0]}</a>`;
+  providerLI.innerHTML = `<a href="pages/provider/index.html?id=${provider.id}">${provider.name}</a>`;
   providerUL.appendChild(providerLI);
-}
+});
 
 const serviceUL = document.getElementById("serviceList");
 for (let i = 0; i < availableServices.length; i++) {

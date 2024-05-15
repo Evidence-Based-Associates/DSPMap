@@ -62,21 +62,30 @@ export class XML_API {
     }
   }
 
-  getAllProviderNames() {
+  getAllProviders() {
     if (this.data !== null && this.data !== undefined) {
       const providers = this.data.getElementsByTagName("Provider");
-      const providerNames = [];
+      const providerList = [];
       for (let i = 0; i < providers.length; i++) {
         const providerName = providers
           .item(i)
           ?.getElementsByTagName("Name")
           ?.item(0)?.textContent;
-        providerNames.push(providerName);
+        const providerId = providers.item(i)?.getAttribute("id");
+        providerList.push({ name: providerName, id: providerId });
       }
-      providerNames.sort();
-      return providerNames;
+      providerList.sort((a, b) => {
+        if (a.name < b.name) {
+          return -1;
+        } else if (a.name > b.name) {
+          return 1;
+        } else {
+          return 0;
+        }
+      });
+      return providerList;
     } else {
-      return "No data available.";
+      return [];
     }
   }
 
