@@ -341,35 +341,36 @@ export class XML_API {
     }
   }
 
-  getAllLanguages() {
-    if (this.data !== null && this.data !== undefined) {
-      var allLocations = this.data.getElementsByTagName("FIPs");
-      let allLanguagesArray = [];
-      for (var i = 0; i < allLocations.length; i++) {
-        if (allLocations.item(i).getAttribute("languages")) {
-          var serviceLanguageStr = allLocations
-            .item(i)
-            .getAttribute("languages");
-          while (serviceLanguageStr.indexOf(" ") >= 0) {
-            serviceLanguageStr = serviceLanguageStr.replace(" ", "");
+  getAllLanguages(providerID) {
+    let allLocations;
+    if (!providerID) {
+      allLocations = this.data.getElementsByTagName("FIPs");
+    } else {
+      const provider = this.data.getElementById(providerID);
+      allLocations = provider.getElementsByTagName("FIPs");
+    }
+
+    let allLanguagesArray = [];
+    for (var i = 0; i < allLocations.length; i++) {
+      if (allLocations.item(i).getAttribute("languages")) {
+        var serviceLanguageStr = allLocations.item(i).getAttribute("languages");
+        while (serviceLanguageStr.indexOf(" ") >= 0) {
+          serviceLanguageStr = serviceLanguageStr.replace(" ", "");
+        }
+        if (serviceLanguageStr.includes(",")) {
+          var serviceLanguages = serviceLanguageStr.split(",");
+          for (var j = 0; j < serviceLanguages.length; j++) {
+            allLanguagesArray.push(serviceLanguages[j]);
           }
-          if (serviceLanguageStr.includes(",")) {
-            var serviceLanguages = serviceLanguageStr.split(",");
-            for (var j = 0; j < serviceLanguages.length; j++) {
-              allLanguagesArray.push(serviceLanguages[j]);
-            }
-          } else {
-            allLanguagesArray.push(
-              allLocations.item(i).getAttribute("languages")
-            );
-          }
+        } else {
+          allLanguagesArray.push(
+            allLocations.item(i).getAttribute("languages")
+          );
         }
       }
-      allLanguagesArray.sort();
-      return [...new Set(allLanguagesArray)];
-    } else {
-      return [];
     }
+    allLanguagesArray.sort();
+    return [...new Set(allLanguagesArray)];
   }
 
   getServiceMapFIPS(providerID, serviceName) {

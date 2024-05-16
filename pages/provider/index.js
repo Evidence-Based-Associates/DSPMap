@@ -5,6 +5,7 @@ import {
   serviceNames,
   providerInfo,
   allFIPS,
+  providerLanguages,
 } from "./api.js";
 import colors from "../../lib/colors.js";
 import { removeDuplicates } from "../../lib/utils.js";
@@ -80,6 +81,7 @@ const displayService = () => {
   //   "Available in " + locations.item(i).getAttribute("languages");
   // @ts-ignore
   if (typeof simplemaps_statemap.refresh === "function") {
+    // @ts-ignore
     simplemaps_statemap.refresh();
   }
 };
@@ -96,74 +98,27 @@ csuList.forEach((csu) => {
 
 const countyList = document.getElementById("providerCounties");
 const cityList = document.getElementById("providerCities");
-for (i = 0; i < allFIPS.length; i++) {
+allFIPS.forEach((fips) => {
   const localityLI = document.createElement("li");
-  localityLI.innerText =
-    // @ts-ignore
-    simplemaps_statemap_mapdata.state_specific[allFIPS[i]].name;
-  if (Number(allFIPS[i]) > 51500) {
+  // @ts-ignore
+  localityLI.innerText = simplemaps_statemap_mapdata.state_specific[fips].name;
+  if (Number(fips) > 51500) {
     cityList.appendChild(localityLI);
   } else {
     countyList.appendChild(localityLI);
   }
-}
+});
 
-var allProviderServices = provider.getElementsByTagName("Service");
-var allProviderServicesArray = [];
-for (i = 0; i < allProviderServices.length; i++) {
-  //var serviceNote = allProviderServices.item(i).getAttribute("note");
-  allProviderServicesArray.push(
-    allProviderServices.item(i).getAttribute("serviceName")
-  );
-}
-allProviderServicesArray.sort();
-allProviderServicesArray = removeDuplicates(allProviderServicesArray);
 const providerServiceList = document.getElementById("providerServices");
-for (i = 0; i < allProviderServicesArray.length; i++) {
-  var serviceInfo = [];
-  serviceInfo = allProviderServicesArray[i].split("!");
+serviceNames.forEach((serviceName) => {
   const serviceLI = document.createElement("li");
-  serviceLI.innerText = serviceInfo[0];
+  serviceLI.innerText = serviceName;
   providerServiceList.appendChild(serviceLI);
-}
-
-//place into array in order to alphabetize
-var allProviderLocations = provider.getElementsByTagName("FIPs");
-var allProviderLanguagesArray = [];
-for (var i = 0; i < allProviderLocations.length; i++) {
-  if (allProviderLocations.item(i).getAttribute("languages")) {
-    var serviceLanguageStr = allProviderLocations
-      .item(i)
-      .getAttribute("languages");
-    serviceLanguageStr = serviceLanguageStr.replace(" ", "");
-    if (serviceLanguageStr.includes(",")) {
-      var serviceLanguages = serviceLanguageStr.split(",");
-      for (var j = 0; j < serviceLanguages.length; j++) {
-        allProviderLanguagesArray.push(serviceLanguages[j]);
-      }
-    } else {
-      allProviderLanguagesArray.push(
-        allProviderLocations.item(i).getAttribute("languages")
-      );
-    }
-  }
-  //alert("serviceLanguageStr is "+serviceLanguageStr);
-  //alert("attribute is "+allProviderLocations.item(i).getAttribute("languages"));
-  //alert("serviceLanguages is "+serviceLanguages.item(i));
-  //for (j=0;j<serviceLanguages.legth;j++){
-  //    allProviderLanguagesArray.push(serviceLanguages[j]);
-  //}
-}
-
-allProviderLanguagesArray = removeDuplicates(allProviderLanguagesArray);
-allProviderLanguagesArray.sort();
+});
 
 const languageList = document.getElementById("providerLanguages");
-for (i = 0; i < allProviderLanguagesArray.length; i++) {
-  //var serviceInfo = [];
-  //serviceInfo = allProviderServicesArray[i].split("!");
-  //document.write("<li>"+serviceInfo[0]);
+providerLanguages.forEach((language) => {
   const languageLI = document.createElement("li");
-  languageLI.innerText = allProviderLanguagesArray[i];
+  languageLI.innerText = language;
   languageList.appendChild(languageLI);
-}
+});
