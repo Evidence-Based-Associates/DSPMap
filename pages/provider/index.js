@@ -1,14 +1,26 @@
 import dspsXML from "../../lib/getXML.js";
-import { providerID, serviceFIPS } from "./api.js";
-import { allFips } from "../../lib/csu.js";
+import { providerID, serviceFIPS, serviceNames } from "./api.js";
 import colors from "../../lib/colors.js";
 import { removeDuplicates } from "../../lib/utils.js";
-import { CSUStructure, regionCSUs } from "../../lib/csu.js";
-import { setMapCSURegions } from "../../lib/simplemaps/utils.js";
+import { CSUStructure } from "../../lib/csu.js";
+import {
+  setMapCSURegions,
+  setAllDefaultColor,
+} from "../../lib/simplemaps/utils.js";
 
 const { RegColor, TravelColor, EBABlue } = colors;
 
 setMapCSURegions();
+setAllDefaultColor();
+
+const serviceSelect = document.getElementsByName("serviceSelect")[0];
+serviceNames.forEach((serviceName) => {
+  const serviceOption = document.createElement("option");
+  serviceOption.value = serviceName;
+  serviceOption.text = serviceName;
+  serviceSelect.appendChild(serviceOption);
+});
+serviceSelect.addEventListener("change", displayService);
 
 function displayService() {
   //load up color code for first map
@@ -41,14 +53,6 @@ function displayService() {
     }
   }
   simplemaps_statemap.refresh();
-}
-
-// alter mainmap data here
-
-//remove locality colors
-for (i = 0; i < allFips.length; i++) {
-  var ColorChange = allFips[i];
-  simplemaps_statemap_mapdata.state_specific[allFips[i]].color = "default";
 }
 
 //get provider info.
@@ -145,16 +149,6 @@ if (serviceZoom > 51000) {
 } else if (serviceZoom < 5) {
   simplemaps_statemap_mapdata.main_settings.initial_zoom = serviceZoom;
 }
-
-var providerServices = provider.getElementsByTagName("Service");
-const serviceSelect = document.getElementsByName("serviceSelect")[0];
-for (let i = 0; i < providerServices.length; i++) {
-  const serviceOption = document.createElement("option");
-  serviceOption.value = String(i);
-  serviceOption.text = providerServices.item(i).getAttribute("serviceName");
-  serviceSelect.appendChild(serviceOption);
-}
-serviceSelect.addEventListener("change", displayService);
 
 const selectedServiceName =
   // @ts-ignore

@@ -139,6 +139,17 @@ export class XML_API {
     );
   }
 
+  getProviderServices(providerID) {
+    const provider = this.data.getElementById(providerID);
+    const serviceElements = provider.getElementsByTagName("Service");
+    const serviceNames = new Set();
+    for (let i = 0; i < serviceElements.length; i++) {
+      const service = serviceElements.item(i);
+      serviceNames.add(service.getAttribute("serviceName"));
+    }
+    return [...serviceNames].sort();
+  }
+
   getAllServiceNamesByCSU(csu) {
     if (this.data !== null && this.data !== undefined) {
       const serviceList = new Set();

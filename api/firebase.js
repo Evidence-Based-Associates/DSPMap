@@ -26,6 +26,11 @@ export class FIREBASE_API {
     return new Map();
   }
 
+  getProviderServices(providerID) {
+    // not yet implemented in FIREBASE_API
+    return [];
+  }
+
   getAllServicesByProviderInFIPS(providerId, fips) {
     // not yet implemented in FIREBASE_API
     return [];
