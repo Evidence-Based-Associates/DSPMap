@@ -6,6 +6,7 @@ import { CSUStructure } from "../../lib/csu.js";
 import {
   setMapCSURegions,
   setAllDefaultColor,
+  setMapLocations,
 } from "../../lib/simplemaps/utils.js";
 
 const { RegColor, TravelColor, EBABlue } = colors;
@@ -18,6 +19,7 @@ const lastUpdatedText = `${lastUpdatedDateParts[1]}/${lastUpdatedDateParts[2]}/$
 
 setMapCSURegions();
 setAllDefaultColor();
+setMapLocations(providerID);
 
 const providerNameSpan = document.getElementsByName("providerName");
 providerNameSpan.forEach((span) => (span.innerText = providerName));
@@ -84,56 +86,6 @@ function displayService() {
     }
   }
   simplemaps_statemap.refresh();
-}
-
-var providerUpdated = provider
-  .getElementsByTagName("LastUpdated")
-  .item(0)
-  .textContent.split("-");
-var providerWebsite = provider.getElementsByTagName("Website");
-var providerContact = provider.getElementsByTagName("ContactName");
-var providerEmail = provider.getElementsByTagName("ContactEmail");
-var officeCount = provider.getElementsByTagName("Office").length;
-
-//office info tags
-var officeLat = provider.getElementsByTagName("Lat");
-var officeLng = provider.getElementsByTagName("Lng");
-var officeStreet = provider.getElementsByTagName("Street");
-var officeCity = provider.getElementsByTagName("City");
-var officeState = provider.getElementsByTagName("State");
-var officeZip = provider.getElementsByTagName("Zip");
-var officePhone = provider.getElementsByTagName("Phone");
-var officeFax = provider.getElementsByTagName("Fax");
-
-//populate only this provider's locations
-//needs to be outside of the loop
-var locationCounter = 0;
-//cycle through all locations
-for (i = 0; i < officeCount; i++) {
-  //add the office data to a map location
-  simplemaps_statemap_mapdata.locations[locationCounter] = {
-    lat: officeLat.item(i).textContent,
-    lng: officeLng.item(i).textContent,
-    name: providerName.item(0).textContent,
-    color: EBABlue,
-    description:
-      officeStreet.item(i).textContent +
-      "<br>" +
-      officeCity.item(i).textContent +
-      ", " +
-      officeState.item(i).textContent +
-      " " +
-      officeZip.item(i).textContent +
-      "<br>" +
-      officePhone.item(i).textContent,
-    url: "",
-    size: "default",
-    type: "default",
-    image_url: "default",
-    opacity: "default",
-  };
-  //update counter so it doesn't overwrite a location
-  locationCounter++;
 }
 
 //set this provider's map zoom
