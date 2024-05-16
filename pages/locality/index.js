@@ -21,9 +21,10 @@ providers.forEach((provider, key) => {
   const providerServiceList = providerServices(key);
 
   const providerServiceUL = document.createElement("ul");
-  providerServiceList.forEach((service) => {
+  providerServiceList.forEach((isLimitedService, serviceName) => {
     const serviceLI = document.createElement("li");
-    serviceLI.innerText = service;
+    const limitedServiceNote = isLimitedService ? "  (Limited Service)" : "";
+    serviceLI.innerText = serviceName + limitedServiceNote;
     providerServiceUL.appendChild(serviceLI);
   });
   providerUL.appendChild(providerServiceUL);

@@ -164,18 +164,25 @@ export class XML_API {
   getAllServicesByProviderInFIPS(providerId, fips) {
     const provider = this.data.getElementById(providerId);
     const providerServices = provider.getElementsByTagName("Service");
-    const serviceList = new Set();
+    const serviceList = new Map();
     for (let i = 0; i < providerServices.length; i++) {
       const service = providerServices.item(i);
       const serviceFIPS = service.getElementsByTagName("FIPs");
       for (let j = 0; j < serviceFIPS.length; j++) {
         if (serviceFIPS.item(j).textContent === fips) {
-          serviceList.add(service.getAttribute("serviceName"));
+          const isLimitedService =
+            serviceFIPS.item(j).getAttribute("travelReq") === "Y";
+          serviceList.set(
+            service.getAttribute("serviceName"),
+            isLimitedService
+          );
           break;
         }
       }
     }
-    return [...serviceList].sort();
+    return new Map(
+      [...serviceList.entries()].sort((a, b) => a[0].localeCompare(b[0]))
+    );
   }
 
   getAllServicesByProviderInCSU(providerId, csu) {
