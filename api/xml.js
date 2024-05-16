@@ -293,6 +293,27 @@ export class XML_API {
     );
   }
 
+  getAllProvidersOfService(serviceName) {
+    const providers = new Map();
+
+    const allServices = this.data.getElementsByTagName("Service");
+    for (let i = 0; i < allServices.length; i++) {
+      const service = allServices.item(i);
+      if (service.getAttribute("serviceName") === serviceName) {
+        const provider = service.parentElement;
+        const providerID = provider.getAttribute("id");
+        const providerName = provider
+          .getElementsByTagName("Name")
+          .item(0).textContent;
+        providers.set(providerID, providerName);
+      }
+    }
+
+    return new Map(
+      [...providers.entries()].sort((a, b) => a[1].localeCompare(b[1]))
+    );
+  }
+
   /**
    * @param {string} [providerID]
    */
@@ -373,16 +394,33 @@ export class XML_API {
     return [...new Set(allLanguagesArray)];
   }
 
-  getServiceMapFIPS(providerID, serviceName) {
-    const provider = this.data.getElementById(providerID);
-    const providerServices = provider.getElementsByTagName("Service");
+  /**
+   *
+   * @param {Object} params
+   * @param {string} [params.providerID]
+   * @param {string} params.serviceName
+   * @returns
+   */
+  getServiceMapFIPS({ providerID, serviceName }) {
+    console.log(serviceName, providerID);
+    let serviceElements;
+
+    if (providerID) {
+      const provider = this.data.getElementById(providerID);
+      serviceElements = provider.getElementsByTagName("Service");
+    } else {
+      console.log("No providerID");
+      serviceElements = this.data.getElementsByTagName("Service");
+      console.log(serviceElements.length);
+    }
 
     const availableFIPS = [];
     const limitedFIPS = [];
     const languageMap = new Map();
-    for (let i = 0; i < providerServices.length; i++) {
-      const service = providerServices.item(i);
+    for (let i = 0; i < serviceElements.length; i++) {
+      const service = serviceElements.item(i);
       if (service.getAttribute("serviceName") === serviceName) {
+        console.log("found,", serviceName);
         const serviceFIPS = service.getElementsByTagName("FIPs");
         for (let j = 0; j < serviceFIPS.length; j++) {
           const fips = serviceFIPS.item(j).textContent;
@@ -405,7 +443,6 @@ export class XML_API {
             });
           }
         }
-        break;
       }
     }
     //convert the languageMap into an object with keys and the fipsSet
