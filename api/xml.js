@@ -185,6 +185,27 @@ export class XML_API {
     );
   }
 
+  getAllProvidersOfLanguage(languageName) {
+    const providers = new Map();
+
+    const allFIPS = [...this.data.getElementsByTagName("FIPs")];
+    allFIPS.forEach((location) => {
+      const fipsLanguages = location.getAttribute("languages");
+      if (fipsLanguages && fipsLanguages.includes(languageName)) {
+        const provider = location.parentElement.parentElement;
+        const providerID = provider.getAttribute("id");
+        const providerName = provider
+          .getElementsByTagName("Name")
+          .item(0).textContent;
+        providers.set(providerID, providerName);
+      }
+    });
+
+    return new Map(
+      [...providers.entries()].sort((a, b) => a[1].localeCompare(b[1]))
+    );
+  }
+
   getAllLocations() {
     if (this.data !== null && this.data !== undefined) {
       const locations = this.data.getElementsByTagName("Office");

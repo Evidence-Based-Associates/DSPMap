@@ -36,6 +36,11 @@ export class FIREBASE_API {
     return [];
   }
 
+  getAllProvidersOfLanguage(languageName) {
+    // not yet implemented in FIREBASE_API
+    return [];
+  }
+
   getAllLocations() {
     // not yet implemented in FIREBASE_API
     return [];
