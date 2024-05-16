@@ -152,6 +152,9 @@ export class XML_API {
 
   getProviderInfo(providerID) {
     const provider = this.data.getElementById(providerID);
+    const mapZoom = provider
+      .getElementsByTagName("MapZoom")
+      .item(0).textContent;
     const contactName = provider
       .getElementsByTagName("ContactName")
       .item(0).textContent;
@@ -173,6 +176,7 @@ export class XML_API {
       contactEmail,
       website,
       lastUpdated,
+      mapZoom,
     };
   }
 

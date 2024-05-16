@@ -7,12 +7,19 @@ import {
   setMapCSURegions,
   setAllDefaultColor,
   setMapLocations,
+  zoomToRegion,
 } from "../../lib/simplemaps/utils.js";
 
 const { RegColor, TravelColor, EBABlue } = colors;
 // destructure providerInfo
-const { providerName, contactName, contactEmail, website, lastUpdated } =
-  providerInfo;
+const {
+  providerName,
+  contactName,
+  contactEmail,
+  website,
+  lastUpdated,
+  mapZoom,
+} = providerInfo;
 
 const lastUpdatedDateParts = lastUpdated.split("-");
 const lastUpdatedText = `${lastUpdatedDateParts[1]}/${lastUpdatedDateParts[2]}/${lastUpdatedDateParts[0]}`;
@@ -20,6 +27,7 @@ const lastUpdatedText = `${lastUpdatedDateParts[1]}/${lastUpdatedDateParts[2]}/$
 setMapCSURegions();
 setAllDefaultColor();
 setMapLocations(providerID);
+zoomToRegion(mapZoom);
 
 const providerNameSpan = document.getElementsByName("providerName");
 providerNameSpan.forEach((span) => (span.innerText = providerName));
@@ -87,10 +95,6 @@ function displayService() {
   }
   simplemaps_statemap.refresh();
 }
-
-//set this provider's map zoom
-simplemaps_statemap_mapdata.main_settings.initial_zoom =
-  mapZoom.item(0).textContent;
 
 var services = provider.getElementsByTagName("ServiceGroupMap");
 //if this is the landing page for the provider then show all-service coverage area
