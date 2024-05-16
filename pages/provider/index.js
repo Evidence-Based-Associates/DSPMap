@@ -1,70 +1,20 @@
 import dspsXML from "../../lib/getXML.js";
+import { providerID, serviceFIPS } from "./api.js";
 import { allFips } from "../../lib/csu.js";
 import colors from "../../lib/colors.js";
 import { removeDuplicates } from "../../lib/utils.js";
 import { CSUStructure, regionCSUs } from "../../lib/csu.js";
+import { setMapCSURegions } from "../../lib/simplemaps/utils.js";
 
 const { RegColor, TravelColor, EBABlue } = colors;
 
-const localitiesFromRegion = (region) => {
-  let localities = [];
-  region.CSUs.forEach((csu) => {
-    localities = localities.concat(csu.localities);
-  });
-  return localities;
-};
+setMapCSURegions();
 
-const regions = {
-  0: {
-    states: localitiesFromRegion(regionCSUs.NorthernRegion),
-    name: "Northern Region",
-  },
-  1: {
-    states: localitiesFromRegion(regionCSUs.CentralRegion),
-    name: "Central Region",
-  },
-  2: {
-    states: localitiesFromRegion(regionCSUs.WesternRegion),
-    name: "Western Region",
-  },
-  3: {
-    states: localitiesFromRegion(regionCSUs.SouthernRegion),
-    name: "Southern Region",
-  },
-  4: {
-    states: localitiesFromRegion(regionCSUs.EasternRegion),
-    name: "Eastern Region",
-  },
-  5: {
-    states: localitiesFromRegion(regionCSUs.MidWestRegion),
-    name: "Midwest Region",
-  },
-};
-
-simplemaps_statemap_mapdata.regions = regions;
-
-const queryString = window.location.search;
-const urlParams = new URLSearchParams(queryString);
-const providerID = urlParams.get("id");
-//functions
 function displayService() {
-  //Clear the map
-  for (let i = 0; i < allFips.length; i++) {
-    simplemaps_statemap_mapdata.state_specific[allFips[i]].url =
-      "javascript:toggleTravel(" + allFips[i] + ")";
-    simplemaps_statemap_mapdata.state_specific[allFips[i]].color = "default";
-    simplemaps_statemap_mapdata.state_specific[allFips[i]].border_color =
-      "default";
-    simplemaps_statemap_mapdata.state_specific[allFips[i]].description =
-      "default";
-  }
   //load up color code for first map
-  //alert(document.getElementById(serviceSelect).value);
   var locations = providerServices
     .item(document.getElementsByName("serviceSelect")[0].value)
     .getElementsByTagName("FIPs");
-  //alert("locations is "+providerServices.item(0).textContent);
-  //alert("location attribute "+ locations.item(0).getAttribute('travelReq'));
   for (var i = 0; i < locations.length; i++) {
     if (locations.item(i).getAttribute("travelReq") == "Y") {
       simplemaps_statemap_mapdata.state_specific[
@@ -200,13 +150,20 @@ var providerServices = provider.getElementsByTagName("Service");
 const serviceSelect = document.getElementsByName("serviceSelect")[0];
 for (let i = 0; i < providerServices.length; i++) {
   const serviceOption = document.createElement("option");
-  serviceOption.value = i;
+  serviceOption.value = String(i);
   serviceOption.text = providerServices.item(i).getAttribute("serviceName");
   serviceSelect.appendChild(serviceOption);
 }
 serviceSelect.addEventListener("change", displayService);
 
+const selectedServiceName =
+  // @ts-ignore
+  serviceSelect.options[serviceSelect.selectedIndex].text;
+const fipsLists = serviceFIPS(selectedServiceName);
+console.log(fipsLists);
+
 //  load up color code for first map
+
 var locations = providerServices.item(0).getElementsByTagName("FIPs");
 //alert("locations lenght is "+providerServices.length);
 for (var i = 0; i < locations.length; i++) {

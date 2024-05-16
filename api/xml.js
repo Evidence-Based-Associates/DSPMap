@@ -326,6 +326,32 @@ export class XML_API {
     }
   }
 
+  getServiceMapFIPS(providerID, serviceName) {
+    const provider = this.data.getElementById(providerID);
+    const providerServices = provider.getElementsByTagName("Service");
+
+    const availableFIPS = [];
+    const limitedFIPS = [];
+    for (let i = 0; i < providerServices.length; i++) {
+      const service = providerServices.item(i);
+      if (service.getAttribute("serviceName") === serviceName) {
+        const serviceFIPS = service.getElementsByTagName("FIPs");
+        for (let j = 0; j < serviceFIPS.length; j++) {
+          const fips = serviceFIPS.item(j).textContent;
+          const isLimited =
+            serviceFIPS.item(j).getAttribute("travelReq") === "Y";
+          if (isLimited) {
+            limitedFIPS.push(fips);
+          } else {
+            availableFIPS.push(fips);
+          }
+        }
+        break;
+      }
+    }
+    return { available: availableFIPS, limited: limitedFIPS };
+  }
+
   test() {
     if (this.data !== null && this.data !== undefined) {
       // console.log(this.data);

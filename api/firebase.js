@@ -65,4 +65,9 @@ export class FIREBASE_API {
     // not yet implemented in FIREBASE_API
     return [];
   }
+
+  getServiceMapFIPS(providerID, serviceName) {
+    // not yet implemented in FIREBASE_API
+    return { available: [], limited: [] };
+  }
 }
