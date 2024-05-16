@@ -1,5 +1,5 @@
 import dspsXML from "../../lib/getXML.js";
-import { providerID, serviceFIPS, serviceNames } from "./api.js";
+import { providerID, serviceFIPS, serviceNames, providerInfo } from "./api.js";
 import colors from "../../lib/colors.js";
 import { removeDuplicates } from "../../lib/utils.js";
 import { CSUStructure } from "../../lib/csu.js";
@@ -9,9 +9,37 @@ import {
 } from "../../lib/simplemaps/utils.js";
 
 const { RegColor, TravelColor, EBABlue } = colors;
+// destructure providerInfo
+const { providerName, contactName, contactEmail, website, lastUpdated } =
+  providerInfo;
+
+const lastUpdatedDateParts = lastUpdated.split("-");
+const lastUpdatedText = `${lastUpdatedDateParts[1]}/${lastUpdatedDateParts[2]}/${lastUpdatedDateParts[0]}`;
 
 setMapCSURegions();
 setAllDefaultColor();
+
+const providerNameSpan = document.getElementsByName("providerName");
+providerNameSpan.forEach((span) => (span.innerText = providerName));
+
+const providerInfoDiv = document.getElementById("providerInfo");
+providerInfoDiv.innerHTML =
+  "<p>Last Updated: " +
+  lastUpdatedText +
+  "</p>" +
+  "<p>Website: <a href='" +
+  website +
+  "'>" +
+  website +
+  "</a></p>" +
+  "<p>Contact: " +
+  contactName +
+  "</p>" +
+  "<p>Email: <a href='mailto:" +
+  contactEmail +
+  "'>" +
+  contactEmail +
+  "</a></p>";
 
 const serviceSelect = document.getElementsByName("serviceSelect")[0];
 serviceNames.forEach((serviceName) => {
@@ -21,6 +49,9 @@ serviceNames.forEach((serviceName) => {
   serviceSelect.appendChild(serviceOption);
 });
 serviceSelect.addEventListener("change", displayService);
+
+// TODO get mapzoom
+// var mapZoom = provider.getElementsByTagName("MapZoom");
 
 function displayService() {
   //load up color code for first map
@@ -55,20 +86,6 @@ function displayService() {
   simplemaps_statemap.refresh();
 }
 
-//get provider info.
-//var provider = dspsXML.getElementById(pageID);
-var providerList = dspsXML.getElementsByTagName("Provider");
-for (var i = 0; i < providerList.length; i++) {
-  if (providerList.item(i).getAttribute("id") == providerID) {
-    var provider = providerList.item(i);
-  }
-}
-
-var providerName = provider.getElementsByTagName("Name");
-const providerNameSpan = document.getElementsByName("providerName");
-providerNameSpan.forEach(
-  (span) => (span.innerHTML = providerName.item(0).textContent)
-);
 var providerUpdated = provider
   .getElementsByTagName("LastUpdated")
   .item(0)
@@ -76,7 +93,6 @@ var providerUpdated = provider
 var providerWebsite = provider.getElementsByTagName("Website");
 var providerContact = provider.getElementsByTagName("ContactName");
 var providerEmail = provider.getElementsByTagName("ContactEmail");
-var mapZoom = provider.getElementsByTagName("MapZoom");
 var officeCount = provider.getElementsByTagName("Office").length;
 
 //office info tags
@@ -184,29 +200,6 @@ for (var i = 0; i < locations.length; i++) {
       "Available in " + locations.item(i).getAttribute("languages");
   }
 }
-
-const providerInfo = document.getElementById("providerInfo");
-providerInfo.innerHTML =
-  "<p>Last Updated: " +
-  providerUpdated[1] +
-  "/" +
-  providerUpdated[2] +
-  "/" +
-  providerUpdated[0] +
-  "</p>" +
-  "<p>Website: <a href='" +
-  providerWebsite.item(0).textContent +
-  "'>" +
-  providerWebsite.item(0).textContent +
-  "</a></p>" +
-  "<p>Contact: " +
-  providerContact.item(0).textContent +
-  "</p>" +
-  "<p>Email: <a href='mailto:" +
-  providerEmail.item(0).textContent +
-  "'>" +
-  providerEmail.item(0).textContent +
-  "</a></p>";
 
 //get provider's CSU coverage:
 var providerAllLocations = provider.getElementsByTagName("FIPs");

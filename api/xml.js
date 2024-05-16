@@ -150,6 +150,32 @@ export class XML_API {
     return [...serviceNames].sort();
   }
 
+  getProviderInfo(providerID) {
+    const provider = this.data.getElementById(providerID);
+    const contactName = provider
+      .getElementsByTagName("ContactName")
+      .item(0).textContent;
+    const providerName = provider
+      .getElementsByTagName("Name")
+      .item(0).textContent;
+    const contactEmail = provider
+      .getElementsByTagName("ContactEmail")
+      .item(0).textContent;
+    const website = provider
+      .getElementsByTagName("Website")
+      .item(0).textContent;
+    const lastUpdated = provider
+      .getElementsByTagName("LastUpdated")
+      .item(0).textContent;
+    return {
+      providerName,
+      contactName,
+      contactEmail,
+      website,
+      lastUpdated,
+    };
+  }
+
   getAllServiceNamesByCSU(csu) {
     if (this.data !== null && this.data !== undefined) {
       const serviceList = new Set();
