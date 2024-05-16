@@ -398,6 +398,17 @@ export class XML_API {
     return { available: availableFIPS, limited: limitedFIPS };
   }
 
+  getAllFIPS(providerID) {
+    const provider = this.data.getElementById(providerID);
+    const allProviderFIPS = provider.getElementsByTagName("FIPs");
+
+    const fipsList = [];
+    for (let i = 0; i < allProviderFIPS.length; i++) {
+      fipsList.push(allProviderFIPS.item(i).textContent);
+    }
+    return [...new Set(fipsList)];
+  }
+
   test() {
     if (this.data !== null && this.data !== undefined) {
       // console.log(this.data);

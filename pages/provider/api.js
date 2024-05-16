@@ -9,3 +9,4 @@ export const serviceFIPS = (/** @type {string} */ serviceName) => {
 
 export const serviceNames = API.getProviderServices(providerID);
 export const providerInfo = API.getProviderInfo(providerID);
+export const allFIPS = API.getAllFIPS(providerID);

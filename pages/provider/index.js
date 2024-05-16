@@ -1,8 +1,14 @@
 import dspsXML from "../../lib/getXML.js";
-import { providerID, serviceFIPS, serviceNames, providerInfo } from "./api.js";
+import {
+  providerID,
+  serviceFIPS,
+  serviceNames,
+  providerInfo,
+  allFIPS,
+} from "./api.js";
 import colors from "../../lib/colors.js";
 import { removeDuplicates } from "../../lib/utils.js";
-import { CSUStructure } from "../../lib/csu.js";
+import { CSUStructure, csuListFromFIPS } from "../../lib/csu.js";
 import {
   setMapCSURegions,
   setAllDefaultColor,
@@ -11,8 +17,8 @@ import {
   colorFIPS,
 } from "../../lib/simplemaps/utils.js";
 
-const { RegColor, TravelColor, EBABlue } = colors;
-// destructure providerInfo
+const { RegColor, TravelColor } = colors;
+
 const {
   providerName,
   contactName,
@@ -80,46 +86,22 @@ const displayService = () => {
 serviceSelect.addEventListener("change", displayService);
 displayService();
 
-//get provider's CSU coverage:
-var providerAllLocations = provider.getElementsByTagName("FIPs");
-var serviceFIPsArray = [];
-
-for (let i = 0; i < providerAllLocations.length; i++) {
-  serviceFIPsArray.push(providerAllLocations.item(i).textContent);
-}
-serviceFIPsArray = removeDuplicates(serviceFIPsArray);
-
-var providerCSUArray = [];
-//look for the CSU
-//Cycle through regions
-//priting as you cycle through the CSU structure will have the correct numerical sort
+const csuList = csuListFromFIPS(allFIPS);
 const providerCSUList = document.getElementById("providerCSUs");
-for (let i = 0; i < CSUStructure.length; i++) {
-  //cycle through region's CSUs
-  for (let j = 0; j < CSUStructure[i].CSUs.length; j++) {
-    //cycle through the provider locations
-    for (let k = 0; k < serviceFIPsArray.length; k++) {
-      if (
-        CSUStructure[i].CSUs[j].localities.indexOf(serviceFIPsArray[k]) >= 0 &&
-        providerCSUArray.indexOf(CSUStructure[i].CSUs[j].name) == -1
-      ) {
-        providerCSUArray.push(CSUStructure[i].CSUs[j].name);
-        const csuLI = document.createElement("li");
-        csuLI.innerHTML = CSUStructure[i].CSUs[j].name;
-        providerCSUList.appendChild(csuLI);
-      }
-    }
-  }
-}
+csuList.forEach((csu) => {
+  const csuLI = document.createElement("li");
+  csuLI.innerText = csu;
+  providerCSUList.appendChild(csuLI);
+});
 
-var cityCountyBoundary = 0;
 const countyList = document.getElementById("providerCounties");
 const cityList = document.getElementById("providerCities");
-for (i = 0; i < serviceFIPsArray.length; i++) {
+for (i = 0; i < allFIPS.length; i++) {
   const localityLI = document.createElement("li");
-  localityLI.innerHTML =
-    simplemaps_statemap_mapdata.state_specific[serviceFIPsArray[i]].name;
-  if (Number(serviceFIPsArray[i]) > 51500) {
+  localityLI.innerText =
+    // @ts-ignore
+    simplemaps_statemap_mapdata.state_specific[allFIPS[i]].name;
+  if (Number(allFIPS[i]) > 51500) {
     cityList.appendChild(localityLI);
   } else {
     countyList.appendChild(localityLI);

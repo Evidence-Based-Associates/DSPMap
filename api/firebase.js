@@ -80,4 +80,9 @@ export class FIREBASE_API {
     // not yet implemented in FIREBASE_API
     return { available: [], limited: [] };
   }
+
+  getAllFIPS(providerID) {
+    // not yet implemented in FIREBASE_API
+    return [];
+  }
 }
