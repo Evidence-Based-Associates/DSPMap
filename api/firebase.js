@@ -78,7 +78,7 @@ export class FIREBASE_API {
 
   getServiceMapFIPS(providerID, serviceName) {
     // not yet implemented in FIREBASE_API
-    return { available: [], limited: [] };
+    return { available: [], limited: [], languages: new Map() };
   }
 
   getAllFIPS(providerID) {

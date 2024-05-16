@@ -379,6 +379,7 @@ export class XML_API {
 
     const availableFIPS = [];
     const limitedFIPS = [];
+    const languageMap = new Map();
     for (let i = 0; i < providerServices.length; i++) {
       const service = providerServices.item(i);
       if (service.getAttribute("serviceName") === serviceName) {
@@ -392,11 +393,30 @@ export class XML_API {
           } else {
             availableFIPS.push(fips);
           }
+          const languageList = serviceFIPS.item(j).getAttribute("languages");
+          if (languageList) {
+            const languageArray = languageList.split(",");
+            languageArray.forEach((language) => {
+              if (languageMap.has(language)) {
+                languageMap.get(language).add(fips);
+              } else {
+                languageMap.set(language, new Set([fips]));
+              }
+            });
+          }
         }
         break;
       }
     }
-    return { available: availableFIPS, limited: limitedFIPS };
+    //convert the languageMap into an object with keys and the fipsSet
+    const languageFIPS = [...languageMap].map(([language, fipsSet]) => ({
+      [language]: [...fipsSet],
+    }));
+    return {
+      available: availableFIPS,
+      limited: limitedFIPS,
+      languages: languageFIPS,
+    };
   }
 
   getAllFIPS(providerID) {

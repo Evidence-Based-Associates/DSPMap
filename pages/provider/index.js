@@ -16,6 +16,7 @@ import {
   setMapLocations,
   zoomToRegion,
   colorFIPS,
+  addLanguageDescriptions,
 } from "../../lib/simplemaps/utils.js";
 
 const { RegColor, TravelColor } = colors;
@@ -74,11 +75,7 @@ const displayService = () => {
   const fipsLists = serviceFIPS(selectedServiceName);
   colorFIPS(fipsLists.available, RegColor);
   colorFIPS(fipsLists.limited, TravelColor);
-  // TODO: languages
-  // simplemaps_statemap_mapdata.state_specific[
-  //   locations[i].textContent
-  // ].description =
-  //   "Available in " + locations.item(i).getAttribute("languages");
+  addLanguageDescriptions(fipsLists.languages);
   // @ts-ignore
   if (typeof simplemaps_statemap.refresh === "function") {
     // @ts-ignore
