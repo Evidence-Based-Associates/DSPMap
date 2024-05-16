@@ -1,7 +1,5 @@
 import { fipsID, providers, providerServices } from "./api.js";
 import { setMapLocations, zoomToFIPS } from "../../lib/simplemaps/utils.js";
-import dspsXML from "../../lib/getXML.js";
-import { removeDuplicates } from "../../lib/utils.js";
 
 const localityText = document.getElementById("localityText");
 localityText.innerText =
