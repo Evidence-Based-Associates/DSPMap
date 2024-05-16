@@ -8,6 +8,7 @@ import {
   setAllDefaultColor,
   setMapLocations,
   zoomToRegion,
+  colorFIPS,
 } from "../../lib/simplemaps/utils.js";
 
 const { RegColor, TravelColor, EBABlue } = colors;
@@ -58,104 +59,26 @@ serviceNames.forEach((serviceName) => {
   serviceOption.text = serviceName;
   serviceSelect.appendChild(serviceOption);
 });
-serviceSelect.addEventListener("change", displayService);
 
-// TODO get mapzoom
-// var mapZoom = provider.getElementsByTagName("MapZoom");
-
-function displayService() {
-  //load up color code for first map
-  var locations = providerServices
-    .item(document.getElementsByName("serviceSelect")[0].value)
-    .getElementsByTagName("FIPs");
-  for (var i = 0; i < locations.length; i++) {
-    if (locations.item(i).getAttribute("travelReq") == "Y") {
-      simplemaps_statemap_mapdata.state_specific[
-        locations[i].textContent
-      ].color = TravelColor;
-      simplemaps_statemap_mapdata.state_specific[
-        locations[i].textContent
-      ].hover_color = TravelColor;
-    }
-    if (locations.item(i).getAttribute("travelReq") == "N") {
-      simplemaps_statemap_mapdata.state_specific[
-        locations[i].textContent
-      ].color = RegColor;
-      simplemaps_statemap_mapdata.state_specific[
-        locations[i].textContent
-      ].hover_color = RegColor;
-    }
-    if (locations.item(i).getAttribute("languages")) {
-      //simplemaps_statemap_mapdata.state_specific[locations[i].textContent].border_color = LanguageColor;
-      simplemaps_statemap_mapdata.state_specific[
-        locations[i].textContent
-      ].description =
-        "Available in " + locations.item(i).getAttribute("languages");
-    }
-  }
-  simplemaps_statemap.refresh();
-}
-
-var services = provider.getElementsByTagName("ServiceGroupMap");
-//if this is the landing page for the provider then show all-service coverage area
-//if (mapLayer == "all"){ //show entire coverage area for landing page
-var serviceZoom = provider.getElementsByTagName("MapZoom");
-serviceZoom = serviceZoom.item(0).textContent;
-var locations = provider.getElementsByTagName("FIPs");
-var mapDescription = "Provider's Complete Coverage Area";
-/*} else { //this is for a specific map
-    var serviceZoom = services.item(Number(mapLayer)).getAttribute("serviceZoom");
-    var locations = services.item(Number(mapLayer)).getElementsByTagName("FIPs");
-    var mapDescription = services.item(Number(mapLayer)).getAttribute("type");
-}*/
-if (serviceZoom > 51000) {
-  //empty the regions, and set focus on the service locality
-  //this should apply when a provider serves a map in only one locality.
-  simplemaps_statemap_mapdata.regions = {};
-  //fill with focus CSU
-  simplemaps_statemap_mapdata.regions[0] = {
-    states: [serviceZoom],
-    name: "",
-  };
-  simplemaps_statemap_mapdata.main_settings.initial_zoom = 0;
-} else if (serviceZoom < 5) {
-  simplemaps_statemap_mapdata.main_settings.initial_zoom = serviceZoom;
-}
-
-const selectedServiceName =
+const displayService = () => {
+  const selectedServiceName =
+    // @ts-ignore
+    serviceSelect.options[serviceSelect.selectedIndex].text;
+  const fipsLists = serviceFIPS(selectedServiceName);
+  colorFIPS(fipsLists.available, RegColor);
+  colorFIPS(fipsLists.limited, TravelColor);
+  // TODO: languages
+  // simplemaps_statemap_mapdata.state_specific[
+  //   locations[i].textContent
+  // ].description =
+  //   "Available in " + locations.item(i).getAttribute("languages");
   // @ts-ignore
-  serviceSelect.options[serviceSelect.selectedIndex].text;
-const fipsLists = serviceFIPS(selectedServiceName);
-console.log(fipsLists);
-
-//  load up color code for first map
-
-var locations = providerServices.item(0).getElementsByTagName("FIPs");
-//alert("locations lenght is "+providerServices.length);
-for (var i = 0; i < locations.length; i++) {
-  //alert("location attribute "+ locations.item(i).getAttribute('travelReq'));
-  if (locations.item(i).getAttribute("travelReq") == "Y") {
-    simplemaps_statemap_mapdata.state_specific[locations[i].textContent].color =
-      TravelColor;
-    simplemaps_statemap_mapdata.state_specific[
-      locations[i].textContent
-    ].hover_color = TravelColor;
+  if (typeof simplemaps_statemap.refresh === "function") {
+    simplemaps_statemap.refresh();
   }
-  if (locations.item(i).getAttribute("travelReq") == "N") {
-    simplemaps_statemap_mapdata.state_specific[locations[i].textContent].color =
-      RegColor;
-    simplemaps_statemap_mapdata.state_specific[
-      locations[i].textContent
-    ].hover_color = RegColor;
-  }
-  if (locations.item(i).getAttribute("languages")) {
-    //simplemaps_statemap_mapdata.state_specific[locations[i].textContent].border_color = LanguageColor;
-    simplemaps_statemap_mapdata.state_specific[
-      locations[i].textContent
-    ].description =
-      "Available in " + locations.item(i).getAttribute("languages");
-  }
-}
+};
+serviceSelect.addEventListener("change", displayService);
+displayService();
 
 //get provider's CSU coverage:
 var providerAllLocations = provider.getElementsByTagName("FIPs");
