@@ -89,6 +89,102 @@ export class XML_API {
     }
   }
 
+  getAllProvidersByCSU(csu) {
+    if (this.data !== null && this.data !== undefined) {
+      const providerList = new Map();
+      const serviceFIPS = [...this.data.getElementsByTagName("FIPs")];
+
+      const csuServiceFIPS = serviceFIPS.filter((fips) =>
+        csu.localities.includes(fips.textContent)
+      );
+
+      csuServiceFIPS.forEach((fips) => {
+        const provider = fips.parentElement.parentElement;
+        const providerName = provider
+          .getElementsByTagName("Name")
+          .item(0).textContent;
+        const providerId = provider.getAttribute("id");
+
+        if (!providerList.has(providerId)) {
+          providerList.set(providerId, providerName);
+        }
+      });
+      return new Map(
+        [...providerList.entries()].sort((a, b) => a[1].localeCompare(b[1]))
+      );
+    } else {
+      return new Map();
+    }
+  }
+
+  getAllServiceNamesByCSU(csu) {
+    if (this.data !== null && this.data !== undefined) {
+      const serviceList = new Set();
+      const serviceFIPS = [...this.data.getElementsByTagName("FIPs")];
+
+      const csuServiceFIPS = serviceFIPS.filter((fips) =>
+        csu.localities.includes(fips.textContent)
+      );
+
+      csuServiceFIPS.forEach((fips) => {
+        const service = fips.parentElement;
+        const serviceName = service.getAttribute("serviceName");
+
+        serviceList.add(serviceName);
+      });
+
+      return [...serviceList].sort();
+    } else {
+      return [];
+    }
+  }
+
+  getAllServicesByProviderInCSU(providerId, csu) {
+    const provider = this.data.getElementById(providerId);
+    const providerServices = provider.getElementsByTagName("Service");
+    const serviceList = new Set();
+    for (let i = 0; i < providerServices.length; i++) {
+      const service = providerServices.item(i);
+      const serviceFIPS = service.getElementsByTagName("FIPs");
+      for (let j = 0; j < serviceFIPS.length; j++) {
+        if (csu.localities.includes(serviceFIPS.item(j).textContent)) {
+          serviceList.add(service.getAttribute("serviceName"));
+          break;
+        }
+      }
+    }
+    return [...serviceList].sort();
+  }
+
+  getAllProvidersOfServiceInCSU(serviceName, csu) {
+    const serviceFIPS = [...this.data.getElementsByTagName("FIPs")];
+    const csuServiceFIPS = serviceFIPS.filter((fips) =>
+      csu.localities.includes(fips.textContent)
+    );
+
+    const providerList = new Map();
+    csuServiceFIPS.forEach((fips) => {
+      const provider = fips.parentElement.parentElement;
+      const providerName = provider
+        .getElementsByTagName("Name")
+        .item(0).textContent;
+      const providerId = provider.getAttribute("id");
+      const providerServices = provider.getElementsByTagName("Service");
+      for (let i = 0; i < providerServices.length; i++) {
+        if (
+          providerServices.item(i).getAttribute("serviceName") === serviceName
+        ) {
+          providerList.set(providerId, providerName);
+          break;
+        }
+      }
+    });
+
+    return new Map(
+      [...providerList.entries()].sort((a, b) => a[1].localeCompare(b[1]))
+    );
+  }
+
   getAllLocations() {
     if (this.data !== null && this.data !== undefined) {
       const locations = this.data.getElementsByTagName("Office");

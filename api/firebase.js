@@ -16,6 +16,26 @@ export class FIREBASE_API {
     return [];
   }
 
+  getAllProvidersByCSU(csu) {
+    // not yet implemented in FIREBASE_API
+    return new Map();
+  }
+
+  getAllServiceNamesByCSU(csu) {
+    // not yet implemented in FIREBASE_API
+    return [];
+  }
+
+  getAllServicesByProviderInCSU(providerId, csu) {
+    // not yet implemented in FIREBASE_API
+    return [];
+  }
+
+  getAllProvidersOfServiceInCSU(serviceName, csu) {
+    // not yet implemented in FIREBASE_API
+    return [];
+  }
+
   getAllLocations() {
     // not yet implemented in FIREBASE_API
     return [];
