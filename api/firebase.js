@@ -21,6 +21,16 @@ export class FIREBASE_API {
     return new Map();
   }
 
+  getAllProvidersByFIPS(fips) {
+    // not yet implemented in FIREBASE_API
+    return new Map();
+  }
+
+  getAllServicesByProviderInFIPS(providerId, fips) {
+    // not yet implemented in FIREBASE_API
+    return [];
+  }
+
   getAllServiceNamesByCSU(csu) {
     // not yet implemented in FIREBASE_API
     return [];

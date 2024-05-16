@@ -117,6 +117,28 @@ export class XML_API {
     }
   }
 
+  getAllProvidersByFIPS(fips) {
+    const providerList = new Map();
+    const allFIPS = [...this.data.getElementsByTagName("FIPs")];
+
+    const targetFIPS = allFIPS.filter(
+      (fipsElement) => fipsElement.textContent === fips
+    );
+
+    targetFIPS.forEach((fipsElement) => {
+      const provider = fipsElement.parentElement.parentElement;
+      const providerName = provider
+        .getElementsByTagName("Name")
+        .item(0).textContent;
+      const providerId = provider.getAttribute("id");
+
+      providerList.set(providerId, providerName);
+    });
+    return new Map(
+      [...providerList.entries()].sort((a, b) => a[1].localeCompare(b[1]))
+    );
+  }
+
   getAllServiceNamesByCSU(csu) {
     if (this.data !== null && this.data !== undefined) {
       const serviceList = new Set();
@@ -137,6 +159,23 @@ export class XML_API {
     } else {
       return [];
     }
+  }
+
+  getAllServicesByProviderInFIPS(providerId, fips) {
+    const provider = this.data.getElementById(providerId);
+    const providerServices = provider.getElementsByTagName("Service");
+    const serviceList = new Set();
+    for (let i = 0; i < providerServices.length; i++) {
+      const service = providerServices.item(i);
+      const serviceFIPS = service.getElementsByTagName("FIPs");
+      for (let j = 0; j < serviceFIPS.length; j++) {
+        if (serviceFIPS.item(j).textContent === fips) {
+          serviceList.add(service.getAttribute("serviceName"));
+          break;
+        }
+      }
+    }
+    return [...serviceList].sort();
   }
 
   getAllServicesByProviderInCSU(providerId, csu) {
