@@ -7135,7 +7135,7 @@
     <Provider id="79">
         <Name>Harrisonburg-Rockingham Community Services Board</Name>
         <LastUpdated>2022-09-22</LastUpdated>
-        <MapZoom>51165</MapZoom>
+        <MapZoom>0</MapZoom>
         <Website>https://www.hrcsb.org</Website>
         <ContactName>John Wilson, LPC, LMFT</ContactName>
         <ContactEmail>jwilso@hrcsb.org</ContactEmail>
@@ -8100,7 +8100,7 @@
     <Provider id="88">
         <Name>City of Alexandria Department of Community and Human Services</Name>
         <LastUpdated>2022-11-02</LastUpdated>
-        <MapZoom>51510</MapZoom>
+        <MapZoom>0</MapZoom>
         <Website>www.alexandriava.gov/DCHS</Website>
         <ContactName>Intake</ContactName>
         <ContactEmail>dchsyouthintake@alexandriava.gov</ContactEmail>
