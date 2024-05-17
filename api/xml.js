@@ -1,3 +1,5 @@
+import { isLocalityInCSUID, isLocalityInRegionID } from "../lib/csu.js";
+
 export class XML_API {
   filename = "/data/dsps.xml";
 
@@ -465,6 +467,94 @@ export class XML_API {
       fipsList.push(allProviderFIPS.item(i).textContent);
     }
     return [...new Set(fipsList)];
+  }
+
+  /**
+   *
+   * @param {Object} searchParams
+   * @param {string} [searchParams.serviceName]
+   * @param {string} [searchParams.locationID]
+   * @param {string} [searchParams.locationType]
+   * @param {string} [searchParams.languageName]
+   */
+  searchProviders({ serviceName, locationID, locationType, languageName }) {
+    const allFIPS = this.data.getElementsByTagName("FIPs");
+    const providerList = new Map();
+
+    for (let i = 0; i < allFIPS.length; i++) {
+      let isServiceMatch = false;
+      let isLocationMatch = false;
+      let isLanguageMatch = false;
+      const fipsService = allFIPS
+        .item(i)
+        .parentElement.getAttribute("serviceName");
+      if (
+        !serviceName ||
+        serviceName === "any" ||
+        serviceName === fipsService
+      ) {
+        isServiceMatch = true;
+      }
+
+      const fips = allFIPS.item(i);
+      if (
+        !locationID ||
+        locationID === "any" ||
+        fips.textContent === locationID
+      ) {
+        isLocationMatch = true;
+      }
+
+      if (
+        locationType === "CSU" &&
+        isLocalityInCSUID(locationID, fips.textContent)
+      ) {
+        isLocationMatch = true;
+      }
+      if (
+        locationType === "Region" &&
+        isLocalityInRegionID(locationID, fips.textContent)
+      ) {
+        isLocationMatch = true;
+      }
+
+      if (!languageName || languageName === "English") {
+        isLanguageMatch = true;
+      }
+
+      if (fips.getAttribute("languages")) {
+        const languageList = fips.getAttribute("languages");
+        if (languageList.includes(languageName)) {
+          isLanguageMatch = true;
+        }
+      }
+
+      if (isServiceMatch && isLocationMatch && isLanguageMatch) {
+        const provider = fips.parentElement.parentElement;
+        const providerID = provider.getAttribute("id");
+        const providerName = provider
+          .getElementsByTagName("Name")
+          .item(0).textContent;
+        providerList.set(providerID, providerName);
+      }
+      // const provider = fips.parentElement.parentElement;
+      // const providerID = provider.getAttribute("id");
+      // const providerName = provider.getElementsByTagName("Name").item(0).textContent;
+      // const providerServices = provider.getElementsByTagName("Service");
+      // const providerLocations = provider.getElementsByTagName("FIPs");
+      // const providerLanguages = []
+      // for (let j = 0; j < providerLocations.length; j++) {
+      //   if (providerLocations.item(j).getAttribute("languages")) {
+      //     var serviceLanguageStr = providerLocations.item(j).getAttribute("languages");
+      //       providerLanguages.push(providerLocations.item(j).getAttribute("languages"));
+      //     }
+      //   }
+      // }
+    }
+
+    return new Map(
+      [...providerList.entries()].sort((a, b) => a[1].localeCompare(b[1]))
+    );
   }
 
   test() {

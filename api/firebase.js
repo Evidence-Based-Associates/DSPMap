@@ -90,4 +90,9 @@ export class FIREBASE_API {
     // not yet implemented in FIREBASE_API
     return [];
   }
+
+  searchProviders({ serviceName, locationType, locationID, languageName }) {
+    // not yet implemented in FIREBASE_API
+    return new Map();
+  }
 }
