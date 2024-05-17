@@ -1,15 +1,11 @@
+import { API } from "../../api/api.js";
 import { allFips, regionCSUs, sortedCSUs } from "../../lib/csu.js";
-import dspsXML from "../../lib/getXML.js";
-import { removeDuplicates } from "../../lib/utils.js";
 import {
   locationText,
   serviceText,
   languageText,
   providerSearchResults,
 } from "./api.js";
-
-//get all entires for search later.
-var locations = dspsXML.getElementsByTagName("FIPs");
 
 document.getElementById("serviceTextSpan").innerText = serviceText;
 document.getElementById("locationTextSpan").innerText = locationText;
@@ -28,15 +24,7 @@ providerSearchResults.forEach((provider, key) => {
   searchResultsUL.appendChild(providerLI);
 });
 
-// Search Form
-let availableServices = [];
-var serviceCheck = dspsXML.getElementsByTagName("Service");
-for (var i = 0; i < serviceCheck.length; i++) {
-  availableServices.push(serviceCheck.item(i).getAttribute("serviceName"));
-}
-availableServices = removeDuplicates(availableServices);
-availableServices.sort();
-
+const availableServices = API.getAllServiceNames();
 const serviceSelect = document.getElementsByName("Service")[0];
 availableServices.forEach((service) => {
   const option = document.createElement("option");
@@ -77,31 +65,12 @@ for (let i = 0; i < allFips.length; i++) {
   whereSelect.appendChild(option);
 }
 
-var allLocations = dspsXML.getElementsByTagName("FIPs");
-let allLanguagesArray = [];
-for (var i = 0; i < allLocations.length; i++) {
-  if (allLocations.item(i).getAttribute("languages")) {
-    var serviceLanguageStr = allLocations.item(i).getAttribute("languages");
-    while (serviceLanguageStr.indexOf(" ") >= 0) {
-      serviceLanguageStr = serviceLanguageStr.replace(" ", "");
-    }
-    if (serviceLanguageStr.includes(",")) {
-      var serviceLanguages = serviceLanguageStr.split(",");
-      for (var j = 0; j < serviceLanguages.length; j++) {
-        allLanguagesArray.push(serviceLanguages[j]);
-      }
-    } else {
-      allLanguagesArray.push(allLocations.item(i).getAttribute("languages"));
-    }
-  }
-}
-allLanguagesArray = removeDuplicates(allLanguagesArray);
-allLanguagesArray.sort();
-for (let i = 0; i < allLanguagesArray.length; i++) {
-  if (allLanguagesArray[i] != "") {
+const availableLanguages = API.getAllLanguages();
+for (let i = 0; i < availableLanguages.length; i++) {
+  if (availableLanguages[i] != "") {
     const option = document.createElement("option");
-    option.value = allLanguagesArray[i];
-    option.text = allLanguagesArray[i];
+    option.value = availableLanguages[i];
+    option.text = availableLanguages[i];
     document.getElementsByName("Language")[0].appendChild(option);
   }
 }
