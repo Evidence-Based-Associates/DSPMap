@@ -537,19 +537,6 @@ export class XML_API {
           .item(0).textContent;
         providerList.set(providerID, providerName);
       }
-      // const provider = fips.parentElement.parentElement;
-      // const providerID = provider.getAttribute("id");
-      // const providerName = provider.getElementsByTagName("Name").item(0).textContent;
-      // const providerServices = provider.getElementsByTagName("Service");
-      // const providerLocations = provider.getElementsByTagName("FIPs");
-      // const providerLanguages = []
-      // for (let j = 0; j < providerLocations.length; j++) {
-      //   if (providerLocations.item(j).getAttribute("languages")) {
-      //     var serviceLanguageStr = providerLocations.item(j).getAttribute("languages");
-      //       providerLanguages.push(providerLocations.item(j).getAttribute("languages"));
-      //     }
-      //   }
-      // }
     }
 
     return new Map(

@@ -1,14 +1,8 @@
-import {
-  CSUStructure,
-  allFips,
-  regionCSUs,
-  sortedCSUs,
-} from "../../lib/csu.js";
+import { allFips, regionCSUs, sortedCSUs } from "../../lib/csu.js";
 import dspsXML from "../../lib/getXML.js";
 import { removeDuplicates } from "../../lib/utils.js";
 import {
   locationText,
-  locationType,
   serviceText,
   languageText,
   providerSearchResults,
@@ -78,6 +72,7 @@ whereSelect.appendChild(localityBreakOption);
 for (let i = 0; i < allFips.length; i++) {
   const option = document.createElement("option");
   option.value = allFips[i];
+  // @ts-ignore
   option.text = simplemaps_statemap_mapdata.state_specific[allFips[i]].name;
   whereSelect.appendChild(option);
 }
@@ -103,7 +98,7 @@ for (var i = 0; i < allLocations.length; i++) {
 allLanguagesArray = removeDuplicates(allLanguagesArray);
 allLanguagesArray.sort();
 for (let i = 0; i < allLanguagesArray.length; i++) {
-  if (!allLanguagesArray[i] == "") {
+  if (allLanguagesArray[i] != "") {
     const option = document.createElement("option");
     option.value = allLanguagesArray[i];
     option.text = allLanguagesArray[i];
