@@ -20,7 +20,7 @@
     }
   ],
   "hosting": {
-    "public": "../docs/pages/anotherPage",
+    "public": "../docs/pages/firebase",
     "ignore": [
       "firebase.json",
       "**/.*",

@@ -5,6 +5,7 @@ module.exports = {
   entry: {
     "pages/somePage/index": "./src/pages/somePage/index.js",
     "pages/anotherPage/index": "./src/pages/anotherPage/index.js",
+    "pages/firebase/index": "./src/pages/firebase/index.js",
   },
   devtool: "inline-source-map",
   devServer: {
