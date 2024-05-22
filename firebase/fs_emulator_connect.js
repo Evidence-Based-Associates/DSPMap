@@ -20,15 +20,15 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 // firebaseApps previously initialized using initializeApp()
-const db = getFirestore(app);
+export const db = getFirestore(app);
 connectFirestoreEmulator(db, "127.0.0.1", 8080);
 
-const docRef = doc(db, "messages", "H5fpiknItncYjzLHIYHY");
-const docSnap = await getDoc(docRef);
+// const docRef = doc(db, "messages", "H5fpiknItncYjzLHIYHY");
+// const docSnap = await getDoc(docRef);
 
-if (docSnap.exists()) {
-  console.log("Document data:", docSnap.data());
-} else {
-  // docSnap.data() will be undefined in this case
-  console.log("No such document!");
-}
+// if (docSnap.exists()) {
+//   console.log("Document data:", docSnap.data());
+// } else {
+//   // docSnap.data() will be undefined in this case
+//   console.log("No such document!");
+// }
