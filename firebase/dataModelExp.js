@@ -10,6 +10,43 @@ import {
   where,
   orderBy,
 } from "firebase/firestore";
+import API from "../api/api.js";
+
+const providerModel = {
+  providerName: "string",
+  website: "string",
+  contactName: "string",
+  contactEmail: "string",
+  defaultMapZoom: "number",
+  locations: [
+    {
+      providerName: "string",
+      address: "string",
+      city: "string",
+      state: "string",
+      zip: "string",
+      phone: "string",
+      lat: "number",
+      lng: "number",
+    },
+  ],
+  services: [
+    {
+      lastUpdated: "timestamp",
+      lastUpdatedBy: "string",
+      mapZoom: "number",
+      providerName: "string",
+      serviceName: "string",
+      telehealth: "boolean",
+      allFIPS: ["string"],
+      limitedFIPS: ["string"],
+      languageFIPS: {
+        Spanish: ["string"],
+        French: ["string"],
+      },
+    },
+  ],
+};
 
 const providers = collection(db, "providers");
 
@@ -303,3 +340,8 @@ languageServicesQuerySnapshot2.forEach((doc) => {
     `in Spanish (any language query - using ORDERBY)`
   );
 });
+
+console.log("example using API to get all providers");
+
+const providersFromAPI = API.getAllProviders();
+console.log(providersFromAPI);
