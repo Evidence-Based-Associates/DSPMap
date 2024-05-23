@@ -410,9 +410,7 @@ export class XML_API {
       const provider = this.data.getElementById(providerID);
       serviceElements = provider.getElementsByTagName("Service");
     } else {
-      console.log("No providerID");
       serviceElements = this.data.getElementsByTagName("Service");
-      console.log(serviceElements.length);
     }
 
     const availableFIPS = [];

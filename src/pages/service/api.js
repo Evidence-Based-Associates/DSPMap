@@ -8,4 +8,3 @@ export const providers = API.getAllProvidersOfService(serviceName);
 export const serviceFIPS = API.getServiceMapFIPS({
   serviceName,
 });
-console.log(serviceFIPS);

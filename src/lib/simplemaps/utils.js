@@ -62,10 +62,11 @@ const regionColor = (locality) => {
 };
 
 const localityPagePath = () => {
-  if (window.location.pathname === "/index.html") {
-    return "pages/locality/index.html";
-  } else if (window.location.pathname.includes("pages")) {
+  const path = window.location.pathname;
+  if (window.location.pathname.includes("pages")) {
     return "../locality/index.html";
+  } else {
+    return "./pages/locality/index.html";
   }
 };
 
