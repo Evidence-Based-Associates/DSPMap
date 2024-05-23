@@ -9,24 +9,23 @@ const pageNames = [
   "service",
 ];
 
-const entries = pageNames.map((pageName) => {
-  return {
-    [`pages/${pageName}/bundle`]: `./src/pages/${pageName}/index.js`,
-  };
-});
+const entries = pageNames.reduce((entryObj, pageName) => {
+  entryObj[`pages/${pageName}/bundle`] = `./src/pages/${pageName}/index.js`;
+  return entryObj;
+}, {});
+
+entries["index"] = "./src/index.js";
 
 console.log(entries);
 
 module.exports = {
   mode: "development",
   entry: {
-    "pages/somePage/index": "./src/pages/somePage/index.js",
-    "pages/anotherPage/index": "./src/pages/anotherPage/index.js",
-    "pages/firebase/index": "./src/pages/firebase/index.js",
+    ...entries,
   },
   devtool: "inline-source-map",
   devServer: {
-    static: "./docs/pages/firebase",
+    static: "./docs/pages",
   },
   output: {
     filename: "[name].js",
