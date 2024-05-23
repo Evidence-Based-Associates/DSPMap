@@ -25,7 +25,7 @@ module.exports = {
   },
   devtool: "inline-source-map",
   devServer: {
-    static: "./docs/pages",
+    static: "./docs",
   },
   output: {
     filename: "[name].js",
