@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <title>Provider Coverage Map</title>
+    <script src="../../mainmapdata.js"></script>
+    <script src="../../statemap.js"></script>
+    <script type="module" src="bundle.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../style.css">
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-103149868-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+
+<body>
+    <a href="../../index.html"><i>Return to Provider Map Directory</i></a>.
+    <table cellpadding="10">
+        <tr>
+            <td>
+                <h2><u>
+                        <span name="providerName"></span>
+                    </u></h2>
+                <i>(scroll below the map for additional information about this provider)</i><br><br>
+                <i><b>Select Service To View Coverage Area</b></i>:<br>
+                <select name="serviceSelect"></select>
+            </td>
+            <td>
+                <table>
+                    <tr valign="top">
+                        <td>Service Area:</td>
+                        <td width=10></td>
+                        <td>
+                            <div style="width:30px;height:30px;border:1px solid #000;background-color:#008000;"></div>
+                        </td>
+                    </tr>
+                    <tr valign="top">
+                        <td>Limited Service:</td>
+                        <td width=10></td>
+                        <td>
+                            <div style="width:30px;height:30px;border:1px solid #000;background-color:#90EE90;"></div>
+                        </td>
+                    </tr>
+                    <tr valign="top">
+                        <td>Not Provided:
+                        <td width=10></td>
+                        <td>
+                            <div style="width:30px;height:30px;border:1px solid #000;background-color:#88A4BC;"></div>
+                        </td>
+                    </tr>
+                    <!-- get rid of language border for now
+    <tr valign="top">
+        <td>Non-English Available:<br><i>click to zoom-in, then hover for language list.</i>
+        <td width=10></td>
+        <td><div style="width:50px;height:50px;border:1px solid #ffa500;background-color:#008000;"></div></td>
+    </tr>
+    -->
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!-- blank cell between -->
+    <!-- get rid of the key, save explaination in the text below?-->
+    <div id="coveragemap"></div>
+    <!-- coverage area defined -->
+    <div class="tooltip">Coverage Areas, Defined
+        <span class="tooltiptext">
+            One goal of the DJJ Service Continuum is to ensure that court-involved youth and families receive
+            evidence-based services within their home community. <br><br><b><u>Coverage Area</u></b> (in darker green)
+            means the service provider regularly delivers community-based services in the locality. <b><u>Limited
+                    Service</u></b> (in lighter green) means the service provider does not have a regular presence in
+            the locality but will travel as-needed to deliver services such as specialized assessments, evaluations,
+            outpatient services at a CSU office, short-term group programs, or to underserved areas with low or
+            infrequent service needs. <br><br>To view language availability, click to zoom in by region and then hover
+            over a locality.
+        </span>
+    </div>
+    <br>
+    If you see any errors or missing information for this provider, <a
+        href="mailto:joelnwalkley@gmail.com?Subject=[ProviderPage]">please let us know!</a><br><br>
+    <h2 class="ebaBlue"><u><span name="providerName"></span></u></h2>
+    <ul id="providerInfo"></ul>
+    <h2 class="ebaBlue"><u>Providing Services in the Following CSUs:</u></h2>
+    <ul id="providerCSUs"></ul>
+    <h2 class="ebaBlue"><u>Providing Services in the Following Localities:</u></h2>
+    <br><b>Counties:</b>
+    <ul id="providerCounties"></ul>
+    <br><b>Cities:</b>
+    <ul id="providerCities"></ul>
+    <h2 class="ebaBlue"><u>Providing the Following Services:</u></h2>
+    <ul id="providerServices"></ul>
+    <h2 class="ebaBlue"><u>With Services in the Following Language:</u></h2>
+    <br><i>consult the map above for specific language availability</i>
+    <ul id="providerLanguages"></ul>
+    <br><br>
+    If you see any errors or missing information for this provider, <a
+        href="mailto:joelnwalkley@gmail.com?Subject=[ProviderPage]">please let us know!</a>
+</body>
+
+</html>
