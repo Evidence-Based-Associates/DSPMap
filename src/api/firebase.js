@@ -152,7 +152,6 @@ export class FIREBASE_API {
   }
 
   async getAllServiceNames() {
-    const serviceNames = new Set();
     const docRef = doc(this.db, "meta", "data");
     const docSnap = await getDoc(docRef);
     if (docSnap.exists()) {
@@ -161,8 +160,12 @@ export class FIREBASE_API {
     return [];
   }
 
-  getAllLanguages() {
-    // not yet implemented in FIREBASE_API
+  async getAllLanguages() {
+    const docRef = doc(this.db, "meta", "data");
+    const docSnap = await getDoc(docRef);
+    if (docSnap.exists()) {
+      return docSnap.data().availableLanguages;
+    }
     return [];
   }
 
