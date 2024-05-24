@@ -35,7 +35,6 @@ const lastUpdatedText = `${lastUpdatedDateParts[1]}/${lastUpdatedDateParts[2]}/$
 
 setMapCSURegions();
 setAllDefaultColor();
-setMapLocations(providerID);
 zoomToRegion(mapZoom);
 
 const providerNameSpan = document.getElementsByName("providerName");

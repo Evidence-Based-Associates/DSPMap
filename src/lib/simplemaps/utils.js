@@ -83,9 +83,7 @@ export const setMapCSURegions = () => {
   }
 };
 
-export const setMapLocations = (providerID) => {
-  const locations = API.getAllLocations(providerID);
-
+export const setMapLocations = (locations) => {
   var officeURL = "pages/provider/index.html?id=";
   locations.forEach((location, index) => {
     // @ts-ignore (global variable)

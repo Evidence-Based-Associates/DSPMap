@@ -6,7 +6,6 @@ localityText.innerText =
   // @ts-ignore
   simplemaps_statemap_mapdata.state_specific[fipsID].name;
 
-setMapLocations();
 zoomToFIPS(fipsID);
 
 const providerUL = document.getElementById("providerList");
