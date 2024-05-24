@@ -3,6 +3,7 @@ import {
   setAllDefaultColor,
   setMapCSURegions,
   setMapLocations,
+  zoomToRegion,
 } from "../../lib/simplemaps/utils.js";
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
@@ -18,10 +19,16 @@ export const serviceFIPS = async (/** @type {string} */ serviceName) => {
 
 export const serviceNames = await API.getProviderServices(providerID);
 export const providerInfo = await API.getProviderInfo(providerID);
+
 // @ts-ignore
-simplemaps_statemap.region_zoom(providerInfo.defaultMapZoom);
+if (typeof simplemaps_statemap.region_zoom === "function") {
+  // @ts-ignore
+  simplemaps_statemap.region_zoom(providerInfo.defaultMapZoom);
+} else {
+  zoomToRegion(providerInfo.mapZoom);
+}
 export const allFIPS = await API.getAllFIPS(providerID);
 export const providerLanguages = await API.getAllLanguages(providerID);
 
-const locations = await API.getAllLocations();
+const locations = await API.getAllLocations(providerID);
 setMapLocations(locations);

@@ -118,7 +118,11 @@ export const setMapLocations = (locations) => {
       opacity: "default",
     };
   });
-  simplemaps_statemap.refresh();
+  // @ts-ignore
+  if (typeof simplemaps_statemap.refresh === "function") {
+    // @ts-ignore
+    simplemaps_statemap.refresh();
+  }
 };
 
 export const setRegionByCSU = (csu) => {
@@ -168,11 +172,10 @@ export const zoomToFIPS = (fipsID) => {
 };
 
 export const zoomToRegion = (regionID) => {
-  console.log("zoomToRegion", regionID);
   // @ts-ignore
   simplemaps_statemap_mapdata.main_settings.initial_zoom = regionID;
   // @ts-ignore
-  simplemaps_statemap.refresh();
+  // simplemaps_statemap.refresh();
 };
 
 export const colorFIPS = (fipsList, color) => {

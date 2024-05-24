@@ -173,15 +173,16 @@ export class FIREBASE_API {
       where("providerName", "==", providerName)
     );
 
-    const providersQuery = providerName ? oneProviderQuery : allProvidersQuery;
+    const providersQuery =
+      providerName === "" ? allProvidersQuery : oneProviderQuery;
 
     const providersQuerySnapshot = await getDocs(providersQuery);
-    providersQuerySnapshot.forEach((doc) => {
-      const provider = doc.data();
-      provider.offices.forEach((office) => {
+    providersQuerySnapshot.forEach((provider) => {
+      const providerInfo = provider.data();
+      providerInfo.offices.forEach((office) => {
         locations.push({
-          providerName: provider.providerName,
-          providerId: provider.providerName,
+          providerName: providerInfo.providerName,
+          providerId: providerInfo.providerName,
           street: office.street,
           city: office.city,
           state: office.state,
@@ -192,7 +193,6 @@ export class FIREBASE_API {
         });
       });
     });
-
     return locations;
   }
 

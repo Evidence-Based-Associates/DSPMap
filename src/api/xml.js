@@ -319,9 +319,9 @@ export class XML_API {
   /**
    * @param {string} [providerID]
    */
-  getAllLocations(providerID) {
+  getAllLocations(providerID = "") {
     let locations;
-    if (!providerID) {
+    if (providerID === "") {
       locations = this.data.getElementsByTagName("Office");
     } else {
       const provider = this.data.getElementById(providerID);
