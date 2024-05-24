@@ -9,7 +9,8 @@ export const availableServices = API.getAllServiceNames();
 export const availableLanguages = API.getAllLanguages();
 export const providers = API.getAllProviders();
 
-const locations = API.getAllLocations();
+const locations = await API.getAllLocations();
+console.log("LOCATIONS", locations);
 setMapLocations(locations);
 
 export const apiTest = await API.test();

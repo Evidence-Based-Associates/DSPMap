@@ -9,6 +9,7 @@ import {
   getDocs,
   orderBy,
   limit,
+  collection,
 } from "firebase/firestore";
 import { config } from "../../config";
 
@@ -54,18 +55,17 @@ export class FIREBASE_API {
 
   async getLastUpdated() {
     let lastUpdatedYYYYMMDD = "Unable to determine.";
-    const locationsGroup = collectionGroup(this.db, "services");
-    const locationQuery = query(
-      locationsGroup,
+    const servicesGroup = collectionGroup(this.db, "services");
+    const servicesQuery = query(
+      servicesGroup,
       orderBy("lastUpdated", "desc"),
       limit(1)
     );
-    const locationQuerySnapshot = await getDocs(locationQuery);
+    const serviceQuerySnapshot = await getDocs(servicesQuery);
 
-    locationQuerySnapshot.forEach((doc) => {
+    serviceQuerySnapshot.forEach((doc) => {
       lastUpdatedYYYYMMDD = doc.data().lastUpdated;
     });
-    // convert to locale string
     return new Date(lastUpdatedYYYYMMDD).toLocaleDateString();
   }
 
@@ -124,9 +124,31 @@ export class FIREBASE_API {
     return [];
   }
 
-  getAllLocations() {
-    // not yet implemented in FIREBASE_API
-    return [];
+  async getAllLocations(providerName) {
+    let locations = [];
+    //query for all provider documents location field
+    const providersRef = collection(this.db, "providers");
+    const providersQuery = query(providersRef, orderBy("offices"));
+    const providersQuerySnapshot = await getDocs(providersQuery);
+    providersQuerySnapshot.forEach((doc) => {
+      const provider = doc.data();
+      console.log(provider.offices);
+      provider.offices.forEach((office) => {
+        locations.push({
+          providerName: provider.providerName,
+          providerId: provider.providerName,
+          street: office.street,
+          city: office.city,
+          state: office.state,
+          zip: office.zip,
+          phone: office.phone,
+          lat: office.lat,
+          lng: office.lng,
+        });
+      });
+    });
+
+    return locations;
   }
 
   getAllServiceNames() {
