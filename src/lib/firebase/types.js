@@ -1,6 +1,7 @@
 /**
  * @typedef Provider
  * @prop {string} providerName
+ * @prop {string} lastUpdated
  * @prop {string} website
  * @prop {string} contactName
  * @prop {string} contactEmail
@@ -22,7 +23,6 @@
 
 /**
  * @typedef Service
- * @prop {string} lastUpdated
  * @prop {string} lastUpdatedBy
  * @prop {number} mapZoom
  * @prop {string} providerName

@@ -70,6 +70,15 @@ const localityPagePath = () => {
   }
 };
 
+const pagePath = (pageName) => {
+  const path = window.location.pathname;
+  if (window.location.pathname.includes("pages")) {
+    return `../${pageName}/index.html`;
+  } else {
+    return `./pages/${pageName}/index.html`;
+  }
+};
+
 export const setMapCSURegions = () => {
   // @ts-ignore (global variable)
   simplemaps_statemap_mapdata.regions = regions;
@@ -84,7 +93,7 @@ export const setMapCSURegions = () => {
 };
 
 export const setMapLocations = (locations) => {
-  var officeURL = "pages/provider/index.html?id=";
+  var officeURL = pagePath("provider") + "?id="; //"pages/provider/index.html?id=";
   locations.forEach((location, index) => {
     // @ts-ignore (global variable)
     simplemaps_statemap_mapdata.locations[index] = {
@@ -159,8 +168,11 @@ export const zoomToFIPS = (fipsID) => {
 };
 
 export const zoomToRegion = (regionID) => {
+  console.log("zoomToRegion", regionID);
   // @ts-ignore
   simplemaps_statemap_mapdata.main_settings.initial_zoom = regionID;
+  // @ts-ignore
+  simplemaps_statemap.refresh();
 };
 
 export const colorFIPS = (fipsList, color) => {
@@ -181,6 +193,9 @@ const languagesArrayExample = [
 ];
 
 export const addLanguageDescriptions = (languagesArray) => {
+  if (!languagesArray) {
+    return;
+  }
   const fipsMap = new Map();
   languagesArray.forEach((langObj) => {
     Object.keys(langObj).forEach((lang) => {

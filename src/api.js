@@ -11,6 +11,3 @@ export const providers = await API.getAllProviders();
 
 const locations = await API.getAllLocations();
 setMapLocations(locations);
-
-export const apiTest = await API.test();
-console.log("API_TEST", apiTest);

@@ -44,10 +44,11 @@ await setDoc(docRef, { value: "data from firebase emulator" });
  */
 const exampleProvider = {
   providerName: "ABC Counseling",
+  lastUpdated: "2024-05-24",
   website: "abccounseling.com",
   contactName: "Anne Smith",
   contactEmail: "anne@abccounseling.com",
-  defaultMapZoom: -1,
+  defaultMapZoom: 0,
   offices: [
     {
       providerName: "ABC Counseling",
@@ -79,7 +80,6 @@ const exampleProviderServices = [
   {
     providerName: "ABC Counseling",
     serviceName: "Counseling",
-    lastUpdated: "2024-05-24",
     lastUpdatedBy: "joelnwalkley@gmail.com",
     mapZoom: -1,
     telehealth: true,
@@ -92,7 +92,6 @@ const exampleProviderServices = [
   {
     providerName: "ABC Counseling",
     serviceName: "Mentoring",
-    lastUpdated: "2024-05-24",
     lastUpdatedBy: "joelnwalkley@gmail.com",
     mapZoom: -1,
     telehealth: true,

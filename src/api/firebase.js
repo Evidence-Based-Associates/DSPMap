@@ -10,6 +10,7 @@ import {
   orderBy,
   limit,
   collection,
+  where,
 } from "firebase/firestore";
 import { config } from "../../config";
 
@@ -55,15 +56,15 @@ export class FIREBASE_API {
 
   async getLastUpdated() {
     let lastUpdatedYYYYMMDD = "Unable to determine.";
-    const servicesGroup = collectionGroup(this.db, "services");
-    const servicesQuery = query(
-      servicesGroup,
+    const providers = collectionGroup(this.db, "providers");
+    const providersQuery = query(
+      providers,
       orderBy("lastUpdated", "desc"),
       limit(1)
     );
-    const serviceQuerySnapshot = await getDocs(servicesQuery);
+    const providerQuerySnapshot = await getDocs(providersQuery);
 
-    serviceQuerySnapshot.forEach((doc) => {
+    providerQuerySnapshot.forEach((doc) => {
       lastUpdatedYYYYMMDD = doc.data().lastUpdated;
     });
     return new Date(lastUpdatedYYYYMMDD).toLocaleDateString();
@@ -98,13 +99,37 @@ export class FIREBASE_API {
     return new Map();
   }
 
-  getProviderServices(providerID) {
-    // not yet implemented in FIREBASE_API
-    return [];
+  async getProviderServices(providerName) {
+    // get subcollection of services for provider
+    const services = [];
+    const servicesRef = collection(
+      this.db,
+      "providers",
+      providerName,
+      "services"
+    );
+    const servicesQuery = query(servicesRef);
+    const servicesQuerySnapshot = await getDocs(servicesQuery);
+    if (servicesQuerySnapshot.empty) {
+      return [];
+    }
+    servicesQuerySnapshot.forEach((doc) => {
+      services.push(doc.data().serviceName);
+    });
+    return services.sort();
   }
 
-  getProviderInfo(providerID) {
-    // not yet implemented in FIREBASE_API
+  async getProviderInfo(providerName) {
+    // get the provider document
+    const providerRef = doc(this.db, "providers", providerName);
+    const providerDoc = await getDoc(providerRef);
+    if (providerDoc.exists()) {
+      const providerInfo = providerDoc.data();
+      return {
+        ...providerInfo,
+        lastUpdated: new Date(providerInfo.lastUpdated).toLocaleDateString(),
+      };
+    }
     return {};
   }
 
@@ -138,15 +163,21 @@ export class FIREBASE_API {
     return [];
   }
 
-  async getAllLocations(providerName) {
+  async getAllLocations(providerName = "") {
     let locations = [];
-    //query for all provider documents location field
     const providersRef = collection(this.db, "providers");
-    const providersQuery = query(providersRef, orderBy("offices"));
+    const allProvidersQuery = query(providersRef, orderBy("offices"));
+    const oneProviderQuery = query(
+      providersRef,
+      orderBy("offices"),
+      where("providerName", "==", providerName)
+    );
+
+    const providersQuery = providerName ? oneProviderQuery : allProvidersQuery;
+
     const providersQuerySnapshot = await getDocs(providersQuery);
     providersQuerySnapshot.forEach((doc) => {
       const provider = doc.data();
-      console.log(provider.offices);
       provider.offices.forEach((office) => {
         locations.push({
           providerName: provider.providerName,
@@ -174,24 +205,77 @@ export class FIREBASE_API {
     return [];
   }
 
-  async getAllLanguages() {
-    const docRef = doc(this.db, "meta", "data");
-    const docSnap = await getDoc(docRef);
-    if (docSnap.exists()) {
-      const availableLanguages = docSnap.data().availableLanguages;
-      return availableLanguages.filter((language) => language !== "Spanish");
+  async getAllLanguages(providerName = "") {
+    if (providerName === "") {
+      const docRef = doc(this.db, "meta", "data");
+      const docSnap = await getDoc(docRef);
+      if (docSnap.exists()) {
+        const availableLanguages = docSnap.data().availableLanguages;
+        return availableLanguages.filter((language) => language !== "Spanish");
+      }
+      return [];
     }
-    return [];
+    const serviceRef = collection(
+      this.db,
+      "providers",
+      providerName,
+      "services"
+    );
+    const serviceQuery = query(serviceRef, orderBy("languageFIPS"));
+    const serviceQuerySnapshot = await getDocs(serviceQuery);
+    if (serviceQuerySnapshot.empty) {
+      return [];
+    }
+    const languages = new Set();
+    serviceQuerySnapshot.forEach((doc) => {
+      const languageFIPS = doc.data().languageFIPS;
+      Object.keys(languageFIPS).forEach((language) => {
+        languages.add(language);
+      });
+    });
+    return [...languages];
   }
 
-  getServiceMapFIPS(providerID, serviceName) {
-    // not yet implemented in FIREBASE_API
+  async getServiceMapFIPS({ providerID: providerName, serviceName }) {
+    // get the document for the service subcollect via path from provider
+    const serviceRef = doc(
+      this.db,
+      `providers/${providerName}/services/${serviceName}`
+    );
+    const docSnap = await getDoc(serviceRef);
+    if (docSnap.exists()) {
+      const allFIPS = docSnap.get("allFIPS");
+      const limitedFIPS = docSnap.get("limitedFIPS");
+      const languageFIPS = docSnap.get("languageFIPS");
+      const availableFIPS = allFIPS.filter(
+        (fips) => !limitedFIPS.includes(fips)
+      );
+      const languageArray = Object.keys(languageFIPS).map((language) => {
+        return { [language]: languageFIPS[language] };
+      });
+      return {
+        available: availableFIPS,
+        limited: limitedFIPS,
+        languages: languageArray,
+      };
+    }
     return { available: [], limited: [], languages: new Map() };
   }
 
-  getAllFIPS(providerID) {
-    // not yet implemented in FIREBASE_API
-    return [];
+  async getAllFIPS(providerName) {
+    const providerRef = doc(this.db, "providers", providerName);
+    const providerServicesRef = collection(providerRef, "services");
+    const providerServicesQuery = query(providerServicesRef);
+    const providerServicesQuerySnapshot = await getDocs(providerServicesQuery);
+    if (providerServicesQuerySnapshot.empty) {
+      return [];
+    }
+
+    const allFIPS = [];
+    providerServicesQuerySnapshot.forEach((doc) => {
+      allFIPS.push(doc.get("allFIPS"));
+    });
+    return [...new Set(allFIPS.flat())];
   }
 
   searchProviders({ serviceName, locationType, locationID, languageName }) {
