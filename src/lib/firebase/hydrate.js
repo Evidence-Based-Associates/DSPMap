@@ -5,19 +5,39 @@ import {
   doc,
   getDoc,
   setDoc,
+  updateDoc,
 } from "firebase/firestore";
+
+const config = {
+  ENV: "LOCAL",
+};
+
+const devConfig = {
+  apiKey: "AIzaSyC6X571rXek2TC8XCE8jcd6bIgKi5sc0_A",
+  authDomain: "eba-dsp-map-dev.firebaseapp.com",
+  projectId: "eba-dsp-map-dev",
+  storageBucket: "eba-dsp-map-dev.appspot.com",
+  messagingSenderId: "200138947447",
+  appId: "1:200138947447:web:c7b66df19e77ec8f237f72",
+  measurementId: "G-SNEMBJE4DT",
+};
 
 const emulatorConfig = {
   projectId: "demo-dsp-map",
 };
 
-const app = initializeApp(emulatorConfig);
+const isLocal = config.ENV === "LOCAL";
+const firebaseConfig = isLocal ? emulatorConfig : devConfig;
+
+const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-connectFirestoreEmulator(db, "127.0.0.1", 8080);
+if (isLocal) {
+  connectFirestoreEmulator(db, "127.0.0.1", 8080);
+}
 
-const docRef = doc(db, "demo", "hello");
-await setDoc(docRef, { value: "from firebase emulator" });
+const docRef = doc(db, "meta", "healthCheck");
+await setDoc(docRef, { value: "data from firebase emulator" });
 
 /**
  * @type {import("./types").Provider}
@@ -93,5 +113,20 @@ for (const service of exampleProviderServices) {
   const serviceRef = doc(providerRef, "services", service.serviceName);
   await setDoc(serviceRef, service);
 }
+
+// write some service service names
+const metaDataRef = doc(db, "meta", "data");
+await setDoc(metaDataRef, {});
+const availableServices = [
+  "Counseling",
+  "Mentoring",
+  "Therapy",
+  "Functional Family Therapy",
+];
+await updateDoc(metaDataRef, { availableServices });
+
+// write some languages
+const availableLanguages = ["Spanish", "English", "French"];
+await updateDoc(metaDataRef, { availableLanguages });
 
 console.log("done");
