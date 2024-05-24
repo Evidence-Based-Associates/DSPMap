@@ -5,10 +5,6 @@ import {
   providers,
 } from "./api.js";
 import { regionCSUs, sortedCSUs, allFips, CSUStructure } from "./lib/csu.js";
-import { setMapCSURegions, setMapLocations } from "./lib/simplemaps/utils.js";
-
-setMapCSURegions();
-setMapLocations();
 
 const lastUpdatedSpan = document.getElementById("lastUpdated");
 lastUpdatedSpan.innerText = lastUpdated;
