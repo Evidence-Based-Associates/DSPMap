@@ -109,6 +109,7 @@ export const setMapLocations = (locations) => {
       opacity: "default",
     };
   });
+  simplemaps_statemap.refresh();
 };
 
 export const setRegionByCSU = (csu) => {
