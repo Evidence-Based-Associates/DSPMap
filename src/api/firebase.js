@@ -5,6 +5,7 @@ import {
   doc,
   getDoc,
 } from "firebase/firestore";
+import { config } from "../../config";
 
 const devConfig = {
   apiKey: "AIzaSyC6X571rXek2TC8XCE8jcd6bIgKi5sc0_A",
@@ -16,12 +17,21 @@ const devConfig = {
   measurementId: "G-SNEMBJE4DT",
 };
 
+const emulatorConfig = {
+  projectId: "demo-dsp-map",
+};
+
 export class FIREBASE_API {
   constructor() {
     this.name = "FIREBASE_API";
 
-    this.app = initializeApp(devConfig);
+    const firebaseConfig = config.ENV === "LOCAL" ? emulatorConfig : devConfig;
+    this.app = initializeApp(firebaseConfig);
     this.db = getFirestore(this.app);
+
+    if (config.ENV === "LOCAL") {
+      connectFirestoreEmulator(this.db, "127.0.0.1", 8080);
+    }
   }
 
   async test() {
