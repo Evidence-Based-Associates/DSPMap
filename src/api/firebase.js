@@ -4,6 +4,11 @@ import {
   connectFirestoreEmulator,
   doc,
   getDoc,
+  collectionGroup,
+  query,
+  getDocs,
+  orderBy,
+  limit,
 } from "firebase/firestore";
 import { config } from "../../config";
 
@@ -47,8 +52,21 @@ export class FIREBASE_API {
     }
   }
 
-  getLastUpdated() {
-    return "not yet implemented in FIREBASE_API";
+  async getLastUpdated() {
+    let lastUpdatedYYYYMMDD = "Unable to determine.";
+    const locationsGroup = collectionGroup(this.db, "services");
+    const locationQuery = query(
+      locationsGroup,
+      orderBy("lastUpdated", "desc"),
+      limit(1)
+    );
+    const locationQuerySnapshot = await getDocs(locationQuery);
+
+    locationQuerySnapshot.forEach((doc) => {
+      lastUpdatedYYYYMMDD = doc.data().lastUpdated;
+    });
+    // convert to locale string
+    return new Date(lastUpdatedYYYYMMDD).toLocaleDateString();
   }
 
   getAllProviders() {

@@ -85,12 +85,12 @@ const exampleProviderServices = [
 ];
 
 // write exampleProvider to Providers collection
-const providerRef = doc(db, "Providers", exampleProvider.providerName);
+const providerRef = doc(db, "providers", exampleProvider.providerName);
 await setDoc(providerRef, exampleProvider);
 
 // write exampleProviderServices to Services subcollection of the Provider
 for (const service of exampleProviderServices) {
-  const serviceRef = doc(providerRef, "Services", service.serviceName);
+  const serviceRef = doc(providerRef, "services", service.serviceName);
   await setDoc(serviceRef, service);
 }
 

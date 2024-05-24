@@ -5,7 +5,7 @@ import { setMapCSURegions, setMapLocations } from "./lib/simplemaps/utils.js";
 setMapCSURegions();
 setMapLocations();
 
-export const lastUpdated = API.getLastUpdated();
+export const lastUpdated = await API.getLastUpdated();
 export const availableServices = API.getAllServiceNames();
 export const availableLanguages = API.getAllLanguages();
 export const providers = API.getAllProviders();
