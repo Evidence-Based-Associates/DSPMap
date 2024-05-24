@@ -126,7 +126,7 @@ const availableServices = [
 await updateDoc(metaDataRef, { availableServices });
 
 // write some languages
-const availableLanguages = ["Spanish", "English", "French"];
+const availableLanguages = ["Spanish", "French"];
 await updateDoc(metaDataRef, { availableLanguages });
 
 console.log("done");

@@ -7,7 +7,7 @@ setMapCSURegions();
 export const lastUpdated = await API.getLastUpdated();
 export const availableServices = await API.getAllServiceNames();
 export const availableLanguages = await API.getAllLanguages();
-export const providers = API.getAllProviders();
+export const providers = await API.getAllProviders();
 
 const locations = await API.getAllLocations();
 setMapLocations(locations);

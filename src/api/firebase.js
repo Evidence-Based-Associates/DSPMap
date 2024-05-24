@@ -69,9 +69,23 @@ export class FIREBASE_API {
     return new Date(lastUpdatedYYYYMMDD).toLocaleDateString();
   }
 
-  getAllProviders() {
-    // not yet implemented in FIREBASE_API
-    return [];
+  async getAllProviders() {
+    const providers = [];
+    const providersRef = collection(this.db, "providers");
+    const providersQuery = query(providersRef);
+    const providersQuerySnapshot = await getDocs(providersQuery);
+    if (providersQuerySnapshot.empty) {
+      return [];
+    }
+    providersQuerySnapshot.forEach((doc) => {
+      const providerInfo = doc.data();
+      providers.push({
+        id: providerInfo.providerName,
+        name: providerInfo.providerName,
+        ...doc.data(),
+      });
+    });
+    return providers;
   }
 
   getAllProvidersByCSU(csu) {
@@ -164,7 +178,8 @@ export class FIREBASE_API {
     const docRef = doc(this.db, "meta", "data");
     const docSnap = await getDoc(docRef);
     if (docSnap.exists()) {
-      return docSnap.data().availableLanguages;
+      const availableLanguages = docSnap.data().availableLanguages;
+      return availableLanguages.filter((language) => language !== "Spanish");
     }
     return [];
   }
