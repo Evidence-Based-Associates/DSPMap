@@ -300,7 +300,7 @@ export class FIREBASE_API {
     return [...languages];
   }
 
-  async getServiceMapFIPS({ providerID: providerName, serviceName }) {
+  async getServiceMapFIPS({ providerID: providerName = "", serviceName = "" }) {
     // get the document for the service subcollect via path from provider
     const serviceRef = doc(
       this.db,

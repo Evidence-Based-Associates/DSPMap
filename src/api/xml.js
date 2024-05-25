@@ -403,7 +403,7 @@ export class XML_API {
    * @param {string} params.serviceName
    * @returns
    */
-  getServiceMapFIPS({ providerID, serviceName }) {
+  getServiceMapFIPS({ providerID = "", serviceName = "" }) {
     let serviceElements;
 
     if (providerID) {
