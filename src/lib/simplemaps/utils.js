@@ -188,6 +188,11 @@ export const colorFIPS = (fipsList, color) => {
     localities[fips].color = color;
     localities[fips].hover_color = color;
   });
+  // @ts-ignore
+  if (typeof simplemaps_statemap.refresh === "function") {
+    // @ts-ignore
+    simplemaps_statemap.refresh();
+  }
 };
 
 const languagesArrayExample = [

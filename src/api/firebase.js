@@ -222,9 +222,24 @@ export class FIREBASE_API {
     return [];
   }
 
-  getAllProvidersOfService(serviceName) {
-    // not yet implemented in FIREBASE_API
-    return [];
+  async getAllProvidersOfService(serviceName) {
+    // query for all providers with service
+    const services = collectionGroup(this.db, "services");
+    const servicesQuery = query(
+      services,
+      where("serviceName", "==", serviceName)
+    );
+    const servicesQuerySnapshot = await getDocs(servicesQuery);
+    if (servicesQuerySnapshot.empty) {
+      return new Map();
+    }
+
+    const providerMap = new Map();
+    servicesQuerySnapshot.forEach((doc) => {
+      const providerName = doc.get("providerName");
+      providerMap.set(providerName, providerName);
+    });
+    return providerMap;
   }
 
   async getAllLocations(providerName = "") {
@@ -264,7 +279,7 @@ export class FIREBASE_API {
     const docRef = doc(this.db, "meta", "data");
     const docSnap = await getDoc(docRef);
     if (docSnap.exists()) {
-      return docSnap.data().availableServices;
+      return docSnap.get("availableServices").sort();
     }
     return [];
   }
@@ -301,26 +316,64 @@ export class FIREBASE_API {
   }
 
   async getServiceMapFIPS({ providerID: providerName = "", serviceName = "" }) {
-    // get the document for the service subcollect via path from provider
-    const serviceRef = doc(
-      this.db,
-      `providers/${providerName}/services/${serviceName}`
-    );
-    const docSnap = await getDoc(serviceRef);
-    if (docSnap.exists()) {
-      const allFIPS = docSnap.get("allFIPS");
-      const limitedFIPS = docSnap.get("limitedFIPS");
-      const languageFIPS = docSnap.get("languageFIPS");
-      const availableFIPS = allFIPS.filter(
-        (fips) => !limitedFIPS.includes(fips)
+    if (providerName) {
+      const serviceRef = doc(
+        this.db,
+        `providers/${providerName}/services/${serviceName}`
       );
-      const languageArray = Object.keys(languageFIPS).map((language) => {
-        return { [language]: languageFIPS[language] };
+      const docSnap = await getDoc(serviceRef);
+      if (docSnap.exists()) {
+        const allFIPS = docSnap.get("allFIPS");
+        const limitedFIPS = docSnap.get("limitedFIPS");
+        const languageFIPS = docSnap.get("languageFIPS");
+        const availableFIPS = allFIPS.filter(
+          (fips) => !limitedFIPS.includes(fips)
+        );
+        const languageArray = Object.keys(languageFIPS).map((language) => {
+          return { [language]: languageFIPS[language] };
+        });
+        return {
+          available: availableFIPS,
+          limited: limitedFIPS,
+          languages: languageArray,
+        };
+      }
+    } else if (serviceName) {
+      const services = collectionGroup(this.db, "services");
+      const servicesQuery = query(
+        services,
+        where("serviceName", "==", serviceName)
+      );
+      const servicesQuerySnapshot = await getDocs(servicesQuery);
+      if (servicesQuerySnapshot.empty) {
+        return { available: [], limited: [], languages: new Map() };
+      }
+
+      const allFIPS = [];
+      const limitedFIPS = [];
+      const languageFIPS = new Map();
+      servicesQuerySnapshot.forEach((doc) => {
+        allFIPS.push(doc.get("allFIPS"));
+        limitedFIPS.push(doc.get("limitedFIPS"));
+        const languageFIPSObj = doc.get("languageFIPS");
+        Object.keys(languageFIPSObj).forEach((language) => {
+          if (languageFIPS.has(language)) {
+            languageFIPS.set(
+              language,
+              languageFIPS.get(language).concat(languageFIPSObj[language])
+            );
+          } else {
+            languageFIPS.set(language, languageFIPSObj[language]);
+          }
+        });
       });
+      const availableFIPS = allFIPS
+        .flat()
+        .filter((fips) => !limitedFIPS.flat().includes(fips));
       return {
         available: availableFIPS,
-        limited: limitedFIPS,
-        languages: languageArray,
+        limited: limitedFIPS.flat(),
+        languages: languageFIPS,
       };
     }
     return { available: [], limited: [], languages: new Map() };
