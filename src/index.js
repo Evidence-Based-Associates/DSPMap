@@ -49,10 +49,11 @@ for (let i = 0; i < allFips.length; i++) {
 }
 
 for (let i = 0; i < availableLanguages.length; i++) {
-  if (availableLanguages[i] != "") {
+  const language = availableLanguages[i];
+  if (language != "" && language != "Spanish") {
     const option = document.createElement("option");
-    option.value = availableLanguages[i];
-    option.text = availableLanguages[i];
+    option.value = language;
+    option.text = language;
     document.getElementsByName("Language")[0].appendChild(option);
   }
 }

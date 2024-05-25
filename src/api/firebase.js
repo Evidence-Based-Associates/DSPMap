@@ -217,9 +217,25 @@ export class FIREBASE_API {
     );
   }
 
-  getAllProvidersOfLanguage(languageName) {
-    // not yet implemented in FIREBASE_API
-    return [];
+  async getAllProvidersOfLanguage(languageName) {
+    // query services subcollection where a languageFIPS key exists for languageName
+    const services = collectionGroup(this.db, "services");
+    const servicesQuery = query(
+      services,
+      orderBy(`languageFIPS.${languageName}`)
+    );
+    const servicesQuerySnapshot = await getDocs(servicesQuery);
+    if (servicesQuerySnapshot.empty) {
+      return new Map();
+    }
+
+    const providerMap = new Map();
+    servicesQuerySnapshot.forEach((doc) => {
+      const providerName = doc.get("providerName");
+      providerMap.set(providerName, providerName);
+    });
+
+    return providerMap;
   }
 
   async getAllProvidersOfService(serviceName) {
@@ -289,8 +305,7 @@ export class FIREBASE_API {
       const docRef = doc(this.db, "meta", "data");
       const docSnap = await getDoc(docRef);
       if (docSnap.exists()) {
-        const availableLanguages = docSnap.data().availableLanguages;
-        return availableLanguages.filter((language) => language !== "Spanish");
+        return docSnap.data().availableLanguages;
       }
       return [];
     }
