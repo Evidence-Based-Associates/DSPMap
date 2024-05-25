@@ -12,5 +12,3 @@ export const providers = await API.getAllProvidersOfService(serviceName);
 export const serviceFIPS = await API.getServiceMapFIPS({
   serviceName,
 });
-
-console.log(serviceFIPS);
