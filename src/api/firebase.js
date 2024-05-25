@@ -13,6 +13,7 @@ import {
   where,
 } from "firebase/firestore";
 import { config } from "../../config";
+import { sortedCSUs } from "../lib/csu";
 
 const devConfig = {
   apiKey: "AIzaSyC6X571rXek2TC8XCE8jcd6bIgKi5sc0_A",
@@ -89,9 +90,27 @@ export class FIREBASE_API {
     return providers;
   }
 
-  getAllProvidersByCSU(csu) {
-    // not yet implemented in FIREBASE_API
-    return new Map();
+  async getAllProvidersByCSU(csu) {
+    const services = collectionGroup(this.db, "services");
+    const servicesQuery = query(
+      services,
+      where("allFIPS", "array-contains-any", csu.localities)
+    );
+    const servicesQuerySnapshot = await getDocs(servicesQuery);
+    if (servicesQuerySnapshot.empty) {
+      return new Map();
+    }
+
+    const providerList = new Map();
+    servicesQuerySnapshot.forEach((doc) => {
+      const providerName = doc.get("providerName");
+      providerList.set(providerName, providerName);
+    });
+    // return providerList;
+    // return sorted map of providers
+    return new Map(
+      [...providerList.entries()].sort((a, b) => a[1].localeCompare(b[1]))
+    );
   }
 
   getAllProvidersByFIPS(fips) {
@@ -138,19 +157,64 @@ export class FIREBASE_API {
     return [];
   }
 
-  getAllServiceNamesByCSU(csu) {
-    // not yet implemented in FIREBASE_API
-    return [];
+  async getAllServiceNamesByCSU(csu) {
+    const services = collectionGroup(this.db, "services");
+    const servicesQuery = query(
+      services,
+      where("allFIPS", "array-contains-any", csu.localities)
+    );
+    const servicesQuerySnapshot = await getDocs(servicesQuery);
+    if (servicesQuerySnapshot.empty) {
+      return [];
+    }
+
+    const serviceList = new Set();
+    servicesQuerySnapshot.forEach((doc) => {
+      const serviceName = doc.get("serviceName");
+      serviceList.add(serviceName);
+    });
+    return [...serviceList].sort();
   }
 
-  getAllServicesByProviderInCSU(providerId, csu) {
-    // not yet implemented in FIREBASE_API
-    return [];
+  async getAllServicesByProviderInCSU(providerId, csu) {
+    const providerRef = doc(this.db, "providers", providerId);
+    const providerServicesRef = collection(providerRef, "services");
+    const providerServicesQuery = query(
+      providerServicesRef,
+      where("allFIPS", "array-contains-any", csu.localities)
+    );
+    const providerServicesQuerySnapshot = await getDocs(providerServicesQuery);
+    if (providerServicesQuerySnapshot.empty) {
+      return [];
+    }
+
+    const serviceList = new Set();
+    providerServicesQuerySnapshot.forEach((doc) => {
+      serviceList.add(doc.get("serviceName"));
+    });
+    return [...serviceList].sort();
   }
 
-  getAllProvidersOfServiceInCSU(serviceName, csu) {
-    // not yet implemented in FIREBASE_API
-    return [];
+  async getAllProvidersOfServiceInCSU(serviceName, csu) {
+    const services = collectionGroup(this.db, "services");
+    const servicesQuery = query(
+      services,
+      where("serviceName", "==", serviceName),
+      where("allFIPS", "array-contains-any", csu.localities)
+    );
+    const servicesQuerySnapshot = await getDocs(servicesQuery);
+    if (servicesQuerySnapshot.empty) {
+      return new Map();
+    }
+
+    const providerList = new Map();
+    servicesQuerySnapshot.forEach((doc) => {
+      const providerName = doc.get("providerName");
+      providerList.set(providerName, providerName);
+    });
+    return new Map(
+      [...providerList.entries()].sort((a, b) => a[1].localeCompare(b[1]))
+    );
   }
 
   getAllProvidersOfLanguage(languageName) {
