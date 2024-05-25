@@ -13,7 +13,7 @@ import {
   where,
 } from "firebase/firestore";
 import { config } from "../../config";
-import { sortedCSUs } from "../lib/csu";
+import { allFIPSinRegion, regionCSUs, sortedCSUs } from "../lib/csu";
 
 const devConfig = {
   apiKey: "AIzaSyC6X571rXek2TC8XCE8jcd6bIgKi5sc0_A",
@@ -410,8 +410,51 @@ export class FIREBASE_API {
     return [...new Set(allFIPS.flat())];
   }
 
-  searchProviders({ serviceName, locationType, locationID, languageName }) {
-    // not yet implemented in FIREBASE_API
-    return new Map();
+  async searchProviders({
+    serviceName = "",
+    locationType = "",
+    locationID = "",
+    languageName = "",
+  }) {
+    const services = collectionGroup(this.db, "services");
+    const queries = [];
+    if (serviceName && serviceName !== "any") {
+      queries.push(where("serviceName", "==", serviceName));
+    }
+    if (languageName && languageName !== "English") {
+      queries.push(orderBy(`languageFIPS.${languageName}`));
+    }
+    switch (locationType) {
+      case "CSU":
+        queries.push(
+          where(
+            "allFIPS",
+            "array-contains-any",
+            sortedCSUs.find((csu) => csu.slug === locationID)?.localities
+          )
+        );
+        break;
+      case "Locality":
+        queries.push(where("allFIPS", "array-contains", locationID));
+        break;
+      case "Region":
+        const regionFIPS = allFIPSinRegion(locationID);
+        queries.push(where("allFIPS", "array-contains-any", regionFIPS));
+        break;
+      default:
+        break;
+    }
+    const servicesQuery = query(services, ...queries);
+    const servicesQuerySnapshot = await getDocs(servicesQuery);
+    if (servicesQuerySnapshot.empty) {
+      return new Map();
+    }
+
+    const providerMap = new Map();
+    servicesQuerySnapshot.forEach((doc) => {
+      const providerName = doc.get("providerName");
+      providerMap.set(providerName, providerName);
+    });
+    return providerMap;
   }
 }

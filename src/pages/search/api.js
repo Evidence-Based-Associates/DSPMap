@@ -72,5 +72,3 @@ export const providerSearchResults = await API.searchProviders({
   locationID,
   languageName,
 });
-
-console.log(providerSearchResults);
