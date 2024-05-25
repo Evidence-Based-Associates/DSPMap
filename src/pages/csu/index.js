@@ -14,7 +14,9 @@ if (csuNameSpan) {
 const providerList = document.getElementById("providerList");
 CSUProviders.forEach(async (provider, key) => {
   const providerServices = await providerServiceList(key, thisCSU);
-  const list = headingList(provider, providerServices);
+
+  const providerLinkHTML = `<a href="../provider/index.html?id=${key}">${provider}</a>`;
+  const list = headingList(providerLinkHTML, providerServices);
   providerList?.appendChild(list);
 });
 
@@ -25,11 +27,11 @@ CSUServices.forEach(async (service) => {
   serviceList?.appendChild(list);
 });
 
-const headingList = (headingText, listItems) => {
+const headingList = (headingContent, listItems) => {
   const container = document.createElement("div");
   const heading = document.createElement("h3");
   heading.classList.add("ebaBlue");
-  heading.innerText = headingText;
+  heading.innerHTML = headingContent;
   const list = document.createElement("ul");
   listItems.forEach((item) => {
     const li = document.createElement("li");
