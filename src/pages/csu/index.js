@@ -5,13 +5,11 @@ import {
   providerServiceList,
   serviceProvidersList,
 } from "./api.js";
-import { setRegionByCSU } from "../../lib/simplemaps/utils.js";
-
-setRegionByCSU(thisCSU);
 
 const csuNameSpan = document.getElementById("csuName");
 csuNameSpan.innerHTML = thisCSU.name;
 
+// TODO: Investigate styling for ebablue list items
 const providerList = document.getElementById("providerList");
 CSUProviders.forEach(async (provider, key) => {
   const providerLI = document.createElement("li");
@@ -39,8 +37,6 @@ CSUServices.forEach(async (service) => {
   serviceList.appendChild(serviceLI);
   const serviceProviders = await serviceProvidersList(service, thisCSU);
 
-  console.log("service:", service);
-  console.log("serviceProviders:", serviceProviders);
   const serviceProvidersUL = document.createElement("ul");
   serviceProvidersUL.id = `${service}-providers`;
   serviceProviders.forEach((provider, key) => {
