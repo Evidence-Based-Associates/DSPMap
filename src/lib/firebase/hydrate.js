@@ -103,13 +103,76 @@ const exampleProviderServices = [
   },
 ];
 
+/**
+ * @type {import("./types").Provider}
+ */
+const exampleProvider2 = {
+  providerName: "XYZ Counseling",
+  lastUpdated: "2024-05-25",
+  website: "xyzcounseling.com",
+  contactName: "Bob Smith",
+  contactEmail: "bob@xyz.com",
+  defaultMapZoom: 0,
+  offices: [
+    {
+      providerName: "XYZ Counseling",
+      street: "123 Main St",
+      city: "Winchester",
+      state: "VA",
+      zip: "99999",
+      phone: "540-555-5555",
+      lat: 39.1249685,
+      lng: -78.1572795,
+    },
+    {
+      providerName: "XYZ Counseling",
+      street: "123 Main St",
+      city: "Front Royal",
+      state: "VA",
+      zip: "99999",
+      phone: "540-555-1234",
+      lat: 38.918929,
+      lng: -78.1954975,
+    },
+  ],
+};
+
+/**
+ * @type {import("./types").Service[]}
+ */
+const exampleProviderServices2 = [
+  {
+    providerName: "XYZ Counseling",
+    serviceName: "Counseling",
+    lastUpdatedBy: "joelnwalkley@gmail.com",
+    mapZoom: 0,
+    telehealth: true,
+    allFIPS: ["51139", "51187"],
+    limitedFIPS: ["51187"],
+    languageFIPS: {
+      Spanish: ["51187"],
+    },
+  },
+];
+
+const allProviders = [exampleProvider, exampleProvider2];
+const allServices = [...exampleProviderServices, ...exampleProviderServices2];
+
 // write exampleProvider to Providers collection
-const providerRef = doc(db, "providers", exampleProvider.providerName);
-await setDoc(providerRef, exampleProvider);
+for (const provider of allProviders) {
+  const providerRef = doc(db, "providers", provider.providerName);
+  await setDoc(providerRef, provider);
+}
 
 // write exampleProviderServices to Services subcollection of the Provider
-for (const service of exampleProviderServices) {
-  const serviceRef = doc(providerRef, "services", service.serviceName);
+for (const service of allServices) {
+  const serviceRef = doc(
+    db,
+    "providers",
+    service.providerName,
+    "services",
+    service.serviceName
+  );
   await setDoc(serviceRef, service);
 }
 
