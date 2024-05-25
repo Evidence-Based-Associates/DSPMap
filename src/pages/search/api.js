@@ -7,6 +7,9 @@ export const searchValues = urlParams.values();
 const [serviceName, locationID, languageName] = searchValues;
 export const languageText = languageName;
 
+export const availableServices = await API.getAllServiceNames();
+export const availableLanguages = await API.getAllLanguages();
+
 export let serviceText = "";
 if (serviceName == "any") {
   serviceText = "Any Service";
@@ -63,9 +66,11 @@ if (locationID.includes("CSU")) {
   locationType = "Region";
 }
 
-export const providerSearchResults = API.searchProviders({
+export const providerSearchResults = await API.searchProviders({
   serviceName,
   locationType,
   locationID,
   languageName,
 });
+
+console.log(providerSearchResults);
