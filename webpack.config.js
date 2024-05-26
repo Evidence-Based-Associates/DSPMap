@@ -7,6 +7,7 @@ const pageNames = [
   "provider",
   "search",
   "service",
+  "admin/provider",
 ];
 
 const entries = pageNames.reduce((entryObj, pageName) => {
