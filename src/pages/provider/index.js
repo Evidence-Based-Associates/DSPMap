@@ -11,12 +11,9 @@ import colors from "../../lib/colors.js";
 import { removeDuplicates } from "../../lib/utils.js";
 import { CSUStructure, csuListFromFIPS } from "../../lib/csu.js";
 import {
-  setMapCSURegions,
-  setAllDefaultColor,
-  setMapLocations,
-  zoomToRegion,
   colorFIPS,
   addLanguageDescriptions,
+  setAllDefaultColor,
 } from "../../lib/simplemaps/utils.js";
 
 const { RegColor, TravelColor } = colors;
@@ -30,13 +27,7 @@ const {
   mapZoom,
 } = providerInfo;
 
-const lastUpdatedDateParts = lastUpdated.split("-");
-const lastUpdatedText = `${lastUpdatedDateParts[1]}/${lastUpdatedDateParts[2]}/${lastUpdatedDateParts[0]}`;
-
-setMapCSURegions();
-setAllDefaultColor();
-setMapLocations(providerID);
-zoomToRegion(mapZoom);
+const lastUpdatedText = lastUpdated;
 
 const providerNameSpan = document.getElementsByName("providerName");
 providerNameSpan.forEach((span) => (span.innerText = providerName));
@@ -68,11 +59,12 @@ serviceNames.forEach((serviceName) => {
   serviceSelect.appendChild(serviceOption);
 });
 
-const displayService = () => {
+const displayService = async () => {
   const selectedServiceName =
     // @ts-ignore
     serviceSelect.options[serviceSelect.selectedIndex].text;
-  const fipsLists = serviceFIPS(selectedServiceName);
+  const fipsLists = await serviceFIPS(selectedServiceName);
+  setAllDefaultColor();
   colorFIPS(fipsLists.available, RegColor);
   colorFIPS(fipsLists.limited, TravelColor);
   addLanguageDescriptions(fipsLists.languages);

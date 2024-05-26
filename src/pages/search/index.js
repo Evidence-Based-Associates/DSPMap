@@ -1,30 +1,45 @@
-import { API } from "../../api/api.js";
 import { allFips, regionCSUs, sortedCSUs } from "../../lib/csu.js";
 import {
   locationText,
   serviceText,
   languageText,
   providerSearchResults,
+  availableServices,
+  availableLanguages,
 } from "./api.js";
 
-document.getElementById("serviceTextSpan").innerText = serviceText;
-document.getElementById("locationTextSpan").innerText = locationText;
-document.getElementById("languageTextSpan").innerText = languageText;
+const serviceSpanText = document.getElementById("serviceTextSpan");
+if (serviceSpanText) {
+  serviceSpanText.innerText = serviceText;
+}
+
+const locationSpanText = document.getElementById("locationTextSpan");
+if (locationSpanText) {
+  locationSpanText.innerText = locationText;
+}
+
+const languageSpanText = document.getElementById("languageTextSpan");
+if (languageSpanText) {
+  languageSpanText.innerText = languageText;
+}
 
 //cycle through all location items
 
 if (providerSearchResults.size == 0) {
   const noResults = document.getElementById("noResults");
-  noResults.hidden = false;
+  if (noResults) {
+    noResults.hidden = false;
+  }
 }
 const searchResultsUL = document.getElementById("searchResults");
-providerSearchResults.forEach((provider, key) => {
-  const providerLI = document.createElement("li");
-  providerLI.innerHTML = `<a href="../provider/index.html?id=${key}">${provider}</a>`;
-  searchResultsUL.appendChild(providerLI);
-});
+if (searchResultsUL) {
+  providerSearchResults.forEach((provider, key) => {
+    const providerLI = document.createElement("li");
+    providerLI.innerHTML = `<a href="../provider/index.html?id=${key}">${provider}</a>`;
+    searchResultsUL.appendChild(providerLI);
+  });
+}
 
-const availableServices = API.getAllServiceNames();
 const serviceSelect = document.getElementsByName("Service")[0];
 availableServices.forEach((service) => {
   const option = document.createElement("option");
@@ -65,12 +80,12 @@ for (let i = 0; i < allFips.length; i++) {
   whereSelect.appendChild(option);
 }
 
-const availableLanguages = API.getAllLanguages();
 for (let i = 0; i < availableLanguages.length; i++) {
-  if (availableLanguages[i] != "") {
+  const language = availableLanguages[i];
+  if (language != "" && language != "Spanish") {
     const option = document.createElement("option");
-    option.value = availableLanguages[i];
-    option.text = availableLanguages[i];
+    option.value = language;
+    option.text = language;
     document.getElementsByName("Language")[0].appendChild(option);
   }
 }

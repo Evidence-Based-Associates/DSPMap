@@ -70,6 +70,15 @@ const localityPagePath = () => {
   }
 };
 
+const pagePath = (pageName) => {
+  const path = window.location.pathname;
+  if (window.location.pathname.includes("pages")) {
+    return `../${pageName}/index.html`;
+  } else {
+    return `./pages/${pageName}/index.html`;
+  }
+};
+
 export const setMapCSURegions = () => {
   // @ts-ignore (global variable)
   simplemaps_statemap_mapdata.regions = regions;
@@ -83,10 +92,8 @@ export const setMapCSURegions = () => {
   }
 };
 
-export const setMapLocations = (providerID) => {
-  const locations = API.getAllLocations(providerID);
-
-  var officeURL = "pages/provider/index.html?id=";
+export const setMapLocations = (locations) => {
+  var officeURL = pagePath("provider") + "?id="; //"pages/provider/index.html?id=";
   locations.forEach((location, index) => {
     // @ts-ignore (global variable)
     simplemaps_statemap_mapdata.locations[index] = {
@@ -111,6 +118,11 @@ export const setMapLocations = (providerID) => {
       opacity: "default",
     };
   });
+  // @ts-ignore
+  if (typeof simplemaps_statemap.refresh === "function") {
+    // @ts-ignore
+    simplemaps_statemap.refresh();
+  }
 };
 
 export const setRegionByCSU = (csu) => {
@@ -162,6 +174,8 @@ export const zoomToFIPS = (fipsID) => {
 export const zoomToRegion = (regionID) => {
   // @ts-ignore
   simplemaps_statemap_mapdata.main_settings.initial_zoom = regionID;
+  // @ts-ignore
+  // simplemaps_statemap.refresh();
 };
 
 export const colorFIPS = (fipsList, color) => {
@@ -174,6 +188,11 @@ export const colorFIPS = (fipsList, color) => {
     localities[fips].color = color;
     localities[fips].hover_color = color;
   });
+  // @ts-ignore
+  if (typeof simplemaps_statemap.refresh === "function") {
+    // @ts-ignore
+    simplemaps_statemap.refresh();
+  }
 };
 
 const languagesArrayExample = [
@@ -182,6 +201,9 @@ const languagesArrayExample = [
 ];
 
 export const addLanguageDescriptions = (languagesArray) => {
+  if (!languagesArray) {
+    return;
+  }
   const fipsMap = new Map();
   languagesArray.forEach((langObj) => {
     Object.keys(langObj).forEach((lang) => {

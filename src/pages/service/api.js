@@ -3,8 +3,12 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 export const serviceID = urlParams.get("id");
 
-export const serviceName = API.getAllServiceNames()[serviceID];
-export const providers = API.getAllProvidersOfService(serviceName);
-export const serviceFIPS = API.getServiceMapFIPS({
+const allServiceNames = await API.getAllServiceNames();
+
+export const serviceName = serviceID
+  ? await allServiceNames[serviceID]
+  : "None";
+export const providers = await API.getAllProvidersOfService(serviceName);
+export const serviceFIPS = await API.getServiceMapFIPS({
   serviceName,
 });

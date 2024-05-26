@@ -498,3 +498,12 @@ export const csuListFromFIPS = (fipsList) => {
   });
   return [...csuNames];
 };
+
+export const allFIPSinRegion = (regionSlug) => {
+  const fipsList = [];
+  const region = CSUStructure.find((region) => region.slug === regionSlug);
+  region?.CSUs.forEach((csu) => {
+    fipsList.push(...csu.localities);
+  });
+  return fipsList;
+};
