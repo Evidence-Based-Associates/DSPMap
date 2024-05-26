@@ -76,7 +76,58 @@
             name="contactEmail"
           />
         </div>
-        <button id="submitButton" type="button" class="btn btn-primary">
+        <h3>Main Office:</h3>
+        <div class="form-group">
+          <label for="Street">Street:</label>
+          <input class="form-control" type="text" name="Street" size="50" />
+        </div>
+        <div class="row mt-3">
+          <div class="form-group col-md-6">
+            <label for="City">City:</label>
+            <input class="form-control" type="text" name="City" size="50" />
+          </div>
+          <div class="form-group col-md-4">
+            <label for="State">State:</label>
+            <input
+              class="form-control"
+              type="text"
+              name="State"
+              size="50"
+              value="VA"
+            />
+          </div>
+          <div class="form-group col-md-2">
+            <label for="Zip">Zip:</label>
+            <input class="form-control" type="text" name="Zip" size="50" />
+          </div>
+        </div>
+        <div class="form-group mt-3">
+          <label for="Phone">Phone:</label>
+          <input class="form-control" type="text" name="Phone" size="50" />
+        </div>
+        <div class="row mt-3">
+          <div class="form-group col-md-6">
+            <label for="Lat">Latitude:</label>
+            <input
+              class="form-control"
+              type="text"
+              name="Lat"
+              size="7"
+              disabled
+            />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="Lng">Longitude:</label>
+            <input
+              class="form-control"
+              type="text"
+              name="Lng"
+              size="7"
+              disabled
+            />
+          </div>
+        </div>
+        <button id="submitButton" type="button" class="btn btn-primary mt-3">
           Submit
         </button>
       </form>
