@@ -191,4 +191,7 @@ await updateDoc(metaDataRef, { availableServices });
 const availableLanguages = ["Spanish", "French"];
 await updateDoc(metaDataRef, { availableLanguages });
 
+const apiKeyDocRef = doc(db, "meta", "GOOGLE_API_KEY");
+await setDoc(apiKeyDocRef, { value: "UPDATE IN CONSOLE" });
+
 console.log("done");

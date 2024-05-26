@@ -10,6 +10,6 @@ export const ENV_OPTIONS = {
 };
 
 export const config = {
-  API: API_OPTIONS.XML,
-  ENV: ENV_OPTIONS.PROD,
+  API: API_OPTIONS.FIREBASE,
+  ENV: ENV_OPTIONS.LOCAL,
 };

@@ -548,4 +548,8 @@ export class XML_API {
       return "No data available.";
     }
   }
+
+  getGoogleMapsApiKey() {
+    return "NOT AVAILABLE IN XML";
+  }
 }

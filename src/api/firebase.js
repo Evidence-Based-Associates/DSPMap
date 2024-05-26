@@ -457,4 +457,13 @@ export class FIREBASE_API {
     });
     return providerMap;
   }
+
+  async getGoogleMapsApiKey() {
+    const docRef = doc(this.db, "meta", "GOOGLE_API_KEY");
+    const docSnap = await getDoc(docRef);
+    if (docSnap.exists()) {
+      return docSnap.get("value");
+    }
+    return "No API Key Found.";
+  }
 }
