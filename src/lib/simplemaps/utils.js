@@ -79,16 +79,18 @@ const pagePath = (pageName) => {
   }
 };
 
-export const setMapCSURegions = () => {
+export const setMapCSURegions = (isEditPage = false) => {
   // @ts-ignore (global variable)
   simplemaps_statemap_mapdata.regions = regions;
 
-  // @ts-ignore (global variable)
-  const localities = simplemaps_statemap_mapdata.state_specific;
-  for (let locality in localities) {
-    localities[locality].color = regionColor(locality);
-    const path = localityPagePath();
-    localities[locality].url = `${path}?id=${locality}`;
+  if (!isEditPage) {
+    // @ts-ignore (global variable)
+    const localities = simplemaps_statemap_mapdata.state_specific;
+    for (let locality in localities) {
+      localities[locality].color = regionColor(locality);
+      const path = localityPagePath();
+      localities[locality].url = `${path}?id=${locality}`;
+    }
   }
 };
 
