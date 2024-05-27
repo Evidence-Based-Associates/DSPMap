@@ -5,6 +5,7 @@ import {
   allAvailableServiceNames,
 } from "./api";
 import { CSUStructure } from "../../../lib/csu";
+import { doc } from "firebase/firestore";
 
 const headerTextSpan = document.getElementById("headerText");
 if (headerTextSpan) {
@@ -20,6 +21,27 @@ if (allServicesSelect) {
     allServicesSelect.appendChild(option);
   });
 }
+const selectedServices = document.getElementById("selectedServices");
+allServicesSelect?.addEventListener("change", () => {
+  if (!selectedServices) {
+    return;
+  }
+
+  selectedServices.innerHTML = "";
+
+  // @ts-ignore
+  const options = allServicesSelect.options;
+  for (let i = 0; i < options.length; i++) {
+    const targetOption = options[i];
+    if (targetOption.selected) {
+      const selectedOption = document.createElement("option");
+      selectedOption.value = targetOption.value;
+      selectedOption.text = targetOption.text;
+      selectedServices.appendChild(selectedOption);
+    }
+  }
+  selectedServices.removeAttribute("disabled");
+});
 
 const defaultMapZoomSelect = document.getElementById("defaultMapZoom");
 if (defaultMapZoomSelect) {
