@@ -9,3 +9,4 @@ export const headerText = isNew
   : `Updating ${updateProviderName}`;
 
 export const GOOGLE_API_KEY = await API.getGoogleMapsApiKey();
+export const allAvailableServiceNames = await API.getAllServiceNames();

@@ -1,9 +1,24 @@
-import { isNew, headerText, GOOGLE_API_KEY } from "./api";
+import {
+  isNew,
+  headerText,
+  GOOGLE_API_KEY,
+  allAvailableServiceNames,
+} from "./api";
 import { CSUStructure } from "../../../lib/csu";
 
 const headerTextSpan = document.getElementById("headerText");
 if (headerTextSpan) {
   headerTextSpan.innerHTML = headerText;
+}
+
+const allServicesSelect = document.getElementById("allServicesSelect");
+if (allServicesSelect) {
+  allAvailableServiceNames.forEach((serviceName) => {
+    const option = document.createElement("option");
+    option.value = serviceName;
+    option.text = serviceName;
+    allServicesSelect.appendChild(option);
+  });
 }
 
 const defaultMapZoomSelect = document.getElementById("defaultMapZoom");
