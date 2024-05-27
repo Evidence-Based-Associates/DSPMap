@@ -41,6 +41,10 @@ allServicesSelect?.addEventListener("change", () => {
     }
   }
   selectedServices.removeAttribute("disabled");
+  const coveragemap = document.getElementById("coveragemap");
+  if (coveragemap) {
+    coveragemap.removeAttribute("hidden");
+  }
 });
 
 const defaultMapZoomSelect = document.getElementById("defaultMapZoom");
