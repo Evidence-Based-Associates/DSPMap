@@ -86,9 +86,16 @@ const handleAddressChange = async (index) => {
 
 const createOfficeInput = (id) => {
   const office = document.createElement("div");
-  office.classList.add("office");
+  office.id = `office${id}`;
   office.innerHTML = `
   <h3 class="mt-3"><span id="officeHeading${id}">Additional Office ${id}:</span></h3>
+  <button
+          id="removeOfficeButton${id}"
+          type="button"
+          class="btn btn-outline-danger mt-3"
+        >
+          Remove Office ${id}
+        </button>
   <div class="form-group">
     <label for="street${id}">Street:</label>
     <input
@@ -167,6 +174,10 @@ const createOfficeInput = (id) => {
     </div>
   </div>
     `;
+  const removeOfficeButton = office.querySelector(`#removeOfficeButton${id}`);
+  removeOfficeButton?.addEventListener("click", () => {
+    handleRemoveOffice(id);
+  });
   return office;
 };
 
@@ -179,4 +190,15 @@ addOfficeButton?.addEventListener("click", () => {
     officeSection.appendChild(newOffice);
     addAddressListeners();
   }
+});
+
+const handleRemoveOffice = (index) => {
+  const office = document.getElementById(`office${index}`);
+  if (office) {
+    office.remove();
+  }
+};
+const removeOfficeButton = document.getElementById("removeOfficeButton");
+removeOfficeButton?.addEventListener("click", () => {
+  handleRemoveOffice(1);
 });
