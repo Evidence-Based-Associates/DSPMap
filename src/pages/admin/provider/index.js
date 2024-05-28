@@ -4,6 +4,7 @@ import {
   GOOGLE_API_KEY,
   allAvailableServiceNames,
 } from "./api";
+import { appState } from "./state";
 import { CSUStructure } from "../../../lib/csu";
 import { doc } from "firebase/firestore";
 
@@ -70,6 +71,7 @@ const showData = async () => {
   for (const [key, value] of formData) {
     console.log(`${key}: ${value}`);
   }
+  console.log("appState", appState);
 };
 
 const submitButton = document.getElementById("submitButton");
