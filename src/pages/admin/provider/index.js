@@ -9,7 +9,6 @@ import { CSUStructure } from "../../../lib/csu";
 
 const headerTextSpan = document.getElementById("headerText");
 const selectedServices = document.getElementById("selectedServices");
-const languageModeSwitch = document.getElementById("languageModeSwitch");
 const allServicesSelect = document.getElementById("allServicesSelect");
 const coveragemap = document.getElementById("coveragemap");
 const defaultMapZoomSelect = document.getElementById("defaultMapZoom");
@@ -23,7 +22,23 @@ const latInput = document.getElementsByName("lat");
 const lngInput = document.getElementsByName("lng");
 const addOfficeButton = document.getElementById("addOfficeButton");
 const officeSection = document.getElementById("officeList");
+
+const languageModeSwitch = document.getElementById("languageModeSwitch");
 const allLanguagesSelect = document.getElementById("allLanguagesSelect");
+const allLanguagesSelectLabel = document.getElementById(
+  "allLanguagesSelectLabel"
+);
+const selectedLanguagesLabel = document.getElementById(
+  "selectedLanguagesLabel"
+);
+const selectedLanguages = document.getElementById("selectedLanguages");
+
+const languageControls = [
+  allLanguagesSelect,
+  allLanguagesSelectLabel,
+  selectedLanguagesLabel,
+  selectedLanguages,
+];
 
 if (headerTextSpan) {
   headerTextSpan.innerHTML = headerText;
@@ -264,3 +279,21 @@ allAvailableLanguages.forEach((language) => {
   option.text = language;
   allLanguagesSelect?.appendChild(option);
 });
+
+const handleLanguageModeSwitch = () => {
+  // @ts-ignore
+  if (languageModeSwitch?.checked) {
+    languageControls.forEach((control) => {
+      if (control) {
+        control.removeAttribute("hidden");
+      }
+    });
+  } else {
+    languageControls.forEach((control) => {
+      if (control) {
+        control.setAttribute("hidden", "true");
+      }
+    });
+  }
+};
+languageModeSwitch?.addEventListener("change", handleLanguageModeSwitch);

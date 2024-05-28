@@ -23,7 +23,7 @@
     </div>
   </nav>
   <div class="container">
-    <h1 class="text-center"><span id="headerText"></span></h1>
+    <h1 class="text-center"><span id="headerText">Title</span></h1>
     <form id="providerForm">
       <section id="basicInfo">
         <h2>Basic Information</h2>
@@ -110,14 +110,16 @@
             </div>
           </div>
           <div class="form-group col-md-6">
-            <label for="allLanguagesSelect" class="form-label">All Available Languages</label>
-            <select class="form-select" id="allLanguagesSelect" multiple size="3" disabled>
+            <label for="allLanguagesSelect" class="form-label" id="allLanguagesSelectLabel" hidden>All Available
+              Languages</label>
+            <select class="form-select" id="allLanguagesSelect" multiple size="3" hidden>
               <option value="Spanish">Spanish</option>
             </select>
           </div>
           <div class="form-group">
-            <label for="selectedLanguages" class="form-label mt-3">Selected Languages</label>
-            <select class="form-select mb-3" id="selectedLanguages" disabled></select>
+            <label for="selectedLanguages" class="form-label mt-3" id="selectedLanguagesLabel" hidden>Selected
+              Languages</label>
+            <select class="form-select mb-3" id="selectedLanguages" hidden></select>
           </div>
         </div>
 
