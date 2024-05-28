@@ -178,13 +178,13 @@ const createOfficeInput = (id) => {
   const office = document.createElement("div");
   office.id = `office${id}`;
   office.innerHTML = `
-  <h3 class="mt-3"><span id="officeHeading${id}">Additional Office ${id}:</span></h3>
+  <h3 class="mt-3"><span id="officeHeading${id}">Additional Office:</span></h3>
   <button
           id="removeOfficeButton${id}"
           type="button"
           class="btn btn-outline-danger mt-3"
         >
-          Remove Office ${id}
+          Remove Office
         </button>
   <div class="form-group">
     <label for="street${id}">Street:</label>
@@ -287,9 +287,9 @@ const handleRemoveOffice = (index) => {
   }
 };
 const removeOfficeButton = document.getElementById("removeOfficeButton");
-removeOfficeButton?.addEventListener("click", () => {
+removeOfficeButton?.addEventListener("click", (id) => {
   //TODO - check that this works
-  handleRemoveOffice(1);
+  handleRemoveOffice(id);
 });
 
 allAvailableLanguages.forEach((language) => {
