@@ -7,11 +7,17 @@ import colors from "../../../../src/lib/colors.js";
 export const providerServices = [];
 
 /**
- * @type {object}
- * @prop {Set[]} availableFIPS
- * @prop {string[]} limitedFIPS
+ * @typedef AppState
+ * @prop {string} selectedService
+ * @prop {Set<string>} availableFIPS
+ * @prop {Set<string>} limitedFIPS
+ */
+
+/**
+ * @type {AppState}
  */
 export let appState = {
+  selectedService: "",
   availableFIPS: new Set(),
   limitedFIPS: new Set(),
 };

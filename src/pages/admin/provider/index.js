@@ -47,6 +47,10 @@ allServicesSelect?.addEventListener("change", () => {
     coveragemap.removeAttribute("hidden");
   }
 });
+selectedServices?.addEventListener("change", () => {
+  console.log("selectedService changed!");
+  // change the availableFIPS and limitedFIPS by service name in state
+});
 
 const defaultMapZoomSelect = document.getElementById("defaultMapZoom");
 if (defaultMapZoomSelect) {
