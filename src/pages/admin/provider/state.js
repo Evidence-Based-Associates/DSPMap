@@ -23,8 +23,6 @@ export const providerServices = [];
  * @prop {string} selectedLanguage
  * @prop {boolean} isLanguageMode
  * @prop {Service[]} providerServices
- * @prop {Set<string>} availableFIPS
- * @prop {Set<string>} limitedFIPS
  */
 
 /**
@@ -35,8 +33,6 @@ export let appState = {
   selectedLanguage: "",
   isLanguageMode: false,
   providerServices: [],
-  availableFIPS: new Set(),
-  limitedFIPS: new Set(),
 };
 
 /**
@@ -55,7 +51,6 @@ const addFIPSToAvailable = (fips, service) => {
  */
 const moveFIPSToLimited = (fips, service) => {
   if (!service.availableFIPS.has(fips)) {
-    console.log(`FIPS ${fips} not available!`);
     return;
   }
   service.availableFIPS.delete(fips);
@@ -98,7 +93,6 @@ export const setService = (/** @type {string} */ serviceName) => {
     (service) => service.serviceName === serviceName
   );
   if (!service) {
-    console.log(`Service ${serviceName} not found!`);
     return;
   }
   // set all FIPS to default color
@@ -141,10 +135,6 @@ export const initLanguage = (/** @type {string} */ language) => {
   if (Object.keys(service.languageFIPS).includes(language)) {
     return;
   }
-  console.log(
-    `service.languageFIPS[${language}] is:`,
-    service.languageFIPS[language]
-  );
   service.languageFIPS[language] = new Set();
 };
 
@@ -190,7 +180,7 @@ export const setLanguage = (/** @type {string} */ language) => {
   const service = appState.providerServices.find(
     (service) => service.serviceName === appState.selectedService
   );
-  if (!service) {
+  if (!service || !language) {
     return;
   }
 

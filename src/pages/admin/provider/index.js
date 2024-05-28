@@ -311,6 +311,8 @@ const handleLanguageModeSwitch = () => {
         control.removeAttribute("hidden");
       }
     });
+    // @ts-ignore
+    setLanguage(allLanguagesSelect?.value);
   } else {
     setLanguageMode(false);
     selectedServices?.dispatchEvent(new Event("change"));
