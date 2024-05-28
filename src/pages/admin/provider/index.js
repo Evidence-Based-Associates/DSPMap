@@ -4,7 +4,7 @@ import {
   GOOGLE_API_KEY,
   allAvailableServiceNames,
 } from "./api";
-import { appState } from "./state";
+import { appState, setService, initService } from "./state";
 import { CSUStructure } from "../../../lib/csu";
 import { doc } from "firebase/firestore";
 
@@ -38,7 +38,9 @@ allServicesSelect?.addEventListener("change", () => {
       const selectedOption = document.createElement("option");
       selectedOption.value = targetOption.value;
       selectedOption.text = targetOption.text;
+      selectedOption.selected = true;
       selectedServices.appendChild(selectedOption);
+      initService(targetOption.value);
     }
   }
   selectedServices.removeAttribute("disabled");
@@ -48,8 +50,8 @@ allServicesSelect?.addEventListener("change", () => {
   }
 });
 selectedServices?.addEventListener("change", () => {
-  console.log("selectedService changed!");
-  // change the availableFIPS and limitedFIPS by service name in state
+  // @ts-ignore
+  setService(selectedServices.value);
 });
 
 const defaultMapZoomSelect = document.getElementById("defaultMapZoom");
