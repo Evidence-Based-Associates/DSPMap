@@ -1,12 +1,11 @@
 import {
-  isNew,
   headerText,
   GOOGLE_API_KEY,
   allAvailableServiceNames,
+  allAvailableLanguages,
 } from "./api";
 import { appState, setService, initService } from "./state";
 import { CSUStructure } from "../../../lib/csu";
-import { doc } from "firebase/firestore";
 
 const headerTextSpan = document.getElementById("headerText");
 const selectedServices = document.getElementById("selectedServices");
@@ -24,6 +23,7 @@ const latInput = document.getElementsByName("lat");
 const lngInput = document.getElementsByName("lng");
 const addOfficeButton = document.getElementById("addOfficeButton");
 const officeSection = document.getElementById("officeList");
+const allLanguagesSelect = document.getElementById("allLanguagesSelect");
 
 if (headerTextSpan) {
   headerTextSpan.innerHTML = headerText;
@@ -253,4 +253,14 @@ const removeOfficeButton = document.getElementById("removeOfficeButton");
 removeOfficeButton?.addEventListener("click", () => {
   //TODO - check that this works
   handleRemoveOffice(1);
+});
+
+allAvailableLanguages.forEach((language) => {
+  if (language === "Spanish") {
+    return;
+  }
+  const option = document.createElement("option");
+  option.value = language;
+  option.text = language;
+  allLanguagesSelect?.appendChild(option);
 });
