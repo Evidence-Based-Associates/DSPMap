@@ -102,12 +102,29 @@
         <select class="form-select" id="allServicesSelect" multiple size="8"></select>
         <label for="selectedServices" class="form-label mt-3">Selected Services</label>
         <select class="form-select mb-3" id="selectedServices" disabled></select>
-        <div id="coveragemap" hidden></div>
-      </section>
-      <button id="submitButton" type="button" class="btn btn-primary mt-3 mb-5">
-        Submit
-      </button>
-    </form>
+        <div class="row mt-3">
+          <div class="form-group col-md-6">
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="languageModeSwitch" disabled>
+              <label class="form-check-label" for="languageModeSwitch">Toggle Language Mode</label>
+            </div>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="allLanguagesSelect" class="form-label">All Available Languages</label>
+            <select class="form-select" id="allLanguagesSelect" multiple size="3" disabled>
+              <option value="Spanish">Spanish</option>
+            </select>
+          </div>
+          <label for="selectedLanguages" class="form-label mt-3">Selected Languages</label>
+          <select class="form-select mb-3" id="selectedLanguages" disabled></select>
+        </div>
+  </div>
+  <div id="coveragemap" hidden></div>
+  </section>
+  <button id="submitButton" type="button" class="btn btn-primary mt-3 mb-5">
+    Submit
+  </button>
+  </form>
   </div>
 </body>
 

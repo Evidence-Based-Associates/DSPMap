@@ -9,11 +9,26 @@ import { CSUStructure } from "../../../lib/csu";
 import { doc } from "firebase/firestore";
 
 const headerTextSpan = document.getElementById("headerText");
+const selectedServices = document.getElementById("selectedServices");
+const languageModeSwitch = document.getElementById("languageModeSwitch");
+const allServicesSelect = document.getElementById("allServicesSelect");
+const coveragemap = document.getElementById("coveragemap");
+const defaultMapZoomSelect = document.getElementById("defaultMapZoom");
+const providerForm = document.getElementById("providerForm");
+const submitButton = document.getElementById("submitButton");
+const street = document.getElementsByName("street");
+const city = document.getElementsByName("city");
+const state = document.getElementsByName("state");
+const zip = document.getElementsByName("zip");
+const latInput = document.getElementsByName("lat");
+const lngInput = document.getElementsByName("lng");
+const addOfficeButton = document.getElementById("addOfficeButton");
+const officeSection = document.getElementById("officeList");
+
 if (headerTextSpan) {
   headerTextSpan.innerHTML = headerText;
 }
 
-const allServicesSelect = document.getElementById("allServicesSelect");
 if (allServicesSelect) {
   allAvailableServiceNames.forEach((serviceName) => {
     const option = document.createElement("option");
@@ -22,7 +37,7 @@ if (allServicesSelect) {
     allServicesSelect.appendChild(option);
   });
 }
-const selectedServices = document.getElementById("selectedServices");
+
 allServicesSelect?.addEventListener("change", () => {
   if (!selectedServices) {
     return;
@@ -44,7 +59,9 @@ allServicesSelect?.addEventListener("change", () => {
     }
   }
   selectedServices.removeAttribute("disabled");
-  const coveragemap = document.getElementById("coveragemap");
+  if (languageModeSwitch) {
+    languageModeSwitch.removeAttribute("disabled");
+  }
   if (coveragemap) {
     coveragemap.removeAttribute("hidden");
   }
@@ -54,7 +71,6 @@ selectedServices?.addEventListener("change", () => {
   setService(selectedServices.value);
 });
 
-const defaultMapZoomSelect = document.getElementById("defaultMapZoom");
 if (defaultMapZoomSelect) {
   CSUStructure.forEach((region, index) => {
     const option = document.createElement("option");
@@ -64,7 +80,6 @@ if (defaultMapZoomSelect) {
   });
 }
 
-const providerForm = document.getElementById("providerForm");
 const showData = async () => {
   // @ts-ignore
   const formData = new FormData(providerForm);
@@ -80,7 +95,6 @@ const showData = async () => {
   console.log("appState", appState);
 };
 
-const submitButton = document.getElementById("submitButton");
 if (submitButton) {
   submitButton.addEventListener("click", showData);
 }
@@ -95,10 +109,6 @@ const getLatLng = async (address) => {
 };
 
 const addAddressListeners = () => {
-  const street = document.getElementsByName("street");
-  const city = document.getElementsByName("city");
-  const state = document.getElementsByName("state");
-
   street.forEach((input, index) => {
     input.addEventListener("change", () => handleAddressChange(index));
   });
@@ -112,12 +122,6 @@ const addAddressListeners = () => {
 addAddressListeners();
 
 const handleAddressChange = async (index) => {
-  const street = document.getElementsByName("street");
-  const city = document.getElementsByName("city");
-  const state = document.getElementsByName("state");
-  const zip = document.getElementsByName("zip");
-  const latInput = document.getElementsByName("lat");
-  const lngInput = document.getElementsByName("lng");
   // @ts-ignore
   if (!street[index].value || !city[index].value || !state[index].value) {
     return;
@@ -230,9 +234,7 @@ const createOfficeInput = (id) => {
   return office;
 };
 
-const addOfficeButton = document.getElementById("addOfficeButton");
 addOfficeButton?.addEventListener("click", () => {
-  const officeSection = document.getElementById("officeList");
   const officeCount = document.getElementsByName("street").length || 0;
   const newOffice = createOfficeInput(officeCount);
   if (officeSection) {
@@ -249,5 +251,6 @@ const handleRemoveOffice = (index) => {
 };
 const removeOfficeButton = document.getElementById("removeOfficeButton");
 removeOfficeButton?.addEventListener("click", () => {
+  //TODO - check that this works
   handleRemoveOffice(1);
 });

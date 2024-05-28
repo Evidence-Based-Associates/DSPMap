@@ -66,12 +66,10 @@ const removeFIPSFromLimited = (fips, service) => {
 
 export const toggleServiceFIPS = (fips) => {
   // target the service by name
-  console.log("selectedService: ", appState.selectedService);
   const service = appState.providerServices.find(
     (service) => service.serviceName === appState.selectedService
   );
   if (!service) {
-    console.log(`Service ${appState.selectedService} not found!`);
     return;
   }
   const isInAvailable = service.availableFIPS.has(fips);
