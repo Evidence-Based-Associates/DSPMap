@@ -4,7 +4,14 @@ import {
   allAvailableServiceNames,
   allAvailableLanguages,
 } from "./api";
-import { appState, setService, initService, setLanguageMode } from "./state";
+import {
+  appState,
+  setService,
+  initService,
+  setLanguageMode,
+  setLanguage,
+  initLanguage,
+} from "./state";
 import { CSUStructure } from "../../../lib/csu";
 
 const headerTextSpan = document.getElementById("headerText");
@@ -317,7 +324,11 @@ allLanguagesSelect?.addEventListener("change", () => {
       selectedOption.text = targetOption.text;
       selectedOption.selected = true;
       selectedLanguages.appendChild(selectedOption);
-      initService(targetOption.value);
+      initLanguage(targetOption.value);
     }
   }
+});
+selectedLanguages?.addEventListener("change", () => {
+  // @ts-ignore
+  setLanguage(selectedLanguages.value);
 });

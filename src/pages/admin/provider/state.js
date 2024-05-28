@@ -14,10 +14,12 @@ export const providerServices = [];
  * @prop {Set<string>} allFIPS
  * @prop {Set<string>} availableFIPS
  * @prop {Set<string>} limitedFIPS
+ * @prop {Object.<string, Set<string>>} languageFIPS
  */
 /**
  * @typedef AppState
  * @prop {string} selectedService
+ * @prop {string} selectedLanguage
  * @prop {boolean} isLanguageMode
  * @prop {Service[]} providerServices
  * @prop {Set<string>} availableFIPS
@@ -29,6 +31,7 @@ export const providerServices = [];
  */
 export let appState = {
   selectedService: "",
+  selectedLanguage: "",
   isLanguageMode: false,
   providerServices: [],
   availableFIPS: new Set(),
@@ -121,7 +124,19 @@ export const initService = (/** @type {string} */ serviceName) => {
     allFIPS: new Set(),
     availableFIPS: new Set(),
     limitedFIPS: new Set(),
+    languageFIPS: {},
   });
+};
+
+export const initLanguage = (/** @type {string} */ language) => {
+  appState.selectedLanguage = language;
+  const service = appState.providerServices.find(
+    (service) => service.serviceName === appState.selectedService
+  );
+  if (!service) {
+    return;
+  }
+  service.languageFIPS[language] = new Set();
 };
 
 export const setLanguageMode = (/** @type {boolean} */ isLanguageMode) => {
@@ -129,5 +144,37 @@ export const setLanguageMode = (/** @type {boolean} */ isLanguageMode) => {
 };
 
 export const toggleLanguageFIPS = (/** @type {string} */ fips) => {
-  console.log("toggleLanguageFIPS");
+  const service = appState.providerServices.find(
+    (service) => service.serviceName === appState.selectedService
+  );
+  if (!service) {
+    return;
+  }
+  const isInLanguageFIPS =
+    service.languageFIPS[appState.selectedLanguage].has(fips);
+  if (!isInLanguageFIPS) {
+    addFIPSToLanguage(fips, service);
+    colorFIPS([fips], colors.RegColor);
+  } else {
+    removeFIPSFromLanguage(fips, service);
+    colorFIPS([fips], "default");
+  }
+};
+
+const addFIPSToLanguage = (
+  /** @type {string} */ fips,
+  /** @type {Service} */ service
+) => {
+  service.languageFIPS[appState.selectedLanguage].add(fips);
+};
+
+const removeFIPSFromLanguage = (
+  /** @type {string} */ fips,
+  /** @type {Service} */ service
+) => {
+  service.languageFIPS[appState.selectedLanguage].delete(fips);
+};
+
+export const setLanguage = (/** @type {string} */ language) => {
+  appState.selectedLanguage = language;
 };
