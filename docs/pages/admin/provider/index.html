@@ -102,6 +102,10 @@
         <select class="form-select" id="allServicesSelect" multiple size="8"></select>
         <label for="selectedServices" class="form-label mt-3">Selected Services</label>
         <select class="form-select mb-3" id="selectedServices" disabled></select>
+        <label id="serviceMapZoomLabel" for="serviceMapZoom" class="form-label" hidden>Service Map Zoom</label>
+        <select class="form-control" id="serviceMapZoom" name="serviceMapZoom" value="-1" hidden>
+          <option value="-1">Entire State</option>
+        </select>
         <div class="row mt-3">
           <div class="form-group col-md-6">
             <div class="form-check form-switch">

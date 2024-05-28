@@ -11,6 +11,7 @@ export const providerServices = [];
 /**
  * @typedef Service
  * @prop {string} serviceName
+ * @prop {number} mapZoom
  * @prop {Set<string>} allFIPS
  * @prop {Set<string>} availableFIPS
  * @prop {Set<string>} limitedFIPS
@@ -121,6 +122,7 @@ export const initService = (/** @type {string} */ serviceName) => {
   appState.selectedService = serviceName;
   appState.providerServices.push({
     serviceName,
+    mapZoom: -1,
     allFIPS: new Set(),
     availableFIPS: new Set(),
     limitedFIPS: new Set(),
@@ -177,4 +179,14 @@ const removeFIPSFromLanguage = (
 
 export const setLanguage = (/** @type {string} */ language) => {
   appState.selectedLanguage = language;
+};
+
+export const setServiceZoom = (/** @type {number} */ zoom) => {
+  const service = appState.providerServices.find(
+    (service) => service.serviceName === appState.selectedService
+  );
+  if (!service) {
+    return;
+  }
+  service.mapZoom = zoom;
 };

@@ -11,6 +11,7 @@ import {
   setLanguageMode,
   setLanguage,
   initLanguage,
+  setServiceZoom,
 } from "./state";
 import { CSUStructure } from "../../../lib/csu";
 
@@ -19,6 +20,9 @@ const selectedServices = document.getElementById("selectedServices");
 const allServicesSelect = document.getElementById("allServicesSelect");
 const coveragemap = document.getElementById("coveragemap");
 const defaultMapZoomSelect = document.getElementById("defaultMapZoom");
+const serviceMapZoomSelect = document.getElementById("serviceMapZoom");
+const serviceMapZoomLabel = document.getElementById("serviceMapZoomLabel");
+const serviceMapZoom = document.getElementById("serviceMapZoom");
 const providerForm = document.getElementById("providerForm");
 const submitButton = document.getElementById("submitButton");
 const street = document.getElementsByName("street");
@@ -81,6 +85,9 @@ allServicesSelect?.addEventListener("change", () => {
     }
   }
   selectedServices.removeAttribute("disabled");
+  serviceMapZoomLabel?.removeAttribute("hidden");
+  serviceMapZoom?.removeAttribute("hidden");
+
   if (languageModeSwitch) {
     languageModeSwitch.removeAttribute("disabled");
   }
@@ -93,14 +100,20 @@ selectedServices?.addEventListener("change", () => {
   setService(selectedServices.value);
 });
 
-if (defaultMapZoomSelect) {
+if (defaultMapZoomSelect && serviceMapZoomSelect) {
   CSUStructure.forEach((region, index) => {
     const option = document.createElement("option");
     option.value = index.toString();
     option.text = region.name;
     defaultMapZoomSelect.appendChild(option);
+    serviceMapZoomSelect.appendChild(option.cloneNode(true));
   });
 }
+
+serviceMapZoomSelect?.addEventListener("change", () => {
+  // @ts-ignore
+  setServiceZoom(serviceMapZoomSelect.value);
+});
 
 const showData = async () => {
   // @ts-ignore
