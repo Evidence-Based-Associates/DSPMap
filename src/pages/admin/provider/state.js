@@ -138,6 +138,13 @@ export const initLanguage = (/** @type {string} */ language) => {
   if (!service) {
     return;
   }
+  if (Object.keys(service.languageFIPS).includes(language)) {
+    return;
+  }
+  console.log(
+    `service.languageFIPS[${language}] is:`,
+    service.languageFIPS[language]
+  );
   service.languageFIPS[language] = new Set();
 };
 
@@ -149,7 +156,7 @@ export const toggleLanguageFIPS = (/** @type {string} */ fips) => {
   const service = appState.providerServices.find(
     (service) => service.serviceName === appState.selectedService
   );
-  if (!service) {
+  if (!service || !appState.selectedLanguage) {
     return;
   }
   const isInLanguageFIPS =
@@ -178,9 +185,19 @@ const removeFIPSFromLanguage = (
 };
 
 export const setLanguage = (/** @type {string} */ language) => {
+  appState.selectedLanguage = language;
+
+  const service = appState.providerServices.find(
+    (service) => service.serviceName === appState.selectedService
+  );
+  if (!service) {
+    return;
+  }
+
   // set all FIPS to default color
   colorFIPS(Array.from(allFips), "default");
-  appState.selectedLanguage = language;
+  // set available FIPS to RegColor
+  colorFIPS(Array.from(service.languageFIPS[language]), colors.RegColor);
 
   // @ts-ignore
   simplemaps_statemap.refresh();

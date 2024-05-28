@@ -100,7 +100,6 @@ allServicesSelect?.addEventListener("change", () => {
 selectedServices?.addEventListener("change", () => {
   // @ts-ignore
   setService(selectedServices.value);
-  console.log("selectedServices changed!");
 });
 
 if (defaultMapZoomSelect && serviceMapZoomSelect) {
@@ -314,6 +313,7 @@ const handleLanguageModeSwitch = () => {
     });
   } else {
     setLanguageMode(false);
+    selectedServices?.dispatchEvent(new Event("change"));
     languageControls.forEach((control) => {
       if (control) {
         control.setAttribute("hidden", "true");
@@ -349,5 +349,4 @@ allLanguagesSelect?.addEventListener("change", () => {
 selectedLanguages?.addEventListener("change", () => {
   // @ts-ignore
   setLanguage(selectedLanguages.value);
-  console.log("selectedLanguages changed!");
 });
