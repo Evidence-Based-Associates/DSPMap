@@ -8,7 +8,6 @@ const updateProviderName = urlParams.get("name");
 // map changes before async API calls
 setMapCSURegions(true);
 simplemaps_statemap.hooks.click_state = (/** @type {string} */ id) => {
-  console.log(id, typeof id);
   toggleServiceFIPS(id);
 };
 

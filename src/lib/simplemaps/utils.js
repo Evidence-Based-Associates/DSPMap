@@ -91,6 +91,10 @@ export const setMapCSURegions = (isEditPage = false) => {
       const path = localityPagePath();
       localities[locality].url = `${path}?id=${locality}`;
     }
+  } else {
+    Object.keys(simplemaps_statemap_mapdata.regions).forEach((region) => {
+      simplemaps_statemap_mapdata.regions[region].color = "default";
+    });
   }
 };
 
