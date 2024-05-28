@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "start": "webpack serve --open",
-    "emulate": "cd src/lib/firebase && firebase emulators:start --project demo-dsp-map"
+    "emulate": "cd src/lib/firebase && firebase emulators:start --project demo-dsp-map",
+    "hydrate": "cd src/lib/firebase && node hydrate.js"
   },
   "repository": {
     "type": "git",

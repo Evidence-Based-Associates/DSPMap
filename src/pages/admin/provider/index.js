@@ -3,6 +3,7 @@ import {
   GOOGLE_API_KEY,
   allAvailableServiceNames,
   allAvailableLanguages,
+  saveProvider,
 } from "./api";
 import {
   appState,
@@ -117,23 +118,54 @@ serviceMapZoomSelect?.addEventListener("change", () => {
   setServiceZoom(serviceMapZoomSelect.value);
 });
 
-const showData = async () => {
+const handleSubmit = async () => {
+  // @ts-ignore
+  //   const formData = new FormData(providerForm);
+  //   const data = Object.fromEntries(formData);
+  // TODO save to firebase
+  console.log("appState", appState);
+  // build providerInfo from form data
   // @ts-ignore
   const formData = new FormData(providerForm);
-  const data = Object.fromEntries(formData);
-  console.log(data);
+  // TODO validate form data
 
-  const streets = formData.getAll("street");
-  console.log("streets", streets);
+  const streets = Array.from(formData.getAll("street"));
+  const cities = Array.from(formData.getAll("city"));
+  const states = Array.from(formData.getAll("state"));
+  const zips = Array.from(formData.getAll("zip"));
+  const phones = Array.from(formData.getAll("phone"));
+  const lats = Array.from(formData.getAll("lat"));
+  const lngs = Array.from(formData.getAll("lng"));
+  const officeCount = streets.length;
 
-  for (const [key, value] of formData) {
-    console.log(`${key}: ${value}`);
+  const offices = [];
+  for (let i = 0; i < officeCount; i++) {
+    const office = {
+      street: streets[i] || "",
+      city: cities[i] || "",
+      state: states[i] || "",
+      zip: zips[i] || "",
+      phone: phones[i] || "",
+      lat: lats[i] || "",
+      lng: lngs[i] || "",
+    };
+    offices.push(office);
   }
-  console.log("appState", appState);
+
+  const providerInfo = {
+    providerName: formData.get("providerName"),
+    website: formData.get("website"),
+    contactName: formData.get("contactName"),
+    contactEmail: formData.get("contactEmail"),
+    defaultMapZoom: formData.get("defaultMapZoom"),
+    lastUpdated: new Date().toISOString(),
+    offices: offices,
+  };
+  await saveProvider({ ...providerInfo }, [...appState.providerServices]);
 };
 
 if (submitButton) {
-  submitButton.addEventListener("click", showData);
+  submitButton.addEventListener("click", handleSubmit);
 }
 
 const getLatLng = async (address) => {

@@ -23,3 +23,5 @@ export const headerText = isNew
 export const GOOGLE_API_KEY = await API.getGoogleMapsApiKey();
 export const allAvailableServiceNames = await API.getAllServiceNames();
 export const allAvailableLanguages = await API.getAllLanguages();
+export const saveProvider = async (providerInfo, serviceInfo) =>
+  await API.saveProvider(providerInfo, serviceInfo);

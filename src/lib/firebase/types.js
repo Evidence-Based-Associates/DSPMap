@@ -11,7 +11,6 @@
 
 /**
  * @typedef Office
- * @prop {string} providerName
  * @prop {string} street
  * @prop {string} city
  * @prop {string} state
@@ -29,6 +28,7 @@
  * @prop {string} serviceName
  * @prop {boolean} telehealth
  * @prop {string[]} allFIPS
+ * @prop {string[]} availableFIPS
  * @prop {string[]} limitedFIPS
  * @prop {Object.<string, string[]>} languageFIPS
  */

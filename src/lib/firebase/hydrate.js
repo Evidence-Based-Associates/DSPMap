@@ -51,7 +51,6 @@ const exampleProvider = {
   defaultMapZoom: 0,
   offices: [
     {
-      providerName: "ABC Counseling",
       street: "123 Main St",
       city: "Broadway",
       state: "VA",
@@ -61,7 +60,6 @@ const exampleProvider = {
       lng: -78.7987009,
     },
     {
-      providerName: "ABC Counseling",
       street: "123 Main St",
       city: "Harrisonburg",
       state: "VA",
@@ -84,6 +82,7 @@ const exampleProviderServices = [
     mapZoom: -1,
     telehealth: true,
     allFIPS: ["51660", "51165", "51171"],
+    availableFIPS: ["51165", "51660"],
     limitedFIPS: ["51171"],
     languageFIPS: {
       Spanish: ["51171"],
@@ -96,6 +95,7 @@ const exampleProviderServices = [
     mapZoom: -1,
     telehealth: true,
     allFIPS: ["51660", "51171"],
+    availableFIPS: ["51660"],
     limitedFIPS: ["51171"],
     languageFIPS: {
       Spanish: ["51171"],
@@ -115,7 +115,6 @@ const exampleProvider2 = {
   defaultMapZoom: 0,
   offices: [
     {
-      providerName: "XYZ Counseling",
       street: "123 Main St",
       city: "Winchester",
       state: "VA",
@@ -125,7 +124,6 @@ const exampleProvider2 = {
       lng: -78.1572795,
     },
     {
-      providerName: "XYZ Counseling",
       street: "123 Main St",
       city: "Front Royal",
       state: "VA",
@@ -148,6 +146,7 @@ const exampleProviderServices2 = [
     mapZoom: 0,
     telehealth: true,
     allFIPS: ["51139", "51187"],
+    availableFIPS: ["51139"],
     limitedFIPS: ["51187"],
     languageFIPS: {
       Spanish: ["51187"],

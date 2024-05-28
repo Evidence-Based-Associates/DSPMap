@@ -552,4 +552,8 @@ export class XML_API {
   getGoogleMapsApiKey() {
     return "NOT AVAILABLE IN XML";
   }
+
+  saveProvider() {
+    return "NOT AVAILABLE IN XML";
+  }
 }

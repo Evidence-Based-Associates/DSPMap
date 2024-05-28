@@ -11,6 +11,7 @@ import {
   limit,
   collection,
   where,
+  setDoc,
 } from "firebase/firestore";
 import { config } from "../../config";
 import { allFIPSinRegion, regionCSUs, sortedCSUs } from "../lib/csu";
@@ -465,5 +466,37 @@ export class FIREBASE_API {
       return docSnap.get("value");
     }
     return "No API Key Found.";
+  }
+
+  async saveProvider(providerInfo, servicesInfo = []) {
+    const providerRef = doc(this.db, "providers", providerInfo.providerName);
+    await setDoc(providerRef, providerInfo);
+
+    if (servicesInfo.length === 0) {
+      return;
+    }
+    // firebase cannot handle Sets, need to convert to Array
+    servicesInfo.forEach((serviceInfo) => {
+      serviceInfo.allFIPS = [
+        ...serviceInfo.availableFIPS,
+        ...serviceInfo.limitedFIPS,
+      ];
+      serviceInfo.availableFIPS = [...serviceInfo.availableFIPS];
+      serviceInfo.limitedFIPS = [...serviceInfo.limitedFIPS];
+      const languageFIPS = serviceInfo.languageFIPS;
+      Object.keys(languageFIPS).forEach((language) => {
+        languageFIPS[language] = [...languageFIPS[language]];
+      });
+    });
+    servicesInfo.forEach(async (serviceInfo) => {
+      const serviceRef = doc(
+        this.db,
+        "providers",
+        providerInfo.providerName,
+        "services",
+        serviceInfo.serviceName
+      );
+      await setDoc(serviceRef, serviceInfo);
+    });
   }
 }
