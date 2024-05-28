@@ -28,11 +28,17 @@ export const providerServices = [];
 /**
  * @type {AppState}
  */
-export let appState = {
+const initAppState = {
   selectedService: "",
   selectedLanguage: "",
   isLanguageMode: false,
   providerServices: [],
+};
+export let appState = { ...initAppState };
+export const resetAppState = () => {
+  appState = { ...initAppState };
+  // @ts-ignore
+  simplemaps_statemap.refresh();
 };
 
 /**

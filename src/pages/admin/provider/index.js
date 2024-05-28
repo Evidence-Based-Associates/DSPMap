@@ -13,6 +13,7 @@ import {
   setLanguage,
   initLanguage,
   setServiceZoom,
+  resetAppState,
 } from "./state";
 import { CSUStructure } from "../../../lib/csu";
 
@@ -44,6 +45,9 @@ const selectedLanguagesLabel = document.getElementById(
   "selectedLanguagesLabel"
 );
 const selectedLanguages = document.getElementById("selectedLanguages");
+
+const successAlert = document.getElementById("successAlert");
+const errorAlert = document.getElementById("errorAlert");
 
 const languageControls = [
   allLanguagesSelect,
@@ -161,7 +165,28 @@ const handleSubmit = async () => {
     lastUpdated: new Date().toISOString(),
     offices: offices,
   };
-  await saveProvider({ ...providerInfo }, [...appState.providerServices]);
+  saveProvider({ ...providerInfo }, [...appState.providerServices])
+    .then(() => {
+      if (errorAlert) {
+        errorAlert.setAttribute("hidden", "true");
+      }
+      if (successAlert) {
+        successAlert.removeAttribute("hidden");
+      }
+      // clear form and reset appState
+      // @ts-ignore
+      providerForm.reset();
+      resetAppState();
+    })
+    .catch((error) => {
+      console.error("Error saving provider", error);
+      if (successAlert) {
+        successAlert.setAttribute("hidden", "true");
+      }
+      if (errorAlert) {
+        errorAlert.removeAttribute("hidden");
+      }
+    });
 };
 
 if (submitButton) {
