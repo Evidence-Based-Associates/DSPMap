@@ -4,7 +4,7 @@ import {
   allAvailableServiceNames,
   allAvailableLanguages,
 } from "./api";
-import { appState, setService, initService } from "./state";
+import { appState, setService, initService, setLanguageMode } from "./state";
 import { CSUStructure } from "../../../lib/csu";
 
 const headerTextSpan = document.getElementById("headerText");
@@ -283,12 +283,14 @@ allAvailableLanguages.forEach((language) => {
 const handleLanguageModeSwitch = () => {
   // @ts-ignore
   if (languageModeSwitch?.checked) {
+    setLanguageMode(true);
     languageControls.forEach((control) => {
       if (control) {
         control.removeAttribute("hidden");
       }
     });
   } else {
+    setLanguageMode(false);
     languageControls.forEach((control) => {
       if (control) {
         control.setAttribute("hidden", "true");
@@ -297,3 +299,25 @@ const handleLanguageModeSwitch = () => {
   }
 };
 languageModeSwitch?.addEventListener("change", handleLanguageModeSwitch);
+
+allLanguagesSelect?.addEventListener("change", () => {
+  if (!selectedLanguages) {
+    return;
+  }
+
+  selectedLanguages.innerHTML = "";
+
+  // @ts-ignore
+  const options = allLanguagesSelect.options;
+  for (let i = 0; i < options.length; i++) {
+    const targetOption = options[i];
+    if (targetOption.selected) {
+      const selectedOption = document.createElement("option");
+      selectedOption.value = targetOption.value;
+      selectedOption.text = targetOption.text;
+      selectedOption.selected = true;
+      selectedLanguages.appendChild(selectedOption);
+      initService(targetOption.value);
+    }
+  }
+});

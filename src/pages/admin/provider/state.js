@@ -18,6 +18,7 @@ export const providerServices = [];
 /**
  * @typedef AppState
  * @prop {string} selectedService
+ * @prop {boolean} isLanguageMode
  * @prop {Service[]} providerServices
  * @prop {Set<string>} availableFIPS
  * @prop {Set<string>} limitedFIPS
@@ -28,6 +29,7 @@ export const providerServices = [];
  */
 export let appState = {
   selectedService: "",
+  isLanguageMode: false,
   providerServices: [],
   availableFIPS: new Set(),
   limitedFIPS: new Set(),
@@ -120,4 +122,12 @@ export const initService = (/** @type {string} */ serviceName) => {
     availableFIPS: new Set(),
     limitedFIPS: new Set(),
   });
+};
+
+export const setLanguageMode = (/** @type {boolean} */ isLanguageMode) => {
+  appState.isLanguageMode = isLanguageMode;
+};
+
+export const toggleLanguageFIPS = (/** @type {string} */ fips) => {
+  console.log("toggleLanguageFIPS");
 };
