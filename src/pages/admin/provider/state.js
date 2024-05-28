@@ -178,7 +178,12 @@ const removeFIPSFromLanguage = (
 };
 
 export const setLanguage = (/** @type {string} */ language) => {
+  // set all FIPS to default color
+  colorFIPS(Array.from(allFips), "default");
   appState.selectedLanguage = language;
+
+  // @ts-ignore
+  simplemaps_statemap.refresh();
 };
 
 export const setServiceZoom = (/** @type {number} */ zoom) => {

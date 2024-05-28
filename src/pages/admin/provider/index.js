@@ -88,6 +88,8 @@ allServicesSelect?.addEventListener("change", () => {
   serviceMapZoomLabel?.removeAttribute("hidden");
   serviceMapZoom?.removeAttribute("hidden");
 
+  selectedServices?.dispatchEvent(new Event("change"));
+
   if (languageModeSwitch) {
     languageModeSwitch.removeAttribute("disabled");
   }
@@ -98,6 +100,7 @@ allServicesSelect?.addEventListener("change", () => {
 selectedServices?.addEventListener("change", () => {
   // @ts-ignore
   setService(selectedServices.value);
+  console.log("selectedServices changed!");
 });
 
 if (defaultMapZoomSelect && serviceMapZoomSelect) {
@@ -316,6 +319,7 @@ const handleLanguageModeSwitch = () => {
         control.setAttribute("hidden", "true");
       }
     });
+    setService(appState.selectedService);
   }
 };
 languageModeSwitch?.addEventListener("change", handleLanguageModeSwitch);
@@ -340,8 +344,10 @@ allLanguagesSelect?.addEventListener("change", () => {
       initLanguage(targetOption.value);
     }
   }
+  selectedLanguages?.dispatchEvent(new Event("change"));
 });
 selectedLanguages?.addEventListener("change", () => {
   // @ts-ignore
   setLanguage(selectedLanguages.value);
+  console.log("selectedLanguages changed!");
 });
