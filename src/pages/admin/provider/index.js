@@ -45,6 +45,7 @@ const phoneInput = document.getElementsByName("phone");
 const latInput = document.getElementsByName("lat");
 const lngInput = document.getElementsByName("lng");
 const addOfficeButton = document.getElementById("addOfficeButton");
+const additionalOffices = document.getElementById("additionalOffices");
 const officeSection = document.getElementById("officeList");
 
 const languageModeSwitch = document.getElementById("languageModeSwitch");
@@ -89,7 +90,6 @@ existingProviderSelect?.addEventListener("change", async () => {
   // @ts-ignore
   const selectedProvider = existingProviderSelect.value;
   const provider = await getProviderInfo(selectedProvider);
-  console.log("provider in Loading", provider.providerName);
   const providerServices = await getProviderServices(selectedProvider);
   // @ts-ignore
   loadServices(providerServices);
@@ -108,6 +108,7 @@ existingProviderSelect?.addEventListener("change", async () => {
 
   const officeCount = provider.offices.length;
 
+  additionalOffices.innerHTML = "";
   for (let i = 0; i < officeCount; i++) {
     const office = provider.offices[i];
     // @ts-ignore
@@ -125,7 +126,7 @@ existingProviderSelect?.addEventListener("change", async () => {
     // @ts-ignore
     lngInput[i].value = office.lng;
     // if this is the last office, don't add a new one
-    if (i != officeCount - 1) {
+    if (officeCount > i + 1) {
       addOfficeButton?.click();
     }
   }
@@ -261,7 +262,6 @@ const handleSubmit = async () => {
     lastUpdated: new Date().toISOString(),
     offices: offices,
   };
-  console.log("why is providerName undefined?", providerInfo.providerName);
 
   saveProvider({ ...providerInfo }, [...appState.providerServices])
     .then(() => {
@@ -428,8 +428,8 @@ const createOfficeInput = (id) => {
 addOfficeButton?.addEventListener("click", () => {
   const officeCount = document.getElementsByName("street").length || 0;
   const newOffice = createOfficeInput(officeCount);
-  if (officeSection) {
-    officeSection.appendChild(newOffice);
+  if (additionalOffices) {
+    additionalOffices.appendChild(newOffice);
     addAddressListeners();
   }
 });

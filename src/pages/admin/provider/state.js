@@ -227,6 +227,7 @@ export const setServiceZoom = (/** @type {number} */ zoom) => {
  * @param {FirebaseService} services
  */
 export const loadServices = (services) => {
+  appState.providerServices = [];
   for (const service of services) {
     appState.providerServices.push({
       serviceName: service.serviceName,

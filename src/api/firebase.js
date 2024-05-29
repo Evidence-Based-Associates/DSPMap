@@ -483,12 +483,8 @@ export class FIREBASE_API {
   }
 
   async saveProvider(providerInfo, servicesInfo = []) {
-    console.log("providerInfo", providerInfo);
-    console.log("servicesInfo", servicesInfo);
     const providerRef = doc(this.db, "providers", providerInfo.providerName);
-    await setDoc(providerRef, providerInfo).then(() => {
-      console.log("Provider successfully written!");
-    });
+    await setDoc(providerRef, providerInfo);
 
     if (servicesInfo.length === 0) {
       return;
@@ -514,9 +510,7 @@ export class FIREBASE_API {
         "services",
         serviceInfo.serviceName
       );
-      await setDoc(serviceRef, serviceInfo).then(() => {
-        console.log("Service successfully written!");
-      });
+      await setDoc(serviceRef, serviceInfo);
     });
   }
 }
