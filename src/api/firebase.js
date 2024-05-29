@@ -119,7 +119,7 @@ export class FIREBASE_API {
     return new Map();
   }
 
-  async getProviderServices(providerName) {
+  async getProviderServiceNames(providerName) {
     // get subcollection of services for provider
     const services = [];
     const servicesRef = collection(
@@ -137,6 +137,20 @@ export class FIREBASE_API {
       services.push(doc.data().serviceName);
     });
     return services.sort();
+  }
+
+  async getProviderServices(providerName) {
+    // get subcollection of services for provider
+    const services = [];
+    const servicesRef = collection(
+      this.db,
+      "providers",
+      providerName,
+      "services"
+    );
+    const servicesQuery = query(servicesRef);
+    const servicesQuerySnapshot = await getDocs(servicesQuery);
+    return servicesQuerySnapshot.docs.map((doc) => doc.data());
   }
 
   async getProviderInfo(providerName) {

@@ -141,7 +141,7 @@ export class XML_API {
     );
   }
 
-  getProviderServices(providerID) {
+  getProviderServiceNames(providerID) {
     const provider = this.data.getElementById(providerID);
     const serviceElements = provider.getElementsByTagName("Service");
     const serviceNames = new Set();
@@ -150,6 +150,10 @@ export class XML_API {
       serviceNames.add(service.getAttribute("serviceName"));
     }
     return [...serviceNames].sort();
+  }
+
+  getProviderServices(providerID) {
+    return ["NOT IMPLEMENTED IN XML API"];
   }
 
   getProviderInfo(providerID) {

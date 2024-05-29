@@ -19,6 +19,8 @@ export const isNew = updateProviderName === null;
 export const existingProviders = await API.getAllProviders();
 export const getProviderInfo = async (providerName) =>
   await API.getProviderInfo(providerName);
+export const getProviderServices = async (providerName) =>
+  await API.getProviderServices(providerName);
 
 export const GOOGLE_API_KEY = await API.getGoogleMapsApiKey();
 export const allAvailableServiceNames = await API.getAllServiceNames();

@@ -208,3 +208,33 @@ export const setServiceZoom = (/** @type {number} */ zoom) => {
   }
   service.mapZoom = zoom;
 };
+
+/**
+ *
+ * @typedef FirebaseService
+ * @prop {string} providerName
+ * @prop {string} serviceName
+ * @prop {string} lastUpdatedBy
+ * @prop {number} mapZoom
+ * @prop {boolean} telehealth
+ * @prop {string[]} allFIPS
+ * @prop {string[]} availableFIPS
+ * @prop {string[]} limitedFIPS
+ * @prop {Object.<string, string[]>} languageFIPS
+ */
+/**
+ *
+ * @param {FirebaseService} services
+ */
+export const loadServices = (services) => {
+  for (const service of services) {
+    appState.providerServices.push({
+      serviceName: service.serviceName,
+      mapZoom: service.mapZoom,
+      allFIPS: new Set(service.allFIPS),
+      availableFIPS: new Set(service.availableFIPS),
+      limitedFIPS: new Set(service.limitedFIPS),
+      languageFIPS: service.languageFIPS,
+    });
+  }
+};

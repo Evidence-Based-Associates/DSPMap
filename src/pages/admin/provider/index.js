@@ -5,6 +5,7 @@ import {
   saveProvider,
   existingProviders,
   getProviderInfo,
+  getProviderServices,
 } from "./api";
 import {
   appState,
@@ -15,6 +16,7 @@ import {
   initLanguage,
   setServiceZoom,
   resetAppState,
+  loadServices,
 } from "./state";
 import { CSUStructure } from "../../../lib/csu";
 
@@ -73,11 +75,23 @@ if (existingProviderSelect) {
   });
 }
 existingProviderSelect?.addEventListener("change", async () => {
-  //load provider info
+  if (existingProviderSelect.value === "") {
+    // reset form
+    // @ts-ignore
+    providerForm.reset();
+
+    // @ts-ignore
+    providerNameInput?.removeAttribute("disabled");
+    resetAppState();
+    return;
+  }
+
   // @ts-ignore
   const selectedProvider = existingProviderSelect.value;
   const provider = await getProviderInfo(selectedProvider);
-
+  const providerServices = await getProviderServices(selectedProvider);
+  // @ts-ignore
+  loadServices(providerServices);
   // @ts-ignore
   providerNameInput.value = provider.providerName;
   // @ts-ignore
@@ -114,6 +128,29 @@ existingProviderSelect?.addEventListener("change", async () => {
       addOfficeButton?.click();
     }
   }
+
+  // @ts-ignore
+  const options = allServicesSelect.options;
+  for (let i = 0; i < options.length; i++) {
+    const targetOption = options[i];
+    targetOption.selected = providerServices.some(
+      (service) => service.serviceName === targetOption.value
+    );
+  }
+
+  // @ts-ignore
+  selectedServices.innerHTML = "";
+  providerServices.forEach((service) => {
+    const option = document.createElement("option");
+    option.value = service.serviceName;
+    option.text = service.serviceName;
+    option.selected = true;
+    selectedServices.appendChild(option);
+  });
+  selectedServices.removeAttribute("disabled");
+
+  coveragemap?.removeAttribute("hidden");
+  selectedServices?.dispatchEvent(new Event("change"));
 });
 
 if (allServicesSelect) {
@@ -221,6 +258,7 @@ const handleSubmit = async () => {
     lastUpdated: new Date().toISOString(),
     offices: offices,
   };
+
   saveProvider({ ...providerInfo }, [...appState.providerServices])
     .then(() => {
       if (errorAlert) {
@@ -278,7 +316,6 @@ const handleAddressChange = async (index) => {
   }
   // @ts-ignore
   const address = `${street[index].value}, ${city[index].value}, ${state[index].value}, ${zip[index].value}`;
-  const latLng = await getLatLng(address);
   getLatLng(address).then(({ lat, lng }) => {
     // @ts-ignore
     latInput[index].value = lat;
