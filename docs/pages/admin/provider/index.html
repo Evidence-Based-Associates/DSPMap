@@ -23,12 +23,25 @@
     </div>
   </nav>
   <div class="container">
-    <h1 class="text-center"><span id="headerText">Title</span></h1>
+    <div class="form-group col-md-6">
+    </div>
+    <h1 class="text-center"><span id="headerText">Manage Providers</span></h1>
+
     <form id="providerForm">
       <section id="basicInfo">
         <h2>Basic Information</h2>
         <div class="mb-3">
-          <label for="providerName" class="form-label">Provider Name</label>
+          <label for="existingProviderSelect" class="form-label">Select Existing Provider to
+            Edit</label>
+          <select class="form-control" id="existingProviderSelect" name="existingProviderSelect">
+            <option value="-1">Select Provider</option>
+          </select>
+        </div>
+        <hr />
+        OR
+        <hr />
+        <div class="mb-3">
+          <label for="providerName" class="form-label">New Provider Name</label>
           <input type="text" class="form-control" id="providerName" name="providerName" />
         </div>
         <div class="mb-3">

@@ -16,9 +16,9 @@ simplemaps_statemap.hooks.click_state = (/** @type {string} */ id) => {
 };
 
 export const isNew = updateProviderName === null;
-export const headerText = isNew
-  ? "Add New Provider"
-  : `Updating ${updateProviderName}`;
+export const existingProviders = await API.getAllProviders();
+export const getProviderInfo = async (providerName) =>
+  await API.getProviderInfo(providerName);
 
 export const GOOGLE_API_KEY = await API.getGoogleMapsApiKey();
 export const allAvailableServiceNames = await API.getAllServiceNames();

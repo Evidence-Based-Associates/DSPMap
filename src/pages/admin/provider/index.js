@@ -1,9 +1,10 @@
 import {
-  headerText,
   GOOGLE_API_KEY,
   allAvailableServiceNames,
   allAvailableLanguages,
   saveProvider,
+  existingProviders,
+  getProviderInfo,
 } from "./api";
 import {
   appState,
@@ -17,7 +18,10 @@ import {
 } from "./state";
 import { CSUStructure } from "../../../lib/csu";
 
-const headerTextSpan = document.getElementById("headerText");
+const existingProviderSelect = document.getElementById(
+  "existingProviderSelect"
+);
+
 const selectedServices = document.getElementById("selectedServices");
 const allServicesSelect = document.getElementById("allServicesSelect");
 const coveragemap = document.getElementById("coveragemap");
@@ -26,11 +30,16 @@ const serviceMapZoomSelect = document.getElementById("serviceMapZoom");
 const serviceMapZoomLabel = document.getElementById("serviceMapZoomLabel");
 const serviceMapZoom = document.getElementById("serviceMapZoom");
 const providerForm = document.getElementById("providerForm");
+const providerNameInput = document.getElementById("providerName");
+const websiteInput = document.getElementById("website");
 const submitButton = document.getElementById("submitButton");
+const contactNameInput = document.getElementById("contactName");
+const contactEmailInput = document.getElementById("contactEmail");
 const street = document.getElementsByName("street");
 const city = document.getElementsByName("city");
 const state = document.getElementsByName("state");
 const zip = document.getElementsByName("zip");
+const phoneInput = document.getElementsByName("phone");
 const latInput = document.getElementsByName("lat");
 const lngInput = document.getElementsByName("lng");
 const addOfficeButton = document.getElementById("addOfficeButton");
@@ -55,10 +64,57 @@ const languageControls = [
   selectedLanguagesLabel,
   selectedLanguages,
 ];
-
-if (headerTextSpan) {
-  headerTextSpan.innerHTML = headerText;
+if (existingProviderSelect) {
+  existingProviders.forEach((provider) => {
+    const option = document.createElement("option");
+    option.value = provider.providerName;
+    option.text = provider.providerName;
+    existingProviderSelect.appendChild(option);
+  });
 }
+existingProviderSelect?.addEventListener("change", async () => {
+  //load provider info
+  // @ts-ignore
+  const selectedProvider = existingProviderSelect.value;
+  const provider = await getProviderInfo(selectedProvider);
+
+  // @ts-ignore
+  providerNameInput.value = provider.providerName;
+  // @ts-ignore
+  providerNameInput.setAttribute("disabled", "true");
+  // @ts-ignore
+  defaultMapZoomSelect.value = provider.defaultMapZoom;
+  // @ts-ignore
+  websiteInput.value = provider.website;
+  // @ts-ignore
+  contactNameInput.value = provider.contactName;
+  // @ts-ignore
+  contactEmailInput.value = provider.contactEmail;
+
+  const officeCount = provider.offices.length;
+
+  for (let i = 0; i < officeCount; i++) {
+    const office = provider.offices[i];
+    // @ts-ignore
+    street[i].value = office.street;
+    // @ts-ignore
+    city[i].value = office.city;
+    // @ts-ignore
+    state[i].value = office.state;
+    // @ts-ignore
+    zip[i].value = office.zip;
+    // @ts-ignore
+    phoneInput[i].value = office.phone;
+    // @ts-ignore
+    latInput[i].value = office.lat;
+    // @ts-ignore
+    lngInput[i].value = office.lng;
+    // if this is the last office, don't add a new one
+    if (i != officeCount - 1) {
+      addOfficeButton?.click();
+    }
+  }
+});
 
 if (allServicesSelect) {
   allAvailableServiceNames.forEach((serviceName) => {
