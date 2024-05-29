@@ -497,6 +497,7 @@ export class FIREBASE_API {
       ];
       serviceInfo.availableFIPS = [...serviceInfo.availableFIPS];
       serviceInfo.limitedFIPS = [...serviceInfo.limitedFIPS];
+      serviceInfo.providerName = providerInfo.providerName;
       const languageFIPS = serviceInfo.languageFIPS;
       Object.keys(languageFIPS).forEach((language) => {
         languageFIPS[language] = [...languageFIPS[language]];

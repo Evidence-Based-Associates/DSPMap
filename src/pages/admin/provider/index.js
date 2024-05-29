@@ -82,7 +82,7 @@ existingProviderSelect?.addEventListener("change", async () => {
     providerForm.reset();
 
     // @ts-ignore
-    providerNameInput?.removeAttribute("disabled");
+    providerNameInput?.removeAttribute("readonly");
     resetAppState();
     return;
   }
@@ -96,7 +96,7 @@ existingProviderSelect?.addEventListener("change", async () => {
   // @ts-ignore
   providerNameInput.value = provider.providerName;
   // @ts-ignore
-  providerNameInput.setAttribute("disabled", "true");
+  providerNameInput.setAttribute("readonly", "true");
   // @ts-ignore
   defaultMapZoomSelect.value = provider.defaultMapZoom;
   // @ts-ignore
@@ -402,7 +402,7 @@ const createOfficeInput = (id) => {
         id="lat${id}"
         name="lat"
         size="7"
-        disabled
+        readonly
       />
     </div>
     <div class="form-group col-md-6">
@@ -413,7 +413,7 @@ const createOfficeInput = (id) => {
         id="lng${id}"
         name="lng"
         size="7"
-        disabled
+        readonly
       />
     </div>
   </div>

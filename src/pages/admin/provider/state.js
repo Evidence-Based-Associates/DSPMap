@@ -228,6 +228,7 @@ export const setServiceZoom = (/** @type {number} */ zoom) => {
  */
 export const loadServices = (services) => {
   appState.providerServices = [];
+  // @ts-ignore
   for (const service of services) {
     appState.providerServices.push({
       serviceName: service.serviceName,
