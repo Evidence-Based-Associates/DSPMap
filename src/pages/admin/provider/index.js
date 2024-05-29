@@ -205,7 +205,6 @@ selectedServices?.addEventListener("change", () => {
 
 if (defaultMapZoomSelect && serviceMapZoomSelect) {
   Object.keys(regions).forEach((region, index) => {
-    console.log("region", region, "region.name?", regions[index]);
     const option = document.createElement("option");
     option.value = index.toString();
     option.text = regions[index].name;

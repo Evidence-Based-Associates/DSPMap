@@ -8,8 +8,7 @@ import {
   providerLanguages,
 } from "./api.js";
 import colors from "../../lib/colors.js";
-import { removeDuplicates } from "../../lib/utils.js";
-import { CSUStructure, csuListFromFIPS } from "../../lib/csu.js";
+import { csuListFromFIPS } from "../../lib/csu.js";
 import {
   colorFIPS,
   addLanguageDescriptions,
