@@ -89,6 +89,7 @@ existingProviderSelect?.addEventListener("change", async () => {
   // @ts-ignore
   const selectedProvider = existingProviderSelect.value;
   const provider = await getProviderInfo(selectedProvider);
+  console.log("provider in Loading", provider.providerName);
   const providerServices = await getProviderServices(selectedProvider);
   // @ts-ignore
   loadServices(providerServices);
@@ -249,8 +250,10 @@ const handleSubmit = async () => {
     offices.push(office);
   }
 
+  const providerName = formData.get("providerName") || providerNameInput.value;
+
   const providerInfo = {
-    providerName: formData.get("providerName"),
+    providerName: providerName,
     website: formData.get("website"),
     contactName: formData.get("contactName"),
     contactEmail: formData.get("contactEmail"),
@@ -258,6 +261,7 @@ const handleSubmit = async () => {
     lastUpdated: new Date().toISOString(),
     offices: offices,
   };
+  console.log("why is providerName undefined?", providerInfo.providerName);
 
   saveProvider({ ...providerInfo }, [...appState.providerServices])
     .then(() => {
