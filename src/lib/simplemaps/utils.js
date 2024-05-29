@@ -10,7 +10,7 @@ const localitiesFromRegion = (region) => {
   return localities;
 };
 
-const regions = {
+export const regions = {
   0: {
     states: localitiesFromRegion(regionCSUs.NorthernRegion),
     name: "Northern Region",

@@ -19,6 +19,7 @@ import {
   loadServices,
 } from "./state";
 import { CSUStructure } from "../../../lib/csu";
+import { regions } from "../../../lib/simplemaps/utils";
 
 const existingProviderSelect = document.getElementById(
   "existingProviderSelect"
@@ -203,10 +204,11 @@ selectedServices?.addEventListener("change", () => {
 });
 
 if (defaultMapZoomSelect && serviceMapZoomSelect) {
-  CSUStructure.forEach((region, index) => {
+  Object.keys(regions).forEach((region, index) => {
+    console.log("region", region, "region.name?", regions[index]);
     const option = document.createElement("option");
     option.value = index.toString();
-    option.text = region.name;
+    option.text = regions[index].name;
     defaultMapZoomSelect.appendChild(option);
     serviceMapZoomSelect.appendChild(option.cloneNode(true));
   });

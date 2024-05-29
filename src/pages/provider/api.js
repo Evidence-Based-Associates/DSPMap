@@ -17,7 +17,7 @@ export const serviceFIPS = async (/** @type {string} */ serviceName) => {
   return serviceArea;
 };
 
-export const serviceNames = await API.getProviderServices(providerID);
+export const serviceNames = await API.getProviderServiceNames(providerID);
 export const providerInfo = await API.getProviderInfo(providerID);
 
 // @ts-ignore
