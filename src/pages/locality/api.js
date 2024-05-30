@@ -6,7 +6,6 @@ const urlParams = new URLSearchParams(queryString);
 export const fipsID = urlParams.get("id");
 
 export const providers = await API.getAllProvidersByFIPS(fipsID);
-console.log(providers);
 export const providerServices = async (providerId) => {
   return await API.getAllServicesByProviderInFIPS(providerId, fipsID);
 };

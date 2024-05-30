@@ -12,6 +12,7 @@ import {
   collection,
   where,
   setDoc,
+  getDocsFromServer,
 } from "firebase/firestore";
 import { config } from "../../config";
 import { allFIPSinRegion, regionCSUs, sortedCSUs } from "../lib/csu";
@@ -114,9 +115,24 @@ export class FIREBASE_API {
     );
   }
 
-  getAllProvidersByFIPS(fips) {
-    // not yet implemented in FIREBASE_API
-    return new Map();
+  async getAllProvidersByFIPS(fips) {
+    const services = collectionGroup(this.db, "services");
+    const servicesQuery = query(
+      services,
+      where("allFIPS", "array-contains", fips)
+    );
+    const servicesQuerySnapshot = await getDocs(servicesQuery);
+
+    if (servicesQuerySnapshot.empty) {
+      return new Map();
+    }
+
+    const providerList = new Map();
+    servicesQuerySnapshot.forEach((doc) => {
+      const providerName = doc.get("providerName");
+      providerList.set(providerName, providerName);
+    });
+    return providerList;
   }
 
   async getProviderServiceNames(providerName) {
@@ -167,9 +183,24 @@ export class FIREBASE_API {
     return {};
   }
 
-  getAllServicesByProviderInFIPS(providerId, fips) {
-    // not yet implemented in FIREBASE_API
-    return [];
+  async getAllServicesByProviderInFIPS(providerId, fips) {
+    // similar to getAllServicesByProviderInCSU
+    const providerRef = doc(this.db, "providers", providerId);
+    const providerServicesRef = collection(providerRef, "services");
+    const providerServicesQuery = query(
+      providerServicesRef,
+      where("allFIPS", "array-contains", fips)
+    );
+    const providerServicesQuerySnapshot = await getDocs(providerServicesQuery);
+    if (providerServicesQuerySnapshot.empty) {
+      return [];
+    }
+
+    const serviceList = new Set();
+    providerServicesQuerySnapshot.forEach((doc) => {
+      serviceList.add(doc.get("serviceName"));
+    });
+    return [...serviceList].sort();
   }
 
   async getAllServiceNamesByCSU(csu) {
@@ -271,6 +302,20 @@ export class FIREBASE_API {
       providerMap.set(providerName, providerName);
     });
     return providerMap;
+  }
+
+  async getAllOffices() {
+    const offices = [];
+    const officesRef = collection(this.db, "offices");
+    const officesQuery = query(officesRef);
+    const officesQuerySnapshot = await getDocsFromServer(officesQuery);
+    if (officesQuerySnapshot.empty) {
+      return [];
+    }
+    officesQuerySnapshot.forEach((doc) => {
+      offices.push(doc.data());
+    });
+    return offices;
   }
 
   async getAllLocations(providerName = "") {

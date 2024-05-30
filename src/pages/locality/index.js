@@ -9,19 +9,19 @@ localityText.innerText =
 zoomToFIPS(fipsID);
 
 const providerUL = document.getElementById("providerList");
-providers.forEach((provider, key) => {
+providers.forEach(async (provider, key) => {
   const providerLI = document.createElement("li");
   providerLI.className = "ebaBlue";
   providerLI.innerHTML = `<a href='../provider/index.html?id=${key}'>${provider}</a>`;
   providerUL.appendChild(providerLI);
 
-  const providerServiceList = providerServices(key);
+  const providerServiceList = await providerServices(key);
 
   const providerServiceUL = document.createElement("ul");
-  providerServiceList.forEach((isLimitedService, serviceName) => {
+  providerServiceList.forEach((serviceName) => {
     const serviceLI = document.createElement("li");
-    const limitedServiceNote = isLimitedService ? "  (Limited Service)" : "";
-    serviceLI.innerText = serviceName + limitedServiceNote;
+    // const limitedServiceNote = isLimitedService ? "  (Limited Service)" : "";
+    serviceLI.innerText = serviceName; //+ limitedServiceNote;
     providerServiceUL.appendChild(serviceLI);
   });
   providerUL.appendChild(providerServiceUL);
