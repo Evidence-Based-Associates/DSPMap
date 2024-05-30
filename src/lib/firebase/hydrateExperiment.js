@@ -5,6 +5,7 @@ import {
   doc,
   setDoc,
   updateDoc,
+  collection,
 } from "firebase/firestore";
 
 const config = {
@@ -35,7 +36,56 @@ if (isLocal) {
   connectFirestoreEmulator(db, "127.0.0.1", 8080);
 }
 
-const docRef = doc(db, "meta", "healthCheck");
-await setDoc(docRef, { value: "data from firebase emulator" });
+// write offices to a top-level collection
+const offices = [
+  {
+    providerName: "ABC Counseling",
+    street: "123 Main St",
+    city: "Broadway",
+    state: "VA",
+    zip: "22815",
+    phone: "540-555-5555",
+    lat: 38.6136924,
+    lng: -78.7987009,
+  },
+  {
+    providerName: "ABC Counseling",
+    street: "123 Main St",
+    city: "Harrisonburg",
+    state: "VA",
+    zip: "22801",
+    phone: "540-555-1234",
+    lat: 38.4508553,
+    lng: -78.8685222,
+  },
+  {
+    providerName: "XYZ Therapy Inc",
+    street: "123 Main St",
+    city: "Winchester",
+    state: "VA",
+    zip: "99999",
+    phone: "540-555-5555",
+    lat: 39.1249685,
+    lng: -78.1572795,
+  },
+  {
+    providerName: "XYZ Therapy Inc",
+    street: "123 Main St",
+    city: "Front Royal",
+    state: "VA",
+    zip: "99999",
+    phone: "540-555-1234",
+    lat: 38.918929,
+    lng: -78.1954975,
+  },
+];
+
+const officesCollection = collection(db, "offices");
+//load test... 50x
+for (let i = 0; i < 50; i++) {
+  offices.forEach(async (office) => {
+    await setDoc(doc(officesCollection), office);
+  });
+}
 
 console.log("done");
