@@ -3,13 +3,12 @@ import {
   getFirestore,
   connectFirestoreEmulator,
   doc,
-  getDoc,
   setDoc,
   updateDoc,
 } from "firebase/firestore";
 
 const config = {
-  ENV: "LOCAL",
+  ENV: "DEV",
 };
 
 const devConfig = {
