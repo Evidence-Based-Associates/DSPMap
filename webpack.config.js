@@ -20,11 +20,11 @@ entries["index"] = "./src/index.js";
 console.log(entries);
 
 module.exports = {
-  mode: "development",
+  mode: "production",
   entry: {
     ...entries,
   },
-  devtool: "inline-source-map",
+  // devtool: "inline-source-map",
   devServer: {
     static: "./docs",
   },
