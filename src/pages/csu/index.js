@@ -11,22 +11,6 @@ if (csuNameSpan) {
   csuNameSpan.innerHTML = thisCSU?.name || "CSU";
 }
 
-const providerList = document.getElementById("providerList");
-CSUProviders.forEach(async (provider, key) => {
-  const providerServices = await providerServiceList(key, thisCSU);
-
-  const providerLinkHTML = `<a href="../provider/index.html?id=${key}">${provider}</a>`;
-  const list = headingList(providerLinkHTML, providerServices);
-  providerList?.appendChild(list);
-});
-
-const serviceList = document.getElementById("serviceList");
-CSUServices.forEach(async (service) => {
-  const serviceProviders = await serviceProvidersList(service, thisCSU);
-  const list = headingList(service, serviceProviders);
-  serviceList?.appendChild(list);
-});
-
 const headingList = (headingContent, listItems) => {
   const container = document.createElement("div");
   const heading = document.createElement("h3");
@@ -42,3 +26,19 @@ const headingList = (headingContent, listItems) => {
   container.appendChild(list);
   return container;
 };
+
+const providerList = document.getElementById("providerList");
+CSUProviders.forEach((provider) => {
+  const providerServices = providerServiceList(provider);
+
+  const providerLinkHTML = `<a href="../provider/index.html?id=${provider}">${provider}</a>`;
+  const list = headingList(providerLinkHTML, providerServices);
+  providerList?.appendChild(list);
+});
+
+const serviceList = document.getElementById("serviceList");
+CSUServices.forEach((service) => {
+  const serviceProviders = serviceProvidersList(service);
+  const list = headingList(service, serviceProviders);
+  serviceList?.appendChild(list);
+});

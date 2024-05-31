@@ -8,6 +8,9 @@ import {
   getDoc,
   collection,
   getDocs,
+  collectionGroup,
+  query,
+  where,
 } from "firebase/firestore/lite";
 
 import { config } from "../config.js";
@@ -57,5 +60,15 @@ export const getProvider = async (providerID) => {
 export const getProviderServices = async (providerID) => {
   const collectionRef = collection(db, "providers", providerID, "services");
   const snap = await getDocs(collectionRef);
+  return snap.docs.map((doc) => doc.data());
+};
+
+export const getAllCSUServices = async (csu) => {
+  const serviceCollection = collectionGroup(db, "services");
+  const serviceQuery = query(
+    serviceCollection,
+    where("allFIPS", "array-contains-any", csu.localities)
+  );
+  const snap = await getDocs(serviceQuery);
   return snap.docs.map((doc) => doc.data());
 };
