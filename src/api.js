@@ -30,6 +30,7 @@ if (providerCollection) {
     provider.offices.forEach((office) => {
       locations.push({
         providerName: provider.providerName,
+        providerId: provider.providerName,
         street: office.street,
         city: office.city,
         state: office.state,
