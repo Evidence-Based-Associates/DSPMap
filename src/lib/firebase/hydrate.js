@@ -48,27 +48,33 @@ const exampleProvider = {
   contactName: "Anne Smith",
   contactEmail: "anne@abccounseling.com",
   defaultMapZoom: 0,
-  offices: [
-    {
-      street: "123 Main St",
-      city: "Broadway",
-      state: "VA",
-      zip: "22815",
-      phone: "540-555-5555",
-      lat: 38.6136924,
-      lng: -78.7987009,
-    },
-    {
-      street: "123 Main St",
-      city: "Harrisonburg",
-      state: "VA",
-      zip: "22801",
-      phone: "540-555-1234",
-      lat: 38.4508553,
-      lng: -78.8685222,
-    },
-  ],
 };
+
+/**
+ * @type {import("./types").Location[]}
+ */
+const exampleProviderLocations = [
+  {
+    providerName: exampleProvider.providerName,
+    street: "123 Main St",
+    city: "Broadway",
+    state: "VA",
+    zip: "22815",
+    phone: "540-555-5555",
+    lat: 38.6136924,
+    lng: -78.7987009,
+  },
+  {
+    providerName: exampleProvider.providerName,
+    street: "123 Main St",
+    city: "Harrisonburg",
+    state: "VA",
+    zip: "22801",
+    phone: "540-555-1234",
+    lat: 38.4508553,
+    lng: -78.8685222,
+  },
+];
 
 /**
  * @type {import("./types").Service[]}
@@ -112,27 +118,34 @@ const exampleProvider2 = {
   contactName: "Bob Smith",
   contactEmail: "bob@xyz.com",
   defaultMapZoom: 0,
-  offices: [
-    {
-      street: "123 Main St",
-      city: "Winchester",
-      state: "VA",
-      zip: "99999",
-      phone: "540-555-5555",
-      lat: 39.1249685,
-      lng: -78.1572795,
-    },
-    {
-      street: "123 Main St",
-      city: "Front Royal",
-      state: "VA",
-      zip: "99999",
-      phone: "540-555-1234",
-      lat: 38.918929,
-      lng: -78.1954975,
-    },
-  ],
 };
+
+/**
+ * @type {import("./types").Location[]}
+ 
+ */
+const exampleProvider2Locations = [
+  {
+    providerName: exampleProvider2.providerName,
+    street: "123 Main St",
+    city: "Winchester",
+    state: "VA",
+    zip: "99999",
+    phone: "540-555-5555",
+    lat: 39.1249685,
+    lng: -78.1572795,
+  },
+  {
+    providerName: exampleProvider2.providerName,
+    street: "123 Main St",
+    city: "Front Royal",
+    state: "VA",
+    zip: "99999",
+    phone: "540-555-1234",
+    lat: 38.918929,
+    lng: -78.1954975,
+  },
+];
 
 /**
  * @type {import("./types").Service[]}
@@ -155,6 +168,10 @@ const exampleProviderServices2 = [
 
 const allProviders = [exampleProvider, exampleProvider2];
 const allServices = [...exampleProviderServices, ...exampleProviderServices2];
+const allLocations = [
+  ...exampleProviderLocations,
+  ...exampleProvider2Locations,
+];
 
 // write exampleProvider to Providers collection
 for (const provider of allProviders) {
@@ -172,6 +189,18 @@ for (const service of allServices) {
     service.serviceName
   );
   await setDoc(serviceRef, service);
+}
+
+// write locations to subcollection
+for (const location of allLocations) {
+  const locationRef = doc(
+    db,
+    "providers",
+    location.providerName,
+    "locations",
+    `${location.street}-${location.city}-${location.state}`
+  );
+  await setDoc(locationRef, location);
 }
 
 // write some service service names

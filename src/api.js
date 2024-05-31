@@ -1,4 +1,4 @@
-import { getAllProviders, getMetaData } from "./firebase.js";
+import { getAllLocations, getAllProviders, getMetaData } from "./firebase.js";
 import { setMapCSURegions, setMapLocations } from "./lib/simplemaps/utils.js";
 
 // Initial map setup must come before async calls
@@ -11,14 +11,12 @@ export let availableServices = [];
 export let availableLanguages = [];
 if (metaData) {
   lastUpdated = new Date(metaData.lastUpdated).toLocaleDateString();
-  availableServices = metaData.availableServices;
-  availableLanguages = metaData.availableLanguages;
-  console.log(lastUpdated);
+  availableServices = metaData.availableServices.sort();
+  availableLanguages = metaData.availableLanguages.sort();
 }
 
 const providerCollection = await getAllProviders();
 export let providers = [];
-export let locations = [];
 if (providerCollection) {
   providers = providerCollection.map((provider) => {
     return {
@@ -26,21 +24,22 @@ if (providerCollection) {
       name: provider.providerName,
     };
   });
-  providerCollection.forEach((provider) => {
-    provider.offices.forEach((office) => {
-      locations.push({
-        providerName: provider.providerName,
-        providerId: provider.providerName,
-        street: office.street,
-        city: office.city,
-        state: office.state,
-        zip: office.zip,
-        lat: office.lat,
-        lng: office.lng,
-        phone: office.phone,
-      });
-    });
-  });
 }
 
-setMapLocations(locations);
+const locationCollection = await getAllLocations();
+if (locationCollection) {
+  const locations = locationCollection.map((location) => {
+    return {
+      providerName: location.providerName,
+      providerId: location.providerName,
+      street: location.street,
+      city: location.city,
+      state: location.state,
+      zip: location.zip,
+      lat: location.lat,
+      lng: location.lng,
+      phone: location.phone,
+    };
+  });
+  setMapLocations(locations);
+}

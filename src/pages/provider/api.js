@@ -1,4 +1,8 @@
-import { getProvider, getProviderServices } from "../../firebase.js";
+import {
+  getProvider,
+  getProviderLocations,
+  getProviderServices,
+} from "../../firebase.js";
 import {
   setAllDefaultColor,
   setMapCSURegions,
@@ -13,25 +17,27 @@ setMapCSURegions();
 setAllDefaultColor();
 
 export let providerInfo = {};
-const locations = [];
 const providerDoc = await getProvider(providerID);
 if (providerDoc) {
   providerInfo = providerDoc;
+}
 
-  providerInfo.offices.forEach((office) => {
+const providerLocations = await getProviderLocations(providerID);
+if (providerLocations) {
+  const locations = [];
+  providerLocations.forEach((location) => {
     locations.push({
-      providerName: providerInfo.providerName,
-      providerId: providerInfo.providerName,
-      street: office.street,
-      city: office.city,
-      state: office.state,
-      zip: office.zip,
-      lat: office.lat,
-      lng: office.lng,
-      phone: office.phone,
+      providerName: location.providerName,
+      providerId: location.providerName,
+      street: location.street,
+      city: location.city,
+      state: location.state,
+      zip: location.zip,
+      lat: location.lat,
+      lng: location.lng,
+      phone: location.phone,
     });
   });
-
   setMapLocations(locations);
 }
 

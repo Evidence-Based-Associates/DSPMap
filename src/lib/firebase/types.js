@@ -6,11 +6,11 @@
  * @prop {string} contactName
  * @prop {string} contactEmail
  * @prop {number} defaultMapZoom
- * @prop {Office[]} offices
  */
 
 /**
- * @typedef Office
+ * @typedef Location
+ * @prop {string} providerName
  * @prop {string} street
  * @prop {string} city
  * @prop {string} state

@@ -51,6 +51,18 @@ export const getAllProviders = async () => {
   return snap.docs.map((doc) => doc.data());
 };
 
+export const getAllLocations = async () => {
+  const collectionRef = collectionGroup(db, "locations");
+  const snap = await getDocs(collectionRef);
+  return snap.docs.map((doc) => doc.data());
+};
+
+export const getProviderLocations = async (providerID) => {
+  const collectionRef = collection(db, "providers", providerID, "locations");
+  const snap = await getDocs(collectionRef);
+  return snap.docs.map((doc) => doc.data());
+};
+
 export const getProvider = async (providerID) => {
   const docRef = doc(db, "providers", providerID);
   const docSnap = await getDoc(docRef);
@@ -68,6 +80,16 @@ export const getAllCSUServices = async (csu) => {
   const serviceQuery = query(
     serviceCollection,
     where("allFIPS", "array-contains-any", csu.localities)
+  );
+  const snap = await getDocs(serviceQuery);
+  return snap.docs.map((doc) => doc.data());
+};
+
+export const getAllServicesByName = async (serviceName) => {
+  const serviceCollection = collectionGroup(db, "services");
+  const serviceQuery = query(
+    serviceCollection,
+    where("serviceName", "==", serviceName)
   );
   const snap = await getDocs(serviceQuery);
   return snap.docs.map((doc) => doc.data());
