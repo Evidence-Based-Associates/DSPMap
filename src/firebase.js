@@ -11,10 +11,11 @@ import {
   collectionGroup,
   query,
   where,
+  orderBy,
 } from "firebase/firestore/lite";
 
 import { config } from "../config.js";
-import { orderBy } from "firebase/firestore";
+import { allFIPSinRegion, sortedCSUs } from "./lib/csu.js";
 
 const devConfig = {
   apiKey: "AIzaSyC6X571rXek2TC8XCE8jcd6bIgKi5sc0_A",
@@ -116,4 +117,48 @@ export const getAllServicesByLanguage = async (language) => {
   );
   const snap = await getDocs(serviceQuery);
   return snap.docs.map((doc) => doc.data());
+};
+
+export const searchServices = async ({
+  serviceName = "",
+  locationType = "",
+  locationID = "",
+  languageName = "",
+}) => {
+  const serviceCollection = collectionGroup(db, "services");
+  const queries = [];
+  if (serviceName && serviceName !== "any") {
+    queries.push(where("serviceName", "==", serviceName));
+  }
+  if (languageName && languageName !== "English") {
+    queries.push(orderBy("languageFIPS"));
+  }
+  switch (locationType) {
+    case "CSU":
+      queries.push(
+        where(
+          "allFIPS",
+          "array-contains-any",
+          sortedCSUs.find((csu) => csu.slug === locationID)?.localities
+        )
+      );
+      break;
+    case "Locality":
+      queries.push(where("allFIPS", "array-contains", locationID));
+      break;
+    case "Region":
+      const regionFIPS = allFIPSinRegion(locationID);
+      queries.push(where("allFIPS", "array-contains-any", regionFIPS));
+      break;
+    default:
+      break;
+  }
+  const servicesQuery = query(serviceCollection, ...queries);
+  const snap = await getDocs(servicesQuery);
+  const results = snap.docs.map((doc) => doc.data());
+  // if language then filter out
+  if (languageName && languageName !== "English") {
+    return results.filter((service) => service.languageFIPS[languageName]);
+  }
+  return results;
 };
