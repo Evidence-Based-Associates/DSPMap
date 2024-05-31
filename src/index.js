@@ -7,7 +7,9 @@ import {
 import { regionCSUs, sortedCSUs, allFips, CSUStructure } from "./lib/csu.js";
 
 const lastUpdatedSpan = document.getElementById("lastUpdated");
-lastUpdatedSpan.innerText = lastUpdated;
+if (lastUpdatedSpan) {
+  lastUpdatedSpan.innerText = lastUpdated;
+}
 
 const serviceSelect = document.getElementsByName("Service")[0];
 availableServices.forEach((service) => {
@@ -70,27 +72,35 @@ for (let i = 0; i < CSUStructure.length; i++) {
     csuLI.innerHTML = `<a href="pages/csu/index.html?id=${CSUStructure[i].CSUs[j].slug}">${CSUStructure[i].CSUs[j].name}</a>`;
     csuUL.appendChild(csuLI);
   }
-  regionListUL.appendChild(regionHeading);
-  regionListUL.appendChild(csuUL);
+  if (regionListUL) {
+    regionListUL.appendChild(regionHeading);
+    regionListUL.appendChild(csuUL);
+  }
 }
 
 const providerUL = document.getElementById("providerList");
 providers.forEach((provider) => {
   const providerLI = document.createElement("li");
   providerLI.innerHTML = `<a href="pages/provider/index.html?id=${provider.id}">${provider.name}</a>`;
-  providerUL.appendChild(providerLI);
+  if (providerUL) {
+    providerUL.appendChild(providerLI);
+  }
 });
 
 const serviceUL = document.getElementById("serviceList");
 availableServices.forEach((service, index) => {
   const serviceLI = document.createElement("li");
   serviceLI.innerHTML = `<a href="pages/service/index.html?id=${index}">${service}</a>`;
-  serviceUL.appendChild(serviceLI);
+  if (serviceUL) {
+    serviceUL.appendChild(serviceLI);
+  }
 });
 
 const languageUL = document.getElementById("languageList");
 availableLanguages.forEach((language, index) => {
   const languageLI = document.createElement("li");
   languageLI.innerHTML = `<a href="pages/language/index.html?id=${index}">${language}</a>`;
-  languageUL.appendChild(languageLI);
+  if (languageUL) {
+    languageUL.appendChild(languageLI);
+  }
 });
