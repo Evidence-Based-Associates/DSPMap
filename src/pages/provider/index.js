@@ -58,11 +58,11 @@ serviceNames.forEach((serviceName) => {
   serviceSelect.appendChild(serviceOption);
 });
 
-const displayService = async () => {
+const displayService = () => {
   const selectedServiceName =
     // @ts-ignore
     serviceSelect.options[serviceSelect.selectedIndex].text;
-  const fipsLists = await serviceFIPS(selectedServiceName);
+  const fipsLists = serviceFIPS(selectedServiceName);
   setAllDefaultColor();
   colorFIPS(fipsLists.available, RegColor);
   colorFIPS(fipsLists.limited, TravelColor);

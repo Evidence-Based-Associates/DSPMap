@@ -47,3 +47,15 @@ export const getAllProviders = async () => {
   const snap = await getDocs(collectionRef);
   return snap.docs.map((doc) => doc.data());
 };
+
+export const getProvider = async (providerID) => {
+  const docRef = doc(db, "providers", providerID);
+  const docSnap = await getDoc(docRef);
+  return docSnap.data();
+};
+
+export const getProviderServices = async (providerID) => {
+  const collectionRef = collection(db, "providers", providerID, "services");
+  const snap = await getDocs(collectionRef);
+  return snap.docs.map((doc) => doc.data());
+};
