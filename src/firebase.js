@@ -14,6 +14,7 @@ import {
 } from "firebase/firestore/lite";
 
 import { config } from "../config.js";
+import { orderBy } from "firebase/firestore";
 
 const devConfig = {
   apiKey: "AIzaSyC6X571rXek2TC8XCE8jcd6bIgKi5sc0_A",
@@ -85,11 +86,33 @@ export const getAllCSUServices = async (csu) => {
   return snap.docs.map((doc) => doc.data());
 };
 
+export const getAllServicesInFIPS = async (fips) => {
+  const serviceCollection = collectionGroup(db, "services");
+  const serviceQuery = query(
+    serviceCollection,
+    where("allFIPS", "array-contains", fips)
+  );
+  const snap = await getDocs(serviceQuery);
+  return snap.docs.map((doc) => doc.data());
+};
+
 export const getAllServicesByName = async (serviceName) => {
   const serviceCollection = collectionGroup(db, "services");
   const serviceQuery = query(
     serviceCollection,
     where("serviceName", "==", serviceName)
+  );
+  const snap = await getDocs(serviceQuery);
+  return snap.docs.map((doc) => doc.data());
+};
+
+export const getAllServicesByLanguage = async (language) => {
+  console.log("language", language);
+  const serviceCollection = collectionGroup(db, "services");
+  const serviceQuery = query(
+    serviceCollection,
+    // orderBy(`languageFIPS.${language}`) // TODO: Firebase won't filter by .language
+    orderBy("languageFIPS")
   );
   const snap = await getDocs(serviceQuery);
   return snap.docs.map((doc) => doc.data());
