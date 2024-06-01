@@ -218,4 +218,8 @@ export const saveProvider = async (
     );
     await setDoc(locationRef, locationInfo);
   });
+  const metaDataRef = doc(db, "meta", "data");
+  updateDoc(metaDataRef, {
+    lastUpdated: new Date().toLocaleDateString(),
+  });
 };
