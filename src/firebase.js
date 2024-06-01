@@ -18,6 +18,7 @@ import {
   query,
   where,
   orderBy,
+  deleteDoc,
 } from "firebase/firestore/lite";
 
 import { config } from "../config.js";
@@ -224,6 +225,27 @@ export const saveProvider = async (
 ) => {
   const providerRef = doc(db, "providers", providerInfo.providerName);
   await setDoc(providerRef, providerInfo);
+
+  const servicesCollectionRef = collection(
+    db,
+    "providers",
+    providerInfo.providerName,
+    "services"
+  );
+  const servicesSnap = await getDocs(servicesCollectionRef);
+  servicesSnap.docs.forEach(async (doc) => {
+    await deleteDoc(doc.ref);
+  });
+  const locationsCollectionRef = collection(
+    db,
+    "providers",
+    providerInfo.providerName,
+    "locations"
+  );
+  const locationsSnap = await getDocs(locationsCollectionRef);
+  locationsSnap.docs.forEach(async (doc) => {
+    await deleteDoc(doc.ref);
+  });
 
   if (servicesInfo.length === 0) {
     return;

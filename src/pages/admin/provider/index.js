@@ -260,6 +260,7 @@ const handleSubmit = async () => {
   const offices = [];
   for (let i = 0; i < officeCount; i++) {
     const office = {
+      providerName: formData.get("providerName"),
       street: streets[i] || "",
       city: cities[i] || "",
       state: states[i] || "",
