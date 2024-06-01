@@ -6,6 +6,7 @@ import {
   existingProviders,
   getProviderInfo,
   getProviderServices,
+  getProviderLocations,
 } from "./api";
 import {
   appState,
@@ -18,7 +19,6 @@ import {
   resetAppState,
   loadServices,
 } from "./state";
-import { CSUStructure } from "../../../lib/csu";
 import { regions } from "../../../lib/simplemaps/utils";
 
 const existingProviderSelect = document.getElementById(
@@ -92,6 +92,7 @@ existingProviderSelect?.addEventListener("change", async () => {
   const selectedProvider = existingProviderSelect.value;
   const provider = await getProviderInfo(selectedProvider);
   const providerServices = await getProviderServices(selectedProvider);
+  const providerLocations = await getProviderLocations(selectedProvider);
   // @ts-ignore
   loadServices(providerServices);
   // @ts-ignore
@@ -107,28 +108,30 @@ existingProviderSelect?.addEventListener("change", async () => {
   // @ts-ignore
   contactEmailInput.value = provider.contactEmail;
 
-  const officeCount = provider.offices.length;
+  const officeCount = providerLocations.length;
 
-  additionalOffices.innerHTML = "";
-  for (let i = 0; i < officeCount; i++) {
-    const office = provider.offices[i];
-    // @ts-ignore
-    street[i].value = office.street;
-    // @ts-ignore
-    city[i].value = office.city;
-    // @ts-ignore
-    state[i].value = office.state;
-    // @ts-ignore
-    zip[i].value = office.zip;
-    // @ts-ignore
-    phoneInput[i].value = office.phone;
-    // @ts-ignore
-    latInput[i].value = office.lat;
-    // @ts-ignore
-    lngInput[i].value = office.lng;
-    // if this is the last office, don't add a new one
-    if (officeCount > i + 1) {
-      addOfficeButton?.click();
+  if (additionalOffices) {
+    additionalOffices.innerHTML = "";
+    for (let i = 0; i < officeCount; i++) {
+      const office = providerLocations[i];
+      // @ts-ignore
+      street[i].value = office.street;
+      // @ts-ignore
+      city[i].value = office.city;
+      // @ts-ignore
+      state[i].value = office.state;
+      // @ts-ignore
+      zip[i].value = office.zip;
+      // @ts-ignore
+      phoneInput[i].value = office.phone;
+      // @ts-ignore
+      latInput[i].value = office.lat;
+      // @ts-ignore
+      lngInput[i].value = office.lng;
+      // if this is the last office, don't add a new one
+      if (officeCount > i + 1) {
+        addOfficeButton?.click();
+      }
     }
   }
 
@@ -219,12 +222,8 @@ serviceMapZoomSelect?.addEventListener("change", () => {
 });
 
 const handleSubmit = async () => {
-  // @ts-ignore
-  //   const formData = new FormData(providerForm);
-  //   const data = Object.fromEntries(formData);
-  // TODO save to firebase
   console.log("appState", appState);
-  // build providerInfo from form data
+
   // @ts-ignore
   const formData = new FormData(providerForm);
   // TODO validate form data
@@ -252,10 +251,8 @@ const handleSubmit = async () => {
     offices.push(office);
   }
 
-  const providerName = formData.get("providerName") || providerNameInput.value;
-
   const providerInfo = {
-    providerName: providerName,
+    providerName: formData.get("providerName"),
     website: formData.get("website"),
     contactName: formData.get("contactName"),
     contactEmail: formData.get("contactEmail"),
@@ -264,7 +261,11 @@ const handleSubmit = async () => {
     offices: offices,
   };
 
-  saveProvider({ ...providerInfo }, [...appState.providerServices])
+  saveProvider(
+    { ...providerInfo },
+    [...appState.providerServices],
+    [...offices]
+  )
     .then(() => {
       if (errorAlert) {
         errorAlert.setAttribute("hidden", "true");

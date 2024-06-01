@@ -47,6 +47,15 @@ export const getMetaData = async () => {
   return docSnap.data();
 };
 
+export const getGoogleMapsApiKey = async () => {
+  const docRef = doc(db, "meta", "GOOGLE_API_KEY");
+  const docSnap = await getDoc(docRef);
+  if (docSnap.exists()) {
+    return docSnap.get("value");
+  }
+  return "No API Key Found.";
+};
+
 export const getAllProviders = async () => {
   const collectionRef = collection(db, "providers");
   const snap = await getDocs(collectionRef);
@@ -161,4 +170,52 @@ export const searchServices = async ({
     return results.filter((service) => service.languageFIPS[languageName]);
   }
   return results;
+};
+
+export const saveProvider = async (
+  providerInfo,
+  servicesInfo = [],
+  locationsInfo = []
+) => {
+  const providerRef = doc(db, "providers", providerInfo.providerName);
+  await setDoc(providerRef, providerInfo);
+
+  if (servicesInfo.length === 0) {
+    return;
+  }
+  // firebase cannot handle Sets, need to convert to Array
+  servicesInfo.forEach((serviceInfo) => {
+    serviceInfo.allFIPS = [
+      ...serviceInfo.availableFIPS,
+      ...serviceInfo.limitedFIPS,
+    ];
+    serviceInfo.availableFIPS = [...serviceInfo.availableFIPS];
+    serviceInfo.limitedFIPS = [...serviceInfo.limitedFIPS];
+    serviceInfo.providerName = providerInfo.providerName;
+    const languageFIPS = serviceInfo.languageFIPS;
+    Object.keys(languageFIPS).forEach((language) => {
+      languageFIPS[language] = [...languageFIPS[language]];
+    });
+  });
+  servicesInfo.forEach(async (serviceInfo) => {
+    const serviceRef = doc(
+      db,
+      "providers",
+      providerInfo.providerName,
+      "services",
+      serviceInfo.serviceName
+    );
+    await setDoc(serviceRef, serviceInfo);
+  });
+  console.log("locationsInfo", locationsInfo);
+  locationsInfo.forEach(async (locationInfo) => {
+    const locationRef = doc(
+      db,
+      "providers",
+      providerInfo.providerName,
+      "locations",
+      `${locationInfo.street}-${locationInfo.city}-${locationInfo.state}-${locationInfo.zip}`
+    );
+    await setDoc(locationRef, locationInfo);
+  });
 };
