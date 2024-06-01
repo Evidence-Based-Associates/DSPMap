@@ -252,7 +252,6 @@ export const saveProvider = async (
     );
     await setDoc(serviceRef, serviceInfo);
   });
-  console.log("locationsInfo", locationsInfo);
   locationsInfo.forEach(async (locationInfo) => {
     const locationRef = doc(
       db,
