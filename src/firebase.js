@@ -1,5 +1,11 @@
 import { initializeApp } from "firebase/app";
 import {
+  GoogleAuthProvider,
+  getAuth,
+  signInWithPopup,
+  signOut,
+} from "firebase/auth";
+import {
   getFirestore,
   connectFirestoreEmulator,
   doc,
@@ -36,10 +42,49 @@ const firebaseConfig = isLocal ? emulatorConfig : devConfig;
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
+const provider = new GoogleAuthProvider();
+const auth = getAuth();
 
 if (isLocal) {
   connectFirestoreEmulator(db, "127.0.0.1", 8080);
 }
+
+export const login = async () => {
+  let user = {};
+  await signInWithPopup(auth, provider)
+    .then((result) => {
+      // This gives you a Google Access Token. You can use it to access the Google API.
+      const credential = GoogleAuthProvider.credentialFromResult(result);
+      const token = credential?.accessToken;
+      // The signed-in user info.
+      user = result.user;
+      // IdP data available using getAdditionalUserInfo(result)
+      // ...
+    })
+    .catch((error) => {
+      // Handle Errors here.
+      const errorCode = error.code;
+      const errorMessage = error.message;
+      // The email of the user's account used.
+      const email = error.customData.email;
+      // The AuthCredential type that was used.
+      const credential = GoogleAuthProvider.credentialFromError(error);
+      // ...
+    });
+  return user;
+};
+
+export const logout = async () => {
+  signOut(auth)
+    .then(() => {
+      // Sign-out successful.
+      console.log("Sign-out successful.");
+    })
+    .catch((error) => {
+      // An error happened.
+      console.log("An error happened.", error);
+    });
+};
 
 export const getMetaData = async () => {
   const docRef = doc(db, "meta", "data");

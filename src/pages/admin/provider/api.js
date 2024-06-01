@@ -8,11 +8,16 @@ import {
   getMetaData,
   getProvider,
   getGoogleMapsApiKey,
+  login as loginAPI,
+  logout as logoutAPI,
 } from "../../../firebase.js";
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const updateProviderName = urlParams.get("name");
+
+export const login = async () => await loginAPI();
+export const logout = async () => await logoutAPI();
 
 export const isNew = updateProviderName === null;
 

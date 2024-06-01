@@ -7,6 +7,8 @@ import {
   getProviderInfo,
   getProviderServices,
   getProviderLocations,
+  login,
+  logout,
 } from "./api";
 import {
   appState,
@@ -61,6 +63,27 @@ const selectedLanguages = document.getElementById("selectedLanguages");
 
 const successAlert = document.getElementById("successAlert");
 const errorAlert = document.getElementById("errorAlert");
+
+const logoutButton = document.getElementById("logoutButton");
+const loginButton = document.getElementById("loginButton");
+
+loginButton?.addEventListener("click", async () => {
+  const user = await login();
+  console.log("user", user.email);
+  if (logoutButton) {
+    logoutButton.innerText = `Logout ${user.email}`;
+    logoutButton?.removeAttribute("hidden");
+  }
+  loginButton?.setAttribute("hidden", "true");
+});
+
+logoutButton?.addEventListener("click", async () => {
+  await logout();
+  if (loginButton) {
+    loginButton?.removeAttribute("hidden");
+    logoutButton?.setAttribute("hidden", "true");
+  }
+});
 
 const languageControls = [
   allLanguagesSelect,
