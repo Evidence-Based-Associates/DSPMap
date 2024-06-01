@@ -194,9 +194,6 @@ allServicesSelect?.addEventListener("change", () => {
 
   selectedServices?.dispatchEvent(new Event("change"));
 
-  if (languageModeSwitch) {
-    languageModeSwitch.removeAttribute("disabled");
-  }
   if (coveragemap) {
     coveragemap.removeAttribute("hidden");
   }
