@@ -19,6 +19,9 @@ setAllDefaultColor();
 export let providerInfo = {};
 const providerDoc = await getProvider(providerID);
 if (providerDoc) {
+  providerDoc.lastUpdated = new Date(
+    providerDoc.lastUpdated
+  ).toLocaleDateString();
   providerInfo = providerDoc;
 }
 
