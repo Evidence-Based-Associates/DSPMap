@@ -190,6 +190,7 @@ export const searchServices = async ({
   }
   switch (locationType) {
     case "CSU":
+      console.log("case CSU");
       queries.push(
         where(
           "allFIPS",
@@ -202,8 +203,12 @@ export const searchServices = async ({
       queries.push(where("allFIPS", "array-contains", locationID));
       break;
     case "Region":
+      console.log("case Region");
       const regionFIPS = allFIPSinRegion(locationID);
       queries.push(where("allFIPS", "array-contains-any", regionFIPS));
+      break;
+    case "Telehealth":
+      queries.push(where("hasTelehealth", "==", true));
       break;
     default:
       break;

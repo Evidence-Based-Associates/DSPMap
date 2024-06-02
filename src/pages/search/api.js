@@ -47,6 +47,9 @@ if (locationID.includes("CSU")) {
 } else if (locationID == "any") {
   locationText = "Any Location";
   locationType = "any";
+} else if (locationID == "telehealth") {
+  locationText = "Telehealth";
+  locationType = "Telehealth";
 } else {
   switch (locationID) {
     case "north":
@@ -66,7 +69,6 @@ if (locationID.includes("CSU")) {
       break;
     case "midwest":
       locationText = "Midwestern Region";
-      break;
   }
   locationType = "Region";
 }
