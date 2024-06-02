@@ -257,7 +257,17 @@ allServicesSelect?.addEventListener("change", () => {
 });
 selectedServices?.addEventListener("change", () => {
   // @ts-ignore
-  setService(selectedServices.value);
+  const selectedService = selectedServices.value;
+  setService(selectedService);
+  telehealthCheckbox?.removeAttribute("disabled");
+
+  const service = appState.providerServices.find(
+    (service) => service.serviceName === appState.selectedService
+  );
+  if (service && telehealthCheckbox) {
+    // @ts-ignore
+    telehealthCheckbox.checked = service.hasTelehealth;
+  }
 });
 
 if (defaultMapZoomSelect && serviceMapZoomSelect) {

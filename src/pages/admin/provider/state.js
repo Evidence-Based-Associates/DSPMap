@@ -248,7 +248,7 @@ export const loadServices = (services) => {
   for (const service of services) {
     appState.providerServices.push({
       serviceName: service.serviceName,
-      hasTelehealth: service.telehealth,
+      hasTelehealth: service.hasTelehealth || false,
       mapZoom: service.mapZoom,
       allFIPS: new Set(service.allFIPS),
       availableFIPS: new Set(service.availableFIPS),
