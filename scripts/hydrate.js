@@ -8,7 +8,7 @@ import {
 } from "firebase/firestore";
 
 const config = {
-  ENV: "DEV",
+  ENV: "LOCAL",
 };
 
 const devConfig = {
@@ -39,7 +39,7 @@ const docRef = doc(db, "meta", "healthCheck");
 await setDoc(docRef, { value: "data from firebase emulator" });
 
 /**
- * @type {import("./types").Provider}
+ * @type {import("../src/lib/firebase/types").Provider}
  */
 const exampleProvider = {
   providerName: "ABC Counseling",
@@ -51,7 +51,7 @@ const exampleProvider = {
 };
 
 /**
- * @type {import("./types").Location[]}
+ * @type {import("../src/lib/firebase/types").Location[]}
  */
 const exampleProviderLocations = [
   {
@@ -77,7 +77,7 @@ const exampleProviderLocations = [
 ];
 
 /**
- * @type {import("./types").Service[]}
+ * @type {import("../src/lib/firebase/types").Service[]}
  */
 const exampleProviderServices = [
   {
@@ -109,7 +109,7 @@ const exampleProviderServices = [
 ];
 
 /**
- * @type {import("./types").Provider}
+ * @type {import("../src/lib/firebase/types").Provider}
  */
 const exampleProvider2 = {
   providerName: "XYZ Counseling",
@@ -121,7 +121,7 @@ const exampleProvider2 = {
 };
 
 /**
- * @type {import("./types").Location[]}
+ * @type {import("../src/lib/firebase/types").Location[]}
  
  */
 const exampleProvider2Locations = [
@@ -148,7 +148,7 @@ const exampleProvider2Locations = [
 ];
 
 /**
- * @type {import("./types").Service[]}
+ * @type {import("../src/lib/firebase/types").Service[]}
  */
 const exampleProviderServices2 = [
   {
