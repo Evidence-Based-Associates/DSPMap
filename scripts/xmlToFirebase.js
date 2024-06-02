@@ -1,11 +1,19 @@
 import { db } from "./setup.js";
 import * as fs from "fs";
 import { XMLParser, XMLValidator } from "fast-xml-parser";
+import {
+  collection,
+  deleteDoc,
+  doc,
+  getDocs,
+  setDoc,
+  updateDoc,
+} from "firebase/firestore";
 
 const options = {
   ignoreAttributes: false,
-  // parseAttributeValue: true,
   allowBooleanAttributes: true,
+  arrayMode: "strict",
 };
 const parser = new XMLParser(options);
 
@@ -13,7 +21,6 @@ const filepath = "../docs/data/dsps.xml";
 
 const xmlData = fs.readFileSync(filepath, "utf8");
 const jsonData = parser.parse(xmlData);
-// console.log(jsonData.DSPs.Provider[1]);
 
 /**
  * @typedef {Object} Provider
@@ -48,16 +55,12 @@ const jsonData = parser.parse(xmlData);
  * @param {string} service.Name
  * @param {string} service.Description
  */
-// '#text' string
-// '@_travelReq' Y | N
 /**
  *
  * @param {Provider} provider
  * @returns
  */
 const convertProviderInfo = (provider) => {
-  //   console.log(provider["@_id"]);
-  //   console.log(provider.Office);
   return {
     providerName: provider.Name,
     lastUpdated: provider.LastUpdated,
@@ -87,14 +90,15 @@ const convertOfficeInfo = (office, providerName) => {
 };
 
 const convertServiceInfo = (service, providerName) => {
-  console.log("Service Name: ", service["@_serviceName"]);
-  console.log("SERVICE FIPS", service.FIPs);
+  if (service.length === 0) {
+    return [];
+  }
   const availableFIPS = new Set();
   const limitedFIPS = new Set();
   const languageFIPS = {};
   const allFIPS = new Set();
 
-  service.FIPs.forEach((fip) => {
+  const trackFIPS = (fip) => {
     allFIPS.add(fip["#text"]);
     if (fip["@_travelReq"] === "N") {
       availableFIPS.add(fip["#text"]);
@@ -112,29 +116,126 @@ const convertServiceInfo = (service, providerName) => {
         }
       });
     }
-  });
-  // convert languageFIPS entries to arrays
-  for (const lang in languageFIPS) {
-    languageFIPS[lang] = Array.from(languageFIPS[lang]);
+  };
+  if (!service.FIPs || service.FIPs.length === undefined) {
+    trackFIPS(service.FIPs);
+  } else {
+    service.FIPs.forEach((fip) => trackFIPS(fip));
   }
+
   return {
     providerName: providerName,
     serviceName: service["@_serviceName"],
     mapZoom: service["@_serviceZoom"],
-    allFIPS: Array.from(allFIPS),
-    availableFIPS: Array.from(availableFIPS),
-    limitedFIPS: Array.from(limitedFIPS),
-    languageFIPS: languageFIPS,
+    allFIPS,
+    availableFIPS,
+    limitedFIPS,
+    languageFIPS,
   };
 };
 
-const providerInfo = convertProviderInfo(jsonData.DSPs.Provider[0]);
-const officeInfo = convertOfficeInfo(
-  jsonData.DSPs.Provider[0].Office,
-  providerInfo.providerName
-);
-const convertedService = convertServiceInfo(
-  jsonData.DSPs.Provider[3].Service[0],
-  jsonData.DSPs.Provider[3].Name
-);
-console.log(convertedService);
+const saveProvider = async (
+  providerInfo,
+  servicesInfo = [],
+  locationsInfo = []
+) => {
+  const providerRef = doc(db, "providers", providerInfo.providerName);
+  await setDoc(providerRef, providerInfo);
+
+  const servicesCollectionRef = collection(
+    db,
+    "providers",
+    providerInfo.providerName,
+    "services"
+  );
+  const servicesSnap = await getDocs(servicesCollectionRef);
+  servicesSnap.docs.forEach(async (doc) => {
+    await deleteDoc(doc.ref);
+  });
+  const locationsCollectionRef = collection(
+    db,
+    "providers",
+    providerInfo.providerName,
+    "locations"
+  );
+  const locationsSnap = await getDocs(locationsCollectionRef);
+  locationsSnap.docs.forEach(async (doc) => {
+    await deleteDoc(doc.ref);
+  });
+
+  if (servicesInfo.length === 0) {
+    return;
+  }
+  // firebase cannot handle Sets, need to convert to Array
+  servicesInfo.forEach((serviceInfo) => {
+    serviceInfo.allFIPS = [
+      ...serviceInfo.availableFIPS,
+      ...serviceInfo.limitedFIPS,
+    ];
+    serviceInfo.availableFIPS = [...serviceInfo.availableFIPS];
+    serviceInfo.limitedFIPS = [...serviceInfo.limitedFIPS];
+    serviceInfo.providerName = providerInfo.providerName;
+    const languageFIPS = serviceInfo.languageFIPS;
+    Object.keys(languageFIPS).forEach((language) => {
+      languageFIPS[language] = [...languageFIPS[language]];
+    });
+  });
+  servicesInfo.forEach(async (serviceInfo) => {
+    const serviceRef = doc(
+      db,
+      "providers",
+      providerInfo.providerName,
+      "services",
+      serviceInfo.serviceName
+    );
+    await setDoc(serviceRef, serviceInfo);
+  });
+  locationsInfo.forEach(async (locationInfo) => {
+    const locationRef = doc(
+      db,
+      "providers",
+      providerInfo.providerName,
+      "locations",
+      `${locationInfo.street}-${locationInfo.city}-${locationInfo.state}-${locationInfo.zip}`
+    );
+    await setDoc(locationRef, locationInfo);
+  });
+  const metaDataRef = doc(db, "meta", "data");
+  updateDoc(metaDataRef, {
+    lastUpdated: new Date().toLocaleDateString(),
+  });
+  console.log(`Saved ${providerInfo.providerName}`);
+};
+
+const allProviders = jsonData.DSPs.Provider;
+allProviders.forEach((provider) => {
+  const providerInfo = convertProviderInfo(provider);
+
+  let providerOffices = [];
+  if (provider.Office.length === undefined) {
+    providerOffices.push(
+      convertOfficeInfo(provider.Office, providerInfo.providerName)
+    );
+  } else {
+    providerOffices = provider.Office.map((office) =>
+      convertOfficeInfo(office, providerInfo.providerName)
+    );
+  }
+
+  let providerServices = [];
+  if (provider.Service.length === undefined) {
+    providerServices.push(
+      convertServiceInfo(provider.Service, providerInfo.providerName)
+    );
+  } else {
+    providerServices = provider.Service.map((service) =>
+      convertServiceInfo(service, providerInfo.providerName)
+    );
+  }
+
+  saveProvider(providerInfo, providerServices, providerOffices);
+
+  //   console.log(providerInfo);
+  //   console.log(providerOffices);
+  //   console.log(providerServices);
+});

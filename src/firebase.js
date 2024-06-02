@@ -4,6 +4,7 @@ import {
   getAuth,
   signInWithPopup,
   signOut,
+  connectAuthEmulator,
 } from "firebase/auth";
 import {
   getFirestore,
@@ -36,11 +37,14 @@ const devConfig = {
 
 const emulatorConfig = {
   projectId: "demo-dsp-map",
+  appId: "local",
+  apiKey: "local",
 };
 
 const isLocal = config.ENV === "LOCAL";
 const firebaseConfig = isLocal ? emulatorConfig : devConfig;
 
+console.log("firebaseConfig", firebaseConfig);
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const provider = new GoogleAuthProvider();
@@ -48,6 +52,7 @@ const auth = getAuth();
 
 if (isLocal) {
   connectFirestoreEmulator(db, "127.0.0.1", 8080);
+  connectAuthEmulator(auth, "http://127.0.0.1:9099");
 }
 
 export const login = async () => {

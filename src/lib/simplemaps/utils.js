@@ -1,4 +1,3 @@
-import { API } from "../../api/api.js";
 import colors from "../colors.js";
 import { regionCSUs, sortedCSUs, isLocalityInRegion } from "../csu.js";
 
