@@ -20,6 +20,7 @@ import {
   setServiceZoom,
   resetAppState,
   loadServices,
+  toggleServiceTelehealth,
 } from "./state";
 import { regions } from "../../../lib/simplemaps/utils";
 
@@ -49,8 +50,8 @@ const latInput = document.getElementsByName("lat");
 const lngInput = document.getElementsByName("lng");
 const addOfficeButton = document.getElementById("addOfficeButton");
 const additionalOffices = document.getElementById("additionalOffices");
-const officeSection = document.getElementById("officeList");
 
+const telehealthCheckbox = document.getElementById("telehealthCheckbox");
 const languageModeSwitch = document.getElementById("languageModeSwitch");
 const allLanguagesSelect = document.getElementById("allLanguagesSelect");
 const allLanguagesSelectLabel = document.getElementById(
@@ -66,6 +67,7 @@ const errorAlert = document.getElementById("errorAlert");
 
 const logoutButton = document.getElementById("logoutButton");
 const loginButton = document.getElementById("loginButton");
+const logAppStateButton = document.getElementById("logAppStateButton");
 
 loginButton?.addEventListener("click", async () => {
   const user = await login();
@@ -100,6 +102,7 @@ if (existingProviderSelect) {
   });
 }
 existingProviderSelect?.addEventListener("change", async () => {
+  // @ts-ignore
   if (existingProviderSelect.value === "") {
     // reset form
     // @ts-ignore
@@ -174,9 +177,40 @@ existingProviderSelect?.addEventListener("change", async () => {
     option.value = service.serviceName;
     option.text = service.serviceName;
     option.selected = true;
-    selectedServices.appendChild(option);
+    if (selectedServices) {
+      selectedServices.appendChild(option);
+    }
   });
-  selectedServices.removeAttribute("disabled");
+  if (selectedServices) {
+    selectedServices.removeAttribute("disabled");
+  }
+
+  // select the available languages that the provider has
+  // @ts-ignore
+  const languageOptions = allLanguagesSelect.options;
+  for (let i = 0; i < languageOptions.length; i++) {
+    const targetOption = languageOptions[i];
+    targetOption.selected = providerServices.some((service) =>
+      Object.keys(service.languageFIPS).includes(targetOption.value)
+    );
+  }
+  // @ts-ignore
+  selectedLanguages.innerHTML = "";
+  const providerLanguages = new Set();
+  providerServices.forEach((service) => {
+    Object.keys(service.languageFIPS).forEach((language) => {
+      providerLanguages.add(language);
+    });
+  });
+  providerLanguages.forEach((language) => {
+    const option = document.createElement("option");
+    option.value = language;
+    option.text = language;
+    option.selected = true;
+    if (selectedLanguages) {
+      selectedLanguages.appendChild(option);
+    }
+  });
 
   coveragemap?.removeAttribute("hidden");
   selectedServices?.dispatchEvent(new Event("change"));
@@ -312,6 +346,11 @@ const handleSubmit = async () => {
 
 if (submitButton) {
   submitButton.addEventListener("click", handleSubmit);
+}
+if (logAppStateButton) {
+  logAppStateButton.addEventListener("click", () => {
+    console.log("appState", appState);
+  });
 }
 
 const getLatLng = async (address) => {
@@ -477,6 +516,10 @@ allAvailableLanguages.forEach((language) => {
   option.value = language;
   option.text = language;
   allLanguagesSelect?.appendChild(option);
+});
+
+telehealthCheckbox?.addEventListener("change", () => {
+  toggleServiceTelehealth();
 });
 
 const handleLanguageModeSwitch = () => {

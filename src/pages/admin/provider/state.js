@@ -12,6 +12,7 @@ export const providerServices = [];
  * @typedef Service
  * @prop {string} serviceName
  * @prop {number} mapZoom
+ * @prop {boolean} hasTelehealth
  * @prop {Set<string>} allFIPS
  * @prop {Set<string>} availableFIPS
  * @prop {Set<string>} limitedFIPS
@@ -93,6 +94,16 @@ export const toggleServiceFIPS = (fips) => {
   }
 };
 
+export const toggleServiceTelehealth = () => {
+  const service = appState.providerServices.find(
+    (service) => service.serviceName === appState.selectedService
+  );
+  if (!service) {
+    return;
+  }
+  service.hasTelehealth = !service.hasTelehealth;
+};
+
 export const setService = (/** @type {string} */ serviceName) => {
   appState.selectedService = serviceName;
   const service = appState.providerServices.find(
@@ -110,6 +121,8 @@ export const setService = (/** @type {string} */ serviceName) => {
   // refresh
   // @ts-ignore
   simplemaps_statemap.refresh();
+
+  // update UI - all available languages, a selected language, and telehealth
 };
 
 export const initService = (/** @type {string} */ serviceName) => {
@@ -122,6 +135,7 @@ export const initService = (/** @type {string} */ serviceName) => {
   appState.selectedService = serviceName;
   appState.providerServices.push({
     serviceName,
+    hasTelehealth: false,
     mapZoom: -1,
     allFIPS: new Set(),
     availableFIPS: new Set(),
@@ -193,7 +207,9 @@ export const setLanguage = (/** @type {string} */ language) => {
   // set all FIPS to default color
   colorFIPS(Array.from(allFips), "default");
   // set available FIPS to RegColor
-  colorFIPS(Array.from(service.languageFIPS[language]), colors.RegColor);
+  if (service.languageFIPS[language]) {
+    colorFIPS(Array.from(service.languageFIPS[language]), colors.RegColor);
+  }
 
   // @ts-ignore
   simplemaps_statemap.refresh();
@@ -232,6 +248,7 @@ export const loadServices = (services) => {
   for (const service of services) {
     appState.providerServices.push({
       serviceName: service.serviceName,
+      hasTelehealth: service.telehealth,
       mapZoom: service.mapZoom,
       allFIPS: new Set(service.allFIPS),
       availableFIPS: new Set(service.availableFIPS),
