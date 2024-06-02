@@ -1,11 +1,10 @@
-import dspsXML from "../../lib/getXML.js";
 import {
-  providerID,
   serviceFIPS,
   serviceNames,
   providerInfo,
   allFIPS,
   providerLanguages,
+  hasTelehealth,
 } from "./api.js";
 import colors from "../../lib/colors.js";
 import { csuListFromFIPS } from "../../lib/csu.js";
@@ -17,14 +16,8 @@ import {
 
 const { RegColor, TravelColor } = colors;
 
-const {
-  providerName,
-  contactName,
-  contactEmail,
-  website,
-  lastUpdated,
-  mapZoom,
-} = providerInfo;
+const { providerName, contactName, contactEmail, website, lastUpdated } =
+  providerInfo;
 
 const lastUpdatedText = lastUpdated;
 
@@ -71,6 +64,15 @@ const displayService = () => {
   if (typeof simplemaps_statemap.refresh === "function") {
     // @ts-ignore
     simplemaps_statemap.refresh();
+  }
+  const telehealthIndicatorText = document.getElementById(
+    "telehealthIndicatorText"
+  );
+
+  if (telehealthIndicatorText) {
+    telehealthIndicatorText.innerText = hasTelehealth(selectedServiceName)
+      ? "This service may also be delivered via telehealth."
+      : "";
   }
 };
 serviceSelect.addEventListener("change", displayService);

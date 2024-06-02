@@ -92,6 +92,21 @@ export const serviceFIPS = (serviceName) => {
   };
 };
 
+export const hasTelehealth = (serviceName) => {
+  console.log(serviceName);
+  if (providerServices.length === 0) {
+    return false;
+  }
+  const targetService = providerServices.find(
+    (service) => service.serviceName === serviceName
+  );
+  console.log(targetService);
+  if (!targetService) {
+    return false;
+  }
+  return targetService.hasTelehealth;
+};
+
 // @ts-ignore
 if (typeof simplemaps_statemap.region_zoom === "function") {
   // @ts-ignore
