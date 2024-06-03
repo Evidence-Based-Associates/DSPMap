@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, connectFirestoreEmulator } from "firebase/firestore";
 
 const config = {
-  ENV: "LOCAL",
+  ENV: "DEV",
 };
 
 const devConfig = {
