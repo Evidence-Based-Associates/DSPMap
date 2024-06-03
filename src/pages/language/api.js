@@ -1,4 +1,3 @@
-import { API } from "../../api/api.js";
 import { getAllServicesByLanguage, getMetaData } from "../../firebase.js";
 
 const queryString = window.location.search;

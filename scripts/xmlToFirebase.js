@@ -240,3 +240,66 @@ allProviders.forEach((provider) => {
   //   console.log(providerOffices);
   //   console.log(providerServices);
 });
+
+const availableServices = [
+  "Adolescent Community Reinforcement Approach",
+  "Adolescent Community Reinforcement Approach Group",
+  "Anger Management",
+  "Substance Abuse Intensive Outpatient Program",
+  "Behavioral Intervention and Educational Course",
+  "Brief Strategic Family Therapy",
+  "Crisis Services",
+  "Eye Movement Desensitization and Reprocessing",
+  "Family Centered Treatment",
+  "Dialectical Behavior Therapy Individual",
+  "Dialectical Behavior Therapy Group",
+  "Mentoring",
+  "Parent Child Interaction Therapy",
+  "Reentry Case Management",
+  "Dialectical Behavior Therapy Individual",
+  "Moral Reconation Therapy Group",
+  "Parenting Skills Intervention for Youth",
+  "Residential Group Home",
+  "Residential Transitional Living Program",
+  "Skill Building",
+  "Gang Intervention",
+  "Monitoring Services",
+  "Intensive In-Home",
+  "Intensive Care Coordination",
+  "Conferencing and Mediation",
+  "Family Support Partner",
+  "Functional Family Therapy",
+  "Group Therapy",
+  "Multisystemic Therapy",
+  "Mental Health Evaluation",
+  "Skill Building Group",
+  "Psychological Evaluation",
+  "Youth with Sexualized Behaviors Evaluation",
+  "IACCT",
+  "Mental Health Skill Building",
+  "Outpatient Therapy",
+  "Substance Use Therapy",
+  "Therapy for Exploited Youth",
+  "Transportation",
+  "Youth with Sexualized Behaviors Therapy",
+  "Trauma Focused Cognitive Behavioral Therapy",
+  "Employment and Workforce Services",
+  "Residential Group Home",
+  "Residential Services (18+)",
+  "Residential Independent Living",
+  "Residential Treatment Center",
+  "Seven Challenges",
+  "Seven Challenges Group",
+  "Specialized Individual Therapy",
+  "Substance Use Evaluation",
+  "Substance Abuse Intensive Outpatient Program",
+  "Language Services",
+];
+availableServices.sort();
+
+const availableLanguages = ["Spanish"];
+
+const metaDataRef = doc(db, "meta", "data");
+updateDoc(metaDataRef, {
+  availableServices,
+});
