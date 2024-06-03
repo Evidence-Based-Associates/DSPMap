@@ -44,7 +44,6 @@ const emulatorConfig = {
 const isLocal = config.ENV === "LOCAL";
 const firebaseConfig = isLocal ? emulatorConfig : devConfig;
 
-console.log("firebaseConfig", firebaseConfig);
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const provider = new GoogleAuthProvider();
@@ -168,7 +167,6 @@ export const getAllServicesByName = async (serviceName) => {
 };
 
 export const getAllServicesByLanguage = async (language) => {
-  console.log("language", language);
   const serviceCollection = collectionGroup(db, "services");
   const serviceQuery = query(
     serviceCollection,
@@ -195,7 +193,6 @@ export const searchServices = async ({
   }
   switch (locationType) {
     case "CSU":
-      console.log("case CSU");
       queries.push(
         where(
           "allFIPS",
@@ -208,8 +205,9 @@ export const searchServices = async ({
       queries.push(where("allFIPS", "array-contains", locationID));
       break;
     case "Region":
-      console.log("case Region");
       const regionFIPS = allFIPSinRegion(locationID);
+      //remove 51017
+      regionFIPS.splice(regionFIPS.indexOf(51017), 1); // TODO: TEMPORY FIX FOR 30 ARRAY-CONTAINS QUERY LIMIT
       queries.push(where("allFIPS", "array-contains-any", regionFIPS));
       break;
     case "Telehealth":

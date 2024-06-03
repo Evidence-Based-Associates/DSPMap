@@ -99,20 +99,21 @@ const convertServiceInfo = (service, providerName) => {
   const allFIPS = new Set();
 
   const trackFIPS = (fip) => {
-    allFIPS.add(fip["#text"]);
+    const fipsText = fip["#text"].toString();
+    allFIPS.add(fipsText);
     if (fip["@_travelReq"] === "N") {
-      availableFIPS.add(fip["#text"]);
+      availableFIPS.add(fipsText);
     } else if (fip["@_travelReq"] === "Y") {
-      limitedFIPS.add(fip["#text"]);
+      limitedFIPS.add(fipsText);
     }
     if (fip["@_languages"]) {
       const langList = fip["@_languages"].split(",");
       langList.forEach((lang) => {
         const langKey = lang.trim();
         if (languageFIPS[langKey]) {
-          languageFIPS[langKey].add(fip["#text"]);
+          languageFIPS[langKey].add(fipsText);
         } else {
-          languageFIPS[langKey] = new Set([fip["#text"]]);
+          languageFIPS[langKey] = new Set([fipsText]);
         }
       });
     }

@@ -49,6 +49,7 @@ export let allFIPS = [];
 export let providerLanguages = [];
 const providerServices = await getProviderServices(providerID);
 if (providerServices) {
+  console.log(providerServices);
   serviceNames = providerServices.map((service) => service.serviceName);
   const fipsSet = new Set();
   providerServices.forEach((service) => {
@@ -93,14 +94,12 @@ export const serviceFIPS = (serviceName) => {
 };
 
 export const hasTelehealth = (serviceName) => {
-  console.log(serviceName);
   if (providerServices.length === 0) {
     return false;
   }
   const targetService = providerServices.find(
     (service) => service.serviceName === serviceName
   );
-  console.log(targetService);
   if (!targetService) {
     return false;
   }
