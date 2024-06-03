@@ -49,7 +49,6 @@ export let allFIPS = [];
 export let providerLanguages = [];
 const providerServices = await getProviderServices(providerID);
 if (providerServices) {
-  console.log(providerServices);
   serviceNames = providerServices.map((service) => service.serviceName);
   const fipsSet = new Set();
   providerServices.forEach((service) => {
