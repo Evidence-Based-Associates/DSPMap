@@ -19,7 +19,7 @@ providers.forEach(async (provider, key) => {
     providerUL.appendChild(providerLI);
   }
 
-  const providerServiceList = await providerServices(key);
+  const providerServiceList = providerServices(key);
 
   const providerServiceUL = document.createElement("ul");
   providerServiceList.forEach((serviceName) => {
