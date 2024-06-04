@@ -11,5 +11,5 @@ export const ENV_OPTIONS = {
 
 export const config = {
   API: API_OPTIONS.FIREBASE,
-  ENV: ENV_OPTIONS.DEV,
+  ENV: ENV_OPTIONS.LOCAL,
 };
