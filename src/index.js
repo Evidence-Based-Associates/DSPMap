@@ -93,29 +93,32 @@ for (let i = 0; i < CSUStructure.length; i++) {
   }
 }
 
-const providerUL = document.getElementById("providerList");
+const providersDiv = document.getElementById("providerList");
 providers.forEach((provider) => {
-  const providerLI = document.createElement("li");
-  providerLI.innerHTML = `<a href="pages/provider/index.html?id=${provider.id}">${provider.name}</a>`;
-  if (providerUL) {
-    providerUL.appendChild(providerLI);
+  const providerItem = document.createElement("div");
+  providerItem.className = "col col-mb-3 mt-3";
+  providerItem.innerHTML = `<a href="pages/provider/index.html?id=${provider.id}">${provider.name}</a>`;
+  if (providersDiv) {
+    providersDiv.appendChild(providerItem);
   }
 });
 
-const serviceUL = document.getElementById("serviceList");
+const servicesDiv = document.getElementById("serviceList");
 availableServices.forEach((service, index) => {
-  const serviceLI = document.createElement("li");
-  serviceLI.innerHTML = `<a href="pages/service/index.html?id=${index}">${service}</a>`;
-  if (serviceUL) {
-    serviceUL.appendChild(serviceLI);
+  const serviceItem = document.createElement("div");
+  serviceItem.className = "col col-mb-3 mt-3";
+  serviceItem.innerHTML = `<a href="pages/service/index.html?id=${index}">${service}</a>`;
+  if (servicesDiv) {
+    servicesDiv.appendChild(serviceItem);
   }
 });
 
-const languageUL = document.getElementById("languageList");
+const languageDiv = document.getElementById("languageList");
 availableLanguages.forEach((language, index) => {
-  const languageLI = document.createElement("li");
-  languageLI.innerHTML = `<a href="pages/language/index.html?id=${index}">${language}</a>`;
-  if (languageUL) {
-    languageUL.appendChild(languageLI);
+  const languageItem = document.createElement("div");
+  languageItem.className = "col col-mb-3 mt-3";
+  languageItem.innerHTML = `<a href="pages/language/index.html?id=${index}">${language}</a>`;
+  if (languageDiv) {
+    languageDiv.appendChild(languageItem);
   }
 });
