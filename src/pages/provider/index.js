@@ -14,34 +14,38 @@ import {
   setAllDefaultColor,
 } from "../../lib/simplemaps/utils.js";
 
-const { RegColor, TravelColor } = colors;
+const { RegColor, TravelColor, NoServiceColor } = colors;
 
 const { providerName, contactName, contactEmail, website, lastUpdated } =
   providerInfo;
 
-const lastUpdatedText = lastUpdated;
+const serviceAreaLegend = document.getElementById("serviceAreaLegend");
+serviceAreaLegend.style.backgroundColor = RegColor;
+
+const limitedServiceLegend = document.getElementById("limitedServiceLegend");
+limitedServiceLegend.style.backgroundColor = TravelColor;
+
+const notAvailableLegend = document.getElementById("notAvailableLegend");
+notAvailableLegend.style.backgroundColor = NoServiceColor;
 
 const providerNameSpan = document.getElementsByName("providerName");
 providerNameSpan.forEach((span) => (span.innerText = providerName));
 
 const providerInfoDiv = document.getElementById("providerInfo");
-providerInfoDiv.innerHTML =
-  "<p>Last Updated: " +
-  lastUpdatedText +
-  "</p>" +
-  "<p>Website: <a href='" +
-  website +
-  "'>" +
-  website +
-  "</a></p>" +
-  "<p>Contact: " +
-  contactName +
-  "</p>" +
-  "<p>Email: <a href='mailto:" +
-  contactEmail +
-  "'>" +
-  contactEmail +
-  "</a></p>";
+const lastUpdatedSpan = document.getElementById("lastUpdatedText");
+lastUpdatedSpan.innerText = lastUpdated;
+
+const contactNameSpan = document.getElementById("contactNameText");
+contactNameSpan.innerText = contactName;
+
+const contactEmailSpan = document.getElementById("contactEmailText");
+contactEmailSpan.innerHTML = `<a href='mailto:${contactEmail}'>${contactEmail}</a>`;
+
+const providerWebsiteButton = document.getElementById("providerWebsiteButton");
+
+const websiteAddress = website.includes("http") ? website : "http://" + website;
+providerWebsiteButton?.setAttribute("href", websiteAddress);
+providerWebsiteButton?.setAttribute("target", "_blank");
 
 const serviceSelect = document.getElementsByName("serviceSelect")[0];
 serviceNames.forEach((serviceName) => {
@@ -71,7 +75,7 @@ const displayService = () => {
 
   if (telehealthIndicatorText) {
     telehealthIndicatorText.innerText = hasTelehealth(selectedServiceName)
-      ? "This service may also be delivered via telehealth."
+      ? `${providerName} is also able to deliver ${selectedServiceName} via telehealth.`
       : "";
   }
 };
@@ -82,6 +86,7 @@ const csuList = csuListFromFIPS(allFIPS);
 const providerCSUList = document.getElementById("providerCSUs");
 csuList.forEach((csu) => {
   const csuLI = document.createElement("li");
+  csuLI.className = "list-group-item";
   csuLI.innerText = csu;
   providerCSUList.appendChild(csuLI);
 });
@@ -90,6 +95,7 @@ const countyList = document.getElementById("providerCounties");
 const cityList = document.getElementById("providerCities");
 allFIPS.forEach((fips) => {
   const localityLI = document.createElement("li");
+  localityLI.className = "list-group-item";
   // @ts-ignore
   localityLI.innerText = simplemaps_statemap_mapdata.state_specific[fips].name;
   if (Number(fips) > 51500) {
@@ -102,6 +108,7 @@ allFIPS.forEach((fips) => {
 const providerServiceList = document.getElementById("providerServices");
 serviceNames.forEach((serviceName) => {
   const serviceLI = document.createElement("li");
+  serviceLI.className = "list-group-item";
   serviceLI.innerText = serviceName;
   providerServiceList.appendChild(serviceLI);
 });
@@ -109,6 +116,7 @@ serviceNames.forEach((serviceName) => {
 const languageList = document.getElementById("providerLanguages");
 providerLanguages.forEach((language) => {
   const languageLI = document.createElement("li");
+  languageLI.className = "list-group-item";
   languageLI.innerText = language;
   languageList.appendChild(languageLI);
 });
