@@ -78,51 +78,57 @@
                 </div>
             </div>
         </div>
-        <a id="Search"></a>
-        <form class="mt-3" action="./pages/search/index.html" method="get">
-            <div class="row">
-                <h2>Search Providers:</h2>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <label for="ServiceSelect" class="form-label">Service</label>
-                    <select id="ServiceSelect" name="Service" class="form-select">
-                        <option value="any" selected>(please select)</option>
-                    </select>
+        <section class="container">
+            <a id="Search"></a>
+            <form class="mt-3" action="./pages/search/index.html" method="get">
+                <div class="row">
+                    <h2>Search Providers:</h2>
                 </div>
-                <div class="col-md-4">
-                    <label for="LocationSelect" class="form-label">Location</label>
-                    <select id="LocationSelect" name="Where" class="form-select">
-                        <option value="any" selected>(please select)</option>
-                        <option value="telehealth">Telehealth</option>
-                    </select>
+                <div class="row">
+                    <div class="col-md-4">
+                        <label for="ServiceSelect" class="form-label">Service</label>
+                        <select id="ServiceSelect" name="Service" class="form-select">
+                            <option value="any" selected>(please select)</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="LocationSelect" class="form-label">Location</label>
+                        <select id="LocationSelect" name="Where" class="form-select">
+                            <option value="any" selected>(please select)</option>
+                            <option value="telehealth">Telehealth</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="LanguageSelect" class="form-label">Language</label>
+                        <select id="LanguageSelect" name="Language" class="form-select">
+                            <option value="English" selected>English</option>
+                            <option value="Spanish">Spanish</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <label for="LanguageSelect" class="form-label">Language</label>
-                    <select id="LanguageSelect" name="Language" class="form-select">
-                        <option value="English" selected>English</option>
-                        <option value="Spanish">Spanish</option>
-                    </select>
+                <div class="row">
+                    <div class="col-md-4">
+                        <button class="btn btn-primary mt-3" type="submit">Search</button>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <button class="btn btn-primary mt-3" type="submit">Search</button>
-                </div>
-            </div>
+            </form>
+        </section>
+        <section class="container mt-3">
             <a id="CSUs"></a>
-            <h2>CSU List:</h2>
-            <ul id="regionList">
-            </ul>
-            <a id="Providers"></a>
-            <h2>Provider List:</h2>
-            <ul id="providerList"></ul>
-            <a id="Services"></a>
-            <h2>Available Services List:</h2>
-            <ul id="serviceList"></ul>
-            <a id="Languages"></a>
-            <h2>Available Languages List:</h2>
-            <ul id="languageList"></ul>
+            <h2>Court Service Units (CSUs):</h2>
+            <div id="regionCards" class="row row-cols-3"></div>
+
+            <ul id="regionList" class="list-group"></ul>
+        </section>
+        <a id="Providers"></a>
+        <h2>Provider List:</h2>
+        <ul id="providerList"></ul>
+        <a id="Services"></a>
+        <h2>Available Services List:</h2>
+        <ul id="serviceList"></ul>
+        <a id="Languages"></a>
+        <h2>Available Languages List:</h2>
+        <ul id="languageList"></ul>
     </div>
 </body>
 

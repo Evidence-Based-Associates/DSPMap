@@ -60,21 +60,36 @@ for (let i = 0; i < availableLanguages.length; i++) {
   }
 }
 
-const regionListUL = document.getElementById("regionList");
+const regionCardsDiv = document.getElementById("regionCards");
 for (let i = 0; i < CSUStructure.length; i++) {
-  const regionHeading = document.createElement("h3");
-  regionHeading.innerText = CSUStructure[i].name;
-  regionHeading.className = "ebaBlue";
+  const regionCol = document.createElement("div");
+  regionCol.className = "col col-mb-3 mt-3";
+
+  const regionCard = document.createElement("div");
+  regionCard.className = "card";
+
+  const regionCardBody = document.createElement("div");
+  regionCardBody.className = "card-body";
+
+  const regionCardTitle = document.createElement("h5");
+  regionCardTitle.className = "card-title";
+  regionCardTitle.innerText = CSUStructure[i].name;
 
   const csuUL = document.createElement("ul");
+  csuUL.className = "list-group-flush";
   for (let j = 0; j < CSUStructure[i].CSUs.length; j++) {
     const csuLI = document.createElement("li");
+    csuLI.className = "list-group-item";
     csuLI.innerHTML = `<a href="pages/csu/index.html?id=${CSUStructure[i].CSUs[j].slug}">${CSUStructure[i].CSUs[j].name}</a>`;
     csuUL.appendChild(csuLI);
   }
-  if (regionListUL) {
-    regionListUL.appendChild(regionHeading);
-    regionListUL.appendChild(csuUL);
+
+  regionCardBody.appendChild(regionCardTitle);
+  regionCardBody.appendChild(csuUL);
+  regionCard.appendChild(regionCardBody);
+  regionCol.appendChild(regionCard);
+  if (regionCardsDiv) {
+    regionCardsDiv.appendChild(regionCol);
   }
 }
 
