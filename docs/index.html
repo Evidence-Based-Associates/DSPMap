@@ -42,69 +42,87 @@
                         <a class="nav-link" aria-current="page" href="#Search">Search</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#Providers">Providers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Languages">Languages</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <div class="container">
-        <h1 class="text-center mt-5">Evidence-Based Associates<br>Virginia DJJ Continuum<br>Provider Directory</h1>
+        <h1 class="display-6 text-center mt-5 mb-3">Evidence-Based Associates<br>Virginia DJJ Continuum<br>Provider
+            Directory
+        </h1>
         <div id="map_grandparent" style="text-align: center;">
             <div id="map_parent" style="width: 75%; display: inline-block;">
                 <div id="coveragemap"></div>
             </div>
         </div>
-        <div class="container-fluid mx-auto text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    last updated: <span id="lastUpdated"></span>
+                </div>
+                <div class="col">
+                    FY25 Regions
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                    Contact for more information: <a href="mailto:kbrooks@ebanetwork.com">kbrooks@ebanetwork.com</a>
+                </div>
+            </div>
         </div>
-        <br>
-        <p>Reflects new FY25 Regions</p>
-        <i>last updated:
-            <span id="lastUpdated"></span>
-        </i><br><br>
-        <p>Many services captured on the map are available statewide via telehealth; please inquire with <a
-                href="mailto:kbrooks@ebanetwork.com">kbrooks@ebanetwork.com</a></p>
-        <h2>Index:</h2>
-        <ul class="nav">
-            <li class="nav-item"><a class="nav-link" href="#Filter">Filter and Search</a></li>
-            <li class="nav"><a class="nav-link" href="#CSUs">CSUs</a></li>
-            <li class="nav-item"><a class="nav-link" href="#Providers">Providers</a></li>
-            <li class="nav-item"><a class="nav-link" href="#Services">Services</a></li>
-            <li class="nav-item"><a class="nav-link" href="#Languages">Languages</a></li>
-        </ul>
-        <a id="Filter"></a>
-        <h2>Filter/Search:</h2>
-        <div class="ebaBlue">Find a Provider That Offers...</div>
-        <form action="./pages/search/index.html" method="get">
-            <br>Service:
-            <select name="Service">
-                <option value="any" selected>(please select)</option>
-            </select>
-            Location:
-            <select name="Where">
-                <option value="any" selected>(please select)</option>
-                <option value="telehealth">Telehealth</option>
-            </select>
-            Language:
-            <select name="Language">
-                <option value="English" selected>English</option>
-                <option value="Spanish">Spanish</option>
-            </select>
-            <input type="submit" value="Search">
-        </form><br>
-        <a id="CSUs"></a>
-        <h2>CSU List:</h2>
-        <ul id="regionList">
-        </ul>
-        <a id="Providers"></a>
-        <h2>Provider List:</h2>
-        <ul id="providerList"></ul>
-        <a id="Services"></a>
-        <h2>Available Services List:</h2>
-        <ul id="serviceList"></ul>
-        <a id="Languages"></a>
-        <h2>Available Languages List:</h2>
-        <ul id="languageList"></ul>
+        <a id="Search"></a>
+        <form class="mt-3" action="./pages/search/index.html" method="get">
+            <div class="row">
+                <h2>Search Providers:</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="ServiceSelect" class="form-label">Service</label>
+                    <select id="ServiceSelect" name="Service" class="form-select">
+                        <option value="any" selected>(please select)</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="LocationSelect" class="form-label">Location</label>
+                    <select id="LocationSelect" name="Where" class="form-select">
+                        <option value="any" selected>(please select)</option>
+                        <option value="telehealth">Telehealth</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="LanguageSelect" class="form-label">Language</label>
+                    <select id="LanguageSelect" name="Language" class="form-select">
+                        <option value="English" selected>English</option>
+                        <option value="Spanish">Spanish</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <button class="btn btn-primary mt-3" type="submit">Search</button>
+                </div>
+            </div>
+            <a id="CSUs"></a>
+            <h2>CSU List:</h2>
+            <ul id="regionList">
+            </ul>
+            <a id="Providers"></a>
+            <h2>Provider List:</h2>
+            <ul id="providerList"></ul>
+            <a id="Services"></a>
+            <h2>Available Services List:</h2>
+            <ul id="serviceList"></ul>
+            <a id="Languages"></a>
+            <h2>Available Languages List:</h2>
+            <ul id="languageList"></ul>
     </div>
 </body>
 
