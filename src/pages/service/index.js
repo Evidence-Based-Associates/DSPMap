@@ -13,11 +13,12 @@ setAllDefaultColor();
 colorFIPS(serviceFIPS?.limited || [], TravelColor);
 colorFIPS(serviceFIPS?.available || [], RegColor);
 
-const providerUL = document.getElementById("providerUL");
+const providerSection = document.getElementById("providerList");
 providers.forEach((provider, key) => {
-  const providerLI = document.createElement("li");
-  providerLI.innerHTML = `<a href='../provider/index.html?id=${key}'>${provider}</a>`;
-  if (providerUL) {
-    providerUL.appendChild(providerLI);
+  const providerItem = document.createElement("div");
+  providerItem.className = "col-3 mx-2 my-2";
+  providerItem.innerHTML = `<a href='../provider/index.html?id=${key}'>${provider}</a>`;
+  if (providerSection) {
+    providerSection.appendChild(providerItem);
   }
 });
