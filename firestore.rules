@@ -6,7 +6,7 @@ service cloud.firestore {
   
     function isUser(uid) {
     	let userDatabasePath = /databases/$(database)/documents/users/$(uid);
-      return true; //exists(userDatabasePath);
+      return exists(userDatabasePath);
     }
     
     match /{document=**} {
