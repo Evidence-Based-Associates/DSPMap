@@ -31,12 +31,13 @@ if (providerSearchResults.size == 0) {
     noResults.hidden = false;
   }
 }
-const searchResultsUL = document.getElementById("searchResults");
-if (searchResultsUL) {
+const searchResultsSection = document.getElementById("searchResults");
+if (searchResultsSection) {
   providerSearchResults.forEach((provider, key) => {
-    const providerLI = document.createElement("li");
-    providerLI.innerHTML = `<a href="../provider/index.html?id=${key}">${provider}</a>`;
-    searchResultsUL.appendChild(providerLI);
+    const providerItem = document.createElement("div");
+    providerItem.className = "col-3 mx-2 my-2";
+    providerItem.innerHTML = `<a href="../provider/index.html?id=${key}">${provider}</a>`;
+    searchResultsSection.appendChild(providerItem);
   });
 }
 
