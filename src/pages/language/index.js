@@ -1,10 +1,11 @@
 import { providers, languageName } from "./api.js";
 
-const providerList = document.getElementById("providerList");
+const providerSection = document.getElementById("providerList");
 providers.forEach((name, id) => {
-  const providerLI = document.createElement("li");
-  providerLI.innerHTML = `<a href='../provider/index.html?id=${id}'>${name}</a>`;
-  providerList && providerList.appendChild(providerLI);
+  const providerItem = document.createElement("div");
+  providerItem.className = "col-3 mx-2 my-2";
+  providerItem.innerHTML = `<a href='../provider/index.html?id=${id}'>${name}</a>`;
+  providerSection && providerSection.appendChild(providerItem);
 });
 
 const languageNameSpans = document.getElementsByName("langaugeText");
