@@ -12,33 +12,51 @@ if (csuNameSpan) {
 }
 
 const headingList = (headingContent, listItems) => {
-  const container = document.createElement("div");
-  const heading = document.createElement("h3");
-  heading.classList.add("ebaBlue");
-  heading.innerHTML = headingContent;
+  const providerCard = document.createElement("div");
+  providerCard.className = "card";
+  const cardHeader = document.createElement("div");
+  cardHeader.className = "card-header";
+
+  const providerTitle = document.createElement("h5");
+  providerTitle.className = "card-title";
+  providerTitle.innerHTML = headingContent;
+  cardHeader.appendChild(providerTitle);
+
   const list = document.createElement("ul");
+  list.className = "list-group-flush mt-2";
   listItems.forEach((item) => {
     const li = document.createElement("li");
+    li.className = "list-group-item";
     li.innerText = item;
     list.appendChild(li);
   });
-  container.appendChild(heading);
-  container.appendChild(list);
-  return container;
+
+  providerCard.appendChild(cardHeader);
+  providerCard.appendChild(list);
+  return providerCard;
 };
 
-const providerList = document.getElementById("providerList");
+const providerDiv = document.getElementById("providerList");
 CSUProviders.forEach((provider) => {
   const providerServices = providerServiceList(provider);
 
   const providerLinkHTML = `<a href="../provider/index.html?id=${provider}">${provider}</a>`;
   const list = headingList(providerLinkHTML, providerServices);
-  providerList?.appendChild(list);
+
+  const col = document.createElement("div");
+  col.className = "col col-mb-3 mt-3";
+  col.appendChild(list);
+  providerDiv?.appendChild(col);
 });
 
 const serviceList = document.getElementById("serviceList");
 CSUServices.forEach((service) => {
   const serviceProviders = serviceProvidersList(service);
   const list = headingList(service, serviceProviders);
-  serviceList?.appendChild(list);
+
+  const col = document.createElement("div");
+  col.className = "col col-mb-3 mt-3";
+  col.appendChild(list);
+
+  serviceList?.appendChild(col);
 });
