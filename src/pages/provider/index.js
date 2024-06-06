@@ -85,17 +85,17 @@ displayService();
 const csuList = csuListFromFIPS(allFIPS);
 const providerCSUList = document.getElementById("providerCSUs");
 csuList.forEach((csu) => {
-  const csuLI = document.createElement("li");
-  csuLI.className = "list-group-item";
-  csuLI.innerText = csu;
-  providerCSUList.appendChild(csuLI);
+  const csuItem = document.createElement("div");
+  csuItem.className = "col-3 mx-2 my-2";
+  csuItem.innerText = csu;
+  providerCSUList.appendChild(csuItem);
 });
 
 const countyList = document.getElementById("providerCounties");
 const cityList = document.getElementById("providerCities");
 allFIPS.forEach((fips) => {
-  const localityLI = document.createElement("li");
-  localityLI.className = "list-group-item";
+  const localityLI = document.createElement("div");
+  localityLI.className = "col-2 mx-2 my-2";
   // @ts-ignore
   localityLI.innerText = simplemaps_statemap_mapdata.state_specific[fips].name;
   if (Number(fips) > 51500) {
@@ -107,16 +107,16 @@ allFIPS.forEach((fips) => {
 
 const providerServiceList = document.getElementById("providerServices");
 serviceNames.forEach((serviceName) => {
-  const serviceLI = document.createElement("li");
-  serviceLI.className = "list-group-item";
+  const serviceLI = document.createElement("div");
+  serviceLI.className = "col-2 mx-2 my-2";
   serviceLI.innerText = serviceName;
   providerServiceList.appendChild(serviceLI);
 });
 
 const languageList = document.getElementById("providerLanguages");
 providerLanguages.forEach((language) => {
-  const languageLI = document.createElement("li");
-  languageLI.className = "list-group-item";
+  const languageLI = document.createElement("div");
+  languageLI.className = "col-2 mx-2 my-2";
   languageLI.innerText = language;
   languageList.appendChild(languageLI);
 });
