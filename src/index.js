@@ -107,7 +107,7 @@ const servicesDiv = document.getElementById("serviceList");
 availableServices.forEach((service, index) => {
   const serviceItem = document.createElement("div");
   serviceItem.className = "col col-mb-3 mt-3";
-  serviceItem.innerHTML = `<a href="pages/service/index.html?id=${index}">${service}</a>`;
+  serviceItem.innerHTML = `<a href="pages/service/index.html?name=${service}">${service}</a>`;
   if (servicesDiv) {
     servicesDiv.appendChild(serviceItem);
   }
