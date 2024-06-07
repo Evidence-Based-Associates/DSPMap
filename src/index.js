@@ -3,8 +3,10 @@ import {
   availableServices,
   availableLanguages,
   providers,
+  servicesWithCategories,
 } from "./api.js";
 import { regionCSUs, sortedCSUs, allFips, CSUStructure } from "./lib/csu.js";
+import { headingList, serviceCategoryCard } from "./lib/utils.js";
 
 const lastUpdatedSpan = document.getElementById("lastUpdated");
 if (lastUpdatedSpan) {
@@ -104,14 +106,26 @@ providers.forEach((provider) => {
 });
 
 const servicesDiv = document.getElementById("serviceList");
-availableServices.forEach((service, index) => {
-  const serviceItem = document.createElement("div");
-  serviceItem.className = "col col-mb-3 mt-3";
-  serviceItem.innerHTML = `<a href="pages/service/index.html?name=${service}">${service}</a>`;
-  if (servicesDiv) {
-    servicesDiv.appendChild(serviceItem);
-  }
+
+Object.keys(servicesWithCategories).forEach((category) => {
+  const serviceList = servicesWithCategories[category];
+
+  // const link = `<a href="pages/service/index.html?name=${service}">${service}</a>`;
+  const list = serviceCategoryCard(category, serviceList);
+
+  const col = document.createElement("div");
+  col.className = "col col-mb-3 mt-3";
+  col.appendChild(list);
+  servicesDiv?.appendChild(col);
 });
+// availableServices.forEach((service, index) => {
+//   const serviceItem = document.createElement("div");
+//   serviceItem.className = "col col-mb-3 mt-3";
+//   serviceItem.innerHTML = `<a href="pages/service/index.html?name=${service}">${service}</a>`;
+//   if (servicesDiv) {
+//     servicesDiv.appendChild(serviceItem);
+//   }
+// });
 
 const languageDiv = document.getElementById("languageList");
 availableLanguages.forEach((language, index) => {
