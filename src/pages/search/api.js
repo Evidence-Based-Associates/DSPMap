@@ -11,7 +11,10 @@ const metaData = await getMetaData();
 export let availableServices = [];
 export let availableLanguages = [];
 if (metaData) {
-  availableServices = metaData.availableServices.sort();
+  Object.keys(metaData.availableServices).forEach((service) => {
+    availableServices.push(...metaData.availableServices[service]);
+  });
+  availableServices.sort();
   availableLanguages = metaData.availableLanguages.sort();
 }
 

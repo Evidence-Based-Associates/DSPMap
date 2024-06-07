@@ -9,9 +9,13 @@ const metaData = await getMetaData();
 export let lastUpdated = "UNKNOWN";
 export let availableServices = [];
 export let availableLanguages = [];
+
 if (metaData) {
   lastUpdated = new Date(metaData.lastUpdated).toLocaleDateString();
-  availableServices = metaData.availableServices.sort();
+  Object.keys(metaData.availableServices).forEach((service) => {
+    availableServices.push(...metaData.availableServices[service]);
+  });
+  availableServices.sort();
   availableLanguages = metaData.availableLanguages.sort();
 }
 
