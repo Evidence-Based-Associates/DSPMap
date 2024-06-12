@@ -61,3 +61,5 @@ fs.writeFileSync(
   `${exportPath}/metaData.json`,
   JSON.stringify(metaDataDocSnap.data(), null, 2)
 );
+
+console.log("done");
