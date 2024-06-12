@@ -1,5 +1,6 @@
 import { fipsID, providers, providerServices } from "./api.js";
 import { setMapLocations, zoomToFIPS } from "../../lib/simplemaps/utils.js";
+import { headingList } from "../../lib/utils.js";
 
 const localityText = document.getElementById("localityText");
 if (localityText) {
@@ -10,25 +11,32 @@ if (localityText) {
 
 zoomToFIPS(fipsID);
 
-const providerUL = document.getElementById("providerList");
+const providerSection = document.getElementById("providerList");
 providers.forEach(async (provider, key) => {
-  const providerLI = document.createElement("li");
-  providerLI.className = "ebaBlue";
-  providerLI.innerHTML = `<a href='../provider/index.html?id=${key}'>${provider}</a>`;
-  if (providerUL) {
-    providerUL.appendChild(providerLI);
-  }
-
   const providerServiceList = providerServices(key);
+  const providerLinkHTML = `<a href="../provider/index.html?id=${key}">${provider}</a>`;
 
-  const providerServiceUL = document.createElement("ul");
-  providerServiceList.forEach((serviceName) => {
-    const serviceLI = document.createElement("li");
-    // const limitedServiceNote = isLimitedService ? "  (Limited Service)" : "";
-    serviceLI.innerText = serviceName; //+ limitedServiceNote;
-    providerServiceUL.appendChild(serviceLI);
-  });
-  if (providerUL) {
-    providerUL.appendChild(providerServiceUL);
-  }
+  const list = headingList(providerLinkHTML, providerServiceList);
+  const col = document.createElement("div");
+  col.className = "col col-mb-3 mt-3";
+  col.appendChild(list);
+
+  providerSection?.appendChild(col);
+  // const providerItem = document.createElement("div");
+  // providerItem.className = "col-3 mx-2 my-2";
+  // providerItem.innerHTML = `<a href='../provider/index.html?id=${key}'>${provider}</a>`;
+  // if (provideSection) {
+  //   // provideSection.appendChild(providerItem);
+  // }
+
+  // const providerServiceUL = document.createElement("ul");
+  // providerServiceList.forEach((serviceName) => {
+  //   const serviceLI = document.createElement("li");
+  //   // const limitedServiceNote = isLimitedService ? "  (Limited Service)" : "";
+  //   serviceLI.innerText = serviceName; //+ limitedServiceNote;
+  //   providerServiceUL.appendChild(serviceLI);
+  // });
+  // if (providerSection) {
+  //   providerSection.appendChild(providerServiceUL);
+  // }
 });

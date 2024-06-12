@@ -1,14 +1,14 @@
 import { getAllServicesByName, getMetaData } from "../../firebase.js";
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-export const serviceID = urlParams.get("id");
+export const serviceName = urlParams.get("name");
 
 const metaData = await getMetaData();
-const allServiceNames = metaData?.availableServices.sort() || [];
+const allServices = metaData?.availableServices || {};
 
-export const serviceName = serviceID
-  ? await allServiceNames[serviceID]
-  : "None";
+// export const serviceName = serviceID
+//   ? allServices[serviceID]
+//   : "None";
 
 const serviceList = await getAllServicesByName(serviceName);
 export let providers = new Map();

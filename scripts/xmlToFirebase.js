@@ -9,19 +9,15 @@ import {
   setDoc,
   updateDoc,
 } from "firebase/firestore";
-
 const options = {
   ignoreAttributes: false,
   allowBooleanAttributes: true,
   arrayMode: "strict",
 };
 const parser = new XMLParser(options);
-
 const filepath = "../docs/data/dsps.xml";
-
 const xmlData = fs.readFileSync(filepath, "utf8");
 const jsonData = parser.parse(xmlData);
-
 /**
  * @typedef {Object} Provider
  * @property {string} Name
@@ -33,7 +29,6 @@ const jsonData = parser.parse(xmlData);
  * @property {string} id
  * @property {Office | Office[]} Office
  */
-
 /**
  *
  * @typedef {Object} Office
@@ -47,7 +42,6 @@ const jsonData = parser.parse(xmlData);
  * @param {string} office.Phone
  * @param {string} office.Fax
  */
-
 /**
  *
  * @typedef {Object} Service
@@ -70,7 +64,6 @@ const convertProviderInfo = (provider) => {
     defaultMapZoom: provider.MapZoom,
   };
 };
-
 /**
  *
  * @param {Office} office
@@ -88,7 +81,6 @@ const convertOfficeInfo = (office, providerName) => {
     phone: office.Phone,
   };
 };
-
 const convertServiceInfo = (service, providerName) => {
   if (service.length === 0) {
     return [];
@@ -97,7 +89,6 @@ const convertServiceInfo = (service, providerName) => {
   const limitedFIPS = new Set();
   const languageFIPS = {};
   const allFIPS = new Set();
-
   const trackFIPS = (fip) => {
     const fipsText = fip["#text"].toString();
     allFIPS.add(fipsText);
@@ -123,7 +114,6 @@ const convertServiceInfo = (service, providerName) => {
   } else {
     service.FIPs.forEach((fip) => trackFIPS(fip));
   }
-
   return {
     providerName: providerName,
     serviceName: service["@_serviceName"],
@@ -134,7 +124,6 @@ const convertServiceInfo = (service, providerName) => {
     languageFIPS,
   };
 };
-
 const saveProvider = async (
   providerInfo,
   servicesInfo = [],
@@ -142,7 +131,6 @@ const saveProvider = async (
 ) => {
   const providerRef = doc(db, "providers", providerInfo.providerName);
   await setDoc(providerRef, providerInfo);
-
   const servicesCollectionRef = collection(
     db,
     "providers",
@@ -163,7 +151,6 @@ const saveProvider = async (
   locationsSnap.docs.forEach(async (doc) => {
     await deleteDoc(doc.ref);
   });
-
   if (servicesInfo.length === 0) {
     return;
   }
@@ -207,11 +194,9 @@ const saveProvider = async (
   });
   console.log(`Saved ${providerInfo.providerName}`);
 };
-
 const allProviders = jsonData.DSPs.Provider;
 allProviders.forEach((provider) => {
   const providerInfo = convertProviderInfo(provider);
-
   let providerOffices = [];
   if (provider.Office.length === undefined) {
     providerOffices.push(
@@ -222,7 +207,6 @@ allProviders.forEach((provider) => {
       convertOfficeInfo(office, providerInfo.providerName)
     );
   }
-
   let providerServices = [];
   if (provider.Service.length === undefined) {
     providerServices.push(
@@ -233,73 +217,106 @@ allProviders.forEach((provider) => {
       convertServiceInfo(service, providerInfo.providerName)
     );
   }
-
   saveProvider(providerInfo, providerServices, providerOffices);
-
   //   console.log(providerInfo);
   //   console.log(providerOffices);
   //   console.log(providerServices);
 });
 
-const availableServices = [
-  "Adolescent Community Reinforcement Approach",
-  "Adolescent Community Reinforcement Approach Group",
-  "Anger Management",
-  "Substance Abuse Intensive Outpatient Program",
-  "Behavioral Intervention and Educational Course",
-  "Brief Strategic Family Therapy",
-  "Crisis Services",
-  "Eye Movement Desensitization and Reprocessing",
-  "Family Centered Treatment",
-  "Dialectical Behavior Therapy Individual",
-  "Dialectical Behavior Therapy Group",
-  "Mentoring",
-  "Parent Child Interaction Therapy",
-  "Reentry Case Management",
-  "Dialectical Behavior Therapy Individual",
-  "Moral Reconation Therapy Group",
-  "Parenting Skills Intervention for Youth",
-  "Residential Group Home",
-  "Residential Transitional Living Program",
-  "Skill Building",
-  "Gang Intervention",
-  "Monitoring Services",
-  "Intensive In-Home",
-  "Intensive Care Coordination",
-  "Conferencing and Mediation",
-  "Family Support Partner",
-  "Functional Family Therapy",
-  "Group Therapy",
-  "Multisystemic Therapy",
-  "Mental Health Evaluation",
-  "Skill Building Group",
-  "Psychological Evaluation",
-  "Youth with Sexualized Behaviors Evaluation",
-  "IACCT",
-  "Mental Health Skill Building",
-  "Outpatient Therapy",
-  "Substance Use Therapy",
-  "Therapy for Exploited Youth",
-  "Transportation",
-  "Youth with Sexualized Behaviors Therapy",
-  "Trauma Focused Cognitive Behavioral Therapy",
-  "Employment and Workforce Services",
-  "Residential Group Home",
-  "Residential Services (18+)",
-  "Residential Independent Living",
-  "Residential Treatment Center",
-  "Seven Challenges",
-  "Seven Challenges Group",
-  "Specialized Individual Therapy",
-  "Substance Use Evaluation",
-  "Substance Abuse Intensive Outpatient Program",
-  "Language Services",
+const availableServices = {
+  "Case Management": [
+    "High Fidelity Wraparound Intensive Care Coordination",
+    "Mental Health Case Management",
+    "Substance Use Case Management",
+    "Reentry Case Management",
+  ],
+  "Clinical Services": [
+    "Brief Strategic Family Therapy",
+    "Family Centered Treatment",
+    "Functional Family Therapy",
+    "Intensive In-Home Services",
+    "Multisystemic Therapy",
+    "Parent Child Interaction Therapy",
+    "Clinical Group",
+    "Dialectical Behavioral Therapy",
+    "Eye Movement Desensitization and Reprocessing",
+    "Outpatient Therapy",
+    "Specialized Individual Therapy",
+    "Therapy for Exploited Youth",
+    "Trauma Focused Cognitive Behavioral Therapy",
+    "Substance Use Therapy",
+    "Adolescent Community Reinforcement Approach",
+    "Group Therapy for Substance Use",
+    "Seven Challenges",
+    "Substance Abuse Intensive Outpatient Program",
+    "Therapy for Substance Use",
+    "Youth with Sexualized Behaviors Therapy",
+    "Group Therapy for Youth with Sexualized Behaviors",
+    "Crisis Services",
+  ],
+  Evaluations: [
+    "Mental Health Evaluation",
+    "Psychological Evaluation",
+    "Substance Use Evaluation",
+    "Youth with Sexualized Behaviors Evaluation",
+  ],
+  "Non-Clinical Services": [
+    "Behavior Intervention course",
+    "Anger Management",
+    "Conferencing and Mediation",
+    "Employment and Workforce Services",
+    "Supported Employment",
+    "Vocational Training Program",
+    "Gang Intervention Service",
+    "GREAT Program Services",
+    "Family Support Partner",
+    "Mentoring",
+    "Skill Building",
+    "Dialectical Behavior Therapy Group",
+    "Life Skills",
+    "Mental Health Skill Building",
+    "Moral Reconation Therapy Group",
+    "Non-Clinical Skills Group",
+    "Parenting Skills Intervention for Youth",
+    "Thinking for a Change Group",
+  ],
+  "Residential Services": [
+    "Residential Group Home",
+    "Group Home",
+    "Therapeutic Group Home",
+    "Residential Independent Living",
+    "Residential Transitional Living Program",
+    "Residential Treatment Center",
+  ],
+  Other: ["Language Services", "Monitoring Services", "Transportation"],
+};
+
+Object.keys(availableServices).forEach((category) => {
+  availableServices[category].sort();
+});
+
+const availableLanguages = [
+  "Amharic",
+  "Arabic",
+  "Bengali",
+  "Farsi",
+  "French",
+  "Kirundi",
+  "Korean",
+  "Kurdish",
+  "Latvian",
+  "Mandarin",
+  "Nepali",
+  "Portuguese",
+  "Russian",
+  "Sign Language (ASL)",
+  "Spanish",
+  "Urdu",
+  "Vietnamese",
+  "Language Line",
 ];
-availableServices.sort();
-
-const availableLanguages = ["Spanish"];
-
 const metaDataRef = doc(db, "meta", "data");
 updateDoc(metaDataRef, {
   availableServices,
+  availableLanguages,
 });

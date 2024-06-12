@@ -57,7 +57,10 @@ const metaData = await getMetaData();
 export let allAvailableServiceNames = [];
 export let allAvailableLanguages = [];
 if (metaData) {
-  allAvailableServiceNames = metaData.availableServices.sort();
+  Object.keys(metaData.availableServices).forEach((service) => {
+    allAvailableServiceNames.push(...metaData.availableServices[service]);
+  });
+  allAvailableServiceNames.sort();
   allAvailableLanguages = metaData.availableLanguages.sort();
 }
 export const saveProvider = async (providerInfo, serviceInfo, locationInfo) =>

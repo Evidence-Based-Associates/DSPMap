@@ -3,7 +3,7 @@
 var simplemaps_statemap_mapdata = {
   main_settings: {
     //General settings
-    width: "700",
+    // width: "700",
     background_color: "#FFFFFF",
     background_transparent: "yes",
     border_color: "#ffffff",

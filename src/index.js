@@ -3,8 +3,10 @@ import {
   availableServices,
   availableLanguages,
   providers,
+  servicesWithCategories,
 } from "./api.js";
 import { regionCSUs, sortedCSUs, allFips, CSUStructure } from "./lib/csu.js";
+import { headingList, serviceCategoryCard } from "./lib/utils.js";
 
 const lastUpdatedSpan = document.getElementById("lastUpdated");
 if (lastUpdatedSpan) {
@@ -60,47 +62,77 @@ for (let i = 0; i < availableLanguages.length; i++) {
   }
 }
 
-const regionListUL = document.getElementById("regionList");
+const regionCardsDiv = document.getElementById("regionCards");
 for (let i = 0; i < CSUStructure.length; i++) {
-  const regionHeading = document.createElement("h3");
-  regionHeading.innerText = CSUStructure[i].name;
-  regionHeading.className = "ebaBlue";
+  const regionCol = document.createElement("div");
+  regionCol.className = "col col-mb-3 mt-3";
+
+  const regionCard = document.createElement("div");
+  regionCard.className = "card";
+
+  const regionCardBody = document.createElement("div");
+  regionCardBody.className = "card-body";
+
+  const regionCardTitle = document.createElement("h5");
+  regionCardTitle.className = "card-title";
+  regionCardTitle.innerText = CSUStructure[i].name;
 
   const csuUL = document.createElement("ul");
+  csuUL.className = "list-group-flush";
   for (let j = 0; j < CSUStructure[i].CSUs.length; j++) {
     const csuLI = document.createElement("li");
+    csuLI.className = "list-group-item";
     csuLI.innerHTML = `<a href="pages/csu/index.html?id=${CSUStructure[i].CSUs[j].slug}">${CSUStructure[i].CSUs[j].name}</a>`;
     csuUL.appendChild(csuLI);
   }
-  if (regionListUL) {
-    regionListUL.appendChild(regionHeading);
-    regionListUL.appendChild(csuUL);
+
+  regionCardBody.appendChild(regionCardTitle);
+  regionCardBody.appendChild(csuUL);
+  regionCard.appendChild(regionCardBody);
+  regionCol.appendChild(regionCard);
+  if (regionCardsDiv) {
+    regionCardsDiv.appendChild(regionCol);
   }
 }
 
-const providerUL = document.getElementById("providerList");
+const providersDiv = document.getElementById("providerList");
 providers.forEach((provider) => {
-  const providerLI = document.createElement("li");
-  providerLI.innerHTML = `<a href="pages/provider/index.html?id=${provider.id}">${provider.name}</a>`;
-  if (providerUL) {
-    providerUL.appendChild(providerLI);
+  const providerItem = document.createElement("div");
+  providerItem.className = "col col-mb-3 mt-3";
+  providerItem.innerHTML = `<a href="pages/provider/index.html?id=${provider.id}">${provider.name}</a>`;
+  if (providersDiv) {
+    providersDiv.appendChild(providerItem);
   }
 });
 
-const serviceUL = document.getElementById("serviceList");
-availableServices.forEach((service, index) => {
-  const serviceLI = document.createElement("li");
-  serviceLI.innerHTML = `<a href="pages/service/index.html?id=${index}">${service}</a>`;
-  if (serviceUL) {
-    serviceUL.appendChild(serviceLI);
-  }
-});
+const servicesDiv = document.getElementById("serviceList");
 
-const languageUL = document.getElementById("languageList");
+Object.keys(servicesWithCategories).forEach((category) => {
+  const serviceList = servicesWithCategories[category];
+
+  // const link = `<a href="pages/service/index.html?name=${service}">${service}</a>`;
+  const list = serviceCategoryCard(category, serviceList);
+
+  const col = document.createElement("div");
+  col.className = "col col-mb-3 mt-3";
+  col.appendChild(list);
+  servicesDiv?.appendChild(col);
+});
+// availableServices.forEach((service, index) => {
+//   const serviceItem = document.createElement("div");
+//   serviceItem.className = "col col-mb-3 mt-3";
+//   serviceItem.innerHTML = `<a href="pages/service/index.html?name=${service}">${service}</a>`;
+//   if (servicesDiv) {
+//     servicesDiv.appendChild(serviceItem);
+//   }
+// });
+
+const languageDiv = document.getElementById("languageList");
 availableLanguages.forEach((language, index) => {
-  const languageLI = document.createElement("li");
-  languageLI.innerHTML = `<a href="pages/language/index.html?id=${index}">${language}</a>`;
-  if (languageUL) {
-    languageUL.appendChild(languageLI);
+  const languageItem = document.createElement("div");
+  languageItem.className = "col col-mb-3 mt-3";
+  languageItem.innerHTML = `<a href="pages/language/index.html?id=${index}">${language}</a>`;
+  if (languageDiv) {
+    languageDiv.appendChild(languageItem);
   }
 });
