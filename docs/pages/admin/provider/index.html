@@ -118,7 +118,10 @@
         <label for="allServicesSelect" class="form-label">All Available Services</label>
         <select class="form-select" id="allServicesSelect" multiple size="8"></select>
         <label for="selectedServices" class="form-label mt-3">Selected Services</label>
-        <select class="form-select mb-3" id="selectedServices" disabled></select>
+        <select class="form-select mb-1" id="selectedServices" disabled></select>
+        <button id="deleteServiceButton" type="button" class="btn btn-danger mb-3" disabled>
+          Delete Selected Service
+        </button>
         <div class="form-check">
           <input class="form-check-input" type="checkbox" value="" id="telehealthCheckbox" disabled>
           <label class="form-check-label" for="telehealthCheckbox">

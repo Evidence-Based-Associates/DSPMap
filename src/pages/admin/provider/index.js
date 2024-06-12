@@ -30,6 +30,7 @@ const existingProviderSelect = document.getElementById(
 
 const selectedServices = document.getElementById("selectedServices");
 const allServicesSelect = document.getElementById("allServicesSelect");
+const deleteServiceButton = document.getElementById("deleteServiceButton");
 const coveragemap = document.getElementById("coveragemap");
 const defaultMapZoomSelect = document.getElementById("defaultMapZoom");
 const serviceMapZoomSelect = document.getElementById("serviceMapZoom");
@@ -260,6 +261,7 @@ selectedServices?.addEventListener("change", () => {
   const selectedService = selectedServices.value;
   setService(selectedService);
   telehealthCheckbox?.removeAttribute("disabled");
+  deleteServiceButton?.removeAttribute("disabled");
 
   const service = appState.providerServices.find(
     (service) => service.serviceName === appState.selectedService
@@ -268,6 +270,33 @@ selectedServices?.addEventListener("change", () => {
     // @ts-ignore
     telehealthCheckbox.checked = service.hasTelehealth;
   }
+});
+
+deleteServiceButton?.addEventListener("click", () => {
+  const service = appState.providerServices.find(
+    (service) => service.serviceName === appState.selectedService
+  );
+  if (!service) {
+    return;
+  }
+  const index = appState.providerServices.indexOf(service);
+  appState.providerServices.splice(index, 1);
+  const option = allServicesSelect?.querySelector(
+    `option[value="${service.serviceName}"]`
+  );
+  if (option) {
+    // @ts-ignore
+    option.selected = false;
+  }
+  //remove service from selectedServices
+  const selectedOption = selectedServices?.querySelector(
+    `option[value="${service.serviceName}"]`
+  );
+  if (selectedOption) {
+    selectedOption.remove();
+  }
+
+  selectedServices?.dispatchEvent(new Event("change"));
 });
 
 if (defaultMapZoomSelect && serviceMapZoomSelect) {
