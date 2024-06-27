@@ -6,7 +6,14 @@ import {
   servicesWithCategories,
 } from "./api.js";
 import { regionCSUs, sortedCSUs, allFips, CSUStructure } from "./lib/csu.js";
-import { headingList, serviceCategoryCard } from "./lib/utils.js";
+import { serviceCategoryCard } from "./lib/utils.js";
+
+import { config } from "../config.js";
+
+if (config.ENV === "DEV") {
+  const envAlert = document.getElementById("envAlert");
+  envAlert?.removeAttribute("hidden");
+}
 
 const lastUpdatedSpan = document.getElementById("lastUpdated");
 if (lastUpdatedSpan) {

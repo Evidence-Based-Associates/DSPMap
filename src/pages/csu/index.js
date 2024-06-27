@@ -7,6 +7,13 @@ import {
 } from "./api.js";
 import { headingList } from "../../lib/utils.js";
 
+import { config } from "../../../config.js";
+
+if (config.ENV === "DEV") {
+  const envAlert = document.getElementById("envAlert");
+  envAlert?.removeAttribute("hidden");
+}
+
 const csuNameSpan = document.getElementById("csuName");
 if (csuNameSpan) {
   csuNameSpan.innerHTML = thisCSU?.name || "CSU";
