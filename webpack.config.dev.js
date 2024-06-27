@@ -1,4 +1,5 @@
 const path = require("path");
+const webpack = require("webpack");
 
 const pageNames = [
   "csu",
@@ -32,4 +33,9 @@ module.exports = {
     filename: "[name].js",
     path: path.resolve(__dirname, "docs"),
   },
+  plugins: [
+    new webpack.DefinePlugin({
+      "process.env.ENV": JSON.stringify("DEV"),
+    }),
+  ],
 };
