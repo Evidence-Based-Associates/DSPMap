@@ -1,4 +1,10 @@
 import { providers, languageName } from "./api.js";
+import { config } from "../../../config.js";
+
+if (config.ENV === "DEV") {
+  const envAlert = document.getElementById("envAlert");
+  envAlert?.removeAttribute("hidden");
+}
 
 const providerSection = document.getElementById("providerList");
 providers.forEach((name, id) => {

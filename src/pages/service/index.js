@@ -1,6 +1,12 @@
 import { serviceName, providers, serviceFIPS } from "./api.js";
 import colors from "../../lib/colors.js";
 import { colorFIPS, setAllDefaultColor } from "../../lib/simplemaps/utils.js";
+import { config } from "../../../config.js";
+
+if (config.ENV === "DEV") {
+  const envAlert = document.getElementById("envAlert");
+  envAlert?.removeAttribute("hidden");
+}
 
 const { TravelColor, RegColor } = colors;
 

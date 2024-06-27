@@ -9,7 +9,8 @@ export const ENV_OPTIONS = {
   PROD: "PROD",
 };
 
+const ENV = process.env.ENV || ENV_OPTIONS.DEV;
 export const config = {
   API: API_OPTIONS.FIREBASE,
-  ENV: ENV_OPTIONS.DEV,
+  ENV: ENV_OPTIONS[ENV],
 };

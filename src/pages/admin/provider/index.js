@@ -24,6 +24,13 @@ import {
 } from "./state";
 import { regions } from "../../../lib/simplemaps/utils";
 
+import { config } from "../../../../config.js";
+
+if (config.ENV === "DEV") {
+  const envAlert = document.getElementById("envAlert");
+  envAlert?.removeAttribute("hidden");
+}
+
 const existingProviderSelect = document.getElementById(
   "existingProviderSelect"
 );

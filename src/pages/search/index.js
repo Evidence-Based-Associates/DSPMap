@@ -8,6 +8,13 @@ import {
   availableLanguages,
 } from "./api.js";
 
+import { config } from "../../../config.js";
+
+if (config.ENV === "DEV") {
+  const envAlert = document.getElementById("envAlert");
+  envAlert?.removeAttribute("hidden");
+}
+
 const serviceSpanText = document.getElementById("serviceTextSpan");
 if (serviceSpanText) {
   serviceSpanText.innerText = serviceText;
