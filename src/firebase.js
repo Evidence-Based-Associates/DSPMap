@@ -35,6 +35,16 @@ const devConfig = {
   measurementId: "G-SNEMBJE4DT",
 };
 
+const prodConfig = {
+  apiKey: "AIzaSyC6Lg3lKbT9mSHavFTxIGpub9hiyWGjBPQ",
+  authDomain: "eba-dsp-map-prod.firebaseapp.com",
+  projectId: "eba-dsp-map-prod",
+  storageBucket: "eba-dsp-map-prod.appspot.com",
+  messagingSenderId: "1068377714544",
+  appId: "1:1068377714544:web:5999d487c7ef4aca3c69b5",
+  measurementId: "G-RDPWS5CTYM",
+};
+
 const emulatorConfig = {
   projectId: "demo-dsp-map",
   appId: "local",
@@ -42,7 +52,14 @@ const emulatorConfig = {
 };
 
 const isLocal = config.ENV === "LOCAL";
-const firebaseConfig = isLocal ? emulatorConfig : devConfig;
+
+const envFirebaseConfig = {
+  LOCAL: emulatorConfig,
+  DEV: devConfig,
+  PROD: prodConfig,
+};
+
+const firebaseConfig = envFirebaseConfig[config.ENV];
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
@@ -58,23 +75,15 @@ export const login = async () => {
   let user = {};
   await signInWithPopup(auth, provider)
     .then((result) => {
-      // This gives you a Google Access Token. You can use it to access the Google API.
       const credential = GoogleAuthProvider.credentialFromResult(result);
       const token = credential?.accessToken;
-      // The signed-in user info.
       user = result.user;
-      // IdP data available using getAdditionalUserInfo(result)
-      // ...
     })
     .catch((error) => {
-      // Handle Errors here.
       const errorCode = error.code;
       const errorMessage = error.message;
-      // The email of the user's account used.
       const email = error.customData.email;
-      // The AuthCredential type that was used.
       const credential = GoogleAuthProvider.credentialFromError(error);
-      // ...
     });
   return user;
 };
@@ -82,11 +91,9 @@ export const login = async () => {
 export const logout = async () => {
   signOut(auth)
     .then(() => {
-      // Sign-out successful.
       console.log("Sign-out successful.");
     })
     .catch((error) => {
-      // An error happened.
       console.log("An error happened.", error);
     });
 };
