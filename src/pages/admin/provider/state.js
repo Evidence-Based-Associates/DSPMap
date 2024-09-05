@@ -140,10 +140,17 @@ export const copyService = () => {
   if (!serviceToCopy || !serviceIndex) {
       return;
   }
-  appState.providerServices[serviceIndex] = {
+  const newService = {
     ...serviceToCopy,
-    serviceName: appState.selectedService
+    serviceName: appState.selectedService,
+    allFIPS: new Set(serviceToCopy.allFIPS),
+    availableFIPS: new Set(serviceToCopy.availableFIPS),
+    limitedFIPS: new Set(serviceToCopy.limitedFIPS),
+    languageFIPS: { ...serviceToCopy.languageFIPS },
   };
+  appState.providerServices[serviceIndex] = {...newService};
+
+  setService(appState.selectedService);
 }
 export const initService = (/** @type {string} */ serviceName) => {
   const service = appState.providerServices.find(
