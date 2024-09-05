@@ -36,6 +36,8 @@ const existingProviderSelect = document.getElementById(
 );
 
 const selectedServices = document.getElementById("selectedServices");
+const copyServicesSelect = document.getElementById("copyServiceSelect");
+const copyServicesButton = document.getElementById("copyServiceButton");
 const allServicesSelect = document.getElementById("allServicesSelect");
 const deleteServiceButton = document.getElementById("deleteServiceButton");
 const coveragemap = document.getElementById("coveragemap");
@@ -239,6 +241,7 @@ allServicesSelect?.addEventListener("change", () => {
   }
 
   selectedServices.innerHTML = "";
+  copyServicesSelect.innerHTML = "";
 
   // @ts-ignore
   const options = allServicesSelect.options;
@@ -250,6 +253,7 @@ allServicesSelect?.addEventListener("change", () => {
       selectedOption.text = targetOption.text;
       selectedOption.selected = true;
       selectedServices.appendChild(selectedOption);
+      copyServicesSelect.appendChild(selectedOption.cloneNode(true));
       initService(targetOption.value);
     }
   }
@@ -262,6 +266,11 @@ allServicesSelect?.addEventListener("change", () => {
   if (coveragemap) {
     coveragemap.removeAttribute("hidden");
   }
+  if (appState.providerServices.length >= 2){
+    copyServicesSelect?.removeAttribute("disabled");
+    copyServicesButton?.removeAttribute("disabled");
+  }
+
 });
 selectedServices?.addEventListener("change", () => {
   // @ts-ignore
