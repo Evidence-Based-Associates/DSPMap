@@ -13,6 +13,8 @@ import {
 import {
   appState,
   setService,
+  copyService,
+  setSelectedCopyService,
   initService,
   setLanguageMode,
   setLanguage,
@@ -269,9 +271,15 @@ allServicesSelect?.addEventListener("change", () => {
   if (appState.providerServices.length >= 2){
     copyServicesSelect?.removeAttribute("disabled");
     copyServicesButton?.removeAttribute("disabled");
+    setSelectedCopyService(copyServicesSelect.value);
   }
 
 });
+
+copyServicesSelect?.addEventListener("change", () => {
+  const selectedCopyService = copyServicesSelect.value;
+  setSelectedCopyService(selectedCopyService);
+})
 selectedServices?.addEventListener("change", () => {
   // @ts-ignore
   const selectedService = selectedServices.value;
@@ -286,6 +294,10 @@ selectedServices?.addEventListener("change", () => {
     // @ts-ignore
     telehealthCheckbox.checked = service.hasTelehealth;
   }
+});
+
+copyServicesButton?.addEventListener("click", () => {
+  copyService();
 });
 
 deleteServiceButton?.addEventListener("click", () => {

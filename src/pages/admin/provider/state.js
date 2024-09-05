@@ -31,6 +31,7 @@ export const providerServices = [];
  */
 const initAppState = {
   selectedService: "",
+  selectedCopyService: "",
   selectedLanguage: "",
   isLanguageMode: false,
   providerServices: [],
@@ -125,6 +126,23 @@ export const setService = (/** @type {string} */ serviceName) => {
   // update UI - all available languages, a selected language, and telehealth
 };
 
+export const setSelectedCopyService = (/** @type {string} */ serviceName) => {
+    appState.selectedCopyService = serviceName;
+}
+
+export const copyService = () => {
+  console.log("going to copy... ", appState.selectedCopyService)
+    // const service = appState.providerServices.find(
+    //     (service) => service.serviceName === appState.selectedService
+    // );
+    // if (!service) {
+    //     return;
+    // }
+    // const newService = { ...service };
+    // newService.serviceName = `${service.serviceName} - Copy`;
+    // appState.providerServices.push(newService);
+  console.log("click!")
+}
 export const initService = (/** @type {string} */ serviceName) => {
   const service = appState.providerServices.find(
     (service) => service.serviceName === serviceName
