@@ -131,17 +131,19 @@ export const setSelectedCopyService = (/** @type {string} */ serviceName) => {
 }
 
 export const copyService = () => {
-  console.log("going to copy... ", appState.selectedCopyService)
-    // const service = appState.providerServices.find(
-    //     (service) => service.serviceName === appState.selectedService
-    // );
-    // if (!service) {
-    //     return;
-    // }
-    // const newService = { ...service };
-    // newService.serviceName = `${service.serviceName} - Copy`;
-    // appState.providerServices.push(newService);
-  console.log("click!")
+  const serviceToCopy = appState.providerServices.find(
+      (service) => service.serviceName === appState.selectedCopyService
+  );
+
+  const serviceIndex = appState.providerServices.findIndex(service => service.serviceName === appState.selectedService);
+
+  if (!serviceToCopy || !serviceIndex) {
+      return;
+  }
+  appState.providerServices[serviceIndex] = {
+    ...serviceToCopy,
+    serviceName: appState.selectedService
+  };
 }
 export const initService = (/** @type {string} */ serviceName) => {
   const service = appState.providerServices.find(
