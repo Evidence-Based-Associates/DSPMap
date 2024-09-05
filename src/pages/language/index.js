@@ -1,10 +1,17 @@
 import { providers, languageName } from "./api.js";
+import { config } from "../../../config.js";
 
-const providerList = document.getElementById("providerList");
+if (config.ENV === "DEV") {
+  const envAlert = document.getElementById("envAlert");
+  envAlert?.removeAttribute("hidden");
+}
+
+const providerSection = document.getElementById("providerList");
 providers.forEach((name, id) => {
-  const providerLI = document.createElement("li");
-  providerLI.innerHTML = `<a href='../provider/index.html?id=${id}'>${name}</a>`;
-  providerList && providerList.appendChild(providerLI);
+  const providerItem = document.createElement("div");
+  providerItem.className = "col-3 mx-2 my-2";
+  providerItem.innerHTML = `<a href='../provider/index.html?id=${id}'>${name}</a>`;
+  providerSection && providerSection.appendChild(providerItem);
 });
 
 const languageNameSpans = document.getElementsByName("langaugeText");

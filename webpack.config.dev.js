@@ -1,4 +1,5 @@
 const path = require("path");
+const webpack = require("webpack");
 
 const pageNames = [
   "csu",
@@ -7,6 +8,7 @@ const pageNames = [
   "provider",
   "search",
   "service",
+  "admin/provider",
 ];
 
 const entries = pageNames.reduce((entryObj, pageName) => {
@@ -31,4 +33,9 @@ module.exports = {
     filename: "[name].js",
     path: path.resolve(__dirname, "docs"),
   },
+  plugins: [
+    new webpack.DefinePlugin({
+      "process.env.ENV": JSON.stringify("DEV"),
+    }),
+  ],
 };

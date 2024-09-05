@@ -11,6 +11,8 @@ import {
   limit,
   collection,
   where,
+  setDoc,
+  getDocsFromServer,
 } from "firebase/firestore";
 import { config } from "../../config";
 import { allFIPSinRegion, regionCSUs, sortedCSUs } from "../lib/csu";
@@ -113,12 +115,27 @@ export class FIREBASE_API {
     );
   }
 
-  getAllProvidersByFIPS(fips) {
-    // not yet implemented in FIREBASE_API
-    return new Map();
+  async getAllProvidersByFIPS(fips) {
+    const services = collectionGroup(this.db, "services");
+    const servicesQuery = query(
+      services,
+      where("allFIPS", "array-contains", fips)
+    );
+    const servicesQuerySnapshot = await getDocs(servicesQuery);
+
+    if (servicesQuerySnapshot.empty) {
+      return new Map();
+    }
+
+    const providerList = new Map();
+    servicesQuerySnapshot.forEach((doc) => {
+      const providerName = doc.get("providerName");
+      providerList.set(providerName, providerName);
+    });
+    return providerList;
   }
 
-  async getProviderServices(providerName) {
+  async getProviderServiceNames(providerName) {
     // get subcollection of services for provider
     const services = [];
     const servicesRef = collection(
@@ -138,6 +155,20 @@ export class FIREBASE_API {
     return services.sort();
   }
 
+  async getProviderServices(providerName) {
+    // get subcollection of services for provider
+    const services = [];
+    const servicesRef = collection(
+      this.db,
+      "providers",
+      providerName,
+      "services"
+    );
+    const servicesQuery = query(servicesRef);
+    const servicesQuerySnapshot = await getDocs(servicesQuery);
+    return servicesQuerySnapshot.docs.map((doc) => doc.data());
+  }
+
   async getProviderInfo(providerName) {
     // get the provider document
     const providerRef = doc(this.db, "providers", providerName);
@@ -152,9 +183,24 @@ export class FIREBASE_API {
     return {};
   }
 
-  getAllServicesByProviderInFIPS(providerId, fips) {
-    // not yet implemented in FIREBASE_API
-    return [];
+  async getAllServicesByProviderInFIPS(providerId, fips) {
+    // similar to getAllServicesByProviderInCSU
+    const providerRef = doc(this.db, "providers", providerId);
+    const providerServicesRef = collection(providerRef, "services");
+    const providerServicesQuery = query(
+      providerServicesRef,
+      where("allFIPS", "array-contains", fips)
+    );
+    const providerServicesQuerySnapshot = await getDocs(providerServicesQuery);
+    if (providerServicesQuerySnapshot.empty) {
+      return [];
+    }
+
+    const serviceList = new Set();
+    providerServicesQuerySnapshot.forEach((doc) => {
+      serviceList.add(doc.get("serviceName"));
+    });
+    return [...serviceList].sort();
   }
 
   async getAllServiceNamesByCSU(csu) {
@@ -256,6 +302,20 @@ export class FIREBASE_API {
       providerMap.set(providerName, providerName);
     });
     return providerMap;
+  }
+
+  async getAllOffices() {
+    const offices = [];
+    const officesRef = collection(this.db, "offices");
+    const officesQuery = query(officesRef);
+    const officesQuerySnapshot = await getDocsFromServer(officesQuery);
+    if (officesQuerySnapshot.empty) {
+      return [];
+    }
+    officesQuerySnapshot.forEach((doc) => {
+      offices.push(doc.data());
+    });
+    return offices;
   }
 
   async getAllLocations(providerName = "") {
@@ -456,5 +516,47 @@ export class FIREBASE_API {
       providerMap.set(providerName, providerName);
     });
     return providerMap;
+  }
+
+  async getGoogleMapsApiKey() {
+    const docRef = doc(this.db, "meta", "GOOGLE_API_KEY");
+    const docSnap = await getDoc(docRef);
+    if (docSnap.exists()) {
+      return docSnap.get("value");
+    }
+    return "No API Key Found.";
+  }
+
+  async saveProvider(providerInfo, servicesInfo = []) {
+    const providerRef = doc(this.db, "providers", providerInfo.providerName);
+    await setDoc(providerRef, providerInfo);
+
+    if (servicesInfo.length === 0) {
+      return;
+    }
+    // firebase cannot handle Sets, need to convert to Array
+    servicesInfo.forEach((serviceInfo) => {
+      serviceInfo.allFIPS = [
+        ...serviceInfo.availableFIPS,
+        ...serviceInfo.limitedFIPS,
+      ];
+      serviceInfo.availableFIPS = [...serviceInfo.availableFIPS];
+      serviceInfo.limitedFIPS = [...serviceInfo.limitedFIPS];
+      serviceInfo.providerName = providerInfo.providerName;
+      const languageFIPS = serviceInfo.languageFIPS;
+      Object.keys(languageFIPS).forEach((language) => {
+        languageFIPS[language] = [...languageFIPS[language]];
+      });
+    });
+    servicesInfo.forEach(async (serviceInfo) => {
+      const serviceRef = doc(
+        this.db,
+        "providers",
+        providerInfo.providerName,
+        "services",
+        serviceInfo.serviceName
+      );
+      await setDoc(serviceRef, serviceInfo);
+    });
   }
 }

@@ -8,6 +8,7 @@ const colors = {
   EBABlue: "#D9E5F3",
   RegColor: "#008000",
   TravelColor: "#90EE90",
+  NoServiceColor: "#88A4BC",
 };
 
 export default colors;

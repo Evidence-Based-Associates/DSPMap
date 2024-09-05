@@ -1609,7 +1609,6 @@
             <FIPs travelReq="Y">51109</FIPs>
             <FIPs travelReq="Y">51085</FIPs>
         </Service>
-        <Service serviceName="Anger Management" serviceZoom="-1"/>
         <Service serviceName="Substance Use Evaluation" serviceZoom="51540">
             <FIPs travelReq="N">51087</FIPs>
             <FIPs travelReq="N">51760</FIPs>
@@ -5967,7 +5966,7 @@
             <FIPs travelReq="N" languages="Spanish, Farsi">51013</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51610</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51510</FIPs>
-            <FIPs travelReq="N" languages="Farsi, Spanish, ">51059</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Spanish">51059</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51600</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51061</FIPs>
             <FIPs travelReq="N" languages="Spanish, Farsi">51157</FIPs>
@@ -6037,7 +6036,7 @@
             <FIPs travelReq="N">51089</FIPs>
             <FIPs travelReq="N">51590</FIPs>
             <FIPs travelReq="N">51067</FIPs>
-            <FIPs travelReq="N" languages="">51015</FIPs>
+            <FIPs travelReq="N">51015</FIPs>
             <FIPs travelReq="N">51017</FIPs>
             <FIPs travelReq="N">51005</FIPs>
             <FIPs travelReq="N">51580</FIPs>
@@ -6071,7 +6070,7 @@
             <FIPs travelReq="N" languages="Spanish">51171</FIPs>
             <FIPs travelReq="N" languages="Sign Language">51165</FIPs>
             <FIPs travelReq="N">51099</FIPs>
-            <FIPs travelReq="N" languages="Farsi, Spanish, ">51107</FIPs>
+            <FIPs travelReq="N" languages="Farsi, Spanish">51107</FIPs>
             <FIPs travelReq="N">51775</FIPs>
             <FIPs travelReq="N">51143</FIPs>
         </Service>
@@ -8135,7 +8134,6 @@
         <Service serviceName="Trauma Focused Cognitive Behavioral Therapy" serviceZoom="0">
             <FIPs travelReq="N" languages="Spanish, Amharic">51510</FIPs>
         </Service>
-        <Service serviceName="Group Therapy" serviceZoom="-1"/>
         <Service serviceName="Specialized Individual Therapy" serviceZoom="0">
             <FIPs travelReq="N" languages="Spanish, Amharic">51510</FIPs>
         </Service>
@@ -9151,7 +9149,6 @@
             <FIPs travelReq="Y">51043</FIPs>
             <FIPs travelReq="Y">51153</FIPs>
         </Service>
-        <Service serviceName="Substance Abuse Intensive Outpatient Program" serviceZoom="-1"/>
         <Service serviceName="Mental Health Evaluation" serviceZoom="-1">
             <FIPs travelReq="N">51107</FIPs>
             <FIPs travelReq="Y">51061</FIPs>

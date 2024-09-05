@@ -1,4 +1,3 @@
-import { API } from "../../api/api.js";
 import colors from "../colors.js";
 import { regionCSUs, sortedCSUs, isLocalityInRegion } from "../csu.js";
 
@@ -10,7 +9,7 @@ const localitiesFromRegion = (region) => {
   return localities;
 };
 
-const regions = {
+export const regions = {
   0: {
     states: localitiesFromRegion(regionCSUs.NorthernRegion),
     name: "Northern Region",
@@ -79,16 +78,22 @@ const pagePath = (pageName) => {
   }
 };
 
-export const setMapCSURegions = () => {
+export const setMapCSURegions = (isEditPage = false) => {
   // @ts-ignore (global variable)
   simplemaps_statemap_mapdata.regions = regions;
 
-  // @ts-ignore (global variable)
-  const localities = simplemaps_statemap_mapdata.state_specific;
-  for (let locality in localities) {
-    localities[locality].color = regionColor(locality);
-    const path = localityPagePath();
-    localities[locality].url = `${path}?id=${locality}`;
+  if (!isEditPage) {
+    // @ts-ignore (global variable)
+    const localities = simplemaps_statemap_mapdata.state_specific;
+    for (let locality in localities) {
+      localities[locality].color = regionColor(locality);
+      const path = localityPagePath();
+      localities[locality].url = `${path}?id=${locality}`;
+    }
+  } else {
+    Object.keys(simplemaps_statemap_mapdata.regions).forEach((region) => {
+      simplemaps_statemap_mapdata.regions[region].color = "default";
+    });
   }
 };
 

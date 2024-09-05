@@ -1,0 +1,808 @@
+[
+  {
+    "contactName": "Kathy Toohey",
+    "website": "3rdmil.com",
+    "contactEmail": "ktoohey@3rdmilclassrooms.com",
+    "lastUpdated": "2023-09-05",
+    "defaultMapZoom": -1,
+    "providerName": "3rd Millennium Classrooms"
+  },
+  {
+    "lastUpdated": "2024-06-14T19:45:38.551Z",
+    "contactName": "Anne Smith",
+    "defaultMapZoom": "0",
+    "website": "abccounseling.com",
+    "providerName": "ABC Counseling",
+    "offices": [
+      {
+        "zip": "",
+        "lng": "-77.58093819999999",
+        "providerName": "ABC Counseling",
+        "city": "Richmond",
+        "lat": "37.5014253",
+        "street": "804 Moorefield Park Drive #204",
+        "state": "VA",
+        "phone": ""
+      }
+    ],
+    "contactEmail": "anne@abccounseling.com"
+  },
+  {
+    "defaultMapZoom": 2,
+    "website": "www.anchor-services.org",
+    "lastUpdated": "2023-09-05",
+    "providerName": "ANCHOR Commission",
+    "contactEmail": "referrals@anchor-services.org",
+    "contactName": "Ricky Walker"
+  },
+  {
+    "lastUpdated": "2023-09-18",
+    "contactName": "Nelgy Hernandez",
+    "defaultMapZoom": 0,
+    "website": "www.aboutchangeva.com",
+    "providerName": "About Change",
+    "contactEmail": "nelgy@aboutchangeva.com"
+  },
+  {
+    "defaultMapZoom": -1,
+    "providerName": "Adam Doane Child and Family Counseling",
+    "lastUpdated": "2023-09-08",
+    "contactEmail": "adam.lcsw.va@gmail.com",
+    "contactName": "Adam Doane",
+    "website": ""
+  },
+  {
+    "contactName": "Janice DeShazer",
+    "contactEmail": "jdeshazer@aethiops.org",
+    "providerName": "Aethiops Business Solutions",
+    "lastUpdated": "2022-10-27",
+    "website": "www.aethiops.org",
+    "defaultMapZoom": 0
+  },
+  {
+    "contactEmail": "kdellinger@baconstreet.org",
+    "lastUpdated": "2023-08-29",
+    "website": "baconstreet.org",
+    "contactName": "Kimberly Dellinger",
+    "providerName": "Bacon Street Youth and Family Services",
+    "defaultMapZoom": -1
+  },
+  {
+    "contactName": "Cathy L. Brown, LCSW",
+    "contactEmail": "cbrown@brbh.org",
+    "website": "www.brbh.org",
+    "lastUpdated": "2021-09-23",
+    "providerName": "Blue Ridge Behavioral Healthcare",
+    "defaultMapZoom": -1
+  },
+  {
+    "lastUpdated": "2023-07-18",
+    "contactEmail": "lsmelser.bacc@gmail.com",
+    "contactName": "Lauren Smelser",
+    "website": "",
+    "providerName": "Brambleton Assessment and Counseling Center",
+    "defaultMapZoom": -1
+  },
+  {
+    "providerName": "CM Mentoring Services",
+    "website": "",
+    "contactName": "Curtis Mills",
+    "lastUpdated": "2018-05-19",
+    "contactEmail": "curtis@cmmentoringservices.com",
+    "defaultMapZoom": 1
+  },
+  {
+    "lastUpdated": "2021-08-24",
+    "defaultMapZoom": -1,
+    "providerName": "Childhelp",
+    "website": "www.childhelp.org/virginia/the-village/",
+    "contactName": "Kelley Hackley",
+    "contactEmail": "khackley@childhelp.org"
+  },
+  {
+    "lastUpdated": "2022-09-22",
+    "defaultMapZoom": -1,
+    "contactName": "Dr. Elise Stevenson Hagan, PhD, MBA, LMHP",
+    "providerName": "Chrysalis Counseling Centers",
+    "contactEmail": "estevensonhagan@chrysaliscenters.com",
+    "website": "www.chrysaliscenters.com"
+  },
+  {
+    "contactEmail": "dchsyouthintake@alexandriava.gov",
+    "defaultMapZoom": 0,
+    "lastUpdated": "2022-11-02",
+    "contactName": "Intake",
+    "providerName": "City of Alexandria Department of Community and Human Services",
+    "website": "www.alexandriava.gov/DCHS"
+  },
+  {
+    "contactName": "Jamal Brown",
+    "providerName": "Clinical Healing and Mindfulness Practices",
+    "website": "www.champva.life",
+    "contactEmail": "admin@champva.life",
+    "lastUpdated": "2023-09-13",
+    "defaultMapZoom": -1
+  },
+  {
+    "contactName": "Josie Williams",
+    "website": "cccofva.org/",
+    "contactEmail": "Josie.Williams@cccofva.org",
+    "defaultMapZoom": -1,
+    "providerName": "Commonwealth Catholic Charities",
+    "lastUpdated": "2022-10-13"
+  },
+  {
+    "lastUpdated": "2024-06-04T11:52:57.173Z",
+    "offices": [
+      {
+        "phone": "5404045985",
+        "city": "Front Royal",
+        "lat": "38.9128747",
+        "state": "VA",
+        "street": "410 S Royal Ave",
+        "zip": "22630",
+        "lng": "-78.19391399999999",
+        "providerName": "Connected Communities"
+      },
+      {
+        "providerName": "Connected Communities",
+        "phone": "540-404-5985",
+        "city": "Winchester",
+        "lng": "-78.1643134",
+        "state": "VA",
+        "lat": "39.1826616",
+        "zip": "22601",
+        "street": "44 South Cameron St.  Suite 2 A&B"
+      },
+      {
+        "lat": "",
+        "providerName": "Connected Communities",
+        "street": "804 Moorefield Park Drive, #204",
+        "state": "VA",
+        "city": "Richmond",
+        "zip": "",
+        "lng": "",
+        "phone": ""
+      }
+    ],
+    "contactEmail": "info@cciwinchester.com",
+    "contactName": "Megan Slaughter",
+    "providerName": "Connected Communities",
+    "defaultMapZoom": "0",
+    "website": "www.cciwinchester.com/"
+  },
+  {
+    "website": "https://www.cfsvirginia.com",
+    "providerName": "Counseling and Forensic Services",
+    "defaultMapZoom": -1,
+    "contactEmail": "ythorpe@cfsvirginia.com",
+    "lastUpdated": "2022-10-27",
+    "contactName": "Yulia Thorpe"
+  },
+  {
+    "defaultMapZoom": -1,
+    "lastUpdated": "2022-07-19",
+    "contactName": "Megan Hall, PsyD, LPC, LCP, CSOTP",
+    "website": "",
+    "contactEmail": "Hall.Daybreak@gmail.com",
+    "providerName": "Daybreak Counseling and Forensic Services"
+  },
+  {
+    "contactName": "Jason Poston, LCSW, LSATP, CSAC, CSOTP, MAC",
+    "lastUpdated": "2021-10-13",
+    "contactEmail": "JPoston@depaulcr.org",
+    "website": "www.depaulcr.org/",
+    "providerName": "DePaul Community Resources",
+    "defaultMapZoom": -1
+  },
+  {
+    "contactEmail": "elite.watch.shannon@mail.com",
+    "lastUpdated": "2024-02-05",
+    "website": "",
+    "providerName": "Elite Watch",
+    "defaultMapZoom": 1,
+    "contactName": "Shannon Overstreet"
+  },
+  {
+    "contactEmail": "TJohnston@elkhill.org",
+    "defaultMapZoom": -1,
+    "contactName": "Tammy Johnston",
+    "website": "www.elkhill.org",
+    "providerName": "Elk Hill Children and Family Services",
+    "lastUpdated": "2022-11-29"
+  },
+  {
+    "contactEmail": "heather.knowles2016@gmail.com",
+    "website": "www.empoweringfamiliesprogram.com/",
+    "providerName": "Empowering Families Program",
+    "defaultMapZoom": 1,
+    "contactName": "Heather Knowles",
+    "lastUpdated": "2023-08-16"
+  },
+  {
+    "contactName": "Stephanie Barbour",
+    "defaultMapZoom": -1,
+    "lastUpdated": "2023-12-07",
+    "providerName": "Envision Counseling",
+    "website": "ncgenvision.com",
+    "contactEmail": "stephanie.barbour@ncgenvision.com"
+  },
+  {
+    "website": "www.familyfocusinc.com",
+    "contactName": "Natalie Proffitt",
+    "lastUpdated": "2023-11-21",
+    "contactEmail": "nproffitt@familyfocusinc.com",
+    "defaultMapZoom": -1,
+    "providerName": "Family Focus"
+  },
+  {
+    "contactEmail": "TKing@fpscorp.com",
+    "contactName": "Tami King",
+    "website": "www.fpscorp.com",
+    "lastUpdated": "2023-12-29",
+    "defaultMapZoom": -1,
+    "providerName": "Family Preservation Services"
+  },
+  {
+    "providerName": "Fields of Hope and Dreams Mentoring Services",
+    "website": "",
+    "defaultMapZoom": 1,
+    "lastUpdated": "2023-08-28",
+    "contactName": "Marvin Fields",
+    "contactEmail": "mfields04que@gmail.com"
+  },
+  {
+    "defaultMapZoom": -1,
+    "providerName": "Forensic Psychology Associates",
+    "contactName": "Evan S. Nelson, Ph.D.",
+    "website": "www.psylaw.com",
+    "lastUpdated": "2021-06-10",
+    "contactEmail": "esnelson@psylaw.com"
+  },
+  {
+    "website": "fulcrumcounselors.com/",
+    "defaultMapZoom": -1,
+    "contactName": "Glenn Fowlkes",
+    "contactEmail": "gfowlkes@fulcrumcounselors.com",
+    "providerName": "Fulcrum Counselors",
+    "lastUpdated": "2021-12-07"
+  },
+  {
+    "defaultMapZoom": -1,
+    "providerName": "Hallmark Youthcare",
+    "website": "www.hallmarkyouthcare.org/admissions/",
+    "contactEmail": "Julie.Plotz@hallmarksystems.com",
+    "contactName": "Julie L. Plotz",
+    "lastUpdated": "2021-08-24"
+  },
+  {
+    "contactName": "John Wilson, LPC, LMFT",
+    "defaultMapZoom": 0,
+    "providerName": "Harrisonburg-Rockingham Community Services Board",
+    "lastUpdated": "2022-09-22",
+    "website": "https://www.hrcsb.org",
+    "contactEmail": "jwilso@hrcsb.org"
+  },
+  {
+    "contactName": "Dana Rexrode",
+    "contactEmail": "dana.rexrode@healthconnectamerica.com",
+    "providerName": "Health Connect America",
+    "website": "healthconnectamerica.com/",
+    "lastUpdated": "2022-01-11",
+    "defaultMapZoom": -1
+  },
+  {
+    "lastUpdated": "2024-03-07",
+    "contactName": "Mike Walsh",
+    "providerName": "Henrico Area Mental Health and Developmental Services",
+    "website": "http://henrico.us/mhds/",
+    "contactEmail": "wal25@henrico.us",
+    "defaultMapZoom": -1
+  },
+  {
+    "contactEmail": "Jennifer.Smith.Ramey@horizonbh.org",
+    "defaultMapZoom": -1,
+    "lastUpdated": "2023-01-30",
+    "contactName": "Jennifer Smith Ramey, LPC",
+    "website": "www.horizonbh.org",
+    "providerName": "Horizon Behavioral Health"
+  },
+  {
+    "defaultMapZoom": "-1",
+    "lastUpdated": "2024-06-14T19:29:08.485Z",
+    "offices": [
+      {
+        "street": "10517-B Braddock Rd.",
+        "lng": "-77.3122404",
+        "phone": "434-533-1088",
+        "state": "VA",
+        "zip": "22032",
+        "providerName": "Impact Living Services",
+        "lat": "38.8247175",
+        "city": "Fairfax"
+      },
+      {
+        "lat": "36.7943167",
+        "lng": "-76.0905271",
+        "providerName": "Impact Living Services",
+        "phone": "",
+        "state": "VA",
+        "street": "1303 Evergreen Ct",
+        "city": "Virginia Beach",
+        "zip": "23453"
+      },
+      {
+        "zip": "23453",
+        "state": "VA",
+        "street": "1329 White Pine Court",
+        "providerName": "Impact Living Services",
+        "lng": "-76.08769629999999",
+        "city": "Virginia Beach,",
+        "phone": "",
+        "lat": "36.7947741"
+      },
+      {
+        "zip": "23288",
+        "city": "Henrico",
+        "lat": "37.6371042",
+        "street": "1508 F Spring Tree Ct",
+        "lng": "-77.47047429999999",
+        "state": "VA",
+        "providerName": "Impact Living Services",
+        "phone": ""
+      },
+      {
+        "zip": "22801",
+        "phone": "434-533-1088",
+        "state": "VA",
+        "providerName": "Impact Living Services",
+        "lng": "-78.84069749999999",
+        "lat": "38.4207674",
+        "street": "2262 Blue Stone Hills Dr. Suite C",
+        "city": "Harrisonburg"
+      },
+      {
+        "zip": "24551",
+        "street": "316 Brook Park Place Suite A1",
+        "lng": "-79.249741",
+        "state": "VA",
+        "providerName": "Impact Living Services",
+        "lat": "37.36965",
+        "city": "Forrest",
+        "phone": "434-533-1088"
+      },
+      {
+        "city": "Fredericksburg",
+        "state": "VA",
+        "providerName": "Impact Living Services",
+        "lng": "-77.50465489999999",
+        "lat": "38.2175892",
+        "street": "4660 Monroe Way",
+        "zip": "22407",
+        "phone": ""
+      },
+      {
+        "zip": "24012",
+        "providerName": "Impact Living Services",
+        "street": "Mexico Way NE",
+        "state": "VA",
+        "phone": "",
+        "lat": "37.3038435",
+        "lng": "-79.8869392",
+        "city": "Roanoke"
+      }
+    ],
+    "contactEmail": "adam@impactlivingservices.org",
+    "website": "www.impactlivingservices.org",
+    "providerName": "Impact Living Services",
+    "contactName": "Adam Pavao"
+  },
+  {
+    "website": "www.ifcsllc.com",
+    "contactName": "Anitra Carter",
+    "lastUpdated": "2024-06-18T14:52:28.855Z",
+    "contactEmail": "info@ifccsllc.com",
+    "defaultMapZoom": "-1",
+    "providerName": "Impacting Futures Community Services",
+    "offices": [
+      {
+        "providerName": "Impacting Futures Community Services",
+        "city": "Petersburg",
+        "street": "325- B Brown Street ",
+        "state": "VA",
+        "lng": "-77.40823739999999",
+        "zip": "23803",
+        "phone": "804-924-7471",
+        "lat": "37.2241892"
+      },
+      {
+        "street": "",
+        "state": "VA",
+        "city": "",
+        "phone": "",
+        "zip": "",
+        "providerName": "Impacting Futures Community Services",
+        "lat": "",
+        "lng": ""
+      }
+    ]
+  },
+  {
+    "contactName": "Stephanie Cady",
+    "providerName": "Integrated Health Services",
+    "contactEmail": "Stephaniec@ihsva.com",
+    "defaultMapZoom": "1",
+    "offices": [
+      {
+        "state": "VA",
+        "zip": "23238",
+        "city": "Richmond",
+        "phone": "(804) 225-8405",
+        "providerName": "Integrated Health Services",
+        "lng": "-77.5780651",
+        "street": "1403 Pemberton Rd",
+        "lat": "37.6082306"
+      },
+      {
+        "street": "2 Eaton Street, Suite 1103",
+        "providerName": "Integrated Health Services",
+        "city": "Hampton",
+        "state": "VA",
+        "phone": "(757) 838-1894",
+        "lat": "37.60820289999999",
+        "lng": "-77.57810599999999",
+        "zip": "23669"
+      },
+      {
+        "lat": "36.8450559",
+        "zip": "23462",
+        "city": "Virginia Beach",
+        "phone": "(757)838-1894",
+        "providerName": "Integrated Health Services",
+        "lng": "-76.1384056",
+        "street": "287 Independence Blvd. Suite 322",
+        "state": "VA"
+      }
+    ],
+    "website": "www.ihsva.com",
+    "lastUpdated": "2024-06-14T19:21:27.712Z"
+  },
+  {
+    "contactName": "Alyssa Hammer",
+    "providerName": "Intercept Health",
+    "lastUpdated": "2024-02-20",
+    "website": "www.intercepthealth.com",
+    "defaultMapZoom": -1,
+    "contactEmail": "adhammer@intercepthealth.com"
+  },
+  {
+    "website": "www.jacksonfeild.org",
+    "lastUpdated": "2021-09-01",
+    "contactEmail": "NPhilpy@jacksonfeild.org",
+    "providerName": "Jackson Feild Behavioral Health Services",
+    "defaultMapZoom": -1,
+    "contactName": "Nancy Philpy"
+  },
+  {
+    "website": "www.lifepushllc.com",
+    "defaultMapZoom": -1,
+    "providerName": "Life Push",
+    "lastUpdated": "2022-03-09",
+    "contactEmail": "nsturdifen@lifepushllc.com",
+    "contactName": "Nicholas Sturdifen"
+  },
+  {
+    "defaultMapZoom": -1,
+    "website": "https://www.lifebridgecounseling.com/",
+    "providerName": "Lifebridge Counseling",
+    "lastUpdated": "2024-03-18",
+    "contactName": "Referral Inbox",
+    "contactEmail": "refer@lifebridgecounseling.com"
+  },
+  {
+    "website": "www.mpnncsb.org",
+    "contactEmail": "eeanes@mpnn.state.va.us",
+    "providerName": "Middle Peninsula Northern Neck Community Services Board",
+    "defaultMapZoom": 1,
+    "lastUpdated": "2022-10-31",
+    "contactName": "Emily Eanes, LPC, LMFT"
+  },
+  {
+    "providerName": "MountainView Counseling LLC",
+    "contactName": "Terry Catoe Hodges",
+    "lastUpdated": "2024-03-07",
+    "defaultMapZoom": -1,
+    "contactEmail": "tchodges@mountainviewcounselingllc.com",
+    "website": "mountainviewcounseling.clientsecure.me/"
+  },
+  {
+    "contactName": "Call center",
+    "defaultMapZoom": -1,
+    "contactEmail": "carecenter@ncgcare.com",
+    "lastUpdated": "2024-02-09",
+    "providerName": "National Counseling Group",
+    "website": "ncgcommunity.com"
+  },
+  {
+    "contactName": "Mike Hawkins",
+    "contactEmail": "mike.hawkins@newgenesisrecovery.com",
+    "defaultMapZoom": -1,
+    "providerName": "New Genesis Recovery Center",
+    "lastUpdated": "2019-04-09",
+    "website": "www.newgenesisrecovery.com"
+  },
+  {
+    "lastUpdated": "2024-06-02T10:42:24.277Z",
+    "defaultMapZoom": "0",
+    "contactName": "Joe Schmo",
+    "providerName": "New Provider",
+    "offices": [
+      {
+        "lat": "38.4504195",
+        "state": "VA",
+        "city": "Harrisonburg",
+        "street": "100 Main Street",
+        "lng": "-78.8683315",
+        "phone": "",
+        "zip": "",
+        "providerName": "New Provider"
+      },
+      {
+        "street": "100 N Main Street",
+        "state": "VA",
+        "city": "Roanoke",
+        "lng": "-79.9414266",
+        "phone": "",
+        "providerName": "New Provider",
+        "zip": "",
+        "lat": "37.2709704"
+      }
+    ],
+    "website": "someprovider.com",
+    "contactEmail": "joe@someprovider.com"
+  },
+  {
+    "lastUpdated": "2024-06-01T12:05:13.803Z",
+    "defaultMapZoom": "0",
+    "contactEmail": "sally@newprovider2.com",
+    "contactName": "Sally Smith",
+    "providerName": "New Provider 20240601",
+    "website": "newprovider2.com",
+    "offices": [
+      {
+        "city": "Leesburg",
+        "phone": "",
+        "zip": "",
+        "providerName": "New Provider 20240601",
+        "street": "123 S Main St",
+        "lat": "39.1154523",
+        "lng": "-77.5645323",
+        "state": "VA"
+      }
+    ]
+  },
+  {
+    "contactName": "provider",
+    "lastUpdated": "2024-06-01T12:05:52.330Z",
+    "offices": [
+      {
+        "phone": "",
+        "lat": "38.84626009999999",
+        "city": "Fairfax",
+        "street": "123 Main Street",
+        "providerName": "NewProviderWithAuth",
+        "zip": "",
+        "lng": "-77.3066109",
+        "state": "VA"
+      }
+    ],
+    "contactEmail": "email",
+    "defaultMapZoom": "-1",
+    "website": "new",
+    "providerName": "NewProviderWithAuth"
+  },
+  {
+    "providerName": "Oceanside Evaluations",
+    "contactName": "Ann P. VanSkiver, Psy.D., NCSP",
+    "lastUpdated": "2022-10-31",
+    "contactEmail": "avanskiver@oceansideevaluations.com",
+    "defaultMapZoom": 1,
+    "website": "www.oceansideevaluations.com/"
+  },
+  {
+    "contactEmail": "dsuttonpys@cox.net",
+    "website": "",
+    "contactName": "Damon Sutton",
+    "providerName": "Paramount Youth Services",
+    "defaultMapZoom": -1,
+    "lastUpdated": "2021-05-20"
+  },
+  {
+    "contactName": "Mary Jackson-Brown, OM",
+    "defaultMapZoom": 1,
+    "providerName": "Rice Counseling and Associates",
+    "contactEmail": "mjbrown@ricecounseling.org",
+    "website": "www.ricecounseling.org/",
+    "lastUpdated": "2022-10-06"
+  },
+  {
+    "website": "",
+    "lastUpdated": "2018-09-27",
+    "contactEmail": "rozinterpreter@aol.com",
+    "contactName": "Roz Anderson",
+    "defaultMapZoom": -1,
+    "providerName": "Roz Anderson"
+  },
+  {
+    "defaultMapZoom": -1,
+    "contactName": "Ilona Gravers, Psy. D., CSOTP",
+    "website": "salveoconsulting.com",
+    "contactEmail": "igravers@salveoconsulting.com",
+    "lastUpdated": "2022-09-22",
+    "providerName": "Salveo Consulting"
+  },
+  {
+    "contactEmail": "kelly.r.sharpes@gmail.com",
+    "lastUpdated": "2018-02-16",
+    "providerName": "Shenandoah Valley Adolescent Treatment",
+    "website": "",
+    "contactName": "Kelly Sharpes, LPC, CSOTP",
+    "defaultMapZoom": -1
+  },
+  {
+    "contactName": "Stephen House",
+    "website": "",
+    "contactEmail": "stephen@spectrumhealthus.com",
+    "defaultMapZoom": "1",
+    "providerName": "Spectrum Health Solutions",
+    "lastUpdated": "2024-06-13T18:32:52.965Z",
+    "offices": [
+      {
+        "lng": "-76.9848327",
+        "street": "",
+        "city": "New Kent",
+        "zip": "",
+        "state": "VA",
+        "lat": "37.5149037",
+        "phone": "757-784-298723124",
+        "providerName": "Spectrum Health Solutions"
+      }
+    ]
+  },
+  {
+    "contactEmail": "mgrossman@strategictherapyassociates.com",
+    "providerName": "Strategic Therapy Associates",
+    "defaultMapZoom": -1,
+    "lastUpdated": "2023-06-27",
+    "contactName": "Misty Grossman",
+    "website": "s614510739.initial-website.com"
+  },
+  {
+    "website": "teensincva.org",
+    "contactEmail": "Teensincva@gmail.com",
+    "defaultMapZoom": 0,
+    "lastUpdated": "2023-01-05",
+    "contactName": "Charity Gray",
+    "providerName": "TEENS"
+  },
+  {
+    "contactEmail": "karen.melville@thechoicegroup.com",
+    "providerName": "The Choice Group",
+    "lastUpdated": "2022-06-13",
+    "website": "www.thechoicegroup.com",
+    "contactName": "Karen Melville",
+    "defaultMapZoom": -1
+  },
+  {
+    "defaultMapZoom": -1,
+    "contactEmail": "jercreta.woodson@themarcsagency.com",
+    "website": "www.themarcsagency.com",
+    "lastUpdated": "2024-03-18",
+    "contactName": "Jercreta Woodson",
+    "providerName": "The MARCS Agency"
+  },
+  {
+    "website": "williamscenters.com/",
+    "contactName": "Information",
+    "providerName": "The Williams Center",
+    "defaultMapZoom": -1,
+    "lastUpdated": "2023-11-30",
+    "contactEmail": "Info@WilliamsCenters.com"
+  },
+  {
+    "contactName": "Admissions Department",
+    "contactEmail": "admissions@3rtc.com",
+    "lastUpdated": "2022-05-02",
+    "website": "3rtc.com/",
+    "providerName": "Three Rivers Treatment Center",
+    "defaultMapZoom": -1
+  },
+  {
+    "defaultMapZoom": -1,
+    "lastUpdated": "2023-12-06",
+    "contactName": "Jenny Hodge",
+    "providerName": "Tidewater Youth Services Commission",
+    "website": "www.tysfoundation.org/",
+    "contactEmail": "jhodge@tyscommission.org"
+  },
+  {
+    "defaultMapZoom": 0,
+    "website": "www.timberridgeschool.org",
+    "providerName": "Timber Ridge",
+    "lastUpdated": "2022-10-04",
+    "contactEmail": "collis@trschool.org",
+    "contactName": "Adam Collis"
+  },
+  {
+    "defaultMapZoom": -1,
+    "lastUpdated": "2022-10-10",
+    "contactEmail": "sdowd@transitionscorp.com",
+    "website": "transitionscorp.com",
+    "providerName": "Transitions The Process of Change",
+    "contactName": "Sarah Dowd Bryant"
+  },
+  {
+    "website": "www.traumaandhope.com",
+    "contactName": "Deepa Patel",
+    "contactEmail": "dpatel@traumaandhope.com",
+    "defaultMapZoom": 0,
+    "providerName": "Trauma and Hope",
+    "lastUpdated": "2023-06-12"
+  },
+  {
+    "contactName": "Dani Halbleib",
+    "providerName": "United Methodist Family Services",
+    "defaultMapZoom": -1,
+    "website": "www.umfs.org",
+    "contactEmail": "dhalbleib@umfs.org",
+    "lastUpdated": "2022-09-19"
+  },
+  {
+    "website": "vacounselingassociates.com",
+    "defaultMapZoom": -1,
+    "lastUpdated": "2023-12-29",
+    "contactEmail": "office@vacounselingassociates.com",
+    "providerName": "Virginia Counseling Associates",
+    "contactName": "Brian McClinton"
+  },
+  {
+    "providerName": "Virginia Home for Boys and Girls",
+    "defaultMapZoom": -1,
+    "website": "www.vhbg.org",
+    "contactName": "Christopher Campbell",
+    "lastUpdated": "2022-05-02",
+    "contactEmail": "CCampbell@vhbg.org"
+  },
+  {
+    "contactEmail": "bob@xyz.com",
+    "contactName": "Bob Smith",
+    "lastUpdated": "2024-05-25",
+    "defaultMapZoom": 0,
+    "website": "xyzcounseling.com",
+    "providerName": "XYZ Counseling"
+  },
+  {
+    "defaultMapZoom": 1,
+    "contactName": "Amy Crotty",
+    "lastUpdated": "2018-10-02",
+    "website": "www.yorkcounty.gov",
+    "contactEmail": "Amy.Crotty@yorkcounty.gov",
+    "providerName": "York County Juvenile Services"
+  },
+  {
+    "defaultMapZoom": -1,
+    "contactEmail": "info@youthconnectva.com",
+    "contactName": "Taylor Kyle",
+    "providerName": "Youth Connect of Virginia",
+    "lastUpdated": "2023-09-05",
+    "website": "youthconnectva.com"
+  },
+  {
+    "defaultMapZoom": 0,
+    "providerName": "Youth for Tomorrow",
+    "website": "www.youthfortomorrow.org",
+    "contactEmail": "astone@yftva.com",
+    "contactName": "Amanda Stone",
+    "lastUpdated": "2023-12-12"
+  }
+]

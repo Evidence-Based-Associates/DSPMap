@@ -1,4 +1,4 @@
-import { API } from "../../api/api.js";
+import { getMetaData, searchServices } from "../../firebase.js";
 import { CSUStructure } from "../../lib/csu.js";
 
 const queryString = window.location.search;
@@ -7,8 +7,16 @@ export const searchValues = urlParams.values();
 const [serviceName, locationID, languageName] = searchValues;
 export const languageText = languageName;
 
-export const availableServices = await API.getAllServiceNames();
-export const availableLanguages = await API.getAllLanguages();
+const metaData = await getMetaData();
+export let availableServices = [];
+export let availableLanguages = [];
+if (metaData) {
+  Object.keys(metaData.availableServices).forEach((service) => {
+    availableServices.push(...metaData.availableServices[service]);
+  });
+  availableServices.sort();
+  availableLanguages = metaData.availableLanguages.sort();
+}
 
 export let serviceText = "";
 if (serviceName == "any") {
@@ -42,6 +50,9 @@ if (locationID.includes("CSU")) {
 } else if (locationID == "any") {
   locationText = "Any Location";
   locationType = "any";
+} else if (locationID == "telehealth") {
+  locationText = "Telehealth";
+  locationType = "Telehealth";
 } else {
   switch (locationID) {
     case "north":
@@ -61,14 +72,22 @@ if (locationID.includes("CSU")) {
       break;
     case "midwest":
       locationText = "Midwestern Region";
-      break;
   }
   locationType = "Region";
 }
 
-export const providerSearchResults = await API.searchProviders({
+const searchServicesResults = await searchServices({
   serviceName,
   locationType,
   locationID,
   languageName,
 });
+
+export let providerSearchResults = new Map();
+if (searchServicesResults) {
+  searchServicesResults.forEach((service) => {
+    if (!providerSearchResults.has(service.providerName)) {
+      providerSearchResults.set(service.providerName, service.providerName);
+    }
+  });
+}

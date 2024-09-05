@@ -1,0 +1,94 @@
+{
+  "lastUpdated": "6/18/2024",
+  "availableLanguages": [
+    "Amharic",
+    "Arabic",
+    "Bengali",
+    "Farsi",
+    "French",
+    "Kirundi",
+    "Korean",
+    "Kurdish",
+    "Latvian",
+    "Mandarin",
+    "Nepali",
+    "Portuguese",
+    "Russian",
+    "Sign Language (ASL)",
+    "Spanish",
+    "Urdu",
+    "Vietnamese",
+    "Language Line"
+  ],
+  "availableServices": {
+    "Evaluations": [
+      "Mental Health Evaluation",
+      "Psychological Evaluation",
+      "Substance Use Evaluation",
+      "Youth with Sexualized Behaviors Evaluation"
+    ],
+    "Residential Services": [
+      "Group Home",
+      "Residential Group Home",
+      "Residential Independent Living",
+      "Residential Transitional Living Program",
+      "Residential Treatment Center",
+      "Therapeutic Group Home"
+    ],
+    "Case Management": [
+      "High Fidelity Wraparound Intensive Care Coordination",
+      "Mental Health Case Management",
+      "Reentry Case Management",
+      "Substance Use Case Management"
+    ],
+    "Clinical Services": [
+      "Adolescent Community Reinforcement Approach",
+      "Brief Strategic Family Therapy",
+      "Clinical Group",
+      "Crisis Services",
+      "Dialectical Behavioral Therapy",
+      "Eye Movement Desensitization and Reprocessing",
+      "Family Centered Treatment",
+      "Functional Family Therapy",
+      "Group Therapy for Substance Use",
+      "Group Therapy for Youth with Sexualized Behaviors",
+      "Intensive In-Home Services",
+      "Multisystemic Therapy",
+      "Outpatient Therapy",
+      "Parent Child Interaction Therapy",
+      "Seven Challenges",
+      "Specialized Individual Therapy",
+      "Substance Abuse Intensive Outpatient Program",
+      "Substance Use Therapy",
+      "Therapy for Exploited Youth",
+      "Therapy for Substance Use",
+      "Trauma Focused Cognitive Behavioral Therapy",
+      "Youth with Sexualized Behaviors Therapy"
+    ],
+    "Other": [
+      "Language Services",
+      "Monitoring Services",
+      "Transportation"
+    ],
+    "Non-Clinical Services": [
+      "Anger Management",
+      "Behavior Intervention course",
+      "Conferencing and Mediation",
+      "Dialectical Behavior Therapy Group",
+      "Employment and Workforce Services",
+      "Family Support Partner",
+      "GREAT Program Services",
+      "Gang Intervention Service",
+      "Life Skills",
+      "Mental Health Skill Building",
+      "Mentoring",
+      "Moral Reconation Therapy Group",
+      "Non-Clinical Skills Group",
+      "Parenting Skills Intervention for Youth",
+      "Skill Building",
+      "Supported Employment",
+      "Thinking for a Change Group",
+      "Vocational Training Program"
+    ]
+  }
+}

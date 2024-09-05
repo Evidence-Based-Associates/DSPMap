@@ -1,13 +1,51 @@
-import { API } from "./api/api.js";
+import { getAllLocations, getAllProviders, getMetaData } from "./firebase.js";
 import { setMapCSURegions, setMapLocations } from "./lib/simplemaps/utils.js";
 
 // Initial map setup must come before async calls
 setMapCSURegions();
 
-export const lastUpdated = await API.getLastUpdated();
-export const availableServices = await API.getAllServiceNames();
-export const availableLanguages = await API.getAllLanguages();
-export const providers = await API.getAllProviders();
+const metaData = await getMetaData();
 
-const locations = await API.getAllLocations();
-setMapLocations(locations);
+export let lastUpdated = "UNKNOWN";
+export let availableServices = [];
+export let servicesWithCategories = {};
+export let availableLanguages = [];
+
+if (metaData) {
+  lastUpdated = new Date(metaData.lastUpdated).toLocaleDateString();
+  servicesWithCategories = metaData.availableServices;
+  Object.keys(metaData.availableServices).forEach((service) => {
+    availableServices.push(...metaData.availableServices[service]);
+  });
+  availableServices.sort();
+  availableLanguages = metaData.availableLanguages.sort();
+}
+
+const providerCollection = await getAllProviders();
+export let providers = [];
+if (providerCollection) {
+  providers = providerCollection.map((provider) => {
+    return {
+      id: provider.providerName,
+      name: provider.providerName,
+    };
+  });
+}
+
+const locationCollection = await getAllLocations();
+if (locationCollection) {
+  const locations = locationCollection.map((location) => {
+    return {
+      providerName: location.providerName,
+      providerId: location.providerName,
+      street: location.street,
+      city: location.city,
+      state: location.state,
+      zip: location.zip,
+      lat: location.lat,
+      lng: location.lng,
+      phone: location.phone,
+    };
+  });
+  setMapLocations(locations);
+}
