@@ -1,46 +1,6 @@
 {
-  "lastUpdated": "6/18/2024",
-  "availableLanguages": [
-    "Amharic",
-    "Arabic",
-    "Bengali",
-    "Farsi",
-    "French",
-    "Kirundi",
-    "Korean",
-    "Kurdish",
-    "Latvian",
-    "Mandarin",
-    "Nepali",
-    "Portuguese",
-    "Russian",
-    "Sign Language (ASL)",
-    "Spanish",
-    "Urdu",
-    "Vietnamese",
-    "Language Line"
-  ],
+  "lastUpdated": "1/15/2025",
   "availableServices": {
-    "Evaluations": [
-      "Mental Health Evaluation",
-      "Psychological Evaluation",
-      "Substance Use Evaluation",
-      "Youth with Sexualized Behaviors Evaluation"
-    ],
-    "Residential Services": [
-      "Group Home",
-      "Residential Group Home",
-      "Residential Independent Living",
-      "Residential Transitional Living Program",
-      "Residential Treatment Center",
-      "Therapeutic Group Home"
-    ],
-    "Case Management": [
-      "High Fidelity Wraparound Intensive Care Coordination",
-      "Mental Health Case Management",
-      "Reentry Case Management",
-      "Substance Use Case Management"
-    ],
     "Clinical Services": [
       "Adolescent Community Reinforcement Approach",
       "Brief Strategic Family Therapy",
@@ -65,11 +25,6 @@
       "Trauma Focused Cognitive Behavioral Therapy",
       "Youth with Sexualized Behaviors Therapy"
     ],
-    "Other": [
-      "Language Services",
-      "Monitoring Services",
-      "Transportation"
-    ],
     "Non-Clinical Services": [
       "Anger Management",
       "Behavior Intervention course",
@@ -89,6 +44,51 @@
       "Supported Employment",
       "Thinking for a Change Group",
       "Vocational Training Program"
+    ],
+    "Residential Services": [
+      "Group Home",
+      "Residential Group Home",
+      "Residential Independent Living",
+      "Residential Transitional Living Program",
+      "Residential Treatment Center",
+      "Therapeutic Group Home"
+    ],
+    "Evaluations": [
+      "Mental Health Evaluation",
+      "Psychological Evaluation",
+      "Substance Use Evaluation",
+      "Youth with Sexualized Behaviors Evaluation"
+    ],
+    "Other": [
+      "Language Services",
+      "Monitoring Services",
+      "Transportation"
+    ],
+    "Case Management": [
+      "High Fidelity Wraparound Intensive Care Coordination",
+      "Mental Health Case Management",
+      "Reentry Case Management",
+      "Substance Use Case Management"
     ]
-  }
+  },
+  "availableLanguages": [
+    "Amharic",
+    "Arabic",
+    "Bengali",
+    "Farsi",
+    "French",
+    "Kirundi",
+    "Korean",
+    "Kurdish",
+    "Latvian",
+    "Mandarin",
+    "Nepali",
+    "Portuguese",
+    "Russian",
+    "Sign Language (ASL)",
+    "Spanish",
+    "Urdu",
+    "Vietnamese",
+    "Language Line"
+  ]
 }
